@@ -4,6 +4,7 @@ var searchData=
   ['objectopen',['objectOpen',['../classop_1_1_json_ofstream.html#a5c38e36c1449d808dd4ab6558d65289c',1,'op::JsonOfstream']]],
   ['op',['op',['../namespaceop.html',1,'']]],
   ['op_5fapi',['OP_API',['../macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000',1,'macros.hpp']]],
+  ['open_5fcl',['OPEN_CL',['../namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa35acca33baa6f2c4c6fb694eabfa5ac7',1,'op']]],
   ['opencv_2ehpp',['openCv.hpp',['../open_cv_8hpp.html',1,'']]],
   ['operator_21_3d',['operator!=',['../structop_1_1_datum.html#aab9997004b6b761267f8ce312b8048e9',1,'op::Datum::operator!=()'],['../structop_1_1_point.html#a5d825f6fdc9a72abe5f3f52c852bdf13',1,'op::Point::operator!=()']]],
   ['operator_28_29',['operator()',['../classop_1_1_pointer_container_greater.html#ab63e3088591d6593c6539b91499f5063',1,'op::PointerContainerGreater::operator()()'],['../classop_1_1_pointer_container_less.html#a67b34e75390dda005246a77a12166abc',1,'op::PointerContainerLess::operator()()']]],

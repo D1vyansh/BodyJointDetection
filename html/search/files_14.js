@@ -35,6 +35,7 @@ var searchData=
   ['wposesaver_2ehpp',['wPoseSaver.hpp',['../w_pose_saver_8hpp.html',1,'']]],
   ['wqueueorderer_2ehpp',['wQueueOrderer.hpp',['../w_queue_orderer_8hpp.html',1,'']]],
   ['wrapper_2ehpp',['wrapper.hpp',['../wrapper_8hpp.html',1,'']]],
+  ['wrapperauxiliary_2ehpp',['wrapperAuxiliary.hpp',['../wrapper_auxiliary_8hpp.html',1,'']]],
   ['wrapperstructface_2ehpp',['wrapperStructFace.hpp',['../wrapper_struct_face_8hpp.html',1,'']]],
   ['wrapperstructhand_2ehpp',['wrapperStructHand.hpp',['../wrapper_struct_hand_8hpp.html',1,'']]],
   ['wrapperstructinput_2ehpp',['wrapperStructInput.hpp',['../wrapper_struct_input_8hpp.html',1,'']]],

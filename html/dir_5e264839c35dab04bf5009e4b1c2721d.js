@@ -1,7 +1,6 @@
 var dir_5e264839c35dab04bf5009e4b1c2721d =
 [
     [ "check.hpp", "check_8hpp.html", "check_8hpp" ],
-    [ "cuda.hpp", "cuda_8hpp.html", "cuda_8hpp" ],
     [ "enumClasses.hpp", "utilities_2enum_classes_8hpp.html", "utilities_2enum_classes_8hpp" ],
     [ "errorAndLog.hpp", "error_and_log_8hpp.html", "error_and_log_8hpp" ],
     [ "fastMath.hpp", "fast_math_8hpp.html", "fast_math_8hpp" ],

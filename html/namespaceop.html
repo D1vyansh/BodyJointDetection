@@ -374,6 +374,12 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7ea55eeca17b45365c188d0edbd35f6e0c3">DataFormat::Yml</a>
  }</td></tr>
 <tr class="separator:ae52c21a24cf2c21e3b419c127924fd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb34b5c8f2b6f0c051f831f18582e7f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7f">GpuMode</a> : unsigned char { <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7faa33b7755e5f9b504d2d038eaca4ff28d">GpuMode::CUDA</a> = 0, 
+<a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa35acca33baa6f2c4c6fb694eabfa5ac7">GpuMode::OPEN_CL</a> = 1, 
+<a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa9393911bc06bdfb0c3663d541246e15a">GpuMode::CPU_ONLY</a> = 2, 
+<a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719">GpuMode::Size</a>
+ }</td></tr>
+<tr class="separator:adbb34b5c8f2b6f0c051f831f18582e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38f03cd0b02b760ffd2ea9e737680e01"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01">GuiDisplayMode</a> : bool { <a class="el" href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01ae7ec409749889353b8f83a6b04159420">GuiDisplayMode::FullScreen</a>, 
 <a class="el" href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01ab13311ab51c4c34757f67f26580018dd">GuiDisplayMode::Windowed</a>
  }</td></tr>
@@ -547,6 +553,18 @@ Functions</h2></td></tr>
 <tr class="separator:a31ad937a2e52ea08ce925031d26616b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49bd4106b0cd1cb81980329b06c0d2c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a49bd4106b0cd1cb81980329b06c0d2c8">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_video_saver.html">WVideoSaver</a>)</td></tr>
 <tr class="separator:a49bd4106b0cd1cb81980329b06c0d2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af8422ada0de882cc222920ca15c6d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a2af8422ada0de882cc222920ca15c6d2">cudaCheck</a> (const int line=-1, const std::string &amp;function=&quot;&quot;, const std::string &amp;file=&quot;&quot;)</td></tr>
+<tr class="separator:a2af8422ada0de882cc222920ca15c6d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9b7765a4396ee4470585ded07285563"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ad9b7765a4396ee4470585ded07285563">getCudaGpuNumber</a> ()</td></tr>
+<tr class="separator:ad9b7765a4396ee4470585ded07285563"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ba080c11cc9758051db97ce2a11c023"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a4ba080c11cc9758051db97ce2a11c023">getNumberCudaBlocks</a> (const unsigned int totalRequired, const unsigned int numberCudaThreads=<a class="el" href="namespaceop.html#ac7bbf63b37bf6762c47557ad227e036d">CUDA_NUM_THREADS</a>)</td></tr>
+<tr class="separator:a4ba080c11cc9758051db97ce2a11c023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b9860388a640472d25a1dacb007c675"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a8b9860388a640472d25a1dacb007c675">getNumberCudaThreadsAndBlocks</a> (dim3 &amp;numberCudaThreads, dim3 &amp;numberCudaBlocks, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize)</td></tr>
+<tr class="separator:a8b9860388a640472d25a1dacb007c675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaad222b087dd041c35de2f3414c1a01f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aaad222b087dd041c35de2f3414c1a01f">getGpuNumber</a> ()</td></tr>
+<tr class="separator:aaad222b087dd041c35de2f3414c1a01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a971a7caa96be5b715b5c22f6e5dc6ad1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7f">GpuMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a971a7caa96be5b715b5c22f6e5dc6ad1">getGpuMode</a> ()</td></tr>
+<tr class="separator:a971a7caa96be5b715b5c22f6e5dc6ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade3b2e4b105242a3cf41def3def1691d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ade3b2e4b105242a3cf41def3def1691d">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_gui.html">WGui</a>)</td></tr>
 <tr class="separator:ade3b2e4b105242a3cf41def3def1691d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae88e9ced5d14fa221205b492ff76c56b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ae88e9ced5d14fa221205b492ff76c56b">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_gui_info_adder.html">WGuiInfoAdder</a>)</td></tr>
@@ -672,14 +690,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a1f859611d5b55dc1e0b6b74ea2c38dcf"><td class="memTemplParams" colspan="2">template&lt;typename T , typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:a1f859611d5b55dc1e0b6b74ea2c38dcf"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1f859611d5b55dc1e0b6b74ea2c38dcf">checkGT</a> (const T1 &amp;conditionA, const T2 &amp;conditionB, const T &amp;message=&quot;&quot;, const int line=-1, const std::string &amp;function=&quot;&quot;, const std::string &amp;file=&quot;&quot;)</td></tr>
 <tr class="separator:a1f859611d5b55dc1e0b6b74ea2c38dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2af8422ada0de882cc222920ca15c6d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a2af8422ada0de882cc222920ca15c6d2">cudaCheck</a> (const int line=-1, const std::string &amp;function=&quot;&quot;, const std::string &amp;file=&quot;&quot;)</td></tr>
-<tr class="separator:a2af8422ada0de882cc222920ca15c6d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaad222b087dd041c35de2f3414c1a01f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aaad222b087dd041c35de2f3414c1a01f">getGpuNumber</a> ()</td></tr>
-<tr class="separator:aaad222b087dd041c35de2f3414c1a01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ba080c11cc9758051db97ce2a11c023"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a4ba080c11cc9758051db97ce2a11c023">getNumberCudaBlocks</a> (const unsigned int totalRequired, const unsigned int numberCudaThreads=<a class="el" href="namespaceop.html#ac7bbf63b37bf6762c47557ad227e036d">CUDA_NUM_THREADS</a>)</td></tr>
-<tr class="separator:a4ba080c11cc9758051db97ce2a11c023"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b9860388a640472d25a1dacb007c675"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a8b9860388a640472d25a1dacb007c675">getNumberCudaThreadsAndBlocks</a> (dim3 &amp;numberCudaThreads, dim3 &amp;numberCudaBlocks, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize)</td></tr>
-<tr class="separator:a8b9860388a640472d25a1dacb007c675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af548fe1a2ad2b392a25afe9b0b87b8dd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:af548fe1a2ad2b392a25afe9b0b87b8dd"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#af548fe1a2ad2b392a25afe9b0b87b8dd">tToString</a> (const T &amp;message)</td></tr>
 <tr class="separator:af548fe1a2ad2b392a25afe9b0b87b8dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -818,6 +828,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3290f48d24c9992dd00d339ce49cfac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a815e303884fb2b3346c8cc19d61b23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7a815e303884fb2b3346c8cc19d61b23">toUpper</a> (const std::string &amp;string)</td></tr>
 <tr class="separator:a7a815e303884fb2b3346c8cc19d61b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaeace8035112a82a4a8ff2cd7eb5806"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#adaeace8035112a82a4a8ff2cd7eb5806">wrapperConfigureSecurityChecks</a> (const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput, const bool renderOutput, const bool userOutputWsEmpty, const <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36">ThreadManagerMode</a> threadManagerMode)</td></tr>
+<tr class="separator:adaeace8035112a82a4a8ff2cd7eb5806"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -841,6 +853,8 @@ Variables</h2></td></tr>
 <tr class="separator:a15f6c39797cee87f6aa941d93f22b78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f191afed46fea5e3ce5b2a8756e1ddd"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a4f191afed46fea5e3ce5b2a8756e1ddd">FACE_DEFAULT_ALPHA_HEAT_MAP</a> = <a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a></td></tr>
 <tr class="separator:a4f191afed46fea5e3ce5b2a8756e1ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7bbf63b37bf6762c47557ad227e036d"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ac7bbf63b37bf6762c47557ad227e036d">CUDA_NUM_THREADS</a> = 512u</td></tr>
+<tr class="separator:ac7bbf63b37bf6762c47557ad227e036d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a182585e2e944cdb62f3dededdd85d1fc"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a182585e2e944cdb62f3dededdd85d1fc">HAND_MAX_HANDS</a> = 2*<a class="el" href="namespaceop.html#a522d4552d2aeabe367f4d3bf371e6b3e">POSE_MAX_PEOPLE</a></td></tr>
 <tr class="separator:a182585e2e944cdb62f3dededdd85d1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41b6fb82924c5532cf10151e6ce497f2"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a41b6fb82924c5532cf10151e6ce497f2">HAND_NUMBER_PARTS</a> = 21u</td></tr>
@@ -871,8 +885,6 @@ Variables</h2></td></tr>
 <tr class="separator:a55207f49aadd5f79e75251d6ccfad1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5180d62b9273c9d0712f686531ee0aea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a5180d62b9273c9d0712f686531ee0aea">spTQueueOut</a></td></tr>
 <tr class="separator:a5180d62b9273c9d0712f686531ee0aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7bbf63b37bf6762c47557ad227e036d"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ac7bbf63b37bf6762c47557ad227e036d">CUDA_NUM_THREADS</a> = 512u</td></tr>
-<tr class="separator:ac7bbf63b37bf6762c47557ad227e036d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a class="anchor" id="ae52c21a24cf2c21e3b419c127924fd7e"></a>
@@ -930,6 +942,36 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a5f5a4cee9809deaf7201fb9caf5e400ca002f2100f8870e7c823894f492e4d337"></a>StdCerr</em>&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a5f5a4cee9809deaf7201fb9caf5e400cab1c94ca2fbc3e78fc30069c8d0f01680"></a>All</em>&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7f">op::GpuMode</a> : unsigned char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7faa33b7755e5f9b504d2d038eaca4ff28d"></a>CUDA</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fa35acca33baa6f2c4c6fb694eabfa5ac7"></a>OPEN_CL</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fa9393911bc06bdfb0c3663d541246e15a"></a>CPU_ONLY</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719"></a>Size</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
@@ -1852,22 +1894,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="abf3a59fc4662f07e6ba19b95bd4da32f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WFaceDetectorOpenCV&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a674a652ad38b355285417529fc050847"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1900,14 +1926,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a361310c59d16e88a4d2450a80f078f01"></a>
+<a class="anchor" id="abf3a59fc4662f07e6ba19b95bd4da32f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WHandDetectorTracking&#160;</td>
+          <td class="paramtype">WFaceDetectorOpenCV&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1940,6 +1966,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WHandDetectorFromTxt&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a361310c59d16e88a4d2450a80f078f01"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WHandDetectorTracking&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2060,6 +2102,22 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a49bd4106b0cd1cb81980329b06c0d2c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WVideoSaver&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ae76afeeeaedaebe6941f41a4bdf50e2a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2084,22 +2142,6 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">PriorityQueue&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a49bd4106b0cd1cb81980329b06c0d2c8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WVideoSaver&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -3214,6 +3256,21 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ad9b7765a4396ee4470585ded07285563"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> int op::getCudaGpuNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a88b83fabe52c73ed5c4f131c4ce75651"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3407,6 +3464,21 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>std::vector&lt;std::string&gt; with the existing file names. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a971a7caa96be5b715b5c22f6e5dc6ad1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7f">GpuMode</a> op::getGpuMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -5950,6 +6022,82 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adaeace8035112a82a4a8ff2cd7eb5806"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void op::wrapperConfigureSecurityChecks </td>
+          <td>(</td>
+          <td class="paramtype">const WrapperStructPose &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructPose</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructFace &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructFace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructHand &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructHand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructInput &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructInput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructOutput &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructOutput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>renderOutput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>userOutputWsEmpty</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ThreadManagerMode&#160;</td>
+          <td class="paramname"><em>threadManagerMode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>It checks that no wrong/contradictory flags are enabled for <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">wrapperStructPose</td><td></td></tr>
+    <tr><td class="paramname">wrapperStructFace</td><td></td></tr>
+    <tr><td class="paramname">wrapperStructHand</td><td></td></tr>
+    <tr><td class="paramname">wrapperStructInput</td><td></td></tr>
+    <tr><td class="paramname">wrapperStructOutput</td><td></td></tr>
+    <tr><td class="paramname">renderOutput</td><td></td></tr>
+    <tr><td class="paramname">userOutputWsEmpty</td><td></td></tr>
+    <tr><td class="paramname">threadManagerMode</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
