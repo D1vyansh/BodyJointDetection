@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"face_detector_8hpp.html":[2,0,0,0,2,1],
 "face_detector_8hpp_source.html":[2,0,0,0,2,1],
 "face_detector_open_c_v_8hpp.html":[2,0,0,0,2,2],
 "face_detector_open_c_v_8hpp_source.html":[2,0,0,0,2,2],
@@ -236,8 +237,8 @@ var NAVTREEINDEX3 =
 "maximum_base_8hpp_source.html":[2,0,0,0,0,10],
 "maximum_caffe_8hpp.html":[2,0,0,0,0,11],
 "maximum_caffe_8hpp_source.html":[2,0,0,0,0,11],
-"namespaceboost.html":[0,0,0],
 "namespaceboost.html":[1,0,0],
+"namespaceboost.html":[0,0,0],
 "namespacecaffe.html":[1,0,1],
 "namespacecaffe.html":[0,0,1],
 "namespacemembers.html":[0,1,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "namespacemembers_e.html":[0,1,0,4],
 "namespacemembers_enum.html":[0,1,3],
 "namespacemembers_eval.html":[0,1,4],
-"namespacemembers_f.html":[0,1,0,5],
-"namespacemembers_func.html":[0,1,1]
+"namespacemembers_f.html":[0,1,0,5]
 };

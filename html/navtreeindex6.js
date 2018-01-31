@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"w_video_saver_8hpp.html#a49bd4106b0cd1cb81980329b06c0d2c8":[2,0,0,0,3,18,1],
 "w_video_saver_8hpp_source.html":[2,0,0,0,3,18],
 "webcam_reader_8hpp.html":[2,0,0,0,7,9],
 "webcam_reader_8hpp_source.html":[2,0,0,0,7,9],

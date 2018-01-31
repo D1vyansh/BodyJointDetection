@@ -110,32 +110,28 @@ $(document).ready(function(){initNavTree('experimental_23d_2renderer_8hpp_source
 <a href="experimental_23d_2renderer_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENPOSE_EXPERIMENTAL_3D_RENDERER_HPP</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENPOSE_EXPERIMENTAL_3D_RENDERER_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;thread&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="common_8hpp.html">openpose/core/common.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="datum3_d_8hpp.html">openpose/experimental/3d/datum3D.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="pose_2enum_classes_8hpp.html">openpose/pose/enumClasses.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="worker_consumer_8hpp.html">openpose/thread/workerConsumer.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>op</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="comment">// This worker will do 3-D rendering</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classop_1_1_w_render3_d.html">   13</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_w_render3_d.html">WRender3D</a> : <span class="keyword">public</span> <a class="code" href="classop_1_1_worker_consumer.html">WorkerConsumer</a>&lt;std::shared_ptr&lt;std::vector&lt;Datum3D&gt;&gt;&gt;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="classop_1_1_w_render3_d.html">WRender3D</a>(<span class="keyword">const</span> <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel = <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd">PoseModel::COCO_18</a>);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classop_1_1_w_render3_d.html#a52f57a8b99bde803f4201ce23c1f515e">   18</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classop_1_1_w_render3_d.html#a52f57a8b99bde803f4201ce23c1f515e">initializationOnThread</a>() {}</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordtype">void</span> workConsumer(<span class="keyword">const</span> std::shared_ptr&lt;std::vector&lt;Datum3D&gt;&gt;&amp; datumsPtr);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        std::thread mRenderThread;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="common_8hpp.html">openpose/core/common.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="datum3_d_8hpp.html">openpose/experimental/3d/datum3D.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="pose_2enum_classes_8hpp.html">openpose/pose/enumClasses.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="worker_consumer_8hpp.html">openpose/thread/workerConsumer.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span>op</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="comment">// This worker will do 3-D rendering</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classop_1_1_w_render3_d.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_w_render3_d.html">WRender3D</a> : <span class="keyword">public</span> <a class="code" href="classop_1_1_worker_consumer.html">WorkerConsumer</a>&lt;std::shared_ptr&lt;std::vector&lt;Datum3D&gt;&gt;&gt;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="classop_1_1_w_render3_d.html">WRender3D</a>(<span class="keyword">const</span> <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel = <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd">PoseModel::COCO_18</a>);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        ~<a class="code" href="classop_1_1_w_render3_d.html">WRender3D</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordtype">void</span> initializationOnThread();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordtype">void</span> workConsumer(<span class="keyword">const</span> std::shared_ptr&lt;std::vector&lt;Datum3D&gt;&gt;&amp; datumsPtr);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    };</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">void</span> visualizationThread();</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    };</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif // OPENPOSE_EXPERIMENTAL_3D_RENDERER_HPP</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif // OPENPOSE_EXPERIMENTAL_3D_RENDERER_HPP</span></div>
 <div class="ttc" id="pose_2enum_classes_8hpp_html"><div class="ttname"><a href="pose_2enum_classes_8hpp.html">enumClasses.hpp</a></div></div>
 <div class="ttc" id="classop_1_1_worker_consumer_html"><div class="ttname"><a href="classop_1_1_worker_consumer.html">op::WorkerConsumer</a></div><div class="ttdef"><b>Definition:</b> workerConsumer.hpp:10</div></div>
 <div class="ttc" id="namespaceop_html_af5b3ce2a5d3de87cb31b9b67e96f261f"><div class="ttname"><a href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">op::PoseModel</a></div><div class="ttdeci">PoseModel</div><div class="ttdef"><b>Definition:</b> enumClasses.hpp:9</div></div>
@@ -143,8 +139,7 @@ $(document).ready(function(){initNavTree('experimental_23d_2renderer_8hpp_source
 <div class="ttc" id="namespaceop_html_af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd"><div class="ttname"><a href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd">op::PoseModel::COCO_18</a></div></div>
 <div class="ttc" id="datum3_d_8hpp_html"><div class="ttname"><a href="datum3_d_8hpp.html">datum3D.hpp</a></div></div>
 <div class="ttc" id="worker_consumer_8hpp_html"><div class="ttname"><a href="worker_consumer_8hpp.html">workerConsumer.hpp</a></div></div>
-<div class="ttc" id="classop_1_1_w_render3_d_html_a52f57a8b99bde803f4201ce23c1f515e"><div class="ttname"><a href="classop_1_1_w_render3_d.html#a52f57a8b99bde803f4201ce23c1f515e">op::WRender3D::initializationOnThread</a></div><div class="ttdeci">void initializationOnThread()</div><div class="ttdef"><b>Definition:</b> renderer.hpp:18</div></div>
-<div class="ttc" id="classop_1_1_w_render3_d_html"><div class="ttname"><a href="classop_1_1_w_render3_d.html">op::WRender3D</a></div><div class="ttdef"><b>Definition:</b> renderer.hpp:13</div></div>
+<div class="ttc" id="classop_1_1_w_render3_d_html"><div class="ttname"><a href="classop_1_1_w_render3_d.html">op::WRender3D</a></div><div class="ttdef"><b>Definition:</b> renderer.hpp:12</div></div>
 <div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

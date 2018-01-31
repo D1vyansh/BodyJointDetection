@@ -26,5 +26,6 @@ var searchData=
   ['_7eworkerconsumer',['~WorkerConsumer',['../classop_1_1_worker_consumer.html#a9aaa75f194df6b3ed4994c8e95aa0ab5',1,'op::WorkerConsumer']]],
   ['_7eworkerproducer',['~WorkerProducer',['../classop_1_1_worker_producer.html#a8f2592f70d723de4b818c97b25c5a476',1,'op::WorkerProducer']]],
   ['_7ewpointgrey',['~WPointGrey',['../classop_1_1_w_point_grey.html#ae331f49d19b95a734fe6f1e85357fdb1',1,'op::WPointGrey']]],
-  ['_7ewrapper',['~Wrapper',['../classop_1_1_wrapper.html#a8919b80a6f82330da63da9ffd9ca89be',1,'op::Wrapper']]]
+  ['_7ewrapper',['~Wrapper',['../classop_1_1_wrapper.html#a8919b80a6f82330da63da9ffd9ca89be',1,'op::Wrapper']]],
+  ['_7ewrender3d',['~WRender3D',['../classop_1_1_w_render3_d.html#a68656cae0d2295eacb96a0415c66bfb4',1,'op::WRender3D']]]
 ];
