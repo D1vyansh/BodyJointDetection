@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"structop_1_1_datum.html#afcdbf1d87e08761d952d19ef6a8ace10":[1,0,2,3,12],
 "structop_1_1_datum3_d.html":[1,0,2,21],
 "structop_1_1_datum3_d.html#a21a8b5fcb19b0285b9bc04025fafcc19":[1,0,2,21,2],
 "structop_1_1_datum3_d.html#a57a18e6a7fb951c9acf8dcf84bd0ca37":[1,0,2,21,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "w_person_id_extractor_8hpp.html":[2,0,0,0,1,2,2],
 "w_person_id_extractor_8hpp.html#a674a652ad38b355285417529fc050847":[2,0,0,0,1,2,2,1],
 "w_person_id_extractor_8hpp_source.html":[2,0,0,0,1,2,2],
-"w_pose_extractor_8hpp.html":[2,0,0,0,7,12],
-"w_pose_extractor_8hpp.html#a020603e3ad6326cb1dce43485157f768":[2,0,0,0,7,12,1]
+"w_pose_extractor_8hpp.html":[2,0,0,0,7,12]
 };

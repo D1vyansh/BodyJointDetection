@@ -376,7 +376,7 @@ Enumerations</h2></td></tr>
 <tr class="separator:ae52c21a24cf2c21e3b419c127924fd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbb34b5c8f2b6f0c051f831f18582e7f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7f">GpuMode</a> : unsigned char { <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7faa33b7755e5f9b504d2d038eaca4ff28d">GpuMode::CUDA</a> = 0, 
 <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa35acca33baa6f2c4c6fb694eabfa5ac7">GpuMode::OPEN_CL</a> = 1, 
-<a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa9393911bc06bdfb0c3663d541246e15a">GpuMode::CPU_ONLY</a> = 2, 
+<a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fac8a73499762434bcaf73e58e35339512">GpuMode::NO_GPU</a> = 2, 
 <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719">GpuMode::Size</a>
  }</td></tr>
 <tr class="separator:adbb34b5c8f2b6f0c051f831f18582e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -386,14 +386,16 @@ Enumerations</h2></td></tr>
 <tr class="separator:a38f03cd0b02b760ffd2ea9e737680e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5b3ce2a5d3de87cb31b9b67e96f261f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> : unsigned char { <br/>
 &#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd">PoseModel::COCO_18</a> = 0, 
-<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fad788fbec25069f2884ee1ed97e0af2b9">PoseModel::MPI_15</a> = 1, 
-<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa71e915c88449606c6498d33dd7c98e84">PoseModel::MPI_15_4</a> = 2, 
-<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fab0fd0573c626fcd55b70d4547328ad7d">PoseModel::BODY_18</a> = 3, 
+<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fad788fbec25069f2884ee1ed97e0af2b9">PoseModel::MPI_15</a>, 
+<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa71e915c88449606c6498d33dd7c98e84">PoseModel::MPI_15_4</a>, 
+<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fab0fd0573c626fcd55b70d4547328ad7d">PoseModel::BODY_18</a>, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fae3ae2003e0e0458bdc49480fb19c876e">PoseModel::BODY_19</a> = 4, 
-<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa003cc3795b0eeed2af2dfd34ed482794">PoseModel::BODY_23</a> = 5, 
-<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa68aa8b41e419d187d9f7daff5d65708f">PoseModel::BODY_59</a> = 6, 
-<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719">PoseModel::Size</a>
+&#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fae3ae2003e0e0458bdc49480fb19c876e">PoseModel::BODY_19</a>, 
+<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261faca4c7eb29b1f3402e78aa384ce8fd5a9">PoseModel::BODY_19_X2</a>, 
+<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa003cc3795b0eeed2af2dfd34ed482794">PoseModel::BODY_23</a>, 
+<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa68aa8b41e419d187d9f7daff5d65708f">PoseModel::BODY_59</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719">PoseModel::Size</a>
 <br/>
  }</td></tr>
 <tr class="separator:af5b3ce2a5d3de87cb31b9b67e96f261f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -969,7 +971,7 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fa35acca33baa6f2c4c6fb694eabfa5ac7"></a>OPEN_CL</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fa9393911bc06bdfb0c3663d541246e15a"></a>CPU_ONLY</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fac8a73499762434bcaf73e58e35339512"></a>NO_GPU</em>&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719"></a>Size</em>&#160;</td><td class="fielddoc">
 </td></tr>
@@ -1094,6 +1096,9 @@ Variables</h2></td></tr>
 <p>Experimental. Do not use. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fae3ae2003e0e0458bdc49480fb19c876e"></a>BODY_19</em>&#160;</td><td class="fielddoc">
+<p>Experimental. Do not use. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261faca4c7eb29b1f3402e78aa384ce8fd5a9"></a>BODY_19_X2</em>&#160;</td><td class="fielddoc">
 <p>Experimental. Do not use. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa003cc3795b0eeed2af2dfd34ed482794"></a>BODY_23</em>&#160;</td><td class="fielddoc">

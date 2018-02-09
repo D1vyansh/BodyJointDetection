@@ -39,8 +39,8 @@ var NAVTREEINDEX =
 "classop_1_1_w_face_detector.html#a721ced99378516c04cb3cff296cc274a",
 "face_cpu_renderer_8hpp_source.html",
 "maximum_caffe_8hpp_source.html",
-"structop_1_1_datum3_d.html",
-"w_pose_extractor_8hpp_source.html"
+"structop_1_1_datum.html#afcdbf1d87e08761d952d19ef6a8ace10",
+"w_pose_extractor_8hpp.html#a020603e3ad6326cb1dce43485157f768"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

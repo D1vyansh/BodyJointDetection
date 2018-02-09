@@ -1,8 +1,8 @@
 var NAVTREEINDEX4 =
 {
 "maximum_caffe_8hpp_source.html":[2,0,0,0,0,11],
-"namespaceboost.html":[1,0,0],
 "namespaceboost.html":[0,0,0],
+"namespaceboost.html":[1,0,0],
 "namespacecaffe.html":[1,0,1],
 "namespacecaffe.html":[0,0,1],
 "namespacemembers.html":[0,1,0,0],
@@ -78,12 +78,13 @@ var NAVTREEINDEX4 =
 "pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0ea83be5d7f6f29b19cf24f7393551c0439":[2,0,0,0,7,2,1,0],
 "pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0eaf7405796a5c90a93fc3c8ffa89eb432d":[2,0,0,0,7,2,1,1],
 "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261f":[2,0,0,0,7,2,0],
-"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa003cc3795b0eeed2af2dfd34ed482794":[2,0,0,0,7,2,0,5],
+"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa003cc3795b0eeed2af2dfd34ed482794":[2,0,0,0,7,2,0,6],
 "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd":[2,0,0,0,7,2,0,0],
-"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa68aa8b41e419d187d9f7daff5d65708f":[2,0,0,0,7,2,0,6],
-"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719":[2,0,0,0,7,2,0,7],
+"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa68aa8b41e419d187d9f7daff5d65708f":[2,0,0,0,7,2,0,7],
+"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719":[2,0,0,0,7,2,0,8],
 "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa71e915c88449606c6498d33dd7c98e84":[2,0,0,0,7,2,0,2],
 "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fab0fd0573c626fcd55b70d4547328ad7d":[2,0,0,0,7,2,0,3],
+"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261faca4c7eb29b1f3402e78aa384ce8fd5a9":[2,0,0,0,7,2,0,5],
 "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fad788fbec25069f2884ee1ed97e0af2b9":[2,0,0,0,7,2,0,1],
 "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fae3ae2003e0e0458bdc49480fb19c876e":[2,0,0,0,7,2,0,4],
 "pose_2enum_classes_8hpp_source.html":[2,0,0,0,7,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "structop_1_1_datum.html#ae6adcdacea12a9cfa445cf0cac1985b0":[1,0,2,3,24],
 "structop_1_1_datum.html#aebd19bf50725a5cd87de1efd96f6ebfe":[1,0,2,3,17],
 "structop_1_1_datum.html#aef6c478313691ab5101664c1df55aa58":[1,0,2,3,19],
-"structop_1_1_datum.html#afb117821de7aff9ac3c219ef3bbc0c14":[1,0,2,3,32],
-"structop_1_1_datum.html#afcdbf1d87e08761d952d19ef6a8ace10":[1,0,2,3,12]
+"structop_1_1_datum.html#afb117821de7aff9ac3c219ef3bbc0c14":[1,0,2,3,32]
 };

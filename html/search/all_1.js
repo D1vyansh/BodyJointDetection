@@ -7,11 +7,12 @@ var searchData=
   ['blob',['Blob',['../classcaffe_1_1_blob.html',1,'caffe']]],
   ['body_5f18',['BODY_18',['../namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fab0fd0573c626fcd55b70d4547328ad7d',1,'op']]],
   ['body_5f19',['BODY_19',['../namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fae3ae2003e0e0458bdc49480fb19c876e',1,'op']]],
+  ['body_5f19_5fx2',['BODY_19_X2',['../namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261faca4c7eb29b1f3402e78aa384ce8fd5a9',1,'op']]],
   ['body_5f23',['BODY_23',['../namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa003cc3795b0eeed2af2dfd34ed482794',1,'op']]],
   ['body_5f59',['BODY_59',['../namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa68aa8b41e419d187d9f7daff5d65708f',1,'op']]],
   ['bodypartconnectorbase_2ehpp',['bodyPartConnectorBase.hpp',['../body_part_connector_base_8hpp.html',1,'']]],
-  ['bodypartconnectorcaffe',['BodyPartConnectorCaffe',['../classop_1_1_body_part_connector_caffe.html',1,'op']]],
   ['bodypartconnectorcaffe',['BodyPartConnectorCaffe',['../classop_1_1_body_part_connector_caffe.html#a94e2364fa13ea79b2d6fd72c5db34765',1,'op::BodyPartConnectorCaffe']]],
+  ['bodypartconnectorcaffe',['BodyPartConnectorCaffe',['../classop_1_1_body_part_connector_caffe.html',1,'op']]],
   ['bodypartconnectorcaffe_2ehpp',['bodyPartConnectorCaffe.hpp',['../body_part_connector_caffe_8hpp.html',1,'']]],
   ['boost',['boost',['../namespaceboost.html',1,'']]],
   ['bottomright',['bottomRight',['../structop_1_1_rectangle.html#a3e2d164e2da15c298e4d5bc7b70c0a30',1,'op::Rectangle']]]
