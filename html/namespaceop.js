@@ -22,7 +22,7 @@ var namespaceop =
     [ "WOpOutputToCvMat", "classop_1_1_w_op_output_to_cv_mat.html", "classop_1_1_w_op_output_to_cv_mat" ],
     [ "WScaleAndSizeExtractor", "classop_1_1_w_scale_and_size_extractor.html", "classop_1_1_w_scale_and_size_extractor" ],
     [ "Datum3D", "structop_1_1_datum3_d.html", "structop_1_1_datum3_d" ],
-    [ "WPointGrey", "classop_1_1_w_point_grey.html", "classop_1_1_w_point_grey" ],
+    [ "WFlirReader", "classop_1_1_w_flir_reader.html", "classop_1_1_w_flir_reader" ],
     [ "WReconstruction3D", "classop_1_1_w_reconstruction3_d.html", "classop_1_1_w_reconstruction3_d" ],
     [ "WRender3D", "classop_1_1_w_render3_d.html", "classop_1_1_w_render3_d" ],
     [ "PersonIdExtractor", "classop_1_1_person_id_extractor.html", "classop_1_1_person_id_extractor" ],

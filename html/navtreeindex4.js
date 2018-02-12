@@ -1,8 +1,10 @@
 var NAVTREEINDEX4 =
 {
+"maximum_base_8hpp_source.html":[2,0,0,0,0,10],
+"maximum_caffe_8hpp.html":[2,0,0,0,0,11],
 "maximum_caffe_8hpp_source.html":[2,0,0,0,0,11],
-"namespaceboost.html":[0,0,0],
 "namespaceboost.html":[1,0,0],
+"namespaceboost.html":[0,0,0],
 "namespacecaffe.html":[1,0,1],
 "namespacecaffe.html":[0,0,1],
 "namespacemembers.html":[0,1,0,0],
@@ -64,8 +66,6 @@ var NAVTREEINDEX4 =
 "person_id_extractor_8hpp_source.html":[2,0,0,0,1,2,1],
 "point_8hpp.html":[2,0,0,0,0,17],
 "point_8hpp_source.html":[2,0,0,0,0,17],
-"point_grey_8hpp.html":[2,0,0,0,1,0,3],
-"point_grey_8hpp_source.html":[2,0,0,0,1,0,3],
 "pointer_container_8hpp.html":[2,0,0,0,10,9],
 "pointer_container_8hpp.html#a02164ca0af9e838190f584f5d1d8465e":[2,0,0,0,10,9,2],
 "pointer_container_8hpp_source.html":[2,0,0,0,10,9],

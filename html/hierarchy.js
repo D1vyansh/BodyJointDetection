@@ -141,7 +141,7 @@ var hierarchy =
         [ "op::WRender3D", "classop_1_1_w_render3_d.html", null ]
       ] ],
       [ "op::WorkerProducer< std::shared_ptr< std::vector< Datum3D > > >", "classop_1_1_worker_producer.html", [
-        [ "op::WPointGrey", "classop_1_1_w_point_grey.html", null ]
+        [ "op::WFlirReader", "classop_1_1_w_flir_reader.html", null ]
       ] ]
     ] ],
     [ "op::Wrapper< TDatums, TWorker, TQueue >", "classop_1_1_wrapper.html", null ],

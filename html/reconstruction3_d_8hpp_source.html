@@ -118,11 +118,11 @@ $(document).ready(function(){initNavTree('reconstruction3_d_8hpp_source.html',''
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="comment">// Following OpenPose `tutorial_wrapper/` examples, we create our own class inherited from Worker.</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="comment">// This worker will do 3-D reconstruction</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="comment">// We apply the simple Direct linear transformation (DLT) algorithm, asumming each keypoint (e.g. right hip) is seen</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="comment">// by all the cameras.</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="comment">// We apply the simple Direct linear transformation (DLT) algorithm, asumming each keypoint (e.g. right hip) is</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="comment">// seen by all the cameras.</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="comment">// No non-linear minimization used, and if some camera misses the point, it is not reconstructed.</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="comment">// See `examples/tutorial_wrapper/` for more details about inhering the Worker class and using it for post-processing</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="comment">// purposes.</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="comment">// See `examples/tutorial_wrapper/` for more details about inhering the Worker class and using it for</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="comment">// post-processing purposes.</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classop_1_1_w_reconstruction3_d.html">   17</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_w_reconstruction3_d.html">WReconstruction3D</a> : <span class="keyword">public</span> <a class="code" href="classop_1_1_worker.html">Worker</a>&lt;std::shared_ptr&lt;std::vector&lt;Datum3D&gt;&gt;&gt;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">public</span>:</div>
