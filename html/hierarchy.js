@@ -5,6 +5,7 @@ var hierarchy =
     [ "op::Array< long long >", "classop_1_1_array.html", null ],
     [ "caffe::Blob< T >", "classcaffe_1_1_blob.html", null ],
     [ "op::BodyPartConnectorCaffe< T >", "classop_1_1_body_part_connector_caffe.html", null ],
+    [ "op::CameraParameterReader", "classop_1_1_camera_parameter_reader.html", null ],
     [ "op::CocoJsonSaver", "classop_1_1_coco_json_saver.html", null ],
     [ "op::ConfigureError", "classop_1_1_configure_error.html", null ],
     [ "op::ConfigureLog", "classop_1_1_configure_log.html", null ],
@@ -90,6 +91,7 @@ var hierarchy =
     [ "op::ResizeAndMergeCaffe< T >", "classop_1_1_resize_and_merge_caffe.html", null ],
     [ "op::ScaleAndSizeExtractor", "classop_1_1_scale_and_size_extractor.html", null ],
     [ "boost::shared_ptr< T >", "classboost_1_1shared__ptr.html", null ],
+    [ "op::SpinnakerWrapper", "classop_1_1_spinnaker_wrapper.html", null ],
     [ "op::SubThread< TDatums, TWorker >", "classop_1_1_sub_thread.html", [
       [ "op::SubThreadNoQueue< TDatums, TWorker >", "classop_1_1_sub_thread_no_queue.html", null ],
       [ "op::SubThreadQueueIn< TDatums, TWorker, TQueue >", "classop_1_1_sub_thread_queue_in.html", null ],

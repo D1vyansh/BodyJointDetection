@@ -1,6 +1,7 @@
 var searchData=
 [
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['readparameters',['readParameters',['../classop_1_1_camera_parameter_reader.html#abcdd68271d8e8d050df198af0f6fd83b',1,'op::CameraParameterReader']]],
   ['realtimeprocessing',['realTimeProcessing',['../structop_1_1_wrapper_struct_input.html#a2eeea9ee711a1dcbec99c3dc871fbc47',1,'op::WrapperStructInput']]],
   ['recenter',['recenter',['../structop_1_1_rectangle.html#a1c9a572db2c17fb02a7d19e965c1d3dc',1,'op::Rectangle::recenter()'],['../namespaceop.html#a7cd131c9ddd8f3987508e89e0881b9e0',1,'op::recenter()']]],
   ['reconstruct3d',['reconstruct3d',['../structop_1_1_wrapper_struct_pose.html#a1038c43c5d5cbabf0ac9f8f76d101c27',1,'op::WrapperStructPose']]],
@@ -10,7 +11,7 @@ var searchData=
   ['rectangle',['Rectangle',['../structop_1_1_rectangle.html#a0112ddaa9782f3ccbb76a319b05f030b',1,'op::Rectangle::Rectangle(const T x=0, const T y=0, const T width=0, const T height=0)'],['../structop_1_1_rectangle.html#afbb0da8956e35178d3f28d2b1d998175',1,'op::Rectangle::Rectangle(const Rectangle&lt; T &gt; &amp;rectangle)'],['../structop_1_1_rectangle.html#a5a9a60fdfd9c88ab8ded6275d64333ea',1,'op::Rectangle::Rectangle(Rectangle&lt; T &gt; &amp;&amp;rectangle)']]],
   ['rectangle_2ehpp',['rectangle.hpp',['../rectangle_8hpp.html',1,'']]],
   ['relbow',['RElbow',['../classop_1_1_hand_detector.html#a4d058446e66aff15d8702558fd256b73a6957f13571097d3ddddc63474dccf0bf',1,'op::HandDetector']]],
-  ['release',['release',['../classop_1_1_flir_reader.html#ab28f40422c9edff8594d855bbef91f58',1,'op::FlirReader::release()'],['../classop_1_1_image_directory_reader.html#af74e192f8cba5c10f8e252674a85185a',1,'op::ImageDirectoryReader::release()'],['../classop_1_1_producer.html#a7753ffb0daa486ab0f82873b3567f95e',1,'op::Producer::release()'],['../classop_1_1_video_capture_reader.html#a2f73e10efe7f9b24a6cb75af2167de58',1,'op::VideoCaptureReader::release()']]],
+  ['release',['release',['../classop_1_1_flir_reader.html#ab28f40422c9edff8594d855bbef91f58',1,'op::FlirReader::release()'],['../classop_1_1_image_directory_reader.html#af74e192f8cba5c10f8e252674a85185a',1,'op::ImageDirectoryReader::release()'],['../classop_1_1_producer.html#a7753ffb0daa486ab0f82873b3567f95e',1,'op::Producer::release()'],['../classop_1_1_spinnaker_wrapper.html#a6e66639ee75708486b3d9aa4598607c0',1,'op::SpinnakerWrapper::release()'],['../classop_1_1_video_capture_reader.html#a2f73e10efe7f9b24a6cb75af2167de58',1,'op::VideoCaptureReader::release()']]],
   ['renderer',['Renderer',['../classop_1_1_renderer.html',1,'op']]],
   ['renderer',['Renderer',['../classop_1_1_renderer.html#a00caf604fad781dfcf3bc311ef6a6623',1,'op::Renderer']]],
   ['renderer_2ehpp',['renderer.hpp',['../renderer_8hpp.html',1,'']]],
@@ -36,8 +37,8 @@ var searchData=
   ['reset',['reset',['../classop_1_1_array.html#a12e538b09e98bf0900163031602ed2ed',1,'op::Array::reset(const int size)'],['../classop_1_1_array.html#a0ad0232daa69783cf2c8f7a0ff5b3b0c',1,'op::Array::reset(const std::vector&lt; int &gt; &amp;sizes={})'],['../classop_1_1_array.html#ac7183eb2f4e78a6941da3a2079b9ed32',1,'op::Array::reset(const int size, const T value)'],['../classop_1_1_array.html#add2eeccd967cdf0900449649cb6f5afb',1,'op::Array::reset(const std::vector&lt; int &gt; &amp;sizes, const T value)'],['../classop_1_1_thread_manager.html#a5b7c5ea46c360496e261094c5e1397a7',1,'op::ThreadManager::reset()']]],
   ['reshape',['Reshape',['../classop_1_1_maximum_caffe.html#aa9ab7eab51c9539b141a0aac998b2223',1,'op::MaximumCaffe::Reshape()'],['../classop_1_1_nms_caffe.html#a96198ee87433f55f52a5054b92f946d9',1,'op::NmsCaffe::Reshape()'],['../classop_1_1_resize_and_merge_caffe.html#aea893710063fc6c58d19f7e02f1a6681',1,'op::ResizeAndMergeCaffe::Reshape()'],['../classop_1_1_body_part_connector_caffe.html#a54918b6b114568d7bafe26319e96d644',1,'op::BodyPartConnectorCaffe::Reshape()']]],
   ['resizeandmergebase_2ehpp',['resizeAndMergeBase.hpp',['../resize_and_merge_base_8hpp.html',1,'']]],
-  ['resizeandmergecaffe',['ResizeAndMergeCaffe',['../classop_1_1_resize_and_merge_caffe.html#a30805a265fa887eff04b1200dbda91a5',1,'op::ResizeAndMergeCaffe']]],
   ['resizeandmergecaffe',['ResizeAndMergeCaffe',['../classop_1_1_resize_and_merge_caffe.html',1,'op']]],
+  ['resizeandmergecaffe',['ResizeAndMergeCaffe',['../classop_1_1_resize_and_merge_caffe.html#a30805a265fa887eff04b1200dbda91a5',1,'op::ResizeAndMergeCaffe']]],
   ['resizeandmergecaffe_2ehpp',['resizeAndMergeCaffe.hpp',['../resize_and_merge_caffe_8hpp.html',1,'']]],
   ['resizeandmergecpu',['resizeAndMergeCpu',['../namespaceop.html#a1b6c4abcf6948b5ac5651bb2f2909bc9',1,'op']]],
   ['resizeandmergegpu',['resizeAndMergeGpu',['../namespaceop.html#a6a5cb4e7c022ac0fbcc399e24bb6931a',1,'op']]],

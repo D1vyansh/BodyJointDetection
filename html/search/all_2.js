@@ -2,6 +2,8 @@ var searchData=
 [
   ['caffe',['caffe',['../namespacecaffe.html',1,'']]],
   ['cameramatrix',['cameraMatrix',['../structop_1_1_datum.html#aeab7638276f1d9eb14847302bd0d0287',1,'op::Datum']]],
+  ['cameraparameterreader',['CameraParameterReader',['../classop_1_1_camera_parameter_reader.html#ab7a4c3ef7ac8d8a41e5711ec85b7be4b',1,'op::CameraParameterReader']]],
+  ['cameraparameterreader',['CameraParameterReader',['../classop_1_1_camera_parameter_reader.html',1,'op']]],
   ['cameraparameterreader_2ehpp',['cameraParameterReader.hpp',['../camera_parameter_reader_8hpp.html',1,'']]],
   ['center',['center',['../structop_1_1_rectangle.html#a5db1a105c3b95578a7532ce85e9f562c',1,'op::Rectangle']]],
   ['charround',['charRound',['../namespaceop.html#abbf62284718858335848e43bbeafb192',1,'op']]],
@@ -21,8 +23,8 @@ var searchData=
   ['clear',['clear',['../classop_1_1_queue_base.html#a247f435c95709f3246d352eee4f757af',1,'op::QueueBase']]],
   ['clone',['clone',['../classop_1_1_array.html#af42f4570122d1b8259c211f52335909b',1,'op::Array::clone()'],['../structop_1_1_datum.html#a847f62b3060c5d0d106e60c29df87a0b',1,'op::Datum::clone()']]],
   ['coco_5f18',['COCO_18',['../namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd',1,'op']]],
-  ['cocojsonsaver',['CocoJsonSaver',['../classop_1_1_coco_json_saver.html#aad0899bead458df67c49f23eddb3113d',1,'op::CocoJsonSaver']]],
   ['cocojsonsaver',['CocoJsonSaver',['../classop_1_1_coco_json_saver.html',1,'op']]],
+  ['cocojsonsaver',['CocoJsonSaver',['../classop_1_1_coco_json_saver.html#aad0899bead458df67c49f23eddb3113d',1,'op::CocoJsonSaver']]],
   ['cocojsonsaver_2ehpp',['cocoJsonSaver.hpp',['../coco_json_saver_8hpp.html',1,'']]],
   ['comma',['comma',['../classop_1_1_json_ofstream.html#ae4468279f789c8026d431b2ef62646f9',1,'op::JsonOfstream']]],
   ['common_2ehpp',['common.hpp',['../common_8hpp.html',1,'']]],

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/3d/cameraParameterReader.hpp Source File</title>
+<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/producer/spinnakerWrapper.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('camera_parameter_reader_8hpp_source.html','');});
+$(document).ready(function(){initNavTree('spinnaker_wrapper_8hpp_source.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -104,55 +104,55 @@ $(document).ready(function(){initNavTree('camera_parameter_reader_8hpp_source.ht
 
 <div class="header">
   <div class="headertitle">
-<div class="title">cameraParameterReader.hpp</div>  </div>
+<div class="title">spinnakerWrapper.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="camera_parameter_reader_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENPOSE_EXPERIMENTAL_3D_CAMERA_PARAMETER_READER_HPP</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENPOSE_EXPERIMENTAL_3D_CAMERA_PARAMETER_READER_HPP</span></div>
+<a href="spinnaker_wrapper_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENPOSE_PRODUCER_SPINNAKER_WRAPPER_HPP</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENPOSE_PRODUCER_SPINNAKER_WRAPPER_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;opencv2/core/core.hpp&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="common_8hpp.html">openpose/core/common.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="namespaceop.html">    7</a></span>&#160;<span class="keyword">namespace </span>op</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classop_1_1_camera_parameter_reader.html">    9</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_camera_parameter_reader.html">CameraParameterReader</a></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classop_1_1_camera_parameter_reader.html">CameraParameterReader</a>();</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordtype">void</span> readParameters(<span class="keyword">const</span> std::string&amp; cameraParameterPath,</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                            <span class="keyword">const</span> std::vector&lt;std::string&gt;&amp; serialNumbers);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> getNumberCameras() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">const</span> std::vector&lt;cv::Mat&gt;&amp; getCameraMatrices() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">const</span> std::vector&lt;cv::Mat&gt;&amp; getCameraIntrinsics() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">const</span> std::vector&lt;cv::Mat&gt;&amp; getCameraDistortions() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        std::vector&lt;std::string&gt; mSerialNumbers;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> mNumberCameras;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        std::vector&lt;cv::Mat&gt; mCameraMatrices;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        std::vector&lt;cv::Mat&gt; mCameraIntrinsics;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        std::vector&lt;cv::Mat&gt; mCameraDistortions;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="common_8hpp.html">openpose/core/common.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>op</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classop_1_1_spinnaker_wrapper.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_spinnaker_wrapper.html">SpinnakerWrapper</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classop_1_1_spinnaker_wrapper.html">SpinnakerWrapper</a>(<span class="keyword">const</span> std::string&amp; cameraParameterPath);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        ~<a class="code" href="classop_1_1_spinnaker_wrapper.html">SpinnakerWrapper</a>();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        std::vector&lt;cv::Mat&gt; getRawFrames();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        std::vector&lt;cv::Mat&gt; getCameraMatrices() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a> getResolution() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">bool</span> isOpened() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">void</span> release();</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a>(<a class="code" href="classop_1_1_camera_parameter_reader.html">CameraParameterReader</a>);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    };</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif // OPENPOSE_EXPERIMENTAL_3D_CAMERA_PARAMETER_READER_HPP</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="comment">// PIMPL idiom</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="comment">// http://www.cppsamples.com/common-tasks/pimpl.html</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">struct </span>ImplSpinnakerWrapper;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        std::shared_ptr&lt;ImplSpinnakerWrapper&gt; upImpl;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a>(<a class="code" href="classop_1_1_spinnaker_wrapper.html">SpinnakerWrapper</a>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    };</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif // OPENPOSE_PRODUCER_SPINNAKER_WRAPPER_HPP</span></div>
 <div class="ttc" id="macros_8hpp_html_abef96b5dd35dd9d44ad27ddf0e2f5f2e"><div class="ttname"><a href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a></div><div class="ttdeci">#define DELETE_COPY(className)</div><div class="ttdef"><b>Definition:</b> macros.hpp:30</div></div>
+<div class="ttc" id="structop_1_1_point_html"><div class="ttname"><a href="structop_1_1_point.html">op::Point&lt; int &gt;</a></div></div>
+<div class="ttc" id="classop_1_1_spinnaker_wrapper_html"><div class="ttname"><a href="classop_1_1_spinnaker_wrapper.html">op::SpinnakerWrapper</a></div><div class="ttdef"><b>Definition:</b> spinnakerWrapper.hpp:12</div></div>
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
-<div class="ttc" id="classop_1_1_camera_parameter_reader_html"><div class="ttname"><a href="classop_1_1_camera_parameter_reader.html">op::CameraParameterReader</a></div><div class="ttdef"><b>Definition:</b> cameraParameterReader.hpp:9</div></div>
 <div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_42711a84df077d9f3052c908e6dd3c59.html">3d</a></li><li class="navelem"><a class="el" href="camera_parameter_reader_8hpp.html">cameraParameterReader.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_b2e62255944e9e5a8b460230324e9449.html">producer</a></li><li class="navelem"><a class="el" href="spinnaker_wrapper_8hpp.html">spinnakerWrapper.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

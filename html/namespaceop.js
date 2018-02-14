@@ -1,5 +1,6 @@
 var namespaceop =
 [
+    [ "CameraParameterReader", "classop_1_1_camera_parameter_reader.html", "classop_1_1_camera_parameter_reader" ],
     [ "WPoseTriangulation", "classop_1_1_w_pose_triangulation.html", "classop_1_1_w_pose_triangulation" ],
     [ "Array", "classop_1_1_array.html", "classop_1_1_array" ],
     [ "CvMatToOpInput", "classop_1_1_cv_mat_to_op_input.html", "classop_1_1_cv_mat_to_op_input" ],
@@ -86,6 +87,7 @@ var namespaceop =
     [ "ImageDirectoryReader", "classop_1_1_image_directory_reader.html", "classop_1_1_image_directory_reader" ],
     [ "IpCameraReader", "classop_1_1_ip_camera_reader.html", "classop_1_1_ip_camera_reader" ],
     [ "Producer", "classop_1_1_producer.html", "classop_1_1_producer" ],
+    [ "SpinnakerWrapper", "classop_1_1_spinnaker_wrapper.html", "classop_1_1_spinnaker_wrapper" ],
     [ "VideoCaptureReader", "classop_1_1_video_capture_reader.html", "classop_1_1_video_capture_reader" ],
     [ "VideoReader", "classop_1_1_video_reader.html", "classop_1_1_video_reader" ],
     [ "WDatumProducer", "classop_1_1_w_datum_producer.html", "classop_1_1_w_datum_producer" ],

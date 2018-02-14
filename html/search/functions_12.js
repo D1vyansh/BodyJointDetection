@@ -1,7 +1,7 @@
 var searchData=
 [
   ['save',['save',['../classop_1_1_people_json_saver.html#a601ec8a006692ee1b4c3faff06df3582',1,'op::PeopleJsonSaver']]],
-  ['savedata',['saveData',['../namespaceop.html#a7dbf8ae7dec5eb913da4bd2e27e49f7d',1,'op::saveData(const std::vector&lt; cv::Mat &gt; &amp;cvMats, const std::vector&lt; std::string &gt; &amp;cvMatNames, const std::string &amp;fileNameNoExtension, const DataFormat format)'],['../namespaceop.html#a9aa59e0cf663360a10f372d7680ad39c',1,'op::saveData(const cv::Mat &amp;cvMat, const std::string cvMatName, const std::string &amp;fileNameNoExtension, const DataFormat format)']]],
+  ['savedata',['saveData',['../namespaceop.html#a82a9b02531d6197f023185489c7587b3',1,'op::saveData(const std::vector&lt; cv::Mat &gt; &amp;cvMats, const std::vector&lt; std::string &gt; &amp;cvMatNames, const std::string &amp;fileNameNoExtension, const DataFormat dataFormat)'],['../namespaceop.html#adc3c5d63a289c98efa9ee37c066432d7',1,'op::saveData(const cv::Mat &amp;cvMat, const std::string cvMatName, const std::string &amp;fileNameNoExtension, const DataFormat dataFormat)']]],
   ['savefloatarray',['saveFloatArray',['../namespaceop.html#ac1080e627185a65b88ec788184a95552',1,'op']]],
   ['saveheatmaps',['saveHeatMaps',['../classop_1_1_heat_map_saver.html#a6f67771a43b746a86a9793f19e7b6974',1,'op::HeatMapSaver']]],
   ['saveimage',['saveImage',['../namespaceop.html#a80f8d102523be3fd8a884d14e38cbce9',1,'op']]],
@@ -42,6 +42,7 @@ var searchData=
   ['setworkeroutput',['setWorkerOutput',['../classop_1_1_wrapper.html#a3e9f8993c9a27a012671d671998aa15d',1,'op::Wrapper']]],
   ['setworkerpostprocessing',['setWorkerPostProcessing',['../classop_1_1_wrapper.html#a6f2cf45c8b571b99ee92114ba8462589',1,'op::Wrapper']]],
   ['size',['size',['../classop_1_1_queue_base.html#a12cdec56bfe72e722ecc722774989d1b',1,'op::QueueBase']]],
+  ['spinnakerwrapper',['SpinnakerWrapper',['../classop_1_1_spinnaker_wrapper.html#afdeddd08b2b77f86130565194288c3c2',1,'op::SpinnakerWrapper']]],
   ['splitstring',['splitString',['../namespaceop.html#ae80a103d8a4308bc435342b3d31404c8',1,'op']]],
   ['start',['start',['../classop_1_1_thread_manager.html#a01c2d62e539896e36564457ab9cac25c',1,'op::ThreadManager::start()'],['../classop_1_1_wrapper.html#a338b70f93bfb0ad11b7df6b8db407749',1,'op::Wrapper::start()']]],
   ['startinthread',['startInThread',['../classop_1_1_thread.html#ac898abffd6ed18456b97ef1b72935ec6',1,'op::Thread']]],

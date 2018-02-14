@@ -20,6 +20,7 @@ var searchData=
   ['_7eposegpurenderer',['~PoseGpuRenderer',['../classop_1_1_pose_gpu_renderer.html#a97cf6c235bd66a2ea893ab95c2f5f8d2',1,'op::PoseGpuRenderer']]],
   ['_7eproducer',['~Producer',['../classop_1_1_producer.html#a8b48342b2c4003a080b17ac411f3454f',1,'op::Producer']]],
   ['_7equeuebase',['~QueueBase',['../classop_1_1_queue_base.html#aef098201d9084083adba5ceeb45b12fa',1,'op::QueueBase']]],
+  ['_7espinnakerwrapper',['~SpinnakerWrapper',['../classop_1_1_spinnaker_wrapper.html#a00ab178dfa540f603b1512fada764258',1,'op::SpinnakerWrapper']]],
   ['_7esubthread',['~SubThread',['../classop_1_1_sub_thread.html#a6ee67e375611e8df2d09b3234dedf36c',1,'op::SubThread']]],
   ['_7ethread',['~Thread',['../classop_1_1_thread.html#a151e4e647917f2351cc05a8861588e2a',1,'op::Thread']]],
   ['_7evideocapturereader',['~VideoCaptureReader',['../classop_1_1_video_capture_reader.html#a7ea52eabf5133a1a01d38f95b1a4b601',1,'op::VideoCaptureReader']]],

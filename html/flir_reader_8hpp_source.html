@@ -112,55 +112,50 @@ $(document).ready(function(){initNavTree('flir_reader_8hpp_source.html','');});
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="common_8hpp.html">openpose/core/common.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="producer_8hpp.html">openpose/producer/producer.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span>op</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classop_1_1_flir_reader.html">   14</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_flir_reader.html">FlirReader</a> : <span class="keyword">public</span> <a class="code" href="classop_1_1_producer.html">Producer</a></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classop_1_1_flir_reader.html">FlirReader</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        ~<a class="code" href="classop_1_1_flir_reader.html">FlirReader</a>();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        std::vector&lt;cv::Mat&gt; getCameraMatrices();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        std::string getFrameName();</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classop_1_1_flir_reader.html#a3ce5e34848ef03804f6261964c6f6a77">   30</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="classop_1_1_flir_reader.html#a3ce5e34848ef03804f6261964c6f6a77">isOpened</a>()<span class="keyword"> const</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        }</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="spinnaker_wrapper_8hpp.html">openpose/producer/spinnakerWrapper.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span>op</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classop_1_1_flir_reader.html">   15</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_flir_reader.html">FlirReader</a> : <span class="keyword">public</span> <a class="code" href="classop_1_1_producer.html">Producer</a></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classop_1_1_flir_reader.html">FlirReader</a>(<span class="keyword">const</span> std::string&amp; cameraParametersPath);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        ~<a class="code" href="classop_1_1_flir_reader.html">FlirReader</a>();</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        std::vector&lt;cv::Mat&gt; getCameraMatrices();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        std::string getFrameName();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">bool</span> isOpened() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">void</span> release();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordtype">double</span> <span class="keyword">get</span>(<span class="keyword">const</span> <span class="keywordtype">int</span> capProperty);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">void</span> release();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordtype">void</span> set(<span class="keyword">const</span> <span class="keywordtype">int</span> capProperty, <span class="keyword">const</span> <span class="keywordtype">double</span> value);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">double</span> <span class="keyword">get</span>(<span class="keyword">const</span> <span class="keywordtype">int</span> capProperty);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordtype">void</span> set(<span class="keyword">const</span> <span class="keywordtype">int</span> capProperty, <span class="keyword">const</span> <span class="keywordtype">double</span> value);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="comment">// PIMPL idiom</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="comment">// http://www.cppsamples.com/common-tasks/pimpl.html</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keyword">struct </span>ImplFlirReader;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        std::shared_ptr&lt;ImplFlirReader&gt; upImpl;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a> mResolution;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">long</span> <span class="keywordtype">long</span> mFrameNameCounter;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="classop_1_1_spinnaker_wrapper.html">SpinnakerWrapper</a> mSpinnakerWrapper;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a> mResolution;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">long</span> <span class="keywordtype">long</span> mFrameNameCounter;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        cv::Mat getRawFrame();</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        std::vector&lt;cv::Mat&gt; getRawFrames();</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a>(<a class="code" href="classop_1_1_flir_reader.html">FlirReader</a>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    };</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        cv::Mat getRawFrame();</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        std::vector&lt;cv::Mat&gt; getRawFrames();</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a>(<a class="code" href="classop_1_1_flir_reader.html">FlirReader</a>);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    };</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif // OPENPOSE_PRODUCER_FLIR_READER_HPP</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif // OPENPOSE_PRODUCER_FLIR_READER_HPP</span></div>
 <div class="ttc" id="macros_8hpp_html_abef96b5dd35dd9d44ad27ddf0e2f5f2e"><div class="ttname"><a href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a></div><div class="ttdeci">#define DELETE_COPY(className)</div><div class="ttdef"><b>Definition:</b> macros.hpp:30</div></div>
-<div class="ttc" id="classop_1_1_flir_reader_html_a3ce5e34848ef03804f6261964c6f6a77"><div class="ttname"><a href="classop_1_1_flir_reader.html#a3ce5e34848ef03804f6261964c6f6a77">op::FlirReader::isOpened</a></div><div class="ttdeci">bool isOpened() const </div><div class="ttdef"><b>Definition:</b> flirReader.hpp:30</div></div>
 <div class="ttc" id="classop_1_1_producer_html"><div class="ttname"><a href="classop_1_1_producer.html">op::Producer</a></div><div class="ttdef"><b>Definition:</b> producer.hpp:16</div></div>
 <div class="ttc" id="structop_1_1_point_html"><div class="ttname"><a href="structop_1_1_point.html">op::Point&lt; int &gt;</a></div></div>
+<div class="ttc" id="classop_1_1_spinnaker_wrapper_html"><div class="ttname"><a href="classop_1_1_spinnaker_wrapper.html">op::SpinnakerWrapper</a></div><div class="ttdef"><b>Definition:</b> spinnakerWrapper.hpp:12</div></div>
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
-<div class="ttc" id="classop_1_1_flir_reader_html"><div class="ttname"><a href="classop_1_1_flir_reader.html">op::FlirReader</a></div><div class="ttdef"><b>Definition:</b> flirReader.hpp:14</div></div>
+<div class="ttc" id="spinnaker_wrapper_8hpp_html"><div class="ttname"><a href="spinnaker_wrapper_8hpp.html">spinnakerWrapper.hpp</a></div></div>
+<div class="ttc" id="classop_1_1_flir_reader_html"><div class="ttname"><a href="classop_1_1_flir_reader.html">op::FlirReader</a></div><div class="ttdef"><b>Definition:</b> flirReader.hpp:15</div></div>
 <div class="ttc" id="producer_8hpp_html"><div class="ttname"><a href="producer_8hpp.html">producer.hpp</a></div></div>
 <div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:15</div></div>
 </div><!-- fragment --></div><!-- contents -->

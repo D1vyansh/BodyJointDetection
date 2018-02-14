@@ -1,6 +1,7 @@
 var searchData=
 [
   ['dataformat',['DataFormat',['../namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7e',1,'op']]],
+  ['dataformattostring',['dataFormatToString',['../namespaceop.html#a9d121f33179e41075f4602eb6527e658',1,'op']]],
   ['datum',['Datum',['../structop_1_1_datum.html#a72c75834671aebe44705738fb5efc3c5',1,'op::Datum::Datum()'],['../structop_1_1_datum.html#a42f9aef848c6335c5a81cad374319f0b',1,'op::Datum::Datum(const Datum &amp;datum)'],['../structop_1_1_datum.html#a2d4940d8cb12d95b8588cd0280f6524c',1,'op::Datum::Datum(Datum &amp;&amp;datum)']]],
   ['datum',['Datum',['../structop_1_1_datum.html',1,'op']]],
   ['datum_2ehpp',['datum.hpp',['../datum_8hpp.html',1,'']]],

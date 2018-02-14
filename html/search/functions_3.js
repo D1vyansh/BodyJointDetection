@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['dataformattostring',['dataFormatToString',['../namespaceop.html#a9d121f33179e41075f4602eb6527e658',1,'op']]],
   ['datum',['Datum',['../structop_1_1_datum.html#a72c75834671aebe44705738fb5efc3c5',1,'op::Datum::Datum()'],['../structop_1_1_datum.html#a42f9aef848c6335c5a81cad374319f0b',1,'op::Datum::Datum(const Datum &amp;datum)'],['../structop_1_1_datum.html#a2d4940d8cb12d95b8588cd0280f6524c',1,'op::Datum::Datum(Datum &amp;&amp;datum)']]],
   ['datumproducer',['DatumProducer',['../classop_1_1_datum_producer.html#a627c16307864f02251eeb77f2320052f',1,'op::DatumProducer']]],
   ['delete_5fcopy',['DELETE_COPY',['../classop_1_1_face_cpu_renderer.html#a233f2a83930d07e4d420b43c8a660f32',1,'op::FaceCpuRenderer::DELETE_COPY()'],['../classop_1_1_hand_cpu_renderer.html#a66a7d318b240c73687320bf092363409',1,'op::HandCpuRenderer::DELETE_COPY()'],['../classop_1_1_sub_thread_no_queue.html#a43504502c36461305d656fb87b914749',1,'op::SubThreadNoQueue::DELETE_COPY()']]],

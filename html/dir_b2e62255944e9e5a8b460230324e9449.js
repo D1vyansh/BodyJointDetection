@@ -17,6 +17,9 @@ var dir_b2e62255944e9e5a8b460230324e9449 =
     [ "producer.hpp", "producer_8hpp.html", [
       [ "Producer", "classop_1_1_producer.html", "classop_1_1_producer" ]
     ] ],
+    [ "spinnakerWrapper.hpp", "spinnaker_wrapper_8hpp.html", [
+      [ "SpinnakerWrapper", "classop_1_1_spinnaker_wrapper.html", "classop_1_1_spinnaker_wrapper" ]
+    ] ],
     [ "videoCaptureReader.hpp", "video_capture_reader_8hpp.html", [
       [ "VideoCaptureReader", "classop_1_1_video_capture_reader.html", "classop_1_1_video_capture_reader" ]
     ] ],
