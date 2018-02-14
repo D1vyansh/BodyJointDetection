@@ -115,6 +115,8 @@ $(document).ready(function(){initNavTree('namespaceop.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_pose_triangulation.html">WPoseTriangulation</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html">Array</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_cv_mat_to_op_input.html">CvMatToOpInput</a></td></tr>
@@ -124,6 +126,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html">Datum</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_gpu_renderer.html">GpuRenderer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_keep_top_n_people.html">KeepTopNPeople</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_keypoint_scaler.html">KeypointScaler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,19 +155,15 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_cv_mat_to_op_output.html">WCvMatToOpOutput</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_keep_top_n_people.html">WKeepTopNPeople</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_keypoint_scaler.html">WKeypointScaler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_op_output_to_cv_mat.html">WOpOutputToCvMat</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_scale_and_size_extractor.html">WScaleAndSizeExtractor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum3_d.html">Datum3D</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_flir_reader.html">WFlirReader</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_reconstruction3_d.html">WReconstruction3D</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_render3_d.html">WRender3D</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_id_extractor.html">PersonIdExtractor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,9 +227,13 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_gui.html">Gui</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_gui3_d.html">Gui3D</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_gui_info_adder.html">GuiInfoAdder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_gui.html">WGui</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_gui3_d.html">WGui3D</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_gui_info_adder.html">WGuiInfoAdder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -374,16 +378,22 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7ea55eeca17b45365c188d0edbd35f6e0c3">DataFormat::Yml</a>
  }</td></tr>
 <tr class="separator:ae52c21a24cf2c21e3b419c127924fd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbb34b5c8f2b6f0c051f831f18582e7f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7f">GpuMode</a> : unsigned char { <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7faa33b7755e5f9b504d2d038eaca4ff28d">GpuMode::CUDA</a> = 0, 
-<a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa35acca33baa6f2c4c6fb694eabfa5ac7">GpuMode::OPEN_CL</a> = 1, 
-<a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fac8a73499762434bcaf73e58e35339512">GpuMode::NO_GPU</a> = 2, 
+<tr class="memitem:adbb34b5c8f2b6f0c051f831f18582e7f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7f">GpuMode</a> : unsigned char { <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa8b95dcff7397d0693c03e394af5552aa">GpuMode::Cuda</a> = 0, 
+<a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa7982b09a852b37f2afb1227eaf552e47">GpuMode::OpenCL</a> = 1, 
+<a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa3c1472839b807c90abff3c7c36dff458">GpuMode::NoGpu</a> = 2, 
 <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719">GpuMode::Size</a>
  }</td></tr>
 <tr class="separator:adbb34b5c8f2b6f0c051f831f18582e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38f03cd0b02b760ffd2ea9e737680e01"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01">GuiDisplayMode</a> : bool { <a class="el" href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01ae7ec409749889353b8f83a6b04159420">GuiDisplayMode::FullScreen</a>, 
-<a class="el" href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01ab13311ab51c4c34757f67f26580018dd">GuiDisplayMode::Windowed</a>
+<tr class="memitem:ae52707752b1872b39f0306cc4f6c6ae6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">DisplayMode</a> : unsigned short { <a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a28b652e57d2da6b7c939166be21efd9a">DisplayMode::NoDisplay</a>, 
+<a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a105036ef087117869f656cd72bfd8dd6">DisplayMode::DisplayAll</a>, 
+<a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a3bd9369403112127ae7db2f866002be2">DisplayMode::Display2D</a>, 
+<a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6ae18221460ca8434295f980225fd6a91b">DisplayMode::Display3D</a>
  }</td></tr>
-<tr class="separator:a38f03cd0b02b760ffd2ea9e737680e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ae52707752b1872b39f0306cc4f6c6ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c22a72ce93c64e7582cb670492a50bf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bf">FullScreenMode</a> : bool { <a class="el" href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bfae7ec409749889353b8f83a6b04159420">FullScreenMode::FullScreen</a>, 
+<a class="el" href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bfab13311ab51c4c34757f67f26580018dd">FullScreenMode::Windowed</a>
+ }</td></tr>
+<tr class="separator:a6c22a72ce93c64e7582cb670492a50bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5b3ce2a5d3de87cb31b9b67e96f261f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> : unsigned char { <br/>
 &#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd">PoseModel::COCO_18</a> = 0, 
 <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fad788fbec25069f2884ee1ed97e0af2b9">PoseModel::MPI_15</a>, 
@@ -461,6 +471,10 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aebaf536d172c504ac2bdd3e9f7bcf6fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a> (const std::vector&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&gt; &amp;keypointsVector, const std::vector&lt; cv::Mat &gt; &amp;matrixEachCamera)</td></tr>
+<tr class="separator:aebaf536d172c504ac2bdd3e9f7bcf6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53f346232d0743f3dd0f547de1fc508f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a53f346232d0743f3dd0f547de1fc508f">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_pose_triangulation.html">WPoseTriangulation</a>)</td></tr>
+<tr class="separator:a53f346232d0743f3dd0f547de1fc508f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc3e9959bee33fa45e718f9874da3e33"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:adc3e9959bee33fa45e718f9874da3e33"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#adc3e9959bee33fa45e718f9874da3e33">maximumCpu</a> (T *targetPtr, const T *const sourcePtr, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize)</td></tr>
 <tr class="separator:adc3e9959bee33fa45e718f9874da3e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -486,6 +500,8 @@ Functions</h2></td></tr>
 <tr class="separator:a9076fc1719030c2a74f21682999d2315"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d12bd1e42cfb63d2f780bed55fa01fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6d12bd1e42cfb63d2f780bed55fa01fb">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_cv_mat_to_op_output.html">WCvMatToOpOutput</a>)</td></tr>
 <tr class="separator:a6d12bd1e42cfb63d2f780bed55fa01fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaee32c4c68404e5086844bcb911b7a20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aaee32c4c68404e5086844bcb911b7a20">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_keep_top_n_people.html">WKeepTopNPeople</a>)</td></tr>
+<tr class="separator:aaee32c4c68404e5086844bcb911b7a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47758c703fccdbb65c26dc7bc4022237"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a47758c703fccdbb65c26dc7bc4022237">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_keypoint_scaler.html">WKeypointScaler</a>)</td></tr>
 <tr class="separator:a47758c703fccdbb65c26dc7bc4022237"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d9f50688522ed7368acc33a09ae9ece"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1d9f50688522ed7368acc33a09ae9ece">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_op_output_to_cv_mat.html">WOpOutputToCvMat</a>)</td></tr>
@@ -496,10 +512,8 @@ Functions</h2></td></tr>
 <tr class="separator:a9f5d182aa1bd043391165e3f38f51bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c638486a8791c7c3bd652682823fb0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6c638486a8791c7c3bd652682823fb0b">getDistorsion</a> (const int cameraIndex)</td></tr>
 <tr class="separator:a6c638486a8791c7c3bd652682823fb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1f32af6f83491f1911f59dbea254d0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ab1f32af6f83491f1911f59dbea254d0d">getM</a> (const int cameraIndex)</td></tr>
-<tr class="separator:ab1f32af6f83491f1911f59dbea254d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a504c1c4e510fe00fbb557d86c5aae66e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a504c1c4e510fe00fbb557d86c5aae66e">getMs</a> ()</td></tr>
-<tr class="separator:a504c1c4e510fe00fbb557d86c5aae66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34c8a6e6a2dd93488a416814c40fc8ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a34c8a6e6a2dd93488a416814c40fc8ae">getM</a> (const int cameraIndex)</td></tr>
+<tr class="separator:a34c8a6e6a2dd93488a416814c40fc8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6183a85d3790e568f4994c2ee661247d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6183a85d3790e568f4994c2ee661247d">getNumberCameras</a> ()</td></tr>
 <tr class="separator:a6183a85d3790e568f4994c2ee661247d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a674a652ad38b355285417529fc050847"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a674a652ad38b355285417529fc050847">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_person_id_extractor.html">WPersonIdExtractor</a>)</td></tr>
@@ -569,6 +583,8 @@ Functions</h2></td></tr>
 <tr class="separator:a971a7caa96be5b715b5c22f6e5dc6ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade3b2e4b105242a3cf41def3def1691d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ade3b2e4b105242a3cf41def3def1691d">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_gui.html">WGui</a>)</td></tr>
 <tr class="separator:ade3b2e4b105242a3cf41def3def1691d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b38240e45009f7e6a25d956ac96fe0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a54b38240e45009f7e6a25d956ac96fe0">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_gui3_d.html">WGui3D</a>)</td></tr>
+<tr class="separator:a54b38240e45009f7e6a25d956ac96fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae88e9ced5d14fa221205b492ff76c56b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ae88e9ced5d14fa221205b492ff76c56b">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_gui_info_adder.html">WGuiInfoAdder</a>)</td></tr>
 <tr class="separator:ae88e9ced5d14fa221205b492ff76c56b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb5b711819f94b51f32460861d9cea38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#afb5b711819f94b51f32460861d9cea38">renderHandKeypointsCpu</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;frameArray, const std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt; &amp;handKeypoints, const float renderThreshold)</td></tr>
@@ -768,14 +784,18 @@ Functions</h2></td></tr>
 <tr class="separator:ac3bebe88bedbd7785d48159c8e3f0515"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4a6fee7ba2cc543739477e9c1d64136"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aa4a6fee7ba2cc543739477e9c1d64136">flagsToHeatMapScaleMode</a> (const int heatMapScale)</td></tr>
 <tr class="separator:aa4a6fee7ba2cc543739477e9c1d64136"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0237c9773b9ee6a63ebdf0e8a497bb84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a0237c9773b9ee6a63ebdf0e8a497bb84">flagsToProducerType</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex)</td></tr>
-<tr class="separator:a0237c9773b9ee6a63ebdf0e8a497bb84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fbdd7c33f90d0237582c9441162a7d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1fbdd7c33f90d0237582c9441162a7d8">flagsToProducerType</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const bool flirCamera)</td></tr>
+<tr class="separator:a1fbdd7c33f90d0237582c9441162a7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a266801b568c885ef280c41ea82f3871f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a266801b568c885ef280c41ea82f3871f">flagsToProducer</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const std::string &amp;webcamResolution=&quot;1280x720&quot;, const double webcamFps=30.)</td></tr>
 <tr class="separator:a266801b568c885ef280c41ea82f3871f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaa63fe1bf09e04dfdee3c23e0debde9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#abaa63fe1bf09e04dfdee3c23e0debde9">flagsToProducer</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const bool flirCamera, const std::string &amp;webcamResolution, const double webcamFps)</td></tr>
+<tr class="separator:abaa63fe1bf09e04dfdee3c23e0debde9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3b02ca66d11f4129372f4a9f98c6437"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ad3b02ca66d11f4129372f4a9f98c6437">flagsToHeatMaps</a> (const bool heatMapsAddParts=false, const bool heatMapsAddBkg=false, const bool heatMapsAddPAFs=false)</td></tr>
 <tr class="separator:ad3b02ca66d11f4129372f4a9f98c6437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4526c07c6dafe2a5e3437b66d20a6dd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#afce557f02e337e16150d00bdf72ec033">RenderMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a4526c07c6dafe2a5e3437b66d20a6dd3">flagsToRenderMode</a> (const int renderFlag, const int renderPoseFlag=-2)</td></tr>
 <tr class="separator:a4526c07c6dafe2a5e3437b66d20a6dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdf2dd76cbae54789a139d9415790f82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">DisplayMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#afdf2dd76cbae54789a139d9415790f82">flagsToDisplayMode</a> (const int display, const bool enabled3d)</td></tr>
+<tr class="separator:afdf2dd76cbae54789a139d9415790f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7961cb2fd04f59cbcd40df5872f12fd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7961cb2fd04f59cbcd40df5872f12fd7">flagsToPoint</a> (const std::string &amp;pointString, const std::string &amp;pointExample=&quot;1280x720&quot;)</td></tr>
 <tr class="separator:a7961cb2fd04f59cbcd40df5872f12fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88b83fabe52c73ed5c4f131c4ce75651"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a88b83fabe52c73ed5c4f131c4ce75651">getDistance</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;keypoints, const int person, const int elementA, const int elementB)</td></tr>
@@ -919,6 +939,41 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae52707752b1872b39f0306cc4f6c6ae6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">op::DisplayMode</a> : unsigned short</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>GUI display modes. An enum class with the different output screen options. E.g., 2-D, 3-D, all, none. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="ae52707752b1872b39f0306cc4f6c6ae6a28b652e57d2da6b7c939166be21efd9a"></a>NoDisplay</em>&#160;</td><td class="fielddoc">
+<p>No display. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ae52707752b1872b39f0306cc4f6c6ae6a105036ef087117869f656cd72bfd8dd6"></a>DisplayAll</em>&#160;</td><td class="fielddoc">
+<p>All (2-D and 3-D) displays </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ae52707752b1872b39f0306cc4f6c6ae6a3bd9369403112127ae7db2f866002be2"></a>Display2D</em>&#160;</td><td class="fielddoc">
+<p>Only 2-D display. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ae52707752b1872b39f0306cc4f6c6ae6ae18221460ca8434295f980225fd6a91b"></a>Display3D</em>&#160;</td><td class="fielddoc">
+<p>Only 3-D display. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a class="anchor" id="a5f5a4cee9809deaf7201fb9caf5e400c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -949,6 +1004,35 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6c22a72ce93c64e7582cb670492a50bf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bf">op::FullScreenMode</a> : bool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Full screen modes. An enum class with the different full screen mode options, i.e., full screen or windored. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a6c22a72ce93c64e7582cb670492a50bfae7ec409749889353b8f83a6b04159420"></a>FullScreen</em>&#160;</td><td class="fielddoc">
+<p>Full screen mode. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a6c22a72ce93c64e7582cb670492a50bfab13311ab51c4c34757f67f26580018dd"></a>Windowed</em>&#160;</td><td class="fielddoc">
+<p>Windowed mode, depending on the frame output size. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -967,42 +1051,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7faa33b7755e5f9b504d2d038eaca4ff28d"></a>CUDA</em>&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fa8b95dcff7397d0693c03e394af5552aa"></a>Cuda</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fa35acca33baa6f2c4c6fb694eabfa5ac7"></a>OPEN_CL</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fa7982b09a852b37f2afb1227eaf552e47"></a>OpenCL</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fac8a73499762434bcaf73e58e35339512"></a>NO_GPU</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fa3c1472839b807c90abff3c7c36dff458"></a>NoGpu</em>&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719"></a>Size</em>&#160;</td><td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a class="anchor" id="a38f03cd0b02b760ffd2ea9e737680e01"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01">op::GuiDisplayMode</a> : bool</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>GUI display modes. An enum class with the different output screen options (e.g. full screen, windored or disabling the display). </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a38f03cd0b02b760ffd2ea9e737680e01ae7ec409749889353b8f83a6b04159420"></a>FullScreen</em>&#160;</td><td class="fielddoc">
-<p>Full screen mode. </p>
-</td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="a38f03cd0b02b760ffd2ea9e737680e01ab13311ab51c4c34757f67f26580018dd"></a>Windowed</em>&#160;</td><td class="fielddoc">
-<p>Windowed mode, depending on the frame output size. </p>
 </td></tr>
 </table>
 
@@ -1819,22 +1874,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a01aa5c6e24026536367cf47a64e9bba5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WorkerConsumer&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a5660f0e72781ce6d7db9eb78b582e5c6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1843,6 +1882,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WorkerProducer&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a01aa5c6e24026536367cf47a64e9bba5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WorkerConsumer&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1875,22 +1930,6 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">Worker&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a1d9f50688522ed7368acc33a09ae9ece"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WOpOutputToCvMat&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1939,6 +1978,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WFaceDetectorOpenCV&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1d9f50688522ed7368acc33a09ae9ece"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WOpOutputToCvMat&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2003,22 +2058,6 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WHandDetectorUpdate&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a47758c703fccdbb65c26dc7bc4022237"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WKeypointScaler&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2171,6 +2210,22 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a47758c703fccdbb65c26dc7bc4022237"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WKeypointScaler&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a505ea16cc6c2c0068bbf4e7269dc8e0a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2195,22 +2250,6 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WCvMatToOpOutput&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aaca98fe6101cda512a43c513182ae5cc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WScaleAndSizeExtractor&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2251,6 +2290,22 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aaee32c4c68404e5086844bcb911b7a20"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WKeepTopNPeople&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ac610051ddb4703c80e6ee73f77f6df8a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2259,6 +2314,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WFaceExtractor&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaca98fe6101cda512a43c513182ae5cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WScaleAndSizeExtractor&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2355,6 +2426,38 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WGui&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a54b38240e45009f7e6a25d956ac96fe0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WGui3D&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a53f346232d0743f3dd0f547de1fc508f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WPoseTriangulation&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2933,6 +3036,32 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="afdf2dd76cbae54789a139d9415790f82"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">DisplayMode</a> op::flagsToDisplayMode </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>display</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>enabled3d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ad3b02ca66d11f4129372f4a9f98c6437"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3073,7 +3202,63 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a0237c9773b9ee6a63ebdf0e8a497bb84"></a>
+<a class="anchor" id="abaa63fe1bf09e04dfdee3c23e0debde9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt;<a class="el" href="classop_1_1_producer.html">Producer</a>&gt; op::flagsToProducer </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>imageDirectory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>videoPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>ipCameraPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>webcamIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>flirCamera</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>webcamResolution</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>webcamFps</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1fbdd7c33f90d0237582c9441162a7d8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3099,7 +3284,13 @@ template&lt;class T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>webcamIndex</em>&#160;</td>
+          <td class="paramname"><em>webcamIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>flirCamera</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3598,30 +3789,15 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ab1f32af6f83491f1911f59dbea254d0d"></a>
+<a class="anchor" id="a34c8a6e6a2dd93488a416814c40fc8ae"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const cv::Mat op::getM </td>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> cv::Mat op::getM </td>
           <td>(</td>
           <td class="paramtype">const int&#160;</td>
           <td class="paramname"><em>cameraIndex</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a504c1c4e510fe00fbb557d86c5aae66e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt;cv::Mat&gt; op::getMs </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -4620,6 +4796,32 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td class="paramtype">const T&#160;</td>
           <td class="paramname"><em>newHeight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aebaf536d172c504ac2bdd3e9f7bcf6fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::reconstructArray </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; Array&lt; float &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>keypointsVector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td>
+          <td class="paramname"><em>matrixEachCamera</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

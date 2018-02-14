@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/experimental/3d/renderer.hpp File Reference</title>
+<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/3d/poseTriangulation.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('experimental_23d_2renderer_8hpp.html','');});
+$(document).ready(function(){initNavTree('pose_triangulation_8hpp_source.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -103,36 +103,33 @@ $(document).ready(function(){initNavTree('experimental_23d_2renderer_8hpp.html',
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">renderer.hpp File Reference</div>  </div>
+<div class="title">poseTriangulation.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8hpp_source.html">openpose/core/common.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="datum3_d_8hpp_source.html">openpose/experimental/3d/datum3D.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="pose_2enum_classes_8hpp_source.html">openpose/pose/enumClasses.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="worker_consumer_8hpp_source.html">openpose/thread/workerConsumer.hpp</a>&gt;</code><br/>
-</div>
-<p><a href="experimental_23d_2renderer_8hpp_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_render3_d.html">op::WRender3D</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespaceop"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html">op</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-</div><!-- contents -->
+<a href="pose_triangulation_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENPOSE_3D_POSE_TRIANGULATION_HPP</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENPOSE_3D_POSE_TRIANGULATION_HPP</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;opencv2/core/core.hpp&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="common_8hpp.html">openpose/core/common.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="namespaceop.html">    7</a></span>&#160;<span class="keyword">namespace </span>op</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a> <a class="code" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a>(<span class="keyword">const</span> std::vector&lt;<a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&gt;&amp; keypointsVector,</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                                         <span class="keyword">const</span> std::vector&lt;cv::Mat&gt;&amp; matrixEachCamera);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#endif // OPENPOSE_3D_POSE_TRIANGULATION_HPP</span></div>
+<div class="ttc" id="namespaceop_html_aebaf536d172c504ac2bdd3e9f7bcf6fb"><div class="ttname"><a href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">op::reconstructArray</a></div><div class="ttdeci">OP_API Array&lt; float &gt; reconstructArray(const std::vector&lt; Array&lt; float &gt;&gt; &amp;keypointsVector, const std::vector&lt; cv::Mat &gt; &amp;matrixEachCamera)</div></div>
+<div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
+<div class="ttc" id="classop_1_1_array_html"><div class="ttname"><a href="classop_1_1_array.html">op::Array&lt; float &gt;</a></div></div>
+<div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:15</div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_064336ecb4157cb3f6fdf6ebb1eb8973.html">experimental</a></li><li class="navelem"><a class="el" href="dir_6905540930e2894785a7f1c5aa3bda2e.html">3d</a></li><li class="navelem"><a class="el" href="experimental_23d_2renderer_8hpp.html">renderer.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_42711a84df077d9f3052c908e6dd3c59.html">3d</a></li><li class="navelem"><a class="el" href="pose_triangulation_8hpp.html">poseTriangulation.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

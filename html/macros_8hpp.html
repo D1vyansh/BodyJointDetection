@@ -106,13 +106,15 @@ $(document).ready(function(){initNavTree('macros_8hpp.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">macros.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;memory&gt;</code><br/>
 <code>#include &lt;ostream&gt;</code><br/>
+<code>#include &lt;string&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
 </div>
 <p><a href="macros_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -153,6 +155,15 @@ Macros</h2></td></tr>
 <tr class="separator:af9fed593b7a4237bc6ede717a1ae70f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80404791b46a15fd601feaa11f1e5028"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a80404791b46a15fd601feaa11f1e5028">COMPILE_TEMPLATE_FLOATING_TYPES</a>(className, classType)</td></tr>
 <tr class="separator:a80404791b46a15fd601feaa11f1e5028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:afda430d83b9513af7270f1d680bf5471"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#afda430d83b9513af7270f1d680bf5471">OPEN_POSE_NAME_STRING</a> = &quot;OpenPose&quot;</td></tr>
+<tr class="separator:afda430d83b9513af7270f1d680bf5471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de0b663a3aa8043a346ebf2c411bda3"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3">OPEN_POSE_VERSION_STRING</a> = &quot;1.2.1&quot;</td></tr>
+<tr class="separator:a7de0b663a3aa8043a346ebf2c411bda3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf24c45000a4f44f355f1cc3062ea49"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="macros_8hpp.html#adcf24c45000a4f44f355f1cc3062ea49">OPEN_POSE_NAME_AND_VERSION</a> = <a class="el" href="macros_8hpp.html#afda430d83b9513af7270f1d680bf5471">OPEN_POSE_NAME_STRING</a> + &quot; &quot; + <a class="el" href="macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3">OPEN_POSE_VERSION_STRING</a></td></tr>
+<tr class="separator:adcf24c45000a4f44f355f1cc3062ea49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a6bf32c65e0f388d5b09d8b2424416c0e"></a>
@@ -192,7 +203,7 @@ Macros</h2></td></tr>
 <div class="line">    template classType <a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> className&lt;float&gt;; \</div>
 <div class="line">    template classType <a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> className&lt;double&gt;; \</div>
 <div class="line">    template classType <a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> className&lt;long double&gt;</div>
-<div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:9</div></div>
+<div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:15</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -254,7 +265,7 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">char</span> gInstantiationGuard##className; \</div>
 <div class="line">  template classType <a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> className&lt;float&gt;; \</div>
 <div class="line">  template classType <a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> className&lt;double&gt;</div>
-<div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:9</div></div>
+<div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:15</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -353,6 +364,43 @@ Macros</h2></td></tr>
           <td class="paramtype">&#160;</td>
           <td class="paramname">unusedVariable</td><td>)</td>
           <td>&#160;&#160;&#160;(void)(unusedVariable)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="adcf24c45000a4f44f355f1cc3062ea49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string OPEN_POSE_NAME_AND_VERSION = <a class="el" href="macros_8hpp.html#afda430d83b9513af7270f1d680bf5471">OPEN_POSE_NAME_STRING</a> + &quot; &quot; + <a class="el" href="macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3">OPEN_POSE_VERSION_STRING</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afda430d83b9513af7270f1d680bf5471"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string OPEN_POSE_NAME_STRING = &quot;OpenPose&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7de0b663a3aa8043a346ebf2c411bda3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string OPEN_POSE_VERSION_STRING = &quot;1.2.1&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">

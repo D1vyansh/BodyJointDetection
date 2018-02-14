@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['pafs',['PAFs',['../namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226ba21c5c3f60f4881b8d5477f5628db74f1',1,'op']]],
-  ['parts',['Parts',['../namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226ba9ce2d07469b39a72159ed8b0e0e597ca',1,'op']]],
-  ['plusminusone',['PlusMinusOne',['../namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaab7e7b2beae3435e73021d6d9a6a3fd8a',1,'op']]]
+  ['opencl',['OpenCL',['../namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa7982b09a852b37f2afb1227eaf552e47',1,'op']]],
+  ['originalfps',['OriginalFps',['../namespaceop.html#ac0230b669b296920c0cfc41b7587268fa0123c3afc0fac5edaf8b1672cb12626c',1,'op']]],
+  ['outputresolution',['OutputResolution',['../namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa73c42013aac51c335d50d103f30fcb99',1,'op']]]
 ];

@@ -7,10 +7,14 @@ var dir_4506be49ee7fb2593b2eb7f8b65ab365 =
     [ "gui.hpp", "gui_8hpp.html", [
       [ "Gui", "classop_1_1_gui.html", "classop_1_1_gui" ]
     ] ],
+    [ "gui3D.hpp", "gui3_d_8hpp.html", [
+      [ "Gui3D", "classop_1_1_gui3_d.html", "classop_1_1_gui3_d" ]
+    ] ],
     [ "guiInfoAdder.hpp", "gui_info_adder_8hpp.html", [
       [ "GuiInfoAdder", "classop_1_1_gui_info_adder.html", "classop_1_1_gui_info_adder" ]
     ] ],
     [ "headers.hpp", "gui_2headers_8hpp.html", null ],
     [ "wGui.hpp", "w_gui_8hpp.html", "w_gui_8hpp" ],
+    [ "wGui3D.hpp", "w_gui3_d_8hpp.html", "w_gui3_d_8hpp" ],
     [ "wGuiInfoAdder.hpp", "w_gui_info_adder_8hpp.html", "w_gui_info_adder_8hpp" ]
 ];

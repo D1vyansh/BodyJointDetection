@@ -1,6 +1,6 @@
 var structop_1_1_wrapper_struct_pose =
 [
-    [ "WrapperStructPose", "structop_1_1_wrapper_struct_pose.html#a6780395296eca480ff64d4815ce7812d", null ],
+    [ "WrapperStructPose", "structop_1_1_wrapper_struct_pose.html#adf01f3ff1336d3fcdf0546f8b8c916be", null ],
     [ "addPartCandidates", "structop_1_1_wrapper_struct_pose.html#ad73981c6ad9b23f511ef6f12136bf8e7", null ],
     [ "alphaHeatMap", "structop_1_1_wrapper_struct_pose.html#ac1233492c750fbd98df353bffa8f9b78", null ],
     [ "alphaKeypoint", "structop_1_1_wrapper_struct_pose.html#a4d3ad84b14697d5f1009fa29e2ff1998", null ],
@@ -16,8 +16,10 @@ var structop_1_1_wrapper_struct_pose =
     [ "keypointScale", "structop_1_1_wrapper_struct_pose.html#a4900b6c522150140d27f2e98a260e0ec", null ],
     [ "modelFolder", "structop_1_1_wrapper_struct_pose.html#a8ff78782ff1bfdcec3e20e42fc03dbc6", null ],
     [ "netInputSize", "structop_1_1_wrapper_struct_pose.html#acff912f14ba3c0ba706ea99e1cef790e", null ],
+    [ "numberPeopleMax", "structop_1_1_wrapper_struct_pose.html#a02c4ab6b56e4da4b3ed0da4eae8ac0fc", null ],
     [ "outputSize", "structop_1_1_wrapper_struct_pose.html#a80ead0f411ddab86f643345e4effe805", null ],
     [ "poseModel", "structop_1_1_wrapper_struct_pose.html#a35147b6fb9e300d79b71637793053a1b", null ],
+    [ "reconstruct3d", "structop_1_1_wrapper_struct_pose.html#a1038c43c5d5cbabf0ac9f8f76d101c27", null ],
     [ "renderMode", "structop_1_1_wrapper_struct_pose.html#ad6b5ea0cef8eb81d20ab39099ba7716e", null ],
     [ "renderThreshold", "structop_1_1_wrapper_struct_pose.html#a322ff95b6a2838fe0d55afb28d2a4224", null ],
     [ "scaleGap", "structop_1_1_wrapper_struct_pose.html#a646ae142f821411d22d772b76960d585", null ],

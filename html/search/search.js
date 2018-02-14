@@ -12,9 +12,9 @@ var indexSectionsWithContent =
   2: "bco",
   3: "abcdefghijkmnopqrstvw",
   4: "abcdefghijklmnopqrstuvw~",
-  5: "abcdefghiklmnoprstwxy",
-  6: "deghlprst",
-  7: "abcfghijlmnoprsuvwxyz",
+  5: "abcdefghikmnoprstwxy",
+  6: "defghlprst",
+  7: "abcdfghijlmnoprsuvwxyz",
   8: "cdfhopu"
 };
 

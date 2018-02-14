@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['logmode',['LogMode',['../namespaceop.html#a5fa46d7c4b25c823d1cdcc8e9d460f94',1,'op']]]
+  ['heatmaptype',['HeatMapType',['../namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b',1,'op']]]
 ];

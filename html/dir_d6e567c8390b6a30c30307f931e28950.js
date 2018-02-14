@@ -16,6 +16,9 @@ var dir_d6e567c8390b6a30c30307f931e28950 =
       [ "GpuRenderer", "classop_1_1_gpu_renderer.html", "classop_1_1_gpu_renderer" ]
     ] ],
     [ "headers.hpp", "core_2headers_8hpp.html", null ],
+    [ "keepTopNPeople.hpp", "keep_top_n_people_8hpp.html", [
+      [ "KeepTopNPeople", "classop_1_1_keep_top_n_people.html", "classop_1_1_keep_top_n_people" ]
+    ] ],
     [ "keypointScaler.hpp", "keypoint_scaler_8hpp.html", [
       [ "KeypointScaler", "classop_1_1_keypoint_scaler.html", "classop_1_1_keypoint_scaler" ]
     ] ],
@@ -41,7 +44,7 @@ var dir_d6e567c8390b6a30c30307f931e28950 =
       [ "Point", "structop_1_1_point.html", "structop_1_1_point" ]
     ] ],
     [ "rectangle.hpp", "rectangle_8hpp.html", "rectangle_8hpp" ],
-    [ "renderer.hpp", "core_2renderer_8hpp.html", [
+    [ "renderer.hpp", "renderer_8hpp.html", [
       [ "Renderer", "classop_1_1_renderer.html", "classop_1_1_renderer" ]
     ] ],
     [ "resizeAndMergeBase.hpp", "resize_and_merge_base_8hpp.html", "resize_and_merge_base_8hpp" ],
@@ -54,6 +57,7 @@ var dir_d6e567c8390b6a30c30307f931e28950 =
     ] ],
     [ "wCvMatToOpInput.hpp", "w_cv_mat_to_op_input_8hpp.html", "w_cv_mat_to_op_input_8hpp" ],
     [ "wCvMatToOpOutput.hpp", "w_cv_mat_to_op_output_8hpp.html", "w_cv_mat_to_op_output_8hpp" ],
+    [ "wKeepTopNPeople.hpp", "w_keep_top_n_people_8hpp.html", "w_keep_top_n_people_8hpp" ],
     [ "wKeypointScaler.hpp", "w_keypoint_scaler_8hpp.html", "w_keypoint_scaler_8hpp" ],
     [ "wOpOutputToCvMat.hpp", "w_op_output_to_cv_mat_8hpp.html", "w_op_output_to_cv_mat_8hpp" ],
     [ "wScaleAndSizeExtractor.hpp", "w_scale_and_size_extractor_8hpp.html", "w_scale_and_size_extractor_8hpp" ]

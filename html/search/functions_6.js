@@ -37,9 +37,8 @@ var searchData=
   ['getkeypointsrectangle',['getKeypointsRectangle',['../namespaceop.html#afb230634bc4a07f84ca91ebaf13e385f',1,'op']]],
   ['getlastnumber',['getLastNumber',['../namespaceop.html#ab670c693d8e4a540cfe75ce8383b6d10',1,'op']]],
   ['getlogmodes',['getLogModes',['../classop_1_1_configure_log.html#a01eebce325f7e401601804d58fd3a2b2',1,'op::ConfigureLog']]],
-  ['getm',['getM',['../namespaceop.html#ab1f32af6f83491f1911f59dbea254d0d',1,'op']]],
+  ['getm',['getM',['../namespaceop.html#a34c8a6e6a2dd93488a416814c40fc8ae',1,'op']]],
   ['getmaxsize',['getMaxSize',['../classop_1_1_queue_base.html#a25255992523051f7d2a82694ffe7a1cf',1,'op::QueueBase']]],
-  ['getms',['getMs',['../namespaceop.html#a504c1c4e510fe00fbb557d86c5aae66e',1,'op']]],
   ['getnextfilename',['getNextFileName',['../classop_1_1_file_saver.html#a9de8d694a526f981906c54bd48ea9b21',1,'op::FileSaver::getNextFileName(const unsigned long long index) const '],['../classop_1_1_file_saver.html#a91818f12a9409eae7c1caf6e2b525282',1,'op::FileSaver::getNextFileName(const std::string &amp;fileNameNoExtension) const ']]],
   ['getnumbercameras',['getNumberCameras',['../namespaceop.html#a6183a85d3790e568f4994c2ee661247d',1,'op']]],
   ['getnumbercudablocks',['getNumberCudaBlocks',['../namespaceop.html#a4ba080c11cc9758051db97ce2a11c023',1,'op']]],
@@ -79,5 +78,6 @@ var searchData=
   ['gpurenderer',['GpuRenderer',['../classop_1_1_gpu_renderer.html#a9852b2017e972637b47250bb7fbc53ea',1,'op::GpuRenderer']]],
   ['gputocpumemoryiflastrenderer',['gpuToCpuMemoryIfLastRenderer',['../classop_1_1_gpu_renderer.html#a6355f70d16c6427b028fa4596ce5d985',1,'op::GpuRenderer']]],
   ['gui',['Gui',['../classop_1_1_gui.html#a892a74fac9f123a4cb9e196bfcc3432a',1,'op::Gui']]],
+  ['gui3d',['Gui3D',['../classop_1_1_gui3_d.html#af49460bc8b18fd0065f7e4fca41168a8',1,'op::Gui3D']]],
   ['guiinfoadder',['GuiInfoAdder',['../classop_1_1_gui_info_adder.html#af23e17f9eeb51c7473cd0940292efa61',1,'op::GuiInfoAdder']]]
 ];

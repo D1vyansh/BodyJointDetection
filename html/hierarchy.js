@@ -10,9 +10,7 @@ var hierarchy =
     [ "op::ConfigureLog", "classop_1_1_configure_log.html", null ],
     [ "op::CvMatToOpInput", "classop_1_1_cv_mat_to_op_input.html", null ],
     [ "op::CvMatToOpOutput", "classop_1_1_cv_mat_to_op_output.html", null ],
-    [ "op::Datum", "structop_1_1_datum.html", [
-      [ "op::Datum3D", "structop_1_1_datum3_d.html", null ]
-    ] ],
+    [ "op::Datum", "structop_1_1_datum.html", null ],
     [ "op::DatumProducer< TDatumsNoPtr >", "classop_1_1_datum_producer.html", null ],
     [ "op::FaceDetector", "classop_1_1_face_detector.html", null ],
     [ "op::FaceDetectorOpenCV", "classop_1_1_face_detector_open_c_v.html", null ],
@@ -30,7 +28,9 @@ var hierarchy =
       [ "op::PeopleJsonSaver", "classop_1_1_people_json_saver.html", null ]
     ] ],
     [ "op::FrameDisplayer", "classop_1_1_frame_displayer.html", null ],
-    [ "op::Gui", "classop_1_1_gui.html", null ],
+    [ "op::Gui", "classop_1_1_gui.html", [
+      [ "op::Gui3D", "classop_1_1_gui3_d.html", null ]
+    ] ],
     [ "op::GuiInfoAdder", "classop_1_1_gui_info_adder.html", null ],
     [ "op::HandDetector", "classop_1_1_hand_detector.html", null ],
     [ "op::HandDetectorFromTxt", "classop_1_1_hand_detector_from_txt.html", null ],
@@ -42,6 +42,7 @@ var hierarchy =
       [ "op::HandGpuRenderer", "classop_1_1_hand_gpu_renderer.html", null ]
     ] ],
     [ "op::JsonOfstream", "classop_1_1_json_ofstream.html", null ],
+    [ "op::KeepTopNPeople", "classop_1_1_keep_top_n_people.html", null ],
     [ "op::KeypointScaler", "classop_1_1_keypoint_scaler.html", null ],
     [ "op::MaximumCaffe< T >", "classop_1_1_maximum_caffe.html", null ],
     [ "op::Net", "classop_1_1_net.html", [
@@ -113,12 +114,14 @@ var hierarchy =
       [ "op::WHandExtractor< TDatums >", "classop_1_1_w_hand_extractor.html", null ],
       [ "op::WHandRenderer< TDatums >", "classop_1_1_w_hand_renderer.html", null ],
       [ "op::WIdGenerator< TDatums >", "classop_1_1_w_id_generator.html", null ],
+      [ "op::WKeepTopNPeople< TDatums >", "classop_1_1_w_keep_top_n_people.html", null ],
       [ "op::WKeypointScaler< TDatums >", "classop_1_1_w_keypoint_scaler.html", null ],
       [ "op::WOpOutputToCvMat< TDatums >", "classop_1_1_w_op_output_to_cv_mat.html", null ],
       [ "op::WorkerConsumer< TDatums >", "classop_1_1_worker_consumer.html", [
         [ "op::WCocoJsonSaver< TDatums >", "classop_1_1_w_coco_json_saver.html", null ],
         [ "op::WFaceSaver< TDatums >", "classop_1_1_w_face_saver.html", null ],
         [ "op::WGui< TDatums >", "classop_1_1_w_gui.html", null ],
+        [ "op::WGui3D< TDatums >", "classop_1_1_w_gui3_d.html", null ],
         [ "op::WHandSaver< TDatums >", "classop_1_1_w_hand_saver.html", null ],
         [ "op::WHeatMapSaver< TDatums >", "classop_1_1_w_heat_map_saver.html", null ],
         [ "op::WImageSaver< TDatums >", "classop_1_1_w_image_saver.html", null ],
@@ -132,15 +135,12 @@ var hierarchy =
       [ "op::WPersonIdExtractor< TDatums >", "classop_1_1_w_person_id_extractor.html", null ],
       [ "op::WPoseExtractor< TDatums >", "classop_1_1_w_pose_extractor.html", null ],
       [ "op::WPoseRenderer< TDatums >", "classop_1_1_w_pose_renderer.html", null ],
+      [ "op::WPoseTriangulation< TDatums >", "classop_1_1_w_pose_triangulation.html", null ],
       [ "op::WQueueOrderer< TDatums >", "classop_1_1_w_queue_orderer.html", null ],
       [ "op::WScaleAndSizeExtractor< TDatums >", "classop_1_1_w_scale_and_size_extractor.html", null ]
     ] ],
-    [ "op::Worker< std::shared_ptr< std::vector< Datum3D > > >", "classop_1_1_worker.html", [
-      [ "op::WReconstruction3D", "classop_1_1_w_reconstruction3_d.html", null ],
-      [ "op::WorkerConsumer< std::shared_ptr< std::vector< Datum3D > > >", "classop_1_1_worker_consumer.html", [
-        [ "op::WRender3D", "classop_1_1_w_render3_d.html", null ]
-      ] ],
-      [ "op::WorkerProducer< std::shared_ptr< std::vector< Datum3D > > >", "classop_1_1_worker_producer.html", [
+    [ "op::Worker< std::shared_ptr< std::vector< Datum > > >", "classop_1_1_worker.html", [
+      [ "op::WorkerProducer< std::shared_ptr< std::vector< Datum > > >", "classop_1_1_worker_producer.html", [
         [ "op::WFlirReader", "classop_1_1_w_flir_reader.html", null ]
       ] ]
     ] ],

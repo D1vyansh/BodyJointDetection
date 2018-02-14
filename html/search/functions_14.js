@@ -6,6 +6,6 @@ var searchData=
   ['ulonglonground',['uLongLongRound',['../namespaceop.html#a757a5cc88734e7be9e910e7d8213c282',1,'op']]],
   ['ulonground',['ulongRound',['../namespaceop.html#aaafe2e235a1a3a146bb026b71c521c7b',1,'op']]],
   ['unrollarraytoucharcvmat',['unrollArrayToUCharCvMat',['../namespaceop.html#ab8b9daed84e741afb7191fde8ed95b5e',1,'op']]],
-  ['update',['update',['../classop_1_1_gui.html#a114a15db275e053a6860d201d5ba773f',1,'op::Gui']]],
+  ['update',['update',['../classop_1_1_gui.html#a8e9a67dd507598654a5db06273d50c94',1,'op::Gui::update()'],['../classop_1_1_gui3_d.html#a7dd41a7f0427f13db3f52bf9ffff75b2',1,'op::Gui3D::update()']]],
   ['updatetracker',['updateTracker',['../classop_1_1_hand_detector.html#a58513169f01ab7c705979f1f2a88b571',1,'op::HandDetector']]]
 ];

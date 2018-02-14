@@ -21,9 +21,11 @@ var searchData=
   ['setelementtorender',['setElementToRender',['../classop_1_1_renderer.html#afd48a9cb0be184303dce2969fa2f8e02',1,'op::Renderer']]],
   ['seterrormodes',['setErrorModes',['../classop_1_1_configure_error.html#aca35de0cb04b54dcf9c6c9898ee6002e',1,'op::ConfigureError']]],
   ['setfrom',['setFrom',['../classop_1_1_array.html#a6bf43d039478797722cf9401ceb951e9',1,'op::Array']]],
-  ['setguidisplaymode',['setGuiDisplayMode',['../classop_1_1_frame_displayer.html#a15f9d2d435f56026ac0f79ee6c1e2918',1,'op::FrameDisplayer']]],
+  ['setfullscreenmode',['setFullScreenMode',['../classop_1_1_frame_displayer.html#a2df856e4cf7542c7cda2757553674fb8',1,'op::FrameDisplayer']]],
+  ['setimage',['setImage',['../classop_1_1_gui.html#a9391ffe3fb09f881327f55d65cbe52eb',1,'op::Gui::setImage(const cv::Mat &amp;cvMatOutput)'],['../classop_1_1_gui.html#a637966de704cfffc247e9db9aded20f5',1,'op::Gui::setImage(const std::vector&lt; cv::Mat &gt; &amp;cvMatOutputs)']]],
   ['setinterminabovethreshold',['setInterMinAboveThreshold',['../classop_1_1_body_part_connector_caffe.html#a789c77e69e5590a78b22e1e5f5cc4efc',1,'op::BodyPartConnectorCaffe']]],
   ['setinterthreshold',['setInterThreshold',['../classop_1_1_body_part_connector_caffe.html#a75d0a3f3c8dca99c8a9e1b680098da16',1,'op::BodyPartConnectorCaffe']]],
+  ['setkeypoints',['setKeypoints',['../classop_1_1_gui3_d.html#abd245c07a53d1d25c237aff22a2b6e6f',1,'op::Gui3D']]],
   ['setlogmodes',['setLogModes',['../classop_1_1_configure_log.html#a97607f679c70146c1afc548d1a78d3e4',1,'op::ConfigureLog']]],
   ['setminsubsetcnt',['setMinSubsetCnt',['../classop_1_1_body_part_connector_caffe.html#a6442721373481873ddeb9ffd7c6fdb7b',1,'op::BodyPartConnectorCaffe']]],
   ['setminsubsetscore',['setMinSubsetScore',['../classop_1_1_body_part_connector_caffe.html#a9b9fa9490fef0121a70c3d6d749272f7',1,'op::BodyPartConnectorCaffe']]],
@@ -52,5 +54,5 @@ var searchData=
   ['subthreadqueuein',['SubThreadQueueIn',['../classop_1_1_sub_thread_queue_in.html#a11aa71a818430c4eb435a1626e54f29a',1,'op::SubThreadQueueIn']]],
   ['subthreadqueueinout',['SubThreadQueueInOut',['../classop_1_1_sub_thread_queue_in_out.html#aa5b9beea615b8b968c5da74dd66a6d78',1,'op::SubThreadQueueInOut']]],
   ['subthreadqueueout',['SubThreadQueueOut',['../classop_1_1_sub_thread_queue_out.html#aa4a827932f632f1f30b5650a4fcc77ff',1,'op::SubThreadQueueOut']]],
-  ['switchguidisplaymode',['switchGuiDisplayMode',['../classop_1_1_frame_displayer.html#ab851447b8c00826282cff87a66182e7e',1,'op::FrameDisplayer']]]
+  ['switchfullscreenmode',['switchFullScreenMode',['../classop_1_1_frame_displayer.html#ad83a47005c52f066587f49d62c109802',1,'op::FrameDisplayer']]]
 ];

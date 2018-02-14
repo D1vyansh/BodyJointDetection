@@ -112,17 +112,30 @@ $(document).ready(function(){initNavTree('gui_2enum_classes_8hpp_source.html',''
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">namespace </span>op</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01">   10</a></span>&#160;    <span class="keyword">enum class</span> <a class="code" href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01">GuiDisplayMode</a> : bool</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">   10</a></span>&#160;    <span class="keyword">enum class</span> <a class="code" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">DisplayMode</a> : unsigned short</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01ae7ec409749889353b8f83a6b04159420">FullScreen</a>, </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01ab13311ab51c4c34757f67f26580018dd">Windowed</a>,   </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    };</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif // OPENPOSE_GUI_ENUM_CLASSES_HPP</span></div>
-<div class="ttc" id="namespaceop_html_a38f03cd0b02b760ffd2ea9e737680e01"><div class="ttname"><a href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01">op::GuiDisplayMode</a></div><div class="ttdeci">GuiDisplayMode</div><div class="ttdef"><b>Definition:</b> enumClasses.hpp:10</div></div>
-<div class="ttc" id="namespaceop_html_a38f03cd0b02b760ffd2ea9e737680e01ae7ec409749889353b8f83a6b04159420"><div class="ttname"><a href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01ae7ec409749889353b8f83a6b04159420">op::GuiDisplayMode::FullScreen</a></div></div>
-<div class="ttc" id="namespaceop_html_a38f03cd0b02b760ffd2ea9e737680e01ab13311ab51c4c34757f67f26580018dd"><div class="ttname"><a href="namespaceop.html#a38f03cd0b02b760ffd2ea9e737680e01ab13311ab51c4c34757f67f26580018dd">op::GuiDisplayMode::Windowed</a></div></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a28b652e57d2da6b7c939166be21efd9a">NoDisplay</a>,  </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a105036ef087117869f656cd72bfd8dd6">DisplayAll</a>, </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a3bd9369403112127ae7db2f866002be2">Display2D</a>,  </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6ae18221460ca8434295f980225fd6a91b">Display3D</a>   </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    };</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bf">   22</a></span>&#160;    <span class="keyword">enum class</span> <a class="code" href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bf">FullScreenMode</a> : bool</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bfae7ec409749889353b8f83a6b04159420">FullScreen</a>, </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bfab13311ab51c4c34757f67f26580018dd">Windowed</a>,   </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    };</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif // OPENPOSE_GUI_ENUM_CLASSES_HPP</span></div>
+<div class="ttc" id="namespaceop_html_ae52707752b1872b39f0306cc4f6c6ae6a28b652e57d2da6b7c939166be21efd9a"><div class="ttname"><a href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a28b652e57d2da6b7c939166be21efd9a">op::DisplayMode::NoDisplay</a></div></div>
+<div class="ttc" id="namespaceop_html_a6c22a72ce93c64e7582cb670492a50bfab13311ab51c4c34757f67f26580018dd"><div class="ttname"><a href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bfab13311ab51c4c34757f67f26580018dd">op::FullScreenMode::Windowed</a></div></div>
+<div class="ttc" id="namespaceop_html_a6c22a72ce93c64e7582cb670492a50bf"><div class="ttname"><a href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bf">op::FullScreenMode</a></div><div class="ttdeci">FullScreenMode</div><div class="ttdef"><b>Definition:</b> enumClasses.hpp:22</div></div>
+<div class="ttc" id="namespaceop_html_ae52707752b1872b39f0306cc4f6c6ae6a105036ef087117869f656cd72bfd8dd6"><div class="ttname"><a href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a105036ef087117869f656cd72bfd8dd6">op::DisplayMode::DisplayAll</a></div></div>
+<div class="ttc" id="namespaceop_html_ae52707752b1872b39f0306cc4f6c6ae6ae18221460ca8434295f980225fd6a91b"><div class="ttname"><a href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6ae18221460ca8434295f980225fd6a91b">op::DisplayMode::Display3D</a></div></div>
+<div class="ttc" id="namespaceop_html_ae52707752b1872b39f0306cc4f6c6ae6"><div class="ttname"><a href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">op::DisplayMode</a></div><div class="ttdeci">DisplayMode</div><div class="ttdef"><b>Definition:</b> enumClasses.hpp:10</div></div>
+<div class="ttc" id="namespaceop_html_a6c22a72ce93c64e7582cb670492a50bfae7ec409749889353b8f83a6b04159420"><div class="ttname"><a href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bfae7ec409749889353b8f83a6b04159420">op::FullScreenMode::FullScreen</a></div></div>
+<div class="ttc" id="namespaceop_html_ae52707752b1872b39f0306cc4f6c6ae6a3bd9369403112127ae7db2f866002be2"><div class="ttname"><a href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a3bd9369403112127ae7db2f866002be2">op::DisplayMode::Display2D</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -11,5 +11,8 @@ var macros_8hpp =
     [ "DELETE_COPY", "macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e", null ],
     [ "OP_API", "macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000", null ],
     [ "OVERLOAD_C_OUT", "macros_8hpp.html#aa883b8ec96d2804b37d3bfb0bd4c5f16", null ],
-    [ "UNUSED", "macros_8hpp.html#af57a843cfdae82e064838c20b3b54851", null ]
+    [ "UNUSED", "macros_8hpp.html#af57a843cfdae82e064838c20b3b54851", null ],
+    [ "OPEN_POSE_NAME_AND_VERSION", "macros_8hpp.html#adcf24c45000a4f44f355f1cc3062ea49", null ],
+    [ "OPEN_POSE_NAME_STRING", "macros_8hpp.html#afda430d83b9513af7270f1d680bf5471", null ],
+    [ "OPEN_POSE_VERSION_STRING", "macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3", null ]
 ];

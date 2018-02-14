@@ -115,8 +115,6 @@ $(document).ready(function(){initNavTree('structop_1_1_datum.html','');});
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="datum_8hpp_source.html">datum.hpp</a>&gt;</code></p>
-
-<p>Inherited by <a class="el" href="structop_1_1_datum3_d.html">op::Datum3D</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -185,6 +183,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a59d455dbddc50d700809c5e102c40d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef6c478313691ab5101664c1df55aa58"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html#aef6c478313691ab5101664c1df55aa58">handHeatMaps</a></td></tr>
 <tr class="separator:aef6c478313691ab5101664c1df55aa58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a652ac1e7de13ec9a886dece75848cfea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html#a652ac1e7de13ec9a886dece75848cfea">poseKeypoints3D</a></td></tr>
+<tr class="separator:a652ac1e7de13ec9a886dece75848cfea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a44196a197d5c050e626efe8b016e84"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html#a9a44196a197d5c050e626efe8b016e84">faceKeypoints3D</a></td></tr>
+<tr class="separator:a9a44196a197d5c050e626efe8b016e84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27bb38102b5ebecd9b13a3619e658316"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html#a27bb38102b5ebecd9b13a3619e658316">handKeypoints3D</a></td></tr>
+<tr class="separator:a27bb38102b5ebecd9b13a3619e658316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2649c324c3e554fe5111fdd0b4c77b9"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html#ae2649c324c3e554fe5111fdd0b4c77b9">cameraParameterMatrix</a></td></tr>
+<tr class="separator:ae2649c324c3e554fe5111fdd0b4c77b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e416771f275be98c83aaff01e482a71"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html#a0e416771f275be98c83aaff01e482a71">scaleInputToNetInputs</a></td></tr>
 <tr class="separator:a0e416771f275be98c83aaff01e482a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32d164c01acf6b4f7eb1323d74edbdca"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html#a32d164c01acf6b4f7eb1323d74edbdca">netInputSizes</a></td></tr>
@@ -554,6 +560,19 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ae2649c324c3e554fe5111fdd0b4c77b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">cv::Mat op::Datum::cameraParameterMatrix</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>4x3 extrinsic parameter matrix of the camera. </p>
+
+</div>
+</div>
 <a class="anchor" id="a0b2c8ccac37be088524cc7c24a502c7b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -619,6 +638,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a9a44196a197d5c050e626efe8b016e84"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::Datum::faceKeypoints3D</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Face keypoints (x,y,z,score) locations for each person in the image. It has been resized to the same resolution as <code>poseKeypoints3D</code>. Size: #people x #face parts (70) x 4 ((x,y,z) coordinates + score) </p>
+
+</div>
+</div>
 <a class="anchor" id="a0b2f6955a1751fc79b107789272effad"></a>
 <div class="memitem">
 <div class="memproto">
@@ -641,7 +673,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Face pose heatmaps (hand parts and/or background) for the whole image. Analogous of faceHeatMaps applied to face. Size each <a class="el" href="classop_1_1_array.html">Array</a>: #people x #hand parts (21) x output_net_height x output_net_width </p>
+<p>Hand pose heatmaps (hand parts and/or background) for the whole image. Analogous of faceHeatMaps applied to face. Size each <a class="el" href="classop_1_1_array.html">Array</a>: #people x #hand parts (21) x output_net_height x output_net_width </p>
 
 </div>
 </div>
@@ -655,6 +687,19 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Hand keypoints (x,y,score) locations for each person in the image. It has been resized to the same resolution as <code>poseKeypoints</code>. handKeypoints[0] corresponds to left hands, and handKeypoints[1] to right ones. Size each <a class="el" href="classop_1_1_array.html">Array</a>: #people x #hand parts (21) x 3 ((x,y) coordinates + score) </p>
+
+</div>
+</div>
+<a class="anchor" id="a27bb38102b5ebecd9b13a3619e658316"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt;, 2&gt; op::Datum::handKeypoints3D</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Hand keypoints (x,y,z,score) locations for each person in the image. It has been resized to the same resolution as <code>poseKeypoints3D</code>. handKeypoints[0] corresponds to left hands, and handKeypoints[1] to right ones. Size each <a class="el" href="classop_1_1_array.html">Array</a>: #people x #hand parts (21) x 4 ((x,y,z) coordinates + score) </p>
 
 </div>
 </div>
@@ -798,6 +843,19 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Body pose (x,y,score) locations for each person in the image. It has been resized to the desired output resolution (e.g. <code>resolution</code> flag in the demo). Size: #people x #body parts (e.g. 18 for COCO or 15 for MPI) x 3 ((x,y) coordinates + score) </p>
+
+</div>
+</div>
+<a class="anchor" id="a652ac1e7de13ec9a886dece75848cfea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::Datum::poseKeypoints3D</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Body pose (x,y,z,score) locations for each person in the image. Size: #people x #body parts (e.g. 18 for COCO or 15 for MPI) x 4 ((x,y,z) coordinates + score) </p>
 
 </div>
 </div>

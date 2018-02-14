@@ -8,6 +8,6 @@ var searchData=
   ['unrollarraytoucharcvmat',['unrollArrayToUCharCvMat',['../namespaceop.html#ab8b9daed84e741afb7191fde8ed95b5e',1,'op']]],
   ['unsignedchar',['UnsignedChar',['../namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaaa93f121640d609f8772397a0f40f40d6',1,'op']]],
   ['unused',['UNUSED',['../macros_8hpp.html#af57a843cfdae82e064838c20b3b54851',1,'macros.hpp']]],
-  ['update',['update',['../classop_1_1_gui.html#a114a15db275e053a6860d201d5ba773f',1,'op::Gui']]],
+  ['update',['update',['../classop_1_1_gui.html#a8e9a67dd507598654a5db06273d50c94',1,'op::Gui::update()'],['../classop_1_1_gui3_d.html#a7dd41a7f0427f13db3f52bf9ffff75b2',1,'op::Gui3D::update()']]],
   ['updatetracker',['updateTracker',['../classop_1_1_hand_detector.html#a58513169f01ab7c705979f1f2a88b571',1,'op::HandDetector']]]
 ];
