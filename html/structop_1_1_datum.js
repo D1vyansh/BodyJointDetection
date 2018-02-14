@@ -13,7 +13,7 @@ var structop_1_1_datum =
     [ "operator==", "structop_1_1_datum.html#a731a7179ac03f831019441981455282e", null ],
     [ "operator>", "structop_1_1_datum.html#acdf94a3ee6504d8b70afffa997d52d4b", null ],
     [ "operator>=", "structop_1_1_datum.html#afcdbf1d87e08761d952d19ef6a8ace10", null ],
-    [ "cameraParameterMatrix", "structop_1_1_datum.html#ae2649c324c3e554fe5111fdd0b4c77b9", null ],
+    [ "cameraMatrix", "structop_1_1_datum.html#aeab7638276f1d9eb14847302bd0d0287", null ],
     [ "cvInputData", "structop_1_1_datum.html#a0b2c8ccac37be088524cc7c24a502c7b", null ],
     [ "cvOutputData", "structop_1_1_datum.html#a0d1f1c3d3494386e2d652268f6e17b5a", null ],
     [ "elementRendered", "structop_1_1_datum.html#a35212700ef2a2ac290a6666e2993a192", null ],

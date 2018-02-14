@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('w_pose_triangulation_8hpp_source.html'
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                <span class="comment">// Profiling speed</span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                <span class="keyword">const</span> <span class="keyword">auto</span> profilerKey = <a class="code" href="classop_1_1_profiler.html#aea2c89bcd0a661a53f47e59b9bec2be7">Profiler::timerInit</a>(__LINE__, __FUNCTION__, __FILE__);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                <span class="comment">// 3-D triangulation and reconstruction</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                std::vector&lt;cv::Mat&gt; cameraParameterMatrices;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                std::vector&lt;cv::Mat&gt; cameraMatrices;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                std::vector&lt;Array&lt;float&gt;&gt; poseKeypointVector;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                std::vector&lt;Array&lt;float&gt;&gt; faceKeypointVector;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                std::vector&lt;Array&lt;float&gt;&gt; leftHandKeypointVector;</div>
@@ -172,13 +172,13 @@ $(document).ready(function(){initNavTree('w_pose_triangulation_8hpp_source.html'
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                    faceKeypointVector.emplace_back(datumsElement.faceKeypoints);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                    leftHandKeypointVector.emplace_back(datumsElement.handKeypoints[0]);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                    rightHandKeypointVector.emplace_back(datumsElement.handKeypoints[1]);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    cameraParameterMatrices.emplace_back(datumsElement.cameraParameterMatrix);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    cameraMatrices.emplace_back(datumsElement.cameraMatrix);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                }</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                <span class="comment">// Pose 3-D reconstruction</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <span class="keyword">auto</span> poseKeypoints3D = <a class="code" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a>(poseKeypointVector, cameraParameterMatrices);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                <span class="keyword">auto</span> faceKeypoints3D = <a class="code" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a>(faceKeypointVector, cameraParameterMatrices);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                <span class="keyword">auto</span> leftHandKeypoints3D = <a class="code" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a>(leftHandKeypointVector, cameraParameterMatrices);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                <span class="keyword">auto</span> rightHandKeypoints3D = <a class="code" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a>(rightHandKeypointVector, cameraParameterMatrices);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <span class="keyword">auto</span> poseKeypoints3D = <a class="code" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a>(poseKeypointVector, cameraMatrices);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                <span class="keyword">auto</span> faceKeypoints3D = <a class="code" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a>(faceKeypointVector, cameraMatrices);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                <span class="keyword">auto</span> leftHandKeypoints3D = <a class="code" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a>(leftHandKeypointVector, cameraMatrices);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                <span class="keyword">auto</span> rightHandKeypoints3D = <a class="code" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a>(rightHandKeypointVector, cameraMatrices);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                <span class="comment">// Assign to all tDatums</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; datumsElement : *tDatums)</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                {</div>

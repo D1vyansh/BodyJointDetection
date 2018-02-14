@@ -123,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afbfa9ebf32ab1c95f0378b49fce0df35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71212bd9e00be96b09650e86d465b42c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_webcam_reader.html#a71212bd9e00be96b09650e86d465b42c">~WebcamReader</a> ()</td></tr>
 <tr class="separator:a71212bd9e00be96b09650e86d465b42c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbad75f82bf39bfd503bbc8bd881592d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_webcam_reader.html#afbad75f82bf39bfd503bbc8bd881592d">getCameraMatrices</a> ()</td></tr>
+<tr class="separator:afbad75f82bf39bfd503bbc8bd881592d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31fa72f65d40416e812ad72d43b43649"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_webcam_reader.html#a31fa72f65d40416e812ad72d43b43649">getFrameName</a> ()</td></tr>
 <tr class="separator:a31fa72f65d40416e812ad72d43b43649"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38ccbdf61f21fba0694362077cb6bdb1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_webcam_reader.html#a38ccbdf61f21fba0694362077cb6bdb1">get</a> (const int capProperty)</td></tr>
@@ -140,10 +142,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae10d37b58fe4f3daa8817b72eb3faa64 inherit pub_methods_classop_1_1_video_capture_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f73e10efe7f9b24a6cb75af2167de58 inherit pub_methods_classop_1_1_video_capture_reader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#a2f73e10efe7f9b24a6cb75af2167de58">release</a> ()</td></tr>
 <tr class="separator:a2f73e10efe7f9b24a6cb75af2167de58 inherit pub_methods_classop_1_1_video_capture_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9b111f8b4de16905a157bb6dda09f94 inherit pub_methods_classop_1_1_video_capture_reader"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#ae9b111f8b4de16905a157bb6dda09f94">get</a> (const <a class="el" href="namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774">ProducerProperty</a> property)</td></tr>
-<tr class="separator:ae9b111f8b4de16905a157bb6dda09f94 inherit pub_methods_classop_1_1_video_capture_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3a270770d13ae351d711a7353b32b9b inherit pub_methods_classop_1_1_video_capture_reader"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#ac3a270770d13ae351d711a7353b32b9b">set</a> (const <a class="el" href="namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774">ProducerProperty</a> property, const double value)</td></tr>
-<tr class="separator:ac3a270770d13ae351d711a7353b32b9b inherit pub_methods_classop_1_1_video_capture_reader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classop_1_1_producer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_producer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_producer.html">op::Producer</a></td></tr>
 <tr class="memitem:a4fe2921798031db39fef934848a23c82 inherit pub_methods_classop_1_1_producer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#a4fe2921798031db39fef934848a23c82">Producer</a> (const <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a> type)</td></tr>
 <tr class="separator:a4fe2921798031db39fef934848a23c82 inherit pub_methods_classop_1_1_producer"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,10 +149,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8b48342b2c4003a080b17ac411f3454f inherit pub_methods_classop_1_1_producer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacd96f08524772d8865bb187c881943e inherit pub_methods_classop_1_1_producer"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#aacd96f08524772d8865bb187c881943e">getFrame</a> ()</td></tr>
 <tr class="separator:aacd96f08524772d8865bb187c881943e inherit pub_methods_classop_1_1_producer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbf3df1e02d326d7c954d78aa0dca0d inherit pub_methods_classop_1_1_producer"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#a3fbf3df1e02d326d7c954d78aa0dca0d">getFrames</a> ()</td></tr>
+<tr class="separator:a3fbf3df1e02d326d7c954d78aa0dca0d inherit pub_methods_classop_1_1_producer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a024e55b4ec769cdbc40ee21613a6ef6f inherit pub_methods_classop_1_1_producer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#a024e55b4ec769cdbc40ee21613a6ef6f">setProducerFpsMode</a> (const <a class="el" href="namespaceop.html#ac0230b669b296920c0cfc41b7587268f">ProducerFpsMode</a> fpsMode)</td></tr>
 <tr class="separator:a024e55b4ec769cdbc40ee21613a6ef6f inherit pub_methods_classop_1_1_producer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a9424027e5bc8e0fba7c65eccc460e0 inherit pub_methods_classop_1_1_producer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#a9a9424027e5bc8e0fba7c65eccc460e0">getType</a> ()</td></tr>
 <tr class="separator:a9a9424027e5bc8e0fba7c65eccc460e0 inherit pub_methods_classop_1_1_producer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94d561f95384dfa0cd91113882869d06 inherit pub_methods_classop_1_1_producer"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#a94d561f95384dfa0cd91113882869d06">get</a> (const <a class="el" href="namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774">ProducerProperty</a> property)</td></tr>
+<tr class="separator:a94d561f95384dfa0cd91113882869d06 inherit pub_methods_classop_1_1_producer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af11f1bbfbd61b9534c02c3e4839e19b0 inherit pub_methods_classop_1_1_producer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#af11f1bbfbd61b9534c02c3e4839e19b0">set</a> (const <a class="el" href="namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774">ProducerProperty</a> property, const double value)</td></tr>
+<tr class="separator:af11f1bbfbd61b9534c02c3e4839e19b0 inherit pub_methods_classop_1_1_producer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -273,6 +277,33 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>double returning the property value. </dd></dl>
 
 <p>Implements <a class="el" href="classop_1_1_video_capture_reader.html#a64e5cbfb1c556d64cabcebc6eb94eaf1">op::VideoCaptureReader</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afbad75f82bf39bfd503bbc8bd881592d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;cv::Mat&gt; op::WebcamReader::getCameraMatrices </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>It retrieves and returns the camera matrixes from the frames producer. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;cv::Mat&gt; with the camera matrices. </dd></dl>
+
+<p>Implements <a class="el" href="classop_1_1_producer.html#a06c471d5ac26fa20b323742ad4556104">op::Producer</a>.</p>
 
 </div>
 </div>

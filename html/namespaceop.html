@@ -163,8 +163,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_scale_and_size_extractor.html">WScaleAndSizeExtractor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_flir_reader.html">WFlirReader</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_id_extractor.html">PersonIdExtractor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_person_id_extractor.html">WPersonIdExtractor</a></td></tr>
@@ -280,6 +278,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_pose_renderer.html">WPoseRenderer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_datum_producer.html">DatumProducer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_flir_reader.html">FlirReader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_image_directory_reader.html">ImageDirectoryReader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -431,12 +431,13 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:abc501c56c6cf6cf1989c84b1692cb774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54b73745852c270cfd891eed0f6f2332"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a> : unsigned char { <br/>
-&#160;&#160;<a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332a54a365e86ee42cff91ca36532c9bbabf">ProducerType::ImageDirectory</a>, 
+&#160;&#160;<a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332af436d4d7a472ac39a7cb227e3ea24f8d">ProducerType::FlirCamera</a>, 
+<a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332a54a365e86ee42cff91ca36532c9bbabf">ProducerType::ImageDirectory</a>, 
 <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332af40a40a04a078c4449cda2f326d7fb18">ProducerType::IPCamera</a>, 
 <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332a34e2d1989a1dbf75cd631596133ee5ee">ProducerType::Video</a>, 
-<a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332ae2faa2a74b6a4134d0b3e84c7c0e2a01">ProducerType::Webcam</a>, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332a6adf97f83acf6453d4a6a4b1070f3754">ProducerType::None</a>
+&#160;&#160;<a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332ae2faa2a74b6a4134d0b3e84c7c0e2a01">ProducerType::Webcam</a>, 
+<a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332a6adf97f83acf6453d4a6a4b1070f3754">ProducerType::None</a>
 <br/>
  }</td></tr>
 <tr class="separator:a54b73745852c270cfd891eed0f6f2332"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -471,6 +472,14 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a9f5d182aa1bd043391165e3f38f51bd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a9f5d182aa1bd043391165e3f38f51bd7">getIntrinsics</a> (const int cameraIndex)</td></tr>
+<tr class="separator:a9f5d182aa1bd043391165e3f38f51bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c638486a8791c7c3bd652682823fb0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6c638486a8791c7c3bd652682823fb0b">getDistorsion</a> (const int cameraIndex)</td></tr>
+<tr class="separator:a6c638486a8791c7c3bd652682823fb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34c8a6e6a2dd93488a416814c40fc8ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a34c8a6e6a2dd93488a416814c40fc8ae">getM</a> (const int cameraIndex)</td></tr>
+<tr class="separator:a34c8a6e6a2dd93488a416814c40fc8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6183a85d3790e568f4994c2ee661247d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6183a85d3790e568f4994c2ee661247d">getNumberCameras</a> ()</td></tr>
+<tr class="separator:a6183a85d3790e568f4994c2ee661247d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebaf536d172c504ac2bdd3e9f7bcf6fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a> (const std::vector&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&gt; &amp;keypointsVector, const std::vector&lt; cv::Mat &gt; &amp;matrixEachCamera)</td></tr>
 <tr class="separator:aebaf536d172c504ac2bdd3e9f7bcf6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53f346232d0743f3dd0f547de1fc508f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a53f346232d0743f3dd0f547de1fc508f">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_pose_triangulation.html">WPoseTriangulation</a>)</td></tr>
@@ -508,14 +517,6 @@ Functions</h2></td></tr>
 <tr class="separator:a1d9f50688522ed7368acc33a09ae9ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaca98fe6101cda512a43c513182ae5cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aaca98fe6101cda512a43c513182ae5cc">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_scale_and_size_extractor.html">WScaleAndSizeExtractor</a>)</td></tr>
 <tr class="separator:aaca98fe6101cda512a43c513182ae5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f5d182aa1bd043391165e3f38f51bd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a9f5d182aa1bd043391165e3f38f51bd7">getIntrinsics</a> (const int cameraIndex)</td></tr>
-<tr class="separator:a9f5d182aa1bd043391165e3f38f51bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c638486a8791c7c3bd652682823fb0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6c638486a8791c7c3bd652682823fb0b">getDistorsion</a> (const int cameraIndex)</td></tr>
-<tr class="separator:a6c638486a8791c7c3bd652682823fb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34c8a6e6a2dd93488a416814c40fc8ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a34c8a6e6a2dd93488a416814c40fc8ae">getM</a> (const int cameraIndex)</td></tr>
-<tr class="separator:a34c8a6e6a2dd93488a416814c40fc8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6183a85d3790e568f4994c2ee661247d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6183a85d3790e568f4994c2ee661247d">getNumberCameras</a> ()</td></tr>
-<tr class="separator:a6183a85d3790e568f4994c2ee661247d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a674a652ad38b355285417529fc050847"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a674a652ad38b355285417529fc050847">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_person_id_extractor.html">WPersonIdExtractor</a>)</td></tr>
 <tr class="separator:a674a652ad38b355285417529fc050847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fc85e8500dbeda3b75c1b6ecfac91cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a5fc85e8500dbeda3b75c1b6ecfac91cd">renderFaceKeypointsCpu</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;frameArray, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;faceKeypoints, const float renderThreshold)</td></tr>
@@ -786,10 +787,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa4a6fee7ba2cc543739477e9c1d64136"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fbdd7c33f90d0237582c9441162a7d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1fbdd7c33f90d0237582c9441162a7d8">flagsToProducerType</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const bool flirCamera)</td></tr>
 <tr class="separator:a1fbdd7c33f90d0237582c9441162a7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a266801b568c885ef280c41ea82f3871f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a266801b568c885ef280c41ea82f3871f">flagsToProducer</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const std::string &amp;webcamResolution=&quot;1280x720&quot;, const double webcamFps=30.)</td></tr>
-<tr class="separator:a266801b568c885ef280c41ea82f3871f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaa63fe1bf09e04dfdee3c23e0debde9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#abaa63fe1bf09e04dfdee3c23e0debde9">flagsToProducer</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const bool flirCamera, const std::string &amp;webcamResolution, const double webcamFps)</td></tr>
-<tr class="separator:abaa63fe1bf09e04dfdee3c23e0debde9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ef62dc08ec0a13e3acb330535f9e8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a65ef62dc08ec0a13e3acb330535f9e8e">flagsToProducer</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const bool flirCamera=false, const std::string &amp;webcamResolution=&quot;1280x720&quot;, const double webcamFps=30.)</td></tr>
+<tr class="separator:a65ef62dc08ec0a13e3acb330535f9e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3b02ca66d11f4129372f4a9f98c6437"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ad3b02ca66d11f4129372f4a9f98c6437">flagsToHeatMaps</a> (const bool heatMapsAddParts=false, const bool heatMapsAddBkg=false, const bool heatMapsAddPAFs=false)</td></tr>
 <tr class="separator:ad3b02ca66d11f4129372f4a9f98c6437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4526c07c6dafe2a5e3437b66d20a6dd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#afce557f02e337e16150d00bdf72ec033">RenderMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a4526c07c6dafe2a5e3437b66d20a6dd3">flagsToRenderMode</a> (const int renderFlag, const int renderPoseFlag=-2)</td></tr>
@@ -1313,7 +1312,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>Type of producers An enum class in which all the possible type of <a class="el" href="classop_1_1_producer.html">Producer</a> are included. In order to add a new <a class="el" href="classop_1_1_producer.html">Producer</a>, include its name in this enum and add a new 'else if' statement inside ProducerFactory::createProducer(). </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a54b73745852c270cfd891eed0f6f2332a54a365e86ee42cff91ca36532c9bbabf"></a>ImageDirectory</em>&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a54b73745852c270cfd891eed0f6f2332af436d4d7a472ac39a7cb227e3ea24f8d"></a>FlirCamera</em>&#160;</td><td class="fielddoc">
+<p>Stereo FLIR (Point-Grey) camera reader. Based on Spinnaker SDK. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a54b73745852c270cfd891eed0f6f2332a54a365e86ee42cff91ca36532c9bbabf"></a>ImageDirectory</em>&#160;</td><td class="fielddoc">
 <p>An image directory reader. It is able to read images on a folder with a interface similar to the OpenCV cv::VideoCapture. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a54b73745852c270cfd891eed0f6f2332af40a40a04a078c4449cda2f326d7fb18"></a>IPCamera</em>&#160;</td><td class="fielddoc">
@@ -2130,6 +2132,22 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a47758c703fccdbb65c26dc7bc4022237"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WKeypointScaler&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="af46e80e6bac0f815006759df4c9d00c3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2210,22 +2228,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a47758c703fccdbb65c26dc7bc4022237"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WKeypointScaler&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a505ea16cc6c2c0068bbf4e7269dc8e0a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2250,6 +2252,38 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WCvMatToOpOutput&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaee32c4c68404e5086844bcb911b7a20"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WKeepTopNPeople&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaca98fe6101cda512a43c513182ae5cc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WScaleAndSizeExtractor&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2290,22 +2324,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aaee32c4c68404e5086844bcb911b7a20"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WKeepTopNPeople&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ac610051ddb4703c80e6ee73f77f6df8a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2314,22 +2332,6 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WFaceExtractor&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aaca98fe6101cda512a43c513182ae5cc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WScaleAndSizeExtractor&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -3152,57 +3154,7 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a266801b568c885ef280c41ea82f3871f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt;<a class="el" href="classop_1_1_producer.html">Producer</a>&gt; op::flagsToProducer </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>imageDirectory</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>videoPath</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>ipCameraPath</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>webcamIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>webcamResolution</em> = <code>&quot;1280x720&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double&#160;</td>
-          <td class="paramname"><em>webcamFps</em> = <code>30.</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="abaa63fe1bf09e04dfdee3c23e0debde9"></a>
+<a class="anchor" id="a65ef62dc08ec0a13e3acb330535f9e8e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3234,19 +3186,19 @@ template&lt;class T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>flirCamera</em>, </td>
+          <td class="paramname"><em>flirCamera</em> = <code>false</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>webcamResolution</em>, </td>
+          <td class="paramname"><em>webcamResolution</em> = <code>&quot;1280x720&quot;</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const double&#160;</td>
-          <td class="paramname"><em>webcamFps</em>&#160;</td>
+          <td class="paramname"><em>webcamFps</em> = <code>30.</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

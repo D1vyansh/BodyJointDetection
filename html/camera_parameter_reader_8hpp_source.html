@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/experimental/3d/headers.hpp Source File</title>
+<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/3d/cameraParameterReader.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('experimental_23d_2headers_8hpp_source.html','');});
+$(document).ready(function(){initNavTree('camera_parameter_reader_8hpp_source.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -104,25 +104,39 @@ $(document).ready(function(){initNavTree('experimental_23d_2headers_8hpp_source.
 
 <div class="header">
   <div class="headertitle">
-<div class="title">headers.hpp</div>  </div>
+<div class="title">cameraParameterReader.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="experimental_23d_2headers_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENPOSE_EXPERIMENTAL_3D_HEADERS_HPP</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENPOSE_EXPERIMENTAL_3D_HEADERS_HPP</span></div>
+<a href="camera_parameter_reader_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENPOSE_EXPERIMENTAL_3D_CAMERA_PARAMETER_READER_HPP</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENPOSE_EXPERIMENTAL_3D_CAMERA_PARAMETER_READER_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// 3d module</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="camera_parameters_8hpp.html">openpose/experimental/3d/cameraParameters.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="flir_reader_8hpp.html">openpose/experimental/3d/flirReader.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#endif // OPENPOSE_EXPERIMENTAL_3D_HEADERS_HPP</span></div>
-<div class="ttc" id="camera_parameters_8hpp_html"><div class="ttname"><a href="camera_parameters_8hpp.html">cameraParameters.hpp</a></div></div>
-<div class="ttc" id="flir_reader_8hpp_html"><div class="ttname"><a href="flir_reader_8hpp.html">flirReader.hpp</a></div></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;opencv2/core/core.hpp&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="common_8hpp.html">openpose/core/common.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="namespaceop.html">    7</a></span>&#160;<span class="keyword">namespace </span>op</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <span class="keyword">const</span> cv::Mat <a class="code" href="namespaceop.html#a9f5d182aa1bd043391165e3f38f51bd7">getIntrinsics</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> cameraIndex);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <span class="keyword">const</span> cv::Mat <a class="code" href="namespaceop.html#a6c638486a8791c7c3bd652682823fb0b">getDistorsion</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> cameraIndex);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> cv::Mat <a class="code" href="namespaceop.html#a34c8a6e6a2dd93488a416814c40fc8ae">getM</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> cameraIndex);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> <a class="code" href="namespaceop.html#a6183a85d3790e568f4994c2ee661247d">getNumberCameras</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif // OPENPOSE_EXPERIMENTAL_3D_CAMERA_PARAMETER_READER_HPP</span></div>
+<div class="ttc" id="namespaceop_html_a6c638486a8791c7c3bd652682823fb0b"><div class="ttname"><a href="namespaceop.html#a6c638486a8791c7c3bd652682823fb0b">op::getDistorsion</a></div><div class="ttdeci">OP_API const cv::Mat getDistorsion(const int cameraIndex)</div></div>
+<div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
+<div class="ttc" id="namespaceop_html_a6183a85d3790e568f4994c2ee661247d"><div class="ttname"><a href="namespaceop.html#a6183a85d3790e568f4994c2ee661247d">op::getNumberCameras</a></div><div class="ttdeci">OP_API unsigned long long getNumberCameras()</div></div>
+<div class="ttc" id="namespaceop_html_a34c8a6e6a2dd93488a416814c40fc8ae"><div class="ttname"><a href="namespaceop.html#a34c8a6e6a2dd93488a416814c40fc8ae">op::getM</a></div><div class="ttdeci">OP_API cv::Mat getM(const int cameraIndex)</div></div>
+<div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:15</div></div>
+<div class="ttc" id="namespaceop_html_a9f5d182aa1bd043391165e3f38f51bd7"><div class="ttname"><a href="namespaceop.html#a9f5d182aa1bd043391165e3f38f51bd7">op::getIntrinsics</a></div><div class="ttdeci">OP_API const cv::Mat getIntrinsics(const int cameraIndex)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_064336ecb4157cb3f6fdf6ebb1eb8973.html">experimental</a></li><li class="navelem"><a class="el" href="dir_6905540930e2894785a7f1c5aa3bda2e.html">3d</a></li><li class="navelem"><a class="el" href="experimental_23d_2headers_8hpp.html">headers.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_42711a84df077d9f3052c908e6dd3c59.html">3d</a></li><li class="navelem"><a class="el" href="camera_parameter_reader_8hpp.html">cameraParameterReader.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

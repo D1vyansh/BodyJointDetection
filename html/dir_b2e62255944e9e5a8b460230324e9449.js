@@ -4,6 +4,9 @@ var dir_b2e62255944e9e5a8b460230324e9449 =
       [ "DatumProducer", "classop_1_1_datum_producer.html", "classop_1_1_datum_producer" ]
     ] ],
     [ "enumClasses.hpp", "producer_2enum_classes_8hpp.html", "producer_2enum_classes_8hpp" ],
+    [ "flirReader.hpp", "flir_reader_8hpp.html", [
+      [ "FlirReader", "classop_1_1_flir_reader.html", "classop_1_1_flir_reader" ]
+    ] ],
     [ "headers.hpp", "producer_2headers_8hpp.html", null ],
     [ "imageDirectoryReader.hpp", "image_directory_reader_8hpp.html", [
       [ "ImageDirectoryReader", "classop_1_1_image_directory_reader.html", "classop_1_1_image_directory_reader" ]

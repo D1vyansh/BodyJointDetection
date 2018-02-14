@@ -63,6 +63,7 @@ var hierarchy =
       [ "op::PoseGpuRenderer", "classop_1_1_pose_gpu_renderer.html", null ]
     ] ],
     [ "op::Producer", "classop_1_1_producer.html", [
+      [ "op::FlirReader", "classop_1_1_flir_reader.html", null ],
       [ "op::ImageDirectoryReader", "classop_1_1_image_directory_reader.html", null ],
       [ "op::VideoCaptureReader", "classop_1_1_video_capture_reader.html", [
         [ "op::IpCameraReader", "classop_1_1_ip_camera_reader.html", null ],
@@ -138,11 +139,6 @@ var hierarchy =
       [ "op::WPoseTriangulation< TDatums >", "classop_1_1_w_pose_triangulation.html", null ],
       [ "op::WQueueOrderer< TDatums >", "classop_1_1_w_queue_orderer.html", null ],
       [ "op::WScaleAndSizeExtractor< TDatums >", "classop_1_1_w_scale_and_size_extractor.html", null ]
-    ] ],
-    [ "op::Worker< std::shared_ptr< std::vector< Datum > > >", "classop_1_1_worker.html", [
-      [ "op::WorkerProducer< std::shared_ptr< std::vector< Datum > > >", "classop_1_1_worker_producer.html", [
-        [ "op::WFlirReader", "classop_1_1_w_flir_reader.html", null ]
-      ] ]
     ] ],
     [ "op::Wrapper< TDatums, TWorker, TQueue >", "classop_1_1_wrapper.html", null ],
     [ "op::WrapperStructFace", "structop_1_1_wrapper_struct_face.html", null ],

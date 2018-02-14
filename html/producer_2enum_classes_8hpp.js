@@ -11,6 +11,7 @@ var producer_2enum_classes_8hpp =
       [ "Size", "producer_2enum_classes_8hpp.html#abc501c56c6cf6cf1989c84b1692cb774a6f6cb72d544962fa333e2e34ce64f719", null ]
     ] ],
     [ "ProducerType", "producer_2enum_classes_8hpp.html#a54b73745852c270cfd891eed0f6f2332", [
+      [ "FlirCamera", "producer_2enum_classes_8hpp.html#a54b73745852c270cfd891eed0f6f2332af436d4d7a472ac39a7cb227e3ea24f8d", null ],
       [ "ImageDirectory", "producer_2enum_classes_8hpp.html#a54b73745852c270cfd891eed0f6f2332a54a365e86ee42cff91ca36532c9bbabf", null ],
       [ "IPCamera", "producer_2enum_classes_8hpp.html#a54b73745852c270cfd891eed0f6f2332af40a40a04a078c4449cda2f326d7fb18", null ],
       [ "Video", "producer_2enum_classes_8hpp.html#a54b73745852c270cfd891eed0f6f2332a34e2d1989a1dbf75cd631596133ee5ee", null ],
