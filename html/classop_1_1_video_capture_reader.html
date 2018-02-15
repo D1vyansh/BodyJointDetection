@@ -128,8 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a41eac24222b6f0f62d8bf6b40e36e353"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ea52eabf5133a1a01d38f95b1a4b601"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#a7ea52eabf5133a1a01d38f95b1a4b601">~VideoCaptureReader</a> ()</td></tr>
 <tr class="separator:a7ea52eabf5133a1a01d38f95b1a4b601"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83b4cd38f8eb2182711c506e84d97253"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#a83b4cd38f8eb2182711c506e84d97253">getFrameName</a> ()=0</td></tr>
-<tr class="separator:a83b4cd38f8eb2182711c506e84d97253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06348fd9a290fc2ece2f3c2e4dc9bc70"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#a06348fd9a290fc2ece2f3c2e4dc9bc70">getNextFrameName</a> ()=0</td></tr>
+<tr class="separator:a06348fd9a290fc2ece2f3c2e4dc9bc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae10d37b58fe4f3daa8817b72eb3faa64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#ae10d37b58fe4f3daa8817b72eb3faa64">isOpened</a> () const </td></tr>
 <tr class="separator:ae10d37b58fe4f3daa8817b72eb3faa64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f73e10efe7f9b24a6cb75af2167de58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#a2f73e10efe7f9b24a6cb75af2167de58">release</a> ()</td></tr>
@@ -321,7 +321,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a83b4cd38f8eb2182711c506e84d97253"></a>
+<a class="anchor" id="a06348fd9a290fc2ece2f3c2e4dc9bc70"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -329,7 +329,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string op::VideoCaptureReader::getFrameName </td>
+          <td class="memname">virtual std::string op::VideoCaptureReader::getNextFrameName </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -344,9 +344,9 @@ Protected Member Functions</h2></td></tr>
 <p>This function returns a unique frame name (e.g. the frame number for video, the frame counter for webcam, the image name for image directory reader, etc.). </p>
 <dl class="section return"><dt>Returns</dt><dd>std::string with an unique frame name. </dd></dl>
 
-<p>Implements <a class="el" href="classop_1_1_producer.html#adc348105fca58f18e39aa3439e2d627b">op::Producer</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_producer.html#ab35d570dc35573433ec86e3fce25e545">op::Producer</a>.</p>
 
-<p>Implemented in <a class="el" href="classop_1_1_webcam_reader.html#a31fa72f65d40416e812ad72d43b43649">op::WebcamReader</a>, <a class="el" href="classop_1_1_video_reader.html#a28244ab83836e0d0b2a896f33ad34403">op::VideoReader</a>, and <a class="el" href="classop_1_1_ip_camera_reader.html#a2277d9a58316bfb4314bf345369e37c1">op::IpCameraReader</a>.</p>
+<p>Implemented in <a class="el" href="classop_1_1_webcam_reader.html#a58c315e577c12486e5ab1b941d4cce04">op::WebcamReader</a>, <a class="el" href="classop_1_1_video_reader.html#a508eed918fbe3bfe3eff4c1ebacb3463">op::VideoReader</a>, and <a class="el" href="classop_1_1_ip_camera_reader.html#a0c1582090cc7c54dd9cb752207b52986">op::IpCameraReader</a>.</p>
 
 </div>
 </div>

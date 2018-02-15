@@ -130,8 +130,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3fbf3df1e02d326d7c954d78aa0dca0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06c471d5ac26fa20b323742ad4556104"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#a06c471d5ac26fa20b323742ad4556104">getCameraMatrices</a> ()=0</td></tr>
 <tr class="separator:a06c471d5ac26fa20b323742ad4556104"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc348105fca58f18e39aa3439e2d627b"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#adc348105fca58f18e39aa3439e2d627b">getFrameName</a> ()=0</td></tr>
-<tr class="separator:adc348105fca58f18e39aa3439e2d627b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab35d570dc35573433ec86e3fce25e545"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#ab35d570dc35573433ec86e3fce25e545">getNextFrameName</a> ()=0</td></tr>
+<tr class="separator:ab35d570dc35573433ec86e3fce25e545"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a024e55b4ec769cdbc40ee21613a6ef6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#a024e55b4ec769cdbc40ee21613a6ef6f">setProducerFpsMode</a> (const <a class="el" href="namespaceop.html#ac0230b669b296920c0cfc41b7587268f">ProducerFpsMode</a> fpsMode)</td></tr>
 <tr class="separator:a024e55b4ec769cdbc40ee21613a6ef6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a9424027e5bc8e0fba7c65eccc460e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#a9a9424027e5bc8e0fba7c65eccc460e0">getType</a> ()</td></tr>
@@ -386,33 +386,6 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adc348105fca58f18e39aa3439e2d627b"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual std::string op::Producer::getFrameName </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>This function returns a unique frame name (e.g. the frame number for video, the frame counter for webcam, the image name for image directory reader, etc.). </p>
-<dl class="section return"><dt>Returns</dt><dd>std::string with an unique frame name. </dd></dl>
-
-<p>Implemented in <a class="el" href="classop_1_1_video_capture_reader.html#a83b4cd38f8eb2182711c506e84d97253">op::VideoCaptureReader</a>, <a class="el" href="classop_1_1_webcam_reader.html#a31fa72f65d40416e812ad72d43b43649">op::WebcamReader</a>, <a class="el" href="classop_1_1_flir_reader.html#a9f22ac3a8f7c7b032f43562c2c87f673">op::FlirReader</a>, <a class="el" href="classop_1_1_image_directory_reader.html#a964d60140081c79353b637405dda962c">op::ImageDirectoryReader</a>, <a class="el" href="classop_1_1_video_reader.html#a28244ab83836e0d0b2a896f33ad34403">op::VideoReader</a>, and <a class="el" href="classop_1_1_ip_camera_reader.html#a2277d9a58316bfb4314bf345369e37c1">op::IpCameraReader</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a3fbf3df1e02d326d7c954d78aa0dca0d"></a>
 <div class="memitem">
 <div class="memproto">
@@ -427,6 +400,33 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Analogous to getFrame, but it could return &gt; 1 frame. </p>
 <dl class="section return"><dt>Returns</dt><dd>std::vector&lt;cv::Mat&gt; with the new frame(s). </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab35d570dc35573433ec86e3fce25e545"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::string op::Producer::getNextFrameName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This function returns a unique frame name (e.g. the frame number for video, the frame counter for webcam, the image name for image directory reader, etc.). </p>
+<dl class="section return"><dt>Returns</dt><dd>std::string with an unique frame name. </dd></dl>
+
+<p>Implemented in <a class="el" href="classop_1_1_video_capture_reader.html#a06348fd9a290fc2ece2f3c2e4dc9bc70">op::VideoCaptureReader</a>, <a class="el" href="classop_1_1_webcam_reader.html#a58c315e577c12486e5ab1b941d4cce04">op::WebcamReader</a>, <a class="el" href="classop_1_1_flir_reader.html#a711db0919bd7516fde3e641c13259637">op::FlirReader</a>, <a class="el" href="classop_1_1_image_directory_reader.html#a46ce23209afe6d3ca90db545b69cd04a">op::ImageDirectoryReader</a>, <a class="el" href="classop_1_1_video_reader.html#a508eed918fbe3bfe3eff4c1ebacb3463">op::VideoReader</a>, and <a class="el" href="classop_1_1_ip_camera_reader.html#a0c1582090cc7c54dd9cb752207b52986">op::IpCameraReader</a>.</p>
 
 </div>
 </div>
