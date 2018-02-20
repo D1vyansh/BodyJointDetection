@@ -119,8 +119,8 @@ $(document).ready(function(){initNavTree('classop_1_1_image_directory_reader.htm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3362f046204ba85d9a25b2b8fa62b6c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_image_directory_reader.html#a3362f046204ba85d9a25b2b8fa62b6c3">ImageDirectoryReader</a> (const std::string &amp;imageDirectoryPath)</td></tr>
-<tr class="separator:a3362f046204ba85d9a25b2b8fa62b6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae925d9314bfd948296d76475219b3594"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_image_directory_reader.html#ae925d9314bfd948296d76475219b3594">ImageDirectoryReader</a> (const std::string &amp;imageDirectoryPath, const unsigned int imageDirectoryStereo=1, const std::string &amp;cameraParameterPath=&quot;&quot;)</td></tr>
+<tr class="separator:ae925d9314bfd948296d76475219b3594"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e6c27d0796e087a6975c607d4b4227a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_image_directory_reader.html#a7e6c27d0796e087a6975c607d4b4227a">getCameraMatrices</a> ()</td></tr>
 <tr class="separator:a7e6c27d0796e087a6975c607d4b4227a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46ce23209afe6d3ca90db545b69cd04a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_image_directory_reader.html#a46ce23209afe6d3ca90db545b69cd04a">getNextFrameName</a> ()</td></tr>
@@ -166,7 +166,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classop_1_1_image_directory_reader.html">ImageDirectoryReader</a> is an abstract class to extract frames from a image directory. Its interface imitates the cv::VideoCapture class, so it can be used quite similarly to the cv::VideoCapture class. Thus, it is quite similar to <a class="el" href="classop_1_1_video_reader.html">VideoReader</a> and <a class="el" href="classop_1_1_webcam_reader.html">WebcamReader</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a3362f046204ba85d9a25b2b8fa62b6c3"></a>
+<a class="anchor" id="ae925d9314bfd948296d76475219b3594"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -177,8 +177,24 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">op::ImageDirectoryReader::ImageDirectoryReader </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>imageDirectoryPath</em></td><td>)</td>
+          <td class="paramname"><em>imageDirectoryPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>imageDirectoryStereo</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>cameraParameterPath</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -191,6 +207,8 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">imageDirectoryPath</td><td>const std::string parameter with the folder path containing the images. </td></tr>
+    <tr><td class="paramname">imageDirectoryStereo</td><td>const int parameter with the number of images per iteration (&gt;1 would represent stereo processing). </td></tr>
+    <tr><td class="paramname">cameraParameterPath</td><td>const std::string parameter with the folder path containing the camera parameters (only required if imageDirectorystereo &gt; 1). </td></tr>
   </table>
   </dd>
 </dl>

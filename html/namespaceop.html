@@ -785,8 +785,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa4a6fee7ba2cc543739477e9c1d64136"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fbdd7c33f90d0237582c9441162a7d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1fbdd7c33f90d0237582c9441162a7d8">flagsToProducerType</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const bool flirCamera)</td></tr>
 <tr class="separator:a1fbdd7c33f90d0237582c9441162a7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb513b0ba475e18d51eb5f7f6b2a7cab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#abb513b0ba475e18d51eb5f7f6b2a7cab">flagsToProducer</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const bool flirCamera=false, const std::string &amp;webcamResolution=&quot;1280x720&quot;, const double webcamFps=30., const std::string &amp;cameraParameterPath=&quot;models/cameraParameters/&quot;)</td></tr>
-<tr class="separator:abb513b0ba475e18d51eb5f7f6b2a7cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06655f73071b27f322927d66861ba583"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a06655f73071b27f322927d66861ba583">flagsToProducer</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const bool flirCamera=false, const std::string &amp;webcamResolution=&quot;1280x720&quot;, const double webcamFps=30., const std::string &amp;cameraParameterPath=&quot;models/cameraParameters/&quot;, const unsigned int imageDirectoryStereo=1)</td></tr>
+<tr class="separator:a06655f73071b27f322927d66861ba583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3b02ca66d11f4129372f4a9f98c6437"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ad3b02ca66d11f4129372f4a9f98c6437">flagsToHeatMaps</a> (const bool heatMapsAddParts=false, const bool heatMapsAddBkg=false, const bool heatMapsAddPAFs=false)</td></tr>
 <tr class="separator:ad3b02ca66d11f4129372f4a9f98c6437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4526c07c6dafe2a5e3437b66d20a6dd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#afce557f02e337e16150d00bdf72ec033">RenderMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a4526c07c6dafe2a5e3437b66d20a6dd3">flagsToRenderMode</a> (const int renderFlag, const int renderPoseFlag=-2)</td></tr>
@@ -3168,7 +3168,7 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="abb513b0ba475e18d51eb5f7f6b2a7cab"></a>
+<a class="anchor" id="a06655f73071b27f322927d66861ba583"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3218,7 +3218,13 @@ template&lt;class T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>cameraParameterPath</em> = <code>&quot;models/cameraParameters/&quot;</code>&#160;</td>
+          <td class="paramname"><em>cameraParameterPath</em> = <code>&quot;models/cameraParameters/&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>imageDirectoryStereo</em> = <code>1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
