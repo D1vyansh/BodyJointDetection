@@ -67,7 +67,7 @@ var searchData=
   ['sources',['Sources',['../classcl_1_1_program.html#ad260abbeb288ec0cc18d5184bf07b14a',1,'cl::Program']]],
   ['spelementtorender',['spElementToRender',['../classop_1_1_renderer.html#aca8ebf0c0a50b87f0be82afa090155a0',1,'op::Renderer']]],
   ['spgpumemory',['spGpuMemory',['../classop_1_1_gpu_renderer.html#a5d729aab549908c758953be742dd0115',1,'op::GpuRenderer']]],
-  ['spinnakerwrapper',['SpinnakerWrapper',['../classop_1_1_spinnaker_wrapper.html#afdeddd08b2b77f86130565194288c3c2',1,'op::SpinnakerWrapper']]],
+  ['spinnakerwrapper',['SpinnakerWrapper',['../classop_1_1_spinnaker_wrapper.html#ac7a7064093ee6b863f92c8c3317ebaf7',1,'op::SpinnakerWrapper']]],
   ['spinnakerwrapper',['SpinnakerWrapper',['../classop_1_1_spinnaker_wrapper.html',1,'op']]],
   ['spinnakerwrapper_2ehpp',['spinnakerWrapper.hpp',['../spinnaker_wrapper_8hpp.html',1,'']]],
   ['spisrunning',['spIsRunning',['../classop_1_1_gui.html#a0ad7be7018e634769da8d22d60e7edc0',1,'op::Gui']]],
