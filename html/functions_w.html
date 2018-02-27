@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -133,7 +135,7 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -146,6 +148,9 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_w"></a>- w -</h3><ul>
+<li>wait()
+: <a class="el" href="classcl_1_1_event.html#abb1dccd98dc3cee29bd6638bc71005cb">cl::Event</a>
+</li>
 <li>waitAndEmplace()
 : <a class="el" href="classop_1_1_queue_base.html#a8a5d53c7b66fd0ef34b3e276f586e355">op::QueueBase&lt; TDatums, TQueue &gt;</a>
 , <a class="el" href="classop_1_1_thread_manager.html#a36bd8060a4f7f449a8aa35d9a166270d">op::ThreadManager&lt; TDatums, TWorker, TQueue &gt;</a>
@@ -160,6 +165,9 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
 : <a class="el" href="classop_1_1_queue_base.html#ab28c5805dd23117c8d6d82d59617bb95">op::QueueBase&lt; TDatums, TQueue &gt;</a>
 , <a class="el" href="classop_1_1_thread_manager.html#abfa315257b3e8cd022573f439b4936ec">op::ThreadManager&lt; TDatums, TWorker, TQueue &gt;</a>
 , <a class="el" href="classop_1_1_wrapper.html#acb7c1cff00cd254216b92a0698bf2b6f">op::Wrapper&lt; TDatums, TWorker, TQueue &gt;</a>
+</li>
+<li>waitForEvents()
+: <a class="el" href="classcl_1_1_event.html#ae84b90e930f72c1019435dd7cefa2fbd">cl::Event</a>
 </li>
 <li>WCocoJsonSaver()
 : <a class="el" href="classop_1_1_w_coco_json_saver.html#a508c1105406b3cc55dc6bd1b299f6ed3">op::WCocoJsonSaver&lt; TDatums &gt;</a>
@@ -320,7 +328,9 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
 : <a class="el" href="classop_1_1_w_queue_orderer.html#a3303add5fa8cc36593d3d859ffdd8ae0">op::WQueueOrderer&lt; TDatums &gt;</a>
 </li>
 <li>Wrapper()
-: <a class="el" href="classop_1_1_wrapper.html#adec2ef07f9796142254cd6dd9a2bf318">op::Wrapper&lt; TDatums, TWorker, TQueue &gt;</a>
+: <a class="el" href="classcl_1_1detail_1_1_wrapper.html#a98dce667e0f400f2ba15a8a8d65fdea0">cl::detail::Wrapper&lt; T &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#a0abf5113a5123b8de94685ddfa214bd0">cl::detail::Wrapper&lt; cl_device_id &gt;</a>
+, <a class="el" href="classop_1_1_wrapper.html#adec2ef07f9796142254cd6dd9a2bf318">op::Wrapper&lt; TDatums, TWorker, TQueue &gt;</a>
 </li>
 <li>WrapperStructFace()
 : <a class="el" href="structop_1_1_wrapper_struct_face.html#a48844c4c23c71372258518015d0b81b1">op::WrapperStructFace</a>
@@ -338,7 +348,7 @@ $(document).ready(function(){initNavTree('functions_w.html','');});
 : <a class="el" href="structop_1_1_wrapper_struct_pose.html#adf01f3ff1336d3fcdf0546f8b8c916be">op::WrapperStructPose</a>
 </li>
 <li>write()
-: <a class="el" href="classop_1_1_video_saver.html#a7c79397b9be8b6d6d12b9f3e78e6c794">op::VideoSaver</a>
+: <a class="el" href="classop_1_1_video_saver.html#a3cdbef8bada237edffaf7793eaa0fe8e">op::VideoSaver</a>
 </li>
 <li>writeCocoJson
 : <a class="el" href="structop_1_1_wrapper_struct_output.html#a6efbd77da8ebcea3abc4109bb2f39c0b">op::WrapperStructOutput</a>

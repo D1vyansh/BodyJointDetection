@@ -1,8 +1,13 @@
 var searchData=
 [
   ['macros_2ehpp',['macros.hpp',['../macros_8hpp.html',1,'']]],
+  ['make_5fkernel',['make_kernel',['../structcl_1_1compatibility_1_1make__kernel.html',1,'cl::compatibility']]],
+  ['make_5fkernel',['make_kernel',['../structcl_1_1compatibility_1_1make__kernel.html#a1dccd422eb61c9aa37a69e0a3a80f62d',1,'cl::compatibility::make_kernel::make_kernel(const Program &amp;program, const string name, cl_int *err=NULL)'],['../structcl_1_1compatibility_1_1make__kernel.html#abee3103ba9dc1d3e7531dcf6e74bf2a8',1,'cl::compatibility::make_kernel::make_kernel(const Kernel kernel)']]],
+  ['makedefault',['makeDefault',['../classcl_1_1_device_command_queue.html#acf98d7e70d84afc31789a6f26a95d14b',1,'cl::DeviceCommandQueue::makeDefault(cl_int *err=nullptr)'],['../classcl_1_1_device_command_queue.html#a2188fe106a515329fd90ac58ee95e10e',1,'cl::DeviceCommandQueue::makeDefault(const Context &amp;context, const Device &amp;device, cl_int *err=nullptr)'],['../classcl_1_1_device_command_queue.html#a74abbdd1ba59525634baa4334ae70215',1,'cl::DeviceCommandQueue::makeDefault(const Context &amp;context, const Device &amp;device, cl_uint queueSize, cl_int *err=nullptr)']]],
   ['makedirectory',['makeDirectory',['../namespaceop.html#acc650faa23df88ca16a09a2d2a522960',1,'op']]],
+  ['mapsvm',['mapSVM',['../namespacecl.html#ae97dc5bb86e2c3c3935280a86cda301c',1,'cl']]],
   ['max',['Max',['../namespaceop.html#adc43fb9031418e7f8112816a3b535d14a6a061313d22e51e0f25b7cd4dc065233',1,'op']]],
+  ['max_5fsize',['max_size',['../classcl_1_1_s_v_m_allocator.html#aec263261a88fb1ec64a3e5f9a4ef41a7',1,'cl::SVMAllocator']]],
   ['maximumbase_2ehpp',['maximumBase.hpp',['../maximum_base_8hpp.html',1,'']]],
   ['maximumcaffe',['MaximumCaffe',['../classop_1_1_maximum_caffe.html',1,'op']]],
   ['maximumcaffe',['MaximumCaffe',['../classop_1_1_maximum_caffe.html#a66bd0aa863a97647ae6350d1f886ea51',1,'op::MaximumCaffe']]],
@@ -11,6 +16,8 @@ var searchData=
   ['maximumgpu',['maximumGpu',['../namespaceop.html#a4852b0b78742b27c332f4b9e95d0106c',1,'op']]],
   ['mblendoriginalframe',['mBlendOriginalFrame',['../classop_1_1_renderer.html#a88449a7c29a48e157cd6b16089825be7',1,'op::Renderer']]],
   ['mconditionvariable',['mConditionVariable',['../classop_1_1_queue_base.html#a8b5e59161a0b175d12955b552a90a47f',1,'op::QueueBase']]],
+  ['memory',['Memory',['../classcl_1_1_memory.html',1,'cl']]],
+  ['memory',['Memory',['../classcl_1_1_memory.html#a9926612772ae6e016f1118ef4148da22',1,'cl::Memory::Memory()'],['../classcl_1_1_memory.html#a6fa9f585a65beebcb75e41cca70ee1bb',1,'cl::Memory::Memory(const cl_mem &amp;memory, bool retainObject)'],['../classcl_1_1_memory.html#a23691d3d5e70f47538f1cde3741b0367',1,'cl::Memory::Memory(const Memory &amp;mem)'],['../classcl_1_1_memory.html#a48a3ca6b8b6c4dbdcd6cc8e75d6503e6',1,'cl::Memory::Memory(Memory &amp;&amp;mem) CL_HPP_NOEXCEPT_']]],
   ['mergevectors',['mergeVectors',['../namespaceop.html#aa3a3e2acfb27ecbd187d01c8dcd41899',1,'op']]],
   ['mfaceimagecrop',['mFaceImageCrop',['../classop_1_1_face_extractor.html#aec29268798b50ef752d6ec62c3cc5dc4',1,'op::FaceExtractor']]],
   ['mfacekeypoints',['mFaceKeypoints',['../classop_1_1_face_extractor.html#a9d408bb492f490fa46b71b3bcbe28b62',1,'op::FaceExtractor']]],

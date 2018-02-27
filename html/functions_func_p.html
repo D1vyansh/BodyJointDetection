@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions.html"><span>All</span></a></li>
       <li class="current"><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -131,7 +133,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -150,8 +152,14 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>PersonIdExtractor()
 : <a class="el" href="classop_1_1_person_id_extractor.html#aca3f66962826e85b7a089050fee407d2">op::PersonIdExtractor</a>
 </li>
+<li>Pipe()
+: <a class="el" href="classcl_1_1_pipe.html#a462eff8303e507a22bfa7ed2cc6ae3b3">cl::Pipe</a>
+</li>
 <li>plainText()
 : <a class="el" href="classop_1_1_json_ofstream.html#aa432ff172e10bb9e3b6e2bfa6124c648">op::JsonOfstream</a>
+</li>
+<li>Platform()
+: <a class="el" href="classcl_1_1_platform.html#a616344e02c3723347c752c02b7015212">cl::Platform</a>
 </li>
 <li>Point()
 : <a class="el" href="structop_1_1_point.html#a9f80114d18ec8055360222d975bcd5a8">op::Point&lt; T &gt;</a>
@@ -191,6 +199,15 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 </li>
 <li>profileGpuMemory()
 : <a class="el" href="classop_1_1_profiler.html#a6e828c0b4fef5671a094727b7919a948">op::Profiler</a>
+</li>
+<li>Program()
+: <a class="el" href="classcl_1_1_program.html#a367cf581b43d8ad021806a4714753437">cl::Program</a>
+</li>
+<li>ptr()
+: <a class="el" href="structcl_1_1detail_1_1_kernel_argument_handler_3_01cl_1_1_device_command_queue_00_01void_01_4.html#acdf26821a27be9815460d7f71222f81a">cl::detail::KernelArgumentHandler&lt; cl::DeviceCommandQueue, void &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_kernel_argument_handler_3_01_local_space_arg_00_01void_01_4.html#a82c7a9a532c656da91fa9d42945a5959">cl::detail::KernelArgumentHandler&lt; LocalSpaceArg, void &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_kernel_argument_handler_3_01_t_00_01typename_01std_1_1enable__if_3_01std_cb5bfaca8096193f715a7bbe8a3fa84f.html#a2b40f53e41d2c3fdba7995e282d508e8">cl::detail::KernelArgumentHandler&lt; T, typename std::enable_if&lt; std::is_base_of&lt; cl::Memory, T &gt;::value &gt;::type &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_kernel_argument_handler_3_01_t_00_01typename_01std_1_1enable__if_3_9std_10affa824618af864313998f2e6bcf08f.html#a5965bbd36dae5fe4aa43a1bcb03a4923">cl::detail::KernelArgumentHandler&lt; T, typename std::enable_if&lt;!std::is_base_of&lt; cl::Memory, T &gt;::value &gt;::type &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

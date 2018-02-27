@@ -6,6 +6,7 @@ var searchData=
   ['scalenettooutput',['scaleNetToOutput',['../structop_1_1_datum.html#a44af7162e180c6856ce909057f43d8e1',1,'op::Datum']]],
   ['scalerange',['scaleRange',['../structop_1_1_wrapper_struct_hand.html#adaea15e182e5c75129293873cd94e35f',1,'op::WrapperStructHand']]],
   ['scalesnumber',['scalesNumber',['../structop_1_1_wrapper_struct_hand.html#aea6263dc96708b11fab72416d810b3d6',1,'op::WrapperStructHand::scalesNumber()'],['../structop_1_1_wrapper_struct_pose.html#ad23a9c103a60709eed9d7b7381828e5e',1,'op::WrapperStructPose::scalesNumber()']]],
+  ['size_5f',['size_',['../structcl_1_1_local_space_arg.html#a30ac7ba02b1a0909f10253ed4158e0a6',1,'cl::LocalSpaceArg']]],
   ['spelementtorender',['spElementToRender',['../classop_1_1_renderer.html#aca8ebf0c0a50b87f0be82afa090155a0',1,'op::Renderer']]],
   ['spgpumemory',['spGpuMemory',['../classop_1_1_gpu_renderer.html#a5d729aab549908c758953be742dd0115',1,'op::GpuRenderer']]],
   ['spisrunning',['spIsRunning',['../classop_1_1_gui.html#a0ad7be7018e634769da8d22d60e7edc0',1,'op::Gui']]],

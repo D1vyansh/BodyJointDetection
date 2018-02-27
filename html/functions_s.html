@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -133,7 +135,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -146,6 +148,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>Sampler()
+: <a class="el" href="classcl_1_1_sampler.html#a1c8395b386e3b1c09dc43f4134909390">cl::Sampler</a>
+</li>
 <li>save()
 : <a class="el" href="classop_1_1_people_json_saver.html#a601ec8a006692ee1b4c3faff06df3582">op::PeopleJsonSaver</a>
 </li>
@@ -199,14 +204,29 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>setAlphaKeypoint()
 : <a class="el" href="classop_1_1_renderer.html#a039e88897ed844551cadb115ea98e9ef">op::Renderer</a>
 </li>
+<li>setArg()
+: <a class="el" href="classcl_1_1_kernel.html#a9516e70e10909526dfb01f6cfe8b61bd">cl::Kernel</a>
+</li>
 <li>setBlendOriginalFrame()
 : <a class="el" href="classop_1_1_renderer.html#aa8339054ed113d99ca70208d0cee5aa9">op::Renderer</a>
+</li>
+<li>setCallback()
+: <a class="el" href="classcl_1_1_event.html#a4730c3b113e65efcf88aea0c9da13f52">cl::Event</a>
+</li>
+<li>setDefault()
+: <a class="el" href="classcl_1_1_command_queue.html#a736a138dd72e39056e8a9aa3dec5d132">cl::CommandQueue</a>
+, <a class="el" href="classcl_1_1_context.html#a24a8392d2cb8fcdc5dbf4dd723ee74b4">cl::Context</a>
+, <a class="el" href="classcl_1_1_device.html#abff439f0de1ed8699a1b93a702d0fc65">cl::Device</a>
+, <a class="el" href="classcl_1_1_platform.html#afcf93176bebefc3add081c2d93935453">cl::Platform</a>
 </li>
 <li>setDefaultMaxSizeQueues()
 : <a class="el" href="classop_1_1_thread_manager.html#ace408d1d281193a9f3d3d6561181ef56">op::ThreadManager&lt; TDatums, TWorker, TQueue &gt;</a>
 </li>
 <li>setDefaultX()
 : <a class="el" href="classop_1_1_profiler.html#a2dc5cfa5fd91d4cadaa7e66695f1ee51">op::Profiler</a>
+</li>
+<li>setDestructorCallback()
+: <a class="el" href="classcl_1_1_memory.html#a15e14fda4062d21ad354126a599a6111">cl::Memory</a>
 </li>
 <li>setElementToRender()
 : <a class="el" href="classop_1_1_renderer.html#afd48a9cb0be184303dce2969fa2f8e02">op::Renderer</a>
@@ -262,6 +282,16 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>setShowGooglyEyes()
 : <a class="el" href="classop_1_1_renderer.html#ab226d47f554735fa3e0372ce429747c3">op::Renderer</a>
 </li>
+<li>setStatus()
+: <a class="el" href="classcl_1_1_user_event.html#ad1df3a34596fee2bf6f1de6893192ae5">cl::UserEvent</a>
+</li>
+<li>setSVMPointers()
+: <a class="el" href="classcl_1_1_kernel.html#a36633bcfea86c512cbb4fd9b20c6087e">cl::Kernel</a>
+, <a class="el" href="classcl_1_1_kernel_functor.html#a8e9f6418bb88cac080c10c1e6512b235">cl::KernelFunctor&lt; Ts &gt;</a>
+</li>
+<li>setSVMPointersHelper()
+: <a class="el" href="classcl_1_1_kernel.html#ac0b042b59761efca23e78b3933f0bd01">cl::Kernel</a>
+</li>
 <li>setThreshold()
 : <a class="el" href="classop_1_1_nms_caffe.html#a5f257eb561fc705c2b74489b12269b49">op::NmsCaffe&lt; T &gt;</a>
 </li>
@@ -277,11 +307,27 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>setWorkerPostProcessing()
 : <a class="el" href="classop_1_1_wrapper.html#a6f2cf45c8b571b99ee92114ba8462589">op::Wrapper&lt; TDatums, TWorker, TQueue &gt;</a>
 </li>
+<li>size()
+: <a class="el" href="structcl_1_1detail_1_1_kernel_argument_handler_3_01cl_1_1_device_command_queue_00_01void_01_4.html#aaca22313c85e1f71a41f5695c21aeea0">cl::detail::KernelArgumentHandler&lt; cl::DeviceCommandQueue, void &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_kernel_argument_handler_3_01_local_space_arg_00_01void_01_4.html#adcc5bbbbc8975491e859042d6764372c">cl::detail::KernelArgumentHandler&lt; LocalSpaceArg, void &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_kernel_argument_handler_3_01_t_00_01typename_01std_1_1enable__if_3_01std_cb5bfaca8096193f715a7bbe8a3fa84f.html#aab115c561c430a368dcf3fab65debf42">cl::detail::KernelArgumentHandler&lt; T, typename std::enable_if&lt; std::is_base_of&lt; cl::Memory, T &gt;::value &gt;::type &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_kernel_argument_handler_3_01_t_00_01typename_01std_1_1enable__if_3_9std_10affa824618af864313998f2e6bcf08f.html#ab26d77fd61e872fcf0bc9345dcb0192c">cl::detail::KernelArgumentHandler&lt; T, typename std::enable_if&lt;!std::is_base_of&lt; cl::Memory, T &gt;::value &gt;::type &gt;</a>
+, <a class="el" href="classcl_1_1_n_d_range.html#a31018e7478f8ce3a129dee14abf53719">cl::NDRange</a>
+</li>
 <li>Size
 : <a class="el" href="classop_1_1_hand_detector.html#a4d058446e66aff15d8702558fd256b73a6f6cb72d544962fa333e2e34ce64f719">op::HandDetector</a>
 </li>
 <li>size()
 : <a class="el" href="classop_1_1_queue_base.html#a12cdec56bfe72e722ecc722774989d1b">op::QueueBase&lt; TDatums, TQueue &gt;</a>
+</li>
+<li>size_
+: <a class="el" href="structcl_1_1_local_space_arg.html#a30ac7ba02b1a0909f10253ed4158e0a6">cl::LocalSpaceArg</a>
+</li>
+<li>size_type
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#afe51e51ed34089444241a43aab0950ef">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+</li>
+<li>Sources
+: <a class="el" href="classcl_1_1_program.html#ad260abbeb288ec0cc18d5184bf07b14a">cl::Program</a>
 </li>
 <li>spElementToRender
 : <a class="el" href="classop_1_1_renderer.html#aca8ebf0c0a50b87f0be82afa090155a0">op::Renderer</a>
@@ -331,6 +377,10 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 </li>
 <li>SubThreadQueueOut()
 : <a class="el" href="classop_1_1_sub_thread_queue_out.html#aa4a827932f632f1f30b5650a4fcc77ff">op::SubThreadQueueOut&lt; TDatums, TWorker, TQueue &gt;</a>
+</li>
+<li>SVMAllocator()
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#a927ffbac7ec2a7cb0aee2d24a9f986b1">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+, <a class="el" href="classcl_1_1_s_v_m_allocator_3_01void_00_01_s_v_m_trait_01_4.html#a0146b33b7681b60e7678780ae05fb43f">cl::SVMAllocator&lt; void, SVMTrait &gt;</a>
 </li>
 <li>switchFullScreenMode()
 : <a class="el" href="classop_1_1_frame_displayer.html#ad83a47005c52f066587f49d62c109802">op::FrameDisplayer</a>

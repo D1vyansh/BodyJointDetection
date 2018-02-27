@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -133,7 +135,7 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -146,18 +148,33 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_o"></a>- o -</h3><ul>
+<li>object_
+: <a class="el" href="classcl_1_1detail_1_1_wrapper.html#a1292547dd0c591aa972e25b793481583">cl::detail::Wrapper&lt; T &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#a34bae3d4d284c0ea2921182962c210df">cl::detail::Wrapper&lt; cl_device_id &gt;</a>
+</li>
 <li>objectClose()
 : <a class="el" href="classop_1_1_json_ofstream.html#a45eeb25d9413fc31786f315b46c341cc">op::JsonOfstream</a>
 </li>
 <li>objectOpen()
 : <a class="el" href="classop_1_1_json_ofstream.html#a5c38e36c1449d808dd4ab6558d65289c">op::JsonOfstream</a>
 </li>
+<li>operator const size_type *()
+: <a class="el" href="classcl_1_1_n_d_range.html#a38263f9d0761820e3112f030f58eeaef">cl::NDRange</a>
+</li>
 <li>operator!=()
-: <a class="el" href="structop_1_1_datum.html#aab9997004b6b761267f8ce312b8048e9">op::Datum</a>
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#a72088f264071b2648aa80e20594d6398">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+, <a class="el" href="structop_1_1_datum.html#aab9997004b6b761267f8ce312b8048e9">op::Datum</a>
 , <a class="el" href="structop_1_1_point.html#a5d825f6fdc9a72abe5f3f52c852bdf13">op::Point&lt; T &gt;</a>
 </li>
 <li>operator()()
-: <a class="el" href="classop_1_1_pointer_container_greater.html#ab63e3088591d6593c6539b91499f5063">op::PointerContainerGreater&lt; TDatums &gt;</a>
+: <a class="el" href="structcl_1_1compatibility_1_1make__kernel.html#a16c689fea1349eb1da068a83b36d0f8d">cl::compatibility::make_kernel&lt; Ts &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_deleter.html#ad9050ae6a2b604a3390289931bcd9b07">cl::detail::Deleter&lt; Alloc &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_get_info_functor0.html#a2e42af5398b87a0d087640f6d76dc2f2">cl::detail::GetInfoFunctor0&lt; Func, Arg0 &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_get_info_functor1.html#a9053b377f9a3816b76722746d9568aef">cl::detail::GetInfoFunctor1&lt; Func, Arg0, Arg1 &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper.html#ab4369771a821f9cd01008069187bb8ce">cl::detail::Wrapper&lt; T &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#af4d44970789f15174e584bedeb9f3f97">cl::detail::Wrapper&lt; cl_device_id &gt;</a>
+, <a class="el" href="classcl_1_1_kernel_functor.html#aa94da4c2c8e3532914e40c75a82ea5a9">cl::KernelFunctor&lt; Ts &gt;</a>
+, <a class="el" href="classop_1_1_pointer_container_greater.html#ab63e3088591d6593c6539b91499f5063">op::PointerContainerGreater&lt; TDatums &gt;</a>
 , <a class="el" href="classop_1_1_pointer_container_less.html#a67b34e75390dda005246a77a12166abc">op::PointerContainerLess&lt; TDatums &gt;</a>
 </li>
 <li>operator*()
@@ -175,10 +192,10 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 : <a class="el" href="structop_1_1_point.html#ad5005ff994bfcd1846854d6af103a3a6">op::Point&lt; T &gt;</a>
 </li>
 <li>operator-()
-: <a class="el" href="structop_1_1_point.html#aa389e5c56126074997b4a6fb1a471b45">op::Point&lt; T &gt;</a>
+: <a class="el" href="structop_1_1_point.html#aabc0dee51a101fefbf1fdcd56f54b48c">op::Point&lt; T &gt;</a>
 </li>
 <li>operator-=()
-: <a class="el" href="structop_1_1_point.html#ad42deecd0077f7c962ca383cbc87e08f">op::Point&lt; T &gt;</a>
+: <a class="el" href="structop_1_1_point.html#abf2bb2d2d5b3dba3424b489b99faa760">op::Point&lt; T &gt;</a>
 </li>
 <li>operator/()
 : <a class="el" href="structop_1_1_point.html#aa902ce5b63f3cb8b8b0b04e2f40288fe">op::Point&lt; T &gt;</a>
@@ -197,14 +214,40 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="structop_1_1_point.html#ac97b928be312686c6438f0260ff4e004">op::Point&lt; T &gt;</a>
 </li>
 <li>operator=()
-: <a class="el" href="classop_1_1_array.html#a9c8e006e0eea472485f37971330ecbab">op::Array&lt; T &gt;</a>
-, <a class="el" href="structop_1_1_datum.html#a72ee10bf507aea368cfd3dba3dd38cb5">op::Datum</a>
-, <a class="el" href="structop_1_1_point.html#aada0e9eecee2fb30fb903b32f9f33047">op::Point&lt; T &gt;</a>
+: <a class="el" href="classcl_1_1_buffer.html#a7f1c8cf8cd50afde28a6a1e1f2d100b0">cl::Buffer</a>
+, <a class="el" href="classcl_1_1_buffer_g_l.html#aaef7042e8710b4ea535422bfe1c17590">cl::BufferGL</a>
+, <a class="el" href="classcl_1_1_buffer_render_g_l.html#a8e133bcc8dce2061d9af72231506c124">cl::BufferRenderGL</a>
+, <a class="el" href="classcl_1_1_command_queue.html#a30d0117e538d0c080333cb21afd7e18d">cl::CommandQueue</a>
+, <a class="el" href="classcl_1_1_context.html#a8efbd413385ff1128857f338176bd123">cl::Context</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper.html#a044bc05bb3eb90345cb9cf574b95a98f">cl::detail::Wrapper&lt; T &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#a272411e6c7274702cfe640a52566cf67">cl::detail::Wrapper&lt; cl_device_id &gt;</a>
+, <a class="el" href="classcl_1_1_device.html#a432e00756f0972116bae69e81387c82d">cl::Device</a>
+, <a class="el" href="classcl_1_1_device_command_queue.html#a7f2929602941beabe9bec6d3abdc07a7">cl::DeviceCommandQueue</a>
+, <a class="el" href="classcl_1_1_event.html#aa3b9f7abf39de587ee78d0b47699d5f6">cl::Event</a>
+, <a class="el" href="classcl_1_1_image1_d.html#a217618087dfc7d2ab13475eca82dc13f">cl::Image1D</a>
+, <a class="el" href="classcl_1_1_image1_d_array.html#a8473fe05ecbc506209ad00297dd6f5c0">cl::Image1DArray</a>
+, <a class="el" href="classcl_1_1_image1_d_buffer.html#ad7061b0993108a3c529e8b475c234259">cl::Image1DBuffer</a>
+, <a class="el" href="classcl_1_1_image2_d.html#ac92eb515aa0d087cc63145ef4cfb536b">cl::Image2D</a>
+, <a class="el" href="classcl_1_1_image2_d_array.html#aae0e2f1ba091add21d562f72bcb702d1">cl::Image2DArray</a>
+, <a class="el" href="classcl_1_1_image3_d.html#a7ad39620a1c8feefc13c08df53512462">cl::Image3D</a>
+, <a class="el" href="classcl_1_1_image.html#af9fda827ebfbbe8b92a5cefc5225cd69">cl::Image</a>
+, <a class="el" href="structcl_1_1_image_format.html#a4b9583ef49e6681c133ff0099404b713">cl::ImageFormat</a>
+, <a class="el" href="classcl_1_1_image_g_l.html#a171b30e347bf5130fc0aa00d69f2b1d5">cl::ImageGL</a>
+, <a class="el" href="classcl_1_1_kernel.html#a242f26c280c867f531cc30c953e6d4b9">cl::Kernel</a>
+, <a class="el" href="classcl_1_1_memory.html#aa6cd4c07a111c6baa3195bee2a447dad">cl::Memory</a>
+, <a class="el" href="classcl_1_1_pipe.html#aa752ba55e7ee347088673c29751cb57f">cl::Pipe</a>
+, <a class="el" href="classcl_1_1_platform.html#aea2f06c8796a53c641fa5e17800b2ead">cl::Platform</a>
+, <a class="el" href="classcl_1_1_program.html#afc23b6c31e74af370da1b5766a7a0c7b">cl::Program</a>
+, <a class="el" href="classcl_1_1_sampler.html#ad26196f0282429667828b5b39bbc97f1">cl::Sampler</a>
+, <a class="el" href="classop_1_1_array.html#a9c8e006e0eea472485f37971330ecbab">op::Array&lt; T &gt;</a>
+, <a class="el" href="structop_1_1_datum.html#a24f3bfcb0ffffeb5742eb1530bc9e367">op::Datum</a>
+, <a class="el" href="structop_1_1_point.html#ac8596f2b3b50464b6c6eaa34b0a2c48b">op::Point&lt; T &gt;</a>
 , <a class="el" href="structop_1_1_rectangle.html#abd3476f9a32ad2058ea67c75c2a547a2">op::Rectangle&lt; T &gt;</a>
 , <a class="el" href="classop_1_1_thread.html#a16d1835e2bd7c5ae988f4bc225b3ca09">op::Thread&lt; TDatums, TWorker &gt;</a>
 </li>
 <li>operator==()
-: <a class="el" href="structop_1_1_datum.html#a731a7179ac03f831019441981455282e">op::Datum</a>
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#abaa89b1232891a728d3530dbd71e7cb6">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+, <a class="el" href="structop_1_1_datum.html#a731a7179ac03f831019441981455282e">op::Datum</a>
 , <a class="el" href="structop_1_1_point.html#a767e96d42e4653ac09ada5c5cdceb776">op::Point&lt; T &gt;</a>
 </li>
 <li>operator&gt;()
@@ -216,7 +259,11 @@ $(document).ready(function(){initNavTree('functions_o.html','');});
 , <a class="el" href="structop_1_1_point.html#a480b8feec1a2c0652ea0ab6dd7717e6d">op::Point&lt; T &gt;</a>
 </li>
 <li>operator[]()
-: <a class="el" href="classop_1_1_array.html#a3f6c6f7ddeed3d1edbc907441888a8cf">op::Array&lt; T &gt;</a>
+: <a class="el" href="classop_1_1_array.html#aada0f1bd6e9eb73b4f977e62da536f58">op::Array&lt; T &gt;</a>
+</li>
+<li>other
+: <a class="el" href="structcl_1_1_s_v_m_allocator_1_1rebind.html#aafc29c473d56039763d89ba7d78c188d">cl::SVMAllocator&lt; T, SVMTrait &gt;::rebind&lt; U &gt;</a>
+, <a class="el" href="structcl_1_1_s_v_m_allocator_3_01void_00_01_s_v_m_trait_01_4_1_1rebind.html#a029ca173ab8d8c719e99a438704036cd">cl::SVMAllocator&lt; void, SVMTrait &gt;::rebind&lt; U &gt;</a>
 </li>
 <li>outputData
 : <a class="el" href="structop_1_1_datum.html#a42b953c082f479eddc527da9a3a4cc75">op::Datum</a>

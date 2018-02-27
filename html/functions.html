@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -133,7 +135,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -162,6 +164,12 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>addPusher()
 : <a class="el" href="classop_1_1_queue_base.html#a1ccdec39ea65a83edc54661acc283134">op::QueueBase&lt; TDatums, TQueue &gt;</a>
 </li>
+<li>address()
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#a10ae2172078bf1aa987a0e3ace96cbb7">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+</li>
+<li>allocate()
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#a44858d70971c7801aa62d7a64d18df00">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+</li>
 <li>alphaHeatMap
 : <a class="el" href="structop_1_1_wrapper_struct_face.html#a49f609ae1c075f272bbaf32e128cc3a9">op::WrapperStructFace</a>
 , <a class="el" href="structop_1_1_wrapper_struct_hand.html#a716f9c98cbee1a4a70d5978875795c4d">op::WrapperStructHand</a>
@@ -176,8 +184,15 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="structop_1_1_point.html#aba8ffdc78fdec7d45222f640eb130874">op::Point&lt; T &gt;</a>
 , <a class="el" href="structop_1_1_rectangle.html#a85cabb0d2f3af02e32be35bb9841c1f3">op::Rectangle&lt; T &gt;</a>
 </li>
+<li>arg0_
+: <a class="el" href="structcl_1_1detail_1_1_get_info_functor0.html#a605bdef653bbdc6f4a05394b17f18704">cl::detail::GetInfoFunctor0&lt; Func, Arg0 &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_get_info_functor1.html#a27ebe3bdb4a032c5304f4fda99e32704">cl::detail::GetInfoFunctor1&lt; Func, Arg0, Arg1 &gt;</a>
+</li>
+<li>arg1_
+: <a class="el" href="structcl_1_1detail_1_1_get_info_functor1.html#a6b7246c928c1ec4950b748173a67aba4">cl::detail::GetInfoFunctor1&lt; Func, Arg0, Arg1 &gt;</a>
+</li>
 <li>Array()
-: <a class="el" href="classop_1_1_array.html#ac833fdcb245fcc3135ce65227bb9e4b2">op::Array&lt; T &gt;</a>
+: <a class="el" href="classop_1_1_array.html#a7a7d854d63815e10e158fe889d17a88e">op::Array&lt; T &gt;</a>
 </li>
 <li>arrayClose()
 : <a class="el" href="classop_1_1_json_ofstream.html#a3f940d3ad51d0acb7126d62a5617fd69">op::JsonOfstream</a>
@@ -186,7 +201,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="classop_1_1_json_ofstream.html#a4cc6d50256354b3dc7385e2db01aabc0">op::JsonOfstream</a>
 </li>
 <li>at()
-: <a class="el" href="classop_1_1_array.html#a8eebb6c34642cdf19ac74c7ed38d128b">op::Array&lt; T &gt;</a>
+: <a class="el" href="classop_1_1_array.html#a95e83e3379fd43460db68c2adb61f981">op::Array&lt; T &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

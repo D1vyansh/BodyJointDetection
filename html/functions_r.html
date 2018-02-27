@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -133,7 +135,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -164,11 +166,28 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 <li>Rectangle()
 : <a class="el" href="structop_1_1_rectangle.html#a5a9a60fdfd9c88ab8ded6275d64333ea">op::Rectangle&lt; T &gt;</a>
 </li>
+<li>reference
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#aa9a3870b226f6286dbf1917ff1d8e03b">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+</li>
+<li>referenceCountable_
+: <a class="el" href="classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#a6bf49a144579823e03d4e88cafc4fb9d">cl::detail::Wrapper&lt; cl_device_id &gt;</a>
+</li>
 <li>RElbow
 : <a class="el" href="classop_1_1_hand_detector.html#a4d058446e66aff15d8702558fd256b73a6957f13571097d3ddddc63474dccf0bf">op::HandDetector</a>
 </li>
 <li>release()
-: <a class="el" href="classop_1_1_flir_reader.html#ab28f40422c9edff8594d855bbef91f58">op::FlirReader</a>
+: <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__command__queue_01_4.html#a9e94778f8ece7dc05b5d14627aae8432">cl::detail::ReferenceHandler&lt; cl_command_queue &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__context_01_4.html#a5d93d91a3b00c34c9d287b906a83c53e">cl::detail::ReferenceHandler&lt; cl_context &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__device__id_01_4.html#a70614c8eeee136fb4887bae35216d620">cl::detail::ReferenceHandler&lt; cl_device_id &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__event_01_4.html#af1ea5e5edc2b5598d38d04c7514472ec">cl::detail::ReferenceHandler&lt; cl_event &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__kernel_01_4.html#a7fac9ea42ed1197c5ce8e7f899176c30">cl::detail::ReferenceHandler&lt; cl_kernel &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__mem_01_4.html#aba0868f27da195361268fae7b69545d4">cl::detail::ReferenceHandler&lt; cl_mem &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__platform__id_01_4.html#a206e136a2c835c230bd1e53903b44741">cl::detail::ReferenceHandler&lt; cl_platform_id &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__program_01_4.html#ae26edbdedda89883df1baf82ab5c26da">cl::detail::ReferenceHandler&lt; cl_program &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__sampler_01_4.html#aa95daa0623a872b100d907177821484a">cl::detail::ReferenceHandler&lt; cl_sampler &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper.html#a750d40a07ec6ece6025be03f267f5ca4">cl::detail::Wrapper&lt; T &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#aaf385d61c64d19376ca28a5a4bad2508">cl::detail::Wrapper&lt; cl_device_id &gt;</a>
+, <a class="el" href="classop_1_1_flir_reader.html#ab28f40422c9edff8594d855bbef91f58">op::FlirReader</a>
 , <a class="el" href="classop_1_1_image_directory_reader.html#af74e192f8cba5c10f8e252674a85185a">op::ImageDirectoryReader</a>
 , <a class="el" href="classop_1_1_producer.html#a7753ffb0daa486ab0f82873b3567f95e">op::Producer</a>
 , <a class="el" href="classop_1_1_spinnaker_wrapper.html#a6e66639ee75708486b3d9aa4598607c0">op::SpinnakerWrapper</a>
@@ -209,11 +228,28 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 <li>Reshape()
 : <a class="el" href="classop_1_1_body_part_connector_caffe.html#a54918b6b114568d7bafe26319e96d644">op::BodyPartConnectorCaffe&lt; T &gt;</a>
 , <a class="el" href="classop_1_1_maximum_caffe.html#aa9ab7eab51c9539b141a0aac998b2223">op::MaximumCaffe&lt; T &gt;</a>
-, <a class="el" href="classop_1_1_nms_caffe.html#a96198ee87433f55f52a5054b92f946d9">op::NmsCaffe&lt; T &gt;</a>
-, <a class="el" href="classop_1_1_resize_and_merge_caffe.html#aea893710063fc6c58d19f7e02f1a6681">op::ResizeAndMergeCaffe&lt; T &gt;</a>
+, <a class="el" href="classop_1_1_nms_caffe.html#a646d0442dfa17bbd3b6f90a7fc32af11">op::NmsCaffe&lt; T &gt;</a>
+, <a class="el" href="classop_1_1_resize_and_merge_caffe.html#ac889d68450cebf9745708f8c414545ac">op::ResizeAndMergeCaffe&lt; T &gt;</a>
 </li>
 <li>ResizeAndMergeCaffe()
 : <a class="el" href="classop_1_1_resize_and_merge_caffe.html#a30805a265fa887eff04b1200dbda91a5">op::ResizeAndMergeCaffe&lt; T &gt;</a>
+</li>
+<li>result_type
+: <a class="el" href="structcl_1_1compatibility_1_1make__kernel.html#ab5a793302f7651ad151a1e4b585be5d4">cl::compatibility::make_kernel&lt; Ts &gt;</a>
+, <a class="el" href="classcl_1_1_kernel_functor.html#a925e6594f59e5e8038770efa2bd4b532">cl::KernelFunctor&lt; Ts &gt;</a>
+</li>
+<li>retain()
+: <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__command__queue_01_4.html#aaff327f27da074b52435f47c1a8ada25">cl::detail::ReferenceHandler&lt; cl_command_queue &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__context_01_4.html#ae20376889d6966d9075a2ac61a09b14e">cl::detail::ReferenceHandler&lt; cl_context &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__device__id_01_4.html#ae3392ce2c4055446680bde82e60c976c">cl::detail::ReferenceHandler&lt; cl_device_id &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__event_01_4.html#a69614259acaa35b6397bfbe222654fe4">cl::detail::ReferenceHandler&lt; cl_event &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__kernel_01_4.html#abbae5715707d421461a03eb3b7f61b78">cl::detail::ReferenceHandler&lt; cl_kernel &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__mem_01_4.html#a6af1e1c3c30cb81314a585d1f1d4b361">cl::detail::ReferenceHandler&lt; cl_mem &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__platform__id_01_4.html#a26b860addc4286a66ad6b13502bf61c8">cl::detail::ReferenceHandler&lt; cl_platform_id &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__program_01_4.html#aaf548454f0e0ab20e98f93e0c1443790">cl::detail::ReferenceHandler&lt; cl_program &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_reference_handler_3_01cl__sampler_01_4.html#a341de3beb748e003b3565d8370e51deb">cl::detail::ReferenceHandler&lt; cl_sampler &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper.html#a6d902b42c615eb8843671e35605c1cd0">cl::detail::Wrapper&lt; T &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#a619059007eadaff35281d94a0c0d4598">cl::detail::Wrapper&lt; cl_device_id &gt;</a>
 </li>
 <li>RShoulder
 : <a class="el" href="classop_1_1_hand_detector.html#a4d058446e66aff15d8702558fd256b73a41a810fe24d1ea211a55337eaaa1e3d2">op::HandDetector</a>

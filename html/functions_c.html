@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -133,7 +135,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -167,6 +169,10 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>checkThread()
 : <a class="el" href="classop_1_1_pose_extractor.html#ae3477e0ab1a350fd044215b0ba6f7520">op::PoseExtractor</a>
 </li>
+<li>cl_type
+: <a class="el" href="classcl_1_1detail_1_1_wrapper.html#a83841267bac5ad4411ec8935f78315d8">cl::detail::Wrapper&lt; T &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#a2c117e3bbe52e50aa462f8da53278484">cl::detail::Wrapper&lt; cl_device_id &gt;</a>
+</li>
 <li>clear()
 : <a class="el" href="classop_1_1_queue_base.html#a247f435c95709f3246d352eee4f757af">op::QueueBase&lt; TDatums, TQueue &gt;</a>
 </li>
@@ -180,8 +186,27 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>comma()
 : <a class="el" href="classop_1_1_json_ofstream.html#ae4468279f789c8026d431b2ef62646f9">op::JsonOfstream</a>
 </li>
+<li>CommandQueue()
+: <a class="el" href="classcl_1_1_command_queue.html#a05ae8e9e44e9b28fc755937490535550">cl::CommandQueue</a>
+</li>
+<li>compile()
+: <a class="el" href="classcl_1_1_program.html#a8da346ecc73cf9df257690815039ddb5">cl::Program</a>
+</li>
 <li>configure()
-: <a class="el" href="classop_1_1_wrapper.html#aea063b69ea6d68bd7f5292d945667fb7">op::Wrapper&lt; TDatums, TWorker, TQueue &gt;</a>
+: <a class="el" href="classop_1_1_wrapper.html#a90a58d4866cef24edced2979205c87cc">op::Wrapper&lt; TDatums, TWorker, TQueue &gt;</a>
+</li>
+<li>const_pointer
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#af5daf4a4173794758e399e45a2f028a9">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+, <a class="el" href="classcl_1_1_s_v_m_allocator_3_01void_00_01_s_v_m_trait_01_4.html#ad09aa943957ab0ab739d72279081d0b7">cl::SVMAllocator&lt; void, SVMTrait &gt;</a>
+</li>
+<li>const_reference
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#a64a4984f03ddff3a757f200b4c4fb357">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+</li>
+<li>construct()
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#a283e7b212da80668a7e5285b96536282">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+</li>
+<li>Context()
+: <a class="el" href="classcl_1_1_context.html#ad4a19320d57441a2a0ce6db6548d12a9">cl::Context</a>
 </li>
 <li>cpuToGpuMemoryIfNotCopiedYet()
 : <a class="el" href="classop_1_1_gpu_renderer.html#ac7c1ab0eebf1d54b55cc65a5560bad7b">op::GpuRenderer</a>
@@ -189,6 +214,15 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>createArray()
 : <a class="el" href="classop_1_1_cv_mat_to_op_input.html#acf0c43174fe8e3b1c71d76aca861a6ab">op::CvMatToOpInput</a>
 , <a class="el" href="classop_1_1_cv_mat_to_op_output.html#a003515873bf34525e2a6d313d8619ff3">op::CvMatToOpOutput</a>
+</li>
+<li>createKernels()
+: <a class="el" href="classcl_1_1_program.html#a8251f8a862bdfd82caf10a949b2bd884">cl::Program</a>
+</li>
+<li>createSubBuffer()
+: <a class="el" href="classcl_1_1_buffer.html#ab73f1e0ab2224f3d515820dd6b0c1d73">cl::Buffer</a>
+</li>
+<li>createSubDevices()
+: <a class="el" href="classcl_1_1_device.html#ab60bfd190bf8f82cb8f0adb0a869a2f2">cl::Device</a>
 </li>
 <li>cvInputData
 : <a class="el" href="structop_1_1_datum.html#a0b2c8ccac37be088524cc7c24a502c7b">op::Datum</a>

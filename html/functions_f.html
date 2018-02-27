@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -133,7 +135,7 @@ $(document).ready(function(){initNavTree('functions_f.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -146,6 +148,10 @@ $(document).ready(function(){initNavTree('functions_f.html','');});
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>f_
+: <a class="el" href="structcl_1_1detail_1_1_get_info_functor0.html#afdc80b4a0ebca524f06072f7e58d15fa">cl::detail::GetInfoFunctor0&lt; Func, Arg0 &gt;</a>
+, <a class="el" href="structcl_1_1detail_1_1_get_info_functor1.html#ac48526d11471c59ff1b7aa14feb29c4e">cl::detail::GetInfoFunctor1&lt; Func, Arg0, Arg1 &gt;</a>
+</li>
 <li>FaceCpuRenderer()
 : <a class="el" href="classop_1_1_face_cpu_renderer.html#afb0dcfff75c4a89d5971d7b0bbd0b51b">op::FaceCpuRenderer</a>
 </li>
@@ -179,11 +185,17 @@ $(document).ready(function(){initNavTree('functions_f.html','');});
 <li>FileSaver()
 : <a class="el" href="classop_1_1_file_saver.html#aa4632ae62ac77dbad85523845ce79999">op::FileSaver</a>
 </li>
+<li>finish()
+: <a class="el" href="classcl_1_1_command_queue.html#a49322e2223bf0c86e1485ad0ebc5de0e">cl::CommandQueue</a>
+</li>
 <li>flipAndRotate()
 : <a class="el" href="classop_1_1_producer.html#aa1a13db305c7ab6a596a0dad122066cb">op::Producer</a>
 </li>
 <li>FlirReader()
 : <a class="el" href="classop_1_1_flir_reader.html#a656cfa9a88263802e2794d7f68e95baa">op::FlirReader</a>
+</li>
+<li>flush()
+: <a class="el" href="classcl_1_1_command_queue.html#a4349d9530f98d7544d1ddb5cbcc053bd">cl::CommandQueue</a>
 </li>
 <li>forceEmplace()
 : <a class="el" href="classop_1_1_queue_base.html#a8d218f599b84194909691c72ee0de8d0">op::QueueBase&lt; TDatums, TQueue &gt;</a>
@@ -205,6 +217,10 @@ $(document).ready(function(){initNavTree('functions_f.html','');});
 , <a class="el" href="classop_1_1_maximum_caffe.html#a2dd1f7f0221d602596a14b720e5594b2">op::MaximumCaffe&lt; T &gt;</a>
 , <a class="el" href="classop_1_1_nms_caffe.html#a7bb4d872cd3673bcf868049a3aedb393">op::NmsCaffe&lt; T &gt;</a>
 , <a class="el" href="classop_1_1_resize_and_merge_caffe.html#a404ed0d3f3102ca9afd1b191204d5a0b">op::ResizeAndMergeCaffe&lt; T &gt;</a>
+</li>
+<li>Forward_ocl()
+: <a class="el" href="classop_1_1_nms_caffe.html#a52bd0b61a9f406be653498a49ea39947">op::NmsCaffe&lt; T &gt;</a>
+, <a class="el" href="classop_1_1_resize_and_merge_caffe.html#a6b5674a1f6fe58eb78890b0d8d925cb1">op::ResizeAndMergeCaffe&lt; T &gt;</a>
 </li>
 <li>forwardPass()
 : <a class="el" href="classop_1_1_face_extractor.html#a7e6d4f9d0154551ea050c94dd90cd2fb">op::FaceExtractor</a>
@@ -241,6 +257,12 @@ $(document).ready(function(){initNavTree('functions_f.html','');});
 </li>
 <li>fullScreen
 : <a class="el" href="structop_1_1_wrapper_struct_output.html#aaf5df884418d2bf1df36505009264ece">op::WrapperStructOutput</a>
+</li>
+<li>functor_
+: <a class="el" href="structcl_1_1compatibility_1_1make__kernel.html#a821c68ade541cfe7b62d894c6d5113d7">cl::compatibility::make_kernel&lt; Ts &gt;</a>
+</li>
+<li>FunctorType
+: <a class="el" href="structcl_1_1compatibility_1_1make__kernel.html#ae167b9758dddb66f67413ea8ed8a8b2e">cl::compatibility::make_kernel&lt; Ts &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

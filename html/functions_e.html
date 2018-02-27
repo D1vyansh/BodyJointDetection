@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -133,7 +135,7 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -158,11 +160,95 @@ $(document).ready(function(){initNavTree('functions_e.html','');});
 , <a class="el" href="structop_1_1_wrapper_struct_hand.html#a667ad7eed9f4f96b460f331d25f3d87f">op::WrapperStructHand</a>
 , <a class="el" href="structop_1_1_wrapper_struct_pose.html#acad34562a52b7474f928a021b03a9f90">op::WrapperStructPose</a>
 </li>
+<li>enableFineGrainedSystemSVM()
+: <a class="el" href="classcl_1_1_kernel.html#aed996666686cddb41d660839e709fcd0">cl::Kernel</a>
+</li>
 <li>enableGoogleLogging
 : <a class="el" href="structop_1_1_wrapper_struct_pose.html#a782ba82c6aeabea8fa625042fdf09408">op::WrapperStructPose</a>
 </li>
+<li>enqueueAcquireGLObjects()
+: <a class="el" href="classcl_1_1_command_queue.html#a4722683713b428fbfdc1046d53cb96c4">cl::CommandQueue</a>
+</li>
+<li>EnqueueArgs()
+: <a class="el" href="classcl_1_1_enqueue_args.html#a9876022c0307af3c5f66414331b80ad2">cl::EnqueueArgs</a>
+</li>
+<li>enqueueBarrierWithWaitList()
+: <a class="el" href="classcl_1_1_command_queue.html#ae852576fe5e8e925fca2812f57fc94b5">cl::CommandQueue</a>
+</li>
+<li>enqueueCopyBuffer()
+: <a class="el" href="classcl_1_1_command_queue.html#aeb25e97937555ab8ead1b43c9a799660">cl::CommandQueue</a>
+</li>
+<li>enqueueCopyBufferRect()
+: <a class="el" href="classcl_1_1_command_queue.html#aa82c9250a8eb3d589a41dc1e3d27c76c">cl::CommandQueue</a>
+</li>
+<li>enqueueCopyBufferToImage()
+: <a class="el" href="classcl_1_1_command_queue.html#ac5b79bc60b997839e40e2c189b562b38">cl::CommandQueue</a>
+</li>
+<li>enqueueCopyImage()
+: <a class="el" href="classcl_1_1_command_queue.html#a4cf8881a0f483bfcfdd9208863b79ef8">cl::CommandQueue</a>
+</li>
+<li>enqueueCopyImageToBuffer()
+: <a class="el" href="classcl_1_1_command_queue.html#a4c500107e5b5b285326264a7797fd4a4">cl::CommandQueue</a>
+</li>
+<li>enqueueFillBuffer()
+: <a class="el" href="classcl_1_1_command_queue.html#a4280321ec74d982783346b59b48edaaa">cl::CommandQueue</a>
+</li>
+<li>enqueueFillImage()
+: <a class="el" href="classcl_1_1_command_queue.html#a89bb9d02074e21123c81581633753ff8">cl::CommandQueue</a>
+</li>
+<li>enqueueMapBuffer()
+: <a class="el" href="classcl_1_1_command_queue.html#a85cce71612502835a2b7fe1211f62452">cl::CommandQueue</a>
+</li>
+<li>enqueueMapImage()
+: <a class="el" href="classcl_1_1_command_queue.html#a5b774f1cf0ec90441ec8618985905193">cl::CommandQueue</a>
+</li>
+<li>enqueueMapSVM()
+: <a class="el" href="classcl_1_1_command_queue.html#a0b7660dce0c388d7e12a1d04dbacc6d4">cl::CommandQueue</a>
+</li>
+<li>enqueueMarkerWithWaitList()
+: <a class="el" href="classcl_1_1_command_queue.html#a7fcfee2b6739e6c4aaf49dd3e690da76">cl::CommandQueue</a>
+</li>
+<li>enqueueMigrateMemObjects()
+: <a class="el" href="classcl_1_1_command_queue.html#aacf7eb07723c00bd3a872f69b0b1871b">cl::CommandQueue</a>
+</li>
+<li>enqueueNativeKernel()
+: <a class="el" href="classcl_1_1_command_queue.html#a29e623c756032373358c681ec42a85c0">cl::CommandQueue</a>
+</li>
+<li>enqueueNDRangeKernel()
+: <a class="el" href="classcl_1_1_command_queue.html#a360f1b3f23baca854265b77246e39c32">cl::CommandQueue</a>
+</li>
+<li>enqueueReadBuffer()
+: <a class="el" href="classcl_1_1_command_queue.html#afb698b414947bdd016d9520e099f2f2f">cl::CommandQueue</a>
+</li>
+<li>enqueueReadBufferRect()
+: <a class="el" href="classcl_1_1_command_queue.html#a4869cad0050368198d554f9ef47b88df">cl::CommandQueue</a>
+</li>
+<li>enqueueReadImage()
+: <a class="el" href="classcl_1_1_command_queue.html#a8c513d7b2424beb0111f18c0a77efe36">cl::CommandQueue</a>
+</li>
+<li>enqueueReleaseGLObjects()
+: <a class="el" href="classcl_1_1_command_queue.html#ad4194d8b98fe9adfb732789c8ee04134">cl::CommandQueue</a>
+</li>
+<li>enqueueUnmapMemObject()
+: <a class="el" href="classcl_1_1_command_queue.html#a0a99b21b5f53f7f21b9269666d826343">cl::CommandQueue</a>
+</li>
+<li>enqueueUnmapSVM()
+: <a class="el" href="classcl_1_1_command_queue.html#a1b220401cfceadac167e6b64c3525b8d">cl::CommandQueue</a>
+</li>
+<li>enqueueWriteBuffer()
+: <a class="el" href="classcl_1_1_command_queue.html#a60b41b3960224bf377cf5c07e6a67998">cl::CommandQueue</a>
+</li>
+<li>enqueueWriteBufferRect()
+: <a class="el" href="classcl_1_1_command_queue.html#a1ba860af5d494c23f4b7758ce98362ec">cl::CommandQueue</a>
+</li>
+<li>enqueueWriteImage()
+: <a class="el" href="classcl_1_1_command_queue.html#a411e9174f774e40f00c64989a5ffe279">cl::CommandQueue</a>
+</li>
 <li>enter()
 : <a class="el" href="classop_1_1_json_ofstream.html#a32f058b961605d418df1258a1dc5e6a0">op::JsonOfstream</a>
+</li>
+<li>Event()
+: <a class="el" href="classcl_1_1_event.html#a90e01689f7b394fc003d66c48a7f6f95">cl::Event</a>
 </li>
 <li>exec()
 : <a class="el" href="classop_1_1_thread.html#ad6c3721793d0f65ffe755ab74534afed">op::Thread&lt; TDatums, TWorker &gt;</a>

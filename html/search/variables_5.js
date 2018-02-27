@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['f_5f',['f_',['../structcl_1_1detail_1_1_get_info_functor0.html#afdc80b4a0ebca524f06072f7e58d15fa',1,'cl::detail::GetInfoFunctor0::f_()'],['../structcl_1_1detail_1_1_get_info_functor1.html#ac48526d11471c59ff1b7aa14feb29c4e',1,'cl::detail::GetInfoFunctor1::f_()']]],
   ['face_5fccn_5fdecrease_5ffactor',['FACE_CCN_DECREASE_FACTOR',['../namespaceop.html#aa6701cc08e1a8651798ef3bf8437375b',1,'op']]],
   ['face_5fcolors_5frender',['FACE_COLORS_RENDER',['../namespaceop.html#a3fbae1778780ae5bf4ffcc84cdef1870',1,'op']]],
   ['face_5fdefault_5falpha_5fheat_5fmap',['FACE_DEFAULT_ALPHA_HEAT_MAP',['../namespaceop.html#a4f191afed46fea5e3ce5b2a8756e1ddd',1,'op']]],
@@ -19,5 +20,6 @@ var searchData=
   ['framelast',['frameLast',['../structop_1_1_wrapper_struct_input.html#a5cffb282052bdd812217e54f0b2ec7d5',1,'op::WrapperStructInput']]],
   ['framerotate',['frameRotate',['../structop_1_1_wrapper_struct_input.html#a86df98e50b680b30afe100d8b2b50685',1,'op::WrapperStructInput']]],
   ['framesrepeat',['framesRepeat',['../structop_1_1_wrapper_struct_input.html#a7c80f6a3687696ba30d3ce0902ac162f',1,'op::WrapperStructInput']]],
-  ['fullscreen',['fullScreen',['../structop_1_1_wrapper_struct_output.html#aaf5df884418d2bf1df36505009264ece',1,'op::WrapperStructOutput']]]
+  ['fullscreen',['fullScreen',['../structop_1_1_wrapper_struct_output.html#aaf5df884418d2bf1df36505009264ece',1,'op::WrapperStructOutput']]],
+  ['functor_5f',['functor_',['../structcl_1_1compatibility_1_1make__kernel.html#a821c68ade541cfe7b62d894c6d5113d7',1,'cl::compatibility::make_kernel']]]
 ];

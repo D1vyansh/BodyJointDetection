@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -133,7 +135,7 @@ $(document).ready(function(){initNavTree('functions_~.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -212,6 +214,9 @@ $(document).ready(function(){initNavTree('functions_~.html','');});
 <li>~SubThread()
 : <a class="el" href="classop_1_1_sub_thread.html#a6ee67e375611e8df2d09b3234dedf36c">op::SubThread&lt; TDatums, TWorker &gt;</a>
 </li>
+<li>~SVMAllocator()
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#a4cfe945d163dbdd580451adbd2974dfc">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+</li>
 <li>~Thread()
 : <a class="el" href="classop_1_1_thread.html#a151e4e647917f2351cc05a8861588e2a">op::Thread&lt; TDatums, TWorker &gt;</a>
 </li>
@@ -231,7 +236,9 @@ $(document).ready(function(){initNavTree('functions_~.html','');});
 : <a class="el" href="classop_1_1_worker_producer.html#a8f2592f70d723de4b818c97b25c5a476">op::WorkerProducer&lt; TDatums &gt;</a>
 </li>
 <li>~Wrapper()
-: <a class="el" href="classop_1_1_wrapper.html#a8919b80a6f82330da63da9ffd9ca89be">op::Wrapper&lt; TDatums, TWorker, TQueue &gt;</a>
+: <a class="el" href="classcl_1_1detail_1_1_wrapper.html#aa254b6401dc19abcc7c21d2a664cadf9">cl::detail::Wrapper&lt; T &gt;</a>
+, <a class="el" href="classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#adc34e0d2c80d7994fd7077902e8ceb68">cl::detail::Wrapper&lt; cl_device_id &gt;</a>
+, <a class="el" href="classop_1_1_wrapper.html#a8919b80a6f82330da63da9ffd9ca89be">op::Wrapper&lt; TDatums, TWorker, TQueue &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="functions.html"><span>All</span></a></li>
       <li class="current"><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -131,7 +133,7 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -150,10 +152,19 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 <li>DatumProducer()
 : <a class="el" href="classop_1_1_datum_producer.html#a627c16307864f02251eeb77f2320052f">op::DatumProducer&lt; TDatumsNoPtr &gt;</a>
 </li>
+<li>deallocate()
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#a695f4693c4245c66285e7f4a0405cf84">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
+</li>
 <li>DELETE_COPY()
 : <a class="el" href="classop_1_1_face_cpu_renderer.html#a233f2a83930d07e4d420b43c8a660f32">op::FaceCpuRenderer</a>
 , <a class="el" href="classop_1_1_hand_cpu_renderer.html#a66a7d318b240c73687320bf092363409">op::HandCpuRenderer</a>
 , <a class="el" href="classop_1_1_sub_thread_no_queue.html#a43504502c36461305d656fb87b914749">op::SubThreadNoQueue&lt; TDatums, TWorker &gt;</a>
+</li>
+<li>Deleter()
+: <a class="el" href="classcl_1_1detail_1_1_deleter.html#a899859732bb1c5f296f3e4f05ca6a39d">cl::detail::Deleter&lt; Alloc &gt;</a>
+</li>
+<li>destroy()
+: <a class="el" href="classcl_1_1_s_v_m_allocator.html#a86498cce5cce2d8ac1c509862eb28977">cl::SVMAllocator&lt; T, SVMTrait &gt;</a>
 </li>
 <li>detectFaces()
 : <a class="el" href="classop_1_1_face_detector.html#ac884684046a89394c5179f8175188c1d">op::FaceDetector</a>
@@ -162,6 +173,15 @@ $(document).ready(function(){initNavTree('functions_func_d.html','');});
 <li>detectHands()
 : <a class="el" href="classop_1_1_hand_detector.html#a660199dc2080df40f67cd6680997f6d0">op::HandDetector</a>
 , <a class="el" href="classop_1_1_hand_detector_from_txt.html#a1e6ba23fa1486e92a3bdca36b2e86d22">op::HandDetectorFromTxt</a>
+</li>
+<li>Device()
+: <a class="el" href="classcl_1_1_device.html#ad28b573c8a28028a06ded4e1dc7fa725">cl::Device</a>
+</li>
+<li>DeviceCommandQueue()
+: <a class="el" href="classcl_1_1_device_command_queue.html#a098b1a3d3485828fde04fc7f10f8e1c4">cl::DeviceCommandQueue</a>
+</li>
+<li>dimensions()
+: <a class="el" href="classcl_1_1_n_d_range.html#a1360e9bdd3604fd06069d1fd981eed6b">cl::NDRange</a>
 </li>
 <li>disableMultiThreading()
 : <a class="el" href="classop_1_1_wrapper.html#ad0d02645583cd58d11923df3aa064dc7">op::Wrapper&lt; TDatums, TWorker, TQueue &gt;</a>

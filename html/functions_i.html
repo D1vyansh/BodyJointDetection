@@ -80,7 +80,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_type.html"><span>Typedefs</span></a></li>
       <li><a href="functions_eval.html"><span>Enumerator</span></a></li>
+      <li><a href="functions_rela.html"><span>Related&#160;Functions</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -133,7 +135,7 @@ $(document).ready(function(){initNavTree('functions_i.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Macros</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -155,8 +157,35 @@ $(document).ready(function(){initNavTree('functions_i.html','');});
 <li>ifEndedResetOrRelease()
 : <a class="el" href="classop_1_1_producer.html#ac72a751759ae8b5a0a99552580f7fbad">op::Producer</a>
 </li>
+<li>Image()
+: <a class="el" href="classcl_1_1_image.html#ad9a2f4b6a5ccbb7056613946bc6ee0b7">cl::Image</a>
+</li>
+<li>Image1D()
+: <a class="el" href="classcl_1_1_image1_d.html#a9bf902e7607fdfd6dacf145cae2f31e9">cl::Image1D</a>
+</li>
+<li>Image1DArray()
+: <a class="el" href="classcl_1_1_image1_d_array.html#a36f96dc737c5e69505b6c1b4c3b6e10b">cl::Image1DArray</a>
+</li>
+<li>Image1DBuffer()
+: <a class="el" href="classcl_1_1_image1_d_buffer.html#abdc602662150cae28b84ea24ba361277">cl::Image1DBuffer</a>
+</li>
+<li>Image2D()
+: <a class="el" href="classcl_1_1_image2_d.html#a994fa7059e735359e28ba9a2e389e734">cl::Image2D</a>
+</li>
+<li>Image2DArray()
+: <a class="el" href="classcl_1_1_image2_d_array.html#a8c16539dc725c60ef4ff4680f8353507">cl::Image2DArray</a>
+</li>
+<li>Image3D()
+: <a class="el" href="classcl_1_1_image3_d.html#acf4e89070870a37289296e1716322c7f">cl::Image3D</a>
+</li>
 <li>ImageDirectoryReader()
 : <a class="el" href="classop_1_1_image_directory_reader.html#ae925d9314bfd948296d76475219b3594">op::ImageDirectoryReader</a>
+</li>
+<li>ImageFormat()
+: <a class="el" href="structcl_1_1_image_format.html#adf48b6e9dfdfefb7583e20826c3b4a14">cl::ImageFormat</a>
+</li>
+<li>ImageGL()
+: <a class="el" href="classcl_1_1_image_g_l.html#a57fafd5d3fb26b8e0b616f75fb4bf4b8">cl::ImageGL</a>
 </li>
 <li>ImageSaver()
 : <a class="el" href="classop_1_1_image_saver.html#a723387e62a6b701202dd6cf35c57429f">op::ImageSaver</a>
@@ -232,6 +261,9 @@ $(document).ready(function(){initNavTree('functions_i.html','');});
 , <a class="el" href="classop_1_1_spinnaker_wrapper.html#a009cbd856dea9e87b4dd22cf80f52164">op::SpinnakerWrapper</a>
 , <a class="el" href="classop_1_1_video_capture_reader.html#ae10d37b58fe4f3daa8817b72eb3faa64">op::VideoCaptureReader</a>
 , <a class="el" href="classop_1_1_video_saver.html#a0c5dadfa4f687283c370e7890ae5037f">op::VideoSaver</a>
+</li>
+<li>isReferenceCountable()
+: <a class="el" href="classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#a708c4af6087d158e8c685c52c07c7066">cl::detail::Wrapper&lt; cl_device_id &gt;</a>
 </li>
 <li>isRunning()
 : <a class="el" href="classop_1_1_queue_base.html#a42a873f65588219449e21ac4927311d7">op::QueueBase&lt; TDatums, TQueue &gt;</a>
