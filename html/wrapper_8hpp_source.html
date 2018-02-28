@@ -514,7 +514,7 @@ $(document).ready(function(){initNavTree('wrapper_8hpp_source.html','');});
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;                spWScaleAndSizeExtractor = std::make_shared&lt;WScaleAndSizeExtractor&lt;TDatumsPtr&gt;&gt;(scaleAndSizeExtractor);</div>
 <div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;</div>
 <div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;                <span class="comment">// Input cvMat to OpenPose input &amp; output format</span></div>
-<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;                <span class="keyword">const</span> <span class="keyword">auto</span> cvMatToOpInput = std::make_shared&lt;CvMatToOpInput&gt;();</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;                <span class="keyword">const</span> <span class="keyword">auto</span> cvMatToOpInput = std::make_shared&lt;CvMatToOpInput&gt;(wrapperStructPose.<a class="code" href="structop_1_1_wrapper_struct_pose.html#a35147b6fb9e300d79b71637793053a1b">poseModel</a>);</div>
 <div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;                spWCvMatToOpInput = std::make_shared&lt;WCvMatToOpInput&lt;TDatumsPtr&gt;&gt;(cvMatToOpInput);</div>
 <div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;                <span class="keywordflow">if</span> (renderOutput)</div>
 <div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;                {</div>

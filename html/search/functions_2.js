@@ -33,5 +33,6 @@ var searchData=
   ['createkernels',['createKernels',['../classcl_1_1_program.html#a8251f8a862bdfd82caf10a949b2bd884',1,'cl::Program']]],
   ['createsubbuffer',['createSubBuffer',['../classcl_1_1_buffer.html#ab73f1e0ab2224f3d515820dd6b0c1d73',1,'cl::Buffer']]],
   ['createsubdevices',['createSubDevices',['../classcl_1_1_device.html#ab60bfd190bf8f82cb8f0adb0a869a2f2',1,'cl::Device']]],
-  ['cudacheck',['cudaCheck',['../namespaceop.html#a2af8422ada0de882cc222920ca15c6d2',1,'op']]]
+  ['cudacheck',['cudaCheck',['../namespaceop.html#a2af8422ada0de882cc222920ca15c6d2',1,'op']]],
+  ['cvmattoopinput',['CvMatToOpInput',['../classop_1_1_cv_mat_to_op_input.html#adfb06d56d67a61bc10c3b6db412107d0',1,'op::CvMatToOpInput']]]
 ];

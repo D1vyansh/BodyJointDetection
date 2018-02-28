@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['pose_5fbody_5f18_5fcolors_5frender_5fgpu',['POSE_BODY_18_COLORS_RENDER_GPU',['../pose_parameters_render_8hpp.html#a6e17f6ddfcedd5b314d356d30bbf4280',1,'poseParametersRender.hpp']]],
-  ['pose_5fbody_5f18_5fpairs_5frender_5fgpu',['POSE_BODY_18_PAIRS_RENDER_GPU',['../pose_parameters_render_8hpp.html#a0d821946779eaea1be5996816c4ca6bd',1,'poseParametersRender.hpp']]],
-  ['pose_5fbody_5f18_5fscales_5frender_5fgpu',['POSE_BODY_18_SCALES_RENDER_GPU',['../pose_parameters_render_8hpp.html#aa245b3c689820c0e8a1429ce6e2ba548',1,'poseParametersRender.hpp']]],
   ['pose_5fbody_5f19_5fcolors_5frender_5fgpu',['POSE_BODY_19_COLORS_RENDER_GPU',['../pose_parameters_render_8hpp.html#a17cec2005928720d6da0e83ba26cca01',1,'poseParametersRender.hpp']]],
   ['pose_5fbody_5f19_5fpairs_5frender_5fgpu',['POSE_BODY_19_PAIRS_RENDER_GPU',['../pose_parameters_render_8hpp.html#a497bfbf7fddb6e960565ec70bb6b2ad1',1,'poseParametersRender.hpp']]],
   ['pose_5fbody_5f19_5fscales_5frender_5fgpu',['POSE_BODY_19_SCALES_RENDER_GPU',['../pose_parameters_render_8hpp.html#a791ed14d0f2a65f850c94154b996826c',1,'poseParametersRender.hpp']]],

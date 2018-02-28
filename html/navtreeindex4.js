@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"classop_1_1_thread_manager.html#a5b7c5ea46c360496e261094c5e1397a7":[1,0,3,101,6],
 "classop_1_1_thread_manager.html#a67a2d7cecc749be414e6896a88ec268d":[1,0,3,101,3],
 "classop_1_1_thread_manager.html#a762acc9eb60bd10857da1f416e169f3d":[1,0,3,101,2],
 "classop_1_1_thread_manager.html#a7a24fd902ebd4b5fd81166547a5654d9":[1,0,3,101,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "cv_mat_to_op_input_8hpp.html":[2,0,0,0,1,2],
 "cv_mat_to_op_input_8hpp_source.html":[2,0,0,0,1,2],
 "cv_mat_to_op_output_8hpp.html":[2,0,0,0,1,3],
-"cv_mat_to_op_output_8hpp_source.html":[2,0,0,0,1,3],
-"datum_8hpp.html":[2,0,0,0,1,4]
+"cv_mat_to_op_output_8hpp_source.html":[2,0,0,0,1,3]
 };

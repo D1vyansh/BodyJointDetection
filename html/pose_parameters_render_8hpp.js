@@ -1,8 +1,5 @@
 var pose_parameters_render_8hpp =
 [
-    [ "POSE_BODY_18_COLORS_RENDER_GPU", "pose_parameters_render_8hpp.html#a6e17f6ddfcedd5b314d356d30bbf4280", null ],
-    [ "POSE_BODY_18_PAIRS_RENDER_GPU", "pose_parameters_render_8hpp.html#a0d821946779eaea1be5996816c4ca6bd", null ],
-    [ "POSE_BODY_18_SCALES_RENDER_GPU", "pose_parameters_render_8hpp.html#aa245b3c689820c0e8a1429ce6e2ba548", null ],
     [ "POSE_BODY_19_COLORS_RENDER_GPU", "pose_parameters_render_8hpp.html#a17cec2005928720d6da0e83ba26cca01", null ],
     [ "POSE_BODY_19_PAIRS_RENDER_GPU", "pose_parameters_render_8hpp.html#a497bfbf7fddb6e960565ec70bb6b2ad1", null ],
     [ "POSE_BODY_19_SCALES_RENDER_GPU", "pose_parameters_render_8hpp.html#a791ed14d0f2a65f850c94154b996826c", null ],

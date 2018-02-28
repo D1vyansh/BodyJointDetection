@@ -91,6 +91,7 @@ var searchData=
   ['cuda_5fnum_5fthreads',['CUDA_NUM_THREADS',['../namespaceop.html#ac7bbf63b37bf6762c47557ad227e036d',1,'op']]],
   ['cudacheck',['cudaCheck',['../namespaceop.html#a2af8422ada0de882cc222920ca15c6d2',1,'op']]],
   ['cvinputdata',['cvInputData',['../structop_1_1_datum.html#a0b2c8ccac37be088524cc7c24a502c7b',1,'op::Datum']]],
+  ['cvmattoopinput',['CvMatToOpInput',['../classop_1_1_cv_mat_to_op_input.html#adfb06d56d67a61bc10c3b6db412107d0',1,'op::CvMatToOpInput']]],
   ['cvmattoopinput',['CvMatToOpInput',['../classop_1_1_cv_mat_to_op_input.html',1,'op']]],
   ['cvmattoopinput_2ehpp',['cvMatToOpInput.hpp',['../cv_mat_to_op_input_8hpp.html',1,'']]],
   ['cvmattoopoutput',['CvMatToOpOutput',['../classop_1_1_cv_mat_to_op_output.html',1,'op']]],
