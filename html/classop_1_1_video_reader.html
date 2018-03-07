@@ -119,8 +119,8 @@ $(document).ready(function(){initNavTree('classop_1_1_video_reader.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae5a3e34a4e9cc2f38875ac70a6b88496"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_reader.html#ae5a3e34a4e9cc2f38875ac70a6b88496">VideoReader</a> (const std::string &amp;videoPath)</td></tr>
-<tr class="separator:ae5a3e34a4e9cc2f38875ac70a6b88496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70313aad386ef3897c70fea7b2e4030a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_reader.html#a70313aad386ef3897c70fea7b2e4030a">VideoReader</a> (const std::string &amp;videoPath, const unsigned int imageDirectoryStereo=1, const std::string &amp;cameraParameterPath=&quot;&quot;)</td></tr>
+<tr class="separator:a70313aad386ef3897c70fea7b2e4030a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93742fd892cdb09b99b29f8e8036d803"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_reader.html#a93742fd892cdb09b99b29f8e8036d803">getCameraMatrices</a> ()</td></tr>
 <tr class="separator:a93742fd892cdb09b99b29f8e8036d803"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a508eed918fbe3bfe3eff4c1ebacb3463"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_reader.html#a508eed918fbe3bfe3eff4c1ebacb3463">getNextFrameName</a> ()</td></tr>
@@ -173,7 +173,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classop_1_1_video_reader.html">VideoReader</a> is a wrapper of the cv::VideoCapture class for video. It allows controlling a video (e.g. extracting frames, setting resolution &amp; fps, etc). </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ae5a3e34a4e9cc2f38875ac70a6b88496"></a>
+<a class="anchor" id="a70313aad386ef3897c70fea7b2e4030a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -184,8 +184,24 @@ Additional Inherited Members</h2></td></tr>
           <td class="memname">op::VideoReader::VideoReader </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>videoPath</em></td><td>)</td>
+          <td class="paramname"><em>videoPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>imageDirectoryStereo</em> = <code>1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>cameraParameterPath</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -198,6 +214,8 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">videoPath</td><td>const std::string parameter with the full video path location. </td></tr>
+    <tr><td class="paramname">imageDirectoryStereo</td><td>const int parameter with the number of images per iteration (&gt;1 would represent stereo processing). </td></tr>
+    <tr><td class="paramname">cameraParameterPath</td><td>const std::string parameter with the folder path containing the camera parameters (only required if imageDirectorystereo &gt; 1). </td></tr>
   </table>
   </dd>
 </dl>
@@ -222,7 +240,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -320,7 +338,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
