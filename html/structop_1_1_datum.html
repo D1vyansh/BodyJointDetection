@@ -151,6 +151,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a65deddd49d0fbca81f367198fc600015"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6adcdacea12a9cfa445cf0cac1985b0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html#ae6adcdacea12a9cfa445cf0cac1985b0">name</a></td></tr>
 <tr class="separator:ae6adcdacea12a9cfa445cf0cac1985b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b930d61467f98702ebea68f39fc762b"><td class="memItemLeft" align="right" valign="top">unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html#a8b930d61467f98702ebea68f39fc762b">frameNumber</a></td></tr>
+<tr class="separator:a8b930d61467f98702ebea68f39fc762b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b2c8ccac37be088524cc7c24a502c7b"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html#a0b2c8ccac37be088524cc7c24a502c7b">cvInputData</a></td></tr>
 <tr class="separator:a0b2c8ccac37be088524cc7c24a502c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46ff336119fd0d67c8223b1a9371731d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_datum.html#a46ff336119fd0d67c8223b1a9371731d">inputNetData</a></td></tr>
@@ -661,6 +663,19 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Face detection locations (x,y,width,height) for each person in the image. It is resized to cvInputData.size(). Size: #people </p>
+
+</div>
+</div>
+<a class="anchor" id="a8b930d61467f98702ebea68f39fc762b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long long op::Datum::frameNumber</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Corresponding frame number. If the producer (e.g., video) starts from frame 0 and does not repeat any frame, then frameNumber should match the field id. </p>
 
 </div>
 </div>

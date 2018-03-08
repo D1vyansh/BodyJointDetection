@@ -21,6 +21,7 @@ var structop_1_1_datum =
     [ "faceKeypoints", "structop_1_1_datum.html#aebd19bf50725a5cd87de1efd96f6ebfe", null ],
     [ "faceKeypoints3D", "structop_1_1_datum.html#a9a44196a197d5c050e626efe8b016e84", null ],
     [ "faceRectangles", "structop_1_1_datum.html#a0b2f6955a1751fc79b107789272effad", null ],
+    [ "frameNumber", "structop_1_1_datum.html#a8b930d61467f98702ebea68f39fc762b", null ],
     [ "handHeatMaps", "structop_1_1_datum.html#aef6c478313691ab5101664c1df55aa58", null ],
     [ "handKeypoints", "structop_1_1_datum.html#a59d455dbddc50d700809c5e102c40d4e", null ],
     [ "handKeypoints3D", "structop_1_1_datum.html#a27bb38102b5ebecd9b13a3619e658316", null ],

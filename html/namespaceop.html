@@ -822,8 +822,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa2cc07e56f471c5e1d5f228c70ce6a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22864d3d38f8020596d921951cf67750"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a22864d3d38f8020596d921951cf67750">getBiggestPerson</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;keypoints, const float threshold)</td></tr>
 <tr class="separator:a22864d3d38f8020596d921951cf67750"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19f7bc389a24baf4883ec4155f01cc62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a19f7bc389a24baf4883ec4155f01cc62">putTextOnCvMat</a> (cv::Mat &amp;cvMat, const std::string &amp;textToDisplay, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;position, const cv::Scalar &amp;color, const bool normalizeWidth)</td></tr>
-<tr class="separator:a19f7bc389a24baf4883ec4155f01cc62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1d0931229d15c0a8ac13d4c0ff407e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ad1d0931229d15c0a8ac13d4c0ff407e2">putTextOnCvMat</a> (cv::Mat &amp;cvMat, const std::string &amp;textToDisplay, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;position, const cv::Scalar &amp;color, const bool normalizeWidth, const int imageWidth)</td></tr>
+<tr class="separator:ad1d0931229d15c0a8ac13d4c0ff407e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cd0c6d2db81cd1de7568d805ef214ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a9cd0c6d2db81cd1de7568d805ef214ba">floatPtrToUCharCvMat</a> (cv::Mat &amp;uCharCvMat, const float *const floatPtrImage, const std::array&lt; int, 3 &gt; resolutionSize)</td></tr>
 <tr class="separator:a9cd0c6d2db81cd1de7568d805ef214ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b9daed84e741afb7191fde8ed95b5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ab8b9daed84e741afb7191fde8ed95b5e">unrollArrayToUCharCvMat</a> (cv::Mat &amp;cvMatResult, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;array)</td></tr>
@@ -4718,7 +4718,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a19f7bc389a24baf4883ec4155f01cc62"></a>
+<a class="anchor" id="ad1d0931229d15c0a8ac13d4c0ff407e2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -4750,7 +4750,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>normalizeWidth</em>&#160;</td>
+          <td class="paramname"><em>normalizeWidth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>imageWidth</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

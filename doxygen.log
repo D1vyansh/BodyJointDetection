@@ -878,32 +878,32 @@ Generating docs for nested compound/home/travis/build/CMU-Perceptual-Computing-L
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/gpu/cl2.hpp:9397: warning: argument 't0...' of command @param is not found in the argument list of cl::KernelFunctor< Ts >::operator()(const EnqueueArgs &args, Ts...ts, cl_int &error)
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/gpu/cl2.hpp:9397: warning: The following parameters of cl::KernelFunctor::operator()(const EnqueueArgs &args, Ts...ts, cl_int &error) are not documented:
   parameter 'ts'
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:135: warning: explicit link request to 'people' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:135: warning: explicit link request to 'face' could not be resolved
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:128: warning: explicit link request to 'people' could not be resolved
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:128: warning: explicit link request to 'face' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:171: warning: explicit link request to 'people' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:171: warning: explicit link request to 'face' could not be resolved
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:121: warning: explicit link request to 'people' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:121: warning: explicit link request to 'face' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:164: warning: explicit link request to 'people' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:164: warning: explicit link request to 'face' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:114: warning: explicit link request to 'people' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:157: warning: explicit link request to 'people' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:157: warning: explicit link request to 'hand' could not be resolved
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:150: warning: explicit link request to 'people' could not be resolved
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:150: warning: explicit link request to 'hand' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:143: warning: explicit link request to 'people' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:143: warning: explicit link request to 'hand' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:172: warning: explicit link request to 'people' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:172: warning: explicit link request to 'hand' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:135: warning: explicit link request to 'people' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:38: warning: explicit link request to 'scales' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:105: warning: explicit link request to 'body' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:107: warning: explicit link request to 'BP' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:90: warning: explicit link request to 'heatmaps' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:90: warning: explicit link request to 'body' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:96: warning: explicit link request to 'heatmaps' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:72: warning: explicit link request to 'people' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:63: warning: explicit link request to 'people' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:63: warning: explicit link request to 'body' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:157: warning: explicit link request to 'people' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:157: warning: explicit link request to 'body' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:82: warning: explicit link request to 'people' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:179: warning: explicit link request to 'people' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:179: warning: explicit link request to 'hand' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:142: warning: explicit link request to 'people' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:45: warning: explicit link request to 'scales' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:112: warning: explicit link request to 'body' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:114: warning: explicit link request to 'BP' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:97: warning: explicit link request to 'heatmaps' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:97: warning: explicit link request to 'body' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:103: warning: explicit link request to 'heatmaps' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:79: warning: explicit link request to 'people' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:70: warning: explicit link request to 'people' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:70: warning: explicit link request to 'body' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:164: warning: explicit link request to 'people' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:164: warning: explicit link request to 'body' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/datum.hpp:89: warning: explicit link request to 'people' could not be resolved
  cl::SVMAllocator::rebind...
 Generating docs for compound cl::SVMAllocator< void, SVMTrait >...
 Generating docs for nested compound cl::SVMAllocator< void, SVMTrait >::rebind...
@@ -1132,5 +1132,5 @@ Generating file index...
 Generating file member index...
 Generating example index...
 finalizing index lists...
-lookup cache used 4473/65536 hits=33913 misses=4781
+lookup cache used 4475/65536 hits=33923 misses=4783
 finished...
