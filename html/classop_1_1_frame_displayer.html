@@ -127,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad83a47005c52f066587f49d62c109802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada237c384d55d6e141dce886e6fe97e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_frame_displayer.html#ada237c384d55d6e141dce886e6fe97e3">displayFrame</a> (const cv::Mat &amp;frame, const int waitKeyValue=-1)</td></tr>
 <tr class="separator:ada237c384d55d6e141dce886e6fe97e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac047ba552b5c1a9b9a23b973484ff931"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_frame_displayer.html#ac047ba552b5c1a9b9a23b973484ff931">displayFrame</a> (const std::vector&lt; cv::Mat &gt; &amp;frames, const int waitKeyValue=-1)</td></tr>
+<tr class="separator:ac047ba552b5c1a9b9a23b973484ff931"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classop_1_1_frame_displayer.html">FrameDisplayer</a> class is the one presenting visually the processed frame to the user. </p>
@@ -204,6 +206,33 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="ac047ba552b5c1a9b9a23b973484ff931"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void op::FrameDisplayer::displayFrame </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td>
+          <td class="paramname"><em>frames</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>waitKeyValue</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Analogous to the previous displayFrame, but first it horizontally concatenates all the frames </p>
 
 </div>
 </div>

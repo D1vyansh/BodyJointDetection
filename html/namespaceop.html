@@ -117,6 +117,8 @@ $(document).ready(function(){initNavTree('namespaceop.html','');});
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html">CameraParameterReader</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_triangulation.html">PoseTriangulation</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_pose_triangulation.html">WPoseTriangulation</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html">Array</a></td></tr>
@@ -477,8 +479,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aebaf536d172c504ac2bdd3e9f7bcf6fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aebaf536d172c504ac2bdd3e9f7bcf6fb">reconstructArray</a> (const std::vector&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&gt; &amp;keypointsVector, const std::vector&lt; cv::Mat &gt; &amp;matrixEachCamera)</td></tr>
-<tr class="separator:aebaf536d172c504ac2bdd3e9f7bcf6fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53f346232d0743f3dd0f547de1fc508f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a53f346232d0743f3dd0f547de1fc508f">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_pose_triangulation.html">WPoseTriangulation</a>)</td></tr>
 <tr class="separator:a53f346232d0743f3dd0f547de1fc508f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc3e9959bee33fa45e718f9874da3e33"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
@@ -1948,14 +1948,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a674a652ad38b355285417529fc050847"></a>
+<a class="anchor" id="a1d9f50688522ed7368acc33a09ae9ece"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WPersonIdExtractor&#160;</td>
+          <td class="paramtype">WOpOutputToCvMat&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1964,14 +1964,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a196f17357cd1c1bb02e24e4e8a0e6ec3"></a>
+<a class="anchor" id="a674a652ad38b355285417529fc050847"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WFaceDetector&#160;</td>
+          <td class="paramtype">WPersonIdExtractor&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -1996,14 +1996,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1d9f50688522ed7368acc33a09ae9ece"></a>
+<a class="anchor" id="a196f17357cd1c1bb02e24e4e8a0e6ec3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WOpOutputToCvMat&#160;</td>
+          <td class="paramtype">WFaceDetector&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2428,22 +2428,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a53f346232d0743f3dd0f547de1fc508f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WPoseTriangulation&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a774871462f7fefb8cadea1e49f501e45"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2468,6 +2452,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WGui3D&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a53f346232d0743f3dd0f547de1fc508f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WPoseTriangulation&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -4791,32 +4791,6 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td class="paramtype">const T&#160;</td>
           <td class="paramname"><em>newHeight</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aebaf536d172c504ac2bdd3e9f7bcf6fb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::reconstructArray </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; Array&lt; float &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>keypointsVector</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td>
-          <td class="paramname"><em>matrixEachCamera</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

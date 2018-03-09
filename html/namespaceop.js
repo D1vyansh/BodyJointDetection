@@ -1,6 +1,7 @@
 var namespaceop =
 [
     [ "CameraParameterReader", "classop_1_1_camera_parameter_reader.html", "classop_1_1_camera_parameter_reader" ],
+    [ "PoseTriangulation", "classop_1_1_pose_triangulation.html", "classop_1_1_pose_triangulation" ],
     [ "WPoseTriangulation", "classop_1_1_w_pose_triangulation.html", "classop_1_1_w_pose_triangulation" ],
     [ "Array", "classop_1_1_array.html", "classop_1_1_array" ],
     [ "CvMatToOpInput", "classop_1_1_cv_mat_to_op_input.html", "classop_1_1_cv_mat_to_op_input" ],

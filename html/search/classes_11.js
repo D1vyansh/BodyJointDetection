@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['rebind',['rebind',['../structcl_1_1_s_v_m_allocator_3_01void_00_01_s_v_m_trait_01_4_1_1rebind.html',1,'cl::SVMAllocator&lt; void, SVMTrait &gt;']]],
   ['rebind',['rebind',['../structcl_1_1_s_v_m_allocator_1_1rebind.html',1,'cl::SVMAllocator']]],
+  ['rebind',['rebind',['../structcl_1_1_s_v_m_allocator_3_01void_00_01_s_v_m_trait_01_4_1_1rebind.html',1,'cl::SVMAllocator&lt; void, SVMTrait &gt;']]],
   ['rectangle',['Rectangle',['../structop_1_1_rectangle.html',1,'op']]],
   ['referencehandler',['ReferenceHandler',['../structcl_1_1detail_1_1_reference_handler.html',1,'cl::detail']]],
   ['referencehandler_3c_20cl_5fcommand_5fqueue_20_3e',['ReferenceHandler&lt; cl_command_queue &gt;',['../structcl_1_1detail_1_1_reference_handler_3_01cl__command__queue_01_4.html',1,'cl::detail']]],

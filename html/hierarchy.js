@@ -81,6 +81,7 @@ var hierarchy =
       [ "op::PoseCpuRenderer", "classop_1_1_pose_cpu_renderer.html", null ],
       [ "op::PoseGpuRenderer", "classop_1_1_pose_gpu_renderer.html", null ]
     ] ],
+    [ "op::PoseTriangulation", "classop_1_1_pose_triangulation.html", null ],
     [ "op::Producer", "classop_1_1_producer.html", [
       [ "op::FlirReader", "classop_1_1_flir_reader.html", null ],
       [ "op::ImageDirectoryReader", "classop_1_1_image_directory_reader.html", null ],
@@ -95,8 +96,8 @@ var hierarchy =
       [ "op::PriorityQueue< TDatums, TQueue >", "classop_1_1_priority_queue.html", null ],
       [ "op::Queue< TDatums, TQueue >", "classop_1_1_queue.html", null ]
     ] ],
-    [ "cl::SVMAllocator< void, SVMTrait >::rebind< U >", "structcl_1_1_s_v_m_allocator_3_01void_00_01_s_v_m_trait_01_4_1_1rebind.html", null ],
     [ "cl::SVMAllocator< T, SVMTrait >::rebind< U >", "structcl_1_1_s_v_m_allocator_1_1rebind.html", null ],
+    [ "cl::SVMAllocator< void, SVMTrait >::rebind< U >", "structcl_1_1_s_v_m_allocator_3_01void_00_01_s_v_m_trait_01_4_1_1rebind.html", null ],
     [ "op::Rectangle< T >", "structop_1_1_rectangle.html", null ],
     [ "cl::detail::ReferenceHandler< T >", "structcl_1_1detail_1_1_reference_handler.html", null ],
     [ "cl::detail::ReferenceHandler< cl_command_queue >", "structcl_1_1detail_1_1_reference_handler_3_01cl__command__queue_01_4.html", null ],
