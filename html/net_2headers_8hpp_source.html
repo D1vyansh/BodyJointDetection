@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/net/net.hpp Source File</title>
+<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/net/headers.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('net_8hpp_source.html','');});
+$(document).ready(function(){initNavTree('net_2headers_8hpp_source.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -104,36 +104,37 @@ $(document).ready(function(){initNavTree('net_8hpp_source.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">net.hpp</div>  </div>
+<div class="title">headers.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="net_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENPOSE_NET_NET_HPP</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENPOSE_NET_NET_HPP</span></div>
+<a href="net_2headers_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENPOSE_NET_HEADERS_HPP</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENPOSE_NET_HEADERS_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="common_8hpp.html">openpose/core/common.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>op</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classop_1_1_net.html">    8</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_net.html">Net</a></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> initializationOnThread() = 0;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> forwardPass(<span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; inputData) <span class="keyword">const</span> = 0;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    };</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif // OPENPOSE_NET_NET_HPP</span></div>
-<div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
-<div class="ttc" id="classop_1_1_net_html"><div class="ttname"><a href="classop_1_1_net.html">op::Net</a></div><div class="ttdef"><b>Definition:</b> net.hpp:8</div></div>
-<div class="ttc" id="classop_1_1_array_html"><div class="ttname"><a href="classop_1_1_array.html">op::Array&lt; float &gt;</a></div></div>
-<div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:15</div></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// net module</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="maximum_base_8hpp.html">openpose/net/maximumBase.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="maximum_caffe_8hpp.html">openpose/net/maximumCaffe.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="net_8hpp.html">openpose/net/net.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="net_caffe_8hpp.html">openpose/net/netCaffe.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="nms_base_8hpp.html">openpose/net/nmsBase.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="nms_caffe_8hpp.html">openpose/net/nmsCaffe.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="resize_and_merge_base_8hpp.html">openpose/net/resizeAndMergeBase.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="resize_and_merge_caffe_8hpp.html">openpose/net/resizeAndMergeCaffe.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif // OPENPOSE_NET_HEADERS_HPP</span></div>
+<div class="ttc" id="resize_and_merge_caffe_8hpp_html"><div class="ttname"><a href="resize_and_merge_caffe_8hpp.html">resizeAndMergeCaffe.hpp</a></div></div>
+<div class="ttc" id="net_8hpp_html"><div class="ttname"><a href="net_8hpp.html">net.hpp</a></div></div>
+<div class="ttc" id="nms_base_8hpp_html"><div class="ttname"><a href="nms_base_8hpp.html">nmsBase.hpp</a></div></div>
+<div class="ttc" id="net_caffe_8hpp_html"><div class="ttname"><a href="net_caffe_8hpp.html">netCaffe.hpp</a></div></div>
+<div class="ttc" id="maximum_caffe_8hpp_html"><div class="ttname"><a href="maximum_caffe_8hpp.html">maximumCaffe.hpp</a></div></div>
+<div class="ttc" id="maximum_base_8hpp_html"><div class="ttname"><a href="maximum_base_8hpp.html">maximumBase.hpp</a></div></div>
+<div class="ttc" id="nms_caffe_8hpp_html"><div class="ttname"><a href="nms_caffe_8hpp.html">nmsCaffe.hpp</a></div></div>
+<div class="ttc" id="resize_and_merge_base_8hpp_html"><div class="ttname"><a href="resize_and_merge_base_8hpp.html">resizeAndMergeBase.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_569de9812424afab8cfb67ee240b107a.html">net</a></li><li class="navelem"><a class="el" href="net_8hpp.html">net.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_569de9812424afab8cfb67ee240b107a.html">net</a></li><li class="navelem"><a class="el" href="net_2headers_8hpp.html">headers.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

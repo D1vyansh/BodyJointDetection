@@ -23,20 +23,6 @@ var dir_d6e567c8390b6a30c30307f931e28950 =
       [ "KeypointScaler", "classop_1_1_keypoint_scaler.html", "classop_1_1_keypoint_scaler" ]
     ] ],
     [ "macros.hpp", "macros_8hpp.html", "macros_8hpp" ],
-    [ "maximumBase.hpp", "maximum_base_8hpp.html", "maximum_base_8hpp" ],
-    [ "maximumCaffe.hpp", "maximum_caffe_8hpp.html", [
-      [ "MaximumCaffe", "classop_1_1_maximum_caffe.html", "classop_1_1_maximum_caffe" ]
-    ] ],
-    [ "net.hpp", "net_8hpp.html", [
-      [ "Net", "classop_1_1_net.html", "classop_1_1_net" ]
-    ] ],
-    [ "netCaffe.hpp", "net_caffe_8hpp.html", [
-      [ "NetCaffe", "classop_1_1_net_caffe.html", "classop_1_1_net_caffe" ]
-    ] ],
-    [ "nmsBase.hpp", "nms_base_8hpp.html", "nms_base_8hpp" ],
-    [ "nmsCaffe.hpp", "nms_caffe_8hpp.html", [
-      [ "NmsCaffe", "classop_1_1_nms_caffe.html", "classop_1_1_nms_caffe" ]
-    ] ],
     [ "opOutputToCvMat.hpp", "op_output_to_cv_mat_8hpp.html", [
       [ "OpOutputToCvMat", "classop_1_1_op_output_to_cv_mat.html", "classop_1_1_op_output_to_cv_mat" ]
     ] ],
@@ -46,11 +32,6 @@ var dir_d6e567c8390b6a30c30307f931e28950 =
     [ "rectangle.hpp", "rectangle_8hpp.html", "rectangle_8hpp" ],
     [ "renderer.hpp", "renderer_8hpp.html", [
       [ "Renderer", "classop_1_1_renderer.html", "classop_1_1_renderer" ]
-    ] ],
-    [ "resizeAndMergeBase.hpp", "resize_and_merge_base_8hpp.html", "resize_and_merge_base_8hpp" ],
-    [ "resizeAndMergeCaffe.hpp", "resize_and_merge_caffe_8hpp.html", [
-      [ "Blob", "classcaffe_1_1_blob.html", null ],
-      [ "ResizeAndMergeCaffe", "classop_1_1_resize_and_merge_caffe.html", "classop_1_1_resize_and_merge_caffe" ]
     ] ],
     [ "scaleAndSizeExtractor.hpp", "scale_and_size_extractor_8hpp.html", [
       [ "ScaleAndSizeExtractor", "classop_1_1_scale_and_size_extractor.html", "classop_1_1_scale_and_size_extractor" ]
