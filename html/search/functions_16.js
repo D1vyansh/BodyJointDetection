@@ -48,7 +48,7 @@ var searchData=
   ['wrapperstructface',['WrapperStructFace',['../structop_1_1_wrapper_struct_face.html#a48844c4c23c71372258518015d0b81b1',1,'op::WrapperStructFace']]],
   ['wrapperstructhand',['WrapperStructHand',['../structop_1_1_wrapper_struct_hand.html#a3283127d10840219bf2aacedeef0b72b',1,'op::WrapperStructHand']]],
   ['wrapperstructinput',['WrapperStructInput',['../structop_1_1_wrapper_struct_input.html#a06aaa39948ac1a83a234b99f270ee14b',1,'op::WrapperStructInput']]],
-  ['wrapperstructoutput',['WrapperStructOutput',['../structop_1_1_wrapper_struct_output.html#a7b7ff64e4b2f4ee5716396f529076f2f',1,'op::WrapperStructOutput']]],
+  ['wrapperstructoutput',['WrapperStructOutput',['../structop_1_1_wrapper_struct_output.html#a91e819842b4a1c883a625102a87bd9e8',1,'op::WrapperStructOutput']]],
   ['wrapperstructpose',['WrapperStructPose',['../structop_1_1_wrapper_struct_pose.html#a6c77662a0529113c9477ca0415642834',1,'op::WrapperStructPose']]],
   ['write',['write',['../classop_1_1_video_saver.html#a7c79397b9be8b6d6d12b9f3e78e6c794',1,'op::VideoSaver::write(const cv::Mat &amp;cvMat)'],['../classop_1_1_video_saver.html#a3cdbef8bada237edffaf7793eaa0fe8e',1,'op::VideoSaver::write(const std::vector&lt; cv::Mat &gt; &amp;cvMats)']]],
   ['wscaleandsizeextractor',['WScaleAndSizeExtractor',['../classop_1_1_w_scale_and_size_extractor.html#a8e6ef291bd809987f06fbb1cc2173b0f',1,'op::WScaleAndSizeExtractor']]],

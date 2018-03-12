@@ -9,5 +9,6 @@ var searchData=
   ['writejson',['writeJson',['../structop_1_1_wrapper_struct_output.html#a8a2f29bae4ff55195b10a83717a0f738',1,'op::WrapperStructOutput']]],
   ['writekeypoint',['writeKeypoint',['../structop_1_1_wrapper_struct_output.html#ad9ca696781cb7c250752f078f5c937fc',1,'op::WrapperStructOutput']]],
   ['writekeypointformat',['writeKeypointFormat',['../structop_1_1_wrapper_struct_output.html#ad338fd4719d6f243bb64bc67f68bc7c9',1,'op::WrapperStructOutput']]],
-  ['writevideo',['writeVideo',['../structop_1_1_wrapper_struct_output.html#a73d6a5687ab8abac22f5cd29690b6277',1,'op::WrapperStructOutput']]]
+  ['writevideo',['writeVideo',['../structop_1_1_wrapper_struct_output.html#a73d6a5687ab8abac22f5cd29690b6277',1,'op::WrapperStructOutput']]],
+  ['writevideofps',['writeVideoFps',['../structop_1_1_wrapper_struct_output.html#ad595edffced2bfd80c3bee183f32f505',1,'op::WrapperStructOutput']]]
 ];

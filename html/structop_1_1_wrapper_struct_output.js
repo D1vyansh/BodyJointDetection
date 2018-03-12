@@ -1,6 +1,6 @@
 var structop_1_1_wrapper_struct_output =
 [
-    [ "WrapperStructOutput", "structop_1_1_wrapper_struct_output.html#a7b7ff64e4b2f4ee5716396f529076f2f", null ],
+    [ "WrapperStructOutput", "structop_1_1_wrapper_struct_output.html#a91e819842b4a1c883a625102a87bd9e8", null ],
     [ "displayMode", "structop_1_1_wrapper_struct_output.html#a4e18a93cfa9c6b47151427152a745817", null ],
     [ "fullScreen", "structop_1_1_wrapper_struct_output.html#aaf5df884418d2bf1df36505009264ece", null ],
     [ "guiVerbose", "structop_1_1_wrapper_struct_output.html#ac72ad601daf957b9b000206e9f1fe0ad", null ],
@@ -12,5 +12,6 @@ var structop_1_1_wrapper_struct_output =
     [ "writeJson", "structop_1_1_wrapper_struct_output.html#a8a2f29bae4ff55195b10a83717a0f738", null ],
     [ "writeKeypoint", "structop_1_1_wrapper_struct_output.html#ad9ca696781cb7c250752f078f5c937fc", null ],
     [ "writeKeypointFormat", "structop_1_1_wrapper_struct_output.html#ad338fd4719d6f243bb64bc67f68bc7c9", null ],
-    [ "writeVideo", "structop_1_1_wrapper_struct_output.html#a73d6a5687ab8abac22f5cd29690b6277", null ]
+    [ "writeVideo", "structop_1_1_wrapper_struct_output.html#a73d6a5687ab8abac22f5cd29690b6277", null ],
+    [ "writeVideoFps", "structop_1_1_wrapper_struct_output.html#ad595edffced2bfd80c3bee183f32f505", null ]
 ];
