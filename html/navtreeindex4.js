@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"classop_1_1_thread_manager.html#a01c2d62e539896e36564457ab9cac25c":[1,0,3,102,8],
+"classop_1_1_thread_manager.html#a36bd8060a4f7f449a8aa35d9a166270d":[1,0,3,102,13],
 "classop_1_1_thread_manager.html#a393a9f04c70a002f5ceb5e301eea5cff":[1,0,3,102,14],
 "classop_1_1_thread_manager.html#a472a1ebee700c3449bac4d6d2bb0c3a8":[1,0,3,102,9],
 "classop_1_1_thread_manager.html#a48ea53b3de4d09c84db18e2c31ce1be1":[1,0,3,102,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "cuda_8hpp.html#a4ba080c11cc9758051db97ce2a11c023":[2,0,0,0,5,1,2],
 "cuda_8hpp.html#a8b9860388a640472d25a1dacb007c675":[2,0,0,0,5,1,3],
 "cuda_8hpp.html#ac7bbf63b37bf6762c47557ad227e036d":[2,0,0,0,5,1,4],
-"cuda_8hpp.html#ad9b7765a4396ee4470585ded07285563":[2,0,0,0,5,1,1],
-"cuda_8hpp_source.html":[2,0,0,0,5,1],
-"cv_mat_to_op_input_8hpp.html":[2,0,0,0,1,2]
+"cuda_8hpp.html#ad9b7765a4396ee4470585ded07285563":[2,0,0,0,5,1,1]
 };

@@ -18,6 +18,7 @@ var NAVTREEINDEX3 =
 "classop_1_1_keypoint_saver.html#aa6d9eb36cfd40c5cfa3995420cdf3dfa":[1,0,3,39,0],
 "classop_1_1_keypoint_scaler.html":[1,0,3,9],
 "classop_1_1_keypoint_scaler.html#a0f556c1b0fad63c7c3551a5d4fd72219":[1,0,3,9,0],
+"classop_1_1_keypoint_scaler.html#a3766338315f1364515b3bf8bf4d02701":[1,0,3,9,3],
 "classop_1_1_keypoint_scaler.html#ab85b497b5676c72c4bd62eaef98ec56c":[1,0,3,9,1],
 "classop_1_1_keypoint_scaler.html#accfefe6f4be7d2886c3720b751b4c36a":[1,0,3,9,2],
 "classop_1_1_maximum_caffe.html":[1,0,3,70],
@@ -40,10 +41,11 @@ var NAVTREEINDEX3 =
 "classop_1_1_net_caffe.html#af6d9ee03568d2783e0e4ed0b78a21c3d":[1,0,3,72,0],
 "classop_1_1_nms_caffe.html":[1,0,3,73],
 "classop_1_1_nms_caffe.html#a0702488e5d899a6610535f6741601978":[1,0,3,73,1],
+"classop_1_1_nms_caffe.html#a1dd658e4bc9e080867a99e9b57f1baa8":[1,0,3,73,9],
 "classop_1_1_nms_caffe.html#a46d0269df59984ad2b6b4ef4f1b1f71d":[1,0,3,73,3],
-"classop_1_1_nms_caffe.html#a5213ac573acd982c7e590a6d8f603968":[1,0,3,73,10],
+"classop_1_1_nms_caffe.html#a5213ac573acd982c7e590a6d8f603968":[1,0,3,73,11],
 "classop_1_1_nms_caffe.html#a52bd0b61a9f406be653498a49ea39947":[1,0,3,73,6],
-"classop_1_1_nms_caffe.html#a5f257eb561fc705c2b74489b12269b49":[1,0,3,73,9],
+"classop_1_1_nms_caffe.html#a5f257eb561fc705c2b74489b12269b49":[1,0,3,73,10],
 "classop_1_1_nms_caffe.html#a646d0442dfa17bbd3b6f90a7fc32af11":[1,0,3,73,8],
 "classop_1_1_nms_caffe.html#a7bb4d872cd3673bcf868049a3aedb393":[1,0,3,73,5],
 "classop_1_1_nms_caffe.html#a7c269eac9de4422235f3a0d300861b2e":[1,0,3,73,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "classop_1_1_thread.html#ac898abffd6ed18456b97ef1b72935ec6":[1,0,3,101,8],
 "classop_1_1_thread.html#ad6c3721793d0f65ffe755ab74534afed":[1,0,3,101,5],
 "classop_1_1_thread.html#af0471340c93fdcc0ba8e06c3f9524fef":[1,0,3,101,6],
-"classop_1_1_thread_manager.html":[1,0,3,102],
-"classop_1_1_thread_manager.html#a01c2d62e539896e36564457ab9cac25c":[1,0,3,102,8],
-"classop_1_1_thread_manager.html#a36bd8060a4f7f449a8aa35d9a166270d":[1,0,3,102,13]
+"classop_1_1_thread_manager.html":[1,0,3,102]
 };

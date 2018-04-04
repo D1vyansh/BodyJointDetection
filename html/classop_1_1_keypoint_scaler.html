@@ -123,6 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab85b497b5676c72c4bd62eaef98ec56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accfefe6f4be7d2886c3720b751b4c36a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_keypoint_scaler.html#accfefe6f4be7d2886c3720b751b4c36a">scale</a> (std::vector&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&gt; &amp;arraysToScale, const double scaleInputToOutput, const double scaleNetToOutput, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;producerSize) const </td></tr>
 <tr class="separator:accfefe6f4be7d2886c3720b751b4c36a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3766338315f1364515b3bf8bf4d02701"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_keypoint_scaler.html#a3766338315f1364515b3bf8bf4d02701">scale</a> (std::vector&lt; std::vector&lt; std::array&lt; float, 3 &gt;&gt;&gt; &amp;poseCandidates, const double scaleInputToOutput, const double scaleNetToOutput, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;producerSize) const </td></tr>
+<tr class="separator:a3766338315f1364515b3bf8bf4d02701"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a0f556c1b0fad63c7c3551a5d4fd72219"></a>
@@ -197,6 +199,44 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">std::vector&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>arraysToScale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>scaleInputToOutput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>scaleNetToOutput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>producerSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3766338315f1364515b3bf8bf4d02701"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void op::KeypointScaler::scale </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; std::array&lt; float, 3 &gt;&gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseCandidates</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

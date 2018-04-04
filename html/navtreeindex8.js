@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"structop_1_1_wrapper_struct_pose.html#a4d3ad84b14697d5f1009fa29e2ff1998":[1,0,3,118,3],
+"structop_1_1_wrapper_struct_pose.html#a536ea76d50e94d513066e9e5767d0c03":[1,0,3,118,8],
 "structop_1_1_wrapper_struct_pose.html#a646ae142f821411d22d772b76960d585":[1,0,3,118,23],
 "structop_1_1_wrapper_struct_pose.html#a6c77662a0529113c9477ca0415642834":[1,0,3,118,0],
 "structop_1_1_wrapper_struct_pose.html#a782ba82c6aeabea8fa625042fdf09408":[1,0,3,118,7],
