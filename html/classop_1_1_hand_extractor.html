@@ -127,8 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a95a512748828a04713b4cde582fb4901"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5592a468cfdcfdd687d6f9d465d3eda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#aa5592a468cfdcfdd687d6f9d465d3eda">initializationOnThread</a> ()</td></tr>
 <tr class="separator:aa5592a468cfdcfdd687d6f9d465d3eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d4eb3fc406aa44bb2c8e320ba3cb377"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a1d4eb3fc406aa44bb2c8e320ba3cb377">forwardPass</a> (const std::vector&lt; std::array&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;, 2 &gt;&gt; handRectangles, const cv::Mat &amp;cvInputData, const double scaleInputToOutput)=0</td></tr>
-<tr class="separator:a1d4eb3fc406aa44bb2c8e320ba3cb377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da2e8ae3980a0881a3a9a98756e9b78"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a3da2e8ae3980a0881a3a9a98756e9b78">forwardPass</a> (const std::vector&lt; std::array&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;, 2 &gt;&gt; handRectangles, const cv::Mat &amp;cvInputData)=0</td></tr>
+<tr class="separator:a3da2e8ae3980a0881a3a9a98756e9b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5ce8cd602820921de3ec3f676aacf0d"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#af5ce8cd602820921de3ec3f676aacf0d">getHeatMaps</a> () const </td></tr>
 <tr class="separator:af5ce8cd602820921de3ec3f676aacf0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a322a1c3a0ab7abaf0c697246af9309cc"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a322a1c3a0ab7abaf0c697246af9309cc">getHandKeypoints</a> () const </td></tr>
@@ -253,7 +253,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a1d4eb3fc406aa44bb2c8e320ba3cb377"></a>
+<a class="anchor" id="a3da2e8ae3980a0881a3a9a98756e9b78"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -270,13 +270,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const cv::Mat &amp;&#160;</td>
-          <td class="paramname"><em>cvInputData</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double&#160;</td>
-          <td class="paramname"><em>scaleInputToOutput</em>&#160;</td>
+          <td class="paramname"><em>cvInputData</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -295,12 +289,11 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <table class="params">
     <tr><td class="paramname">handRectangles</td><td>location of the hands in the image. It is a length-variable std::vector, where each index corresponds to a different person in the image. Internally the std::vector, a std::array of 2 elements: index 0 and 1 for left and right hand respectively. Inside each array element, a op::Rectangle&lt;float&gt; (similar to cv::Rect for floating values) with the position of that hand (or 0,0,0,0 if some hand is missing, e.g. if a specific person has only half of the body inside the image). </td></tr>
     <tr><td class="paramname">cvInputData</td><td>Original image in cv::Mat format and BGR format. </td></tr>
-    <tr><td class="paramname">scaleInputToOutput</td><td>Desired scale of the final keypoints. Set to 1 if the desired size is the cvInputData size. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classop_1_1_hand_extractor_caffe.html#a892d6233b92a7862c32adfa85574236c">op::HandExtractorCaffe</a>.</p>
+<p>Implemented in <a class="el" href="classop_1_1_hand_extractor_caffe.html#add0603118d06a1dbeb5c6095e6ca77f3">op::HandExtractorCaffe</a>.</p>
 
 </div>
 </div>

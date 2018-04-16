@@ -121,8 +121,8 @@ $(document).ready(function(){initNavTree('classop_1_1_face_cpu_renderer.html',''
 Public Member Functions</h2></td></tr>
 <tr class="memitem:afb0dcfff75c4a89d5971d7b0bbd0b51b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_cpu_renderer.html#afb0dcfff75c4a89d5971d7b0bbd0b51b">FaceCpuRenderer</a> (const float renderThreshold, const float alphaKeypoint=<a class="el" href="namespaceop.html#a15f6c39797cee87f6aa941d93f22b78b">FACE_DEFAULT_ALPHA_KEYPOINT</a>, const float alphaHeatMap=<a class="el" href="namespaceop.html#a4f191afed46fea5e3ce5b2a8756e1ddd">FACE_DEFAULT_ALPHA_HEAT_MAP</a>)</td></tr>
 <tr class="separator:afb0dcfff75c4a89d5971d7b0bbd0b51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f8b158aca09eca94ad1b0cd8418cbb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_cpu_renderer.html#a9f8b158aca09eca94ad1b0cd8418cbb5">renderFace</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;outputData, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;faceKeypoints)</td></tr>
-<tr class="separator:a9f8b158aca09eca94ad1b0cd8418cbb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2f7c7f0a5a8df2dbb94c8a01fa41e2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_cpu_renderer.html#aa2f7c7f0a5a8df2dbb94c8a01fa41e2a">renderFaceInherited</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;outputData, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;faceKeypoints)</td></tr>
+<tr class="separator:aa2f7c7f0a5a8df2dbb94c8a01fa41e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a233f2a83930d07e4d420b43c8a660f32"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_cpu_renderer.html#a233f2a83930d07e4d420b43c8a660f32">DELETE_COPY</a> (<a class="el" href="classop_1_1_face_cpu_renderer.html">FaceCpuRenderer</a>)</td></tr>
 <tr class="separator:a233f2a83930d07e4d420b43c8a660f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classop_1_1_renderer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_renderer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_renderer.html">op::Renderer</a></td></tr>
@@ -151,6 +151,8 @@ Public Member Functions</h2></td></tr>
 <tr class="inherit_header pub_methods_classop_1_1_face_renderer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_face_renderer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_face_renderer.html">op::FaceRenderer</a></td></tr>
 <tr class="memitem:aa34ce7a0602b0994cc3043b80627a31c inherit pub_methods_classop_1_1_face_renderer"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_renderer.html#aa34ce7a0602b0994cc3043b80627a31c">initializationOnThread</a> ()</td></tr>
 <tr class="separator:aa34ce7a0602b0994cc3043b80627a31c inherit pub_methods_classop_1_1_face_renderer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbbdaca16f4115a5a68d006f4f325397 inherit pub_methods_classop_1_1_face_renderer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_renderer.html#acbbdaca16f4115a5a68d006f4f325397">renderFace</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;outputData, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;faceKeypoints, const float scaleInputToOutput)</td></tr>
+<tr class="separator:acbbdaca16f4115a5a68d006f4f325397 inherit pub_methods_classop_1_1_face_renderer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -218,7 +220,7 @@ unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="a9f8b158aca09eca94ad1b0cd8418cbb5"></a>
+<a class="anchor" id="aa2f7c7f0a5a8df2dbb94c8a01fa41e2a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -226,7 +228,7 @@ unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void op::FaceCpuRenderer::renderFace </td>
+          <td class="memname">void op::FaceCpuRenderer::renderFaceInherited </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>outputData</em>, </td>
@@ -250,7 +252,7 @@ unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classop_1_1_face_renderer.html#a045da831a9476bfc0e58e08ebb6c84c1">op::FaceRenderer</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_face_renderer.html">op::FaceRenderer</a>.</p>
 
 </div>
 </div>

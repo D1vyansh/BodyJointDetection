@@ -121,8 +121,8 @@ $(document).ready(function(){initNavTree('classop_1_1_face_renderer.html','');})
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa34ce7a0602b0994cc3043b80627a31c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_renderer.html#aa34ce7a0602b0994cc3043b80627a31c">initializationOnThread</a> ()</td></tr>
 <tr class="separator:aa34ce7a0602b0994cc3043b80627a31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a045da831a9476bfc0e58e08ebb6c84c1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_renderer.html#a045da831a9476bfc0e58e08ebb6c84c1">renderFace</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;outputData, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;faceKeypoints)=0</td></tr>
-<tr class="separator:a045da831a9476bfc0e58e08ebb6c84c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbbdaca16f4115a5a68d006f4f325397"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_renderer.html#acbbdaca16f4115a5a68d006f4f325397">renderFace</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;outputData, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;faceKeypoints, const float scaleInputToOutput)</td></tr>
+<tr class="separator:acbbdaca16f4115a5a68d006f4f325397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="aa34ce7a0602b0994cc3043b80627a31c"></a>
@@ -150,15 +150,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a045da831a9476bfc0e58e08ebb6c84c1"></a>
+<a class="anchor" id="acbbdaca16f4115a5a68d006f4f325397"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void op::FaceRenderer::renderFace </td>
+          <td class="memname">void op::FaceRenderer::renderFace </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>outputData</em>, </td>
@@ -167,7 +164,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;&#160;</td>
-          <td class="paramname"><em>faceKeypoints</em>&#160;</td>
+          <td class="paramname"><em>faceKeypoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>scaleInputToOutput</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -175,14 +178,7 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classop_1_1_face_gpu_renderer.html#a8f4cb47d5a6829f6b19c377d523069eb">op::FaceGpuRenderer</a>, and <a class="el" href="classop_1_1_face_cpu_renderer.html#a9f8b158aca09eca94ad1b0cd8418cbb5">op::FaceCpuRenderer</a>.</p>
 
 </div>
 </div>

@@ -2,7 +2,7 @@ var classop_1_1_face_extractor =
 [
     [ "FaceExtractor", "classop_1_1_face_extractor.html#a6f3faf536edd57fa9198969f633c01f4", null ],
     [ "~FaceExtractor", "classop_1_1_face_extractor.html#a3d99b0fa2706ef64fc7b8c54c3251c76", null ],
-    [ "forwardPass", "classop_1_1_face_extractor.html#a7e6d4f9d0154551ea050c94dd90cd2fb", null ],
+    [ "forwardPass", "classop_1_1_face_extractor.html#a629aa2952636f20cf126f424116fec31", null ],
     [ "getFaceKeypoints", "classop_1_1_face_extractor.html#a13d7920f4029a4aa6d63b3609956c475", null ],
     [ "getHeatMaps", "classop_1_1_face_extractor.html#af326457ed8977781fe48f1086ac5efee", null ],
     [ "initializationOnThread", "classop_1_1_face_extractor.html#a2692c0040bb8c0b84a84d195194d037a", null ],

@@ -127,8 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3d99b0fa2706ef64fc7b8c54c3251c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2692c0040bb8c0b84a84d195194d037a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a2692c0040bb8c0b84a84d195194d037a">initializationOnThread</a> ()</td></tr>
 <tr class="separator:a2692c0040bb8c0b84a84d195194d037a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e6d4f9d0154551ea050c94dd90cd2fb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a7e6d4f9d0154551ea050c94dd90cd2fb">forwardPass</a> (const std::vector&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;&gt; &amp;faceRectangles, const cv::Mat &amp;cvInputData, const double scaleInputToOutput)=0</td></tr>
-<tr class="separator:a7e6d4f9d0154551ea050c94dd90cd2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a629aa2952636f20cf126f424116fec31"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a629aa2952636f20cf126f424116fec31">forwardPass</a> (const std::vector&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;&gt; &amp;faceRectangles, const cv::Mat &amp;cvInputData)=0</td></tr>
+<tr class="separator:a629aa2952636f20cf126f424116fec31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af326457ed8977781fe48f1086ac5efee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#af326457ed8977781fe48f1086ac5efee">getHeatMaps</a> () const </td></tr>
 <tr class="separator:af326457ed8977781fe48f1086ac5efee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13d7920f4029a4aa6d63b3609956c475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a13d7920f4029a4aa6d63b3609956c475">getFaceKeypoints</a> () const </td></tr>
@@ -236,7 +236,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a7e6d4f9d0154551ea050c94dd90cd2fb"></a>
+<a class="anchor" id="a629aa2952636f20cf126f424116fec31"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -253,13 +253,7 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const cv::Mat &amp;&#160;</td>
-          <td class="paramname"><em>cvInputData</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double&#160;</td>
-          <td class="paramname"><em>scaleInputToOutput</em>&#160;</td>
+          <td class="paramname"><em>cvInputData</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -278,12 +272,11 @@ Protected Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">faceRectangles</td><td>location of the faces in the image. It is a length-variable std::vector, where each index corresponds to a different person in the image. Internally, a op::Rectangle&lt;float&gt; (similar to cv::Rect for floating values) with the position of that face (or 0,0,0,0 if some face is missing, e.g. if a specific person has only half of the body inside the image). </td></tr>
     <tr><td class="paramname">cvInputData</td><td>Original image in cv::Mat format and BGR format. </td></tr>
-    <tr><td class="paramname">scaleInputToOutput</td><td>Desired scale of the final keypoints. Set to 1 if the desired size is the cvInputData size. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classop_1_1_face_extractor_caffe.html#ad9cb84599f76e7836379890bde577b50">op::FaceExtractorCaffe</a>.</p>
+<p>Implemented in <a class="el" href="classop_1_1_face_extractor_caffe.html#a68592dee6b3ecdbb97e0cb1cb343c0a5">op::FaceExtractorCaffe</a>.</p>
 
 </div>
 </div>

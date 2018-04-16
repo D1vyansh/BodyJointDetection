@@ -125,8 +125,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aee681b43b8691ac1f07e08616522f6af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace3ee9d717887ee9dc0f00ce69bd0c82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_caffe.html#ace3ee9d717887ee9dc0f00ce69bd0c82">netInitializationOnThread</a> ()</td></tr>
 <tr class="separator:ace3ee9d717887ee9dc0f00ce69bd0c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a892d6233b92a7862c32adfa85574236c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_caffe.html#a892d6233b92a7862c32adfa85574236c">forwardPass</a> (const std::vector&lt; std::array&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;, 2 &gt;&gt; handRectangles, const cv::Mat &amp;cvInputData, const double scaleInputToOutput)</td></tr>
-<tr class="separator:a892d6233b92a7862c32adfa85574236c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add0603118d06a1dbeb5c6095e6ca77f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_caffe.html#add0603118d06a1dbeb5c6095e6ca77f3">forwardPass</a> (const std::vector&lt; std::array&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;, 2 &gt;&gt; handRectangles, const cv::Mat &amp;cvInputData)</td></tr>
+<tr class="separator:add0603118d06a1dbeb5c6095e6ca77f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classop_1_1_hand_extractor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_hand_extractor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_hand_extractor.html">op::HandExtractor</a></td></tr>
 <tr class="memitem:a34b8ccd65d526ce3cacd57b80e889296 inherit pub_methods_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a34b8ccd65d526ce3cacd57b80e889296">HandExtractor</a> (const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netInputSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netOutputSize, const unsigned short numberScales=1, const float rangeScales=0.4f, const std::vector&lt; HeatMapType &gt; &amp;heatMapTypes={}, const ScaleMode heatMapScale=ScaleMode::ZeroToOne)</td></tr>
 <tr class="separator:a34b8ccd65d526ce3cacd57b80e889296 inherit pub_methods_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -266,7 +266,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a892d6233b92a7862c32adfa85574236c"></a>
+<a class="anchor" id="add0603118d06a1dbeb5c6095e6ca77f3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -283,13 +283,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const cv::Mat &amp;&#160;</td>
-          <td class="paramname"><em>cvInputData</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double&#160;</td>
-          <td class="paramname"><em>scaleInputToOutput</em>&#160;</td>
+          <td class="paramname"><em>cvInputData</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -308,12 +302,11 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <table class="params">
     <tr><td class="paramname">handRectangles</td><td>location of the hands in the image. It is a length-variable std::vector, where each index corresponds to a different person in the image. Internally the std::vector, a std::array of 2 elements: index 0 and 1 for left and right hand respectively. Inside each array element, a op::Rectangle&lt;float&gt; (similar to cv::Rect for floating values) with the position of that hand (or 0,0,0,0 if some hand is missing, e.g. if a specific person has only half of the body inside the image). </td></tr>
     <tr><td class="paramname">cvInputData</td><td>Original image in cv::Mat format and BGR format. </td></tr>
-    <tr><td class="paramname">scaleInputToOutput</td><td>Desired scale of the final keypoints. Set to 1 if the desired size is the cvInputData size. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classop_1_1_hand_extractor.html#a1d4eb3fc406aa44bb2c8e320ba3cb377">op::HandExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_hand_extractor.html#a3da2e8ae3980a0881a3a9a98756e9b78">op::HandExtractor</a>.</p>
 
 </div>
 </div>

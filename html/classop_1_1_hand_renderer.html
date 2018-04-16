@@ -121,8 +121,8 @@ $(document).ready(function(){initNavTree('classop_1_1_hand_renderer.html','');})
 Public Member Functions</h2></td></tr>
 <tr class="memitem:adb91ae2a8ccf24671ad86e99e786b120"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_renderer.html#adb91ae2a8ccf24671ad86e99e786b120">initializationOnThread</a> ()</td></tr>
 <tr class="separator:adb91ae2a8ccf24671ad86e99e786b120"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca16bfb051c891ea7c020df48602b111"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_renderer.html#aca16bfb051c891ea7c020df48602b111">renderHand</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;outputData, const std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt; &amp;handKeypoints)=0</td></tr>
-<tr class="separator:aca16bfb051c891ea7c020df48602b111"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2693c02336fb373a42405ccc7cff29bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_renderer.html#a2693c02336fb373a42405ccc7cff29bd">renderHand</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;outputData, const std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt; &amp;handKeypoints, const float scaleInputToOutput)</td></tr>
+<tr class="separator:a2693c02336fb373a42405ccc7cff29bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="adb91ae2a8ccf24671ad86e99e786b120"></a>
@@ -150,15 +150,12 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aca16bfb051c891ea7c020df48602b111"></a>
+<a class="anchor" id="a2693c02336fb373a42405ccc7cff29bd"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void op::HandRenderer::renderHand </td>
+          <td class="memname">void op::HandRenderer::renderHand </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>outputData</em>, </td>
@@ -167,7 +164,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>handKeypoints</em>&#160;</td>
+          <td class="paramname"><em>handKeypoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>scaleInputToOutput</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -175,14 +178,7 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classop_1_1_hand_gpu_renderer.html#a3a05fd1d74868c1766e49ccf3979b9c9">op::HandGpuRenderer</a>, and <a class="el" href="classop_1_1_hand_cpu_renderer.html#a98a3cc7f939105224bcc4be07782563a">op::HandCpuRenderer</a>.</p>
 
 </div>
 </div>

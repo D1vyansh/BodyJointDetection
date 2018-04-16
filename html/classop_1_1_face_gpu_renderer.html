@@ -125,8 +125,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a01a207676e3ec1a8718b8717cd999f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ebd9287927529ffaa4200890190896b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_gpu_renderer.html#a6ebd9287927529ffaa4200890190896b">initializationOnThread</a> ()</td></tr>
 <tr class="separator:a6ebd9287927529ffaa4200890190896b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f4cb47d5a6829f6b19c377d523069eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_gpu_renderer.html#a8f4cb47d5a6829f6b19c377d523069eb">renderFace</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;outputData, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;faceKeypoints)</td></tr>
-<tr class="separator:a8f4cb47d5a6829f6b19c377d523069eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae54b7538a6ed6a5eaedcbdc117a0d61c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_gpu_renderer.html#ae54b7538a6ed6a5eaedcbdc117a0d61c">renderFaceInherited</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;outputData, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;faceKeypoints)</td></tr>
+<tr class="separator:ae54b7538a6ed6a5eaedcbdc117a0d61c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classop_1_1_gpu_renderer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_gpu_renderer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_gpu_renderer.html">op::GpuRenderer</a></td></tr>
 <tr class="memitem:a9852b2017e972637b47250bb7fbc53ea inherit pub_methods_classop_1_1_gpu_renderer"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_gpu_renderer.html#a9852b2017e972637b47250bb7fbc53ea">GpuRenderer</a> (const float renderThreshold, const float alphaKeypoint, const float alphaHeatMap, const bool blendOriginalFrame=true, const unsigned int elementToRender=0u, const unsigned int numberElementsToRender=0u)</td></tr>
 <tr class="separator:a9852b2017e972637b47250bb7fbc53ea inherit pub_methods_classop_1_1_gpu_renderer"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,6 +166,9 @@ long &gt; &gt;, std::shared_ptr<br class="typebreak"/>
 <tr class="separator:a891be57b699f6adbb7cd841870214b8e inherit pub_methods_classop_1_1_renderer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab226d47f554735fa3e0372ce429747c3 inherit pub_methods_classop_1_1_renderer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_renderer.html#ab226d47f554735fa3e0372ce429747c3">setShowGooglyEyes</a> (const bool showGooglyEyes)</td></tr>
 <tr class="separator:ab226d47f554735fa3e0372ce429747c3 inherit pub_methods_classop_1_1_renderer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classop_1_1_face_renderer"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_face_renderer')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_face_renderer.html">op::FaceRenderer</a></td></tr>
+<tr class="memitem:acbbdaca16f4115a5a68d006f4f325397 inherit pub_methods_classop_1_1_face_renderer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_renderer.html#acbbdaca16f4115a5a68d006f4f325397">renderFace</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;outputData, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;faceKeypoints, const float scaleInputToOutput)</td></tr>
+<tr class="separator:acbbdaca16f4115a5a68d006f4f325397 inherit pub_methods_classop_1_1_face_renderer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -265,7 +268,7 @@ unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="a8f4cb47d5a6829f6b19c377d523069eb"></a>
+<a class="anchor" id="ae54b7538a6ed6a5eaedcbdc117a0d61c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -273,7 +276,7 @@ unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void op::FaceGpuRenderer::renderFace </td>
+          <td class="memname">void op::FaceGpuRenderer::renderFaceInherited </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;&#160;</td>
           <td class="paramname"><em>outputData</em>, </td>
@@ -297,7 +300,7 @@ unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classop_1_1_face_renderer.html#a045da831a9476bfc0e58e08ebb6c84c1">op::FaceRenderer</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_face_renderer.html">op::FaceRenderer</a>.</p>
 
 </div>
 </div>

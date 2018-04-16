@@ -2,7 +2,7 @@ var classop_1_1_hand_extractor =
 [
     [ "HandExtractor", "classop_1_1_hand_extractor.html#a34b8ccd65d526ce3cacd57b80e889296", null ],
     [ "~HandExtractor", "classop_1_1_hand_extractor.html#a95a512748828a04713b4cde582fb4901", null ],
-    [ "forwardPass", "classop_1_1_hand_extractor.html#a1d4eb3fc406aa44bb2c8e320ba3cb377", null ],
+    [ "forwardPass", "classop_1_1_hand_extractor.html#a3da2e8ae3980a0881a3a9a98756e9b78", null ],
     [ "getHandKeypoints", "classop_1_1_hand_extractor.html#a322a1c3a0ab7abaf0c697246af9309cc", null ],
     [ "getHeatMaps", "classop_1_1_hand_extractor.html#af5ce8cd602820921de3ec3f676aacf0d", null ],
     [ "initializationOnThread", "classop_1_1_hand_extractor.html#aa5592a468cfdcfdd687d6f9d465d3eda", null ],
