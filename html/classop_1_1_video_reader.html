@@ -123,6 +123,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a70313aad386ef3897c70fea7b2e4030a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93742fd892cdb09b99b29f8e8036d803"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_reader.html#a93742fd892cdb09b99b29f8e8036d803">getCameraMatrices</a> ()</td></tr>
 <tr class="separator:a93742fd892cdb09b99b29f8e8036d803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf47ef8071b783fc8b406db9f3716eec"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_reader.html#acf47ef8071b783fc8b406db9f3716eec">getCameraExtrinsics</a> ()</td></tr>
+<tr class="separator:acf47ef8071b783fc8b406db9f3716eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98144001ee79d467d8757f9bca10589a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_reader.html#a98144001ee79d467d8757f9bca10589a">getCameraIntrinsics</a> ()</td></tr>
+<tr class="separator:a98144001ee79d467d8757f9bca10589a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a508eed918fbe3bfe3eff4c1ebacb3463"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_reader.html#a508eed918fbe3bfe3eff4c1ebacb3463">getNextFrameName</a> ()</td></tr>
 <tr class="separator:a508eed918fbe3bfe3eff4c1ebacb3463"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a057a7d0c498c48639b38c10ac7efc183"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_reader.html#a057a7d0c498c48639b38c10ac7efc183">get</a> (const int capProperty)</td></tr>
@@ -254,6 +258,60 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>double returning the property value. </dd></dl>
 
 <p>Implements <a class="el" href="classop_1_1_video_capture_reader.html#a64e5cbfb1c556d64cabcebc6eb94eaf1">op::VideoCaptureReader</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf47ef8071b783fc8b406db9f3716eec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;cv::Mat&gt; op::VideoReader::getCameraExtrinsics </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>It retrieves and returns the camera extrinsic parameters from the frames producer. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;cv::Mat&gt; with the camera extrinsic parameters. </dd></dl>
+
+<p>Implements <a class="el" href="classop_1_1_producer.html#af3e610a49b7e9a33d88554c48f6b390a">op::Producer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a98144001ee79d467d8757f9bca10589a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;cv::Mat&gt; op::VideoReader::getCameraIntrinsics </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>It retrieves and returns the camera intrinsic parameters from the frames producer. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;cv::Mat&gt; with the camera intrinsic parameters. </dd></dl>
+
+<p>Implements <a class="el" href="classop_1_1_producer.html#a1829a82373f95c321bc3bbe63c6cce81">op::Producer</a>.</p>
 
 </div>
 </div>
