@@ -12,5 +12,6 @@ var searchData=
   ['spisrunning',['spIsRunning',['../classop_1_1_gui.html#a0ad7be7018e634769da8d22d60e7edc0',1,'op::Gui']]],
   ['spnumberelementstorender',['spNumberElementsToRender',['../classop_1_1_renderer.html#a3e04644546dd9990a16d0b6861b60553',1,'op::Renderer']]],
   ['sptqueuein',['spTQueueIn',['../namespaceop.html#a55207f49aadd5f79e75251d6ccfad1fc',1,'op']]],
-  ['sptqueueout',['spTQueueOut',['../namespaceop.html#a5180d62b9273c9d0712f686531ee0aea',1,'op']]]
+  ['sptqueueout',['spTQueueOut',['../namespaceop.html#a5180d62b9273c9d0712f686531ee0aea',1,'op']]],
+  ['status',['status',['../structop_1_1_person_entry.html#a0b943a74b9941349ad27bb5c7fb8392a',1,'op::PersonEntry']]]
 ];

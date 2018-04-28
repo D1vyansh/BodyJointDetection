@@ -69,6 +69,7 @@ var hierarchy =
     [ "op::NmsCaffe< T >", "classop_1_1_nms_caffe.html", null ],
     [ "op::OpOutputToCvMat", "classop_1_1_op_output_to_cv_mat.html", null ],
     [ "cl::detail::param_traits< enum_type, Name >", "structcl_1_1detail_1_1param__traits.html", null ],
+    [ "op::PersonEntry", "structop_1_1_person_entry.html", null ],
     [ "op::PersonIdExtractor", "classop_1_1_person_id_extractor.html", null ],
     [ "op::Point< T >", "structop_1_1_point.html", null ],
     [ "op::Point< int >", "structop_1_1_point.html", null ],

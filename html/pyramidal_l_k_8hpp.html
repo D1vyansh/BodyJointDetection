@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenPose: Member List</title>
+<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/experimental/tracking/pyramidalLK.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -47,8 +47,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
-      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -69,10 +69,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
-      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
-      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
-      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -87,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('classop_1_1_person_id_extractor.html','');});
+$(document).ready(function(){initNavTree('pyramidal_l_k_8hpp.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -105,21 +103,35 @@ $(document).ready(function(){initNavTree('classop_1_1_person_id_extractor.html',
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">op::PersonIdExtractor Member List</div>  </div>
+<div class="title">pyramidalLK.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="classop_1_1_person_id_extractor.html">op::PersonIdExtractor</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_person_id_extractor.html#a0b52fa9d5af3c0204fea712b29520c68">extractIds</a>(const Array&lt; float &gt; &amp;poseKeypoints, const cv::Mat &amp;cvMatInput)</td><td class="entry"><a class="el" href="classop_1_1_person_id_extractor.html">op::PersonIdExtractor</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classop_1_1_person_id_extractor.html#a5916ec673bdbe127386b7f496b188828">PersonIdExtractor</a>(const float confidenceThreshold=0.1f, const float inlierRatioThreshold=0.5f, const float distanceThreshold=30.f, const int numberFramesToDeletePerson=10)</td><td class="entry"><a class="el" href="classop_1_1_person_id_extractor.html">op::PersonIdExtractor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_person_id_extractor.html#a7ff9f8faf42bff0dbd7207105c149a1e">~PersonIdExtractor</a>()</td><td class="entry"><a class="el" href="classop_1_1_person_id_extractor.html">op::PersonIdExtractor</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-</table></div><!-- contents -->
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8hpp_source.html">openpose/core/common.hpp</a>&gt;</code><br/>
+</div>
+<p><a href="pyramidal_l_k_8hpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceop"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html">op</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a758d03449672fd80b2e07babd3cc0db2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a758d03449672fd80b2e07babd3cc0db2">op::pyramidalLKCpu</a> (std::vector&lt; cv::Point2f &gt; &amp;coordI, std::vector&lt; cv::Point2f &gt; &amp;coordJ, std::vector&lt; cv::Mat &gt; &amp;pyramidImagesPrevious, std::vector&lt; cv::Mat &gt; &amp;pyramidImagesCurrent, std::vector&lt; char &gt; &amp;status, const cv::Mat &amp;imagePrevious, const cv::Mat &amp;imageCurrent, const int levels=3, const int patchSize=21)</td></tr>
+<tr class="separator:a758d03449672fd80b2e07babd3cc0db2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a25742a0e0dc5eaac1a7d3856fedd42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1a25742a0e0dc5eaac1a7d3856fedd42">op::pyramidalLKGpu</a> (std::vector&lt; cv::Point2f &gt; &amp;ptsI, std::vector&lt; cv::Point2f &gt; &amp;ptsJ, std::vector&lt; char &gt; &amp;status, const cv::Mat &amp;imagePrevious, const cv::Mat &amp;imageCurrent, const int levels=3, const int patchSize=21)</td></tr>
+<tr class="separator:a1a25742a0e0dc5eaac1a7d3856fedd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_064336ecb4157cb3f6fdf6ebb1eb8973.html">experimental</a></li><li class="navelem"><a class="el" href="dir_811fac311eed76aeb4070c1afd4abeac.html">tracking</a></li><li class="navelem"><a class="el" href="pyramidal_l_k_8hpp.html">pyramidalLK.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

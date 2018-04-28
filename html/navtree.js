@@ -46,7 +46,7 @@ var NAVTREEINDEX =
 "core_2enum_classes_8hpp.html#af72fe4ed32846c12f41b049d3d0e1bdaaa93f121640d609f8772397a0f40f40d6",
 "hand_2headers_8hpp_source.html",
 "pose_parameters_render_8hpp.html#aebff78a4cfbef1cf1b2e03066d88564c",
-"structop_1_1_wrapper_struct_output.html#a8a2f29bae4ff55195b10a83717a0f738"
+"structop_1_1_wrapper_struct_input.html#acc72b8efe09ec3888823ed5680a19fe4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

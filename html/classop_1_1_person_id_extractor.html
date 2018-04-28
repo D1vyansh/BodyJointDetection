@@ -117,23 +117,46 @@ $(document).ready(function(){initNavTree('classop_1_1_person_id_extractor.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aca3f66962826e85b7a089050fee407d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_id_extractor.html#aca3f66962826e85b7a089050fee407d2">PersonIdExtractor</a> ()</td></tr>
-<tr class="separator:aca3f66962826e85b7a089050fee407d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5916ec673bdbe127386b7f496b188828"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_id_extractor.html#a5916ec673bdbe127386b7f496b188828">PersonIdExtractor</a> (const float confidenceThreshold=0.1f, const float inlierRatioThreshold=0.5f, const float distanceThreshold=30.f, const int numberFramesToDeletePerson=10)</td></tr>
+<tr class="separator:a5916ec673bdbe127386b7f496b188828"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ff9f8faf42bff0dbd7207105c149a1e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_id_extractor.html#a7ff9f8faf42bff0dbd7207105c149a1e">~PersonIdExtractor</a> ()</td></tr>
 <tr class="separator:a7ff9f8faf42bff0dbd7207105c149a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11e4afb87a5c4aa1b5af3e779da0a7c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_id_extractor.html#a11e4afb87a5c4aa1b5af3e779da0a7c2">extractIds</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints)</td></tr>
-<tr class="separator:a11e4afb87a5c4aa1b5af3e779da0a7c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b52fa9d5af3c0204fea712b29520c68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_id_extractor.html#a0b52fa9d5af3c0204fea712b29520c68">extractIds</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, const cv::Mat &amp;cvMatInput)</td></tr>
+<tr class="separator:a0b52fa9d5af3c0204fea712b29520c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aca3f66962826e85b7a089050fee407d2"></a>
+<a class="anchor" id="a5916ec673bdbe127386b7f496b188828"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::PersonIdExtractor::PersonIdExtractor </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>confidenceThreshold</em> = <code>0.1f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>inlierRatioThreshold</em> = <code>0.5f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>distanceThreshold</em> = <code>30.f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>numberFramesToDeletePerson</em> = <code>10</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -164,7 +187,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a11e4afb87a5c4aa1b5af3e779da0a7c2"></a>
+<a class="anchor" id="a0b52fa9d5af3c0204fea712b29520c68"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -172,8 +195,18 @@ Public Member Functions</h2></td></tr>
           <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;long long&gt; op::PersonIdExtractor::extractIds </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;&#160;</td>
-          <td class="paramname"><em>poseKeypoints</em></td><td>)</td>
+          <td class="paramname"><em>poseKeypoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const cv::Mat &amp;&#160;</td>
+          <td class="paramname"><em>cvMatInput</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
