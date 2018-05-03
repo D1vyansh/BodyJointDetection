@@ -8,6 +8,6 @@ var keypoint_8hpp =
     [ "getKeypointsRectangle", "keypoint_8hpp.html#afb230634bc4a07f84ca91ebaf13e385f", null ],
     [ "renderKeypointsCpu", "keypoint_8hpp.html#a07d0092a7c9ce5130cd26a7bbba927e9", null ],
     [ "scaleKeypoints", "keypoint_8hpp.html#a0d3788b482df5017c8214d4f8cdaf660", null ],
-    [ "scaleKeypoints", "keypoint_8hpp.html#affdd0ecec773d38da5348e6eb482396e", null ],
-    [ "scaleKeypoints", "keypoint_8hpp.html#a1c6d17a9f442da1795540e2d1023129c", null ]
+    [ "scaleKeypoints2d", "keypoint_8hpp.html#a3b9ff5158f47f76294936a0e0d861dca", null ],
+    [ "scaleKeypoints2d", "keypoint_8hpp.html#a5a53e61539f5f3e0a9c2d935fa2e8fff", null ]
 ];
