@@ -15,6 +15,7 @@ var searchData=
   ['_7enetcaffe',['~NetCaffe',['../classop_1_1_net_caffe.html#a84007645c88de286e9d306461a044e8d',1,'op::NetCaffe']]],
   ['_7enmscaffe',['~NmsCaffe',['../classop_1_1_nms_caffe.html#a0702488e5d899a6610535f6741601978',1,'op::NmsCaffe']]],
   ['_7epersonidextractor',['~PersonIdExtractor',['../classop_1_1_person_id_extractor.html#a7ff9f8faf42bff0dbd7207105c149a1e',1,'op::PersonIdExtractor']]],
+  ['_7epersontracker',['~PersonTracker',['../classop_1_1_person_tracker.html#a840ed2e06c1cc4dfc89e6083b2a8bc37',1,'op::PersonTracker']]],
   ['_7eposeextractor',['~PoseExtractor',['../classop_1_1_pose_extractor.html#a9f98eef4ac08cacefe74e002ac086582',1,'op::PoseExtractor']]],
   ['_7eposeextractorcaffe',['~PoseExtractorCaffe',['../classop_1_1_pose_extractor_caffe.html#a3359641c1199c712a07859dcb76b7dcf',1,'op::PoseExtractorCaffe']]],
   ['_7eposeextractornet',['~PoseExtractorNet',['../classop_1_1_pose_extractor_net.html#a963c679df20b16d475aa3a7c0661135c',1,'op::PoseExtractorNet']]],

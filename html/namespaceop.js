@@ -23,6 +23,7 @@ var namespaceop =
     [ "WScaleAndSizeExtractor", "classop_1_1_w_scale_and_size_extractor.html", "classop_1_1_w_scale_and_size_extractor" ],
     [ "PersonEntry", "structop_1_1_person_entry.html", "structop_1_1_person_entry" ],
     [ "PersonIdExtractor", "classop_1_1_person_id_extractor.html", "classop_1_1_person_id_extractor" ],
+    [ "PersonTracker", "classop_1_1_person_tracker.html", "classop_1_1_person_tracker" ],
     [ "WPersonIdExtractor", "classop_1_1_w_person_id_extractor.html", "classop_1_1_w_person_id_extractor" ],
     [ "FaceCpuRenderer", "classop_1_1_face_cpu_renderer.html", "classop_1_1_face_cpu_renderer" ],
     [ "FaceDetector", "classop_1_1_face_detector.html", "classop_1_1_face_detector" ],

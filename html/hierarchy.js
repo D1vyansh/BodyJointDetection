@@ -71,6 +71,7 @@ var hierarchy =
     [ "cl::detail::param_traits< enum_type, Name >", "structcl_1_1detail_1_1param__traits.html", null ],
     [ "op::PersonEntry", "structop_1_1_person_entry.html", null ],
     [ "op::PersonIdExtractor", "classop_1_1_person_id_extractor.html", null ],
+    [ "op::PersonTracker", "classop_1_1_person_tracker.html", null ],
     [ "op::Point< T >", "structop_1_1_point.html", null ],
     [ "op::Point< int >", "structop_1_1_point.html", null ],
     [ "op::PointerContainerGreater< TDatums >", "classop_1_1_pointer_container_greater.html", null ],
@@ -185,8 +186,8 @@ var hierarchy =
       [ "op::WQueueOrderer< TDatums >", "classop_1_1_w_queue_orderer.html", null ],
       [ "op::WScaleAndSizeExtractor< TDatums >", "classop_1_1_w_scale_and_size_extractor.html", null ]
     ] ],
-    [ "cl::detail::Wrapper< T >", "classcl_1_1detail_1_1_wrapper.html", null ],
     [ "op::Wrapper< TDatums, TWorker, TQueue >", "classop_1_1_wrapper.html", null ],
+    [ "cl::detail::Wrapper< T >", "classcl_1_1detail_1_1_wrapper.html", null ],
     [ "cl::detail::Wrapper< cl_command_queue >", "classcl_1_1detail_1_1_wrapper.html", [
       [ "cl::CommandQueue", "classcl_1_1_command_queue.html", null ],
       [ "cl::DeviceCommandQueue", "classcl_1_1_device_command_queue.html", null ]
