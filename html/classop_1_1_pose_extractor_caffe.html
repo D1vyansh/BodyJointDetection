@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('classop_1_1_pose_extractor_caffe.html'
 
 <p><code>#include &lt;<a class="el" href="pose_extractor_caffe_8hpp_source.html">poseExtractorCaffe.hpp</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="classop_1_1_pose_extractor.html">op::PoseExtractor</a>.</p>
+<p>Inherits <a class="el" href="classop_1_1_pose_extractor_net.html">op::PoseExtractorNet</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -139,47 +139,47 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afbc016c8dcd439d6389c63b9f4cebf22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6982cb1a7203129610fe0959a45c81cf"><td class="memItemLeft" align="right" valign="top">const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_caffe.html#a6982cb1a7203129610fe0959a45c81cf">getPoseGpuConstPtr</a> () const </td></tr>
 <tr class="separator:a6982cb1a7203129610fe0959a45c81cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classop_1_1_pose_extractor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_pose_extractor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_pose_extractor.html">op::PoseExtractor</a></td></tr>
-<tr class="memitem:a54b0c911456746d4faf493bb4e9b0c1e inherit pub_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a54b0c911456746d4faf493bb4e9b0c1e">PoseExtractor</a> (const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt; &amp;heatMapTypes={}, const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> heatMapScale=<a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa4b942544cb3e764bbb8d33f8a8744855">ScaleMode::ZeroToOne</a>, const bool addPartCandidates=false)</td></tr>
-<tr class="separator:a54b0c911456746d4faf493bb4e9b0c1e inherit pub_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f98eef4ac08cacefe74e002ac086582 inherit pub_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a9f98eef4ac08cacefe74e002ac086582">~PoseExtractor</a> ()</td></tr>
-<tr class="separator:a9f98eef4ac08cacefe74e002ac086582 inherit pub_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab1cccc9ad99f6b007abaa14600ea6df inherit pub_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#aab1cccc9ad99f6b007abaa14600ea6df">initializationOnThread</a> ()</td></tr>
-<tr class="separator:aab1cccc9ad99f6b007abaa14600ea6df inherit pub_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53eac2bf280492baca5aeb1a777d3646 inherit pub_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a53eac2bf280492baca5aeb1a777d3646">getHeatMapsCopy</a> () const </td></tr>
-<tr class="separator:a53eac2bf280492baca5aeb1a777d3646 inherit pub_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67f2afb1a7e0de01dd3271b5dc30cd5a inherit pub_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector<br class="typebreak"/>
-&lt; std::array&lt; float, 3 &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a67f2afb1a7e0de01dd3271b5dc30cd5a">getCandidatesCopy</a> () const </td></tr>
-<tr class="separator:a67f2afb1a7e0de01dd3271b5dc30cd5a inherit pub_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63432a905e6fcd9be8d9464a80a7fd52 inherit pub_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a63432a905e6fcd9be8d9464a80a7fd52">getPoseKeypoints</a> () const </td></tr>
-<tr class="separator:a63432a905e6fcd9be8d9464a80a7fd52 inherit pub_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99e7a656f0bace55402a187e9326ded1 inherit pub_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a99e7a656f0bace55402a187e9326ded1">getPoseScores</a> () const </td></tr>
-<tr class="separator:a99e7a656f0bace55402a187e9326ded1 inherit pub_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fd73c053c293c59eb3d6eb38335c157 inherit pub_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a5fd73c053c293c59eb3d6eb38335c157">getScaleNetToOutput</a> () const </td></tr>
-<tr class="separator:a5fd73c053c293c59eb3d6eb38335c157 inherit pub_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dc82be227cc759582184de9c26f0b64 inherit pub_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a7dc82be227cc759582184de9c26f0b64">get</a> (const <a class="el" href="namespaceop.html#a37c58b781e5bcd9fee67a7768afc5d0e">PoseProperty</a> property) const </td></tr>
-<tr class="separator:a7dc82be227cc759582184de9c26f0b64 inherit pub_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32b108f24cfc892ed17c2ec752e30ab6 inherit pub_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a32b108f24cfc892ed17c2ec752e30ab6">set</a> (const <a class="el" href="namespaceop.html#a37c58b781e5bcd9fee67a7768afc5d0e">PoseProperty</a> property, const double value)</td></tr>
-<tr class="separator:a32b108f24cfc892ed17c2ec752e30ab6 inherit pub_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6395a4bb77e0198c7cf554ce4674d33c inherit pub_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a6395a4bb77e0198c7cf554ce4674d33c">increase</a> (const <a class="el" href="namespaceop.html#a37c58b781e5bcd9fee67a7768afc5d0e">PoseProperty</a> property, const double value)</td></tr>
-<tr class="separator:a6395a4bb77e0198c7cf554ce4674d33c inherit pub_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classop_1_1_pose_extractor_net"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_pose_extractor_net')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_pose_extractor_net.html">op::PoseExtractorNet</a></td></tr>
+<tr class="memitem:a8f1fb332299a83010830ee9d61752bc9 inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a8f1fb332299a83010830ee9d61752bc9">PoseExtractorNet</a> (const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt; &amp;heatMapTypes={}, const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> heatMapScale=<a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa4b942544cb3e764bbb8d33f8a8744855">ScaleMode::ZeroToOne</a>, const bool addPartCandidates=false)</td></tr>
+<tr class="separator:a8f1fb332299a83010830ee9d61752bc9 inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963c679df20b16d475aa3a7c0661135c inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a963c679df20b16d475aa3a7c0661135c">~PoseExtractorNet</a> ()</td></tr>
+<tr class="separator:a963c679df20b16d475aa3a7c0661135c inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28923c846dc7c731d3571c72a50acd2f inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a28923c846dc7c731d3571c72a50acd2f">initializationOnThread</a> ()</td></tr>
+<tr class="separator:a28923c846dc7c731d3571c72a50acd2f inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1712a5dac1239b4386386bb38c2dfcf5 inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a1712a5dac1239b4386386bb38c2dfcf5">getHeatMapsCopy</a> () const </td></tr>
+<tr class="separator:a1712a5dac1239b4386386bb38c2dfcf5 inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca3bcef8d97ee7b7ea049d7beb0214b1 inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector<br class="typebreak"/>
+&lt; std::array&lt; float, 3 &gt; &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#aca3bcef8d97ee7b7ea049d7beb0214b1">getCandidatesCopy</a> () const </td></tr>
+<tr class="separator:aca3bcef8d97ee7b7ea049d7beb0214b1 inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3724df312f06496d0b11936983ef9aba inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a3724df312f06496d0b11936983ef9aba">getPoseKeypoints</a> () const </td></tr>
+<tr class="separator:a3724df312f06496d0b11936983ef9aba inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0701aa424ed036d68ad068b2db5eb803 inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a0701aa424ed036d68ad068b2db5eb803">getPoseScores</a> () const </td></tr>
+<tr class="separator:a0701aa424ed036d68ad068b2db5eb803 inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b95ab218a57aa4acb5e5d8786c471ca inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a5b95ab218a57aa4acb5e5d8786c471ca">getScaleNetToOutput</a> () const </td></tr>
+<tr class="separator:a5b95ab218a57aa4acb5e5d8786c471ca inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c15a5d96caeae02d10b9fc3ff49e7cb inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a4c15a5d96caeae02d10b9fc3ff49e7cb">get</a> (const <a class="el" href="namespaceop.html#a37c58b781e5bcd9fee67a7768afc5d0e">PoseProperty</a> property) const </td></tr>
+<tr class="separator:a4c15a5d96caeae02d10b9fc3ff49e7cb inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e49f2339e21ff784689ec78c9d69b75 inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a7e49f2339e21ff784689ec78c9d69b75">set</a> (const <a class="el" href="namespaceop.html#a37c58b781e5bcd9fee67a7768afc5d0e">PoseProperty</a> property, const double value)</td></tr>
+<tr class="separator:a7e49f2339e21ff784689ec78c9d69b75 inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4959a9c9d433d9297e5daef0e3a0eabc inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a4959a9c9d433d9297e5daef0e3a0eabc">increase</a> (const <a class="el" href="namespaceop.html#a37c58b781e5bcd9fee67a7768afc5d0e">PoseProperty</a> property, const double value)</td></tr>
+<tr class="separator:a4959a9c9d433d9297e5daef0e3a0eabc inherit pub_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_classop_1_1_pose_extractor"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classop_1_1_pose_extractor')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classop_1_1_pose_extractor.html">op::PoseExtractor</a></td></tr>
-<tr class="memitem:ae3477e0ab1a350fd044215b0ba6f7520 inherit pro_methods_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#ae3477e0ab1a350fd044215b0ba6f7520">checkThread</a> () const </td></tr>
-<tr class="separator:ae3477e0ab1a350fd044215b0ba6f7520 inherit pro_methods_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classop_1_1_pose_extractor"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classop_1_1_pose_extractor')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classop_1_1_pose_extractor.html">op::PoseExtractor</a></td></tr>
-<tr class="memitem:a57ba3e70a7ac01a687337c66ca36c8da inherit pro_attribs_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a57ba3e70a7ac01a687337c66ca36c8da">mPoseModel</a></td></tr>
-<tr class="separator:a57ba3e70a7ac01a687337c66ca36c8da inherit pro_attribs_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7507183ad2d2fe5eaff3d351443d97e0 inherit pro_attribs_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a7507183ad2d2fe5eaff3d351443d97e0">mNetOutputSize</a></td></tr>
-<tr class="separator:a7507183ad2d2fe5eaff3d351443d97e0 inherit pro_attribs_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac432c3f9265f6dbeb1dfff5621df25de inherit pro_attribs_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#ac432c3f9265f6dbeb1dfff5621df25de">mPoseKeypoints</a></td></tr>
-<tr class="separator:ac432c3f9265f6dbeb1dfff5621df25de inherit pro_attribs_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a034f1fe33fe83967d8c7c4901ce3b4b4 inherit pro_attribs_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a034f1fe33fe83967d8c7c4901ce3b4b4">mPoseScores</a></td></tr>
-<tr class="separator:a034f1fe33fe83967d8c7c4901ce3b4b4 inherit pro_attribs_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab32d08e00cf4321682ba9acc2b78a289 inherit pro_attribs_classop_1_1_pose_extractor"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#ab32d08e00cf4321682ba9acc2b78a289">mScaleNetToOutput</a></td></tr>
-<tr class="separator:ab32d08e00cf4321682ba9acc2b78a289 inherit pro_attribs_classop_1_1_pose_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classop_1_1_pose_extractor_net"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classop_1_1_pose_extractor_net')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classop_1_1_pose_extractor_net.html">op::PoseExtractorNet</a></td></tr>
+<tr class="memitem:a073db5b9847c8afbc10ce534ea533a84 inherit pro_methods_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a073db5b9847c8afbc10ce534ea533a84">checkThread</a> () const </td></tr>
+<tr class="separator:a073db5b9847c8afbc10ce534ea533a84 inherit pro_methods_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classop_1_1_pose_extractor_net"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classop_1_1_pose_extractor_net')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classop_1_1_pose_extractor_net.html">op::PoseExtractorNet</a></td></tr>
+<tr class="memitem:a8595789b244399ecd9c4b2a774f2c74b inherit pro_attribs_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a8595789b244399ecd9c4b2a774f2c74b">mPoseModel</a></td></tr>
+<tr class="separator:a8595789b244399ecd9c4b2a774f2c74b inherit pro_attribs_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab49f9af9f5d7e4e64957dc0feb60ca7 inherit pro_attribs_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#aab49f9af9f5d7e4e64957dc0feb60ca7">mNetOutputSize</a></td></tr>
+<tr class="separator:aab49f9af9f5d7e4e64957dc0feb60ca7 inherit pro_attribs_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa4c619868bbf6306a549280002a2c6 inherit pro_attribs_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#aaaa4c619868bbf6306a549280002a2c6">mPoseKeypoints</a></td></tr>
+<tr class="separator:aaaa4c619868bbf6306a549280002a2c6 inherit pro_attribs_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a528c3056546b0759fafb249a02edd1b6 inherit pro_attribs_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a528c3056546b0759fafb249a02edd1b6">mPoseScores</a></td></tr>
+<tr class="separator:a528c3056546b0759fafb249a02edd1b6 inherit pro_attribs_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67ea32116dfaff15cc16e5a0a2bef822 inherit pro_attribs_classop_1_1_pose_extractor_net"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a67ea32116dfaff15cc16e5a0a2bef822">mScaleNetToOutput</a></td></tr>
+<tr class="separator:a67ea32116dfaff15cc16e5a0a2bef822 inherit pro_attribs_classop_1_1_pose_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab58c3ab4b745b35f542165ce27293554"></a>
@@ -300,7 +300,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classop_1_1_pose_extractor.html#afe4ceae04443242148c563eb6d8b954c">op::PoseExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_pose_extractor_net.html#ad67763036d9a61804362382bf827b584">op::PoseExtractorNet</a>.</p>
 
 </div>
 </div>
@@ -325,7 +325,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classop_1_1_pose_extractor.html#ae087157035d7b81da560328dce1d0728">op::PoseExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_pose_extractor_net.html#a3e73f27594e61bf451b8e9fff7695f62">op::PoseExtractorNet</a>.</p>
 
 </div>
 </div>
@@ -350,7 +350,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classop_1_1_pose_extractor.html#af26c5b9f93407b74bdd06357aa7566a9">op::PoseExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_pose_extractor_net.html#abee987adbe411ca71b6b37ab9cd89a41">op::PoseExtractorNet</a>.</p>
 
 </div>
 </div>
@@ -375,7 +375,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classop_1_1_pose_extractor.html#a0bb5cf37e5b93e347e355be126d22ead">op::PoseExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_pose_extractor_net.html#a80cb59fa161a7ecd3d6a016354ab9002">op::PoseExtractorNet</a>.</p>
 
 </div>
 </div>
@@ -400,7 +400,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classop_1_1_pose_extractor.html#a0b895e3e582bd504b531ba525ed77430">op::PoseExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_pose_extractor_net.html#ad1b526d42f690a8857c0ccdc88ff88ac">op::PoseExtractorNet</a>.</p>
 
 </div>
 </div>
@@ -425,7 +425,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classop_1_1_pose_extractor.html#a81157b4616955598fcf6de5d9676f21b">op::PoseExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_pose_extractor_net.html#a49e1dcb9f9d049131df866b7538507cd">op::PoseExtractorNet</a>.</p>
 
 </div>
 </div>
@@ -450,7 +450,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classop_1_1_pose_extractor.html#a50f1a79f774b3cd9e9c0825669e8a154">op::PoseExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_pose_extractor_net.html#a546f0d6e0c62c7c7e2d44de848f9a174">op::PoseExtractorNet</a>.</p>
 
 </div>
 </div>
@@ -475,7 +475,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implements <a class="el" href="classop_1_1_pose_extractor.html#a73d36833224b7071bb0918682a441850">op::PoseExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_pose_extractor_net.html#aa8bf8cdfdede22410e2dfcea5d3f0cdc">op::PoseExtractorNet</a>.</p>
 
 </div>
 </div>

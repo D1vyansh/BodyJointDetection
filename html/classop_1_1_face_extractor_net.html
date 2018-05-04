@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenPose: op::FaceExtractor Class Reference</title>
+<title>OpenPose: op::FaceExtractorNet Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('classop_1_1_face_extractor.html','');});
+$(document).ready(function(){initNavTree('classop_1_1_face_extractor_net.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,55 +109,55 @@ $(document).ready(function(){initNavTree('classop_1_1_face_extractor.html','');}
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="classop_1_1_face_extractor-members.html">List of all members</a>  </div>
+<a href="classop_1_1_face_extractor_net-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">op::FaceExtractor Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">op::FaceExtractorNet Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="face_extractor_8hpp_source.html">faceExtractor.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="face_extractor_net_8hpp_source.html">faceExtractorNet.hpp</a>&gt;</code></p>
 
 <p>Inherited by <a class="el" href="classop_1_1_face_extractor_caffe.html">op::FaceExtractorCaffe</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6f3faf536edd57fa9198969f633c01f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a6f3faf536edd57fa9198969f633c01f4">FaceExtractor</a> (const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netInputSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netOutputSize, const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt; &amp;heatMapTypes={}, const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> heatMapScale=<a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa4b942544cb3e764bbb8d33f8a8744855">ScaleMode::ZeroToOne</a>)</td></tr>
-<tr class="separator:a6f3faf536edd57fa9198969f633c01f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d99b0fa2706ef64fc7b8c54c3251c76"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a3d99b0fa2706ef64fc7b8c54c3251c76">~FaceExtractor</a> ()</td></tr>
-<tr class="separator:a3d99b0fa2706ef64fc7b8c54c3251c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2692c0040bb8c0b84a84d195194d037a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a2692c0040bb8c0b84a84d195194d037a">initializationOnThread</a> ()</td></tr>
-<tr class="separator:a2692c0040bb8c0b84a84d195194d037a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a629aa2952636f20cf126f424116fec31"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a629aa2952636f20cf126f424116fec31">forwardPass</a> (const std::vector&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;&gt; &amp;faceRectangles, const cv::Mat &amp;cvInputData)=0</td></tr>
-<tr class="separator:a629aa2952636f20cf126f424116fec31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af326457ed8977781fe48f1086ac5efee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#af326457ed8977781fe48f1086ac5efee">getHeatMaps</a> () const </td></tr>
-<tr class="separator:af326457ed8977781fe48f1086ac5efee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13d7920f4029a4aa6d63b3609956c475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a13d7920f4029a4aa6d63b3609956c475">getFaceKeypoints</a> () const </td></tr>
-<tr class="separator:a13d7920f4029a4aa6d63b3609956c475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea84b7ab1135204be1d500d681e11ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a4ea84b7ab1135204be1d500d681e11ff">FaceExtractorNet</a> (const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netInputSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netOutputSize, const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt; &amp;heatMapTypes={}, const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> heatMapScale=<a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa4b942544cb3e764bbb8d33f8a8744855">ScaleMode::ZeroToOne</a>)</td></tr>
+<tr class="separator:a4ea84b7ab1135204be1d500d681e11ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cd488333e450cfbb19aab8910e7f138"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a4cd488333e450cfbb19aab8910e7f138">~FaceExtractorNet</a> ()</td></tr>
+<tr class="separator:a4cd488333e450cfbb19aab8910e7f138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d6d5d6bd912bb940058a2b958aadf61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a6d6d5d6bd912bb940058a2b958aadf61">initializationOnThread</a> ()</td></tr>
+<tr class="separator:a6d6d5d6bd912bb940058a2b958aadf61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6801ceb4f26d1a9d48a8c5b00dcd93d4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a6801ceb4f26d1a9d48a8c5b00dcd93d4">forwardPass</a> (const std::vector&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;&gt; &amp;faceRectangles, const cv::Mat &amp;cvInputData)=0</td></tr>
+<tr class="separator:a6801ceb4f26d1a9d48a8c5b00dcd93d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a388506d838deb75075b1d0b1bf468119"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a388506d838deb75075b1d0b1bf468119">getHeatMaps</a> () const </td></tr>
+<tr class="separator:a388506d838deb75075b1d0b1bf468119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a20063d945e40214ea9f6635a73ba17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a5a20063d945e40214ea9f6635a73ba17">getFaceKeypoints</a> () const </td></tr>
+<tr class="separator:a5a20063d945e40214ea9f6635a73ba17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a11a301f43c8ff06e06170200f3410590"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a11a301f43c8ff06e06170200f3410590">netInitializationOnThread</a> ()=0</td></tr>
-<tr class="separator:a11a301f43c8ff06e06170200f3410590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a9a02b46596283cab6f8a4640161081"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a6a9a02b46596283cab6f8a4640161081">netInitializationOnThread</a> ()=0</td></tr>
+<tr class="separator:a6a9a02b46596283cab6f8a4640161081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a247dcd3ae33bd85509126ec0a735d380"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a247dcd3ae33bd85509126ec0a735d380">mNetOutputSize</a></td></tr>
-<tr class="separator:a247dcd3ae33bd85509126ec0a735d380"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec29268798b50ef752d6ec62c3cc5dc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#aec29268798b50ef752d6ec62c3cc5dc4">mFaceImageCrop</a></td></tr>
-<tr class="separator:aec29268798b50ef752d6ec62c3cc5dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d408bb492f490fa46b71b3bcbe28b62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a9d408bb492f490fa46b71b3bcbe28b62">mFaceKeypoints</a></td></tr>
-<tr class="separator:a9d408bb492f490fa46b71b3bcbe28b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1924617d954db6fc86fb60dfab0dde4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#ab1924617d954db6fc86fb60dfab0dde4">mHeatMaps</a></td></tr>
-<tr class="separator:ab1924617d954db6fc86fb60dfab0dde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2f1f5bf37949e0357091c80363dac0a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#ab2f1f5bf37949e0357091c80363dac0a">mHeatMapScaleMode</a></td></tr>
-<tr class="separator:ab2f1f5bf37949e0357091c80363dac0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cd07622445ab4efcc364da2e028ff13"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a1cd07622445ab4efcc364da2e028ff13">mHeatMapTypes</a></td></tr>
-<tr class="separator:a1cd07622445ab4efcc364da2e028ff13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf72945f62375b6ac8939c463a616f4a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#acf72945f62375b6ac8939c463a616f4a">mNetOutputSize</a></td></tr>
+<tr class="separator:acf72945f62375b6ac8939c463a616f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae18226cef1478a929df9061c7d699c6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#ae18226cef1478a929df9061c7d699c6f">mFaceImageCrop</a></td></tr>
+<tr class="separator:ae18226cef1478a929df9061c7d699c6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d3437e6a4a0fd834232b0afaab95a8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a5d3437e6a4a0fd834232b0afaab95a8a">mFaceKeypoints</a></td></tr>
+<tr class="separator:a5d3437e6a4a0fd834232b0afaab95a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43bd29f8c1fc0dbef051bd574df2deca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a43bd29f8c1fc0dbef051bd574df2deca">mHeatMaps</a></td></tr>
+<tr class="separator:a43bd29f8c1fc0dbef051bd574df2deca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3f6566e8b857262f57e18a88c90b9be"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#aa3f6566e8b857262f57e18a88c90b9be">mHeatMapScaleMode</a></td></tr>
+<tr class="separator:aa3f6566e8b857262f57e18a88c90b9be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf177dbf1a3effbe6b15545e6102d6e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a3bf177dbf1a3effbe6b15545e6102d6e">mHeatMapTypes</a></td></tr>
+<tr class="separator:a3bf177dbf1a3effbe6b15545e6102d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Face keypoint extractor class. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a6f3faf536edd57fa9198969f633c01f4"></a>
+<a class="anchor" id="a4ea84b7ab1135204be1d500d681e11ff"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -165,7 +165,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">op::FaceExtractor::FaceExtractor </td>
+          <td class="memname">op::FaceExtractorNet::FaceExtractorNet </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;&#160;</td>
           <td class="paramname"><em>netInputSize</em>, </td>
@@ -200,7 +200,7 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Constructor of the <a class="el" href="classop_1_1_face_extractor.html">FaceExtractor</a> class. </p>
+<p>Constructor of the <a class="el" href="classop_1_1_face_extractor_net.html">FaceExtractorNet</a> class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">netInputSize</td><td>Size at which the cropped image (where the face is located) is resized. </td></tr>
@@ -211,7 +211,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3d99b0fa2706ef64fc7b8c54c3251c76"></a>
+<a class="anchor" id="a4cd488333e450cfbb19aab8910e7f138"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -219,7 +219,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual op::FaceExtractor::~FaceExtractor </td>
+          <td class="memname">virtual op::FaceExtractorNet::~FaceExtractorNet </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -231,12 +231,12 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Virtual destructor of the <a class="el" href="classop_1_1_hand_extractor.html">HandExtractor</a> class. Required to allow inheritance. </p>
+<p>Virtual destructor of the HandExtractor class. Required to allow inheritance. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a629aa2952636f20cf126f424116fec31"></a>
+<a class="anchor" id="a6801ceb4f26d1a9d48a8c5b00dcd93d4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -244,7 +244,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void op::FaceExtractor::forwardPass </td>
+          <td class="memname">virtual void op::FaceExtractorNet::forwardPass </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>faceRectangles</em>, </td>
@@ -280,29 +280,29 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a13d7920f4029a4aa6d63b3609956c475"></a>
+<a class="anchor" id="a5a20063d945e40214ea9f6635a73ba17"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::FaceExtractor::getFaceKeypoints </td>
+          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::FaceExtractorNet::getFaceKeypoints </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This function returns the face keypoins. VERY IMPORTANT: use <a class="el" href="classop_1_1_face_extractor.html#a13d7920f4029a4aa6d63b3609956c475">getFaceKeypoints()</a>.clone() if the keypoints are going to be edited in a different thread. </p>
+<p>This function returns the face keypoins. VERY IMPORTANT: use <a class="el" href="classop_1_1_face_extractor_net.html#a5a20063d945e40214ea9f6635a73ba17">getFaceKeypoints()</a>.clone() if the keypoints are going to be edited in a different thread. </p>
 <dl class="section return"><dt>Returns</dt><dd>A <a class="el" href="classop_1_1_array.html">Array</a> with all the face keypoints. It follows the pose structure, i.e. the first dimension corresponds to all the people in the image, the second to each specific keypoint, and the third one to (x, y, score). </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="af326457ed8977781fe48f1086ac5efee"></a>
+<a class="anchor" id="a388506d838deb75075b1d0b1bf468119"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::FaceExtractor::getHeatMaps </td>
+          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::FaceExtractorNet::getHeatMaps </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -312,12 +312,12 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2692c0040bb8c0b84a84d195194d037a"></a>
+<a class="anchor" id="a6d6d5d6bd912bb940058a2b958aadf61"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void op::FaceExtractor::initializationOnThread </td>
+          <td class="memname">void op::FaceExtractorNet::initializationOnThread </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -328,7 +328,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a11a301f43c8ff06e06170200f3410590"></a>
+<a class="anchor" id="a6a9a02b46596283cab6f8a4640161081"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -336,7 +336,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void op::FaceExtractor::netInitializationOnThread </td>
+          <td class="memname">virtual void op::FaceExtractorNet::netInitializationOnThread </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -354,7 +354,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aec29268798b50ef752d6ec62c3cc5dc4"></a>
+<a class="anchor" id="ae18226cef1478a929df9061c7d699c6f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -362,7 +362,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::FaceExtractor::mFaceImageCrop</td>
+          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::FaceExtractorNet::mFaceImageCrop</td>
         </tr>
       </table>
   </td>
@@ -374,7 +374,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9d408bb492f490fa46b71b3bcbe28b62"></a>
+<a class="anchor" id="a5d3437e6a4a0fd834232b0afaab95a8a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -382,7 +382,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::FaceExtractor::mFaceKeypoints</td>
+          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::FaceExtractorNet::mFaceKeypoints</td>
         </tr>
       </table>
   </td>
@@ -394,7 +394,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab1924617d954db6fc86fb60dfab0dde4"></a>
+<a class="anchor" id="a43bd29f8c1fc0dbef051bd574df2deca"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -402,7 +402,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::FaceExtractor::mHeatMaps</td>
+          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::FaceExtractorNet::mHeatMaps</td>
         </tr>
       </table>
   </td>
@@ -414,7 +414,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab2f1f5bf37949e0357091c80363dac0a"></a>
+<a class="anchor" id="aa3f6566e8b857262f57e18a88c90b9be"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -422,7 +422,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> op::FaceExtractor::mHeatMapScaleMode</td>
+          <td class="memname">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> op::FaceExtractorNet::mHeatMapScaleMode</td>
         </tr>
       </table>
   </td>
@@ -434,7 +434,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1cd07622445ab4efcc364da2e028ff13"></a>
+<a class="anchor" id="a3bf177dbf1a3effbe6b15545e6102d6e"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -442,7 +442,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;<a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a>&gt; op::FaceExtractor::mHeatMapTypes</td>
+          <td class="memname">const std::vector&lt;<a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a>&gt; op::FaceExtractorNet::mHeatMapTypes</td>
         </tr>
       </table>
   </td>
@@ -454,7 +454,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a247dcd3ae33bd85509126ec0a735d380"></a>
+<a class="anchor" id="acf72945f62375b6ac8939c463a616f4a"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -462,7 +462,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structop_1_1_point.html">Point</a>&lt;int&gt; op::FaceExtractor::mNetOutputSize</td>
+          <td class="memname">const <a class="el" href="structop_1_1_point.html">Point</a>&lt;int&gt; op::FaceExtractorNet::mNetOutputSize</td>
         </tr>
       </table>
   </td>
@@ -475,14 +475,14 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/face/<a class="el" href="face_extractor_8hpp_source.html">faceExtractor.hpp</a></li>
+<li>/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/face/<a class="el" href="face_extractor_net_8hpp_source.html">faceExtractorNet.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceop.html">op</a></li><li class="navelem"><a class="el" href="classop_1_1_face_extractor.html">FaceExtractor</a></li>
+    <li class="navelem"><a class="el" href="namespaceop.html">op</a></li><li class="navelem"><a class="el" href="classop_1_1_face_extractor_net.html">FaceExtractorNet</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

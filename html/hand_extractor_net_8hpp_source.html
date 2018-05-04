@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/hand/handExtractor.hpp Source File</title>
+<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/hand/handExtractorNet.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('hand_extractor_8hpp_source.html','');});
+$(document).ready(function(){initNavTree('hand_extractor_net_8hpp_source.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -104,10 +104,10 @@ $(document).ready(function(){initNavTree('hand_extractor_8hpp_source.html','');}
 
 <div class="header">
   <div class="headertitle">
-<div class="title">handExtractor.hpp</div>  </div>
+<div class="title">handExtractorNet.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="hand_extractor_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENPOSE_HAND_HAND_EXTRACTOR_HPP</span></div>
+<a href="hand_extractor_net_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENPOSE_HAND_HAND_EXTRACTOR_HPP</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENPOSE_HAND_HAND_EXTRACTOR_HPP</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;thread&gt;</span></div>
@@ -117,15 +117,15 @@ $(document).ready(function(){initNavTree('hand_extractor_8hpp_source.html','');}
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span>op</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor.html">   14</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_hand_extractor.html">HandExtractor</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor_net.html">   14</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_hand_extractor_net.html">HandExtractorNet</a></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classop_1_1_hand_extractor.html">HandExtractor</a>(<span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&amp; netInputSize, <span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&amp; netOutputSize,</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classop_1_1_hand_extractor_net.html">HandExtractorNet</a>(<span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&amp; netInputSize, <span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&amp; netOutputSize,</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                               <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> numberScales = 1, <span class="keyword">const</span> <span class="keywordtype">float</span> rangeScales = 0.4f,</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                               <span class="keyword">const</span> std::vector&lt;HeatMapType&gt;&amp; heatMapTypes = {},</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                               <span class="keyword">const</span> <a class="code" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> heatMapScale = <a class="code" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa4b942544cb3e764bbb8d33f8a8744855">ScaleMode::ZeroToOne</a>);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classop_1_1_hand_extractor.html">HandExtractor</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classop_1_1_hand_extractor_net.html">HandExtractorNet</a>();</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordtype">void</span> initializationOnThread();</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
@@ -137,14 +137,14 @@ $(document).ready(function(){initNavTree('hand_extractor_8hpp_source.html','');}
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        std::array&lt;Array&lt;float&gt;, 2&gt; getHandKeypoints() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor.html#aba2046c5363f11f14719f104b0780e9f">   66</a></span>&#160;        <span class="keyword">const</span> std::pair&lt;unsigned short, float&gt; <a class="code" href="classop_1_1_hand_extractor.html#aba2046c5363f11f14719f104b0780e9f">mMultiScaleNumberAndRange</a>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor.html#a2eee4878f6e9ae76ada521e45354be89">   67</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a> <a class="code" href="classop_1_1_hand_extractor.html#a2eee4878f6e9ae76ada521e45354be89">mNetOutputSize</a>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor.html#afe80be5a3b786ad71cd0e0ff6443ff22">   68</a></span>&#160;        <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a> <a class="code" href="classop_1_1_hand_extractor.html#afe80be5a3b786ad71cd0e0ff6443ff22">mHandImageCrop</a>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor.html#aee0c5e4607643a978243d9432b704e3d">   69</a></span>&#160;        std::array&lt;Array&lt;float&gt;, 2&gt; <a class="code" href="classop_1_1_hand_extractor.html#aee0c5e4607643a978243d9432b704e3d">mHandKeypoints</a>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor_net.html#a2a969145bac891cef2683cae440c5f79">   66</a></span>&#160;        <span class="keyword">const</span> std::pair&lt;unsigned short, float&gt; <a class="code" href="classop_1_1_hand_extractor_net.html#a2a969145bac891cef2683cae440c5f79">mMultiScaleNumberAndRange</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor_net.html#ac5e36cd33696a684a4447acccec28fdd">   67</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a> <a class="code" href="classop_1_1_hand_extractor_net.html#ac5e36cd33696a684a4447acccec28fdd">mNetOutputSize</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor_net.html#a0981f4dfd15ce4a13de9d166cad9e1d4">   68</a></span>&#160;        <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a> <a class="code" href="classop_1_1_hand_extractor_net.html#a0981f4dfd15ce4a13de9d166cad9e1d4">mHandImageCrop</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor_net.html#a7f97a5b842d20d3d37d3469418faac7b">   69</a></span>&#160;        std::array&lt;Array&lt;float&gt;, 2&gt; <a class="code" href="classop_1_1_hand_extractor_net.html#a7f97a5b842d20d3d37d3469418faac7b">mHandKeypoints</a>;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="comment">// HeatMaps parameters</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor.html#aa31fd82cb8900c24841f3ef9cce6a0c8">   71</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> <a class="code" href="classop_1_1_hand_extractor.html#aa31fd82cb8900c24841f3ef9cce6a0c8">mHeatMapScaleMode</a>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor.html#aa8f444ce4953a41081acaac9ca8d2570">   72</a></span>&#160;        <span class="keyword">const</span> std::vector&lt;HeatMapType&gt; <a class="code" href="classop_1_1_hand_extractor.html#aa8f444ce4953a41081acaac9ca8d2570">mHeatMapTypes</a>;</div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor.html#acbe2c75c57b1df7279eae30ddcc63241">   73</a></span>&#160;        std::array&lt;Array&lt;float&gt;, 2&gt; <a class="code" href="classop_1_1_hand_extractor.html#acbe2c75c57b1df7279eae30ddcc63241">mHeatMaps</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor_net.html#af03c8872258c644086bda26a3aaf95b5">   71</a></span>&#160;        <span class="keyword">const</span> <a class="code" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> <a class="code" href="classop_1_1_hand_extractor_net.html#af03c8872258c644086bda26a3aaf95b5">mHeatMapScaleMode</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor_net.html#aaf0386c8c15a37cf79e9f3f4b1ced2e8">   72</a></span>&#160;        <span class="keyword">const</span> std::vector&lt;HeatMapType&gt; <a class="code" href="classop_1_1_hand_extractor_net.html#aaf0386c8c15a37cf79e9f3f4b1ced2e8">mHeatMapTypes</a>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="classop_1_1_hand_extractor_net.html#a5c4174ed2c09ff7c15edfc5d971f4aef">   73</a></span>&#160;        std::array&lt;Array&lt;float&gt;, 2&gt; <a class="code" href="classop_1_1_hand_extractor_net.html#a5c4174ed2c09ff7c15edfc5d971f4aef">mHeatMaps</a>;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> netInitializationOnThread() = 0;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
@@ -154,36 +154,36 @@ $(document).ready(function(){initNavTree('hand_extractor_8hpp_source.html','');}
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordtype">void</span> checkThread() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a>(<a class="code" href="classop_1_1_hand_extractor.html">HandExtractor</a>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a>(<a class="code" href="classop_1_1_hand_extractor_net.html">HandExtractorNet</a>);</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    };</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#endif // OPENPOSE_HAND_HAND_EXTRACTOR_HPP</span></div>
-<div class="ttc" id="classop_1_1_hand_extractor_html_aa31fd82cb8900c24841f3ef9cce6a0c8"><div class="ttname"><a href="classop_1_1_hand_extractor.html#aa31fd82cb8900c24841f3ef9cce6a0c8">op::HandExtractor::mHeatMapScaleMode</a></div><div class="ttdeci">const ScaleMode mHeatMapScaleMode</div><div class="ttdef"><b>Definition:</b> handExtractor.hpp:71</div></div>
 <div class="ttc" id="macros_8hpp_html_abef96b5dd35dd9d44ad27ddf0e2f5f2e"><div class="ttname"><a href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a></div><div class="ttdeci">#define DELETE_COPY(className)</div><div class="ttdef"><b>Definition:</b> macros.hpp:31</div></div>
-<div class="ttc" id="classop_1_1_hand_extractor_html_a2eee4878f6e9ae76ada521e45354be89"><div class="ttname"><a href="classop_1_1_hand_extractor.html#a2eee4878f6e9ae76ada521e45354be89">op::HandExtractor::mNetOutputSize</a></div><div class="ttdeci">const Point&lt; int &gt; mNetOutputSize</div><div class="ttdef"><b>Definition:</b> handExtractor.hpp:67</div></div>
 <div class="ttc" id="namespacecl_html_a8856ce875094624efdce0a49496d695e"><div class="ttname"><a href="namespacecl.html#a8856ce875094624efdce0a49496d695e">cl::array</a></div><div class="ttdeci">std::array&lt; T, N &gt; array</div><div class="ttdef"><b>Definition:</b> cl2.hpp:594</div></div>
-<div class="ttc" id="classop_1_1_hand_extractor_html_afe80be5a3b786ad71cd0e0ff6443ff22"><div class="ttname"><a href="classop_1_1_hand_extractor.html#afe80be5a3b786ad71cd0e0ff6443ff22">op::HandExtractor::mHandImageCrop</a></div><div class="ttdeci">Array&lt; float &gt; mHandImageCrop</div><div class="ttdef"><b>Definition:</b> handExtractor.hpp:68</div></div>
-<div class="ttc" id="classop_1_1_hand_extractor_html_acbe2c75c57b1df7279eae30ddcc63241"><div class="ttname"><a href="classop_1_1_hand_extractor.html#acbe2c75c57b1df7279eae30ddcc63241">op::HandExtractor::mHeatMaps</a></div><div class="ttdeci">std::array&lt; Array&lt; float &gt;, 2 &gt; mHeatMaps</div><div class="ttdef"><b>Definition:</b> handExtractor.hpp:73</div></div>
 <div class="ttc" id="structop_1_1_point_html"><div class="ttname"><a href="structop_1_1_point.html">op::Point&lt; int &gt;</a></div></div>
-<div class="ttc" id="classop_1_1_hand_extractor_html"><div class="ttname"><a href="classop_1_1_hand_extractor.html">op::HandExtractor</a></div><div class="ttdef"><b>Definition:</b> handExtractor.hpp:14</div></div>
+<div class="ttc" id="classop_1_1_hand_extractor_net_html_a0981f4dfd15ce4a13de9d166cad9e1d4"><div class="ttname"><a href="classop_1_1_hand_extractor_net.html#a0981f4dfd15ce4a13de9d166cad9e1d4">op::HandExtractorNet::mHandImageCrop</a></div><div class="ttdeci">Array&lt; float &gt; mHandImageCrop</div><div class="ttdef"><b>Definition:</b> handExtractorNet.hpp:68</div></div>
+<div class="ttc" id="classop_1_1_hand_extractor_net_html_af03c8872258c644086bda26a3aaf95b5"><div class="ttname"><a href="classop_1_1_hand_extractor_net.html#af03c8872258c644086bda26a3aaf95b5">op::HandExtractorNet::mHeatMapScaleMode</a></div><div class="ttdeci">const ScaleMode mHeatMapScaleMode</div><div class="ttdef"><b>Definition:</b> handExtractorNet.hpp:71</div></div>
+<div class="ttc" id="classop_1_1_hand_extractor_net_html_ac5e36cd33696a684a4447acccec28fdd"><div class="ttname"><a href="classop_1_1_hand_extractor_net.html#ac5e36cd33696a684a4447acccec28fdd">op::HandExtractorNet::mNetOutputSize</a></div><div class="ttdeci">const Point&lt; int &gt; mNetOutputSize</div><div class="ttdef"><b>Definition:</b> handExtractorNet.hpp:67</div></div>
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
-<div class="ttc" id="classop_1_1_hand_extractor_html_aee0c5e4607643a978243d9432b704e3d"><div class="ttname"><a href="classop_1_1_hand_extractor.html#aee0c5e4607643a978243d9432b704e3d">op::HandExtractor::mHandKeypoints</a></div><div class="ttdeci">std::array&lt; Array&lt; float &gt;, 2 &gt; mHandKeypoints</div><div class="ttdef"><b>Definition:</b> handExtractor.hpp:69</div></div>
 <div class="ttc" id="namespaceop_html_af72fe4ed32846c12f41b049d3d0e1bdaa4b942544cb3e764bbb8d33f8a8744855"><div class="ttname"><a href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa4b942544cb3e764bbb8d33f8a8744855">op::ScaleMode::ZeroToOne</a></div></div>
-<div class="ttc" id="classop_1_1_hand_extractor_html_aa8f444ce4953a41081acaac9ca8d2570"><div class="ttname"><a href="classop_1_1_hand_extractor.html#aa8f444ce4953a41081acaac9ca8d2570">op::HandExtractor::mHeatMapTypes</a></div><div class="ttdeci">const std::vector&lt; HeatMapType &gt; mHeatMapTypes</div><div class="ttdef"><b>Definition:</b> handExtractor.hpp:72</div></div>
-<div class="ttc" id="classop_1_1_hand_extractor_html_aba2046c5363f11f14719f104b0780e9f"><div class="ttname"><a href="classop_1_1_hand_extractor.html#aba2046c5363f11f14719f104b0780e9f">op::HandExtractor::mMultiScaleNumberAndRange</a></div><div class="ttdeci">const std::pair&lt; unsigned short, float &gt; mMultiScaleNumberAndRange</div><div class="ttdef"><b>Definition:</b> handExtractor.hpp:66</div></div>
+<div class="ttc" id="classop_1_1_hand_extractor_net_html_a2a969145bac891cef2683cae440c5f79"><div class="ttname"><a href="classop_1_1_hand_extractor_net.html#a2a969145bac891cef2683cae440c5f79">op::HandExtractorNet::mMultiScaleNumberAndRange</a></div><div class="ttdeci">const std::pair&lt; unsigned short, float &gt; mMultiScaleNumberAndRange</div><div class="ttdef"><b>Definition:</b> handExtractorNet.hpp:66</div></div>
+<div class="ttc" id="classop_1_1_hand_extractor_net_html_a7f97a5b842d20d3d37d3469418faac7b"><div class="ttname"><a href="classop_1_1_hand_extractor_net.html#a7f97a5b842d20d3d37d3469418faac7b">op::HandExtractorNet::mHandKeypoints</a></div><div class="ttdeci">std::array&lt; Array&lt; float &gt;, 2 &gt; mHandKeypoints</div><div class="ttdef"><b>Definition:</b> handExtractorNet.hpp:69</div></div>
+<div class="ttc" id="classop_1_1_hand_extractor_net_html_a5c4174ed2c09ff7c15edfc5d971f4aef"><div class="ttname"><a href="classop_1_1_hand_extractor_net.html#a5c4174ed2c09ff7c15edfc5d971f4aef">op::HandExtractorNet::mHeatMaps</a></div><div class="ttdeci">std::array&lt; Array&lt; float &gt;, 2 &gt; mHeatMaps</div><div class="ttdef"><b>Definition:</b> handExtractorNet.hpp:73</div></div>
 <div class="ttc" id="namespaceop_html_af72fe4ed32846c12f41b049d3d0e1bda"><div class="ttname"><a href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">op::ScaleMode</a></div><div class="ttdeci">ScaleMode</div><div class="ttdef"><b>Definition:</b> enumClasses.hpp:6</div></div>
 <div class="ttc" id="classop_1_1_array_html"><div class="ttname"><a href="classop_1_1_array.html">op::Array&lt; float &gt;</a></div></div>
 <div class="ttc" id="structop_1_1_rectangle_html"><div class="ttname"><a href="structop_1_1_rectangle.html">op::Rectangle</a></div><div class="ttdef"><b>Definition:</b> rectangle.hpp:11</div></div>
+<div class="ttc" id="classop_1_1_hand_extractor_net_html"><div class="ttname"><a href="classop_1_1_hand_extractor_net.html">op::HandExtractorNet</a></div><div class="ttdef"><b>Definition:</b> handExtractorNet.hpp:14</div></div>
 <div class="ttc" id="namespacecl_html_a01a0973ddf4c1799772079a09d7156cb"><div class="ttname"><a href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">cl::vector</a></div><div class="ttdeci">std::vector&lt; T, Alloc &gt; vector</div><div class="ttdef"><b>Definition:</b> cl2.hpp:567</div></div>
 <div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:16</div></div>
 <div class="ttc" id="core_2enum_classes_8hpp_html"><div class="ttname"><a href="core_2enum_classes_8hpp.html">enumClasses.hpp</a></div></div>
+<div class="ttc" id="classop_1_1_hand_extractor_net_html_aaf0386c8c15a37cf79e9f3f4b1ced2e8"><div class="ttname"><a href="classop_1_1_hand_extractor_net.html#aaf0386c8c15a37cf79e9f3f4b1ced2e8">op::HandExtractorNet::mHeatMapTypes</a></div><div class="ttdeci">const std::vector&lt; HeatMapType &gt; mHeatMapTypes</div><div class="ttdef"><b>Definition:</b> handExtractorNet.hpp:72</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_e6a46dbf99f5b50e7fc745799cfa5168.html">hand</a></li><li class="navelem"><a class="el" href="hand_extractor_8hpp.html">handExtractor.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_e6a46dbf99f5b50e7fc745799cfa5168.html">hand</a></li><li class="navelem"><a class="el" href="hand_extractor_net_8hpp.html">handExtractorNet.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

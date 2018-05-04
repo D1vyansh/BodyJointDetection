@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('classop_1_1_w_face_extractor.html','');});
+$(document).ready(function(){initNavTree('classop_1_1_face_extractor_net.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -106,21 +106,25 @@ $(document).ready(function(){initNavTree('classop_1_1_w_face_extractor.html','')
 
 <div class="header">
   <div class="headertitle">
-<div class="title">op::WFaceExtractor&lt; TDatums &gt; Member List</div>  </div>
+<div class="title">op::FaceExtractorNet Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="classop_1_1_w_face_extractor.html">op::WFaceExtractor&lt; TDatums &gt;</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_worker.html#a6e4e84bd2052919bc48df1ec4b913ecf">checkAndWork</a>(TDatums &amp;tDatums)</td><td class="entry"><a class="el" href="classop_1_1_worker.html">op::Worker&lt; TDatums &gt;</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classop_1_1_w_face_extractor.html#aee8f96a5ce0080db31fe20ae202e59a5">initializationOnThread</a>()</td><td class="entry"><a class="el" href="classop_1_1_w_face_extractor.html">op::WFaceExtractor&lt; TDatums &gt;</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_worker.html#a3f7c86ab1c4ce15c0f0ef12a1d4647e0">isRunning</a>() const </td><td class="entry"><a class="el" href="classop_1_1_worker.html">op::Worker&lt; TDatums &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classop_1_1_worker.html#ae45ac828f6e8f6055203c224e50f145b">stop</a>()</td><td class="entry"><a class="el" href="classop_1_1_worker.html">op::Worker&lt; TDatums &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_worker.html#ad689b232d68f3b3e0b41f9e219b01134">tryStop</a>()</td><td class="entry"><a class="el" href="classop_1_1_worker.html">op::Worker&lt; TDatums &gt;</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classop_1_1_w_face_extractor.html#a65082b800f738413b1e76141487266dd">WFaceExtractor</a>(const std::shared_ptr&lt; FaceExtractor &gt; &amp;faceExtractor)</td><td class="entry"><a class="el" href="classop_1_1_w_face_extractor.html">op::WFaceExtractor&lt; TDatums &gt;</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_w_face_extractor.html#a16522778f67bc544867929f5a4357934">work</a>(TDatums &amp;tDatums)</td><td class="entry"><a class="el" href="classop_1_1_w_face_extractor.html">op::WFaceExtractor&lt; TDatums &gt;</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classop_1_1_worker.html#a5008fc4ef4e41366ba0022f5cd79edba">Worker</a>()</td><td class="entry"><a class="el" href="classop_1_1_worker.html">op::Worker&lt; TDatums &gt;</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_worker.html#a6ebe180098e00ac062a1bb31d462df60">~Worker</a>()</td><td class="entry"><a class="el" href="classop_1_1_worker.html">op::Worker&lt; TDatums &gt;</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#a4ea84b7ab1135204be1d500d681e11ff">FaceExtractorNet</a>(const Point&lt; int &gt; &amp;netInputSize, const Point&lt; int &gt; &amp;netOutputSize, const std::vector&lt; HeatMapType &gt; &amp;heatMapTypes={}, const ScaleMode heatMapScale=ScaleMode::ZeroToOne)</td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"><span class="mlabel">explicit</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#a6801ceb4f26d1a9d48a8c5b00dcd93d4">forwardPass</a>(const std::vector&lt; Rectangle&lt; float &gt;&gt; &amp;faceRectangles, const cv::Mat &amp;cvInputData)=0</td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#a5a20063d945e40214ea9f6635a73ba17">getFaceKeypoints</a>() const </td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#a388506d838deb75075b1d0b1bf468119">getHeatMaps</a>() const </td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#a6d6d5d6bd912bb940058a2b958aadf61">initializationOnThread</a>()</td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#ae18226cef1478a929df9061c7d699c6f">mFaceImageCrop</a></td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#a5d3437e6a4a0fd834232b0afaab95a8a">mFaceKeypoints</a></td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#a43bd29f8c1fc0dbef051bd574df2deca">mHeatMaps</a></td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#aa3f6566e8b857262f57e18a88c90b9be">mHeatMapScaleMode</a></td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#a3bf177dbf1a3effbe6b15545e6102d6e">mHeatMapTypes</a></td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#acf72945f62375b6ac8939c463a616f4a">mNetOutputSize</a></td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#a6a9a02b46596283cab6f8a4640161081">netInitializationOnThread</a>()=0</td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html#a4cd488333e450cfbb19aab8910e7f138">~FaceExtractorNet</a>()</td><td class="entry"><a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

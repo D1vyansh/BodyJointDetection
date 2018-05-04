@@ -20,7 +20,7 @@ var hierarchy =
     [ "cl::EnqueueArgs", "classcl_1_1_enqueue_args.html", null ],
     [ "op::FaceDetector", "classop_1_1_face_detector.html", null ],
     [ "op::FaceDetectorOpenCV", "classop_1_1_face_detector_open_c_v.html", null ],
-    [ "op::FaceExtractor", "classop_1_1_face_extractor.html", [
+    [ "op::FaceExtractorNet", "classop_1_1_face_extractor_net.html", [
       [ "op::FaceExtractorCaffe", "classop_1_1_face_extractor_caffe.html", null ]
     ] ],
     [ "op::FaceRenderer", "classop_1_1_face_renderer.html", [
@@ -42,7 +42,7 @@ var hierarchy =
     [ "op::GuiInfoAdder", "classop_1_1_gui_info_adder.html", null ],
     [ "op::HandDetector", "classop_1_1_hand_detector.html", null ],
     [ "op::HandDetectorFromTxt", "classop_1_1_hand_detector_from_txt.html", null ],
-    [ "op::HandExtractor", "classop_1_1_hand_extractor.html", [
+    [ "op::HandExtractorNet", "classop_1_1_hand_extractor_net.html", [
       [ "op::HandExtractorCaffe", "classop_1_1_hand_extractor_caffe.html", null ]
     ] ],
     [ "op::HandRenderer", "classop_1_1_hand_renderer.html", [
@@ -75,7 +75,8 @@ var hierarchy =
     [ "op::Point< int >", "structop_1_1_point.html", null ],
     [ "op::PointerContainerGreater< TDatums >", "classop_1_1_pointer_container_greater.html", null ],
     [ "op::PointerContainerLess< TDatums >", "classop_1_1_pointer_container_less.html", null ],
-    [ "op::PoseExtractor", "classop_1_1_pose_extractor.html", [
+    [ "op::PoseExtractor", "classop_1_1_pose_extractor.html", null ],
+    [ "op::PoseExtractorNet", "classop_1_1_pose_extractor_net.html", [
       [ "op::PoseExtractorCaffe", "classop_1_1_pose_extractor_caffe.html", null ]
     ] ],
     [ "op::PoseRenderer", "classop_1_1_pose_renderer.html", [
@@ -148,14 +149,14 @@ var hierarchy =
       [ "op::WCvMatToOpOutput< TDatums >", "classop_1_1_w_cv_mat_to_op_output.html", null ],
       [ "op::WFaceDetector< TDatums >", "classop_1_1_w_face_detector.html", null ],
       [ "op::WFaceDetectorOpenCV< TDatums >", "classop_1_1_w_face_detector_open_c_v.html", null ],
-      [ "op::WFaceExtractor< TDatums >", "classop_1_1_w_face_extractor.html", null ],
+      [ "op::WFaceExtractorNet< TDatums >", "classop_1_1_w_face_extractor_net.html", null ],
       [ "op::WFaceRenderer< TDatums >", "classop_1_1_w_face_renderer.html", null ],
       [ "op::WGuiInfoAdder< TDatums >", "classop_1_1_w_gui_info_adder.html", null ],
       [ "op::WHandDetector< TDatums >", "classop_1_1_w_hand_detector.html", null ],
       [ "op::WHandDetectorFromTxt< TDatums >", "classop_1_1_w_hand_detector_from_txt.html", null ],
       [ "op::WHandDetectorTracking< TDatums >", "classop_1_1_w_hand_detector_tracking.html", null ],
       [ "op::WHandDetectorUpdate< TDatums >", "classop_1_1_w_hand_detector_update.html", null ],
-      [ "op::WHandExtractor< TDatums >", "classop_1_1_w_hand_extractor.html", null ],
+      [ "op::WHandExtractorNet< TDatums >", "classop_1_1_w_hand_extractor_net.html", null ],
       [ "op::WHandRenderer< TDatums >", "classop_1_1_w_hand_renderer.html", null ],
       [ "op::WIdGenerator< TDatums >", "classop_1_1_w_id_generator.html", null ],
       [ "op::WKeepTopNPeople< TDatums >", "classop_1_1_w_keep_top_n_people.html", null ],
@@ -178,6 +179,7 @@ var hierarchy =
       ] ],
       [ "op::WPersonIdExtractor< TDatums >", "classop_1_1_w_person_id_extractor.html", null ],
       [ "op::WPoseExtractor< TDatums >", "classop_1_1_w_pose_extractor.html", null ],
+      [ "op::WPoseExtractorNet< TDatums >", "classop_1_1_w_pose_extractor_net.html", null ],
       [ "op::WPoseRenderer< TDatums >", "classop_1_1_w_pose_renderer.html", null ],
       [ "op::WPoseTriangulation< TDatums >", "classop_1_1_w_pose_triangulation.html", null ],
       [ "op::WQueueOrderer< TDatums >", "classop_1_1_w_queue_orderer.html", null ],

@@ -9,11 +9,11 @@ var dir_e6a46dbf99f5b50e7fc745799cfa5168 =
     [ "handDetectorFromTxt.hpp", "hand_detector_from_txt_8hpp.html", [
       [ "HandDetectorFromTxt", "classop_1_1_hand_detector_from_txt.html", "classop_1_1_hand_detector_from_txt" ]
     ] ],
-    [ "handExtractor.hpp", "hand_extractor_8hpp.html", [
-      [ "HandExtractor", "classop_1_1_hand_extractor.html", "classop_1_1_hand_extractor" ]
-    ] ],
     [ "handExtractorCaffe.hpp", "hand_extractor_caffe_8hpp.html", [
       [ "HandExtractorCaffe", "classop_1_1_hand_extractor_caffe.html", "classop_1_1_hand_extractor_caffe" ]
+    ] ],
+    [ "handExtractorNet.hpp", "hand_extractor_net_8hpp.html", [
+      [ "HandExtractorNet", "classop_1_1_hand_extractor_net.html", "classop_1_1_hand_extractor_net" ]
     ] ],
     [ "handGpuRenderer.hpp", "hand_gpu_renderer_8hpp.html", [
       [ "HandGpuRenderer", "classop_1_1_hand_gpu_renderer.html", "classop_1_1_hand_gpu_renderer" ]
@@ -28,6 +28,6 @@ var dir_e6a46dbf99f5b50e7fc745799cfa5168 =
     [ "wHandDetectorFromTxt.hpp", "w_hand_detector_from_txt_8hpp.html", "w_hand_detector_from_txt_8hpp" ],
     [ "wHandDetectorTracking.hpp", "w_hand_detector_tracking_8hpp.html", "w_hand_detector_tracking_8hpp" ],
     [ "wHandDetectorUpdate.hpp", "w_hand_detector_update_8hpp.html", "w_hand_detector_update_8hpp" ],
-    [ "wHandExtractor.hpp", "w_hand_extractor_8hpp.html", "w_hand_extractor_8hpp" ],
+    [ "wHandExtractorNet.hpp", "w_hand_extractor_net_8hpp.html", "w_hand_extractor_net_8hpp" ],
     [ "wHandRenderer.hpp", "w_hand_renderer_8hpp.html", "w_hand_renderer_8hpp" ]
 ];

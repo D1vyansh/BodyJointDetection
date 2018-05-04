@@ -16,6 +16,9 @@ var dir_fb1fa93424b14541859dcbe39f791178 =
     [ "poseExtractorCaffe.hpp", "pose_extractor_caffe_8hpp.html", [
       [ "PoseExtractorCaffe", "classop_1_1_pose_extractor_caffe.html", "classop_1_1_pose_extractor_caffe" ]
     ] ],
+    [ "poseExtractorNet.hpp", "pose_extractor_net_8hpp.html", [
+      [ "PoseExtractorNet", "classop_1_1_pose_extractor_net.html", "classop_1_1_pose_extractor_net" ]
+    ] ],
     [ "poseGpuRenderer.hpp", "pose_gpu_renderer_8hpp.html", [
       [ "PoseGpuRenderer", "classop_1_1_pose_gpu_renderer.html", "classop_1_1_pose_gpu_renderer" ]
     ] ],
@@ -26,5 +29,6 @@ var dir_fb1fa93424b14541859dcbe39f791178 =
     ] ],
     [ "renderPose.hpp", "render_pose_8hpp.html", "render_pose_8hpp" ],
     [ "wPoseExtractor.hpp", "w_pose_extractor_8hpp.html", "w_pose_extractor_8hpp" ],
+    [ "wPoseExtractorNet.hpp", "w_pose_extractor_net_8hpp.html", "w_pose_extractor_net_8hpp" ],
     [ "wPoseRenderer.hpp", "w_pose_renderer_8hpp.html", "w_pose_renderer_8hpp" ]
 ];

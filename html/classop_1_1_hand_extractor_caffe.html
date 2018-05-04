@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('classop_1_1_hand_extractor_caffe.html'
 
 <p><code>#include &lt;<a class="el" href="hand_extractor_caffe_8hpp_source.html">handExtractorCaffe.hpp</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="classop_1_1_hand_extractor.html">op::HandExtractor</a>.</p>
+<p>Inherits <a class="el" href="classop_1_1_hand_extractor_net.html">op::HandExtractorNet</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -127,36 +127,36 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ace3ee9d717887ee9dc0f00ce69bd0c82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add0603118d06a1dbeb5c6095e6ca77f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_caffe.html#add0603118d06a1dbeb5c6095e6ca77f3">forwardPass</a> (const std::vector&lt; std::array&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;, 2 &gt;&gt; handRectangles, const cv::Mat &amp;cvInputData)</td></tr>
 <tr class="separator:add0603118d06a1dbeb5c6095e6ca77f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classop_1_1_hand_extractor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_hand_extractor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_hand_extractor.html">op::HandExtractor</a></td></tr>
-<tr class="memitem:a34b8ccd65d526ce3cacd57b80e889296 inherit pub_methods_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a34b8ccd65d526ce3cacd57b80e889296">HandExtractor</a> (const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netInputSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netOutputSize, const unsigned short numberScales=1, const float rangeScales=0.4f, const std::vector&lt; HeatMapType &gt; &amp;heatMapTypes={}, const ScaleMode heatMapScale=ScaleMode::ZeroToOne)</td></tr>
-<tr class="separator:a34b8ccd65d526ce3cacd57b80e889296 inherit pub_methods_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95a512748828a04713b4cde582fb4901 inherit pub_methods_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a95a512748828a04713b4cde582fb4901">~HandExtractor</a> ()</td></tr>
-<tr class="separator:a95a512748828a04713b4cde582fb4901 inherit pub_methods_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5592a468cfdcfdd687d6f9d465d3eda inherit pub_methods_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#aa5592a468cfdcfdd687d6f9d465d3eda">initializationOnThread</a> ()</td></tr>
-<tr class="separator:aa5592a468cfdcfdd687d6f9d465d3eda inherit pub_methods_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5ce8cd602820921de3ec3f676aacf0d inherit pub_methods_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#af5ce8cd602820921de3ec3f676aacf0d">getHeatMaps</a> () const </td></tr>
-<tr class="separator:af5ce8cd602820921de3ec3f676aacf0d inherit pub_methods_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a322a1c3a0ab7abaf0c697246af9309cc inherit pub_methods_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a322a1c3a0ab7abaf0c697246af9309cc">getHandKeypoints</a> () const </td></tr>
-<tr class="separator:a322a1c3a0ab7abaf0c697246af9309cc inherit pub_methods_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classop_1_1_hand_extractor_net"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_hand_extractor_net')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_hand_extractor_net.html">op::HandExtractorNet</a></td></tr>
+<tr class="memitem:a557b50d687fb9529306b33d0710a9f41 inherit pub_methods_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a557b50d687fb9529306b33d0710a9f41">HandExtractorNet</a> (const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netInputSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netOutputSize, const unsigned short numberScales=1, const float rangeScales=0.4f, const std::vector&lt; HeatMapType &gt; &amp;heatMapTypes={}, const ScaleMode heatMapScale=ScaleMode::ZeroToOne)</td></tr>
+<tr class="separator:a557b50d687fb9529306b33d0710a9f41 inherit pub_methods_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3743bf97fd19ee7d52ffd1019baa0c46 inherit pub_methods_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a3743bf97fd19ee7d52ffd1019baa0c46">~HandExtractorNet</a> ()</td></tr>
+<tr class="separator:a3743bf97fd19ee7d52ffd1019baa0c46 inherit pub_methods_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37d86377da41c576c4d54027a9762733 inherit pub_methods_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a37d86377da41c576c4d54027a9762733">initializationOnThread</a> ()</td></tr>
+<tr class="separator:a37d86377da41c576c4d54027a9762733 inherit pub_methods_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a942172f24916d5a60167b9708924c1a4 inherit pub_methods_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a942172f24916d5a60167b9708924c1a4">getHeatMaps</a> () const </td></tr>
+<tr class="separator:a942172f24916d5a60167b9708924c1a4 inherit pub_methods_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a931591bb416a3658771296f2dd4d09f4 inherit pub_methods_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a931591bb416a3658771296f2dd4d09f4">getHandKeypoints</a> () const </td></tr>
+<tr class="separator:a931591bb416a3658771296f2dd4d09f4 inherit pub_methods_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classop_1_1_hand_extractor"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classop_1_1_hand_extractor')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classop_1_1_hand_extractor.html">op::HandExtractor</a></td></tr>
-<tr class="memitem:aba2046c5363f11f14719f104b0780e9f inherit pro_attribs_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">const std::pair&lt; unsigned <br class="typebreak"/>
-short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#aba2046c5363f11f14719f104b0780e9f">mMultiScaleNumberAndRange</a></td></tr>
-<tr class="separator:aba2046c5363f11f14719f104b0780e9f inherit pro_attribs_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eee4878f6e9ae76ada521e45354be89 inherit pro_attribs_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a2eee4878f6e9ae76ada521e45354be89">mNetOutputSize</a></td></tr>
-<tr class="separator:a2eee4878f6e9ae76ada521e45354be89 inherit pro_attribs_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe80be5a3b786ad71cd0e0ff6443ff22 inherit pro_attribs_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#afe80be5a3b786ad71cd0e0ff6443ff22">mHandImageCrop</a></td></tr>
-<tr class="separator:afe80be5a3b786ad71cd0e0ff6443ff22 inherit pro_attribs_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee0c5e4607643a978243d9432b704e3d inherit pro_attribs_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#aee0c5e4607643a978243d9432b704e3d">mHandKeypoints</a></td></tr>
-<tr class="separator:aee0c5e4607643a978243d9432b704e3d inherit pro_attribs_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa31fd82cb8900c24841f3ef9cce6a0c8 inherit pro_attribs_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#aa31fd82cb8900c24841f3ef9cce6a0c8">mHeatMapScaleMode</a></td></tr>
-<tr class="separator:aa31fd82cb8900c24841f3ef9cce6a0c8 inherit pro_attribs_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8f444ce4953a41081acaac9ca8d2570 inherit pro_attribs_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#aa8f444ce4953a41081acaac9ca8d2570">mHeatMapTypes</a></td></tr>
-<tr class="separator:aa8f444ce4953a41081acaac9ca8d2570 inherit pro_attribs_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbe2c75c57b1df7279eae30ddcc63241 inherit pro_attribs_classop_1_1_hand_extractor"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#acbe2c75c57b1df7279eae30ddcc63241">mHeatMaps</a></td></tr>
-<tr class="separator:acbe2c75c57b1df7279eae30ddcc63241 inherit pro_attribs_classop_1_1_hand_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classop_1_1_hand_extractor_net"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classop_1_1_hand_extractor_net')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classop_1_1_hand_extractor_net.html">op::HandExtractorNet</a></td></tr>
+<tr class="memitem:a2a969145bac891cef2683cae440c5f79 inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top">const std::pair&lt; unsigned <br class="typebreak"/>
+short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a2a969145bac891cef2683cae440c5f79">mMultiScaleNumberAndRange</a></td></tr>
+<tr class="separator:a2a969145bac891cef2683cae440c5f79 inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5e36cd33696a684a4447acccec28fdd inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#ac5e36cd33696a684a4447acccec28fdd">mNetOutputSize</a></td></tr>
+<tr class="separator:ac5e36cd33696a684a4447acccec28fdd inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0981f4dfd15ce4a13de9d166cad9e1d4 inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a0981f4dfd15ce4a13de9d166cad9e1d4">mHandImageCrop</a></td></tr>
+<tr class="separator:a0981f4dfd15ce4a13de9d166cad9e1d4 inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f97a5b842d20d3d37d3469418faac7b inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a7f97a5b842d20d3d37d3469418faac7b">mHandKeypoints</a></td></tr>
+<tr class="separator:a7f97a5b842d20d3d37d3469418faac7b inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03c8872258c644086bda26a3aaf95b5 inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#af03c8872258c644086bda26a3aaf95b5">mHeatMapScaleMode</a></td></tr>
+<tr class="separator:af03c8872258c644086bda26a3aaf95b5 inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf0386c8c15a37cf79e9f3f4b1ced2e8 inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#aaf0386c8c15a37cf79e9f3f4b1ced2e8">mHeatMapTypes</a></td></tr>
+<tr class="separator:aaf0386c8c15a37cf79e9f3f4b1ced2e8 inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c4174ed2c09ff7c15edfc5d971f4aef inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a5c4174ed2c09ff7c15edfc5d971f4aef">mHeatMaps</a></td></tr>
+<tr class="separator:a5c4174ed2c09ff7c15edfc5d971f4aef inherit pro_attribs_classop_1_1_hand_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Hand keypoint extractor class for Caffe framework. </p>
@@ -261,7 +261,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Virtual destructor of the <a class="el" href="classop_1_1_hand_extractor.html">HandExtractor</a> class. Required to allow inheritance. </p>
+<p>Virtual destructor of the HandExtractor class. Required to allow inheritance. </p>
 
 </div>
 </div>
@@ -306,7 +306,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classop_1_1_hand_extractor.html#a3da2e8ae3980a0881a3a9a98756e9b78">op::HandExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_hand_extractor_net.html#a2638c2c03b0aed0b14114968dedd612c">op::HandExtractorNet</a>.</p>
 
 </div>
 </div>
@@ -332,7 +332,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div><div class="memdoc">
 <p>This function must be call before using any other function. It must also be called inside the thread in which the functions are going to be used. </p>
 
-<p>Implements <a class="el" href="classop_1_1_hand_extractor.html#ac98085241dfd326a1aabf8b29e7be950">op::HandExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_hand_extractor_net.html#aad7c29237d50e77e606bb32c20c60d24">op::HandExtractorNet</a>.</p>
 
 </div>
 </div>

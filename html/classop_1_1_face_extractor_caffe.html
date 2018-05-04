@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('classop_1_1_face_extractor_caffe.html'
 
 <p><code>#include &lt;<a class="el" href="face_extractor_caffe_8hpp_source.html">faceExtractorCaffe.hpp</a>&gt;</code></p>
 
-<p>Inherits <a class="el" href="classop_1_1_face_extractor.html">op::FaceExtractor</a>.</p>
+<p>Inherits <a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -127,33 +127,33 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:add2a24d9bd5e03ff90034239e90523c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68592dee6b3ecdbb97e0cb1cb343c0a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_caffe.html#a68592dee6b3ecdbb97e0cb1cb343c0a5">forwardPass</a> (const std::vector&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;&gt; &amp;faceRectangles, const cv::Mat &amp;cvInputData)</td></tr>
 <tr class="separator:a68592dee6b3ecdbb97e0cb1cb343c0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classop_1_1_face_extractor"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_face_extractor')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_face_extractor.html">op::FaceExtractor</a></td></tr>
-<tr class="memitem:a6f3faf536edd57fa9198969f633c01f4 inherit pub_methods_classop_1_1_face_extractor"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a6f3faf536edd57fa9198969f633c01f4">FaceExtractor</a> (const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netInputSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netOutputSize, const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt; &amp;heatMapTypes={}, const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> heatMapScale=<a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa4b942544cb3e764bbb8d33f8a8744855">ScaleMode::ZeroToOne</a>)</td></tr>
-<tr class="separator:a6f3faf536edd57fa9198969f633c01f4 inherit pub_methods_classop_1_1_face_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d99b0fa2706ef64fc7b8c54c3251c76 inherit pub_methods_classop_1_1_face_extractor"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a3d99b0fa2706ef64fc7b8c54c3251c76">~FaceExtractor</a> ()</td></tr>
-<tr class="separator:a3d99b0fa2706ef64fc7b8c54c3251c76 inherit pub_methods_classop_1_1_face_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2692c0040bb8c0b84a84d195194d037a inherit pub_methods_classop_1_1_face_extractor"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a2692c0040bb8c0b84a84d195194d037a">initializationOnThread</a> ()</td></tr>
-<tr class="separator:a2692c0040bb8c0b84a84d195194d037a inherit pub_methods_classop_1_1_face_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af326457ed8977781fe48f1086ac5efee inherit pub_methods_classop_1_1_face_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#af326457ed8977781fe48f1086ac5efee">getHeatMaps</a> () const </td></tr>
-<tr class="separator:af326457ed8977781fe48f1086ac5efee inherit pub_methods_classop_1_1_face_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13d7920f4029a4aa6d63b3609956c475 inherit pub_methods_classop_1_1_face_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a13d7920f4029a4aa6d63b3609956c475">getFaceKeypoints</a> () const </td></tr>
-<tr class="separator:a13d7920f4029a4aa6d63b3609956c475 inherit pub_methods_classop_1_1_face_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classop_1_1_face_extractor_net"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classop_1_1_face_extractor_net')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td></tr>
+<tr class="memitem:a4ea84b7ab1135204be1d500d681e11ff inherit pub_methods_classop_1_1_face_extractor_net"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a4ea84b7ab1135204be1d500d681e11ff">FaceExtractorNet</a> (const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netInputSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netOutputSize, const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt; &amp;heatMapTypes={}, const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> heatMapScale=<a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa4b942544cb3e764bbb8d33f8a8744855">ScaleMode::ZeroToOne</a>)</td></tr>
+<tr class="separator:a4ea84b7ab1135204be1d500d681e11ff inherit pub_methods_classop_1_1_face_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cd488333e450cfbb19aab8910e7f138 inherit pub_methods_classop_1_1_face_extractor_net"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a4cd488333e450cfbb19aab8910e7f138">~FaceExtractorNet</a> ()</td></tr>
+<tr class="separator:a4cd488333e450cfbb19aab8910e7f138 inherit pub_methods_classop_1_1_face_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d6d5d6bd912bb940058a2b958aadf61 inherit pub_methods_classop_1_1_face_extractor_net"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a6d6d5d6bd912bb940058a2b958aadf61">initializationOnThread</a> ()</td></tr>
+<tr class="separator:a6d6d5d6bd912bb940058a2b958aadf61 inherit pub_methods_classop_1_1_face_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a388506d838deb75075b1d0b1bf468119 inherit pub_methods_classop_1_1_face_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a388506d838deb75075b1d0b1bf468119">getHeatMaps</a> () const </td></tr>
+<tr class="separator:a388506d838deb75075b1d0b1bf468119 inherit pub_methods_classop_1_1_face_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a20063d945e40214ea9f6635a73ba17 inherit pub_methods_classop_1_1_face_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a5a20063d945e40214ea9f6635a73ba17">getFaceKeypoints</a> () const </td></tr>
+<tr class="separator:a5a20063d945e40214ea9f6635a73ba17 inherit pub_methods_classop_1_1_face_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classop_1_1_face_extractor"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classop_1_1_face_extractor')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classop_1_1_face_extractor.html">op::FaceExtractor</a></td></tr>
-<tr class="memitem:a247dcd3ae33bd85509126ec0a735d380 inherit pro_attribs_classop_1_1_face_extractor"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a247dcd3ae33bd85509126ec0a735d380">mNetOutputSize</a></td></tr>
-<tr class="separator:a247dcd3ae33bd85509126ec0a735d380 inherit pro_attribs_classop_1_1_face_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec29268798b50ef752d6ec62c3cc5dc4 inherit pro_attribs_classop_1_1_face_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#aec29268798b50ef752d6ec62c3cc5dc4">mFaceImageCrop</a></td></tr>
-<tr class="separator:aec29268798b50ef752d6ec62c3cc5dc4 inherit pro_attribs_classop_1_1_face_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d408bb492f490fa46b71b3bcbe28b62 inherit pro_attribs_classop_1_1_face_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a9d408bb492f490fa46b71b3bcbe28b62">mFaceKeypoints</a></td></tr>
-<tr class="separator:a9d408bb492f490fa46b71b3bcbe28b62 inherit pro_attribs_classop_1_1_face_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1924617d954db6fc86fb60dfab0dde4 inherit pro_attribs_classop_1_1_face_extractor"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#ab1924617d954db6fc86fb60dfab0dde4">mHeatMaps</a></td></tr>
-<tr class="separator:ab1924617d954db6fc86fb60dfab0dde4 inherit pro_attribs_classop_1_1_face_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2f1f5bf37949e0357091c80363dac0a inherit pro_attribs_classop_1_1_face_extractor"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#ab2f1f5bf37949e0357091c80363dac0a">mHeatMapScaleMode</a></td></tr>
-<tr class="separator:ab2f1f5bf37949e0357091c80363dac0a inherit pro_attribs_classop_1_1_face_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cd07622445ab4efcc364da2e028ff13 inherit pro_attribs_classop_1_1_face_extractor"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor.html#a1cd07622445ab4efcc364da2e028ff13">mHeatMapTypes</a></td></tr>
-<tr class="separator:a1cd07622445ab4efcc364da2e028ff13 inherit pro_attribs_classop_1_1_face_extractor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classop_1_1_face_extractor_net"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classop_1_1_face_extractor_net')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classop_1_1_face_extractor_net.html">op::FaceExtractorNet</a></td></tr>
+<tr class="memitem:acf72945f62375b6ac8939c463a616f4a inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#acf72945f62375b6ac8939c463a616f4a">mNetOutputSize</a></td></tr>
+<tr class="separator:acf72945f62375b6ac8939c463a616f4a inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae18226cef1478a929df9061c7d699c6f inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#ae18226cef1478a929df9061c7d699c6f">mFaceImageCrop</a></td></tr>
+<tr class="separator:ae18226cef1478a929df9061c7d699c6f inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d3437e6a4a0fd834232b0afaab95a8a inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a5d3437e6a4a0fd834232b0afaab95a8a">mFaceKeypoints</a></td></tr>
+<tr class="separator:a5d3437e6a4a0fd834232b0afaab95a8a inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43bd29f8c1fc0dbef051bd574df2deca inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a43bd29f8c1fc0dbef051bd574df2deca">mHeatMaps</a></td></tr>
+<tr class="separator:a43bd29f8c1fc0dbef051bd574df2deca inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3f6566e8b857262f57e18a88c90b9be inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#aa3f6566e8b857262f57e18a88c90b9be">mHeatMapScaleMode</a></td></tr>
+<tr class="separator:aa3f6566e8b857262f57e18a88c90b9be inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bf177dbf1a3effbe6b15545e6102d6e inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_extractor_net.html#a3bf177dbf1a3effbe6b15545e6102d6e">mHeatMapTypes</a></td></tr>
+<tr class="separator:a3bf177dbf1a3effbe6b15545e6102d6e inherit pro_attribs_classop_1_1_face_extractor_net"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Face keypoint extractor class for Caffe framework. </p>
@@ -211,7 +211,7 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructor of the <a class="el" href="classop_1_1_face_extractor.html">FaceExtractor</a> class. </p>
+<p>Constructor of the FaceExtractor class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">netInputSize</td><td>Size at which the cropped image (where the face is located) is resized. </td></tr>
@@ -286,7 +286,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classop_1_1_face_extractor.html#a629aa2952636f20cf126f424116fec31">op::FaceExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_face_extractor_net.html#a6801ceb4f26d1a9d48a8c5b00dcd93d4">op::FaceExtractorNet</a>.</p>
 
 </div>
 </div>
@@ -312,7 +312,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 <p>This function must be call before using any other function. It must also be called inside the thread in which the functions are going to be used. </p>
 
-<p>Implements <a class="el" href="classop_1_1_face_extractor.html#a11a301f43c8ff06e06170200f3410590">op::FaceExtractor</a>.</p>
+<p>Implements <a class="el" href="classop_1_1_face_extractor_net.html#a6a9a02b46596283cab6f8a4640161081">op::FaceExtractorNet</a>.</p>
 
 </div>
 </div>

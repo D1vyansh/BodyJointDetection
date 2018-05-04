@@ -121,8 +121,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5916ec673bdbe127386b7f496b188828"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ff9f8faf42bff0dbd7207105c149a1e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_id_extractor.html#a7ff9f8faf42bff0dbd7207105c149a1e">~PersonIdExtractor</a> ()</td></tr>
 <tr class="separator:a7ff9f8faf42bff0dbd7207105c149a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b52fa9d5af3c0204fea712b29520c68"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_id_extractor.html#a0b52fa9d5af3c0204fea712b29520c68">extractIds</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, const cv::Mat &amp;cvMatInput)</td></tr>
-<tr class="separator:a0b52fa9d5af3c0204fea712b29520c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3403da811a2a59c60ee8f3db67299ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_id_extractor.html#af3403da811a2a59c60ee8f3db67299ae">extractIds</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, const cv::Mat &amp;cvMatInput, const unsigned long long imageViewIndex=0ull)</td></tr>
+<tr class="separator:af3403da811a2a59c60ee8f3db67299ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404cd6daf91befc19e89ea5b3de757eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_id_extractor.html#a404cd6daf91befc19e89ea5b3de757eb">extractIdsLockThread</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, const cv::Mat &amp;cvMatInput, const unsigned long long imageViewIndex, const long long frameId)</td></tr>
+<tr class="separator:a404cd6daf91befc19e89ea5b3de757eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a5916ec673bdbe127386b7f496b188828"></a>
@@ -187,7 +189,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a0b52fa9d5af3c0204fea712b29520c68"></a>
+<a class="anchor" id="af3403da811a2a59c60ee8f3db67299ae"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -201,7 +203,51 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const cv::Mat &amp;&#160;</td>
-          <td class="paramname"><em>cvMatInput</em>&#160;</td>
+          <td class="paramname"><em>cvMatInput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned long long&#160;</td>
+          <td class="paramname"><em>imageViewIndex</em> = <code>0ull</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a404cd6daf91befc19e89ea5b3de757eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;long long&gt; op::PersonIdExtractor::extractIdsLockThread </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseKeypoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const cv::Mat &amp;&#160;</td>
+          <td class="paramname"><em>cvMatInput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned long long&#160;</td>
+          <td class="paramname"><em>imageViewIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const long long&#160;</td>
+          <td class="paramname"><em>frameId</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

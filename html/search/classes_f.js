@@ -13,6 +13,7 @@ var searchData=
   ['posecpurenderer',['PoseCpuRenderer',['../classop_1_1_pose_cpu_renderer.html',1,'op']]],
   ['poseextractor',['PoseExtractor',['../classop_1_1_pose_extractor.html',1,'op']]],
   ['poseextractorcaffe',['PoseExtractorCaffe',['../classop_1_1_pose_extractor_caffe.html',1,'op']]],
+  ['poseextractornet',['PoseExtractorNet',['../classop_1_1_pose_extractor_net.html',1,'op']]],
   ['posegpurenderer',['PoseGpuRenderer',['../classop_1_1_pose_gpu_renderer.html',1,'op']]],
   ['poserenderer',['PoseRenderer',['../classop_1_1_pose_renderer.html',1,'op']]],
   ['posetriangulation',['PoseTriangulation',['../classop_1_1_pose_triangulation.html',1,'op']]],

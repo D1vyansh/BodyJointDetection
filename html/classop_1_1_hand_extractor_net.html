@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenPose: op::HandExtractor Class Reference</title>
+<title>OpenPose: op::HandExtractorNet Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -87,7 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('classop_1_1_hand_extractor.html','');});
+$(document).ready(function(){initNavTree('classop_1_1_hand_extractor_net.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -109,58 +109,58 @@ $(document).ready(function(){initNavTree('classop_1_1_hand_extractor.html','');}
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="classop_1_1_hand_extractor-members.html">List of all members</a>  </div>
+<a href="classop_1_1_hand_extractor_net-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">op::HandExtractor Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">op::HandExtractorNet Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="hand_extractor_8hpp_source.html">handExtractor.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="hand_extractor_net_8hpp_source.html">handExtractorNet.hpp</a>&gt;</code></p>
 
 <p>Inherited by <a class="el" href="classop_1_1_hand_extractor_caffe.html">op::HandExtractorCaffe</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a34b8ccd65d526ce3cacd57b80e889296"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a34b8ccd65d526ce3cacd57b80e889296">HandExtractor</a> (const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netInputSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netOutputSize, const unsigned short numberScales=1, const float rangeScales=0.4f, const std::vector&lt; HeatMapType &gt; &amp;heatMapTypes={}, const ScaleMode heatMapScale=ScaleMode::ZeroToOne)</td></tr>
-<tr class="separator:a34b8ccd65d526ce3cacd57b80e889296"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95a512748828a04713b4cde582fb4901"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a95a512748828a04713b4cde582fb4901">~HandExtractor</a> ()</td></tr>
-<tr class="separator:a95a512748828a04713b4cde582fb4901"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5592a468cfdcfdd687d6f9d465d3eda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#aa5592a468cfdcfdd687d6f9d465d3eda">initializationOnThread</a> ()</td></tr>
-<tr class="separator:aa5592a468cfdcfdd687d6f9d465d3eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3da2e8ae3980a0881a3a9a98756e9b78"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a3da2e8ae3980a0881a3a9a98756e9b78">forwardPass</a> (const std::vector&lt; std::array&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;, 2 &gt;&gt; handRectangles, const cv::Mat &amp;cvInputData)=0</td></tr>
-<tr class="separator:a3da2e8ae3980a0881a3a9a98756e9b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5ce8cd602820921de3ec3f676aacf0d"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#af5ce8cd602820921de3ec3f676aacf0d">getHeatMaps</a> () const </td></tr>
-<tr class="separator:af5ce8cd602820921de3ec3f676aacf0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a322a1c3a0ab7abaf0c697246af9309cc"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a322a1c3a0ab7abaf0c697246af9309cc">getHandKeypoints</a> () const </td></tr>
-<tr class="separator:a322a1c3a0ab7abaf0c697246af9309cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557b50d687fb9529306b33d0710a9f41"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a557b50d687fb9529306b33d0710a9f41">HandExtractorNet</a> (const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netInputSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;netOutputSize, const unsigned short numberScales=1, const float rangeScales=0.4f, const std::vector&lt; HeatMapType &gt; &amp;heatMapTypes={}, const ScaleMode heatMapScale=ScaleMode::ZeroToOne)</td></tr>
+<tr class="separator:a557b50d687fb9529306b33d0710a9f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3743bf97fd19ee7d52ffd1019baa0c46"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a3743bf97fd19ee7d52ffd1019baa0c46">~HandExtractorNet</a> ()</td></tr>
+<tr class="separator:a3743bf97fd19ee7d52ffd1019baa0c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37d86377da41c576c4d54027a9762733"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a37d86377da41c576c4d54027a9762733">initializationOnThread</a> ()</td></tr>
+<tr class="separator:a37d86377da41c576c4d54027a9762733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2638c2c03b0aed0b14114968dedd612c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a2638c2c03b0aed0b14114968dedd612c">forwardPass</a> (const std::vector&lt; std::array&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;, 2 &gt;&gt; handRectangles, const cv::Mat &amp;cvInputData)=0</td></tr>
+<tr class="separator:a2638c2c03b0aed0b14114968dedd612c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a942172f24916d5a60167b9708924c1a4"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a942172f24916d5a60167b9708924c1a4">getHeatMaps</a> () const </td></tr>
+<tr class="separator:a942172f24916d5a60167b9708924c1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a931591bb416a3658771296f2dd4d09f4"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a931591bb416a3658771296f2dd4d09f4">getHandKeypoints</a> () const </td></tr>
+<tr class="separator:a931591bb416a3658771296f2dd4d09f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac98085241dfd326a1aabf8b29e7be950"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#ac98085241dfd326a1aabf8b29e7be950">netInitializationOnThread</a> ()=0</td></tr>
-<tr class="separator:ac98085241dfd326a1aabf8b29e7be950"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad7c29237d50e77e606bb32c20c60d24"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#aad7c29237d50e77e606bb32c20c60d24">netInitializationOnThread</a> ()=0</td></tr>
+<tr class="separator:aad7c29237d50e77e606bb32c20c60d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:aba2046c5363f11f14719f104b0780e9f"><td class="memItemLeft" align="right" valign="top">const std::pair&lt; unsigned <br class="typebreak"/>
-short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#aba2046c5363f11f14719f104b0780e9f">mMultiScaleNumberAndRange</a></td></tr>
-<tr class="separator:aba2046c5363f11f14719f104b0780e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eee4878f6e9ae76ada521e45354be89"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#a2eee4878f6e9ae76ada521e45354be89">mNetOutputSize</a></td></tr>
-<tr class="separator:a2eee4878f6e9ae76ada521e45354be89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe80be5a3b786ad71cd0e0ff6443ff22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#afe80be5a3b786ad71cd0e0ff6443ff22">mHandImageCrop</a></td></tr>
-<tr class="separator:afe80be5a3b786ad71cd0e0ff6443ff22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee0c5e4607643a978243d9432b704e3d"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#aee0c5e4607643a978243d9432b704e3d">mHandKeypoints</a></td></tr>
-<tr class="separator:aee0c5e4607643a978243d9432b704e3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa31fd82cb8900c24841f3ef9cce6a0c8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#aa31fd82cb8900c24841f3ef9cce6a0c8">mHeatMapScaleMode</a></td></tr>
-<tr class="separator:aa31fd82cb8900c24841f3ef9cce6a0c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8f444ce4953a41081acaac9ca8d2570"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#aa8f444ce4953a41081acaac9ca8d2570">mHeatMapTypes</a></td></tr>
-<tr class="separator:aa8f444ce4953a41081acaac9ca8d2570"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbe2c75c57b1df7279eae30ddcc63241"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor.html#acbe2c75c57b1df7279eae30ddcc63241">mHeatMaps</a></td></tr>
-<tr class="separator:acbe2c75c57b1df7279eae30ddcc63241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a969145bac891cef2683cae440c5f79"><td class="memItemLeft" align="right" valign="top">const std::pair&lt; unsigned <br class="typebreak"/>
+short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a2a969145bac891cef2683cae440c5f79">mMultiScaleNumberAndRange</a></td></tr>
+<tr class="separator:a2a969145bac891cef2683cae440c5f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5e36cd33696a684a4447acccec28fdd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#ac5e36cd33696a684a4447acccec28fdd">mNetOutputSize</a></td></tr>
+<tr class="separator:ac5e36cd33696a684a4447acccec28fdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0981f4dfd15ce4a13de9d166cad9e1d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a0981f4dfd15ce4a13de9d166cad9e1d4">mHandImageCrop</a></td></tr>
+<tr class="separator:a0981f4dfd15ce4a13de9d166cad9e1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f97a5b842d20d3d37d3469418faac7b"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a7f97a5b842d20d3d37d3469418faac7b">mHandKeypoints</a></td></tr>
+<tr class="separator:a7f97a5b842d20d3d37d3469418faac7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af03c8872258c644086bda26a3aaf95b5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#af03c8872258c644086bda26a3aaf95b5">mHeatMapScaleMode</a></td></tr>
+<tr class="separator:af03c8872258c644086bda26a3aaf95b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf0386c8c15a37cf79e9f3f4b1ced2e8"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#aaf0386c8c15a37cf79e9f3f4b1ced2e8">mHeatMapTypes</a></td></tr>
+<tr class="separator:aaf0386c8c15a37cf79e9f3f4b1ced2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c4174ed2c09ff7c15edfc5d971f4aef"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a5c4174ed2c09ff7c15edfc5d971f4aef">mHeatMaps</a></td></tr>
+<tr class="separator:a5c4174ed2c09ff7c15edfc5d971f4aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Hand keypoint extractor class. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a34b8ccd65d526ce3cacd57b80e889296"></a>
+<a class="anchor" id="a557b50d687fb9529306b33d0710a9f41"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -168,7 +168,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">op::HandExtractor::HandExtractor </td>
+          <td class="memname">op::HandExtractorNet::HandExtractorNet </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;&#160;</td>
           <td class="paramname"><em>netInputSize</em>, </td>
@@ -215,7 +215,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Constructor of the <a class="el" href="classop_1_1_hand_extractor.html">HandExtractor</a> class. </p>
+<p>Constructor of the <a class="el" href="classop_1_1_hand_extractor_net.html">HandExtractorNet</a> class. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">netInputSize</td><td>Size at which the cropped image (where the hand is located) is resized. </td></tr>
@@ -228,7 +228,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="a95a512748828a04713b4cde582fb4901"></a>
+<a class="anchor" id="a3743bf97fd19ee7d52ffd1019baa0c46"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -236,7 +236,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual op::HandExtractor::~HandExtractor </td>
+          <td class="memname">virtual op::HandExtractorNet::~HandExtractorNet </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -248,12 +248,12 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Virtual destructor of the <a class="el" href="classop_1_1_hand_extractor.html">HandExtractor</a> class. Required to allow inheritance. </p>
+<p>Virtual destructor of the <a class="el" href="classop_1_1_hand_extractor_net.html">HandExtractorNet</a> class. Required to allow inheritance. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a3da2e8ae3980a0881a3a9a98756e9b78"></a>
+<a class="anchor" id="a2638c2c03b0aed0b14114968dedd612c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -261,7 +261,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void op::HandExtractor::forwardPass </td>
+          <td class="memname">virtual void op::HandExtractorNet::forwardPass </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; std::array&lt; <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; float &gt;, 2 &gt;&gt;&#160;</td>
           <td class="paramname"><em>handRectangles</em>, </td>
@@ -297,29 +297,29 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="a322a1c3a0ab7abaf0c697246af9309cc"></a>
+<a class="anchor" id="a931591bb416a3658771296f2dd4d09f4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;<a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt;, 2&gt; op::HandExtractor::getHandKeypoints </td>
+          <td class="memname">std::array&lt;<a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt;, 2&gt; op::HandExtractorNet::getHandKeypoints </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This function returns the hand keypoins. VERY IMPORTANT: use <a class="el" href="classop_1_1_hand_extractor.html#a322a1c3a0ab7abaf0c697246af9309cc">getHandKeypoints()</a>.clone() if the keypoints are going to be edited in a different thread. </p>
+<p>This function returns the hand keypoins. VERY IMPORTANT: use <a class="el" href="classop_1_1_hand_extractor_net.html#a931591bb416a3658771296f2dd4d09f4">getHandKeypoints()</a>.clone() if the keypoints are going to be edited in a different thread. </p>
 <dl class="section return"><dt>Returns</dt><dd>A std::array with all the left hand keypoints (index 0) and all the right ones (index 1). Each <a class="el" href="classop_1_1_array.html">Array&lt;float&gt;</a> follows the pose structure, i.e. the first dimension corresponds to all the people in the image, the second to each specific keypoint, and the third one to (x, y, score). </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="af5ce8cd602820921de3ec3f676aacf0d"></a>
+<a class="anchor" id="a942172f24916d5a60167b9708924c1a4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;<a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt;, 2&gt; op::HandExtractor::getHeatMaps </td>
+          <td class="memname">std::array&lt;<a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt;, 2&gt; op::HandExtractorNet::getHeatMaps </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -329,12 +329,12 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="aa5592a468cfdcfdd687d6f9d465d3eda"></a>
+<a class="anchor" id="a37d86377da41c576c4d54027a9762733"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void op::HandExtractor::initializationOnThread </td>
+          <td class="memname">void op::HandExtractorNet::initializationOnThread </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -345,7 +345,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="ac98085241dfd326a1aabf8b29e7be950"></a>
+<a class="anchor" id="aad7c29237d50e77e606bb32c20c60d24"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -353,7 +353,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void op::HandExtractor::netInitializationOnThread </td>
+          <td class="memname">virtual void op::HandExtractorNet::netInitializationOnThread </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -371,7 +371,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="afe80be5a3b786ad71cd0e0ff6443ff22"></a>
+<a class="anchor" id="a0981f4dfd15ce4a13de9d166cad9e1d4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -379,7 +379,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::HandExtractor::mHandImageCrop</td>
+          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt; op::HandExtractorNet::mHandImageCrop</td>
         </tr>
       </table>
   </td>
@@ -391,7 +391,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="aee0c5e4607643a978243d9432b704e3d"></a>
+<a class="anchor" id="a7f97a5b842d20d3d37d3469418faac7b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -399,7 +399,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;<a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt;, 2&gt; op::HandExtractor::mHandKeypoints</td>
+          <td class="memname">std::array&lt;<a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt;, 2&gt; op::HandExtractorNet::mHandKeypoints</td>
         </tr>
       </table>
   </td>
@@ -411,7 +411,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="acbe2c75c57b1df7279eae30ddcc63241"></a>
+<a class="anchor" id="a5c4174ed2c09ff7c15edfc5d971f4aef"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -419,7 +419,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;<a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt;, 2&gt; op::HandExtractor::mHeatMaps</td>
+          <td class="memname">std::array&lt;<a class="el" href="classop_1_1_array.html">Array</a>&lt;float&gt;, 2&gt; op::HandExtractorNet::mHeatMaps</td>
         </tr>
       </table>
   </td>
@@ -431,7 +431,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="aa31fd82cb8900c24841f3ef9cce6a0c8"></a>
+<a class="anchor" id="af03c8872258c644086bda26a3aaf95b5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -439,7 +439,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> op::HandExtractor::mHeatMapScaleMode</td>
+          <td class="memname">const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> op::HandExtractorNet::mHeatMapScaleMode</td>
         </tr>
       </table>
   </td>
@@ -451,7 +451,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="aa8f444ce4953a41081acaac9ca8d2570"></a>
+<a class="anchor" id="aaf0386c8c15a37cf79e9f3f4b1ced2e8"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -459,7 +459,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::vector&lt;<a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a>&gt; op::HandExtractor::mHeatMapTypes</td>
+          <td class="memname">const std::vector&lt;<a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a>&gt; op::HandExtractorNet::mHeatMapTypes</td>
         </tr>
       </table>
   </td>
@@ -471,7 +471,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="aba2046c5363f11f14719f104b0780e9f"></a>
+<a class="anchor" id="a2a969145bac891cef2683cae440c5f79"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -479,7 +479,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::pair&lt;unsigned short, float&gt; op::HandExtractor::mMultiScaleNumberAndRange</td>
+          <td class="memname">const std::pair&lt;unsigned short, float&gt; op::HandExtractorNet::mMultiScaleNumberAndRange</td>
         </tr>
       </table>
   </td>
@@ -491,7 +491,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
-<a class="anchor" id="a2eee4878f6e9ae76ada521e45354be89"></a>
+<a class="anchor" id="ac5e36cd33696a684a4447acccec28fdd"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -499,7 +499,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="structop_1_1_point.html">Point</a>&lt;int&gt; op::HandExtractor::mNetOutputSize</td>
+          <td class="memname">const <a class="el" href="structop_1_1_point.html">Point</a>&lt;int&gt; op::HandExtractorNet::mNetOutputSize</td>
         </tr>
       </table>
   </td>
@@ -512,14 +512,14 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/hand/<a class="el" href="hand_extractor_8hpp_source.html">handExtractor.hpp</a></li>
+<li>/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/hand/<a class="el" href="hand_extractor_net_8hpp_source.html">handExtractorNet.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespaceop.html">op</a></li><li class="navelem"><a class="el" href="classop_1_1_hand_extractor.html">HandExtractor</a></li>
+    <li class="navelem"><a class="el" href="namespaceop.html">op</a></li><li class="navelem"><a class="el" href="classop_1_1_hand_extractor_net.html">HandExtractorNet</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

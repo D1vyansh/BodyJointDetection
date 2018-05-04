@@ -1,28 +1,14 @@
 var classop_1_1_pose_extractor =
 [
-    [ "PoseExtractor", "classop_1_1_pose_extractor.html#a54b0c911456746d4faf493bb4e9b0c1e", null ],
+    [ "PoseExtractor", "classop_1_1_pose_extractor.html#a4d6d4776aa599836d35698aaf8980165", null ],
     [ "~PoseExtractor", "classop_1_1_pose_extractor.html#a9f98eef4ac08cacefe74e002ac086582", null ],
-    [ "checkThread", "classop_1_1_pose_extractor.html#ae3477e0ab1a350fd044215b0ba6f7520", null ],
-    [ "forwardPass", "classop_1_1_pose_extractor.html#afe4ceae04443242148c563eb6d8b954c", null ],
-    [ "get", "classop_1_1_pose_extractor.html#a7dc82be227cc759582184de9c26f0b64", null ],
+    [ "extractIds", "classop_1_1_pose_extractor.html#a9ac62424009ceaf3f7743da5aaf9e25c", null ],
+    [ "extractIdsLockThread", "classop_1_1_pose_extractor.html#abb7fb51c6300efd840a505142ee37364", null ],
+    [ "forwardPass", "classop_1_1_pose_extractor.html#a185cd27d62c5dedddd918cdd58fc86cf", null ],
     [ "getCandidatesCopy", "classop_1_1_pose_extractor.html#a67f2afb1a7e0de01dd3271b5dc30cd5a", null ],
-    [ "getCandidatesCpuConstPtr", "classop_1_1_pose_extractor.html#ae087157035d7b81da560328dce1d0728", null ],
-    [ "getCandidatesGpuConstPtr", "classop_1_1_pose_extractor.html#af26c5b9f93407b74bdd06357aa7566a9", null ],
-    [ "getHeatMapCpuConstPtr", "classop_1_1_pose_extractor.html#a0bb5cf37e5b93e347e355be126d22ead", null ],
-    [ "getHeatMapGpuConstPtr", "classop_1_1_pose_extractor.html#a0b895e3e582bd504b531ba525ed77430", null ],
     [ "getHeatMapsCopy", "classop_1_1_pose_extractor.html#a53eac2bf280492baca5aeb1a777d3646", null ],
-    [ "getHeatMapSize", "classop_1_1_pose_extractor.html#a81157b4616955598fcf6de5d9676f21b", null ],
-    [ "getPoseGpuConstPtr", "classop_1_1_pose_extractor.html#a50f1a79f774b3cd9e9c0825669e8a154", null ],
     [ "getPoseKeypoints", "classop_1_1_pose_extractor.html#a63432a905e6fcd9be8d9464a80a7fd52", null ],
     [ "getPoseScores", "classop_1_1_pose_extractor.html#a99e7a656f0bace55402a187e9326ded1", null ],
     [ "getScaleNetToOutput", "classop_1_1_pose_extractor.html#a5fd73c053c293c59eb3d6eb38335c157", null ],
-    [ "increase", "classop_1_1_pose_extractor.html#a6395a4bb77e0198c7cf554ce4674d33c", null ],
-    [ "initializationOnThread", "classop_1_1_pose_extractor.html#aab1cccc9ad99f6b007abaa14600ea6df", null ],
-    [ "netInitializationOnThread", "classop_1_1_pose_extractor.html#a73d36833224b7071bb0918682a441850", null ],
-    [ "set", "classop_1_1_pose_extractor.html#a32b108f24cfc892ed17c2ec752e30ab6", null ],
-    [ "mNetOutputSize", "classop_1_1_pose_extractor.html#a7507183ad2d2fe5eaff3d351443d97e0", null ],
-    [ "mPoseKeypoints", "classop_1_1_pose_extractor.html#ac432c3f9265f6dbeb1dfff5621df25de", null ],
-    [ "mPoseModel", "classop_1_1_pose_extractor.html#a57ba3e70a7ac01a687337c66ca36c8da", null ],
-    [ "mPoseScores", "classop_1_1_pose_extractor.html#a034f1fe33fe83967d8c7c4901ce3b4b4", null ],
-    [ "mScaleNetToOutput", "classop_1_1_pose_extractor.html#ab32d08e00cf4321682ba9acc2b78a289", null ]
+    [ "initializationOnThread", "classop_1_1_pose_extractor.html#aab1cccc9ad99f6b007abaa14600ea6df", null ]
 ];
