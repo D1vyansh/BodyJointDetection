@@ -15,7 +15,7 @@ var searchData=
   ['checkne',['checkNE',['../namespaceop.html#a13e8e79ada0bde9f9b83e7b06a7b7758',1,'op']]],
   ['checknonullnorempty',['checkNoNullNorEmpty',['../namespaceop.html#a02164ca0af9e838190f584f5d1d8465e',1,'op']]],
   ['checkthread',['checkThread',['../classop_1_1_pose_extractor_net.html#a073db5b9847c8afbc10ce534ea533a84',1,'op::PoseExtractorNet']]],
-  ['clear',['clear',['../classop_1_1_queue_base.html#a247f435c95709f3246d352eee4f757af',1,'op::QueueBase']]],
+  ['clear',['clear',['../classop_1_1_pose_extractor_net.html#a3fe7256d9860f4c624f5cf928556bc28',1,'op::PoseExtractorNet::clear()'],['../classop_1_1_queue_base.html#a247f435c95709f3246d352eee4f757af',1,'op::QueueBase::clear()']]],
   ['clone',['clone',['../classop_1_1_array.html#af42f4570122d1b8259c211f52335909b',1,'op::Array::clone()'],['../structop_1_1_datum.html#a847f62b3060c5d0d106e60c29df87a0b',1,'op::Datum::clone()']]],
   ['cocojsonsaver',['CocoJsonSaver',['../classop_1_1_coco_json_saver.html#aad0899bead458df67c49f23eddb3113d',1,'op::CocoJsonSaver']]],
   ['comma',['comma',['../classop_1_1_json_ofstream.html#ae4468279f789c8026d431b2ef62646f9',1,'op::JsonOfstream']]],
