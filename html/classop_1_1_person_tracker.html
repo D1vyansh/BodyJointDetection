@@ -121,10 +121,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4e540f63e9e15408e178162ada50b3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a840ed2e06c1cc4dfc89e6083b2a8bc37"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_tracker.html#a840ed2e06c1cc4dfc89e6083b2a8bc37">~PersonTracker</a> ()</td></tr>
 <tr class="separator:a840ed2e06c1cc4dfc89e6083b2a8bc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fd822cb566f9b0e0ce76435d79a54b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_tracker.html#a7fd822cb566f9b0e0ce76435d79a54b2">track</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, const cv::Mat &amp;cvMatInput, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt; &amp;poseIds)</td></tr>
-<tr class="separator:a7fd822cb566f9b0e0ce76435d79a54b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60563c064729039783212fc48c5190b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_tracker.html#a60563c064729039783212fc48c5190b6">trackLockThread</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, const cv::Mat &amp;cvMatInput, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt; &amp;poseIds, const long long frameId)</td></tr>
-<tr class="separator:a60563c064729039783212fc48c5190b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5e82e50c4777b81d6b4d4c782031f4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_tracker.html#ac5e82e50c4777b81d6b4d4c782031f4f">track</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt; &amp;poseIds, const cv::Mat &amp;cvMatInput)</td></tr>
+<tr class="separator:ac5e82e50c4777b81d6b4d4c782031f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d9d1cc28b270d458a3361c06f4f5fcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_tracker.html#a2d9d1cc28b270d458a3361c06f4f5fcc">trackLockThread</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt; &amp;poseIds, const cv::Mat &amp;cvMatInput, const long long frameId)</td></tr>
+<tr class="separator:a2d9d1cc28b270d458a3361c06f4f5fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3616d25d3402f996ea628a048b6e5301"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_tracker.html#a3616d25d3402f996ea628a048b6e5301">getMergeResults</a> () const </td></tr>
 <tr class="separator:a3616d25d3402f996ea628a048b6e5301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -184,7 +184,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7fd822cb566f9b0e0ce76435d79a54b2"></a>
+<a class="anchor" id="ac5e82e50c4777b81d6b4d4c782031f4f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -197,14 +197,14 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const cv::Mat &amp;&#160;</td>
-          <td class="paramname"><em>cvMatInput</em>, </td>
+          <td class="paramtype"><a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseIds</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt; &amp;&#160;</td>
-          <td class="paramname"><em>poseIds</em>&#160;</td>
+          <td class="paramtype">const cv::Mat &amp;&#160;</td>
+          <td class="paramname"><em>cvMatInput</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -216,7 +216,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a60563c064729039783212fc48c5190b6"></a>
+<a class="anchor" id="a2d9d1cc28b270d458a3361c06f4f5fcc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -229,14 +229,14 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const cv::Mat &amp;&#160;</td>
-          <td class="paramname"><em>cvMatInput</em>, </td>
+          <td class="paramtype"><a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseIds</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt; &amp;&#160;</td>
-          <td class="paramname"><em>poseIds</em>, </td>
+          <td class="paramtype">const cv::Mat &amp;&#160;</td>
+          <td class="paramname"><em>cvMatInput</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -185,8 +185,8 @@ $(document).ready(function(){initNavTree('w_pose_extractor_8hpp_source.html','')
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                    tDatum.poseIds = spPoseExtractor-&gt;extractIdsLockThread(tDatum.poseKeypoints, tDatum.cvInputData,</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                                                           i, tDatum.id);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                    <span class="comment">// Tracking (experimental)</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                    spPoseExtractor-&gt;trackLockThread(tDatum.poseKeypoints, tDatum.cvInputData,</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                                     tDatum.poseIds, i, tDatum.id);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                    spPoseExtractor-&gt;trackLockThread(tDatum.poseKeypoints, tDatum.poseIds, tDatum.cvInputData, i,</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                                     tDatum.id);</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                }</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="comment">// Profiling speed</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                <a class="code" href="classop_1_1_profiler.html#affff5b0b992e05276b2a699f97ad525d">Profiler::timerEnd</a>(profilerKey);</div>

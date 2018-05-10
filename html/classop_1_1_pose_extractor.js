@@ -12,6 +12,6 @@ var classop_1_1_pose_extractor =
     [ "getScaleNetToOutput", "classop_1_1_pose_extractor.html#a5fd73c053c293c59eb3d6eb38335c157", null ],
     [ "initializationOnThread", "classop_1_1_pose_extractor.html#aab1cccc9ad99f6b007abaa14600ea6df", null ],
     [ "keepTopPeople", "classop_1_1_pose_extractor.html#a5e8d22c8500cc5097dce64a89218abe1", null ],
-    [ "track", "classop_1_1_pose_extractor.html#acb1f80be714e38c89d79b41f4a1a0ea0", null ],
-    [ "trackLockThread", "classop_1_1_pose_extractor.html#a6445a5e5ee8763e4cbb4ca9e2364daf6", null ]
+    [ "track", "classop_1_1_pose_extractor.html#a0ac3679fd75bda7569562615b5fc813a", null ],
+    [ "trackLockThread", "classop_1_1_pose_extractor.html#a52032cd719da90acc0259f77ee2c246c", null ]
 ];
