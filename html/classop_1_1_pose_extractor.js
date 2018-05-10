@@ -1,6 +1,6 @@
 var classop_1_1_pose_extractor =
 [
-    [ "PoseExtractor", "classop_1_1_pose_extractor.html#ae8d4336deefb9c68dbae9cf68ce30d7c", null ],
+    [ "PoseExtractor", "classop_1_1_pose_extractor.html#a1b3d91b3b39afde3a5094fc8c6c0af3e", null ],
     [ "~PoseExtractor", "classop_1_1_pose_extractor.html#a9f98eef4ac08cacefe74e002ac086582", null ],
     [ "extractIds", "classop_1_1_pose_extractor.html#a9ac62424009ceaf3f7743da5aaf9e25c", null ],
     [ "extractIdsLockThread", "classop_1_1_pose_extractor.html#abb7fb51c6300efd840a505142ee37364", null ],
@@ -11,6 +11,7 @@ var classop_1_1_pose_extractor =
     [ "getPoseScores", "classop_1_1_pose_extractor.html#a99e7a656f0bace55402a187e9326ded1", null ],
     [ "getScaleNetToOutput", "classop_1_1_pose_extractor.html#a5fd73c053c293c59eb3d6eb38335c157", null ],
     [ "initializationOnThread", "classop_1_1_pose_extractor.html#aab1cccc9ad99f6b007abaa14600ea6df", null ],
+    [ "keepTopPeople", "classop_1_1_pose_extractor.html#a5e8d22c8500cc5097dce64a89218abe1", null ],
     [ "track", "classop_1_1_pose_extractor.html#acb1f80be714e38c89d79b41f4a1a0ea0", null ],
     [ "trackLockThread", "classop_1_1_pose_extractor.html#a6445a5e5ee8763e4cbb4ca9e2364daf6", null ]
 ];

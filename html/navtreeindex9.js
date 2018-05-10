@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"wrapper_auxiliary_8hpp.html#a860009264f3fc46e18120faef1d62ac7":[2,0,0,0,13,2,0],
 "wrapper_auxiliary_8hpp_source.html":[2,0,0,0,13,2],
 "wrapper_struct_face_8hpp.html":[2,0,0,0,13,3],
 "wrapper_struct_face_8hpp_source.html":[2,0,0,0,13,3],

@@ -82,10 +82,12 @@ var NAVTREEINDEX3 =
 "classop_1_1_pose_cpu_renderer.html#a5863733d560345d4890557b0f8c0d08e":[1,0,3,78,0],
 "classop_1_1_pose_cpu_renderer.html#a98541b982847713472411402314efd96":[1,0,3,78,1],
 "classop_1_1_pose_extractor.html":[1,0,3,79],
+"classop_1_1_pose_extractor.html#a1b3d91b3b39afde3a5094fc8c6c0af3e":[1,0,3,79,0],
 "classop_1_1_pose_extractor.html#a53eac2bf280492baca5aeb1a777d3646":[1,0,3,79,6],
+"classop_1_1_pose_extractor.html#a5e8d22c8500cc5097dce64a89218abe1":[1,0,3,79,11],
 "classop_1_1_pose_extractor.html#a5fd73c053c293c59eb3d6eb38335c157":[1,0,3,79,9],
 "classop_1_1_pose_extractor.html#a63432a905e6fcd9be8d9464a80a7fd52":[1,0,3,79,7],
-"classop_1_1_pose_extractor.html#a6445a5e5ee8763e4cbb4ca9e2364daf6":[1,0,3,79,12],
+"classop_1_1_pose_extractor.html#a6445a5e5ee8763e4cbb4ca9e2364daf6":[1,0,3,79,13],
 "classop_1_1_pose_extractor.html#a6c86e44a362eba40e3a750c4b6e200e5":[1,0,3,79,5],
 "classop_1_1_pose_extractor.html#a99e7a656f0bace55402a187e9326ded1":[1,0,3,79,8],
 "classop_1_1_pose_extractor.html#a9ac62424009ceaf3f7743da5aaf9e25c":[1,0,3,79,2],
@@ -93,8 +95,7 @@ var NAVTREEINDEX3 =
 "classop_1_1_pose_extractor.html#aab1cccc9ad99f6b007abaa14600ea6df":[1,0,3,79,10],
 "classop_1_1_pose_extractor.html#ab07ee78f6a7b2dbe22b72453e9ed24c3":[1,0,3,79,4],
 "classop_1_1_pose_extractor.html#abb7fb51c6300efd840a505142ee37364":[1,0,3,79,3],
-"classop_1_1_pose_extractor.html#acb1f80be714e38c89d79b41f4a1a0ea0":[1,0,3,79,11],
-"classop_1_1_pose_extractor.html#ae8d4336deefb9c68dbae9cf68ce30d7c":[1,0,3,79,0],
+"classop_1_1_pose_extractor.html#acb1f80be714e38c89d79b41f4a1a0ea0":[1,0,3,79,12],
 "classop_1_1_pose_extractor_caffe.html":[1,0,3,80],
 "classop_1_1_pose_extractor_caffe.html#a3359641c1199c712a07859dcb76b7dcf":[1,0,3,80,1],
 "classop_1_1_pose_extractor_caffe.html#a5e84521120bcee4a9f047ae1d7fec8af":[1,0,3,80,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "classop_1_1_spinnaker_wrapper.html#a6e66639ee75708486b3d9aa4598607c0":[1,0,3,92,8],
 "classop_1_1_spinnaker_wrapper.html#a77a64d4ef798f2ea7cd54d9c170f7ea7":[1,0,3,92,5],
 "classop_1_1_spinnaker_wrapper.html#aa011fe7b3bf42e3af5fb83faee42288e":[1,0,3,92,2],
-"classop_1_1_spinnaker_wrapper.html#ab79aa58cda90784d16335e0081d8f33a":[1,0,3,92,4],
-"classop_1_1_spinnaker_wrapper.html#ac7a7064093ee6b863f92c8c3317ebaf7":[1,0,3,92,0]
+"classop_1_1_spinnaker_wrapper.html#ab79aa58cda90784d16335e0081d8f33a":[1,0,3,92,4]
 };

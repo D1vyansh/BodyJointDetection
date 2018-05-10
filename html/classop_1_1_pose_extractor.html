@@ -117,8 +117,8 @@ $(document).ready(function(){initNavTree('classop_1_1_pose_extractor.html','');}
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae8d4336deefb9c68dbae9cf68ce30d7c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#ae8d4336deefb9c68dbae9cf68ce30d7c">PoseExtractor</a> (const std::shared_ptr&lt; <a class="el" href="classop_1_1_pose_extractor_net.html">PoseExtractorNet</a> &gt; &amp;poseExtractorNet, const std::shared_ptr&lt; <a class="el" href="classop_1_1_person_id_extractor.html">PersonIdExtractor</a> &gt; &amp;personIdExtractor=nullptr, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classop_1_1_person_tracker.html">PersonTracker</a> &gt;&gt; &amp;personTracker={}, const int numberPeopleMax=-1, const int tracking=-1)</td></tr>
-<tr class="separator:ae8d4336deefb9c68dbae9cf68ce30d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b3d91b3b39afde3a5094fc8c6c0af3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a1b3d91b3b39afde3a5094fc8c6c0af3e">PoseExtractor</a> (const std::shared_ptr&lt; <a class="el" href="classop_1_1_pose_extractor_net.html">PoseExtractorNet</a> &gt; &amp;poseExtractorNet, const std::shared_ptr&lt; <a class="el" href="classop_1_1_keep_top_n_people.html">KeepTopNPeople</a> &gt; &amp;keepTopNPeople=nullptr, const std::shared_ptr&lt; <a class="el" href="classop_1_1_person_id_extractor.html">PersonIdExtractor</a> &gt; &amp;personIdExtractor=nullptr, const std::vector&lt; std::shared_ptr&lt; <a class="el" href="classop_1_1_person_tracker.html">PersonTracker</a> &gt;&gt; &amp;personTracker={}, const int numberPeopleMax=-1, const int tracking=-1)</td></tr>
+<tr class="separator:a1b3d91b3b39afde3a5094fc8c6c0af3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f98eef4ac08cacefe74e002ac086582"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a9f98eef4ac08cacefe74e002ac086582">~PoseExtractor</a> ()</td></tr>
 <tr class="separator:a9f98eef4ac08cacefe74e002ac086582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab1cccc9ad99f6b007abaa14600ea6df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#aab1cccc9ad99f6b007abaa14600ea6df">initializationOnThread</a> ()</td></tr>
@@ -136,6 +136,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a99e7a656f0bace55402a187e9326ded1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fd73c053c293c59eb3d6eb38335c157"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a5fd73c053c293c59eb3d6eb38335c157">getScaleNetToOutput</a> () const </td></tr>
 <tr class="separator:a5fd73c053c293c59eb3d6eb38335c157"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8d22c8500cc5097dce64a89218abe1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a5e8d22c8500cc5097dce64a89218abe1">keepTopPeople</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseScores) const </td></tr>
+<tr class="separator:a5e8d22c8500cc5097dce64a89218abe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ac62424009ceaf3f7743da5aaf9e25c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#a9ac62424009ceaf3f7743da5aaf9e25c">extractIds</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, const cv::Mat &amp;cvMatInput, const unsigned long long imageIndex=0ull)</td></tr>
 <tr class="separator:a9ac62424009ceaf3f7743da5aaf9e25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb7fb51c6300efd840a505142ee37364"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor.html#abb7fb51c6300efd840a505142ee37364">extractIdsLockThread</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, const cv::Mat &amp;cvMatInput, const unsigned long long imageIndex, const long long frameId)</td></tr>
@@ -146,7 +148,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a6445a5e5ee8763e4cbb4ca9e2364daf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ae8d4336deefb9c68dbae9cf68ce30d7c"></a>
+<a class="anchor" id="a1b3d91b3b39afde3a5094fc8c6c0af3e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -155,6 +157,12 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classop_1_1_pose_extractor_net.html">PoseExtractorNet</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>poseExtractorNet</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; <a class="el" href="classop_1_1_keep_top_n_people.html">KeepTopNPeople</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>keepTopNPeople</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -406,6 +414,32 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5e8d22c8500cc5097dce64a89218abe1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void op::PoseExtractor::keepTopPeople </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseKeypoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseScores</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
