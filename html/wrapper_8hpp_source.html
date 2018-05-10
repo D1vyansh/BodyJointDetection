@@ -591,10 +591,10 @@ $(document).ready(function(){initNavTree('wrapper_8hpp_source.html','');});
 <div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;                        std::make_shared&lt;KeepTopNPeople&gt;(wrapperStructPose.<a class="code" href="structop_1_1_wrapper_struct_pose.html#a02c4ab6b56e4da4b3ed0da4eae8ac0fc">numberPeopleMax</a>)</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;                        : <span class="keyword">nullptr</span>);</div>
 <div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;                    <span class="comment">// Person tracker</span></div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;                    std::vector&lt;std::shared_ptr&lt;PersonTracker&gt;&gt; personTrackers;</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;                    <span class="keyword">auto</span> personTrackers = std::make_shared&lt;std::vector&lt;std::shared_ptr&lt;PersonTracker&gt;&gt;&gt;();</div>
 <div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;                    <span class="keywordflow">if</span> (wrapperStructPose.<a class="code" href="structop_1_1_wrapper_struct_pose.html#aafd895ecc1da1989ff0d72a5171fba7c">tracking</a> &gt; -1)</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;                        personTrackers.resize(spWPoseExtractors.size(),</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;                                              std::make_shared&lt;PersonTracker&gt;(wrapperStructPose.<a class="code" href="structop_1_1_wrapper_struct_pose.html#aafd895ecc1da1989ff0d72a5171fba7c">tracking</a> == 0));</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;                        personTrackers-&gt;emplace_back(</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;                            std::make_shared&lt;PersonTracker&gt;(wrapperStructPose.<a class="code" href="structop_1_1_wrapper_struct_pose.html#aafd895ecc1da1989ff0d72a5171fba7c">tracking</a> == 0));</div>
 <div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;                    <span class="keywordflow">for</span> (<span class="keyword">auto</span> i = 0u; i &lt; spWPoseExtractors.size(); i++)</div>
 <div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;                    {</div>
 <div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;                        <span class="comment">// OpenPose keypoint detector + keepTopNPeople</span></div>

@@ -50,6 +50,7 @@ var searchData=
   ['getlastnumber',['getLastNumber',['../namespaceop.html#ab670c693d8e4a540cfe75ce8383b6d10',1,'op']]],
   ['getlogmodes',['getLogModes',['../classop_1_1_configure_log.html#a01eebce325f7e401601804d58fd3a2b2',1,'op::ConfigureLog']]],
   ['getmaxsize',['getMaxSize',['../classop_1_1_queue_base.html#a25255992523051f7d2a82694ffe7a1cf',1,'op::QueueBase']]],
+  ['getmergeresults',['getMergeResults',['../classop_1_1_person_tracker.html#a3616d25d3402f996ea628a048b6e5301',1,'op::PersonTracker']]],
   ['getnextfilename',['getNextFileName',['../classop_1_1_file_saver.html#a9de8d694a526f981906c54bd48ea9b21',1,'op::FileSaver::getNextFileName(const unsigned long long index) const '],['../classop_1_1_file_saver.html#a91818f12a9409eae7c1caf6e2b525282',1,'op::FileSaver::getNextFileName(const std::string &amp;fileNameNoExtension) const ']]],
   ['getnextframename',['getNextFrameName',['../classop_1_1_flir_reader.html#a711db0919bd7516fde3e641c13259637',1,'op::FlirReader::getNextFrameName()'],['../classop_1_1_image_directory_reader.html#a46ce23209afe6d3ca90db545b69cd04a',1,'op::ImageDirectoryReader::getNextFrameName()'],['../classop_1_1_ip_camera_reader.html#a0c1582090cc7c54dd9cb752207b52986',1,'op::IpCameraReader::getNextFrameName()'],['../classop_1_1_producer.html#ab35d570dc35573433ec86e3fce25e545',1,'op::Producer::getNextFrameName()'],['../classop_1_1_video_capture_reader.html#a06348fd9a290fc2ece2f3c2e4dc9bc70',1,'op::VideoCaptureReader::getNextFrameName()'],['../classop_1_1_video_reader.html#a508eed918fbe3bfe3eff4c1ebacb3463',1,'op::VideoReader::getNextFrameName()'],['../classop_1_1_webcam_reader.html#a58c315e577c12486e5ab1b941d4cce04',1,'op::WebcamReader::getNextFrameName()']]],
   ['getnumbercameras',['getNumberCameras',['../classop_1_1_camera_parameter_reader.html#acfd1caf98782ae3f8f83c85ba17bc4e0',1,'op::CameraParameterReader']]],
@@ -109,8 +110,8 @@ var searchData=
   ['gui3d',['Gui3D',['../classop_1_1_gui3_d.html',1,'op']]],
   ['gui3d',['Gui3D',['../classop_1_1_gui3_d.html#a94fa036cadb75db381cedf563ed8058f',1,'op::Gui3D']]],
   ['gui3d_2ehpp',['gui3D.hpp',['../gui3_d_8hpp.html',1,'']]],
-  ['guiinfoadder',['GuiInfoAdder',['../classop_1_1_gui_info_adder.html#af23e17f9eeb51c7473cd0940292efa61',1,'op::GuiInfoAdder']]],
   ['guiinfoadder',['GuiInfoAdder',['../classop_1_1_gui_info_adder.html',1,'op']]],
+  ['guiinfoadder',['GuiInfoAdder',['../classop_1_1_gui_info_adder.html#af23e17f9eeb51c7473cd0940292efa61',1,'op::GuiInfoAdder']]],
   ['guiinfoadder_2ehpp',['guiInfoAdder.hpp',['../gui_info_adder_8hpp.html',1,'']]],
   ['guiverbose',['guiVerbose',['../structop_1_1_wrapper_struct_output.html#ac72ad601daf957b9b000206e9f1fe0ad',1,'op::WrapperStructOutput']]]
 ];

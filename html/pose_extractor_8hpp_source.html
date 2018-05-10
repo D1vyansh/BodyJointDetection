@@ -126,7 +126,7 @@ $(document).ready(function(){initNavTree('pose_extractor_8hpp_source.html','');}
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="classop_1_1_pose_extractor.html">PoseExtractor</a>(<span class="keyword">const</span> std::shared_ptr&lt;PoseExtractorNet&gt;&amp; poseExtractorNet,</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                      <span class="keyword">const</span> std::shared_ptr&lt;KeepTopNPeople&gt;&amp; keepTopNPeople = <span class="keyword">nullptr</span>,</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                      <span class="keyword">const</span> std::shared_ptr&lt;PersonIdExtractor&gt;&amp; personIdExtractor = <span class="keyword">nullptr</span>,</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                      <span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;std::shared_ptr&lt;PersonTracker&gt;&gt;&amp; personTracker = {},</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                      <span class="keyword">const</span> std::shared_ptr&lt;<a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;std::shared_ptr&lt;PersonTracker&gt;&gt;&gt;&amp; personTracker = {},</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                      <span class="keyword">const</span> <span class="keywordtype">int</span> numberPeopleMax = -1, <span class="keyword">const</span> <span class="keywordtype">int</span> tracking = -1);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classop_1_1_pose_extractor.html">PoseExtractor</a>();</div>
@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('pose_extractor_8hpp_source.html','');}
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keyword">const</span> std::shared_ptr&lt;PoseExtractorNet&gt; spPoseExtractorNet;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keyword">const</span> std::shared_ptr&lt;KeepTopNPeople&gt; spKeepTopNPeople;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keyword">const</span> std::shared_ptr&lt;PersonIdExtractor&gt; spPersonIdExtractor;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;PersonTracker&gt;&gt; spPersonTrackers;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keyword">const</span> std::shared_ptr&lt;std::vector&lt;std::shared_ptr&lt;PersonTracker&gt;&gt;&gt; spPersonTrackers;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a>(<a class="code" href="classop_1_1_pose_extractor.html">PoseExtractor</a>);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    };</div>
