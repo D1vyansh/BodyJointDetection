@@ -77,6 +77,7 @@ var searchData=
   ['getposescales',['getPoseScales',['../namespaceop.html#a016abefba53293ed2ffe3a3c3bd88dd0',1,'op']]],
   ['getposescores',['getPoseScores',['../classop_1_1_pose_extractor.html#a99e7a656f0bace55402a187e9326ded1',1,'op::PoseExtractor::getPoseScores()'],['../classop_1_1_pose_extractor_net.html#a0701aa424ed036d68ad068b2db5eb803',1,'op::PoseExtractorNet::getPoseScores()']]],
   ['getposetrainedmodel',['getPoseTrainedModel',['../namespaceop.html#ade70b024ee461ae04e7233bf3937c5c6',1,'op']]],
+  ['getpredicted',['getPredicted',['../structop_1_1_person_tracker_entry.html#a8311785a9256e0465c61ddeec5854792',1,'op::PersonTrackerEntry']]],
   ['getprioritythreshold',['getPriorityThreshold',['../classop_1_1_configure_log.html#a416a31ba539e8780480a0a48bcc9b95a',1,'op::ConfigureLog']]],
   ['getprofilinginfo',['getProfilingInfo',['../classcl_1_1_event.html#a8d4610f4ce118208620fe88996970ffa',1,'cl::Event::getProfilingInfo(cl_profiling_info name, T *param) const '],['../classcl_1_1_event.html#a87c25db5f9793aa90db799afa4d14e01',1,'cl::Event::getProfilingInfo(cl_int *err=NULL) const ']]],
   ['getptr',['getPtr',['../classop_1_1_array.html#af4715967fd2b028a97fd30257e697275',1,'op::Array']]],

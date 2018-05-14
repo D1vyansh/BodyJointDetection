@@ -46,8 +46,8 @@ var NAVTREEINDEX =
 "classop_1_1_wrapper.html#a8919b80a6f82330da63da9ffd9ca89be",
 "gpu_2headers_8hpp.html",
 "pose_parameters_8hpp.html#aab3de911b04b96c1850cc05c6947e184",
-"structop_1_1_rectangle.html#ac4ae58fe6ffd2f811f5cbc48661c1856",
-"wrapper_auxiliary_8hpp.html"
+"structop_1_1_rectangle.html#a5db9f0e8c946d837a1d351cc0bc72811",
+"worker_producer_8hpp.html#a5660f0e72781ce6d7db9eb78b582e5c6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

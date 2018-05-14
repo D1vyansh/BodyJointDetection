@@ -117,8 +117,8 @@ $(document).ready(function(){initNavTree('classop_1_1_person_tracker.html','');}
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4e540f63e9e15408e178162ada50b3aa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_tracker.html#a4e540f63e9e15408e178162ada50b3aa">PersonTracker</a> (const bool mergeResults)</td></tr>
-<tr class="separator:a4e540f63e9e15408e178162ada50b3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa88f617ff9f1ff509c54b2cbf51e764a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_tracker.html#aa88f617ff9f1ff509c54b2cbf51e764a">PersonTracker</a> (const bool mergeResults, const int levels=3, const int patchSize=31, const float confidenceThreshold=0.05f, const bool trackVelocity=false, const bool scaleVarying=false, const float rescale=640)</td></tr>
+<tr class="separator:aa88f617ff9f1ff509c54b2cbf51e764a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a840ed2e06c1cc4dfc89e6083b2a8bc37"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_tracker.html#a840ed2e06c1cc4dfc89e6083b2a8bc37">~PersonTracker</a> ()</td></tr>
 <tr class="separator:a840ed2e06c1cc4dfc89e6083b2a8bc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5e82e50c4777b81d6b4d4c782031f4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_person_tracker.html#ac5e82e50c4777b81d6b4d4c782031f4f">track</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; long long &gt; &amp;poseIds, const cv::Mat &amp;cvMatInput)</td></tr>
@@ -129,7 +129,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3616d25d3402f996ea628a048b6e5301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a4e540f63e9e15408e178162ada50b3aa"></a>
+<a class="anchor" id="aa88f617ff9f1ff509c54b2cbf51e764a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -137,8 +137,48 @@ Public Member Functions</h2></td></tr>
           <td class="memname">op::PersonTracker::PersonTracker </td>
           <td>(</td>
           <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>mergeResults</em></td><td>)</td>
+          <td class="paramname"><em>mergeResults</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>levels</em> = <code>3</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>patchSize</em> = <code>31</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>confidenceThreshold</em> = <code>0.05f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>trackVelocity</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>scaleVarying</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>rescale</em> = <code>640</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
