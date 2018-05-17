@@ -30,7 +30,6 @@ var searchData=
   ['workerconsumer_2ehpp',['workerConsumer.hpp',['../worker_consumer_8hpp.html',1,'']]],
   ['workerproducer_2ehpp',['workerProducer.hpp',['../worker_producer_8hpp.html',1,'']]],
   ['wpeoplejsonsaver_2ehpp',['wPeopleJsonSaver.hpp',['../w_people_json_saver_8hpp.html',1,'']]],
-  ['wpeopleposeloader_2ehpp',['wPeoplePoseLoader.hpp',['../w_people_pose_loader_8hpp.html',1,'']]],
   ['wpersonidextractor_2ehpp',['wPersonIdExtractor.hpp',['../w_person_id_extractor_8hpp.html',1,'']]],
   ['wposeextractor_2ehpp',['wPoseExtractor.hpp',['../w_pose_extractor_8hpp.html',1,'']]],
   ['wposeextractornet_2ehpp',['wPoseExtractorNet.hpp',['../w_pose_extractor_net_8hpp.html',1,'']]],
