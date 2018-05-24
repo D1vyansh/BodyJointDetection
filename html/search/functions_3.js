@@ -14,5 +14,6 @@ var searchData=
   ['dimensions',['dimensions',['../classcl_1_1_n_d_range.html#a1360e9bdd3604fd06069d1fd981eed6b',1,'cl::NDRange']]],
   ['disablemultithreading',['disableMultiThreading',['../classop_1_1_wrapper.html#ad0d02645583cd58d11923df3aa064dc7',1,'op::Wrapper']]],
   ['displayframe',['displayFrame',['../classop_1_1_frame_displayer.html#ada237c384d55d6e141dce886e6fe97e3',1,'op::FrameDisplayer::displayFrame(const cv::Mat &amp;frame, const int waitKeyValue=-1)'],['../classop_1_1_frame_displayer.html#ac047ba552b5c1a9b9a23b973484ff931',1,'op::FrameDisplayer::displayFrame(const std::vector&lt; cv::Mat &gt; &amp;frames, const int waitKeyValue=-1)']]],
-  ['dlog',['dLog',['../namespaceop.html#a4eb991aa18818196d35c66455a437a32',1,'op']]]
+  ['dlog',['dLog',['../namespaceop.html#a4eb991aa18818196d35c66455a437a32',1,'op']]],
+  ['drawgridcorners',['drawGridCorners',['../namespaceop.html#a1a0199d6781778e6f50213c816189f26',1,'op']]]
 ];

@@ -9,5 +9,6 @@ var classop_1_1_flir_reader =
     [ "getNextFrameName", "classop_1_1_flir_reader.html#a711db0919bd7516fde3e641c13259637", null ],
     [ "isOpened", "classop_1_1_flir_reader.html#a3ce5e34848ef03804f6261964c6f6a77", null ],
     [ "release", "classop_1_1_flir_reader.html#ab28f40422c9edff8594d855bbef91f58", null ],
-    [ "set", "classop_1_1_flir_reader.html#af14f63c79272781429341dc3a0720485", null ]
+    [ "set", "classop_1_1_flir_reader.html#af14f63c79272781429341dc3a0720485", null ],
+    [ "setCameraIndex", "classop_1_1_flir_reader.html#a5bf6232747dd6d7747b04d893be47b90", null ]
 ];

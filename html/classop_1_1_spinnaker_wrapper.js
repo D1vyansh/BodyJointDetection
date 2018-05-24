@@ -8,5 +8,6 @@ var classop_1_1_spinnaker_wrapper =
     [ "getRawFrames", "classop_1_1_spinnaker_wrapper.html#a77a64d4ef798f2ea7cd54d9c170f7ea7", null ],
     [ "getResolution", "classop_1_1_spinnaker_wrapper.html#a57d3bfa344921563cd2648fced667b49", null ],
     [ "isOpened", "classop_1_1_spinnaker_wrapper.html#a009cbd856dea9e87b4dd22cf80f52164", null ],
-    [ "release", "classop_1_1_spinnaker_wrapper.html#a6e66639ee75708486b3d9aa4598607c0", null ]
+    [ "release", "classop_1_1_spinnaker_wrapper.html#a6e66639ee75708486b3d9aa4598607c0", null ],
+    [ "setCameraIndex", "classop_1_1_spinnaker_wrapper.html#acc047c03824fdc49b73d93ca4024b3ce", null ]
 ];
