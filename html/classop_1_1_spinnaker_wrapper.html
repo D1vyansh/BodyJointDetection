@@ -117,12 +117,10 @@ $(document).ready(function(){initNavTree('classop_1_1_spinnaker_wrapper.html',''
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac7a7064093ee6b863f92c8c3317ebaf7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_spinnaker_wrapper.html#ac7a7064093ee6b863f92c8c3317ebaf7">SpinnakerWrapper</a> (const std::string &amp;cameraParameterPath, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;cameraResolution)</td></tr>
-<tr class="separator:ac7a7064093ee6b863f92c8c3317ebaf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d1ba90b4d1987423b330de2fdcdb702"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_spinnaker_wrapper.html#a5d1ba90b4d1987423b330de2fdcdb702">SpinnakerWrapper</a> (const std::string &amp;cameraParameterPath, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;cameraResolution, const bool undistortImage, const int cameraIndex=-1)</td></tr>
+<tr class="separator:a5d1ba90b4d1987423b330de2fdcdb702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00ab178dfa540f603b1512fada764258"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_spinnaker_wrapper.html#a00ab178dfa540f603b1512fada764258">~SpinnakerWrapper</a> ()</td></tr>
 <tr class="separator:a00ab178dfa540f603b1512fada764258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc047c03824fdc49b73d93ca4024b3ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_spinnaker_wrapper.html#acc047c03824fdc49b73d93ca4024b3ce">setCameraIndex</a> (const int cameraIndex)</td></tr>
-<tr class="separator:acc047c03824fdc49b73d93ca4024b3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77a64d4ef798f2ea7cd54d9c170f7ea7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_spinnaker_wrapper.html#a77a64d4ef798f2ea7cd54d9c170f7ea7">getRawFrames</a> ()</td></tr>
 <tr class="separator:a77a64d4ef798f2ea7cd54d9c170f7ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab79aa58cda90784d16335e0081d8f33a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_spinnaker_wrapper.html#ab79aa58cda90784d16335e0081d8f33a">getCameraMatrices</a> () const </td></tr>
@@ -141,7 +139,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classop_1_1_spinnaker_wrapper.html">SpinnakerWrapper</a> is a subclass of <a class="el" href="classop_1_1_spinnaker_wrapper.html">SpinnakerWrapper</a>. It decouples the final interface (meant to imitates cv::VideoCapture) from the Spinnaker SDK wrapper. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ac7a7064093ee6b863f92c8c3317ebaf7"></a>
+<a class="anchor" id="a5d1ba90b4d1987423b330de2fdcdb702"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -158,7 +156,19 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>cameraResolution</em>&#160;</td>
+          <td class="paramname"><em>cameraResolution</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>undistortImage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>cameraIndex</em> = <code>-1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -172,7 +182,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Constructor of <a class="el" href="classop_1_1_spinnaker_wrapper.html">SpinnakerWrapper</a>. It opens all the available FLIR cameras </p>
+<p>Constructor of <a class="el" href="classop_1_1_spinnaker_wrapper.html">SpinnakerWrapper</a>. It opens all the available FLIR cameras cameraIndex = -1 means that all cameras are taken </p>
 
 </div>
 </div>
@@ -290,22 +300,6 @@ Public Member Functions</h2></td></tr>
           <td class="memname">void op::SpinnakerWrapper::release </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="acc047c03824fdc49b73d93ca4024b3ce"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void op::SpinnakerWrapper::setCameraIndex </td>
-          <td>(</td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>cameraIndex</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

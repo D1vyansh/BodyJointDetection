@@ -119,12 +119,10 @@ $(document).ready(function(){initNavTree('classop_1_1_flir_reader.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af9a7b3ffdc661198bbaba881d29b9af1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_flir_reader.html#af9a7b3ffdc661198bbaba881d29b9af1">FlirReader</a> (const std::string &amp;cameraParametersPath, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;cameraResolution)</td></tr>
-<tr class="separator:af9a7b3ffdc661198bbaba881d29b9af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fa5c03b6ce95372ce47013c01c782a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_flir_reader.html#a8fa5c03b6ce95372ce47013c01c782a5">FlirReader</a> (const std::string &amp;cameraParametersPath, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;cameraResolution, const bool undistortImage=true, const int cameraIndex=-1)</td></tr>
+<tr class="separator:a8fa5c03b6ce95372ce47013c01c782a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb4bd608210c5c58f587e1e220692e03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_flir_reader.html#acb4bd608210c5c58f587e1e220692e03">~FlirReader</a> ()</td></tr>
 <tr class="separator:acb4bd608210c5c58f587e1e220692e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bf6232747dd6d7747b04d893be47b90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_flir_reader.html#a5bf6232747dd6d7747b04d893be47b90">setCameraIndex</a> (const int cameraIndex)</td></tr>
-<tr class="separator:a5bf6232747dd6d7747b04d893be47b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c3450fd4b5c6f81ade293ee95da7ba6"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_flir_reader.html#a7c3450fd4b5c6f81ade293ee95da7ba6">getCameraMatrices</a> ()</td></tr>
 <tr class="separator:a7c3450fd4b5c6f81ade293ee95da7ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb0ae89ef49073345b038fad8652cc37"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_flir_reader.html#afb0ae89ef49073345b038fad8652cc37">getCameraExtrinsics</a> ()</td></tr>
@@ -174,7 +172,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classop_1_1_flir_reader.html">FlirReader</a> is an abstract class to extract frames from a FLIR stereo-camera system. Its interface imitates the cv::VideoCapture class, so it can be used quite similarly to the cv::VideoCapture class. Thus, it is quite similar to <a class="el" href="classop_1_1_video_reader.html">VideoReader</a> and <a class="el" href="classop_1_1_webcam_reader.html">WebcamReader</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="af9a7b3ffdc661198bbaba881d29b9af1"></a>
+<a class="anchor" id="a8fa5c03b6ce95372ce47013c01c782a5"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -191,7 +189,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>cameraResolution</em>&#160;</td>
+          <td class="paramname"><em>cameraResolution</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>undistortImage</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>cameraIndex</em> = <code>-1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -461,22 +471,6 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 
 <p>Implements <a class="el" href="classop_1_1_producer.html#ab30c7b3e34d962e0b17458d9a0947f6b">op::Producer</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5bf6232747dd6d7747b04d893be47b90"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void op::FlirReader::setCameraIndex </td>
-          <td>(</td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>cameraIndex</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>

@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"pose_cpu_renderer_8hpp.html":[2,0,0,0,9,4],
-"pose_cpu_renderer_8hpp_source.html":[2,0,0,0,9,4],
 "pose_extractor_8hpp.html":[2,0,0,0,9,5],
 "pose_extractor_8hpp_source.html":[2,0,0,0,9,5],
 "pose_extractor_caffe_8hpp.html":[2,0,0,0,9,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "structop_1_1_point.html#aa389e5c56126074997b4a6fb1a471b45":[1,0,3,11,12],
 "structop_1_1_point.html#aa50152ec0736b622c159eb0ec8f7ad2b":[1,0,3,11,8],
 "structop_1_1_point.html#aa902ce5b63f3cb8b8b0b04e2f40288fe":[1,0,3,11,15],
-"structop_1_1_point.html#aabc0dee51a101fefbf1fdcd56f54b48c":[1,0,3,11,11]
+"structop_1_1_point.html#aabc0dee51a101fefbf1fdcd56f54b48c":[1,0,3,11,11],
+"structop_1_1_point.html#aada0e9eecee2fb30fb903b32f9f33047":[1,0,3,11,19],
+"structop_1_1_point.html#ab3b92e4a40cd58d948647484f21dd9ef":[1,0,3,11,2]
 };

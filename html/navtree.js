@@ -41,13 +41,13 @@ var NAVTREEINDEX =
 "3d_2headers_8hpp.html",
 "classcl_1_1_enqueue_args.html#a83b7a776d00d3d5247f007bc9c535395",
 "classcl_1_1detail_1_1_deleter.html#ad9050ae6a2b604a3390289931bcd9b07",
-"classop_1_1_image_directory_reader.html#ae925d9314bfd948296d76475219b3594",
-"classop_1_1_spinnaker_wrapper.html",
-"classop_1_1_wrapper.html",
-"gpu_2enum_classes_8hpp.html",
-"pose_cpu_renderer_8hpp.html",
-"structop_1_1_point.html#aada0e9eecee2fb30fb903b32f9f33047",
-"w_pose_triangulation_8hpp.html#a53f346232d0743f3dd0f547de1fc508f"
+"classop_1_1_image_directory_reader.html#af74e192f8cba5c10f8e252674a85185a",
+"classop_1_1_spinnaker_wrapper.html#a009cbd856dea9e87b4dd22cf80f52164",
+"classop_1_1_wrapper.html#a1eb0c88ab1eab9bc50e224d208cfb310",
+"gpu_2enum_classes_8hpp.html#adbb34b5c8f2b6f0c051f831f18582e7fa3c1472839b807c90abff3c7c36dff458",
+"pose_extractor_8hpp.html",
+"structop_1_1_point.html#aba8ffdc78fdec7d45222f640eb130874",
+"w_queue_orderer_8hpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

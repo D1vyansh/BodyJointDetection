@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"classop_1_1_image_directory_reader.html#ae925d9314bfd948296d76475219b3594":[1,0,3,85,0],
 "classop_1_1_image_directory_reader.html#af74e192f8cba5c10f8e252674a85185a":[1,0,3,85,7],
 "classop_1_1_image_saver.html":[1,0,3,35],
 "classop_1_1_image_saver.html#a723387e62a6b701202dd6cf35c57429f":[1,0,3,35,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX3 =
 "classop_1_1_resize_and_merge_caffe.html#acc1469eec1be9dc96b078d05d5e29b9a":[1,0,3,72,6],
 "classop_1_1_scale_and_size_extractor.html":[1,0,3,14],
 "classop_1_1_scale_and_size_extractor.html#a9ec53a73ac8a72d3c94cf998b4794d7b":[1,0,3,14,0],
-"classop_1_1_scale_and_size_extractor.html#af1c56d1ce833e88056c3dd7fd43762a5":[1,0,3,14,1]
+"classop_1_1_scale_and_size_extractor.html#af1c56d1ce833e88056c3dd7fd43762a5":[1,0,3,14,1],
+"classop_1_1_spinnaker_wrapper.html":[1,0,3,88]
 };
