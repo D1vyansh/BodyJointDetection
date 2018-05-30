@@ -1,9 +1,10 @@
 var structop_1_1_wrapper_struct_output =
 [
-    [ "WrapperStructOutput", "structop_1_1_wrapper_struct_output.html#a91e819842b4a1c883a625102a87bd9e8", null ],
+    [ "WrapperStructOutput", "structop_1_1_wrapper_struct_output.html#a20564b8da0b3ca49602ecf97a9be78f4", null ],
     [ "displayMode", "structop_1_1_wrapper_struct_output.html#a4e18a93cfa9c6b47151427152a745817", null ],
     [ "fullScreen", "structop_1_1_wrapper_struct_output.html#aaf5df884418d2bf1df36505009264ece", null ],
     [ "guiVerbose", "structop_1_1_wrapper_struct_output.html#ac72ad601daf957b9b000206e9f1fe0ad", null ],
+    [ "writeCocoFootJson", "structop_1_1_wrapper_struct_output.html#aaadbe4f8f765a751973ed1b405843c74", null ],
     [ "writeCocoJson", "structop_1_1_wrapper_struct_output.html#a6efbd77da8ebcea3abc4109bb2f39c0b", null ],
     [ "writeHeatMaps", "structop_1_1_wrapper_struct_output.html#adca0d08aa43e2280ca06a8db0deb81bc", null ],
     [ "writeHeatMapsFormat", "structop_1_1_wrapper_struct_output.html#a34d5796e02b8afaaaef99fc26e7f3056", null ],

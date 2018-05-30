@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gpumode',['GpuMode',['../namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7f',1,'op']]]
+  ['fullscreenmode',['FullScreenMode',['../namespaceop.html#a6c22a72ce93c64e7582cb670492a50bf',1,'op']]]
 ];
