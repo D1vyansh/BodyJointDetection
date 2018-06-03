@@ -19,7 +19,7 @@ var searchData=
   ['plaintext',['plainText',['../classop_1_1_json_ofstream.html#aa432ff172e10bb9e3b6e2bfa6124c648',1,'op::JsonOfstream']]],
   ['platform',['Platform',['../classcl_1_1_platform.html',1,'cl']]],
   ['platform',['Platform',['../classcl_1_1_platform.html#a616344e02c3723347c752c02b7015212',1,'cl::Platform::Platform()'],['../classcl_1_1_platform.html#a339232a64068fe7157e124b82fb4b9fa',1,'cl::Platform::Platform(const cl_platform_id &amp;platform, bool retainObject=false)']]],
-  ['plotgridcorners',['plotGridCorners',['../namespaceop.html#a8bdb833dbb457d36d31c4aa3fdb2d889',1,'op']]],
+  ['plotgridcorners',['plotGridCorners',['../namespaceop.html#a99f8e5818b5006929abdc879d82f175b',1,'op']]],
   ['plusminusone',['PlusMinusOne',['../namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaab7e7b2beae3435e73021d6d9a6a3fd8a',1,'op']]],
   ['point',['Point',['../structop_1_1_point.html',1,'op']]],
   ['point',['Point',['../structop_1_1_point.html#a9f80114d18ec8055360222d975bcd5a8',1,'op::Point::Point(const T x=0, const T y=0)'],['../structop_1_1_point.html#a44559988e3980e21568b5d9dd2897368',1,'op::Point::Point(const Point&lt; T &gt; &amp;point)'],['../structop_1_1_point.html#ab3b92e4a40cd58d948647484f21dd9ef',1,'op::Point::Point(Point&lt; T &gt; &amp;&amp;point)']]],

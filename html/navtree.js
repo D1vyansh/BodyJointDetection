@@ -39,15 +39,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "3d_2headers_8hpp.html",
-"classcl_1_1_enqueue_args.html#a83b7a776d00d3d5247f007bc9c535395",
-"classcl_1_1detail_1_1_deleter.html#ad9050ae6a2b604a3390289931bcd9b07",
-"classop_1_1_image_directory_reader.html#af74e192f8cba5c10f8e252674a85185a",
-"classop_1_1_spinnaker_wrapper.html#a009cbd856dea9e87b4dd22cf80f52164",
-"classop_1_1_wrapper.html#a1eb0c88ab1eab9bc50e224d208cfb310",
-"globals_vars.html",
-"pose_2headers_8hpp.html",
-"structop_1_1_point.html#a9f80114d18ec8055360222d975bcd5a8",
-"w_pose_renderer_8hpp.html#ae76afeeeaedaebe6941f41a4bdf50e2a"
+"classcl_1_1_enqueue_args.html#a775ee0f3f914087d546017b7c9e3a2bf",
+"classcl_1_1detail_1_1_deleter.html#a899859732bb1c5f296f3e4f05ca6a39d",
+"classop_1_1_image_directory_reader.html#aa05bfd69272e81115ba23a3c0731b596",
+"classop_1_1_scale_and_size_extractor.html#a9ec53a73ac8a72d3c94cf998b4794d7b",
+"classop_1_1_worker_producer.html#a8f2592f70d723de4b818c97b25c5a476",
+"functions_~.html",
+"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fad788fbec25069f2884ee1ed97e0af2b9",
+"structop_1_1_point.html#a812d4ef29d102f4ad18f32ae54eb17ec",
+"w_pose_extractor_net_8hpp.html#ab1e242b1ae7ff3300324fbfedebb52fc"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

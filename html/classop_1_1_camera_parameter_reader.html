@@ -121,12 +121,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab7a4c3ef7ac8d8a41e5711ec85b7be4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d59c888ef90281712838d7673f1b7d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a5d59c888ef90281712838d7673f1b7d7">CameraParameterReader</a> (const std::string &amp;serialNumber, const cv::Mat &amp;cameraIntrinsics, const cv::Mat &amp;cameraDistortion, const cv::Mat &amp;cameraExtrinsics=cv::Mat())</td></tr>
 <tr class="separator:a5d59c888ef90281712838d7673f1b7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcdd68271d8e8d050df198af0f6fd83b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#abcdd68271d8e8d050df198af0f6fd83b">readParameters</a> (const std::string &amp;cameraParameterPath, const std::vector&lt; std::string &gt; &amp;serialNumbers)</td></tr>
-<tr class="separator:abcdd68271d8e8d050df198af0f6fd83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a906fd316f09d901280a5fe10a4a54541"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a906fd316f09d901280a5fe10a4a54541">readParameters</a> (const std::string &amp;cameraParameterPath, const std::vector&lt; std::string &gt; &amp;serialNumbers={})</td></tr>
+<tr class="separator:a906fd316f09d901280a5fe10a4a54541"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adab774b8052cb0be9404269bc4ba240d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#adab774b8052cb0be9404269bc4ba240d">writeParameters</a> (const std::string &amp;cameraParameterPath) const </td></tr>
 <tr class="separator:adab774b8052cb0be9404269bc4ba240d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfd1caf98782ae3f8f83c85ba17bc4e0"><td class="memItemLeft" align="right" valign="top">unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#acfd1caf98782ae3f8f83c85ba17bc4e0">getNumberCameras</a> () const </td></tr>
 <tr class="separator:acfd1caf98782ae3f8f83c85ba17bc4e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfae5f8fd11a86f433c63cafefe9fa6b"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#abfae5f8fd11a86f433c63cafefe9fa6b">getCameraSerialNumbers</a> () const </td></tr>
+<tr class="separator:abfae5f8fd11a86f433c63cafefe9fa6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa33845298440b7eefd3f57b80d3c41db"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#aa33845298440b7eefd3f57b80d3c41db">getCameraMatrices</a> () const </td></tr>
 <tr class="separator:aa33845298440b7eefd3f57b80d3c41db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade743d816f255e3278bb72c761d82ba6"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#ade743d816f255e3278bb72c761d82ba6">getCameraExtrinsics</a> () const </td></tr>
@@ -267,6 +269,21 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abfae5f8fd11a86f433c63cafefe9fa6b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;std::string&gt;&amp; op::CameraParameterReader::getCameraSerialNumbers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="acfd1caf98782ae3f8f83c85ba17bc4e0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -282,7 +299,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abcdd68271d8e8d050df198af0f6fd83b"></a>
+<a class="anchor" id="a906fd316f09d901280a5fe10a4a54541"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -296,7 +313,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
-          <td class="paramname"><em>serialNumbers</em>&#160;</td>
+          <td class="paramname"><em>serialNumbers</em> = <code>{}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
