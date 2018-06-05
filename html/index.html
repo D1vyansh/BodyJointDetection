@@ -110,18 +110,35 @@ $(document).ready(function(){initNavTree('index.html','');});
 </table>
 <p><a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a> represents the <b>first real-time multi-person system to jointly detect human body, hand, and facial keypoints (in total 130 keypoints) on single images</b>.</p>
 <p>&lt;img src="doc/media/pose_face_hands.gif", width="480"&gt; </p>
-<p><b>Functionality</b>:</p>
+<h2>Features</h2>
 <ul>
-<li><b>Real-time multi-person keypoint detection</b>.<ul>
-<li>15 or <b>18-keypoint body estimation</b>. <b>Running time invariant to number of detected people</b>.</li>
-<li><b>2x21-keypoint hand</b> estimation. Currently, <b>running time depends</b> on <b>number of detected people</b>.</li>
-<li><b>70-keypoint face</b> estimation. Currently, <b>running time depends</b> on <b>number of detected people</b>.</li>
+<li><b>Functionality</b>:<ul>
+<li><b>2D real-time multi-person keypoint detection</b>:<ul>
+<li>15 or <b>18-keypoint body keypoint estimation</b>. <b>Running time invariant to number of detected people</b>.</li>
+<li><b>2x21-keypoint hand keypoint estimation</b>. Currently, <b>running time depends</b> on <b>number of detected people</b>.</li>
+<li><b>70-keypoint face keypoint estimation</b>. Currently, <b>running time depends</b> on <b>number of detected people</b>.</li>
 </ul>
 </li>
-<li><b>Input</b>: Image, video, webcam, and IP camera. Included C++ demos to add your custom input.</li>
+<li><b>3D real-time multi-person keypoint detection</b>:<ul>
+<li>3-D triangulation from multiple single views.</li>
+<li>Synchronization of Flir cameras handled.</li>
+<li>Compatible with Flir/Point Grey cameras, but provided C++ demos to add your custom input.</li>
+</ul>
+</li>
+<li><b>Calibration toolbox</b>:<ul>
+<li>Easy estimation of distortion, intrinsic, and extrinsic camera parameters.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><b>Input</b>: Image, video, webcam, Flir/Point Grey and IP camera. Included C++ demos to add your custom input.</li>
 <li><b>Output</b>: Basic image + keypoint display/saving (PNG, JPG, AVI, ...), keypoint saving (JSON, XML, YML, ...), and/or keypoints as array class.</li>
-<li>Available: command-line demo, C++ wrapper, and C++ API.</li>
 <li><b>OS</b>: Ubuntu (14, 16), Windows (8, 10), Mac OSX, Nvidia TX2.</li>
+<li><b>Others</b>:<ul>
+<li>Available: command-line demo, C++ wrapper, and C++ API.</li>
+<li>CUDA (Nvidia GPU) and CPU versions.</li>
+</ul>
+</li>
 </ul>
 <h2>Latest Features</h2>
 <ul>
@@ -166,6 +183,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 </ul>
 <p>./build/examples/openpose/openpose.bin &ndash;video examples/media/video.avi :: Windows - Portable Demo bin\OpenPoseDemo.exe &ndash;video examples\media\video.avi ```</p>
 <ul>
+<li><b>Calibration toolbox</b>: To easily calibrate your cameras for 3-D OpenPose or any other stereo vision task. See doc/calibration_demo.md.</li>
 <li><b>OpenPose Wrapper</b>: If you want to read a specific input, and/or add your custom post-processing function, and/or implement your own display/saving, check the <code>Wrapper</code> tutorial on <a href="examples/tutorial_wrapper/">examples/tutorial_wrapper/</a>. You can create your custom code on <a href="examples/user_code/">examples/user_code/</a> and quickly compile it by using <code>make all</code> in the OpenPose folder (assuming Makefile installer).</li>
 <li><b>OpenPose C++ API</b>: See doc/library_introduction.md.</li>
 <li><b>Adding an extra module</b>: Check ./doc/library_add_new_module.md "doc/library_add_new_module.md".</li>
