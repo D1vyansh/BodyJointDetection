@@ -1103,7 +1103,7 @@ Generating docs for compou/home/travis/build/CMU-Perceptual-Computing-Lab/openpo
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/wrapper/wrapperStructPose.hpp:112: warning: explicit link request to 'body' could not be resolved
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/wrapper/wrapperStructPose.hpp:112: warning: explicit link request to 'pair' could not be resolved
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:39: warning: unable to resolve reference to `doc/installation.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:40: warning: unable to resolve reference to `doc/python_module.md.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:40: warning: unable to resolve reference to `doc/python_module.md' for \ref command
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:41: warning: unable to resolve reference to `doc/installation.md' for \ref command
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:42: warning: unable to resolve reference to `doc/calibration_demo.md' for \ref command
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:43: warning: unable to resolve reference to `doc/installation.md' for \ref command
