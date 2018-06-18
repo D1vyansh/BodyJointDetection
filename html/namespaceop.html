@@ -666,9 +666,9 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a6a5cb4e7c022ac0fbcc399e24bb6931a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a6a5cb4e7c022ac0fbcc399e24bb6931a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6a5cb4e7c022ac0fbcc399e24bb6931a">resizeAndMergeGpu</a> (T *targetPtr, const std::vector&lt; const T * &gt; &amp;sourcePtrs, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;sourceSizes, const std::vector&lt; T &gt; &amp;scaleInputToNetInputs={1.f})</td></tr>
 <tr class="separator:a6a5cb4e7c022ac0fbcc399e24bb6931a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad18f874de9ff9501c0dd7123f803d541"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ad18f874de9ff9501c0dd7123f803d541"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#ad18f874de9ff9501c0dd7123f803d541">resizeAndMergeOcl</a> (T *targetPtr, const std::vector&lt; const T * &gt; &amp;sourcePtrs, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;sourceSizes, const std::vector&lt; T &gt; &amp;scaleInputToNetInputs={1.f}, const int gpuID=0)</td></tr>
-<tr class="separator:ad18f874de9ff9501c0dd7123f803d541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46a1ea61fca063d4639d5cf3a15302ca"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a46a1ea61fca063d4639d5cf3a15302ca"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a46a1ea61fca063d4639d5cf3a15302ca">resizeAndMergeOcl</a> (T *targetPtr, const std::vector&lt; const T * &gt; &amp;sourcePtrs, std::vector&lt; T * &gt; &amp;sourceTempPtrs, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;sourceSizes, const std::vector&lt; T &gt; &amp;scaleInputToNetInputs={1.f}, const int gpuID=0)</td></tr>
+<tr class="separator:a46a1ea61fca063d4639d5cf3a15302ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a708e05033d5c51c3a3ff5d4ed621ebbf"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a708e05033d5c51c3a3ff5d4ed621ebbf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a708e05033d5c51c3a3ff5d4ed621ebbf">connectBodyPartsCpu</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores, const T *const heatMapPtr, const T *const peaksPtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const int maxPeaks, const T interMinAboveThreshold, const T interThreshold, const int minSubsetCnt, const T minSubsetScore, const T scaleFactor=1.f)</td></tr>
 <tr class="separator:a708e05033d5c51c3a3ff5d4ed621ebbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -981,7 +981,7 @@ Variables</h2></td></tr>
 <tr class="separator:aa8cc53d2fe5353f9d87d50c32a8c1a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76c1f1ea90b73e13e93f72413b3cab0e"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a76c1f1ea90b73e13e93f72413b3cab0e">HAND_DEFAULT_ALPHA_HEAT_MAP</a> = <a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a></td></tr>
 <tr class="separator:a76c1f1ea90b73e13e93f72413b3cab0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a522d4552d2aeabe367f4d3bf371e6b3e"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a522d4552d2aeabe367f4d3bf371e6b3e">POSE_MAX_PEOPLE</a> = 96u</td></tr>
+<tr class="memitem:a522d4552d2aeabe367f4d3bf371e6b3e"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a522d4552d2aeabe367f4d3bf371e6b3e">POSE_MAX_PEOPLE</a> = 127u</td></tr>
 <tr class="separator:a522d4552d2aeabe367f4d3bf371e6b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21fcb98366f6ea8895fc7f527f232db5"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a21fcb98366f6ea8895fc7f527f232db5">POSE_DEFAULT_ALPHA_KEYPOINT</a> = 0.6f</td></tr>
 <tr class="separator:a21fcb98366f6ea8895fc7f527f232db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6374,7 +6374,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ad18f874de9ff9501c0dd7123f803d541"></a>
+<a class="anchor" id="a46a1ea61fca063d4639d5cf3a15302ca"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -6391,6 +6391,12 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td class="paramtype">const std::vector&lt; const T * &gt; &amp;&#160;</td>
           <td class="paramname"><em>sourcePtrs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; T * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>sourceTempPtrs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -7524,7 +7530,7 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const auto op::POSE_MAX_PEOPLE = 96u</td>
+          <td class="memname">const auto op::POSE_MAX_PEOPLE = 127u</td>
         </tr>
       </table>
 </div><div class="memdoc">

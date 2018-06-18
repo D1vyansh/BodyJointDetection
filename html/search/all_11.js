@@ -62,7 +62,7 @@ var searchData=
   ['resizeandmergecaffe_2ehpp',['resizeAndMergeCaffe.hpp',['../resize_and_merge_caffe_8hpp.html',1,'']]],
   ['resizeandmergecpu',['resizeAndMergeCpu',['../namespaceop.html#a1b6c4abcf6948b5ac5651bb2f2909bc9',1,'op']]],
   ['resizeandmergegpu',['resizeAndMergeGpu',['../namespaceop.html#a6a5cb4e7c022ac0fbcc399e24bb6931a',1,'op']]],
-  ['resizeandmergeocl',['resizeAndMergeOcl',['../namespaceop.html#ad18f874de9ff9501c0dd7123f803d541',1,'op']]],
+  ['resizeandmergeocl',['resizeAndMergeOcl',['../namespaceop.html#a46a1ea61fca063d4639d5cf3a15302ca',1,'op']]],
   ['resizefixedaspectratio',['resizeFixedAspectRatio',['../namespaceop.html#ae6845e9d6fddf61cb7cb2eea7a7d4afc',1,'op']]],
   ['resizegetscalefactor',['resizeGetScaleFactor',['../namespaceop.html#a24ebdcb8395dea0429f220de6a715d6e',1,'op']]],
   ['result_5ftype',['result_type',['../classcl_1_1_kernel_functor.html#a925e6594f59e5e8038770efa2bd4b532',1,'cl::KernelFunctor::result_type()'],['../structcl_1_1compatibility_1_1make__kernel.html#ab5a793302f7651ad151a1e4b585be5d4',1,'cl::compatibility::make_kernel::result_type()']]],
