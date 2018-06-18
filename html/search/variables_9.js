@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['keypoints',['keypoints',['../structop_1_1_person_entry.html#affb5ab6b6ca5324780d6dc1294fdb8f8',1,'op::PersonEntry::keypoints()'],['../structop_1_1_person_tracker_entry.html#a086269259c4901aa14ba53b9b4541dd6',1,'op::PersonTrackerEntry::keypoints()']]],
-  ['keypointscale',['keypointScale',['../structop_1_1_wrapper_struct_pose.html#a4900b6c522150140d27f2e98a260e0ec',1,'op::WrapperStructPose']]]
+  ['j0vecptr',['j0VecPtr',['../structop_1_1_datum.html#af03c894035d9e45c35d91ca4cfa6df85',1,'op::Datum']]],
+  ['j0vecrows',['j0VecRows',['../structop_1_1_datum.html#a3605b959026bf8ea8b60e4e005d9f71e',1,'op::Datum']]]
 ];

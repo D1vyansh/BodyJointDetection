@@ -145,6 +145,7 @@ var hierarchy =
     [ "op::Thread< TDatums, TWorker >", "classop_1_1_thread.html", null ],
     [ "op::ThreadManager< TDatums, TWorker, TQueue >", "classop_1_1_thread_manager.html", null ],
     [ "op::ThreadManager< std::shared_ptr< TDatums > >", "classop_1_1_thread_manager.html", null ],
+    [ "op::UdpSender", "classop_1_1_udp_sender.html", null ],
     [ "op::VideoSaver", "classop_1_1_video_saver.html", null ],
     [ "op::Worker< TDatums >", "classop_1_1_worker.html", [
       [ "op::WCvMatToOpInput< TDatums >", "classop_1_1_w_cv_mat_to_op_input.html", null ],
@@ -174,6 +175,7 @@ var hierarchy =
         [ "op::WImageSaver< TDatums >", "classop_1_1_w_image_saver.html", null ],
         [ "op::WPeopleJsonSaver< TDatums >", "classop_1_1_w_people_json_saver.html", null ],
         [ "op::WPoseSaver< TDatums >", "classop_1_1_w_pose_saver.html", null ],
+        [ "op::WUdpSender< TDatums >", "classop_1_1_w_udp_sender.html", null ],
         [ "op::WVideoSaver< TDatums >", "classop_1_1_w_video_saver.html", null ]
       ] ],
       [ "op::WorkerProducer< TDatums >", "classop_1_1_worker_producer.html", [
@@ -187,8 +189,8 @@ var hierarchy =
       [ "op::WQueueOrderer< TDatums >", "classop_1_1_w_queue_orderer.html", null ],
       [ "op::WScaleAndSizeExtractor< TDatums >", "classop_1_1_w_scale_and_size_extractor.html", null ]
     ] ],
-    [ "cl::detail::Wrapper< T >", "classcl_1_1detail_1_1_wrapper.html", null ],
     [ "op::Wrapper< TDatums, TWorker, TQueue >", "classop_1_1_wrapper.html", null ],
+    [ "cl::detail::Wrapper< T >", "classcl_1_1detail_1_1_wrapper.html", null ],
     [ "cl::detail::Wrapper< cl_command_queue >", "classcl_1_1detail_1_1_wrapper.html", [
       [ "cl::CommandQueue", "classcl_1_1_command_queue.html", null ],
       [ "cl::DeviceCommandQueue", "classcl_1_1_device_command_queue.html", null ]
@@ -234,6 +236,7 @@ var hierarchy =
     [ "cl::detail::Wrapper< cl_sampler >", "classcl_1_1detail_1_1_wrapper.html", [
       [ "cl::Sampler", "classcl_1_1_sampler.html", null ]
     ] ],
+    [ "op::WrapperStructExtra", "structop_1_1_wrapper_struct_extra.html", null ],
     [ "op::WrapperStructFace", "structop_1_1_wrapper_struct_face.html", null ],
     [ "op::WrapperStructHand", "structop_1_1_wrapper_struct_hand.html", null ],
     [ "op::WrapperStructInput", "structop_1_1_wrapper_struct_input.html", null ],

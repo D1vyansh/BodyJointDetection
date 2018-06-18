@@ -5,6 +5,9 @@ var dir_656bab9d729ebd6e2f5fd290e8e58c67 =
       [ "Wrapper", "classop_1_1_wrapper.html", "classop_1_1_wrapper" ]
     ] ],
     [ "wrapperAuxiliary.hpp", "wrapper_auxiliary_8hpp.html", "wrapper_auxiliary_8hpp" ],
+    [ "wrapperStructExtra.hpp", "wrapper_struct_extra_8hpp.html", [
+      [ "WrapperStructExtra", "structop_1_1_wrapper_struct_extra.html", "structop_1_1_wrapper_struct_extra" ]
+    ] ],
     [ "wrapperStructFace.hpp", "wrapper_struct_face_8hpp.html", [
       [ "WrapperStructFace", "structop_1_1_wrapper_struct_face.html", "structop_1_1_wrapper_struct_face" ]
     ] ],

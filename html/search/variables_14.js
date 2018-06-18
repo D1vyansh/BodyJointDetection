@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['y',['y',['../structop_1_1_point.html#a5821bc77a416629916e671793df3ce3b',1,'op::Point::y()'],['../structop_1_1_rectangle.html#a64e6891af0088a4ad271a725601b8043',1,'op::Rectangle::y()']]]
+  ['vtvecptr',['vtVecPtr',['../structop_1_1_datum.html#ac43135194dd5ff9c981395697803b26d',1,'op::Datum']]],
+  ['vtvecrows',['vtVecRows',['../structop_1_1_datum.html#a45cd7049821b21a7af84441415b2d0ea',1,'op::Datum']]]
 ];

@@ -13,6 +13,11 @@ var structop_1_1_datum =
     [ "operator==", "structop_1_1_datum.html#a731a7179ac03f831019441981455282e", null ],
     [ "operator>", "structop_1_1_datum.html#acdf94a3ee6504d8b70afffa997d52d4b", null ],
     [ "operator>=", "structop_1_1_datum.html#afcdbf1d87e08761d952d19ef6a8ace10", null ],
+    [ "adamFaceCoeffsExpPtr", "structop_1_1_datum.html#ae530907e02dff08011788f535a5373a2", null ],
+    [ "adamFaceCoeffsExpRows", "structop_1_1_datum.html#a919ec0cfbffa28e2012e674b7940f173", null ],
+    [ "adamPosePtr", "structop_1_1_datum.html#aef3ef6d5d9f1235b925a68d461e0e814", null ],
+    [ "adamPoseRows", "structop_1_1_datum.html#a6ed2b4b547292fe91bbab82109578771", null ],
+    [ "adamTranslationPtr", "structop_1_1_datum.html#a6ac1ee6cd98d544c250df1e63a4e02b8", null ],
     [ "cameraExtrinsics", "structop_1_1_datum.html#a8f878dc9157bc9b786046d56fd151e2a", null ],
     [ "cameraIntrinsics", "structop_1_1_datum.html#a2cabb5abd5892e5b4ca7c2958820a708", null ],
     [ "cameraMatrix", "structop_1_1_datum.html#aeab7638276f1d9eb14847302bd0d0287", null ],
@@ -30,6 +35,8 @@ var structop_1_1_datum =
     [ "handRectangles", "structop_1_1_datum.html#a52d75e3273490624414f0602785bb608", null ],
     [ "id", "structop_1_1_datum.html#a65deddd49d0fbca81f367198fc600015", null ],
     [ "inputNetData", "structop_1_1_datum.html#a46ff336119fd0d67c8223b1a9371731d", null ],
+    [ "j0VecPtr", "structop_1_1_datum.html#af03c894035d9e45c35d91ca4cfa6df85", null ],
+    [ "j0VecRows", "structop_1_1_datum.html#a3605b959026bf8ea8b60e4e005d9f71e", null ],
     [ "name", "structop_1_1_datum.html#ae6adcdacea12a9cfa445cf0cac1985b0", null ],
     [ "netInputSizes", "structop_1_1_datum.html#a32d164c01acf6b4f7eb1323d74edbdca", null ],
     [ "netOutputSize", "structop_1_1_datum.html#ac734d4262a5a7892c6d4094cdd2bcc7c", null ],
@@ -42,5 +49,9 @@ var structop_1_1_datum =
     [ "poseScores", "structop_1_1_datum.html#afb117821de7aff9ac3c219ef3bbc0c14", null ],
     [ "scaleInputToNetInputs", "structop_1_1_datum.html#a0e416771f275be98c83aaff01e482a71", null ],
     [ "scaleInputToOutput", "structop_1_1_datum.html#a6cf96c250c236a03f13da69e1d4336d9", null ],
-    [ "scaleNetToOutput", "structop_1_1_datum.html#a44af7162e180c6856ce909057f43d8e1", null ]
+    [ "scaleNetToOutput", "structop_1_1_datum.html#a44af7162e180c6856ce909057f43d8e1", null ],
+    [ "subId", "structop_1_1_datum.html#aeb6d10e4fa40a20d38118bf1be3112d8", null ],
+    [ "subIdMax", "structop_1_1_datum.html#ab87c493347456b592b616e9f656a5d60", null ],
+    [ "vtVecPtr", "structop_1_1_datum.html#ac43135194dd5ff9c981395697803b26d", null ],
+    [ "vtVecRows", "structop_1_1_datum.html#a45cd7049821b21a7af84441415b2d0ea", null ]
 ];

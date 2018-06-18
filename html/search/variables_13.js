@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['x',['x',['../structop_1_1_point.html#a812d4ef29d102f4ad18f32ae54eb17ec',1,'op::Point::x()'],['../structop_1_1_rectangle.html#ac4ae58fe6ffd2f811f5cbc48661c1856',1,'op::Rectangle::x()']]]
+  ['udphost',['udpHost',['../structop_1_1_wrapper_struct_output.html#a92040f009e2f9344037d93d6442ce117',1,'op::WrapperStructOutput']]],
+  ['udpport',['udpPort',['../structop_1_1_wrapper_struct_output.html#aec3a7ec85be0779930427ba3e806ea2c',1,'op::WrapperStructOutput']]]
 ];

@@ -1,5 +1,6 @@
 var dir_da8f0331eb5f441599a7c56ee4b45b7a =
 [
+    [ "bvhSaver.hpp", "bvh_saver_8hpp.html", null ],
     [ "cocoJsonSaver.hpp", "coco_json_saver_8hpp.html", [
       [ "CocoJsonSaver", "classop_1_1_coco_json_saver.html", "classop_1_1_coco_json_saver" ]
     ] ],
@@ -24,9 +25,13 @@ var dir_da8f0331eb5f441599a7c56ee4b45b7a =
     [ "peopleJsonSaver.hpp", "people_json_saver_8hpp.html", [
       [ "PeopleJsonSaver", "classop_1_1_people_json_saver.html", "classop_1_1_people_json_saver" ]
     ] ],
+    [ "udpSender.hpp", "udp_sender_8hpp.html", [
+      [ "UdpSender", "classop_1_1_udp_sender.html", "classop_1_1_udp_sender" ]
+    ] ],
     [ "videoSaver.hpp", "video_saver_8hpp.html", [
       [ "VideoSaver", "classop_1_1_video_saver.html", "classop_1_1_video_saver" ]
     ] ],
+    [ "wBvhSaver.hpp", "w_bvh_saver_8hpp.html", null ],
     [ "wCocoJsonSaver.hpp", "w_coco_json_saver_8hpp.html", "w_coco_json_saver_8hpp" ],
     [ "wFaceSaver.hpp", "w_face_saver_8hpp.html", "w_face_saver_8hpp" ],
     [ "wHandSaver.hpp", "w_hand_saver_8hpp.html", "w_hand_saver_8hpp" ],
@@ -34,5 +39,6 @@ var dir_da8f0331eb5f441599a7c56ee4b45b7a =
     [ "wImageSaver.hpp", "w_image_saver_8hpp.html", "w_image_saver_8hpp" ],
     [ "wPeopleJsonSaver.hpp", "w_people_json_saver_8hpp.html", "w_people_json_saver_8hpp" ],
     [ "wPoseSaver.hpp", "w_pose_saver_8hpp.html", "w_pose_saver_8hpp" ],
+    [ "wUdpSender.hpp", "w_udp_sender_8hpp.html", "w_udp_sender_8hpp" ],
     [ "wVideoSaver.hpp", "w_video_saver_8hpp.html", "w_video_saver_8hpp" ]
 ];

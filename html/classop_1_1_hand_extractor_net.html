@@ -133,6 +133,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a942172f24916d5a60167b9708924c1a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a931591bb416a3658771296f2dd4d09f4"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a931591bb416a3658771296f2dd4d09f4">getHandKeypoints</a> () const </td></tr>
 <tr class="separator:a931591bb416a3658771296f2dd4d09f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade5c1f40a02ff6d0c5e3e5b9dab00088"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#ade5c1f40a02ff6d0c5e3e5b9dab00088">getEnabled</a> () const </td></tr>
+<tr class="separator:ade5c1f40a02ff6d0c5e3e5b9dab00088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab59a77d051991734b0c74b122671f097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#ab59a77d051991734b0c74b122671f097">setEnabled</a> (const bool enabled)</td></tr>
+<tr class="separator:ab59a77d051991734b0c74b122671f097"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -156,6 +160,8 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <tr class="separator:aaf0386c8c15a37cf79e9f3f4b1ced2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c4174ed2c09ff7c15edfc5d971f4aef"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt;, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a5c4174ed2c09ff7c15edfc5d971f4aef">mHeatMaps</a></td></tr>
 <tr class="separator:a5c4174ed2c09ff7c15edfc5d971f4aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee9d38650ed3138fa74fae2cad4bd77"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_hand_extractor_net.html#a2ee9d38650ed3138fa74fae2cad4bd77">mEnabled</a></td></tr>
+<tr class="separator:a2ee9d38650ed3138fa74fae2cad4bd77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Hand keypoint extractor class. </p>
@@ -297,6 +303,21 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
+<a class="anchor" id="ade5c1f40a02ff6d0c5e3e5b9dab00088"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool op::HandExtractorNet::getEnabled </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a931591bb416a3658771296f2dd4d09f4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -370,7 +391,43 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 
 </div>
 </div>
+<a class="anchor" id="ab59a77d051991734b0c74b122671f097"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void op::HandExtractorNet::setEnabled </td>
+          <td>(</td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a2ee9d38650ed3138fa74fae2cad4bd77"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::atomic&lt;bool&gt; op::HandExtractorNet::mEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a0981f4dfd15ce4a13de9d166cad9e1d4"></a>
 <div class="memitem">
 <div class="memproto">

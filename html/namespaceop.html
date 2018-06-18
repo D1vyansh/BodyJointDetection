@@ -193,6 +193,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_people_json_saver.html">PeopleJsonSaver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_udp_sender.html">UdpSender</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_saver.html">VideoSaver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_coco_json_saver.html">WCocoJsonSaver</a></td></tr>
@@ -208,6 +210,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_people_json_saver.html">WPeopleJsonSaver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_pose_saver.html">WPoseSaver</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_udp_sender.html">WUdpSender</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_video_saver.html">WVideoSaver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -353,6 +357,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html">Wrapper</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a></td></tr>
@@ -394,6 +400,12 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceop.html#afce557f02e337e16150d00bdf72ec033a3432ca64f06615abf07ab44c10cada38">RenderMode::Gpu</a>
  }</td></tr>
 <tr class="separator:afce557f02e337e16150d00bdf72ec033"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37a23e10d9cbc428c793c3df1d62993e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a37a23e10d9cbc428c793c3df1d62993e">ElementToRender</a> : unsigned char { <a class="el" href="namespaceop.html#a37a23e10d9cbc428c793c3df1d62993ea6ab48f7ed56efc362f41853c5616bf75">ElementToRender::Skeleton</a>, 
+<a class="el" href="namespaceop.html#a37a23e10d9cbc428c793c3df1d62993eaa9ded1e5ce5d75814730bb4caaf49419">ElementToRender::Background</a>, 
+<a class="el" href="namespaceop.html#a37a23e10d9cbc428c793c3df1d62993ea5f4badd072493724e560fa43d0cf2c71">ElementToRender::AddKeypoints</a>, 
+<a class="el" href="namespaceop.html#a37a23e10d9cbc428c793c3df1d62993eaca9f686d0a3d6b8bfe5865b59b2fc84f">ElementToRender::AddPAFs</a>
+ }</td></tr>
+<tr class="separator:a37a23e10d9cbc428c793c3df1d62993e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae52c21a24cf2c21e3b419c127924fd7e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7e">DataFormat</a> : unsigned char { <a class="el" href="namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7eaeed8d85b888a6c015834240885ee6333">DataFormat::Json</a>, 
 <a class="el" href="namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7ea9ec8e4e3ab4c7eeba097f27d7364d743">DataFormat::Xml</a>, 
 <a class="el" href="namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7ea65f6036bfc9798ce230c5d8567551315">DataFormat::Yaml</a>, 
@@ -410,10 +422,14 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719">GpuMode::Size</a>
  }</td></tr>
 <tr class="separator:adbb34b5c8f2b6f0c051f831f18582e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae52707752b1872b39f0306cc4f6c6ae6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">DisplayMode</a> : unsigned short { <a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a28b652e57d2da6b7c939166be21efd9a">DisplayMode::NoDisplay</a>, 
+<tr class="memitem:ae52707752b1872b39f0306cc4f6c6ae6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">DisplayMode</a> : unsigned short { <br/>
+&#160;&#160;<a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a28b652e57d2da6b7c939166be21efd9a">DisplayMode::NoDisplay</a>, 
 <a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a105036ef087117869f656cd72bfd8dd6">DisplayMode::DisplayAll</a>, 
 <a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a3bd9369403112127ae7db2f866002be2">DisplayMode::Display2D</a>, 
-<a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6ae18221460ca8434295f980225fd6a91b">DisplayMode::Display3D</a>
+<a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6ae18221460ca8434295f980225fd6a91b">DisplayMode::Display3D</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a442304e26339521bc296bdc47ff5fddf">DisplayMode::DisplayAdam</a>
+<br/>
  }</td></tr>
 <tr class="separator:ae52707752b1872b39f0306cc4f6c6ae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c22a72ce93c64e7582cb670492a50bf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bf">FullScreenMode</a> : bool { <a class="el" href="namespaceop.html#a6c22a72ce93c64e7582cb670492a50bfae7ec409749889353b8f83a6b04159420">FullScreenMode::FullScreen</a>, 
@@ -421,10 +437,10 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:a6c22a72ce93c64e7582cb670492a50bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5b3ce2a5d3de87cb31b9b67e96f261f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> : unsigned char { <br/>
-&#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd">PoseModel::COCO_18</a> = 0, 
+&#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa9a87ca5ab7b20c2bd4f8d5379956e6f6">PoseModel::BODY_25</a> = 0, 
+<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd">PoseModel::COCO_18</a>, 
 <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fad788fbec25069f2884ee1ed97e0af2b9">PoseModel::MPI_15</a>, 
 <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa71e915c88449606c6498d33dd7c98e84">PoseModel::MPI_15_4</a>, 
-<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fab0fd0573c626fcd55b70d4547328ad7d">PoseModel::BODY_18</a>, 
 <br/>
 &#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fae3ae2003e0e0458bdc49480fb19c876e">PoseModel::BODY_19</a>, 
 <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261faca4c7eb29b1f3402e78aa384ce8fd5a9">PoseModel::BODY_19_X2</a>, 
@@ -433,8 +449,10 @@ Enumerations</h2></td></tr>
 <br/>
 &#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa9c6c21b2b0a410880f46637db622e392">PoseModel::BODY_19N</a>, 
 <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa2545940cddf4498791cf504a2bf7db91">PoseModel::BODY_19b</a>, 
-<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa9a87ca5ab7b20c2bd4f8d5379956e6f6">PoseModel::BODY_25</a>, 
-<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719">PoseModel::Size</a>
+<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa70cbb3c96651173a004502efc5aef942">PoseModel::BODY_25_19</a>, 
+<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fadbaf53bb16512afd613bbec1d1f0dc25">PoseModel::BODY_65</a>, 
+<br/>
+&#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719">PoseModel::Size</a>
 <br/>
  }</td></tr>
 <tr class="separator:af5b3ce2a5d3de87cb31b9b67e96f261f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -589,6 +607,8 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:a774871462f7fefb8cadea1e49f501e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31ad937a2e52ea08ce925031d26616b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a31ad937a2e52ea08ce925031d26616b9">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_pose_saver.html">WPoseSaver</a>)</td></tr>
 <tr class="separator:a31ad937a2e52ea08ce925031d26616b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9e0d9e4028c0589b5eeeaed42a5088c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#af9e0d9e4028c0589b5eeeaed42a5088c">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_udp_sender.html">WUdpSender</a>)</td></tr>
+<tr class="separator:af9e0d9e4028c0589b5eeeaed42a5088c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49bd4106b0cd1cb81980329b06c0d2c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a49bd4106b0cd1cb81980329b06c0d2c8">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_video_saver.html">WVideoSaver</a>)</td></tr>
 <tr class="separator:a49bd4106b0cd1cb81980329b06c0d2c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2af8422ada0de882cc222920ca15c6d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a2af8422ada0de882cc222920ca15c6d2">cudaCheck</a> (const int line=-1, const std::string &amp;function=&quot;&quot;, const std::string &amp;file=&quot;&quot;)</td></tr>
@@ -914,8 +934,8 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:a3290f48d24c9992dd00d339ce49cfac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a815e303884fb2b3346c8cc19d61b23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7a815e303884fb2b3346c8cc19d61b23">toUpper</a> (const std::string &amp;string)</td></tr>
 <tr class="separator:a7a815e303884fb2b3346c8cc19d61b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a860009264f3fc46e18120faef1d62ac7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a860009264f3fc46e18120faef1d62ac7">wrapperConfigureSecurityChecks</a> (const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput, const bool renderOutput, const bool userOutputWsEmpty, const <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36">ThreadManagerMode</a> threadManagerMode)</td></tr>
-<tr class="separator:a860009264f3fc46e18120faef1d62ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd30dfbad5ada556a6856a9c8774dce5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#afd30dfbad5ada556a6856a9c8774dce5">wrapperConfigureSecurityChecks</a> (const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand, const <a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a> &amp;wrapperStructExtra, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput, const bool renderOutput, const bool userOutputWsEmpty, const <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36">ThreadManagerMode</a> threadManagerMode)</td></tr>
+<tr class="separator:afd30dfbad5ada556a6856a9c8774dce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -1052,13 +1072,46 @@ Variables</h2></td></tr>
 <p>No display. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="ae52707752b1872b39f0306cc4f6c6ae6a105036ef087117869f656cd72bfd8dd6"></a>DisplayAll</em>&#160;</td><td class="fielddoc">
-<p>All (2-D and 3-D) displays </p>
+<p>All (2-D and 3-D/Adam) displays </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="ae52707752b1872b39f0306cc4f6c6ae6a3bd9369403112127ae7db2f866002be2"></a>Display2D</em>&#160;</td><td class="fielddoc">
 <p>Only 2-D display. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="ae52707752b1872b39f0306cc4f6c6ae6ae18221460ca8434295f980225fd6a91b"></a>Display3D</em>&#160;</td><td class="fielddoc">
 <p>Only 3-D display. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ae52707752b1872b39f0306cc4f6c6ae6a442304e26339521bc296bdc47ff5fddf"></a>DisplayAdam</em>&#160;</td><td class="fielddoc">
+<p>Only Adam display. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="a37a23e10d9cbc428c793c3df1d62993e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceop.html#a37a23e10d9cbc428c793c3df1d62993e">op::ElementToRender</a> : unsigned char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a37a23e10d9cbc428c793c3df1d62993ea6ab48f7ed56efc362f41853c5616bf75"></a>Skeleton</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a37a23e10d9cbc428c793c3df1d62993eaa9ded1e5ce5d75814730bb4caaf49419"></a>Background</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a37a23e10d9cbc428c793c3df1d62993ea5f4badd072493724e560fa43d0cf2c71"></a>AddKeypoints</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a37a23e10d9cbc428c793c3df1d62993eaca9f686d0a3d6b8bfe5865b59b2fc84f"></a>AddPAFs</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
@@ -1258,17 +1311,17 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <p>An enum class in which all the possible type of pose estimation models are included. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd"></a>COCO_18</em>&#160;</td><td class="fielddoc">
-<p>COCO model, with 18+1 components (see <a class="el" href="pose_parameters_8hpp.html">poseParameters.hpp</a> for details). </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa9a87ca5ab7b20c2bd4f8d5379956e6f6"></a>BODY_25</em>&#160;</td><td class="fielddoc">
+<p>COCO + 6 foot keypoints + neck + lower abs model, with 25+1 components (see <a class="el" href="pose_parameters_8hpp.html">poseParameters.hpp</a> for details). </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd"></a>COCO_18</em>&#160;</td><td class="fielddoc">
+<p>COCO model + neck, with 18+1 components (see <a class="el" href="pose_parameters_8hpp.html">poseParameters.hpp</a> for details). </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fad788fbec25069f2884ee1ed97e0af2b9"></a>MPI_15</em>&#160;</td><td class="fielddoc">
 <p>MPI model, with 15+1 components (see <a class="el" href="pose_parameters_8hpp.html">poseParameters.hpp</a> for details). </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa71e915c88449606c6498d33dd7c98e84"></a>MPI_15_4</em>&#160;</td><td class="fielddoc">
 <p>Variation of the MPI model, reduced number of CNN stages to 4: faster but less accurate. </p>
-</td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fab0fd0573c626fcd55b70d4547328ad7d"></a>BODY_18</em>&#160;</td><td class="fielddoc">
-<p>Experimental. Do not use. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fae3ae2003e0e0458bdc49480fb19c876e"></a>BODY_19</em>&#160;</td><td class="fielddoc">
 <p>Experimental. Do not use. </p>
@@ -1288,7 +1341,10 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa2545940cddf4498791cf504a2bf7db91"></a>BODY_19b</em>&#160;</td><td class="fielddoc">
 <p>Experimental. Do not use. </p>
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa9a87ca5ab7b20c2bd4f8d5379956e6f6"></a>BODY_25</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa70cbb3c96651173a004502efc5aef942"></a>BODY_25_19</em>&#160;</td><td class="fielddoc">
+<p>Experimental. Do not use. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fadbaf53bb16512afd613bbec1d1f0dc25"></a>BODY_65</em>&#160;</td><td class="fielddoc">
 <p>Experimental. Do not use. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719"></a>Size</em>&#160;</td><td class="fielddoc">
@@ -2102,22 +2158,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1d9f50688522ed7368acc33a09ae9ece"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WOpOutputToCvMat&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a0424a8e4dc8ceb5e8d8a2230c157a7fd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2134,14 +2174,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a674a652ad38b355285417529fc050847"></a>
+<a class="anchor" id="a1d9f50688522ed7368acc33a09ae9ece"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WPersonIdExtractor&#160;</td>
+          <td class="paramtype">WOpOutputToCvMat&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2174,6 +2214,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WHandDetectorTracking&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a674a652ad38b355285417529fc050847"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WPersonIdExtractor&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2278,14 +2334,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ae76afeeeaedaebe6941f41a4bdf50e2a"></a>
+<a class="anchor" id="aa7f93261bd6d87f86c45e933607a0678"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WPoseRenderer&#160;</td>
+          <td class="paramtype">Queue&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2302,22 +2358,6 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">PriorityQueue&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aa7f93261bd6d87f86c45e933607a0678"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">Queue&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2518,6 +2558,38 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ae76afeeeaedaebe6941f41a4bdf50e2a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WPoseRenderer&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af9e0d9e4028c0589b5eeeaed42a5088c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WUdpSender&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ab1e242b1ae7ff3300324fbfedebb52fc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2566,22 +2638,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a020603e3ad6326cb1dce43485157f768"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WPoseExtractor&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a54b38240e45009f7e6a25d956ac96fe0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2590,6 +2646,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WGui3D&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a020603e3ad6326cb1dce43485157f768"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WPoseExtractor&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -7087,7 +7159,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a860009264f3fc46e18120faef1d62ac7"></a>
+<a class="anchor" id="afd30dfbad5ada556a6856a9c8774dce5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -7108,6 +7180,12 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td class="paramtype">const WrapperStructHand &amp;&#160;</td>
           <td class="paramname"><em>wrapperStructHand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructExtra &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructExtra</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -7152,6 +7230,7 @@ template&lt;typename T &gt; </div>
     <tr><td class="paramname">wrapperStructPose</td><td></td></tr>
     <tr><td class="paramname">wrapperStructFace</td><td></td></tr>
     <tr><td class="paramname">wrapperStructHand</td><td></td></tr>
+    <tr><td class="paramname">wrapperStructExtra</td><td></td></tr>
     <tr><td class="paramname">wrapperStructInput</td><td></td></tr>
     <tr><td class="paramname">wrapperStructOutput</td><td></td></tr>
     <tr><td class="paramname">renderOutput</td><td></td></tr>

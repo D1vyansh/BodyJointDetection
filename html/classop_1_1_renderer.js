@@ -10,6 +10,7 @@ var classop_1_1_renderer =
     [ "setAlphaKeypoint", "classop_1_1_renderer.html#a039e88897ed844551cadb115ea98e9ef", null ],
     [ "setBlendOriginalFrame", "classop_1_1_renderer.html#aa8339054ed113d99ca70208d0cee5aa9", null ],
     [ "setElementToRender", "classop_1_1_renderer.html#afd48a9cb0be184303dce2969fa2f8e02", null ],
+    [ "setElementToRender", "classop_1_1_renderer.html#a9d46c28d88225af94468c757ab1b26c1", null ],
     [ "setShowGooglyEyes", "classop_1_1_renderer.html#ab226d47f554735fa3e0372ce429747c3", null ],
     [ "mBlendOriginalFrame", "classop_1_1_renderer.html#a88449a7c29a48e157cd6b16089825be7", null ],
     [ "mRenderThreshold", "classop_1_1_renderer.html#adc4cd0a62008325c5c7df6df2f95a167", null ],

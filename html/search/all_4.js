@@ -1,6 +1,7 @@
 var searchData=
 [
   ['elementrendered',['elementRendered',['../structop_1_1_datum.html#a35212700ef2a2ac290a6666e2993a192',1,'op::Datum']]],
+  ['elementtorender',['ElementToRender',['../namespaceop.html#a37a23e10d9cbc428c793c3df1d62993e',1,'op']]],
   ['empty',['empty',['../classop_1_1_array.html#ad51b6ac12ed115f1056effefd6fa878b',1,'op::Array::empty()'],['../classop_1_1_queue_base.html#abf37af06eadbddeaaa14f1503c455c8e',1,'op::QueueBase::empty()']]],
   ['enable',['enable',['../structop_1_1_wrapper_struct_face.html#a8fadeca500dde0df2a35f864bf05ee05',1,'op::WrapperStructFace::enable()'],['../structop_1_1_wrapper_struct_hand.html#a667ad7eed9f4f96b460f331d25f3d87f',1,'op::WrapperStructHand::enable()'],['../structop_1_1_wrapper_struct_pose.html#acad34562a52b7474f928a021b03a9f90',1,'op::WrapperStructPose::enable()']]],
   ['enablefinegrainedsystemsvm',['enableFineGrainedSystemSVM',['../classcl_1_1_kernel.html#aed996666686cddb41d660839e709fcd0',1,'cl::Kernel']]],
@@ -47,8 +48,8 @@ var searchData=
   ['estimateandsaveextrinsics',['estimateAndSaveExtrinsics',['../namespaceop.html#a475c365d287eafbc3d0d8977ea7c11c0',1,'op']]],
   ['estimateandsaveintrinsics',['estimateAndSaveIntrinsics',['../namespaceop.html#a8817a682e5cf7bbc4b86660f1e0adba9',1,'op']]],
   ['estimateandsavesiftfile',['estimateAndSaveSiftFile',['../namespaceop.html#a3762897ab245335916f08bb5ba32f203',1,'op']]],
-  ['event',['Event',['../classcl_1_1_event.html#a90e01689f7b394fc003d66c48a7f6f95',1,'cl::Event::Event()'],['../classcl_1_1_event.html#a3b035b8ff20d92d0b42f2f0dc8657621',1,'cl::Event::Event(const cl_event &amp;event, bool retainObject=false)']]],
   ['event',['Event',['../classcl_1_1_event.html',1,'cl']]],
+  ['event',['Event',['../classcl_1_1_event.html#a90e01689f7b394fc003d66c48a7f6f95',1,'cl::Event::Event()'],['../classcl_1_1_event.html#a3b035b8ff20d92d0b42f2f0dc8657621',1,'cl::Event::Event(const cl_event &amp;event, bool retainObject=false)']]],
   ['exec',['exec',['../classop_1_1_thread.html#ad6c3721793d0f65ffe755ab74534afed',1,'op::Thread::exec()'],['../classop_1_1_thread_manager.html#a67a2d7cecc749be414e6896a88ec268d',1,'op::ThreadManager::exec()'],['../classop_1_1_wrapper.html#a8ae0f91a6882f04464d8897a7c81d174',1,'op::Wrapper::exec()']]],
   ['existdirectory',['existDirectory',['../namespaceop.html#a6fc2ee2d2c256695fb7b2b953ee7f762',1,'op']]],
   ['existfile',['existFile',['../namespaceop.html#ac1f4b95440d2fb57fc715558d039b947',1,'op']]],

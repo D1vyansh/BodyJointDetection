@@ -1,5 +1,11 @@
 var core_2enum_classes_8hpp =
 [
+    [ "ElementToRender", "core_2enum_classes_8hpp.html#a37a23e10d9cbc428c793c3df1d62993e", [
+      [ "Skeleton", "core_2enum_classes_8hpp.html#a37a23e10d9cbc428c793c3df1d62993ea6ab48f7ed56efc362f41853c5616bf75", null ],
+      [ "Background", "core_2enum_classes_8hpp.html#a37a23e10d9cbc428c793c3df1d62993eaa9ded1e5ce5d75814730bb4caaf49419", null ],
+      [ "AddKeypoints", "core_2enum_classes_8hpp.html#a37a23e10d9cbc428c793c3df1d62993ea5f4badd072493724e560fa43d0cf2c71", null ],
+      [ "AddPAFs", "core_2enum_classes_8hpp.html#a37a23e10d9cbc428c793c3df1d62993eaca9f686d0a3d6b8bfe5865b59b2fc84f", null ]
+    ] ],
     [ "HeatMapType", "core_2enum_classes_8hpp.html#a1c3dbc214e7552f7ef9cc753ee97226b", [
       [ "Parts", "core_2enum_classes_8hpp.html#a1c3dbc214e7552f7ef9cc753ee97226ba9ce2d07469b39a72159ed8b0e0e597ca", null ],
       [ "Background", "core_2enum_classes_8hpp.html#a1c3dbc214e7552f7ef9cc753ee97226baa9ded1e5ce5d75814730bb4caaf49419", null ],

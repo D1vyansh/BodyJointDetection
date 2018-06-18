@@ -1,30 +1,4 @@
 var searchData=
 [
-  ['mblendoriginalframe',['mBlendOriginalFrame',['../classop_1_1_renderer.html#a88449a7c29a48e157cd6b16089825be7',1,'op::Renderer']]],
-  ['mconditionvariable',['mConditionVariable',['../classop_1_1_queue_base.html#a8b5e59161a0b175d12955b552a90a47f',1,'op::QueueBase']]],
-  ['mfaceimagecrop',['mFaceImageCrop',['../classop_1_1_face_extractor_net.html#ae18226cef1478a929df9061c7d699c6f',1,'op::FaceExtractorNet']]],
-  ['mfacekeypoints',['mFaceKeypoints',['../classop_1_1_face_extractor_net.html#a5d3437e6a4a0fd834232b0afaab95a8a',1,'op::FaceExtractorNet']]],
-  ['mhandimagecrop',['mHandImageCrop',['../classop_1_1_hand_extractor_net.html#a0981f4dfd15ce4a13de9d166cad9e1d4',1,'op::HandExtractorNet']]],
-  ['mhandkeypoints',['mHandKeypoints',['../classop_1_1_hand_extractor_net.html#a7f97a5b842d20d3d37d3469418faac7b',1,'op::HandExtractorNet']]],
-  ['mheatmaps',['mHeatMaps',['../classop_1_1_face_extractor_net.html#a43bd29f8c1fc0dbef051bd574df2deca',1,'op::FaceExtractorNet::mHeatMaps()'],['../classop_1_1_hand_extractor_net.html#a5c4174ed2c09ff7c15edfc5d971f4aef',1,'op::HandExtractorNet::mHeatMaps()']]],
-  ['mheatmapscalemode',['mHeatMapScaleMode',['../classop_1_1_face_extractor_net.html#aa3f6566e8b857262f57e18a88c90b9be',1,'op::FaceExtractorNet::mHeatMapScaleMode()'],['../classop_1_1_hand_extractor_net.html#af03c8872258c644086bda26a3aaf95b5',1,'op::HandExtractorNet::mHeatMapScaleMode()']]],
-  ['mheatmaptypes',['mHeatMapTypes',['../classop_1_1_face_extractor_net.html#a3bf177dbf1a3effbe6b15545e6102d6e',1,'op::FaceExtractorNet::mHeatMapTypes()'],['../classop_1_1_hand_extractor_net.html#aaf0386c8c15a37cf79e9f3f4b1ced2e8',1,'op::HandExtractorNet::mHeatMapTypes()']]],
-  ['minviews3d',['minViews3d',['../structop_1_1_wrapper_struct_pose.html#a4b41baff01ea2be1027c0e9cadd03e48',1,'op::WrapperStructPose']]],
-  ['mmaxpopperspushers',['mMaxPoppersPushers',['../classop_1_1_queue_base.html#a1d55f40e032cd5d43d63ba02040b3117',1,'op::QueueBase']]],
-  ['mmultiscalenumberandrange',['mMultiScaleNumberAndRange',['../classop_1_1_hand_extractor_net.html#a2a969145bac891cef2683cae440c5f79',1,'op::HandExtractorNet']]],
-  ['mmutex',['mMutex',['../classop_1_1_queue_base.html#a22c5e2964e9d9c18a9f02b8d2e0f30b4',1,'op::QueueBase']]],
-  ['mnetoutputsize',['mNetOutputSize',['../classop_1_1_face_extractor_net.html#acf72945f62375b6ac8939c463a616f4a',1,'op::FaceExtractorNet::mNetOutputSize()'],['../classop_1_1_hand_extractor_net.html#ac5e36cd33696a684a4447acccec28fdd',1,'op::HandExtractorNet::mNetOutputSize()'],['../classop_1_1_pose_extractor_net.html#aab49f9af9f5d7e4e64957dc0feb60ca7',1,'op::PoseExtractorNet::mNetOutputSize()']]],
-  ['modelfolder',['modelFolder',['../structop_1_1_wrapper_struct_pose.html#a8ff78782ff1bfdcec3e20e42fc03dbc6',1,'op::WrapperStructPose']]],
-  ['mpartindextoname',['mPartIndexToName',['../classop_1_1_pose_renderer.html#aecc0a9296ca880ad6ceaf38ecd8c3c53',1,'op::PoseRenderer']]],
-  ['mpopisstopped',['mPopIsStopped',['../classop_1_1_queue_base.html#a77bf3592bbb6ac586cd4c2b0aea98e62',1,'op::QueueBase']]],
-  ['mpoppers',['mPoppers',['../classop_1_1_queue_base.html#a04f7160c199f90b8f8e91ddfd40e92fb',1,'op::QueueBase']]],
-  ['mposekeypoints',['mPoseKeypoints',['../classop_1_1_pose_extractor_net.html#aaaa4c619868bbf6306a549280002a2c6',1,'op::PoseExtractorNet']]],
-  ['mposemodel',['mPoseModel',['../classop_1_1_pose_extractor_net.html#a8595789b244399ecd9c4b2a774f2c74b',1,'op::PoseExtractorNet::mPoseModel()'],['../classop_1_1_pose_renderer.html#a9fea1f9ce47b4b5f1015cae13f4ddcb1',1,'op::PoseRenderer::mPoseModel()']]],
-  ['mposescores',['mPoseScores',['../classop_1_1_pose_extractor_net.html#a528c3056546b0759fafb249a02edd1b6',1,'op::PoseExtractorNet']]],
-  ['mpushers',['mPushers',['../classop_1_1_queue_base.html#a7c382bb98f5b769cde37b06d67cb0530',1,'op::QueueBase']]],
-  ['mpushisstopped',['mPushIsStopped',['../classop_1_1_queue_base.html#af2c0f21c6b4f4639661b59aa247ae407',1,'op::QueueBase']]],
-  ['mrenderthreshold',['mRenderThreshold',['../classop_1_1_renderer.html#adc4cd0a62008325c5c7df6df2f95a167',1,'op::Renderer']]],
-  ['mscalenettooutput',['mScaleNetToOutput',['../classop_1_1_pose_extractor_net.html#a67ea32116dfaff15cc16e5a0a2bef822',1,'op::PoseExtractorNet']]],
-  ['mshowgooglyeyes',['mShowGooglyEyes',['../classop_1_1_renderer.html#ace2490fa3c5a87443e4d1e64007cd1ff',1,'op::Renderer']]],
-  ['mtqueue',['mTQueue',['../classop_1_1_queue_base.html#a49c1d6740f2ce7f26eae606f109b5738',1,'op::QueueBase']]]
+  ['lastkeypoints',['lastKeypoints',['../structop_1_1_person_tracker_entry.html#a8cf40cb33498051588b5589d18c76fc9',1,'op::PersonTrackerEntry']]]
 ];

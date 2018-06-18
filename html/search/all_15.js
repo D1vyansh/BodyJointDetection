@@ -11,7 +11,9 @@ var searchData=
   ['videoreader',['VideoReader',['../classop_1_1_video_reader.html#a70313aad386ef3897c70fea7b2e4030a',1,'op::VideoReader']]],
   ['videoreader',['VideoReader',['../classop_1_1_video_reader.html',1,'op']]],
   ['videoreader_2ehpp',['videoReader.hpp',['../video_reader_8hpp.html',1,'']]],
-  ['videosaver',['VideoSaver',['../classop_1_1_video_saver.html#a0cb7b9b758efc9ce7e32aa4f2da631ff',1,'op::VideoSaver']]],
   ['videosaver',['VideoSaver',['../classop_1_1_video_saver.html',1,'op']]],
-  ['videosaver_2ehpp',['videoSaver.hpp',['../video_saver_8hpp.html',1,'']]]
+  ['videosaver',['VideoSaver',['../classop_1_1_video_saver.html#a0cb7b9b758efc9ce7e32aa4f2da631ff',1,'op::VideoSaver']]],
+  ['videosaver_2ehpp',['videoSaver.hpp',['../video_saver_8hpp.html',1,'']]],
+  ['vtvecptr',['vtVecPtr',['../structop_1_1_datum.html#ac43135194dd5ff9c981395697803b26d',1,'op::Datum']]],
+  ['vtvecrows',['vtVecRows',['../structop_1_1_datum.html#a45cd7049821b21a7af84441415b2d0ea',1,'op::Datum']]]
 ];

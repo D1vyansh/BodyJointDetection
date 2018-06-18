@@ -5,7 +5,7 @@ var classop_1_1_wrapper =
     [ "configure", "classop_1_1_wrapper.html#a5a3885bb1b984cad4745fa6e9e0715ad", null ],
     [ "configure", "classop_1_1_wrapper.html#ac1deb4a8fc1d942dc1f9b3eb16f74b8b", null ],
     [ "configure", "classop_1_1_wrapper.html#aea063b69ea6d68bd7f5292d945667fb7", null ],
-    [ "configure", "classop_1_1_wrapper.html#a90a58d4866cef24edced2979205c87cc", null ],
+    [ "configure", "classop_1_1_wrapper.html#a46372fc73cad5f3d0add4c4fab14516a", null ],
     [ "disableMultiThreading", "classop_1_1_wrapper.html#ad0d02645583cd58d11923df3aa064dc7", null ],
     [ "exec", "classop_1_1_wrapper.html#a8ae0f91a6882f04464d8897a7c81d174", null ],
     [ "isRunning", "classop_1_1_wrapper.html#a51ab9e8a63f8fb822550365fc0417d01", null ],

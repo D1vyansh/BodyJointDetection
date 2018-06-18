@@ -118,48 +118,46 @@ $(document).ready(function(){initNavTree('gui3_d_8hpp_source.html','');});
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span>op</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="comment">// This worker will do 3-D rendering</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classop_1_1_gui3_d.html">   13</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_gui3_d.html">Gui3D</a> : <span class="keyword">public</span> <a class="code" href="classop_1_1_gui.html">Gui</a></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="classop_1_1_gui3_d.html">Gui3D</a>(<span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&amp; outputSize, <span class="keyword">const</span> <span class="keywordtype">bool</span> fullScreen,</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;              <span class="keyword">const</span> std::shared_ptr&lt;std::atomic&lt;bool&gt;&gt;&amp; isRunningSharedPtr,</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;              <span class="keyword">const</span> std::shared_ptr&lt;std::pair&lt;std::atomic&lt;bool&gt;, std::atomic&lt;int&gt;&gt;&gt;&amp; videoSeekSharedPtr = <span class="keyword">nullptr</span>,</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;              <span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;std::shared_ptr&lt;PoseExtractorNet&gt;&gt;&amp; poseExtractorNets = {},</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;              <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Renderer&gt;&gt;&amp; renderers = {},</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;              <span class="keyword">const</span> <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel = <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd">PoseModel::COCO_18</a>,</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;              <span class="keyword">const</span> <a class="code" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">DisplayMode</a> displayMode = <a class="code" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a105036ef087117869f656cd72bfd8dd6">DisplayMode::DisplayAll</a>);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        ~<a class="code" href="classop_1_1_gui3_d.html">Gui3D</a>();</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">void</span> initializationOnThread();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">void</span> setKeypoints(<span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; poseKeypoints3D, <span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; faceKeypoints3D,</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                          <span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; leftHandKeypoints3D, <span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; rightHandKeypoints3D);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">void</span> update();</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">DisplayMode</a> mDisplayMode;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    };</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif // OPENPOSE_GUI_GUI_3D_HPP</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classop_1_1_gui3_d.html">   12</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_gui3_d.html">Gui3D</a> : <span class="keyword">public</span> <a class="code" href="classop_1_1_gui.html">Gui</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="classop_1_1_gui3_d.html">Gui3D</a>(<span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&amp; outputSize, <span class="keyword">const</span> <span class="keywordtype">bool</span> fullScreen,</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;              <span class="keyword">const</span> std::shared_ptr&lt;std::atomic&lt;bool&gt;&gt;&amp; isRunningSharedPtr,</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;              <span class="keyword">const</span> std::shared_ptr&lt;std::pair&lt;std::atomic&lt;bool&gt;, std::atomic&lt;int&gt;&gt;&gt;&amp; videoSeekSharedPtr = <span class="keyword">nullptr</span>,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;              <span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;std::shared_ptr&lt;PoseExtractorNet&gt;&gt;&amp; poseExtractorNets = {},</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;              <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;FaceExtractorNet&gt;&gt;&amp; faceExtractorNets = {},</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;              <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;HandExtractorNet&gt;&gt;&amp; handExtractorNets = {},</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;              <span class="keyword">const</span> std::vector&lt;std::shared_ptr&lt;Renderer&gt;&gt;&amp; renderers = {},</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;              <span class="keyword">const</span> <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel = <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa9a87ca5ab7b20c2bd4f8d5379956e6f6">PoseModel::BODY_25</a>,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;              <span class="keyword">const</span> <a class="code" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">DisplayMode</a> displayMode = <a class="code" href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a105036ef087117869f656cd72bfd8dd6">DisplayMode::DisplayAll</a>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classop_1_1_gui3_d.html">Gui3D</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> initializationOnThread();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">void</span> setKeypoints(<span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; poseKeypoints3D, <span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; faceKeypoints3D,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                          <span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; leftHandKeypoints3D, <span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; rightHandKeypoints3D);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> update();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    };</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif // OPENPOSE_GUI_GUI_3D_HPP</span></div>
 <div class="ttc" id="pose_2enum_classes_8hpp_html"><div class="ttname"><a href="pose_2enum_classes_8hpp.html">enumClasses.hpp</a></div></div>
 <div class="ttc" id="gui_2enum_classes_8hpp_html"><div class="ttname"><a href="gui_2enum_classes_8hpp.html">enumClasses.hpp</a></div></div>
 <div class="ttc" id="namespaceop_html_af5b3ce2a5d3de87cb31b9b67e96f261f"><div class="ttname"><a href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">op::PoseModel</a></div><div class="ttdeci">PoseModel</div><div class="ttdef"><b>Definition:</b> enumClasses.hpp:9</div></div>
 <div class="ttc" id="namespaceop_html_ae52707752b1872b39f0306cc4f6c6ae6a105036ef087117869f656cd72bfd8dd6"><div class="ttname"><a href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a105036ef087117869f656cd72bfd8dd6">op::DisplayMode::DisplayAll</a></div></div>
-<div class="ttc" id="classop_1_1_gui3_d_html"><div class="ttname"><a href="classop_1_1_gui3_d.html">op::Gui3D</a></div><div class="ttdef"><b>Definition:</b> gui3D.hpp:13</div></div>
+<div class="ttc" id="classop_1_1_gui3_d_html"><div class="ttname"><a href="classop_1_1_gui3_d.html">op::Gui3D</a></div><div class="ttdef"><b>Definition:</b> gui3D.hpp:12</div></div>
 <div class="ttc" id="structop_1_1_point_html"><div class="ttname"><a href="structop_1_1_point.html">op::Point&lt; int &gt;</a></div></div>
 <div class="ttc" id="namespaceop_html_ae52707752b1872b39f0306cc4f6c6ae6"><div class="ttname"><a href="namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6">op::DisplayMode</a></div><div class="ttdeci">DisplayMode</div><div class="ttdef"><b>Definition:</b> enumClasses.hpp:10</div></div>
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
-<div class="ttc" id="namespaceop_html_af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd"><div class="ttname"><a href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd">op::PoseModel::COCO_18</a></div></div>
 <div class="ttc" id="gui_8hpp_html"><div class="ttname"><a href="gui_8hpp.html">gui.hpp</a></div></div>
 <div class="ttc" id="classop_1_1_array_html"><div class="ttname"><a href="classop_1_1_array.html">op::Array&lt; float &gt;</a></div></div>
 <div class="ttc" id="worker_consumer_8hpp_html"><div class="ttname"><a href="worker_consumer_8hpp.html">workerConsumer.hpp</a></div></div>
+<div class="ttc" id="namespaceop_html_af5b3ce2a5d3de87cb31b9b67e96f261fa9a87ca5ab7b20c2bd4f8d5379956e6f6"><div class="ttname"><a href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa9a87ca5ab7b20c2bd4f8d5379956e6f6">op::PoseModel::BODY_25</a></div></div>
 <div class="ttc" id="namespacecl_html_a01a0973ddf4c1799772079a09d7156cb"><div class="ttname"><a href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">cl::vector</a></div><div class="ttdeci">std::vector&lt; T, Alloc &gt; vector</div><div class="ttdef"><b>Definition:</b> cl2.hpp:567</div></div>
 <div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:16</div></div>
-<div class="ttc" id="classop_1_1_gui_html"><div class="ttname"><a href="classop_1_1_gui.html">op::Gui</a></div><div class="ttdef"><b>Definition:</b> gui.hpp:13</div></div>
+<div class="ttc" id="classop_1_1_gui_html"><div class="ttname"><a href="classop_1_1_gui.html">op::Gui</a></div><div class="ttdef"><b>Definition:</b> gui.hpp:15</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -48,11 +48,13 @@ var searchData=
   ['wrapper_3c_20cl_5fplatform_5fid_20_3e',['Wrapper&lt; cl_platform_id &gt;',['../classcl_1_1detail_1_1_wrapper.html',1,'cl::detail']]],
   ['wrapper_3c_20cl_5fprogram_20_3e',['Wrapper&lt; cl_program &gt;',['../classcl_1_1detail_1_1_wrapper.html',1,'cl::detail']]],
   ['wrapper_3c_20cl_5fsampler_20_3e',['Wrapper&lt; cl_sampler &gt;',['../classcl_1_1detail_1_1_wrapper.html',1,'cl::detail']]],
+  ['wrapperstructextra',['WrapperStructExtra',['../structop_1_1_wrapper_struct_extra.html',1,'op']]],
   ['wrapperstructface',['WrapperStructFace',['../structop_1_1_wrapper_struct_face.html',1,'op']]],
   ['wrapperstructhand',['WrapperStructHand',['../structop_1_1_wrapper_struct_hand.html',1,'op']]],
   ['wrapperstructinput',['WrapperStructInput',['../structop_1_1_wrapper_struct_input.html',1,'op']]],
   ['wrapperstructoutput',['WrapperStructOutput',['../structop_1_1_wrapper_struct_output.html',1,'op']]],
   ['wrapperstructpose',['WrapperStructPose',['../structop_1_1_wrapper_struct_pose.html',1,'op']]],
   ['wscaleandsizeextractor',['WScaleAndSizeExtractor',['../classop_1_1_w_scale_and_size_extractor.html',1,'op']]],
+  ['wudpsender',['WUdpSender',['../classop_1_1_w_udp_sender.html',1,'op']]],
   ['wvideosaver',['WVideoSaver',['../classop_1_1_w_video_saver.html',1,'op']]]
 ];
