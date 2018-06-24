@@ -142,13 +142,13 @@ $(document).ready(function(){initNavTree('index.html','');});
 </ul>
 <h2>Latest Features</h2>
 <ul>
-<li>Jun 2018: **Combined body-foot model released! Faster and more accurate.**!</li>
+<li>Jun 2018: **Combined body-foot model released! Faster and more accurate**!</li>
 <li>Jun 2018: **Python version** released!</li>
 <li>Jun 2018: **AMD graphic card version** released!</li>
 <li>Jun 2018: **Calibration toolbox** released!</li>
 <li>Jun 2018: **Mac OSX version (CPU)** released!</li>
 <li>Mar 2018: <a href="doc/installation.md#cpu-version">**CPU version**</a>!</li>
-<li>Mar 2018: doc/3d_reconstruction_demo.md "**3-D keypoint reconstruction module**" (from multiple camera views)!</li>
+<li>Mar 2018: doc/modules/3d_reconstruction_module.md "**3-D keypoint reconstruction module**" (from multiple camera views)!</li>
 <li>Sep 2017: **CMake** installer and <b>IP camera</b> support!</li>
 <li>Jul 2017: <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases">**Windows portable binaries and demo**</a>!</li>
 <li>Jul 2017: <b>Hands</b> released!</li>
@@ -169,14 +169,16 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li><a href="#license">License</a></li>
 </ol>
 <h2>Results</h2>
-<h3>3-D Reconstruction Module</h3>
-<p>&lt;img src="doc/media/openpose3d.png", width="360"&gt; </p>
-<h3>Body Estimation</h3>
-<p>&lt;img src="doc/media/dance.gif", width="360"&gt; </p>
+<h3>Body-Foot Estimation</h3>
+<p>&lt;img src="doc/media/dance_foot.gif", width="360"&gt; </p>
 <h3>Body, Face, and Hands Estimation</h3>
 <p>&lt;img src="doc/media/pose_face.gif", width="360"&gt; </p>
+<h3>3-D Reconstruction Module</h3>
+<p>&lt;img src="doc/media/openpose3d.gif", width="360"&gt; </p>
 <h3>Body and Hands Estimation</h3>
 <p>&lt;img src="doc/media/pose_hands.gif", width="360"&gt; </p>
+<h3>Body Estimation</h3>
+<p>&lt;img src="doc/media/dance.gif", width="360"&gt; </p>
 <h2>Installation, Reinstallation and Uninstallation</h2>
 <p><b>Windows portable version</b>: Simply download and use the latest version from the <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases">Releases</a> section.</p>
 <p>Otherwise, check doc/installation.md for instructions on how to build OpenPose from source.</p>
@@ -188,8 +190,8 @@ $(document).ready(function(){initNavTree('index.html','');});
 </ul>
 <p>./build/examples/openpose/openpose.bin &ndash;video examples/media/video.avi :: Windows - Portable Demo bin\OpenPoseDemo.exe &ndash;video examples\media\video.avi ```</p>
 <ul>
-<li><b>Calibration toolbox</b>: To easily calibrate your cameras for 3-D OpenPose or any other stereo vision task. See doc/calibration_demo.md.</li>
-<li><b>OpenPose Wrapper</b>: If you want to read a specific input, and/or add your custom post-processing function, and/or implement your own display/saving, check the <code>Wrapper</code> tutorial on <a href="examples/tutorial_wrapper/">examples/tutorial_wrapper/</a>. You can create your custom code on <a href="examples/user_code/">examples/user_code/</a> and quickly compile it by using <code>make all</code> in the OpenPose folder (assuming Makefile installer).</li>
+<li><b>Calibration toolbox</b>: To easily calibrate your cameras for 3-D OpenPose or any other stereo vision task. See doc/modules/calibration_module.md.</li>
+<li><b>OpenPose Wrapper</b>: If you want to read a specific input, and/or add your custom post-processing function, and/or implement your own display/saving, check the <code>Wrapper</code> tutorial on <a href="examples/tutorial_wrapper/">examples/tutorial_wrapper/</a>. You can create your custom code on <a href="examples/user_code/">examples/user_code/</a> and quickly compile it with CMake when compiling the whole OpenPose project. Quickly <b>add your custom code</b>: See examples/user_code/README.md for further details.</li>
 <li><b>OpenPose C++ API</b>: See doc/library_introduction.md.</li>
 <li><b>Adding an extra module</b>: Check ./doc/library_add_new_module.md "doc/library_add_new_module.md".</li>
 <li><b>Standalone face or hand detector</b>:<ul>
