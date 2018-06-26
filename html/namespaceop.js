@@ -109,6 +109,7 @@ var namespaceop =
     [ "Worker", "classop_1_1_worker.html", "classop_1_1_worker" ],
     [ "WorkerConsumer", "classop_1_1_worker_consumer.html", "classop_1_1_worker_consumer" ],
     [ "WorkerProducer", "classop_1_1_worker_producer.html", "classop_1_1_worker_producer" ],
+    [ "WQueueAssembler", "classop_1_1_w_queue_assembler.html", "classop_1_1_w_queue_assembler" ],
     [ "WQueueOrderer", "classop_1_1_w_queue_orderer.html", "classop_1_1_w_queue_orderer" ],
     [ "PersonEntry", "structop_1_1_person_entry.html", "structop_1_1_person_entry" ],
     [ "PersonIdExtractor", "classop_1_1_person_id_extractor.html", "classop_1_1_person_id_extractor" ],

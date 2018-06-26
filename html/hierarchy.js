@@ -144,7 +144,7 @@ var hierarchy =
     [ "cl::SVMTraitWriteOnly< Trait >", "classcl_1_1_s_v_m_trait_write_only.html", null ],
     [ "op::Thread< TDatums, TWorker >", "classop_1_1_thread.html", null ],
     [ "op::ThreadManager< TDatums, TWorker, TQueue >", "classop_1_1_thread_manager.html", null ],
-    [ "op::ThreadManager< std::shared_ptr< TDatums > >", "classop_1_1_thread_manager.html", null ],
+    [ "op::ThreadManager< TDatumsSP >", "classop_1_1_thread_manager.html", null ],
     [ "op::UdpSender", "classop_1_1_udp_sender.html", null ],
     [ "op::VideoSaver", "classop_1_1_video_saver.html", null ],
     [ "op::Worker< TDatums >", "classop_1_1_worker.html", [
@@ -186,11 +186,12 @@ var hierarchy =
       [ "op::WPoseExtractorNet< TDatums >", "classop_1_1_w_pose_extractor_net.html", null ],
       [ "op::WPoseRenderer< TDatums >", "classop_1_1_w_pose_renderer.html", null ],
       [ "op::WPoseTriangulation< TDatums >", "classop_1_1_w_pose_triangulation.html", null ],
+      [ "op::WQueueAssembler< TDatums, TDatumsNoPtr >", "classop_1_1_w_queue_assembler.html", null ],
       [ "op::WQueueOrderer< TDatums >", "classop_1_1_w_queue_orderer.html", null ],
       [ "op::WScaleAndSizeExtractor< TDatums >", "classop_1_1_w_scale_and_size_extractor.html", null ]
     ] ],
-    [ "op::Wrapper< TDatums, TWorker, TQueue >", "classop_1_1_wrapper.html", null ],
     [ "cl::detail::Wrapper< T >", "classcl_1_1detail_1_1_wrapper.html", null ],
+    [ "op::Wrapper< TDatums, TDatumsSP, TWorker, TQueue >", "classop_1_1_wrapper.html", null ],
     [ "cl::detail::Wrapper< cl_command_queue >", "classcl_1_1detail_1_1_wrapper.html", [
       [ "cl::CommandQueue", "classcl_1_1_command_queue.html", null ],
       [ "cl::DeviceCommandQueue", "classcl_1_1_device_command_queue.html", null ]

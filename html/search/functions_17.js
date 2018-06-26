@@ -31,5 +31,5 @@ var searchData=
   ['_7eworker',['~Worker',['../classop_1_1_worker.html#a6ebe180098e00ac062a1bb31d462df60',1,'op::Worker']]],
   ['_7eworkerconsumer',['~WorkerConsumer',['../classop_1_1_worker_consumer.html#a9aaa75f194df6b3ed4994c8e95aa0ab5',1,'op::WorkerConsumer']]],
   ['_7eworkerproducer',['~WorkerProducer',['../classop_1_1_worker_producer.html#a8f2592f70d723de4b818c97b25c5a476',1,'op::WorkerProducer']]],
-  ['_7ewrapper',['~Wrapper',['../classcl_1_1detail_1_1_wrapper.html#aa254b6401dc19abcc7c21d2a664cadf9',1,'cl::detail::Wrapper::~Wrapper()'],['../classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#adc34e0d2c80d7994fd7077902e8ceb68',1,'cl::detail::Wrapper&lt; cl_device_id &gt;::~Wrapper()'],['../classop_1_1_wrapper.html#a8919b80a6f82330da63da9ffd9ca89be',1,'op::Wrapper::~Wrapper()']]]
+  ['_7ewrapper',['~Wrapper',['../classcl_1_1detail_1_1_wrapper.html#aa254b6401dc19abcc7c21d2a664cadf9',1,'cl::detail::Wrapper::~Wrapper()'],['../classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#adc34e0d2c80d7994fd7077902e8ceb68',1,'cl::detail::Wrapper&lt; cl_device_id &gt;::~Wrapper()'],['../classop_1_1_wrapper.html#a28b741c74babc5153aac66c97cf2788e',1,'op::Wrapper::~Wrapper()']]]
 ];

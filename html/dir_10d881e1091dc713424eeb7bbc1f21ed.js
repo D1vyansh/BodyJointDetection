@@ -22,5 +22,8 @@ var dir_10d881e1091dc713424eeb7bbc1f21ed =
     [ "worker.hpp", "worker_8hpp.html", "worker_8hpp" ],
     [ "workerConsumer.hpp", "worker_consumer_8hpp.html", "worker_consumer_8hpp" ],
     [ "workerProducer.hpp", "worker_producer_8hpp.html", "worker_producer_8hpp" ],
+    [ "wQueueAssembler.hpp", "w_queue_assembler_8hpp.html", [
+      [ "WQueueAssembler", "classop_1_1_w_queue_assembler.html", "classop_1_1_w_queue_assembler" ]
+    ] ],
     [ "wQueueOrderer.hpp", "w_queue_orderer_8hpp.html", "w_queue_orderer_8hpp" ]
 ];

@@ -36,6 +36,7 @@ var searchData=
   ['wposerenderer',['WPoseRenderer',['../classop_1_1_w_pose_renderer.html',1,'op']]],
   ['wposesaver',['WPoseSaver',['../classop_1_1_w_pose_saver.html',1,'op']]],
   ['wposetriangulation',['WPoseTriangulation',['../classop_1_1_w_pose_triangulation.html',1,'op']]],
+  ['wqueueassembler',['WQueueAssembler',['../classop_1_1_w_queue_assembler.html',1,'op']]],
   ['wqueueorderer',['WQueueOrderer',['../classop_1_1_w_queue_orderer.html',1,'op']]],
   ['wrapper',['Wrapper',['../classop_1_1_wrapper.html',1,'op']]],
   ['wrapper',['Wrapper',['../classcl_1_1detail_1_1_wrapper.html',1,'cl::detail']]],

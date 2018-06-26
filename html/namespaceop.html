@@ -333,6 +333,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_worker_producer.html">WorkerProducer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_queue_assembler.html">WQueueAssembler</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_queue_orderer.html">WQueueOrderer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_person_entry.html">PersonEntry</a></td></tr>
@@ -983,6 +985,8 @@ Variables</h2></td></tr>
 <tr class="separator:a76c1f1ea90b73e13e93f72413b3cab0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a522d4552d2aeabe367f4d3bf371e6b3e"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a522d4552d2aeabe367f4d3bf371e6b3e">POSE_MAX_PEOPLE</a> = 127u</td></tr>
 <tr class="separator:a522d4552d2aeabe367f4d3bf371e6b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59616e83eefc182f8eb6ae51d6425938"><td class="memItemLeft" align="right" valign="top">const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a59616e83eefc182f8eb6ae51d6425938">COCO_CHALLENGE</a> = false</td></tr>
+<tr class="separator:a59616e83eefc182f8eb6ae51d6425938"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21fcb98366f6ea8895fc7f527f232db5"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a21fcb98366f6ea8895fc7f527f232db5">POSE_DEFAULT_ALPHA_KEYPOINT</a> = 0.6f</td></tr>
 <tr class="separator:a21fcb98366f6ea8895fc7f527f232db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af45cddacd69fff73a4ea4acbbbac43e0"><td class="memItemLeft" align="right" valign="top">const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a> = 0.7f</td></tr>
@@ -2574,22 +2578,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="af9e0d9e4028c0589b5eeeaed42a5088c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WUdpSender&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ab1e242b1ae7ff3300324fbfedebb52fc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2598,6 +2586,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WPoseExtractorNet&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af9e0d9e4028c0589b5eeeaed42a5088c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WUdpSender&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2686,22 +2690,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="add981a5f6a49d35cc316a54c613497f3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WQueueOrderer&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="af98c8e514e79d4718fb1fc64dc0e431b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2710,6 +2698,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">SubThread&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="add981a5f6a49d35cc316a54c613497f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WQueueOrderer&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -7249,6 +7253,18 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a59616e83eefc182f8eb6ae51d6425938"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const bool op::COCO_CHALLENGE = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ac7bbf63b37bf6762c47557ad227e036d"></a>
 <div class="memitem">
 <div class="memproto">

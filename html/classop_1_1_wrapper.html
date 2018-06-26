@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenPose: op::Wrapper&lt; TDatums, TWorker, TQueue &gt; Class Template Reference</title>
+<title>OpenPose: op::Wrapper&lt; TDatums, TDatumsSP, TWorker, TQueue &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('classop_1_1_wrapper.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classop_1_1_wrapper-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">op::Wrapper&lt; TDatums, TWorker, TQueue &gt; Class Template Reference</div>  </div>
+<div class="title">op::Wrapper&lt; TDatums, TDatumsSP, TWorker, TQueue &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -117,56 +117,56 @@ $(document).ready(function(){initNavTree('classop_1_1_wrapper.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adec2ef07f9796142254cd6dd9a2bf318"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#adec2ef07f9796142254cd6dd9a2bf318">Wrapper</a> (const <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36">ThreadManagerMode</a> threadManagerMode=<a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36a2fe4167817733fec8e6ba1afddf78f1b">ThreadManagerMode::Synchronous</a>)</td></tr>
-<tr class="separator:adec2ef07f9796142254cd6dd9a2bf318"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8919b80a6f82330da63da9ffd9ca89be"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a8919b80a6f82330da63da9ffd9ca89be">~Wrapper</a> ()</td></tr>
-<tr class="separator:a8919b80a6f82330da63da9ffd9ca89be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0d02645583cd58d11923df3aa064dc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#ad0d02645583cd58d11923df3aa064dc7">disableMultiThreading</a> ()</td></tr>
-<tr class="separator:ad0d02645583cd58d11923df3aa064dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74f1287f8e4f998504e2ce571ef36f58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a74f1287f8e4f998504e2ce571ef36f58">setWorkerInput</a> (const TWorker &amp;worker, const bool workerOnNewThread=true)</td></tr>
-<tr class="separator:a74f1287f8e4f998504e2ce571ef36f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f2cf45c8b571b99ee92114ba8462589"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a6f2cf45c8b571b99ee92114ba8462589">setWorkerPostProcessing</a> (const TWorker &amp;worker, const bool workerOnNewThread=true)</td></tr>
-<tr class="separator:a6f2cf45c8b571b99ee92114ba8462589"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e9f8993c9a27a012671d671998aa15d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a3e9f8993c9a27a012671d671998aa15d">setWorkerOutput</a> (const TWorker &amp;worker, const bool workerOnNewThread=true)</td></tr>
-<tr class="separator:a3e9f8993c9a27a012671d671998aa15d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a3885bb1b984cad4745fa6e9e0715ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a5a3885bb1b984cad4745fa6e9e0715ad">configure</a> (const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput=<a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a>{})</td></tr>
-<tr class="separator:a5a3885bb1b984cad4745fa6e9e0715ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1deb4a8fc1d942dc1f9b3eb16f74b8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#ac1deb4a8fc1d942dc1f9b3eb16f74b8b">configure</a> (const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput=<a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a>{})</td></tr>
-<tr class="separator:ac1deb4a8fc1d942dc1f9b3eb16f74b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea063b69ea6d68bd7f5292d945667fb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#aea063b69ea6d68bd7f5292d945667fb7">configure</a> (const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput=<a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a>{})</td></tr>
-<tr class="separator:aea063b69ea6d68bd7f5292d945667fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46372fc73cad5f3d0add4c4fab14516a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a46372fc73cad5f3d0add4c4fab14516a">configure</a> (const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose=<a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a>{}, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace=<a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a>{}, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand=<a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a>{}, const <a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a> &amp;wrapperStructExtra=<a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a>{}, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput=<a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a>{}, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput=<a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a>{})</td></tr>
-<tr class="separator:a46372fc73cad5f3d0add4c4fab14516a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ae0f91a6882f04464d8897a7c81d174"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a8ae0f91a6882f04464d8897a7c81d174">exec</a> ()</td></tr>
-<tr class="separator:a8ae0f91a6882f04464d8897a7c81d174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a338b70f93bfb0ad11b7df6b8db407749"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a338b70f93bfb0ad11b7df6b8db407749">start</a> ()</td></tr>
-<tr class="separator:a338b70f93bfb0ad11b7df6b8db407749"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab71f75a631e341dde1c07abcd3a4773f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#ab71f75a631e341dde1c07abcd3a4773f">stop</a> ()</td></tr>
-<tr class="separator:ab71f75a631e341dde1c07abcd3a4773f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51ab9e8a63f8fb822550365fc0417d01"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a51ab9e8a63f8fb822550365fc0417d01">isRunning</a> () const </td></tr>
-<tr class="separator:a51ab9e8a63f8fb822550365fc0417d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a081797a2abda2f91d80876ca6fbb4dbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a081797a2abda2f91d80876ca6fbb4dbc">tryEmplace</a> (std::shared_ptr&lt; TDatums &gt; &amp;tDatums)</td></tr>
-<tr class="separator:a081797a2abda2f91d80876ca6fbb4dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab23c57fa6b88a0c0bd2348e69a3ad5d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#ab23c57fa6b88a0c0bd2348e69a3ad5d3">waitAndEmplace</a> (std::shared_ptr&lt; TDatums &gt; &amp;tDatums)</td></tr>
-<tr class="separator:ab23c57fa6b88a0c0bd2348e69a3ad5d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3316c0f86d9d7ca6e246a50d4558e75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#af3316c0f86d9d7ca6e246a50d4558e75">tryPush</a> (const std::shared_ptr&lt; TDatums &gt; &amp;tDatums)</td></tr>
-<tr class="separator:af3316c0f86d9d7ca6e246a50d4558e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb7c1cff00cd254216b92a0698bf2b6f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#acb7c1cff00cd254216b92a0698bf2b6f">waitAndPush</a> (const std::shared_ptr&lt; TDatums &gt; &amp;tDatums)</td></tr>
-<tr class="separator:acb7c1cff00cd254216b92a0698bf2b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafe5cbb9729cee18531bcbc5e1b2a66e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#aafe5cbb9729cee18531bcbc5e1b2a66e">tryPop</a> (std::shared_ptr&lt; TDatums &gt; &amp;tDatums)</td></tr>
-<tr class="separator:aafe5cbb9729cee18531bcbc5e1b2a66e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eb0c88ab1eab9bc50e224d208cfb310"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a1eb0c88ab1eab9bc50e224d208cfb310">waitAndPop</a> (std::shared_ptr&lt; TDatums &gt; &amp;tDatums)</td></tr>
-<tr class="separator:a1eb0c88ab1eab9bc50e224d208cfb310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e9c8f45fc9beb72fe0c7549d88a160a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a5e9c8f45fc9beb72fe0c7549d88a160a">Wrapper</a> (const <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36">ThreadManagerMode</a> threadManagerMode=<a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36a2fe4167817733fec8e6ba1afddf78f1b">ThreadManagerMode::Synchronous</a>)</td></tr>
+<tr class="separator:a5e9c8f45fc9beb72fe0c7549d88a160a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28b741c74babc5153aac66c97cf2788e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a28b741c74babc5153aac66c97cf2788e">~Wrapper</a> ()</td></tr>
+<tr class="separator:a28b741c74babc5153aac66c97cf2788e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeace425b2f39e1313947de2bf4f2e94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#adeace425b2f39e1313947de2bf4f2e94">disableMultiThreading</a> ()</td></tr>
+<tr class="separator:adeace425b2f39e1313947de2bf4f2e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05386a2770f2cfd94ebf93e2fd9e30bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a05386a2770f2cfd94ebf93e2fd9e30bf">setWorkerInput</a> (const TWorker &amp;worker, const bool workerOnNewThread=true)</td></tr>
+<tr class="separator:a05386a2770f2cfd94ebf93e2fd9e30bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23285d0a798defde17e9052596d1138b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a23285d0a798defde17e9052596d1138b">setWorkerPostProcessing</a> (const TWorker &amp;worker, const bool workerOnNewThread=true)</td></tr>
+<tr class="separator:a23285d0a798defde17e9052596d1138b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a171cef6cc97a0d31e19c4f06a9808c47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a171cef6cc97a0d31e19c4f06a9808c47">setWorkerOutput</a> (const TWorker &amp;worker, const bool workerOnNewThread=true)</td></tr>
+<tr class="separator:a171cef6cc97a0d31e19c4f06a9808c47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a102c6e94ea4a72e0d907117d454a053a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a102c6e94ea4a72e0d907117d454a053a">configure</a> (const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput=<a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a>{})</td></tr>
+<tr class="separator:a102c6e94ea4a72e0d907117d454a053a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a919fd65b6d9cecf1148ae68b73a266cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a919fd65b6d9cecf1148ae68b73a266cc">configure</a> (const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput=<a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a>{})</td></tr>
+<tr class="separator:a919fd65b6d9cecf1148ae68b73a266cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8784fff561354057f97414d39a37345c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a8784fff561354057f97414d39a37345c">configure</a> (const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput=<a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a>{})</td></tr>
+<tr class="separator:a8784fff561354057f97414d39a37345c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add174d24c3a6f0ce320d5c242a4b45ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#add174d24c3a6f0ce320d5c242a4b45ba">configure</a> (const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose=<a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a>{}, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace=<a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a>{}, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand=<a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a>{}, const <a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a> &amp;wrapperStructExtra=<a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a>{}, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput=<a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a>{}, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput=<a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a>{})</td></tr>
+<tr class="separator:add174d24c3a6f0ce320d5c242a4b45ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25c1b8b9e873b04ca476b249b0090c8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a25c1b8b9e873b04ca476b249b0090c8d">exec</a> ()</td></tr>
+<tr class="separator:a25c1b8b9e873b04ca476b249b0090c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3df71bc06fe976e5b842bff7b2f0852"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#aa3df71bc06fe976e5b842bff7b2f0852">start</a> ()</td></tr>
+<tr class="separator:aa3df71bc06fe976e5b842bff7b2f0852"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a017367d8b6c2948bfb6d1b7d50e66594"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a017367d8b6c2948bfb6d1b7d50e66594">stop</a> ()</td></tr>
+<tr class="separator:a017367d8b6c2948bfb6d1b7d50e66594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95f2dfcdab90f6c8313265db7e65e90c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a95f2dfcdab90f6c8313265db7e65e90c">isRunning</a> () const </td></tr>
+<tr class="separator:a95f2dfcdab90f6c8313265db7e65e90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58da8cc0e32f92740f6167cfa4ac25ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a58da8cc0e32f92740f6167cfa4ac25ed">tryEmplace</a> (TDatumsSP &amp;tDatums)</td></tr>
+<tr class="separator:a58da8cc0e32f92740f6167cfa4ac25ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aa880c0dda6b3e772a689c011152af0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a4aa880c0dda6b3e772a689c011152af0">waitAndEmplace</a> (TDatumsSP &amp;tDatums)</td></tr>
+<tr class="separator:a4aa880c0dda6b3e772a689c011152af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc52281d0e798ce1f50249207307b279"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#abc52281d0e798ce1f50249207307b279">tryPush</a> (const TDatumsSP &amp;tDatums)</td></tr>
+<tr class="separator:abc52281d0e798ce1f50249207307b279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97761008b10141bfc9c5678903050097"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#a97761008b10141bfc9c5678903050097">waitAndPush</a> (const TDatumsSP &amp;tDatums)</td></tr>
+<tr class="separator:a97761008b10141bfc9c5678903050097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad04c94c5e038756c39482ce602f5dd30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#ad04c94c5e038756c39482ce602f5dd30">tryPop</a> (TDatumsSP &amp;tDatums)</td></tr>
+<tr class="separator:ad04c94c5e038756c39482ce602f5dd30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f3da20646efc5728427d0e3044ded5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html#af9f3da20646efc5728427d0e3044ded5">waitAndPop</a> (TDatumsSP &amp;tDatums)</td></tr>
+<tr class="separator:af9f3da20646efc5728427d0e3044ded5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename TDatums, typename TWorker = std::shared_ptr&lt;Worker&lt;std::shared_ptr&lt;TDatums&gt;&gt;&gt;, typename TQueue = Queue&lt;std::shared_ptr&lt;TDatums&gt;&gt;&gt;<br/>
-class op::Wrapper&lt; TDatums, TWorker, TQueue &gt;</h3>
+<div class="textblock"><h3>template&lt;typename TDatums, typename TDatumsSP = std::shared_ptr&lt;TDatums&gt;, typename TWorker = std::shared_ptr&lt;Worker&lt;TDatumsSP&gt;&gt;, typename TQueue = Queue&lt;TDatumsSP&gt;&gt;<br/>
+class op::Wrapper&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;</h3>
 
 <p><a class="el" href="classop_1_1_wrapper.html">Wrapper</a>: OpenPose all-in-one wrapper template class. <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> allows the user to set up the input (video, webcam, custom input, etc.), pose, face and/or hands estimation and rendering, and output (integrated small GUI, custom output, etc.).</p>
 <p>This function can be used in 2 ways:</p>
 <ul>
 <li>Synchronous mode: call the full constructor with your desired input and output workers.</li>
-<li>Asynchronous mode: call the empty constructor <a class="el" href="classop_1_1_wrapper.html#adec2ef07f9796142254cd6dd9a2bf318">Wrapper()</a> + use the emplace and pop functions to push the original frames and retrieve the processed ones.</li>
+<li>Asynchronous mode: call the empty constructor <a class="el" href="classop_1_1_wrapper.html#a5e9c8f45fc9beb72fe0c7549d88a160a">Wrapper()</a> + use the emplace and pop functions to push the original frames and retrieve the processed ones.</li>
 <li>Mix of them:<ul>
 <li>Synchronous input + asynchronous output: call the constructor <a class="el" href="classop_1_1_wrapper.html">Wrapper</a>(<a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36a2fe4167817733fec8e6ba1afddf78f1b">ThreadManagerMode::Synchronous</a>, workersInput, {}, true)</li>
 <li>Asynchronous input + synchronous output: call the constructor Wrapper(ThreadManagerMode::Synchronous, nullptr, workersOutput, irrelevantBoolean, true) </li>
@@ -174,17 +174,17 @@ class op::Wrapper&lt; TDatums, TWorker, TQueue &gt;</h3>
 </li>
 </ul>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="adec2ef07f9796142254cd6dd9a2bf318"></a>
+<a class="anchor" id="a5e9c8f45fc9beb72fe0c7549d88a160a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::<a class="el" href="classop_1_1_wrapper.html">Wrapper</a> </td>
+          <td class="memname"><a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::<a class="el" href="classop_1_1_wrapper.html">Wrapper</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36">ThreadManagerMode</a>&#160;</td>
           <td class="paramname"><em>threadManagerMode</em> = <code><a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36a2fe4167817733fec8e6ba1afddf78f1b">ThreadManagerMode::Synchronous</a></code></td><td>)</td>
@@ -207,14 +207,14 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a8919b80a6f82330da63da9ffd9ca89be"></a>
+<a class="anchor" id="a28b741c74babc5153aac66c97cf2788e"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::~<a class="el" href="classop_1_1_wrapper.html">Wrapper</a> </td>
+          <td class="memname"><a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::~<a class="el" href="classop_1_1_wrapper.html">Wrapper</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -226,14 +226,14 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a5a3885bb1b984cad4745fa6e9e0715ad"></a>
+<a class="anchor" id="a102c6e94ea4a72e0d907117d454a053a"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::configure </td>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::configure </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;&#160;</td>
           <td class="paramname"><em>wrapperStructPose</em>, </td>
@@ -260,14 +260,14 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ac1deb4a8fc1d942dc1f9b3eb16f74b8b"></a>
+<a class="anchor" id="a919fd65b6d9cecf1148ae68b73a266cc"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::configure </td>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::configure </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;&#160;</td>
           <td class="paramname"><em>wrapperStructPose</em>, </td>
@@ -300,14 +300,14 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aea063b69ea6d68bd7f5292d945667fb7"></a>
+<a class="anchor" id="a8784fff561354057f97414d39a37345c"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::configure </td>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::configure </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;&#160;</td>
           <td class="paramname"><em>wrapperStructPose</em>, </td>
@@ -340,14 +340,14 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a46372fc73cad5f3d0add4c4fab14516a"></a>
+<a class="anchor" id="add174d24c3a6f0ce320d5c242a4b45ba"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::configure </td>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::configure </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;&#160;</td>
           <td class="paramname"><em>wrapperStructPose</em> = <code><a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a>{}</code>, </td>
@@ -392,14 +392,14 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ad0d02645583cd58d11923df3aa064dc7"></a>
+<a class="anchor" id="adeace425b2f39e1313947de2bf4f2e94"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::disableMultiThreading </td>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::disableMultiThreading </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -410,51 +410,51 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a8ae0f91a6882f04464d8897a7c81d174"></a>
+<a class="anchor" id="a25c1b8b9e873b04ca476b249b0090c8d"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::exec </td>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::exec </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Function to start multi-threading. Similar to <a class="el" href="classop_1_1_wrapper.html#a338b70f93bfb0ad11b7df6b8db407749">start()</a>, but <a class="el" href="classop_1_1_wrapper.html#a8ae0f91a6882f04464d8897a7c81d174">exec()</a> blocks the thread that calls the function (it saves 1 thread). Use <a class="el" href="classop_1_1_wrapper.html#a8ae0f91a6882f04464d8897a7c81d174">exec()</a> instead of <a class="el" href="classop_1_1_wrapper.html#a338b70f93bfb0ad11b7df6b8db407749">start()</a> if the calling thread will otherwise be waiting for the <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> to end. </p>
+<p>Function to start multi-threading. Similar to <a class="el" href="classop_1_1_wrapper.html#aa3df71bc06fe976e5b842bff7b2f0852">start()</a>, but <a class="el" href="classop_1_1_wrapper.html#a25c1b8b9e873b04ca476b249b0090c8d">exec()</a> blocks the thread that calls the function (it saves 1 thread). Use <a class="el" href="classop_1_1_wrapper.html#a25c1b8b9e873b04ca476b249b0090c8d">exec()</a> instead of <a class="el" href="classop_1_1_wrapper.html#aa3df71bc06fe976e5b842bff7b2f0852">start()</a> if the calling thread will otherwise be waiting for the <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> to end. </p>
 
 </div>
 </div>
-<a class="anchor" id="a51ab9e8a63f8fb822550365fc0417d01"></a>
+<a class="anchor" id="a95f2dfcdab90f6c8313265db7e65e90c"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::isRunning </td>
+          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::isRunning </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Whether the <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> is running. It will return true after <a class="el" href="classop_1_1_wrapper.html#a8ae0f91a6882f04464d8897a7c81d174">exec()</a> or <a class="el" href="classop_1_1_wrapper.html#a338b70f93bfb0ad11b7df6b8db407749">start()</a> and before <a class="el" href="classop_1_1_wrapper.html#ab71f75a631e341dde1c07abcd3a4773f">stop()</a>, and false otherwise. </p>
+<p>Whether the <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> is running. It will return true after <a class="el" href="classop_1_1_wrapper.html#a25c1b8b9e873b04ca476b249b0090c8d">exec()</a> or <a class="el" href="classop_1_1_wrapper.html#aa3df71bc06fe976e5b842bff7b2f0852">start()</a> and before <a class="el" href="classop_1_1_wrapper.html#a017367d8b6c2948bfb6d1b7d50e66594">stop()</a>, and false otherwise. </p>
 <dl class="section return"><dt>Returns</dt><dd>Boolean specifying whether the <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> is running. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a74f1287f8e4f998504e2ce571ef36f58"></a>
+<a class="anchor" id="a05386a2770f2cfd94ebf93e2fd9e30bf"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::setWorkerInput </td>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::setWorkerInput </td>
           <td>(</td>
           <td class="paramtype">const TWorker &amp;&#160;</td>
           <td class="paramname"><em>worker</em>, </td>
@@ -483,14 +483,14 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a3e9f8993c9a27a012671d671998aa15d"></a>
+<a class="anchor" id="a171cef6cc97a0d31e19c4f06a9808c47"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::setWorkerOutput </td>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::setWorkerOutput </td>
           <td>(</td>
           <td class="paramtype">const TWorker &amp;&#160;</td>
           <td class="paramname"><em>worker</em>, </td>
@@ -519,14 +519,14 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a6f2cf45c8b571b99ee92114ba8462589"></a>
+<a class="anchor" id="a23285d0a798defde17e9052596d1138b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::setWorkerPostProcessing </td>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::setWorkerPostProcessing </td>
           <td>(</td>
           <td class="paramtype">const TWorker &amp;&#160;</td>
           <td class="paramname"><em>worker</em>, </td>
@@ -555,32 +555,32 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a338b70f93bfb0ad11b7df6b8db407749"></a>
+<a class="anchor" id="aa3df71bc06fe976e5b842bff7b2f0852"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::start </td>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::start </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Function to start multi-threading. Similar to <a class="el" href="classop_1_1_wrapper.html#a8ae0f91a6882f04464d8897a7c81d174">exec()</a>, but <a class="el" href="classop_1_1_wrapper.html#a338b70f93bfb0ad11b7df6b8db407749">start()</a> does not block the thread that calls the function. It just opens new threads, so it lets the user perform other tasks meanwhile on the calling thread. VERY IMPORTANT NOTE: if the GUI is selected and OpenCV is compiled with Qt support, this option will not work. Qt needs the main thread to plot visual results, so the final GUI (which uses OpenCV) would return an exception similar to: <code>QMetaMethod::invoke: Unable to invoke methods with return values in queued connections</code>. Use <a class="el" href="classop_1_1_wrapper.html#a8ae0f91a6882f04464d8897a7c81d174">exec()</a> in that case. </p>
+<p>Function to start multi-threading. Similar to <a class="el" href="classop_1_1_wrapper.html#a25c1b8b9e873b04ca476b249b0090c8d">exec()</a>, but <a class="el" href="classop_1_1_wrapper.html#aa3df71bc06fe976e5b842bff7b2f0852">start()</a> does not block the thread that calls the function. It just opens new threads, so it lets the user perform other tasks meanwhile on the calling thread. VERY IMPORTANT NOTE: if the GUI is selected and OpenCV is compiled with Qt support, this option will not work. Qt needs the main thread to plot visual results, so the final GUI (which uses OpenCV) would return an exception similar to: <code>QMetaMethod::invoke: Unable to invoke methods with return values in queued connections</code>. Use <a class="el" href="classop_1_1_wrapper.html#a25c1b8b9e873b04ca476b249b0090c8d">exec()</a> in that case. </p>
 
 </div>
 </div>
-<a class="anchor" id="ab71f75a631e341dde1c07abcd3a4773f"></a>
+<a class="anchor" id="a017367d8b6c2948bfb6d1b7d50e66594"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::stop </td>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::stop </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -591,16 +591,16 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a081797a2abda2f91d80876ca6fbb4dbc"></a>
+<a class="anchor" id="a58da8cc0e32f92740f6167cfa4ac25ed"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::tryEmplace </td>
+          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::tryEmplace </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; TDatums &gt; &amp;&#160;</td>
+          <td class="paramtype">TDatumsSP &amp;&#160;</td>
           <td class="paramname"><em>tDatums</em></td><td>)</td>
           <td></td>
         </tr>
@@ -609,7 +609,7 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 <p>Emplace (move) an element on the first (input) queue. Only valid if <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36a288aae25bc408055f50c21c991903a44">ThreadManagerMode::Asynchronous</a> or <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36a435b3ab344c03bfc0e4530a2e75f5e44">ThreadManagerMode::AsynchronousIn</a>. If the input queue is full or the <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> was stopped, it will return false and not emplace it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tDatums</td><td>std::shared_ptr&lt;TDatums&gt; element to be emplaced. </td></tr>
+    <tr><td class="paramname">tDatums</td><td>TDatumsSP element to be emplaced. </td></tr>
   </table>
   </dd>
 </dl>
@@ -617,16 +617,16 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aafe5cbb9729cee18531bcbc5e1b2a66e"></a>
+<a class="anchor" id="ad04c94c5e038756c39482ce602f5dd30"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::tryPop </td>
+          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::tryPop </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; TDatums &gt; &amp;&#160;</td>
+          <td class="paramtype">TDatumsSP &amp;&#160;</td>
           <td class="paramname"><em>tDatums</em></td><td>)</td>
           <td></td>
         </tr>
@@ -635,7 +635,7 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 <p>Pop (retrieve) an element from the last (output) queue. Only valid if <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36a288aae25bc408055f50c21c991903a44">ThreadManagerMode::Asynchronous</a> or <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36ac68f8680ccf3a65dfcfc63356112c9f9">ThreadManagerMode::AsynchronousOut</a>. If the output queue is empty or the <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> was stopped, it will return false and not retrieve it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tDatums</td><td>std::shared_ptr&lt;TDatums&gt; element where the retrieved element will be placed. </td></tr>
+    <tr><td class="paramname">tDatums</td><td>TDatumsSP element where the retrieved element will be placed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -643,16 +643,16 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="af3316c0f86d9d7ca6e246a50d4558e75"></a>
+<a class="anchor" id="abc52281d0e798ce1f50249207307b279"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::tryPush </td>
+          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::tryPush </td>
           <td>(</td>
-          <td class="paramtype">const std::shared_ptr&lt; TDatums &gt; &amp;&#160;</td>
+          <td class="paramtype">const TDatumsSP &amp;&#160;</td>
           <td class="paramname"><em>tDatums</em></td><td>)</td>
           <td></td>
         </tr>
@@ -661,7 +661,7 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 <p>Push (copy) an element on the first (input) queue. Same as tryEmplace, but it copies the data instead of moving it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tDatums</td><td>std::shared_ptr&lt;TDatums&gt; element to be pushed. </td></tr>
+    <tr><td class="paramname">tDatums</td><td>TDatumsSP element to be pushed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -669,16 +669,16 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ab23c57fa6b88a0c0bd2348e69a3ad5d3"></a>
+<a class="anchor" id="a4aa880c0dda6b3e772a689c011152af0"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::waitAndEmplace </td>
+          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::waitAndEmplace </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; TDatums &gt; &amp;&#160;</td>
+          <td class="paramtype">TDatumsSP &amp;&#160;</td>
           <td class="paramname"><em>tDatums</em></td><td>)</td>
           <td></td>
         </tr>
@@ -687,7 +687,7 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 <p>Emplace (move) an element on the first (input) queue. Similar to tryEmplace. However, if the input queue is full, it will wait until it can emplace it. If the <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> class is stopped before adding the element, it will return false and not emplace it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tDatums</td><td>std::shared_ptr&lt;TDatums&gt; element to be emplaced. </td></tr>
+    <tr><td class="paramname">tDatums</td><td>TDatumsSP element to be emplaced. </td></tr>
   </table>
   </dd>
 </dl>
@@ -695,16 +695,16 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1eb0c88ab1eab9bc50e224d208cfb310"></a>
+<a class="anchor" id="af9f3da20646efc5728427d0e3044ded5"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::waitAndPop </td>
+          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::waitAndPop </td>
           <td>(</td>
-          <td class="paramtype">std::shared_ptr&lt; TDatums &gt; &amp;&#160;</td>
+          <td class="paramtype">TDatumsSP &amp;&#160;</td>
           <td class="paramname"><em>tDatums</em></td><td>)</td>
           <td></td>
         </tr>
@@ -713,7 +713,7 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 <p>Pop (retrieve) an element from the last (output) queue. Similar to tryPop. However, if the output queue is empty, it will wait until it can pop an element. If the <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> class is stopped before popping the element, it will return false and not retrieve it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tDatums</td><td>std::shared_ptr&lt;TDatums&gt; element where the retrieved element will be placed. </td></tr>
+    <tr><td class="paramname">tDatums</td><td>TDatumsSP element where the retrieved element will be placed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -721,16 +721,16 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="acb7c1cff00cd254216b92a0698bf2b6f"></a>
+<a class="anchor" id="a97761008b10141bfc9c5678903050097"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker , typename TQueue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TWorker, TQueue &gt;::waitAndPush </td>
+          <td class="memname">bool <a class="el" href="classop_1_1_wrapper.html">op::Wrapper</a>&lt; TDatums, TDatumsSP, TWorker, TQueue &gt;::waitAndPush </td>
           <td>(</td>
-          <td class="paramtype">const std::shared_ptr&lt; TDatums &gt; &amp;&#160;</td>
+          <td class="paramtype">const TDatumsSP &amp;&#160;</td>
           <td class="paramname"><em>tDatums</em></td><td>)</td>
           <td></td>
         </tr>
@@ -739,7 +739,7 @@ template&lt;typename TDatums , typename TWorker , typename TQueue &gt; </div>
 <p>Push (copy) an element on the first (input) queue. Same as waitAndEmplace, but it copies the data instead of moving it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">tDatums</td><td>std::shared_ptr&lt;TDatums&gt; element to be pushed. </td></tr>
+    <tr><td class="paramname">tDatums</td><td>TDatumsSP element to be pushed. </td></tr>
   </table>
   </dd>
 </dl>

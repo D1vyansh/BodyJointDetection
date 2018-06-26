@@ -27,7 +27,7 @@ var searchData=
   ['devicequeueproperties',['DeviceQueueProperties',['../namespacecl.html#a000ce6769841b11cf56253f7a0344277',1,'cl']]],
   ['difference_5ftype',['difference_type',['../classcl_1_1_s_v_m_allocator.html#aed0caac86c149d127e6d686a764e2073',1,'cl::SVMAllocator']]],
   ['dimensions',['dimensions',['../classcl_1_1_n_d_range.html#a1360e9bdd3604fd06069d1fd981eed6b',1,'cl::NDRange']]],
-  ['disablemultithreading',['disableMultiThreading',['../classop_1_1_wrapper.html#ad0d02645583cd58d11923df3aa064dc7',1,'op::Wrapper']]],
+  ['disablemultithreading',['disableMultiThreading',['../classop_1_1_wrapper.html#adeace425b2f39e1313947de2bf4f2e94',1,'op::Wrapper']]],
   ['display2d',['Display2D',['../namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a3bd9369403112127ae7db2f866002be2',1,'op']]],
   ['display3d',['Display3D',['../namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6ae18221460ca8434295f980225fd6a91b',1,'op']]],
   ['displayadam',['DisplayAdam',['../namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a442304e26339521bc296bdc47ff5fddf',1,'op']]],

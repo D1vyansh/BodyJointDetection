@@ -1,5 +1,9 @@
 var NAVTREEINDEX7 =
 {
+"open_cv_8hpp.html#ad1d0931229d15c0a8ac13d4c0ff407e2":[2,0,0,0,13,8,1],
+"open_cv_8hpp.html#ae6845e9d6fddf61cb7cb2eea7a7d4afc":[2,0,0,0,13,8,2],
+"open_cv_8hpp_source.html":[2,0,0,0,13,8],
+"pages.html":[],
 "people_json_saver_8hpp.html":[2,0,0,0,4,10],
 "people_json_saver_8hpp_source.html":[2,0,0,0,4,10],
 "person_id_extractor_8hpp.html":[2,0,0,0,12,1],
@@ -51,8 +55,9 @@ var NAVTREEINDEX7 =
 "pose_parameters_8hpp.html#a1f690bf083e250642144bf8e5d6e6d2c":[2,0,0,0,9,9,3],
 "pose_parameters_8hpp.html#a307b2c7b1506415a4ba44590fe8a7258":[2,0,0,0,9,9,10],
 "pose_parameters_8hpp.html#a3df938ef93037c534c5d342720d5fb70":[2,0,0,0,9,9,13],
-"pose_parameters_8hpp.html#a522d4552d2aeabe367f4d3bf371e6b3e":[2,0,0,0,9,9,15],
+"pose_parameters_8hpp.html#a522d4552d2aeabe367f4d3bf371e6b3e":[2,0,0,0,9,9,16],
 "pose_parameters_8hpp.html#a54a6c42a42a0a7e539061f5e30abb4bc":[2,0,0,0,9,9,9],
+"pose_parameters_8hpp.html#a59616e83eefc182f8eb6ae51d6425938":[2,0,0,0,9,9,15],
 "pose_parameters_8hpp.html#a692472b562fba051964f9ddea07b97d7":[2,0,0,0,9,9,2],
 "pose_parameters_8hpp.html#a84d87ec0e4ed3cf75a37ce99d0d25ef7":[2,0,0,0,9,9,6],
 "pose_parameters_8hpp.html#aa170c3107396e4d0e4214bb0c1b78f08":[2,0,0,0,9,9,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX7 =
 "structop_1_1_datum.html#a52d75e3273490624414f0602785bb608":[1,0,3,6,32],
 "structop_1_1_datum.html#a5429e97e0ab9b0e2209a3947af668381":[1,0,3,6,42],
 "structop_1_1_datum.html#a55dd5354e09696ed6896923755f1c85b":[1,0,3,6,41],
-"structop_1_1_datum.html#a59d455dbddc50d700809c5e102c40d4e":[1,0,3,6,30],
-"structop_1_1_datum.html#a652ac1e7de13ec9a886dece75848cfea":[1,0,3,6,45],
-"structop_1_1_datum.html#a65deddd49d0fbca81f367198fc600015":[1,0,3,6,33],
-"structop_1_1_datum.html#a6ac1ee6cd98d544c250df1e63a4e02b8":[1,0,3,6,17],
-"structop_1_1_datum.html#a6cf96c250c236a03f13da69e1d4336d9":[1,0,3,6,48],
-"structop_1_1_datum.html#a6d629b1f6f7b958fe4cf2ef4cdf57c5b":[1,0,3,6,44]
+"structop_1_1_datum.html#a59d455dbddc50d700809c5e102c40d4e":[1,0,3,6,30]
 };

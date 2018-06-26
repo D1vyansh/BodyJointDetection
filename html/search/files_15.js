@@ -39,6 +39,7 @@ var searchData=
   ['wposerenderer_2ehpp',['wPoseRenderer.hpp',['../w_pose_renderer_8hpp.html',1,'']]],
   ['wposesaver_2ehpp',['wPoseSaver.hpp',['../w_pose_saver_8hpp.html',1,'']]],
   ['wposetriangulation_2ehpp',['wPoseTriangulation.hpp',['../w_pose_triangulation_8hpp.html',1,'']]],
+  ['wqueueassembler_2ehpp',['wQueueAssembler.hpp',['../w_queue_assembler_8hpp.html',1,'']]],
   ['wqueueorderer_2ehpp',['wQueueOrderer.hpp',['../w_queue_orderer_8hpp.html',1,'']]],
   ['wrapper_2ehpp',['wrapper.hpp',['../wrapper_8hpp.html',1,'']]],
   ['wrapperauxiliary_2ehpp',['wrapperAuxiliary.hpp',['../wrapper_auxiliary_8hpp.html',1,'']]],

@@ -15,5 +15,6 @@ var pose_parameters_8hpp =
     [ "getPoseTrainedModel", "pose_parameters_8hpp.html#ade70b024ee461ae04e7233bf3937c5c6", null ],
     [ "poseBodyPartMapStringToKey", "pose_parameters_8hpp.html#a3df938ef93037c534c5d342720d5fb70", null ],
     [ "poseBodyPartMapStringToKey", "pose_parameters_8hpp.html#aacf6e688031bb116e4878b811e8dbc23", null ],
+    [ "COCO_CHALLENGE", "pose_parameters_8hpp.html#a59616e83eefc182f8eb6ae51d6425938", null ],
     [ "POSE_MAX_PEOPLE", "pose_parameters_8hpp.html#a522d4552d2aeabe367f4d3bf371e6b3e", null ]
 ];
