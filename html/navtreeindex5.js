@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"classop_1_1_webcam_reader.html":[1,0,3,94],
 "classop_1_1_webcam_reader.html#a38ccbdf61f21fba0694362077cb6bdb1":[1,0,3,94,2],
 "classop_1_1_webcam_reader.html#a58c315e577c12486e5ab1b941d4cce04":[1,0,3,94,6],
 "classop_1_1_webcam_reader.html#a71212bd9e00be96b09650e86d465b42c":[1,0,3,94,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "functions_func_m.html":[1,3,1,12],
 "functions_func_n.html":[1,3,1,13],
 "functions_func_o.html":[1,3,1,14],
-"functions_func_p.html":[1,3,1,15],
-"functions_func_q.html":[1,3,1,16]
+"functions_func_p.html":[1,3,1,15]
 };

@@ -10,6 +10,7 @@ var classop_1_1_queue_base =
     [ "forcePush", "classop_1_1_queue_base.html#ad124d414b7c2680e5312ee163d18410f", null ],
     [ "front", "classop_1_1_queue_base.html#aad7a6a666dcf70834d9d18ae6d92cb2c", null ],
     [ "getMaxSize", "classop_1_1_queue_base.html#a25255992523051f7d2a82694ffe7a1cf", null ],
+    [ "isFull", "classop_1_1_queue_base.html#af141ad8b11578e8cbc7ec07cb1819cf8", null ],
     [ "isRunning", "classop_1_1_queue_base.html#a42a873f65588219449e21ac4927311d7", null ],
     [ "pop", "classop_1_1_queue_base.html#a5b28915cc58e040aca673bdfdf7c8be3", null ],
     [ "size", "classop_1_1_queue_base.html#a12cdec56bfe72e722ecc722774989d1b", null ],

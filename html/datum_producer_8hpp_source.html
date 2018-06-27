@@ -206,9 +206,9 @@ $(document).ready(function(){initNavTree('datum_producer_8hpp_source.html','');}
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                    spVideoSeek-&gt;second = 0;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                }</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                <span class="keyword">auto</span> nextFrameName = spProducer-&gt;getNextFrameName();</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                <span class="keyword">auto</span> nextFrameNumber = (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> long)spProducer-&gt;get(CV_CAP_PROP_POS_FRAMES);</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                <span class="keyword">auto</span> cvMats = spProducer-&gt;getFrames();</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                <span class="keyword">auto</span> cameraMatrices = spProducer-&gt;getCameraMatrices();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                <span class="keyword">const</span> <span class="keyword">auto</span> nextFrameNumber = (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> long)spProducer-&gt;get(CV_CAP_PROP_POS_FRAMES);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                <span class="keyword">const</span> <span class="keyword">auto</span> cvMats = spProducer-&gt;getFrames();</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                <span class="keyword">const</span> <span class="keyword">auto</span> cameraMatrices = spProducer-&gt;getCameraMatrices();</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                <span class="keyword">auto</span> cameraExtrinsics = spProducer-&gt;getCameraExtrinsics();</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                <span class="keyword">auto</span> cameraIntrinsics = spProducer-&gt;getCameraIntrinsics();</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                <span class="comment">// Check frames are not empty</span></div>

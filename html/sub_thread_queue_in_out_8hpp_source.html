@@ -165,42 +165,49 @@ $(document).ready(function(){initNavTree('sub_thread_queue_in_out_8hpp_source.ht
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="comment">// If output queue running -&gt; normal operation</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                <span class="comment">// Pop TDatums</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                TDatums tDatums;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <span class="keywordtype">bool</span> workersAreRunning = <a class="code" href="namespaceop.html#a55207f49aadd5f79e75251d6ccfad1fc">spTQueueIn</a>-&gt;tryPop(tDatums);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <span class="comment">// Check queue not stopped</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                <span class="keywordflow">if</span> (!workersAreRunning)</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                    workersAreRunning = <a class="code" href="namespaceop.html#a55207f49aadd5f79e75251d6ccfad1fc">spTQueueIn</a>-&gt;isRunning();</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <span class="comment">// Process TDatums</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                workersAreRunning = this-&gt;workTWorkers(tDatums, workersAreRunning);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <span class="comment">// Push/emplace tDatums if successfully processed</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                <span class="keywordflow">if</span> (workersAreRunning)</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                    <span class="keywordflow">if</span> (tDatums != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                        <a class="code" href="namespaceop.html#a5180d62b9273c9d0712f686531ee0aea">spTQueueOut</a>-&gt;waitAndEmplace(tDatums);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                }</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                <span class="comment">// Close both queues otherwise</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                    <a class="code" href="namespaceop.html#a55207f49aadd5f79e75251d6ccfad1fc">spTQueueIn</a>-&gt;stop();</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                    <a class="code" href="namespaceop.html#a5180d62b9273c9d0712f686531ee0aea">spTQueueOut</a>-&gt;stopPusher();</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                <span class="keywordflow">return</span> workersAreRunning;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            }</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        }</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e)</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <a class="code" href="namespaceop.html#a5f092bd36c716a894cb035e1ead2aca3">error</a>(e.what(), __LINE__, __FUNCTION__, __FILE__);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <a class="code" href="namespaceop.html#a55207f49aadd5f79e75251d6ccfad1fc">spTQueueIn</a>-&gt;stop();</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <a class="code" href="namespaceop.html#a5180d62b9273c9d0712f686531ee0aea">spTQueueOut</a>-&gt;stop();</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                <span class="comment">// Don&#39;t work until next queue is not full</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                <span class="comment">// This reduces latency to half</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <span class="keywordflow">if</span> (!<a class="code" href="namespaceop.html#a5180d62b9273c9d0712f686531ee0aea">spTQueueOut</a>-&gt;isFull())</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                    <span class="comment">// Pop TDatums</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                    TDatums tDatums;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                    <span class="keywordtype">bool</span> workersAreRunning = <a class="code" href="namespaceop.html#a55207f49aadd5f79e75251d6ccfad1fc">spTQueueIn</a>-&gt;tryPop(tDatums);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    <span class="comment">// Check queue not stopped</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                    <span class="keywordflow">if</span> (!workersAreRunning)</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                        workersAreRunning = <a class="code" href="namespaceop.html#a55207f49aadd5f79e75251d6ccfad1fc">spTQueueIn</a>-&gt;isRunning();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                    <span class="comment">// Process TDatums</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                    workersAreRunning = this-&gt;workTWorkers(tDatums, workersAreRunning);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                    <span class="comment">// Push/emplace tDatums if successfully processed</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                    <span class="keywordflow">if</span> (workersAreRunning)</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                    {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                        <span class="keywordflow">if</span> (tDatums != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                            <a class="code" href="namespaceop.html#a5180d62b9273c9d0712f686531ee0aea">spTQueueOut</a>-&gt;waitAndEmplace(tDatums);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                    }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                    <span class="comment">// Close both queues otherwise</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                    {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                        <a class="code" href="namespaceop.html#a55207f49aadd5f79e75251d6ccfad1fc">spTQueueIn</a>-&gt;stop();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                        <a class="code" href="namespaceop.html#a5180d62b9273c9d0712f686531ee0aea">spTQueueOut</a>-&gt;stopPusher();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                    }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                    <span class="keywordflow">return</span> workersAreRunning;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            }</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        }</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="namespaceop.html#a53f346232d0743f3dd0f547de1fc508f">COMPILE_TEMPLATE_DATUM</a>(SubThreadQueueInOut);</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#endif // OPENPOSE_THREAD_THREAD_QUEUE_IN_OUT_HPP</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e)</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <a class="code" href="namespaceop.html#a5f092bd36c716a894cb035e1ead2aca3">error</a>(e.what(), __LINE__, __FUNCTION__, __FILE__);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <a class="code" href="namespaceop.html#a55207f49aadd5f79e75251d6ccfad1fc">spTQueueIn</a>-&gt;stop();</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <a class="code" href="namespaceop.html#a5180d62b9273c9d0712f686531ee0aea">spTQueueOut</a>-&gt;stop();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="namespaceop.html#a53f346232d0743f3dd0f547de1fc508f">COMPILE_TEMPLATE_DATUM</a>(SubThreadQueueInOut);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;}</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">#endif // OPENPOSE_THREAD_THREAD_QUEUE_IN_OUT_HPP</span></div>
 <div class="ttc" id="classop_1_1_sub_thread_html"><div class="ttname"><a href="classop_1_1_sub_thread.html">op::SubThread</a></div><div class="ttdef"><b>Definition:</b> subThread.hpp:10</div></div>
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
 <div class="ttc" id="namespaceop_html_a5f092bd36c716a894cb035e1ead2aca3"><div class="ttname"><a href="namespaceop.html#a5f092bd36c716a894cb035e1ead2aca3">op::error</a></div><div class="ttdeci">OP_API void error(const std::string &amp;message, const int line=-1, const std::string &amp;function=&quot;&quot;, const std::string &amp;file=&quot;&quot;)</div></div>
