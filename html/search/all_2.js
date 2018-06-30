@@ -8,6 +8,7 @@ var searchData=
   ['cameraparameterreader',['CameraParameterReader',['../classop_1_1_camera_parameter_reader.html',1,'op']]],
   ['cameraparameterreader',['CameraParameterReader',['../classop_1_1_camera_parameter_reader.html#ab7a4c3ef7ac8d8a41e5711ec85b7be4b',1,'op::CameraParameterReader::CameraParameterReader()'],['../classop_1_1_camera_parameter_reader.html#a5d59c888ef90281712838d7673f1b7d7',1,'op::CameraParameterReader::CameraParameterReader(const std::string &amp;serialNumber, const cv::Mat &amp;cameraIntrinsics, const cv::Mat &amp;cameraDistortion, const cv::Mat &amp;cameraExtrinsics=cv::Mat())']]],
   ['cameraparameterreader_2ehpp',['cameraParameterReader.hpp',['../camera_parameter_reader_8hpp.html',1,'']]],
+  ['car_5f12',['CAR_12',['../namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa66ae79a5ac5fa502ae8bbecd3e07e71c',1,'op']]],
   ['center',['center',['../structop_1_1_rectangle.html#a5db1a105c3b95578a7532ce85e9f562c',1,'op::Rectangle']]],
   ['charround',['charRound',['../namespaceop.html#abbf62284718858335848e43bbeafb192',1,'op']]],
   ['check',['check',['../namespaceop.html#a9923237964bf29b59bb135478e929546',1,'op']]],
