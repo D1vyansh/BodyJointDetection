@@ -23,7 +23,6 @@ var searchData=
   ['flagstoscalemode',['flagsToScaleMode',['../namespaceop.html#ac3bebe88bedbd7785d48159c8e3f0515',1,'op']]],
   ['flipandrotate',['flipAndRotate',['../classop_1_1_producer.html#aa1a13db305c7ab6a596a0dad122066cb',1,'op::Producer']]],
   ['flirreader',['FlirReader',['../classop_1_1_flir_reader.html#a8fa5c03b6ce95372ce47013c01c782a5',1,'op::FlirReader']]],
-  ['floatptrtoucharcvmat',['floatPtrToUCharCvMat',['../namespaceop.html#a9cd0c6d2db81cd1de7568d805ef214ba',1,'op']]],
   ['flush',['flush',['../classcl_1_1_command_queue.html#a4349d9530f98d7544d1ddb5cbcc053bd',1,'cl::CommandQueue::flush()'],['../namespacecl.html#aec3275453ec57a74dfa7a34653cfa194',1,'cl::flush()']]],
   ['forceemplace',['forceEmplace',['../classop_1_1_queue_base.html#a8d218f599b84194909691c72ee0de8d0',1,'op::QueueBase']]],
   ['forcepush',['forcePush',['../classop_1_1_queue_base.html#ad124d414b7c2680e5312ee163d18410f',1,'op::QueueBase']]],

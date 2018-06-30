@@ -1,6 +1,5 @@
 var open_cv_8hpp =
 [
-    [ "floatPtrToUCharCvMat", "open_cv_8hpp.html#a9cd0c6d2db81cd1de7568d805ef214ba", null ],
     [ "putTextOnCvMat", "open_cv_8hpp.html#ad1d0931229d15c0a8ac13d4c0ff407e2", null ],
     [ "resizeFixedAspectRatio", "open_cv_8hpp.html#ae6845e9d6fddf61cb7cb2eea7a7d4afc", null ],
     [ "resizeGetScaleFactor", "open_cv_8hpp.html#a24ebdcb8395dea0429f220de6a715d6e", null ],
