@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['generateinitialsubsets',['generateInitialSubsets',['../namespaceop.html#a010b3f1a08cfb1d22ac57c2b8b6f52db',1,'op']]],
   ['get',['get',['../classcl_1_1detail_1_1_wrapper.html#ad247cdf1da7fa5b9b6d9a8267036a984',1,'cl::detail::Wrapper::get() const '],['../classcl_1_1detail_1_1_wrapper.html#a4e9571071a0b51bb2fada511a1ebc964',1,'cl::detail::Wrapper::get()'],['../classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#a9ac8706ccd45f3f609d6683d71d36c20',1,'cl::detail::Wrapper&lt; cl_device_id &gt;::get() const '],['../classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#aad0cbce396cc3ff3b73be767ce783286',1,'cl::detail::Wrapper&lt; cl_device_id &gt;::get()'],['../classcl_1_1_platform.html#af15bd8dced161daee0c5289178c8a0e1',1,'cl::Platform::get(vector&lt; Platform &gt; *platforms)'],['../classcl_1_1_platform.html#a2a60edf4cfdfda695919c2879a9ae64e',1,'cl::Platform::get(Platform *platform)'],['../classcl_1_1_platform.html#a87f6baad09c31e9f2bc8755a61439d04',1,'cl::Platform::get(cl_int *errResult=NULL)'],['../classcl_1_1_n_d_range.html#a9a72f7d2a096f981c1b6774144e7450e',1,'cl::NDRange::get()'],['../classcl_1_1_n_d_range.html#a8e99e2b3b1c675631c0aef1a3ced2628',1,'cl::NDRange::get() const '],['../classop_1_1_pose_extractor_net.html#a4c15a5d96caeae02d10b9fc3ff49e7cb',1,'op::PoseExtractorNet::get()'],['../classop_1_1_flir_reader.html#a5101cdbcd46e51bf7f35995a3d87e900',1,'op::FlirReader::get()'],['../classop_1_1_image_directory_reader.html#aa05bfd69272e81115ba23a3c0731b596',1,'op::ImageDirectoryReader::get()'],['../classop_1_1_ip_camera_reader.html#aa7ad6adac6e401193e03d279176dd889',1,'op::IpCameraReader::get()'],['../classop_1_1_producer.html#a366881a952ad34071cc719477f08b968',1,'op::Producer::get(const int capProperty)=0'],['../classop_1_1_producer.html#a94d561f95384dfa0cd91113882869d06',1,'op::Producer::get(const ProducerProperty property)'],['../classop_1_1_video_capture_reader.html#a64e5cbfb1c556d64cabcebc6eb94eaf1',1,'op::VideoCaptureReader::get()'],['../classop_1_1_video_reader.html#a057a7d0c498c48639b38c10ac7efc183',1,'op::VideoReader::get()'],['../classop_1_1_webcam_reader.html#a38ccbdf61f21fba0694362077cb6bdb1',1,'op::WebcamReader::get()']]],
   ['getalphaheatmap',['getAlphaHeatMap',['../classop_1_1_renderer.html#a503d7fdba655b14348769ad3f69b6c00',1,'op::Renderer']]],
   ['getalphakeypoint',['getAlphaKeypoint',['../classop_1_1_renderer.html#ac4df12764776ba2e27c71a3c4181f647',1,'op::Renderer']]],
@@ -112,15 +113,15 @@ var searchData=
   ['gpurenderer_2ehpp',['gpuRenderer.hpp',['../gpu_renderer_8hpp.html',1,'']]],
   ['gputocpumemoryiflastrenderer',['gpuToCpuMemoryIfLastRenderer',['../classop_1_1_gpu_renderer.html#a6355f70d16c6427b028fa4596ce5d985',1,'op::GpuRenderer']]],
   ['gridpatternfunctions_2ehpp',['gridPatternFunctions.hpp',['../grid_pattern_functions_8hpp.html',1,'']]],
-  ['gui',['Gui',['../classop_1_1_gui.html#a1084d79f61d08f0551832de1ca337c70',1,'op::Gui']]],
   ['gui',['Gui',['../classop_1_1_gui.html',1,'op']]],
+  ['gui',['Gui',['../classop_1_1_gui.html#a1084d79f61d08f0551832de1ca337c70',1,'op::Gui']]],
   ['gui_2ehpp',['gui.hpp',['../gui_8hpp.html',1,'']]],
-  ['gui3d',['Gui3D',['../classop_1_1_gui3_d.html#a7146b02ee5c009f879ddfea2145fea34',1,'op::Gui3D']]],
   ['gui3d',['Gui3D',['../classop_1_1_gui3_d.html',1,'op']]],
+  ['gui3d',['Gui3D',['../classop_1_1_gui3_d.html#a7146b02ee5c009f879ddfea2145fea34',1,'op::Gui3D']]],
   ['gui3d_2ehpp',['gui3D.hpp',['../gui3_d_8hpp.html',1,'']]],
   ['guiadam_2ehpp',['guiAdam.hpp',['../gui_adam_8hpp.html',1,'']]],
-  ['guiinfoadder',['GuiInfoAdder',['../classop_1_1_gui_info_adder.html#af23e17f9eeb51c7473cd0940292efa61',1,'op::GuiInfoAdder']]],
   ['guiinfoadder',['GuiInfoAdder',['../classop_1_1_gui_info_adder.html',1,'op']]],
+  ['guiinfoadder',['GuiInfoAdder',['../classop_1_1_gui_info_adder.html#af23e17f9eeb51c7473cd0940292efa61',1,'op::GuiInfoAdder']]],
   ['guiinfoadder_2ehpp',['guiInfoAdder.hpp',['../gui_info_adder_8hpp.html',1,'']]],
   ['guiverbose',['guiVerbose',['../structop_1_1_wrapper_struct_output.html#ac72ad601daf957b9b000206e9f1fe0ad',1,'op::WrapperStructOutput']]]
 ];

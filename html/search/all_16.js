@@ -141,7 +141,7 @@ var searchData=
   ['wrapper_3c_20cl_5fprogram_20_3e',['Wrapper&lt; cl_program &gt;',['../classcl_1_1detail_1_1_wrapper.html',1,'cl::detail']]],
   ['wrapper_3c_20cl_5fsampler_20_3e',['Wrapper&lt; cl_sampler &gt;',['../classcl_1_1detail_1_1_wrapper.html',1,'cl::detail']]],
   ['wrapperauxiliary_2ehpp',['wrapperAuxiliary.hpp',['../wrapper_auxiliary_8hpp.html',1,'']]],
-  ['wrapperconfiguresecuritychecks',['wrapperConfigureSecurityChecks',['../namespaceop.html#afd30dfbad5ada556a6856a9c8774dce5',1,'op']]],
+  ['wrapperconfiguresecuritychecks',['wrapperConfigureSecurityChecks',['../namespaceop.html#ac4b779992da90d211f928b3d906d8708',1,'op']]],
   ['wrapperstructextra',['WrapperStructExtra',['../structop_1_1_wrapper_struct_extra.html#a70cdc27c953962810333fafe011f86dd',1,'op::WrapperStructExtra']]],
   ['wrapperstructextra',['WrapperStructExtra',['../structop_1_1_wrapper_struct_extra.html',1,'op']]],
   ['wrapperstructextra_2ehpp',['wrapperStructExtra.hpp',['../wrapper_struct_extra_8hpp.html',1,'']]],
