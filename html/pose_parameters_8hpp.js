@@ -11,6 +11,7 @@ var pose_parameters_8hpp =
     [ "getPoseNetDecreaseFactor", "pose_parameters_8hpp.html#ad7ca8d89f9045481075902c8bd98b8f4", null ],
     [ "getPoseNumberBodyParts", "pose_parameters_8hpp.html#a54a6c42a42a0a7e539061f5e30abb4bc", null ],
     [ "getPosePartPairs", "pose_parameters_8hpp.html#a307b2c7b1506415a4ba44590fe8a7258", null ],
+    [ "getPosePartPairsStar", "pose_parameters_8hpp.html#a08faf0098cf621b92b30e8e37dc1d6c1", null ],
     [ "getPoseProtoTxt", "pose_parameters_8hpp.html#ae0730c6559abdb976423ecf81eac4620", null ],
     [ "getPoseTrainedModel", "pose_parameters_8hpp.html#ade70b024ee461ae04e7233bf3937c5c6", null ],
     [ "poseBodyPartMapStringToKey", "pose_parameters_8hpp.html#a3df938ef93037c534c5d342720d5fb70", null ],

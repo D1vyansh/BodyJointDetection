@@ -80,6 +80,7 @@ var searchData=
   ['getposenetdecreasefactor',['getPoseNetDecreaseFactor',['../namespaceop.html#ad7ca8d89f9045481075902c8bd98b8f4',1,'op']]],
   ['getposenumberbodyparts',['getPoseNumberBodyParts',['../namespaceop.html#a54a6c42a42a0a7e539061f5e30abb4bc',1,'op']]],
   ['getposepartpairs',['getPosePartPairs',['../namespaceop.html#a307b2c7b1506415a4ba44590fe8a7258',1,'op']]],
+  ['getposepartpairsstar',['getPosePartPairsStar',['../namespaceop.html#a08faf0098cf621b92b30e8e37dc1d6c1',1,'op']]],
   ['getposeprototxt',['getPoseProtoTxt',['../namespaceop.html#ae0730c6559abdb976423ecf81eac4620',1,'op']]],
   ['getposescales',['getPoseScales',['../namespaceop.html#a016abefba53293ed2ffe3a3c3bd88dd0',1,'op']]],
   ['getposescores',['getPoseScores',['../classop_1_1_pose_extractor.html#a99e7a656f0bace55402a187e9326ded1',1,'op::PoseExtractor::getPoseScores()'],['../classop_1_1_pose_extractor_net.html#a0701aa424ed036d68ad068b2db5eb803',1,'op::PoseExtractorNet::getPoseScores()']]],
