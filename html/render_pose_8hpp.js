@@ -1,5 +1,6 @@
 var render_pose_8hpp =
 [
+    [ "renderPoseDistance", "render_pose_8hpp.html#aaaa8fe7bb8ed4d5aada483e45cdec576", null ],
     [ "renderPoseHeatMapGpu", "render_pose_8hpp.html#a9a3b197334a6a606f85eea43128a9a46", null ],
     [ "renderPoseHeatMapsGpu", "render_pose_8hpp.html#aa01e90a66388f8ced55d0aa61fb205a1", null ],
     [ "renderPoseKeypointsCpu", "render_pose_8hpp.html#a99a08148f440bd96546076e15f0de04c", null ],

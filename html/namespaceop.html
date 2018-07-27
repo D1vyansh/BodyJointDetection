@@ -454,7 +454,8 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fadbaf53bb16512afd613bbec1d1f0dc25">PoseModel::BODY_65</a>, 
 <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa66ae79a5ac5fa502ae8bbecd3e07e71c">PoseModel::CAR_12</a>, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719">PoseModel::Size</a>
+&#160;&#160;<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa529c87ac399e5fd6f0fa4a360c032568">PoseModel::BODY_25D</a>, 
+<a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719">PoseModel::Size</a>
 <br/>
  }</td></tr>
 <tr class="separator:af5b3ce2a5d3de87cb31b9b67e96f261f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -743,6 +744,8 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:a832678e25561cd77d174847b0dddc6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e2c7f463bbbbe9665faa46c073cc5ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7e2c7f463bbbbe9665faa46c073cc5ac">renderPosePAFsGpu</a> (float *framePtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatmapPtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatmapSize, const float scaleToKeepRatio, const float alphaBlending=<a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a>)</td></tr>
 <tr class="separator:a7e2c7f463bbbbe9665faa46c073cc5ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa8fe7bb8ed4d5aada483e45cdec576"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aaaa8fe7bb8ed4d5aada483e45cdec576">renderPoseDistance</a> (float *framePtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatMapPtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const float scaleToKeepRatio, const int part, const int numberBodyParts, const int numberBodyPAFs, const float alphaBlending)</td></tr>
+<tr class="separator:aaaa8fe7bb8ed4d5aada483e45cdec576"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a020603e3ad6326cb1dce43485157f768"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a020603e3ad6326cb1dce43485157f768">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_pose_extractor.html">WPoseExtractor</a>)</td></tr>
 <tr class="separator:a020603e3ad6326cb1dce43485157f768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1e242b1ae7ff3300324fbfedebb52fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ab1e242b1ae7ff3300324fbfedebb52fc">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_pose_extractor_net.html">WPoseExtractorNet</a>)</td></tr>
@@ -1359,6 +1362,9 @@ Variables</h2></td></tr>
 <p>Experimental. Do not use. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa66ae79a5ac5fa502ae8bbecd3e07e71c"></a>CAR_12</em>&#160;</td><td class="fielddoc">
+<p>Experimental. Do not use. </p>
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa529c87ac399e5fd6f0fa4a360c032568"></a>BODY_25D</em>&#160;</td><td class="fielddoc">
 <p>Experimental. Do not use. </p>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719"></a>Size</em>&#160;</td><td class="fielddoc">
@@ -2076,22 +2082,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a5660f0e72781ce6d7db9eb78b582e5c6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WorkerProducer&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a01aa5c6e24026536367cf47a64e9bba5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2100,6 +2090,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WorkerConsumer&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5660f0e72781ce6d7db9eb78b582e5c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WorkerProducer&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2156,22 +2162,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1d9f50688522ed7368acc33a09ae9ece"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WOpOutputToCvMat&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a0424a8e4dc8ceb5e8d8a2230c157a7fd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2180,38 +2170,6 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WHandDetector&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a361310c59d16e88a4d2450a80f078f01"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WHandDetectorTracking&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a674a652ad38b355285417529fc050847"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WPersonIdExtractor&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2236,6 +2194,38 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a361310c59d16e88a4d2450a80f078f01"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WHandDetectorTracking&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1d9f50688522ed7368acc33a09ae9ece"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WOpOutputToCvMat&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a5cc3f625b2644b1aade85a9458b5503a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2244,6 +2234,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WHandDetectorUpdate&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a674a652ad38b355285417529fc050847"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WPersonIdExtractor&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -5997,6 +6003,74 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td class="paramtype">const float&#160;</td>
           <td class="paramname"><em>threshold</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaaa8fe7bb8ed4d5aada483e45cdec576"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void op::renderPoseDistance </td>
+          <td>(</td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>framePtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Point&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>frameSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *const&#160;</td>
+          <td class="paramname"><em>heatMapPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Point&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>heatMapSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>scaleToKeepRatio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>part</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>numberBodyParts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>numberBodyPAFs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>alphaBlending</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
