@@ -682,9 +682,9 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a010b3f1a08cfb1d22ac57c2b8b6f52db"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; std::pair<br class="typebreak"/>
 &lt; std::vector&lt; int &gt;, double &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a010b3f1a08cfb1d22ac57c2b8b6f52db">generateInitialSubsets</a> (const T *const heatMapPtr, const T *const peaksPtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const int maxPeaks, const T interThreshold, const T interMinAboveThreshold, const std::vector&lt; unsigned int &gt; &amp;bodyPartPairs, const unsigned int numberBodyParts, const unsigned int numberBodyPartPairs, const unsigned int subsetCounterIndex)</td></tr>
 <tr class="separator:a010b3f1a08cfb1d22ac57c2b8b6f52db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c91d298fdc65dc2cfa967e47ceda1d3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a6c91d298fdc65dc2cfa967e47ceda1d3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6c91d298fdc65dc2cfa967e47ceda1d3">removeSubsetsBelowThresholds</a> (std::vector&lt; int &gt; &amp;validSubsetIndexes, int &amp;numberPeople, const std::vector&lt; std::pair&lt; std::vector&lt; int &gt;, double &gt;&gt; &amp;subsets, const unsigned int subsetCounterIndex, const unsigned int numberBodyParts, const int minSubsetCnt, const T minSubsetScore)</td></tr>
-<tr class="separator:a6c91d298fdc65dc2cfa967e47ceda1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa14183f5226b602154559fc94d49dff"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afa14183f5226b602154559fc94d49dff"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#afa14183f5226b602154559fc94d49dff">removeSubsetsBelowThresholds</a> (std::vector&lt; int &gt; &amp;validSubsetIndexes, int &amp;numberPeople, const std::vector&lt; std::pair&lt; std::vector&lt; int &gt;, double &gt;&gt; &amp;subsets, const unsigned int subsetCounterIndex, const unsigned int numberBodyParts, const int minSubsetCnt, const T minSubsetScore, const int maxPeaks)</td></tr>
+<tr class="separator:afa14183f5226b602154559fc94d49dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7840872b74edcb234b70e396fa35d7d6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a7840872b74edcb234b70e396fa35d7d6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7840872b74edcb234b70e396fa35d7d6">subsetsToPoseKeypointsAndScores</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores, const T scaleFactor, const std::vector&lt; std::pair&lt; std::vector&lt; int &gt;, double &gt;&gt; &amp;subsets, const std::vector&lt; int &gt; &amp;validSubsetIndexes, const T *const peaksPtr, const int numberPeople, const unsigned int numberBodyParts, const unsigned int numberBodyPartPairs)</td></tr>
 <tr class="separator:a7840872b74edcb234b70e396fa35d7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -736,16 +736,16 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:a99a08148f440bd96546076e15f0de04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab79ad497b3b69db2d233656a2e97bc63"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ab79ad497b3b69db2d233656a2e97bc63">renderPoseKeypointsGpu</a> (float *framePtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const int numberPeople, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const posePtr, const float renderThreshold, const bool googlyEyes=false, const bool blendOriginalFrame=true, const float alphaBlending=<a class="el" href="namespaceop.html#a21fcb98366f6ea8895fc7f527f232db5">POSE_DEFAULT_ALPHA_KEYPOINT</a>)</td></tr>
 <tr class="separator:ab79ad497b3b69db2d233656a2e97bc63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a3b197334a6a606f85eea43128a9a46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a9a3b197334a6a606f85eea43128a9a46">renderPoseHeatMapGpu</a> (float *frame, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatmap, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatmapSize, const float scaleToKeepRatio, const int part, const float alphaBlending=<a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a>)</td></tr>
-<tr class="separator:a9a3b197334a6a606f85eea43128a9a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa01e90a66388f8ced55d0aa61fb205a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aa01e90a66388f8ced55d0aa61fb205a1">renderPoseHeatMapsGpu</a> (float *frame, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatmap, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatmapSize, const float scaleToKeepRatio, const float alphaBlending=<a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a>)</td></tr>
-<tr class="separator:aa01e90a66388f8ced55d0aa61fb205a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a832678e25561cd77d174847b0dddc6bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a832678e25561cd77d174847b0dddc6bb">renderPosePAFGpu</a> (float *framePtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatmapPtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatmapSize, const float scaleToKeepRatio, const int part, const float alphaBlending=<a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a>)</td></tr>
-<tr class="separator:a832678e25561cd77d174847b0dddc6bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e2c7f463bbbbe9665faa46c073cc5ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7e2c7f463bbbbe9665faa46c073cc5ac">renderPosePAFsGpu</a> (float *framePtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatmapPtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatmapSize, const float scaleToKeepRatio, const float alphaBlending=<a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a>)</td></tr>
-<tr class="separator:a7e2c7f463bbbbe9665faa46c073cc5ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaa8fe7bb8ed4d5aada483e45cdec576"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aaaa8fe7bb8ed4d5aada483e45cdec576">renderPoseDistance</a> (float *framePtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatMapPtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const float scaleToKeepRatio, const int part, const int numberBodyParts, const int numberBodyPAFs, const float alphaBlending)</td></tr>
-<tr class="separator:aaaa8fe7bb8ed4d5aada483e45cdec576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f851b71bd5136ae78a1b63ddb228ed4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1f851b71bd5136ae78a1b63ddb228ed4">renderPoseHeatMapGpu</a> (float *frame, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatMapPtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const float scaleToKeepRatio, const int part, const float alphaBlending=<a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a>)</td></tr>
+<tr class="separator:a1f851b71bd5136ae78a1b63ddb228ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5afd7c8ba1a5db63538d1f0182fb83b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a5afd7c8ba1a5db63538d1f0182fb83b4">renderPoseHeatMapsGpu</a> (float *frame, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatMapPtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const float scaleToKeepRatio, const float alphaBlending=<a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a>)</td></tr>
+<tr class="separator:a5afd7c8ba1a5db63538d1f0182fb83b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfce844d710e62e639e0c0610da1f809"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#adfce844d710e62e639e0c0610da1f809">renderPosePAFGpu</a> (float *framePtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatMapPtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const float scaleToKeepRatio, const int part, const float alphaBlending=<a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a>)</td></tr>
+<tr class="separator:adfce844d710e62e639e0c0610da1f809"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09b876085ca58aea2553b1b8039854c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a09b876085ca58aea2553b1b8039854c8">renderPosePAFsGpu</a> (float *framePtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatMapPtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const float scaleToKeepRatio, const float alphaBlending=<a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a>)</td></tr>
+<tr class="separator:a09b876085ca58aea2553b1b8039854c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae45299199877cae41fb2c71ab65d4508"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ae45299199877cae41fb2c71ab65d4508">renderPoseDistance</a> (float *framePtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const heatMapPtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const float scaleToKeepRatio, const int part, const float alphaBlending=<a class="el" href="namespaceop.html#af45cddacd69fff73a4ea4acbbbac43e0">POSE_DEFAULT_ALPHA_HEAT_MAP</a>)</td></tr>
+<tr class="separator:ae45299199877cae41fb2c71ab65d4508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a020603e3ad6326cb1dce43485157f768"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a020603e3ad6326cb1dce43485157f768">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_pose_extractor.html">WPoseExtractor</a>)</td></tr>
 <tr class="separator:a020603e3ad6326cb1dce43485157f768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1e242b1ae7ff3300324fbfedebb52fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ab1e242b1ae7ff3300324fbfedebb52fc">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_pose_extractor_net.html">WPoseExtractorNet</a>)</td></tr>
@@ -5730,7 +5730,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a6c91d298fdc65dc2cfa967e47ceda1d3"></a>
+<a class="anchor" id="afa14183f5226b602154559fc94d49dff"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -5776,7 +5776,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>minSubsetScore</em>&#160;</td>
+          <td class="paramname"><em>minSubsetScore</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>maxPeaks</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -6014,7 +6020,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aaaa8fe7bb8ed4d5aada483e45cdec576"></a>
+<a class="anchor" id="ae45299199877cae41fb2c71ab65d4508"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -6023,6 +6029,12 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">float *&#160;</td>
           <td class="paramname"><em>framePtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PoseModel&#160;</td>
+          <td class="paramname"><em>poseModel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -6057,20 +6069,8 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>numberBodyParts</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>numberBodyPAFs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">const float&#160;</td>
-          <td class="paramname"><em>alphaBlending</em>&#160;</td>
+          <td class="paramname"><em>alphaBlending</em> = <code>POSE_DEFAULT_ALPHA_HEAT_MAP</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -6082,7 +6082,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a9a3b197334a6a606f85eea43128a9a46"></a>
+<a class="anchor" id="a1f851b71bd5136ae78a1b63ddb228ed4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -6108,13 +6108,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const float *const&#160;</td>
-          <td class="paramname"><em>heatmap</em>, </td>
+          <td class="paramname"><em>heatMapPtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const Point&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>heatmapSize</em>, </td>
+          <td class="paramname"><em>heatMapSize</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -6144,7 +6144,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aa01e90a66388f8ced55d0aa61fb205a1"></a>
+<a class="anchor" id="a5afd7c8ba1a5db63538d1f0182fb83b4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -6170,13 +6170,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const float *const&#160;</td>
-          <td class="paramname"><em>heatmap</em>, </td>
+          <td class="paramname"><em>heatMapPtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const Point&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>heatmapSize</em>, </td>
+          <td class="paramname"><em>heatMapSize</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -6312,7 +6312,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a832678e25561cd77d174847b0dddc6bb"></a>
+<a class="anchor" id="adfce844d710e62e639e0c0610da1f809"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -6338,13 +6338,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const float *const&#160;</td>
-          <td class="paramname"><em>heatmapPtr</em>, </td>
+          <td class="paramname"><em>heatMapPtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const Point&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>heatmapSize</em>, </td>
+          <td class="paramname"><em>heatMapSize</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -6374,7 +6374,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a7e2c7f463bbbbe9665faa46c073cc5ac"></a>
+<a class="anchor" id="a09b876085ca58aea2553b1b8039854c8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -6400,13 +6400,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const float *const&#160;</td>
-          <td class="paramname"><em>heatmapPtr</em>, </td>
+          <td class="paramname"><em>heatMapPtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const Point&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>heatmapSize</em>, </td>
+          <td class="paramname"><em>heatMapSize</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
