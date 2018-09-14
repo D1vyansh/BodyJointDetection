@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"functions_func_m.html":[1,3,1,12],
 "functions_func_n.html":[1,3,1,13],
 "functions_func_o.html":[1,3,1,14],
 "functions_func_p.html":[1,3,1,15],
@@ -182,8 +183,8 @@ var NAVTREEINDEX6 =
 "namespacecl_1_1compatibility.html":[0,0,2,0],
 "namespacecl_1_1detail.html":[0,0,2,1],
 "namespacecl_1_1detail.html":[1,0,2,1],
-"namespacemembers.html":[0,1,0,0],
 "namespacemembers.html":[0,1,0],
+"namespacemembers.html":[0,1,0,0],
 "namespacemembers_b.html":[0,1,0,1],
 "namespacemembers_c.html":[0,1,0,2],
 "namespacemembers_d.html":[0,1,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "nms_caffe_8hpp.html":[2,0,0,0,8,6],
 "nms_caffe_8hpp_source.html":[2,0,0,0,8,6],
 "op_output_to_cv_mat_8hpp.html":[2,0,0,0,2,11],
-"op_output_to_cv_mat_8hpp_source.html":[2,0,0,0,2,11],
-"open_cv_8hpp.html":[2,0,0,0,13,8]
+"op_output_to_cv_mat_8hpp_source.html":[2,0,0,0,2,11]
 };

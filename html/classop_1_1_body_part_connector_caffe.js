@@ -1,6 +1,7 @@
 var classop_1_1_body_part_connector_caffe =
 [
     [ "BodyPartConnectorCaffe", "classop_1_1_body_part_connector_caffe.html#a94e2364fa13ea79b2d6fd72c5db34765", null ],
+    [ "~BodyPartConnectorCaffe", "classop_1_1_body_part_connector_caffe.html#a850d96bc8a6207866406d3ac20d23705", null ],
     [ "Backward_cpu", "classop_1_1_body_part_connector_caffe.html#a8b70616dc1b45f4a3c2b10308e45b5ce", null ],
     [ "Backward_gpu", "classop_1_1_body_part_connector_caffe.html#a4a42a1d04cbca147da6e9392fdc73327", null ],
     [ "Forward_cpu", "classop_1_1_body_part_connector_caffe.html#a886f7dc30e999b7fa8488ae95cc3ac8b", null ],
