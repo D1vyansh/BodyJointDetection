@@ -18,7 +18,7 @@ var searchData=
   ['renderhandinherited',['renderHandInherited',['../classop_1_1_hand_cpu_renderer.html#ae9e43ff22b0aae81dd88df3a313b0b0f',1,'op::HandCpuRenderer::renderHandInherited()'],['../classop_1_1_hand_gpu_renderer.html#a8206b59519e8214e06af9994a6038dae',1,'op::HandGpuRenderer::renderHandInherited()']]],
   ['renderhandkeypointscpu',['renderHandKeypointsCpu',['../namespaceop.html#afb5b711819f94b51f32460861d9cea38',1,'op']]],
   ['renderhandkeypointsgpu',['renderHandKeypointsGpu',['../namespaceop.html#a74458454b8bec064b435a3bde5ad25e0',1,'op']]],
-  ['renderkeypointscpu',['renderKeypointsCpu',['../namespaceop.html#a07d0092a7c9ce5130cd26a7bbba927e9',1,'op']]],
+  ['renderkeypointscpu',['renderKeypointsCpu',['../namespaceop.html#a7d083bc7f3ccd6ad6813970edbc8667f',1,'op']]],
   ['renderpose',['renderPose',['../classop_1_1_pose_cpu_renderer.html#a98541b982847713472411402314efd96',1,'op::PoseCpuRenderer::renderPose()'],['../classop_1_1_pose_gpu_renderer.html#a4705b3c47cd9ac8174e357999960a28f',1,'op::PoseGpuRenderer::renderPose()'],['../classop_1_1_pose_renderer.html#ad1e96ceb47bf205b56b50c6b2792f9e3',1,'op::PoseRenderer::renderPose()']]],
   ['renderposedistance',['renderPoseDistance',['../namespaceop.html#ae45299199877cae41fb2c71ab65d4508',1,'op']]],
   ['renderposeheatmapgpu',['renderPoseHeatMapGpu',['../namespaceop.html#a1f851b71bd5136ae78a1b63ddb228ed4',1,'op']]],

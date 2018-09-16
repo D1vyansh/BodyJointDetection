@@ -35,5 +35,5 @@ var searchData=
   ['at',['at',['../classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff',1,'op::Array::at(const int index)'],['../classop_1_1_array.html#a95e83e3379fd43460db68c2adb61f981',1,'op::Array::at(const int index) const '],['../classop_1_1_array.html#a8eebb6c34642cdf19ac74c7ed38d128b',1,'op::Array::at(const std::vector&lt; int &gt; &amp;indexes)'],['../classop_1_1_array.html#a5cb014203b418de3996b90597df53b6e',1,'op::Array::at(const std::vector&lt; int &gt; &amp;indexes) const ']]],
   ['atomic_5fsvm_5fvector',['atomic_svm_vector',['../namespacecl.html#a67195ada68c22c3c3711e2b8e7330944',1,'cl']]],
   ['autorepeat',['AutoRepeat',['../namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774a3ebbca1b84060b0caaf823639739945d',1,'op']]],
-  ['averagekeypoints',['averageKeypoints',['../namespaceop.html#a5333b783eb8c9dbd4295d472a0dd44a4',1,'op']]]
+  ['averagekeypoints',['averageKeypoints',['../namespaceop.html#a0f6ea912122004a238214f1de9c0ce03',1,'op']]]
 ];
