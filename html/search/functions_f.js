@@ -1,6 +1,9 @@
 var searchData=
 [
+  ['pafptrintovector',['pafPtrIntoVector',['../namespaceop.html#a53027f965d0135a14454d9a1d88fc975',1,'op']]],
+  ['pafvectorintopeoplevector',['pafVectorIntoPeopleVector',['../namespaceop.html#a15fe0812436c48a912e0382c5c42a9b4',1,'op']]],
   ['peoplejsonsaver',['PeopleJsonSaver',['../classop_1_1_people_json_saver.html#aa6e2f479d959752c5c0f71cd8b4427c2',1,'op::PeopleJsonSaver']]],
+  ['peoplevectortopeoplearray',['peopleVectorToPeopleArray',['../namespaceop.html#aefbab71714231e993354f8174e6d1124',1,'op']]],
   ['personidextractor',['PersonIdExtractor',['../classop_1_1_person_id_extractor.html#a5916ec673bdbe127386b7f496b188828',1,'op::PersonIdExtractor']]],
   ['persontracker',['PersonTracker',['../classop_1_1_person_tracker.html#aa88f617ff9f1ff509c54b2cbf51e764a',1,'op::PersonTracker']]],
   ['pipe',['Pipe',['../classcl_1_1_pipe.html#a18570ac9927752da9c1678d0d27dd606',1,'cl::Pipe::Pipe(const Context &amp;context, cl_uint packet_size, cl_uint max_packets, cl_int *err=NULL)'],['../classcl_1_1_pipe.html#a462eff8303e507a22bfa7ed2cc6ae3b3',1,'cl::Pipe::Pipe(cl_uint packet_size, cl_uint max_packets, cl_int *err=NULL)'],['../classcl_1_1_pipe.html#a3bac3cb8d2b0d4096ef07fa03a0cafd8',1,'cl::Pipe::Pipe()'],['../classcl_1_1_pipe.html#aab41e4a35cf93fccb645734eff752724',1,'cl::Pipe::Pipe(const cl_mem &amp;pipe, bool retainObject=false)'],['../classcl_1_1_pipe.html#a58f2c67c39bcbbfd9990a7c01266cda5',1,'cl::Pipe::Pipe(const Pipe &amp;pipe)'],['../classcl_1_1_pipe.html#a0cb346bc58e89a18474fa84bc2886c58',1,'cl::Pipe::Pipe(Pipe &amp;&amp;pipe) CL_HPP_NOEXCEPT_']]],

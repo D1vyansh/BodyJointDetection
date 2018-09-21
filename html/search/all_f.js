@@ -1,11 +1,14 @@
 var searchData=
 [
+  ['pafptrintovector',['pafPtrIntoVector',['../namespaceop.html#a53027f965d0135a14454d9a1d88fc975',1,'op']]],
   ['pafs',['PAFs',['../namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226ba21c5c3f60f4881b8d5477f5628db74f1',1,'op']]],
+  ['pafvectorintopeoplevector',['pafVectorIntoPeopleVector',['../namespaceop.html#a15fe0812436c48a912e0382c5c42a9b4',1,'op']]],
   ['param_5ftraits',['param_traits',['../structcl_1_1detail_1_1param__traits.html',1,'cl::detail']]],
   ['parts',['Parts',['../namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226ba9ce2d07469b39a72159ed8b0e0e597ca',1,'op']]],
   ['peoplejsonsaver',['PeopleJsonSaver',['../classop_1_1_people_json_saver.html',1,'op']]],
   ['peoplejsonsaver',['PeopleJsonSaver',['../classop_1_1_people_json_saver.html#aa6e2f479d959752c5c0f71cd8b4427c2',1,'op::PeopleJsonSaver']]],
   ['peoplejsonsaver_2ehpp',['peopleJsonSaver.hpp',['../people_json_saver_8hpp.html',1,'']]],
+  ['peoplevectortopeoplearray',['peopleVectorToPeopleArray',['../namespaceop.html#aefbab71714231e993354f8174e6d1124',1,'op']]],
   ['personentry',['PersonEntry',['../structop_1_1_person_entry.html',1,'op']]],
   ['personidextractor',['PersonIdExtractor',['../classop_1_1_person_id_extractor.html',1,'op']]],
   ['personidextractor',['PersonIdExtractor',['../classop_1_1_person_id_extractor.html#a5916ec673bdbe127386b7f496b188828',1,'op::PersonIdExtractor']]],

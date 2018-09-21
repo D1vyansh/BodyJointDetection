@@ -675,19 +675,27 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a708e05033d5c51c3a3ff5d4ed621ebbf"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a708e05033d5c51c3a3ff5d4ed621ebbf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a708e05033d5c51c3a3ff5d4ed621ebbf">connectBodyPartsCpu</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores, const T *const heatMapPtr, const T *const peaksPtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const int maxPeaks, const T interMinAboveThreshold, const T interThreshold, const int minSubsetCnt, const T minSubsetScore, const T scaleFactor=1.f)</td></tr>
 <tr class="separator:a708e05033d5c51c3a3ff5d4ed621ebbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9277202c8aa9f50591d2da8f46708482"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a9277202c8aa9f50591d2da8f46708482"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a9277202c8aa9f50591d2da8f46708482">connectBodyPartsGpu</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores, const T *const heatMapGpuPtr, const T *const peaksPtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const int maxPeaks, const T interMinAboveThreshold, const T interThreshold, const int minSubsetCnt, const T minSubsetScore, const T scaleFactor=1.f, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; finalOutputCpu=<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt;{}, T *finalOutputGpuPtr=nullptr, const unsigned int *const bodyPartPairsGpuPtr=nullptr, const unsigned int *const mapIdxGpuPtr=nullptr, const T *const peaksGpuPtr=nullptr)</td></tr>
-<tr class="separator:a9277202c8aa9f50591d2da8f46708482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ada5e56ab4773b99b3a29ba2fafc385"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a4ada5e56ab4773b99b3a29ba2fafc385"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; std::pair<br class="typebreak"/>
-&lt; std::vector&lt; int &gt;, double &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a4ada5e56ab4773b99b3a29ba2fafc385">generateInitialSubsets</a> (const T *const heatMapPtr, const T *const peaksPtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const int maxPeaks, const T interThreshold, const T interMinAboveThreshold, const std::vector&lt; unsigned int &gt; &amp;bodyPartPairs, const unsigned int numberBodyParts, const unsigned int numberBodyPartPairs, const unsigned int subsetCounterIndex, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;precomputedPAFs=<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt;())</td></tr>
-<tr class="separator:a4ada5e56ab4773b99b3a29ba2fafc385"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa14183f5226b602154559fc94d49dff"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:afa14183f5226b602154559fc94d49dff"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#afa14183f5226b602154559fc94d49dff">removeSubsetsBelowThresholds</a> (std::vector&lt; int &gt; &amp;validSubsetIndexes, int &amp;numberPeople, const std::vector&lt; std::pair&lt; std::vector&lt; int &gt;, double &gt;&gt; &amp;subsets, const unsigned int subsetCounterIndex, const unsigned int numberBodyParts, const int minSubsetCnt, const T minSubsetScore, const int maxPeaks)</td></tr>
-<tr class="separator:afa14183f5226b602154559fc94d49dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7840872b74edcb234b70e396fa35d7d6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a7840872b74edcb234b70e396fa35d7d6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7840872b74edcb234b70e396fa35d7d6">subsetsToPoseKeypointsAndScores</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores, const T scaleFactor, const std::vector&lt; std::pair&lt; std::vector&lt; int &gt;, double &gt;&gt; &amp;subsets, const std::vector&lt; int &gt; &amp;validSubsetIndexes, const T *const peaksPtr, const int numberPeople, const unsigned int numberBodyParts, const unsigned int numberBodyPartPairs)</td></tr>
-<tr class="separator:a7840872b74edcb234b70e396fa35d7d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0729592a064c2d73c0905def90ecaad"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:af0729592a064c2d73c0905def90ecaad"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#af0729592a064c2d73c0905def90ecaad">connectBodyPartsGpu</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores, const T *const heatMapGpuPtr, const T *const peaksPtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const int maxPeaks, const T interMinAboveThreshold, const T interThreshold, const int minSubsetCnt, const T minSubsetScore, const T scaleFactor=1.f, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; pairScoresCpu=<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt;{}, T *pairScoresGpuPtr=nullptr, const unsigned int *const bodyPartPairsGpuPtr=nullptr, const unsigned int *const mapIdxGpuPtr=nullptr, const T *const peaksGpuPtr=nullptr)</td></tr>
+<tr class="separator:af0729592a064c2d73c0905def90ecaad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4c0c08d800a5af6e1e9d3778fb01d3b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac4c0c08d800a5af6e1e9d3778fb01d3b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; std::pair<br class="typebreak"/>
+&lt; std::vector&lt; int &gt;, T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#ac4c0c08d800a5af6e1e9d3778fb01d3b">createPeopleVector</a> (const T *const heatMapPtr, const T *const peaksPtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const int maxPeaks, const T interThreshold, const T interMinAboveThreshold, const std::vector&lt; unsigned int &gt; &amp;bodyPartPairs, const unsigned int numberBodyParts, const unsigned int numberBodyPartPairs, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;precomputedPAFs=<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt;())</td></tr>
+<tr class="separator:ac4c0c08d800a5af6e1e9d3778fb01d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42480d27998e91461610be265e1a954b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a42480d27998e91461610be265e1a954b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a42480d27998e91461610be265e1a954b">removePeopleBelowThresholds</a> (std::vector&lt; int &gt; &amp;validSubsetIndexes, int &amp;numberPeople, const std::vector&lt; std::pair&lt; std::vector&lt; int &gt;, T &gt;&gt; &amp;subsets, const unsigned int numberBodyParts, const int minSubsetCnt, const T minSubsetScore, const int maxPeaks)</td></tr>
+<tr class="separator:a42480d27998e91461610be265e1a954b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefbab71714231e993354f8174e6d1124"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aefbab71714231e993354f8174e6d1124"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#aefbab71714231e993354f8174e6d1124">peopleVectorToPeopleArray</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores, const T scaleFactor, const std::vector&lt; std::pair&lt; std::vector&lt; int &gt;, T &gt;&gt; &amp;subsets, const std::vector&lt; int &gt; &amp;validSubsetIndexes, const T *const peaksPtr, const int numberPeople, const unsigned int numberBodyParts, const unsigned int numberBodyPartPairs)</td></tr>
+<tr class="separator:aefbab71714231e993354f8174e6d1124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53027f965d0135a14454d9a1d88fc975"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a53027f965d0135a14454d9a1d88fc975"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; std::tuple<br class="typebreak"/>
+&lt; T, T, int, int, int &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a53027f965d0135a14454d9a1d88fc975">pafPtrIntoVector</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;pairScores, const T *const peaksPtr, const int maxPeaks, const std::vector&lt; unsigned int &gt; &amp;bodyPartPairs, const unsigned int numberBodyPartPairs)</td></tr>
+<tr class="separator:a53027f965d0135a14454d9a1d88fc975"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15fe0812436c48a912e0382c5c42a9b4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a15fe0812436c48a912e0382c5c42a9b4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; std::pair<br class="typebreak"/>
+&lt; std::vector&lt; int &gt;, T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a15fe0812436c48a912e0382c5c42a9b4">pafVectorIntoPeopleVector</a> (const std::vector&lt; std::tuple&lt; T, T, int, int, int &gt;&gt; &amp;pairScores, const T *const peaksPtr, const int maxPeaks, const std::vector&lt; unsigned int &gt; &amp;bodyPartPairs, const unsigned int numberBodyParts)</td></tr>
+<tr class="separator:a15fe0812436c48a912e0382c5c42a9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab3de911b04b96c1850cc05c6947e184"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const std::map<br class="typebreak"/>
 &lt; unsigned int, std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aab3de911b04b96c1850cc05c6947e184">getPoseBodyPartMapping</a> (const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel)</td></tr>
 <tr class="separator:aab3de911b04b96c1850cc05c6947e184"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -703,8 +711,6 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a84d87ec0e4ed3cf75a37ce99d0d25ef7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const std::vector<br class="typebreak"/>
 &lt; unsigned int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a84d87ec0e4ed3cf75a37ce99d0d25ef7">getPoseMapIndex</a> (const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel)</td></tr>
 <tr class="separator:a84d87ec0e4ed3cf75a37ce99d0d25ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08faf0098cf621b92b30e8e37dc1d6c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const std::vector&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a08faf0098cf621b92b30e8e37dc1d6c1">getPosePartPairsStar</a> (const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel)</td></tr>
-<tr class="separator:a08faf0098cf621b92b30e8e37dc1d6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab48e314ecd19f55f664b14da1d83312f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ab48e314ecd19f55f664b14da1d83312f">getPoseMaxPeaks</a> (const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel)</td></tr>
 <tr class="separator:ab48e314ecd19f55f664b14da1d83312f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7ca8d89f9045481075902c8bd98b8f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ad7ca8d89f9045481075902c8bd98b8f4">getPoseNetDecreaseFactor</a> (const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel)</td></tr>
@@ -2174,14 +2180,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a0424a8e4dc8ceb5e8d8a2230c157a7fd"></a>
+<a class="anchor" id="a1d9f50688522ed7368acc33a09ae9ece"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WHandDetector&#160;</td>
+          <td class="paramtype">WOpOutputToCvMat&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2190,14 +2196,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a767385c8d3ebe736e1752825ab4d4ea0"></a>
+<a class="anchor" id="a0424a8e4dc8ceb5e8d8a2230c157a7fd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WHandDetectorFromTxt&#160;</td>
+          <td class="paramtype">WHandDetector&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2222,14 +2228,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1d9f50688522ed7368acc33a09ae9ece"></a>
+<a class="anchor" id="a767385c8d3ebe736e1752825ab4d4ea0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WOpOutputToCvMat&#160;</td>
+          <td class="paramtype">WHandDetectorFromTxt&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2870,7 +2876,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a9277202c8aa9f50591d2da8f46708482"></a>
+<a class="anchor" id="af0729592a064c2d73c0905def90ecaad"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -2952,13 +2958,13 @@ template&lt;typename T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Array&lt; T &gt;&#160;</td>
-          <td class="paramname"><em>finalOutputCpu</em> = <code>Array&lt;&#160;T&#160;&gt;{}</code>, </td>
+          <td class="paramname"><em>pairScoresCpu</em> = <code>Array&lt;&#160;T&#160;&gt;{}</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>finalOutputGpuPtr</em> = <code>nullptr</code>, </td>
+          <td class="paramname"><em>pairScoresGpuPtr</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2977,6 +2983,88 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td class="paramtype">const T *const&#160;</td>
           <td class="paramname"><em>peaksGpuPtr</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac4c0c08d800a5af6e1e9d3778fb01d3b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt;std::pair&lt;std::vector&lt;int&gt;, T&gt; &gt; op::createPeopleVector </td>
+          <td>(</td>
+          <td class="paramtype">const T *const&#160;</td>
+          <td class="paramname"><em>heatMapPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T *const&#160;</td>
+          <td class="paramname"><em>peaksPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PoseModel&#160;</td>
+          <td class="paramname"><em>poseModel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Point&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>heatMapSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>maxPeaks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>interThreshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>interMinAboveThreshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; unsigned int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>bodyPartPairs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>numberBodyParts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>numberBodyPartPairs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Array&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>precomputedPAFs</em> = <code>Array&lt;&#160;T&#160;&gt;()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3858,94 +3946,6 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a4ada5e56ab4773b99b3a29ba2fafc385"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt;std::pair&lt;std::vector&lt;int&gt;, double&gt; &gt; op::generateInitialSubsets </td>
-          <td>(</td>
-          <td class="paramtype">const T *const&#160;</td>
-          <td class="paramname"><em>heatMapPtr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T *const&#160;</td>
-          <td class="paramname"><em>peaksPtr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const PoseModel&#160;</td>
-          <td class="paramname"><em>poseModel</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Point&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>heatMapSize</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>maxPeaks</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>interThreshold</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>interMinAboveThreshold</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; unsigned int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>bodyPartPairs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>numberBodyParts</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>numberBodyPartPairs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>subsetCounterIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const Array&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>precomputedPAFs</em> = <code>Array&lt;&#160;T&#160;&gt;()</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a18d1496d5696de69bbc06b66629291b8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -4703,22 +4703,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a08faf0098cf621b92b30e8e37dc1d6c1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const std::vector&lt;int&gt;&amp; op::getPosePartPairsStar </td>
-          <td>(</td>
-          <td class="paramtype">const PoseModel&#160;</td>
-          <td class="paramname"><em>poseModel</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="ae0730c6559abdb976423ecf81eac4620"></a>
 <div class="memitem">
 <div class="memproto">
@@ -5362,6 +5346,168 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a53027f965d0135a14454d9a1d88fc975"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt;std::tuple&lt;T, T, int, int, int&gt; &gt; op::pafPtrIntoVector </td>
+          <td>(</td>
+          <td class="paramtype">const Array&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pairScores</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T *const&#160;</td>
+          <td class="paramname"><em>peaksPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>maxPeaks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; unsigned int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>bodyPartPairs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>numberBodyPartPairs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a15fe0812436c48a912e0382c5c42a9b4"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt;std::pair&lt;std::vector&lt;int&gt;, T&gt; &gt; op::pafVectorIntoPeopleVector </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::tuple&lt; T, T, int, int, int &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pairScores</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T *const&#160;</td>
+          <td class="paramname"><em>peaksPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>maxPeaks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; unsigned int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>bodyPartPairs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>numberBodyParts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aefbab71714231e993354f8174e6d1124"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void op::peopleVectorToPeopleArray </td>
+          <td>(</td>
+          <td class="paramtype">Array&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseKeypoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Array&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseScores</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>scaleFactor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; std::pair&lt; std::vector&lt; int &gt;, T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>subsets</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>validSubsetIndexes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T *const&#160;</td>
+          <td class="paramname"><em>peaksPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>numberPeople</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>numberBodyParts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>numberBodyPartPairs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a99f8e5818b5006929abdc879d82f175b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -5760,30 +5906,14 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a8664658afa7be03e173cec9eff2873ad"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::string op::removeSpecialsCharacters </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>stringToVariate</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="afa14183f5226b602154559fc94d49dff"></a>
+<a class="anchor" id="a42480d27998e91461610be265e1a954b"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void op::removeSubsetsBelowThresholds </td>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void op::removePeopleBelowThresholds </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; int &gt; &amp;&#160;</td>
           <td class="paramname"><em>validSubsetIndexes</em>, </td>
@@ -5797,14 +5927,8 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; std::pair&lt; std::vector&lt; int &gt;, double &gt;&gt; &amp;&#160;</td>
+          <td class="paramtype">const std::vector&lt; std::pair&lt; std::vector&lt; int &gt;, T &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>subsets</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>subsetCounterIndex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -5834,6 +5958,22 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8664658afa7be03e173cec9eff2873ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::string op::removeSpecialsCharacters </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>stringToVariate</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -7148,76 +7288,6 @@ template&lt;typename T &gt; </div>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>dataFormat</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a7840872b74edcb234b70e396fa35d7d6"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void op::subsetsToPoseKeypointsAndScores </td>
-          <td>(</td>
-          <td class="paramtype">Array&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>poseKeypoints</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Array&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>poseScores</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T&#160;</td>
-          <td class="paramname"><em>scaleFactor</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; std::pair&lt; std::vector&lt; int &gt;, double &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>subsets</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>validSubsetIndexes</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const T *const&#160;</td>
-          <td class="paramname"><em>peaksPtr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>numberPeople</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>numberBodyParts</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>numberBodyPartPairs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

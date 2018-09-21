@@ -62,7 +62,6 @@ var searchData=
   ['stopandjoin',['stopAndJoin',['../classop_1_1_thread.html#a92e5dd0f60a0485e7d0fad3e82bb74f3',1,'op::Thread']]],
   ['stoppusher',['stopPusher',['../classop_1_1_queue_base.html#a32ac0e4b14a310aee62ce817e86c0356',1,'op::QueueBase']]],
   ['stringtodataformat',['stringToDataFormat',['../namespaceop.html#a46e815df32db67d78a94367b7f97df25',1,'op']]],
-  ['subsetstoposekeypointsandscores',['subsetsToPoseKeypointsAndScores',['../namespaceop.html#a7840872b74edcb234b70e396fa35d7d6',1,'op']]],
   ['subthread',['SubThread',['../classop_1_1_sub_thread.html#aa551df0d8f0b30aaf9e0840ecf29d749',1,'op::SubThread']]],
   ['subthreadnoqueue',['SubThreadNoQueue',['../classop_1_1_sub_thread_no_queue.html#afbaf89d7a8fb4d19f67064fb954a31eb',1,'op::SubThreadNoQueue']]],
   ['subthreadqueuein',['SubThreadQueueIn',['../classop_1_1_sub_thread_queue_in.html#a11aa71a818430c4eb435a1626e54f29a',1,'op::SubThreadQueueIn']]],

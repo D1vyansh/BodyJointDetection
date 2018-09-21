@@ -39,15 +39,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "3d_2headers_8hpp.html",
-"classcl_1_1_enqueue_args.html#a2550db9b9c98c38b7072feb3bd4b0514",
-"classcl_1_1_user_event.html",
-"classop_1_1_hand_gpu_renderer.html#a27915745de10184ef073f34b86a2706e",
-"classop_1_1_renderer.html#abaea1725725ff775aed0c120b2ba3d1f",
-"classop_1_1_w_video_saver.html",
-"functions_func_m.html",
-"open_cv_8hpp.html",
-"structop_1_1_datum.html#a44af7162e180c6856ce909057f43d8e1",
-"w_face_detector_open_c_v_8hpp_source.html"
+"classcl_1_1_enqueue_args.html#a1ab03b76ada8edb5440ba19905848e5f",
+"classcl_1_1_sampler.html#ad26196f0282429667828b5b39bbc97f1",
+"classop_1_1_hand_gpu_renderer.html#a0489f10ddc9e37e87084ebf9a5138f3a",
+"classop_1_1_renderer.html#aa8339054ed113d99ca70208d0cee5aa9",
+"classop_1_1_w_udp_sender.html#a567d9fe2adc85ae086379696573112e3",
+"functions_func_k.html",
+"op_output_to_cv_mat_8hpp.html",
+"structop_1_1_datum.html#a42f9aef848c6335c5a81cad374319f0b",
+"w_face_detector_open_c_v_8hpp.html#abf3a59fc4662f07e6ba19b95bd4da32f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
