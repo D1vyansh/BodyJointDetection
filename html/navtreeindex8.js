@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"structop_1_1_datum.html#a32d164c01acf6b4f7eb1323d74edbdca":[1,0,3,6,38],
+"structop_1_1_datum.html#a35212700ef2a2ac290a6666e2993a192":[1,0,3,6,23],
+"structop_1_1_datum.html#a3605b959026bf8ea8b60e4e005d9f71e":[1,0,3,6,36],
+"structop_1_1_datum.html#a42b953c082f479eddc527da9a3a4cc75":[1,0,3,6,40],
 "structop_1_1_datum.html#a42f9aef848c6335c5a81cad374319f0b":[1,0,3,6,1],
 "structop_1_1_datum.html#a44af7162e180c6856ce909057f43d8e1":[1,0,3,6,49],
 "structop_1_1_datum.html#a45cd7049821b21a7af84441415b2d0ea":[1,0,3,6,53],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "w_cv_mat_to_op_output_8hpp.html#a6d12bd1e42cfb63d2f780bed55fa01fb":[2,0,0,0,2,17,1],
 "w_cv_mat_to_op_output_8hpp_source.html":[2,0,0,0,2,17],
 "w_datum_producer_8hpp.html":[2,0,0,0,10,10],
-"w_datum_producer_8hpp_source.html":[2,0,0,0,10,10],
-"w_face_detector_8hpp.html":[2,0,0,0,3,10],
-"w_face_detector_8hpp.html#a196f17357cd1c1bb02e24e4e8a0e6ec3":[2,0,0,0,3,10,1],
-"w_face_detector_8hpp_source.html":[2,0,0,0,3,10],
-"w_face_detector_open_c_v_8hpp.html":[2,0,0,0,3,11]
+"w_datum_producer_8hpp_source.html":[2,0,0,0,10,10]
 };

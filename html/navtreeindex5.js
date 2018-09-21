@@ -1,5 +1,8 @@
 var NAVTREEINDEX5 =
 {
+"classop_1_1_w_scale_and_size_extractor.html#afddf54d061dc5325e78252a3bba482b9":[1,0,3,20,2],
+"classop_1_1_w_udp_sender.html":[1,0,3,48],
+"classop_1_1_w_udp_sender.html#a22a5ec90fe83ed654bd0aef112fac98b":[1,0,3,48,0],
 "classop_1_1_w_udp_sender.html#a567d9fe2adc85ae086379696573112e3":[1,0,3,48,1],
 "classop_1_1_w_udp_sender.html#a615fc6a537ca9f624022698391c11a54":[1,0,3,48,2],
 "classop_1_1_w_video_saver.html":[1,0,3,49],
@@ -10,9 +13,10 @@ var NAVTREEINDEX5 =
 "classop_1_1_webcam_reader.html#a38ccbdf61f21fba0694362077cb6bdb1":[1,0,3,94,2],
 "classop_1_1_webcam_reader.html#a58c315e577c12486e5ab1b941d4cce04":[1,0,3,94,6],
 "classop_1_1_webcam_reader.html#a71212bd9e00be96b09650e86d465b42c":[1,0,3,94,1],
+"classop_1_1_webcam_reader.html#a9ac58534016e640dce5c5c6b53e5cb6f":[1,0,3,94,7],
 "classop_1_1_webcam_reader.html#aa03db1223070395d8970038fa3a8203a":[1,0,3,94,4],
 "classop_1_1_webcam_reader.html#ab4be6381957df794c76b1c9eddd1f676":[1,0,3,94,3],
-"classop_1_1_webcam_reader.html#ae66b26829cc2d6e3f02109d4431a7bc2":[1,0,3,94,7],
+"classop_1_1_webcam_reader.html#ae66b26829cc2d6e3f02109d4431a7bc2":[1,0,3,94,8],
 "classop_1_1_webcam_reader.html#afbad75f82bf39bfd503bbc8bd881592d":[1,0,3,94,5],
 "classop_1_1_webcam_reader.html#afbfa9ebf32ab1c95f0378b49fce0df35":[1,0,3,94,0],
 "classop_1_1_worker.html":[1,0,3,106],
@@ -239,15 +243,11 @@ var NAVTREEINDEX5 =
 "functions_e.html":[1,3,0,4],
 "functions_eval.html":[1,3,4],
 "functions_f.html":[1,3,0,5],
-"functions_func.html":[1,3,1],
 "functions_func.html":[1,3,1,0],
+"functions_func.html":[1,3,1],
 "functions_func_b.html":[1,3,1,1],
 "functions_func_c.html":[1,3,1,2],
 "functions_func_d.html":[1,3,1,3],
 "functions_func_e.html":[1,3,1,4],
-"functions_func_f.html":[1,3,1,5],
-"functions_func_g.html":[1,3,1,6],
-"functions_func_h.html":[1,3,1,7],
-"functions_func_i.html":[1,3,1,8],
-"functions_func_j.html":[1,3,1,9]
+"functions_func_f.html":[1,3,1,5]
 };

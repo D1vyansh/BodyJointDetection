@@ -128,37 +128,44 @@ $(document).ready(function(){initNavTree('ip_camera_reader_8hpp_source.html','')
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> getNextFrameName();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classop_1_1_ip_camera_reader.html#aa7ad6adac6e401193e03d279176dd889">   29</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">double</span> <span class="keyword">get</span>(<span class="keyword">const</span> <span class="keywordtype">int</span> capProperty)</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classop_1_1_video_capture_reader.html#a64e5cbfb1c556d64cabcebc6eb94eaf1">VideoCaptureReader::get</a>(capProperty);</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classop_1_1_ip_camera_reader.html#a2017f8f5aa377306eebe09139b817e7a">   29</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="classop_1_1_ip_camera_reader.html#a2017f8f5aa377306eebe09139b817e7a">isOpened</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classop_1_1_video_capture_reader.html#a5d28ea704d629d983280ece0a530d732">VideoCaptureReader::isOpened</a>();</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classop_1_1_ip_camera_reader.html#ac13cc7da97a31d8e69eaa64b2a7b31ba">   34</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="classop_1_1_ip_camera_reader.html#ac13cc7da97a31d8e69eaa64b2a7b31ba">set</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> capProperty, <span class="keyword">const</span> <span class="keywordtype">double</span> value)</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="classop_1_1_ip_camera_reader.html#aa7ad6adac6e401193e03d279176dd889">   34</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">double</span> <span class="keyword">get</span>(<span class="keyword">const</span> <span class="keywordtype">int</span> capProperty)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <a class="code" href="classop_1_1_video_capture_reader.html#ab2929b7d2d002b58ebaf7b9b56999cca">VideoCaptureReader::set</a>(capProperty, value);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classop_1_1_video_capture_reader.html#a64e5cbfb1c556d64cabcebc6eb94eaf1">VideoCaptureReader::get</a>(capProperty);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> mPathName;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        cv::Mat getRawFrame();</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classop_1_1_ip_camera_reader.html#ac13cc7da97a31d8e69eaa64b2a7b31ba">   39</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="classop_1_1_ip_camera_reader.html#ac13cc7da97a31d8e69eaa64b2a7b31ba">set</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> capProperty, <span class="keyword">const</span> <span class="keywordtype">double</span> value)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <a class="code" href="classop_1_1_video_capture_reader.html#ab2929b7d2d002b58ebaf7b9b56999cca">VideoCaptureReader::set</a>(capProperty, value);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        std::vector&lt;cv::Mat&gt; getRawFrames();</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a>(<a class="code" href="classop_1_1_ip_camera_reader.html">IpCameraReader</a>);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    };</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif // OPENPOSE_PRODUCER_IP_CAMERA_READER_HPP</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> mPathName;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        cv::Mat getRawFrame();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        std::vector&lt;cv::Mat&gt; getRawFrames();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a>(<a class="code" href="classop_1_1_ip_camera_reader.html">IpCameraReader</a>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    };</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif // OPENPOSE_PRODUCER_IP_CAMERA_READER_HPP</span></div>
 <div class="ttc" id="macros_8hpp_html_abef96b5dd35dd9d44ad27ddf0e2f5f2e"><div class="ttname"><a href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a></div><div class="ttdeci">#define DELETE_COPY(className)</div><div class="ttdef"><b>Definition:</b> macros.hpp:31</div></div>
 <div class="ttc" id="classop_1_1_video_capture_reader_html_a64e5cbfb1c556d64cabcebc6eb94eaf1"><div class="ttname"><a href="classop_1_1_video_capture_reader.html#a64e5cbfb1c556d64cabcebc6eb94eaf1">op::VideoCaptureReader::get</a></div><div class="ttdeci">virtual double get(const int capProperty)=0</div></div>
-<div class="ttc" id="classop_1_1_ip_camera_reader_html_ac13cc7da97a31d8e69eaa64b2a7b31ba"><div class="ttname"><a href="classop_1_1_ip_camera_reader.html#ac13cc7da97a31d8e69eaa64b2a7b31ba">op::IpCameraReader::set</a></div><div class="ttdeci">void set(const int capProperty, const double value)</div><div class="ttdef"><b>Definition:</b> ipCameraReader.hpp:34</div></div>
+<div class="ttc" id="classop_1_1_ip_camera_reader_html_ac13cc7da97a31d8e69eaa64b2a7b31ba"><div class="ttname"><a href="classop_1_1_ip_camera_reader.html#ac13cc7da97a31d8e69eaa64b2a7b31ba">op::IpCameraReader::set</a></div><div class="ttdeci">void set(const int capProperty, const double value)</div><div class="ttdef"><b>Definition:</b> ipCameraReader.hpp:39</div></div>
 <div class="ttc" id="classop_1_1_video_capture_reader_html"><div class="ttname"><a href="classop_1_1_video_capture_reader.html">op::VideoCaptureReader</a></div><div class="ttdef"><b>Definition:</b> videoCaptureReader.hpp:15</div></div>
+<div class="ttc" id="classop_1_1_video_capture_reader_html_a5d28ea704d629d983280ece0a530d732"><div class="ttname"><a href="classop_1_1_video_capture_reader.html#a5d28ea704d629d983280ece0a530d732">op::VideoCaptureReader::isOpened</a></div><div class="ttdeci">virtual bool isOpened() const =0</div></div>
 <div class="ttc" id="classop_1_1_video_capture_reader_html_ab2929b7d2d002b58ebaf7b9b56999cca"><div class="ttname"><a href="classop_1_1_video_capture_reader.html#ab2929b7d2d002b58ebaf7b9b56999cca">op::VideoCaptureReader::set</a></div><div class="ttdeci">virtual void set(const int capProperty, const double value)=0</div></div>
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
 <div class="ttc" id="classop_1_1_ip_camera_reader_html"><div class="ttname"><a href="classop_1_1_ip_camera_reader.html">op::IpCameraReader</a></div><div class="ttdef"><b>Definition:</b> ipCameraReader.hpp:12</div></div>
 <div class="ttc" id="video_capture_reader_8hpp_html"><div class="ttname"><a href="video_capture_reader_8hpp.html">videoCaptureReader.hpp</a></div></div>
 <div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:16</div></div>
+<div class="ttc" id="classop_1_1_ip_camera_reader_html_a2017f8f5aa377306eebe09139b817e7a"><div class="ttname"><a href="classop_1_1_ip_camera_reader.html#a2017f8f5aa377306eebe09139b817e7a">op::IpCameraReader::isOpened</a></div><div class="ttdeci">bool isOpened() const </div><div class="ttdef"><b>Definition:</b> ipCameraReader.hpp:29</div></div>
 <div class="ttc" id="namespacecl_html_abff80bfb254d646f6afeb6638df41686"><div class="ttname"><a href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">cl::string</a></div><div class="ttdeci">std::string string</div><div class="ttdef"><b>Definition:</b> cl2.hpp:574</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

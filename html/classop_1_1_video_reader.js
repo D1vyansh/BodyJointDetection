@@ -6,5 +6,6 @@ var classop_1_1_video_reader =
     [ "getCameraIntrinsics", "classop_1_1_video_reader.html#a98144001ee79d467d8757f9bca10589a", null ],
     [ "getCameraMatrices", "classop_1_1_video_reader.html#a93742fd892cdb09b99b29f8e8036d803", null ],
     [ "getNextFrameName", "classop_1_1_video_reader.html#a508eed918fbe3bfe3eff4c1ebacb3463", null ],
+    [ "isOpened", "classop_1_1_video_reader.html#a8ad62fbe196e59edec94f933e0a3269d", null ],
     [ "set", "classop_1_1_video_reader.html#a0dd53334327642368d41ec860e64e756", null ]
 ];

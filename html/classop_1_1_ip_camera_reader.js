@@ -6,5 +6,6 @@ var classop_1_1_ip_camera_reader =
     [ "getCameraIntrinsics", "classop_1_1_ip_camera_reader.html#a9e546d2b8211d9318ba63b252b2a3ade", null ],
     [ "getCameraMatrices", "classop_1_1_ip_camera_reader.html#a48a168a0913697493da1a9d95151f5ce", null ],
     [ "getNextFrameName", "classop_1_1_ip_camera_reader.html#a0c1582090cc7c54dd9cb752207b52986", null ],
+    [ "isOpened", "classop_1_1_ip_camera_reader.html#a2017f8f5aa377306eebe09139b817e7a", null ],
     [ "set", "classop_1_1_ip_camera_reader.html#ac13cc7da97a31d8e69eaa64b2a7b31ba", null ]
 ];

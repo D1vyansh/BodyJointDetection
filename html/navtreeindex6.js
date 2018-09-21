@@ -1,5 +1,9 @@
 var NAVTREEINDEX6 =
 {
+"functions_func_g.html":[1,3,1,6],
+"functions_func_h.html":[1,3,1,7],
+"functions_func_i.html":[1,3,1,8],
+"functions_func_j.html":[1,3,1,9],
 "functions_func_k.html":[1,3,1,10],
 "functions_func_l.html":[1,3,1,11],
 "functions_func_m.html":[1,3,1,12],
@@ -181,8 +185,8 @@ var NAVTREEINDEX6 =
 "namespacecaffe.html":[1,0,1],
 "namespacecl.html":[1,0,2],
 "namespacecl.html":[0,0,2],
-"namespacecl_1_1compatibility.html":[1,0,2,0],
 "namespacecl_1_1compatibility.html":[0,0,2,0],
+"namespacecl_1_1compatibility.html":[1,0,2,0],
 "namespacecl_1_1detail.html":[0,0,2,1],
 "namespacecl_1_1detail.html":[1,0,2,1],
 "namespacemembers.html":[0,1,0],
@@ -234,8 +238,8 @@ var NAVTREEINDEX6 =
 "namespacemembers_x.html":[0,1,0,22],
 "namespacemembers_y.html":[0,1,0,23],
 "namespacemembers_z.html":[0,1,0,24],
-"namespaceop.html":[0,0,3],
 "namespaceop.html":[1,0,3],
+"namespaceop.html":[0,0,3],
 "namespaces.html":[0,0],
 "net_2headers_8hpp.html":[2,0,0,0,8,0],
 "net_2headers_8hpp_source.html":[2,0,0,0,8,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX6 =
 "net_caffe_8hpp_source.html":[2,0,0,0,8,4],
 "nms_base_8hpp.html":[2,0,0,0,8,5],
 "nms_base_8hpp.html#a1bfdb5691a19cc84686ce6f0eedd4bf6":[2,0,0,0,8,5,2],
-"nms_base_8hpp.html#a7b614172739d84881dded9d8abefce82":[2,0,0,0,8,5,0],
-"nms_base_8hpp.html#a7dc31458818768ba61e64d348678a36c":[2,0,0,0,8,5,1],
-"nms_base_8hpp_source.html":[2,0,0,0,8,5],
-"nms_caffe_8hpp.html":[2,0,0,0,8,6],
-"nms_caffe_8hpp_source.html":[2,0,0,0,8,6]
+"nms_base_8hpp.html#a7b614172739d84881dded9d8abefce82":[2,0,0,0,8,5,0]
 };

@@ -130,8 +130,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7ea52eabf5133a1a01d38f95b1a4b601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06348fd9a290fc2ece2f3c2e4dc9bc70"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#a06348fd9a290fc2ece2f3c2e4dc9bc70">getNextFrameName</a> ()=0</td></tr>
 <tr class="separator:a06348fd9a290fc2ece2f3c2e4dc9bc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae10d37b58fe4f3daa8817b72eb3faa64"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#ae10d37b58fe4f3daa8817b72eb3faa64">isOpened</a> () const </td></tr>
-<tr class="separator:ae10d37b58fe4f3daa8817b72eb3faa64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d28ea704d629d983280ece0a530d732"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#a5d28ea704d629d983280ece0a530d732">isOpened</a> () const =0</td></tr>
+<tr class="separator:a5d28ea704d629d983280ece0a530d732"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f73e10efe7f9b24a6cb75af2167de58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#a2f73e10efe7f9b24a6cb75af2167de58">release</a> ()</td></tr>
 <tr class="separator:a2f73e10efe7f9b24a6cb75af2167de58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64e5cbfb1c556d64cabcebc6eb94eaf1"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#a64e5cbfb1c556d64cabcebc6eb94eaf1">get</a> (const int capProperty)=0</td></tr>
@@ -168,6 +168,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:af57cc02f86ee0c29ccb83f1f7c37bec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07abbb0001dd9972ab416eb619812043"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#a07abbb0001dd9972ab416eb619812043">getRawFrames</a> ()=0</td></tr>
 <tr class="separator:a07abbb0001dd9972ab416eb619812043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab85b68c93854dd7c2ad437477e819506"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_video_capture_reader.html#ab85b68c93854dd7c2ad437477e819506">resetWebcam</a> (const int index, const bool throwExceptionIfNoOpened)</td></tr>
+<tr class="separator:ab85b68c93854dd7c2ad437477e819506"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classop_1_1_producer"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classop_1_1_producer')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classop_1_1_producer.html">op::Producer</a></td></tr>
 <tr class="memitem:a901c2ff1f56b551a058143ed884b1a5a inherit pro_methods_classop_1_1_producer"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_producer.html#a901c2ff1f56b551a058143ed884b1a5a">checkFrameIntegrity</a> (cv::Mat &amp;frame)</td></tr>
 <tr class="separator:a901c2ff1f56b551a058143ed884b1a5a inherit pro_methods_classop_1_1_producer"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -321,7 +323,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="classop_1_1_producer.html#a366881a952ad34071cc719477f08b968">op::Producer</a>.</p>
 
-<p>Implemented in <a class="el" href="classop_1_1_webcam_reader.html#a38ccbdf61f21fba0694362077cb6bdb1">op::WebcamReader</a>, <a class="el" href="classop_1_1_video_reader.html#a057a7d0c498c48639b38c10ac7efc183">op::VideoReader</a>, and <a class="el" href="classop_1_1_ip_camera_reader.html#aa7ad6adac6e401193e03d279176dd889">op::IpCameraReader</a>.</p>
+<p>Implemented in <a class="el" href="classop_1_1_video_reader.html#a057a7d0c498c48639b38c10ac7efc183">op::VideoReader</a>, <a class="el" href="classop_1_1_webcam_reader.html#a38ccbdf61f21fba0694362077cb6bdb1">op::WebcamReader</a>, and <a class="el" href="classop_1_1_ip_camera_reader.html#aa7ad6adac6e401193e03d279176dd889">op::IpCameraReader</a>.</p>
 
 </div>
 </div>
@@ -408,7 +410,7 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae10d37b58fe4f3daa8817b72eb3faa64"></a>
+<a class="anchor" id="a5d28ea704d629d983280ece0a530d732"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -416,7 +418,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool op::VideoCaptureReader::isOpened </td>
+          <td class="memname">virtual bool op::VideoCaptureReader::isOpened </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -424,7 +426,7 @@ Protected Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -432,6 +434,8 @@ Protected Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>bool indicating whether the <a class="el" href="classop_1_1_producer.html">Producer</a> is opened. </dd></dl>
 
 <p>Implements <a class="el" href="classop_1_1_producer.html#a58590e4a409d31f839184b4bf030a68b">op::Producer</a>.</p>
+
+<p>Implemented in <a class="el" href="classop_1_1_webcam_reader.html#a9ac58534016e640dce5c5c6b53e5cb6f">op::WebcamReader</a>, <a class="el" href="classop_1_1_video_reader.html#a8ad62fbe196e59edec94f933e0a3269d">op::VideoReader</a>, and <a class="el" href="classop_1_1_ip_camera_reader.html#a2017f8f5aa377306eebe09139b817e7a">op::IpCameraReader</a>.</p>
 
 </div>
 </div>
@@ -458,6 +462,40 @@ Protected Member Functions</h2></td></tr>
 <p>This function releases and closes the <a class="el" href="classop_1_1_producer.html">Producer</a>. After it is called, no more frames can be retrieved from <a class="el" href="classop_1_1_producer.html#a3fbf3df1e02d326d7c954d78aa0dca0d">Producer::getFrames</a>. </p>
 
 <p>Implements <a class="el" href="classop_1_1_producer.html#a7753ffb0daa486ab0f82873b3567f95e">op::Producer</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab85b68c93854dd7c2ad437477e819506"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void op::VideoCaptureReader::resetWebcam </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>throwExceptionIfNoOpened</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -503,7 +541,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="classop_1_1_producer.html#ab30c7b3e34d962e0b17458d9a0947f6b">op::Producer</a>.</p>
 
-<p>Implemented in <a class="el" href="classop_1_1_webcam_reader.html#ae66b26829cc2d6e3f02109d4431a7bc2">op::WebcamReader</a>, <a class="el" href="classop_1_1_video_reader.html#a0dd53334327642368d41ec860e64e756">op::VideoReader</a>, and <a class="el" href="classop_1_1_ip_camera_reader.html#ac13cc7da97a31d8e69eaa64b2a7b31ba">op::IpCameraReader</a>.</p>
+<p>Implemented in <a class="el" href="classop_1_1_video_reader.html#a0dd53334327642368d41ec860e64e756">op::VideoReader</a>, <a class="el" href="classop_1_1_webcam_reader.html#ae66b26829cc2d6e3f02109d4431a7bc2">op::WebcamReader</a>, and <a class="el" href="classop_1_1_ip_camera_reader.html#ac13cc7da97a31d8e69eaa64b2a7b31ba">op::IpCameraReader</a>.</p>
 
 </div>
 </div>
