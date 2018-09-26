@@ -110,12 +110,26 @@ $(document).ready(function(){initNavTree('wrapper_auxiliary_8hpp.html','');});
 <div class="title">wrapperAuxiliary.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="wrapper_struct_extra_8hpp_source.html">openpose/wrapper/wrapperStructExtra.hpp</a>&gt;</code><br/>
+<div class="textblock"><code>#include &lt;<a class="el" href="thread_2headers_8hpp_source.html">openpose/thread/headers.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="wrapper_2enum_classes_8hpp_source.html">openpose/wrapper/enumClasses.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="wrapper_struct_extra_8hpp_source.html">openpose/wrapper/wrapperStructExtra.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="wrapper_struct_face_8hpp_source.html">openpose/wrapper/wrapperStructFace.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="wrapper_struct_hand_8hpp_source.html">openpose/wrapper/wrapperStructHand.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="wrapper_struct_input_8hpp_source.html">openpose/wrapper/wrapperStructInput.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="wrapper_struct_output_8hpp_source.html">openpose/wrapper/wrapperStructOutput.hpp</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="wrapper_struct_pose_8hpp_source.html">openpose/wrapper/wrapperStructPose.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="3d_2headers_8hpp_source.html">openpose/3d/headers.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="core_2headers_8hpp_source.html">openpose/core/headers.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="face_2headers_8hpp_source.html">openpose/face/headers.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="filestream_2headers_8hpp_source.html">openpose/filestream/headers.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="gpu_8hpp_source.html">openpose/gpu/gpu.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="gui_2headers_8hpp_source.html">openpose/gui/headers.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="hand_2headers_8hpp_source.html">openpose/hand/headers.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="pose_2headers_8hpp_source.html">openpose/pose/headers.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="producer_2headers_8hpp_source.html">openpose/producer/headers.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="tracking_2headers_8hpp_source.html">openpose/tracking/headers.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="file_system_8hpp_source.html">openpose/utilities/fileSystem.hpp</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="standard_8hpp_source.html">openpose/utilities/standard.hpp</a>&gt;</code><br/>
 </div>
 <p><a href="wrapper_auxiliary_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -128,6 +142,14 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ac4b779992da90d211f928b3d906d8708"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ac4b779992da90d211f928b3d906d8708">op::wrapperConfigureSecurityChecks</a> (WrapperStructPose &amp;wrapperStructPose, const WrapperStructFace &amp;wrapperStructFace, const WrapperStructHand &amp;wrapperStructHand, const WrapperStructExtra &amp;wrapperStructExtra, const WrapperStructInput &amp;wrapperStructInput, const WrapperStructOutput &amp;wrapperStructOutput, const bool renderOutput, const bool userOutputWsEmpty, const ThreadManagerMode threadManagerMode)</td></tr>
 <tr class="separator:ac4b779992da90d211f928b3d906d8708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65a4564afcad06b72468679f6bee52b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#af65a4564afcad06b72468679f6bee52b">op::threadIdPP</a> (unsigned long long &amp;threadId, const bool multiThreadEnabled)</td></tr>
+<tr class="separator:af65a4564afcad06b72468679f6bee52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14617fc3e3e147e3b5887a172028eae0"><td class="memTemplParams" colspan="2">template&lt;typename TDatums , typename TDatumsSP  = std::shared_ptr&lt;TDatums&gt;, typename TWorker  = std::shared_ptr&lt;Worker&lt;TDatumsSP&gt;&gt;&gt; </td></tr>
+<tr class="memitem:a14617fc3e3e147e3b5887a172028eae0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a14617fc3e3e147e3b5887a172028eae0">op::configureThreadManager</a> (ThreadManager&lt; TDatumsSP &gt; &amp;threadManager, const bool multiThreadEnabled, const ThreadManagerMode threadManagerMode, const WrapperStructPose &amp;wrapperStructPose, const WrapperStructFace &amp;wrapperStructFace, const WrapperStructHand &amp;wrapperStructHand, const WrapperStructExtra &amp;wrapperStructExtra, const WrapperStructInput &amp;wrapperStructInput, const WrapperStructOutput &amp;wrapperStructOutput, const std::array&lt; std::vector&lt; TWorker &gt;, int(WorkerType::Size)&gt; &amp;userWs, const std::array&lt; bool, int(WorkerType::Size)&gt; &amp;userWsOnNewThread)</td></tr>
+<tr class="separator:a14617fc3e3e147e3b5887a172028eae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2339f5d601d330ee9c8c3d57acee8bf2"><td class="memTemplParams" colspan="2">template&lt;typename TDatums , typename TDatumsSP , typename TWorker &gt; </td></tr>
+<tr class="memitem:a2339f5d601d330ee9c8c3d57acee8bf2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a2339f5d601d330ee9c8c3d57acee8bf2">op::configureThreadManager</a> (ThreadManager&lt; TDatumsSP &gt; &amp;threadManager, const bool multiThreadEnabledTemp, const ThreadManagerMode threadManagerMode, const WrapperStructPose &amp;wrapperStructPoseTemp, const WrapperStructFace &amp;wrapperStructFace, const WrapperStructHand &amp;wrapperStructHand, const WrapperStructExtra &amp;wrapperStructExtra, const WrapperStructInput &amp;wrapperStructInput, const WrapperStructOutput &amp;wrapperStructOutput, const std::array&lt; std::vector&lt; TWorker &gt;, int(WorkerType::Size)&gt; &amp;userWs, const std::array&lt; bool, int(WorkerType::Size)&gt; &amp;userWsOnNewThread)</td></tr>
+<tr class="separator:a2339f5d601d330ee9c8c3d57acee8bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

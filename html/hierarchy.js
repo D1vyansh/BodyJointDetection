@@ -191,7 +191,7 @@ var hierarchy =
       [ "op::WScaleAndSizeExtractor< TDatums >", "classop_1_1_w_scale_and_size_extractor.html", null ]
     ] ],
     [ "cl::detail::Wrapper< T >", "classcl_1_1detail_1_1_wrapper.html", null ],
-    [ "op::Wrapper< TDatums, TDatumsSP, TWorker, TQueue >", "classop_1_1_wrapper.html", null ],
+    [ "op::Wrapper< TDatums, TDatumsSP, TWorker >", "classop_1_1_wrapper.html", null ],
     [ "cl::detail::Wrapper< cl_command_queue >", "classcl_1_1detail_1_1_wrapper.html", [
       [ "cl::CommandQueue", "classcl_1_1_command_queue.html", null ],
       [ "cl::DeviceCommandQueue", "classcl_1_1_device_command_queue.html", null ]

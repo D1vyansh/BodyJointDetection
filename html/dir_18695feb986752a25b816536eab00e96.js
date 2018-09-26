@@ -15,5 +15,6 @@ var dir_18695feb986752a25b816536eab00e96 =
     [ "tracking", "dir_0ce9f94b6852df9b4b93cf30dc2bb4e4.html", "dir_0ce9f94b6852df9b4b93cf30dc2bb4e4" ],
     [ "utilities", "dir_5e264839c35dab04bf5009e4b1c2721d.html", "dir_5e264839c35dab04bf5009e4b1c2721d" ],
     [ "wrapper", "dir_656bab9d729ebd6e2f5fd290e8e58c67.html", "dir_656bab9d729ebd6e2f5fd290e8e58c67" ],
+    [ "flags.hpp", "flags_8hpp.html", "flags_8hpp" ],
     [ "headers.hpp", "headers_8hpp.html", null ]
 ];

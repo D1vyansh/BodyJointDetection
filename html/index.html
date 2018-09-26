@@ -108,7 +108,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <tr>
 <td><a href="https://travis-ci.org/CMU-Perceptual-Computing-Lab/openpose">![Build Status](https://travis-ci.org/CMU-Perceptual-Computing-Lab/openpose.svg?branch=master)</a> </td></tr>
 </table>
-<p><a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a> represents the <b>first real-time multi-person system to jointly detect human body, hand, and facial keypoints (in total 135 keypoints) on single images</b>.</p>
+<p><a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a> represents the <b>first real-time multi-person system to jointly detect human body, hand, facial, and foot keypoints (in total 135 keypoints) on single images</b>.</p>
 <p>&lt;img src="doc/media/pose_face_hands.gif", width="480"&gt; </p>
 <h2>Features</h2>
 <ul>
@@ -190,8 +190,8 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p>./build/examples/openpose/openpose.bin &ndash;video examples/media/video.avi :: Windows - Portable Demo bin\OpenPoseDemo.exe &ndash;video examples\media\video.avi ```</p>
 <ul>
 <li><b>Calibration toolbox</b>: To easily calibrate your cameras for 3-D OpenPose or any other stereo vision task. See doc/modules/calibration_module.md.</li>
-<li><b>OpenPose Wrapper</b>: If you want to read a specific input, and/or add your custom post-processing function, and/or implement your own display/saving, check the <code>Wrapper</code> tutorial on <a href="examples/tutorial_wrapper/">examples/tutorial_wrapper/</a>. You can create your custom code on <a href="examples/user_code/">examples/user_code/</a> and quickly compile it with CMake when compiling the whole OpenPose project. Quickly <b>add your custom code</b>: See examples/user_code/README.md for further details.</li>
-<li><b>OpenPose C++ API</b>: See doc/library_introduction.md.</li>
+<li><b>OpenPose C++ API</b>: If you want to read a specific input, and/or add your custom post-processing function, and/or implement your own display/saving, check the C++ API tutorial on <a href="examples/tutorial_api_cpp/">examples/tutorial_api_cpp/</a> and doc/library_introduction.md. You can create your custom code on <a href="examples/user_code/">examples/user_code/</a> and quickly compile it with CMake when compiling the whole OpenPose project. Quickly <b>add your custom code</b>: See examples/user_code/README.md for further details.</li>
+<li><b>OpenPose Python API</b>: Analogously to the C++ API, find the tutorial for the Python API on <a href="examples/tutorial_api_python/">examples/tutorial_api_python/</a>.</li>
 <li><b>Adding an extra module</b>: Check ./doc/library_add_new_module.md "doc/library_add_new_module.md".</li>
 <li><b>Standalone face or hand detector</b>:<ul>
 <li><b>Face</b> keypoint detection <b>without body</b> keypoint detection: If you want to speed it up (but also reduce amount of detected faces), check the OpenCV-face-detector approach in doc/standalone_face_or_hand_keypoint_detector.md.</li>

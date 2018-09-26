@@ -255,6 +255,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_hand_renderer.html">WHandRenderer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html">BodyPartConnectorCaffe</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_maximum_caffe.html">MaximumCaffe</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_net.html">Net</a></td></tr>
@@ -264,8 +266,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_nms_caffe.html">NmsCaffe</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_resize_and_merge_caffe.html">ResizeAndMergeCaffe</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html">BodyPartConnectorCaffe</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_cpu_renderer.html">PoseCpuRenderer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -519,6 +519,12 @@ Enumerations</h2></td></tr>
 <br/>
  }</td></tr>
 <tr class="separator:adc43fb9031418e7f8112816a3b535d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a970a2a768a2ace81605b1558c9fdec18"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a970a2a768a2ace81605b1558c9fdec18">WorkerType</a> : unsigned char { <a class="el" href="namespaceop.html#a970a2a768a2ace81605b1558c9fdec18a324118a6721dd6b8a9b9f4e327df2bf5">WorkerType::Input</a> = 0, 
+<a class="el" href="namespaceop.html#a970a2a768a2ace81605b1558c9fdec18aa52d6088cbae537944827c8f8c69c570">WorkerType::PostProcessing</a>, 
+<a class="el" href="namespaceop.html#a970a2a768a2ace81605b1558c9fdec18a29c2c02a361c9d7028472e5d92cd4a54">WorkerType::Output</a>, 
+<a class="el" href="namespaceop.html#a970a2a768a2ace81605b1558c9fdec18a6f6cb72d544962fa333e2e34ce64f719">WorkerType::Size</a>
+ }</td></tr>
+<tr class="separator:a970a2a768a2ace81605b1558c9fdec18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -648,30 +654,6 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:ae5cc3e92ffd9696f01ce7824ebbd0759"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a635579f5f8d20b8e65f4f94da4d3d2f2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a635579f5f8d20b8e65f4f94da4d3d2f2">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_hand_renderer.html">WHandRenderer</a>)</td></tr>
 <tr class="separator:a635579f5f8d20b8e65f4f94da4d3d2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc3e9959bee33fa45e718f9874da3e33"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:adc3e9959bee33fa45e718f9874da3e33"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#adc3e9959bee33fa45e718f9874da3e33">maximumCpu</a> (T *targetPtr, const T *const sourcePtr, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize)</td></tr>
-<tr class="separator:adc3e9959bee33fa45e718f9874da3e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4852b0b78742b27c332f4b9e95d0106c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a4852b0b78742b27c332f4b9e95d0106c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a4852b0b78742b27c332f4b9e95d0106c">maximumGpu</a> (T *targetPtr, const T *const sourcePtr, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize)</td></tr>
-<tr class="separator:a4852b0b78742b27c332f4b9e95d0106c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b614172739d84881dded9d8abefce82"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a7b614172739d84881dded9d8abefce82"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7b614172739d84881dded9d8abefce82">nmsCpu</a> (T *targetPtr, int *kernelPtr, const T *const sourcePtr, const T threshold, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; T &gt; &amp;offset)</td></tr>
-<tr class="separator:a7b614172739d84881dded9d8abefce82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dc31458818768ba61e64d348678a36c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a7dc31458818768ba61e64d348678a36c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7dc31458818768ba61e64d348678a36c">nmsGpu</a> (T *targetPtr, int *kernelPtr, const T *const sourcePtr, const T threshold, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; T &gt; &amp;offset)</td></tr>
-<tr class="separator:a7dc31458818768ba61e64d348678a36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bfdb5691a19cc84686ce6f0eedd4bf6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a1bfdb5691a19cc84686ce6f0eedd4bf6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1bfdb5691a19cc84686ce6f0eedd4bf6">nmsOcl</a> (T *targetPtr, int *kernelPtr, const T *const sourcePtr, const T threshold, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; T &gt; &amp;offset, const int gpuID=0)</td></tr>
-<tr class="separator:a1bfdb5691a19cc84686ce6f0eedd4bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b6c4abcf6948b5ac5651bb2f2909bc9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a1b6c4abcf6948b5ac5651bb2f2909bc9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1b6c4abcf6948b5ac5651bb2f2909bc9">resizeAndMergeCpu</a> (T *targetPtr, const std::vector&lt; const T * &gt; &amp;sourcePtrs, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;sourceSizes, const std::vector&lt; T &gt; &amp;scaleInputToNetInputs={1.f})</td></tr>
-<tr class="separator:a1b6c4abcf6948b5ac5651bb2f2909bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a5cb4e7c022ac0fbcc399e24bb6931a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a6a5cb4e7c022ac0fbcc399e24bb6931a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6a5cb4e7c022ac0fbcc399e24bb6931a">resizeAndMergeGpu</a> (T *targetPtr, const std::vector&lt; const T * &gt; &amp;sourcePtrs, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;sourceSizes, const std::vector&lt; T &gt; &amp;scaleInputToNetInputs={1.f})</td></tr>
-<tr class="separator:a6a5cb4e7c022ac0fbcc399e24bb6931a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46a1ea61fca063d4639d5cf3a15302ca"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a46a1ea61fca063d4639d5cf3a15302ca"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a46a1ea61fca063d4639d5cf3a15302ca">resizeAndMergeOcl</a> (T *targetPtr, const std::vector&lt; const T * &gt; &amp;sourcePtrs, std::vector&lt; T * &gt; &amp;sourceTempPtrs, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;sourceSizes, const std::vector&lt; T &gt; &amp;scaleInputToNetInputs={1.f}, const int gpuID=0)</td></tr>
-<tr class="separator:a46a1ea61fca063d4639d5cf3a15302ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a708e05033d5c51c3a3ff5d4ed621ebbf"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a708e05033d5c51c3a3ff5d4ed621ebbf"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a708e05033d5c51c3a3ff5d4ed621ebbf">connectBodyPartsCpu</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores, const T *const heatMapPtr, const T *const peaksPtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const int maxPeaks, const T interMinAboveThreshold, const T interThreshold, const int minSubsetCnt, const T minSubsetScore, const T scaleFactor=1.f)</td></tr>
 <tr class="separator:a708e05033d5c51c3a3ff5d4ed621ebbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -696,6 +678,30 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a15fe0812436c48a912e0382c5c42a9b4"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; std::pair<br class="typebreak"/>
 &lt; std::vector&lt; int &gt;, T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a15fe0812436c48a912e0382c5c42a9b4">pafVectorIntoPeopleVector</a> (const std::vector&lt; std::tuple&lt; T, T, int, int, int &gt;&gt; &amp;pairScores, const T *const peaksPtr, const int maxPeaks, const std::vector&lt; unsigned int &gt; &amp;bodyPartPairs, const unsigned int numberBodyParts)</td></tr>
 <tr class="separator:a15fe0812436c48a912e0382c5c42a9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc3e9959bee33fa45e718f9874da3e33"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:adc3e9959bee33fa45e718f9874da3e33"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#adc3e9959bee33fa45e718f9874da3e33">maximumCpu</a> (T *targetPtr, const T *const sourcePtr, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize)</td></tr>
+<tr class="separator:adc3e9959bee33fa45e718f9874da3e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4852b0b78742b27c332f4b9e95d0106c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a4852b0b78742b27c332f4b9e95d0106c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a4852b0b78742b27c332f4b9e95d0106c">maximumGpu</a> (T *targetPtr, const T *const sourcePtr, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize)</td></tr>
+<tr class="separator:a4852b0b78742b27c332f4b9e95d0106c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b614172739d84881dded9d8abefce82"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7b614172739d84881dded9d8abefce82"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7b614172739d84881dded9d8abefce82">nmsCpu</a> (T *targetPtr, int *kernelPtr, const T *const sourcePtr, const T threshold, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; T &gt; &amp;offset)</td></tr>
+<tr class="separator:a7b614172739d84881dded9d8abefce82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dc31458818768ba61e64d348678a36c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7dc31458818768ba61e64d348678a36c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7dc31458818768ba61e64d348678a36c">nmsGpu</a> (T *targetPtr, int *kernelPtr, const T *const sourcePtr, const T threshold, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; T &gt; &amp;offset)</td></tr>
+<tr class="separator:a7dc31458818768ba61e64d348678a36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bfdb5691a19cc84686ce6f0eedd4bf6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a1bfdb5691a19cc84686ce6f0eedd4bf6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1bfdb5691a19cc84686ce6f0eedd4bf6">nmsOcl</a> (T *targetPtr, int *kernelPtr, const T *const sourcePtr, const T threshold, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; T &gt; &amp;offset, const int gpuID=0)</td></tr>
+<tr class="separator:a1bfdb5691a19cc84686ce6f0eedd4bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b6c4abcf6948b5ac5651bb2f2909bc9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a1b6c4abcf6948b5ac5651bb2f2909bc9"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1b6c4abcf6948b5ac5651bb2f2909bc9">resizeAndMergeCpu</a> (T *targetPtr, const std::vector&lt; const T * &gt; &amp;sourcePtrs, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;sourceSizes, const std::vector&lt; T &gt; &amp;scaleInputToNetInputs={1.f})</td></tr>
+<tr class="separator:a1b6c4abcf6948b5ac5651bb2f2909bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a5cb4e7c022ac0fbcc399e24bb6931a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6a5cb4e7c022ac0fbcc399e24bb6931a"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6a5cb4e7c022ac0fbcc399e24bb6931a">resizeAndMergeGpu</a> (T *targetPtr, const std::vector&lt; const T * &gt; &amp;sourcePtrs, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;sourceSizes, const std::vector&lt; T &gt; &amp;scaleInputToNetInputs={1.f})</td></tr>
+<tr class="separator:a6a5cb4e7c022ac0fbcc399e24bb6931a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46a1ea61fca063d4639d5cf3a15302ca"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a46a1ea61fca063d4639d5cf3a15302ca"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a46a1ea61fca063d4639d5cf3a15302ca">resizeAndMergeOcl</a> (T *targetPtr, const std::vector&lt; const T * &gt; &amp;sourcePtrs, std::vector&lt; T * &gt; &amp;sourceTempPtrs, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;sourceSizes, const std::vector&lt; T &gt; &amp;scaleInputToNetInputs={1.f}, const int gpuID=0)</td></tr>
+<tr class="separator:a46a1ea61fca063d4639d5cf3a15302ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab3de911b04b96c1850cc05c6947e184"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const std::map<br class="typebreak"/>
 &lt; unsigned int, std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aab3de911b04b96c1850cc05c6947e184">getPoseBodyPartMapping</a> (const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel)</td></tr>
 <tr class="separator:aab3de911b04b96c1850cc05c6947e184"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -967,6 +973,14 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:a7a815e303884fb2b3346c8cc19d61b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4b779992da90d211f928b3d906d8708"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ac4b779992da90d211f928b3d906d8708">wrapperConfigureSecurityChecks</a> (<a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand, const <a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a> &amp;wrapperStructExtra, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput, const bool renderOutput, const bool userOutputWsEmpty, const <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36">ThreadManagerMode</a> threadManagerMode)</td></tr>
 <tr class="separator:ac4b779992da90d211f928b3d906d8708"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65a4564afcad06b72468679f6bee52b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#af65a4564afcad06b72468679f6bee52b">threadIdPP</a> (unsigned long long &amp;threadId, const bool multiThreadEnabled)</td></tr>
+<tr class="separator:af65a4564afcad06b72468679f6bee52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14617fc3e3e147e3b5887a172028eae0"><td class="memTemplParams" colspan="2">template&lt;typename TDatums , typename TDatumsSP  = std::shared_ptr&lt;TDatums&gt;, typename TWorker  = std::shared_ptr&lt;Worker&lt;TDatumsSP&gt;&gt;&gt; </td></tr>
+<tr class="memitem:a14617fc3e3e147e3b5887a172028eae0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a14617fc3e3e147e3b5887a172028eae0">configureThreadManager</a> (<a class="el" href="classop_1_1_thread_manager.html">ThreadManager</a>&lt; TDatumsSP &gt; &amp;threadManager, const bool multiThreadEnabled, const <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36">ThreadManagerMode</a> threadManagerMode, const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand, const <a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a> &amp;wrapperStructExtra, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput, const std::array&lt; std::vector&lt; TWorker &gt;, int(<a class="el" href="namespaceop.html#a970a2a768a2ace81605b1558c9fdec18a6f6cb72d544962fa333e2e34ce64f719">WorkerType::Size</a>)&gt; &amp;userWs, const std::array&lt; bool, int(<a class="el" href="namespaceop.html#a970a2a768a2ace81605b1558c9fdec18a6f6cb72d544962fa333e2e34ce64f719">WorkerType::Size</a>)&gt; &amp;userWsOnNewThread)</td></tr>
+<tr class="separator:a14617fc3e3e147e3b5887a172028eae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2339f5d601d330ee9c8c3d57acee8bf2"><td class="memTemplParams" colspan="2">template&lt;typename TDatums , typename TDatumsSP , typename TWorker &gt; </td></tr>
+<tr class="memitem:a2339f5d601d330ee9c8c3d57acee8bf2"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a2339f5d601d330ee9c8c3d57acee8bf2">configureThreadManager</a> (<a class="el" href="classop_1_1_thread_manager.html">ThreadManager</a>&lt; TDatumsSP &gt; &amp;threadManager, const bool multiThreadEnabledTemp, const <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36">ThreadManagerMode</a> threadManagerMode, const <a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPoseTemp, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand, const <a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a> &amp;wrapperStructExtra, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput, const std::array&lt; std::vector&lt; TWorker &gt;, int(<a class="el" href="namespaceop.html#a970a2a768a2ace81605b1558c9fdec18a6f6cb72d544962fa333e2e34ce64f719">WorkerType::Size</a>)&gt; &amp;userWs, const std::array&lt; bool, int(<a class="el" href="namespaceop.html#a970a2a768a2ace81605b1558c9fdec18a6f6cb72d544962fa333e2e34ce64f719">WorkerType::Size</a>)&gt; &amp;userWsOnNewThread)</td></tr>
+<tr class="separator:a2339f5d601d330ee9c8c3d57acee8bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -1650,6 +1664,36 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="a3593e2d53bec533f0048ef3973eebd36a2fe4167817733fec8e6ba1afddf78f1b"></a>Synchronous</em>&#160;</td><td class="fielddoc">
 <p>Everything will run inside the <a class="el" href="classop_1_1_thread_manager.html">ThreadManager</a>. Recommended for production environments (more difficult to set up but faster in performance and less error-prone). </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a class="anchor" id="a970a2a768a2ace81605b1558c9fdec18"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceop.html#a970a2a768a2ace81605b1558c9fdec18">op::WorkerType</a> : unsigned char</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a970a2a768a2ace81605b1558c9fdec18a324118a6721dd6b8a9b9f4e327df2bf5"></a>Input</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a970a2a768a2ace81605b1558c9fdec18aa52d6088cbae537944827c8f8c69c570"></a>PostProcessing</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a970a2a768a2ace81605b1558c9fdec18a29c2c02a361c9d7028472e5d92cd4a54"></a>Output</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a970a2a768a2ace81605b1558c9fdec18a6f6cb72d544962fa333e2e34ce64f719"></a>Size</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
@@ -2785,6 +2829,172 @@ template&lt;typename TPointerContainer &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a14617fc3e3e147e3b5887a172028eae0"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDatums , typename TDatumsSP  = std::shared_ptr&lt;TDatums&gt;, typename TWorker  = std::shared_ptr&lt;Worker&lt;TDatumsSP&gt;&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void op::configureThreadManager </td>
+          <td>(</td>
+          <td class="paramtype">ThreadManager&lt; TDatumsSP &gt; &amp;&#160;</td>
+          <td class="paramname"><em>threadManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>multiThreadEnabled</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ThreadManagerMode&#160;</td>
+          <td class="paramname"><em>threadManagerMode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructPose &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructPose</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructFace &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructFace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructHand &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructHand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructExtra &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructExtra</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructInput &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructInput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructOutput &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructOutput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::array&lt; std::vector&lt; TWorker &gt;, int(WorkerType::Size)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>userWs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::array&lt; bool, int(WorkerType::Size)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>userWsOnNewThread</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set <a class="el" href="classop_1_1_thread_manager.html">ThreadManager</a> from TWorkers (private internal function). After any configure() has been called, the TWorkers are initialized. This function resets the <a class="el" href="classop_1_1_thread_manager.html">ThreadManager</a> and adds them. Common code for start() and exec(). </p>
+
+</div>
+</div>
+<a class="anchor" id="a2339f5d601d330ee9c8c3d57acee8bf2"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void op::configureThreadManager </td>
+          <td>(</td>
+          <td class="paramtype">ThreadManager&lt; TDatumsSP &gt; &amp;&#160;</td>
+          <td class="paramname"><em>threadManager</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>multiThreadEnabled</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const ThreadManagerMode&#160;</td>
+          <td class="paramname"><em>threadManagerMode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructPose &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructPose</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructFace &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructFace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructHand &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructHand</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructExtra &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructExtra</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructInput &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructInput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const WrapperStructOutput &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructOutput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::array&lt; std::vector&lt; TWorker &gt;, int(WorkerType::Size)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>userWs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::array&lt; bool, int(WorkerType::Size)&gt; &amp;&#160;</td>
+          <td class="paramname"><em>userWsOnNewThread</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set <a class="el" href="classop_1_1_thread_manager.html">ThreadManager</a> from TWorkers (private internal function). After any configure() has been called, the TWorkers are initialized. This function resets the <a class="el" href="classop_1_1_thread_manager.html">ThreadManager</a> and adds them. Common code for start() and exec(). </p>
 
 </div>
 </div>
@@ -7291,6 +7501,39 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af65a4564afcad06b72468679f6bee52b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void op::threadIdPP </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long long &amp;&#160;</td>
+          <td class="paramname"><em>threadId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>multiThreadEnabled</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p><a class="el" href="classop_1_1_thread.html">Thread</a> ID increase (private internal function). If multi-threading mode, it increases the thread ID. If single-threading mode (for debugging), it does not modify it. Note that mThreadId must be re-initialized to 0 before starting a new <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> configuration. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">threadId</td><td>unsigned long long element with the current thread id value. I will be edited to the next `desired thread id number. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
