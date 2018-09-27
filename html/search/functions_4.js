@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['emplaceandpop',['emplaceAndPop',['../classop_1_1_wrapper.html#a448ebb83fc269d6953f10c7ff555bab0',1,'op::Wrapper::emplaceAndPop(TDatumsSP &amp;tDatums)'],['../classop_1_1_wrapper.html#a981cf191f3f721ba0f0111c315c0dd34',1,'op::Wrapper::emplaceAndPop(const cv::Mat &amp;cvMat)']]],
+  ['emplaceandpop',['emplaceAndPop',['../classop_1_1_wrapper_t.html#a395acb85400826012839570ea2bcd9bd',1,'op::WrapperT::emplaceAndPop(TDatumsSP &amp;tDatums)'],['../classop_1_1_wrapper_t.html#a87087f042262638309bfb4ff14dad57e',1,'op::WrapperT::emplaceAndPop(const cv::Mat &amp;cvMat)']]],
   ['empty',['empty',['../classop_1_1_array.html#ad51b6ac12ed115f1056effefd6fa878b',1,'op::Array::empty()'],['../classop_1_1_queue_base.html#abf37af06eadbddeaaa14f1503c455c8e',1,'op::QueueBase::empty()']]],
   ['enablefinegrainedsystemsvm',['enableFineGrainedSystemSVM',['../classcl_1_1_kernel.html#aed996666686cddb41d660839e709fcd0',1,'cl::Kernel']]],
   ['enqueueacquireglobjects',['enqueueAcquireGLObjects',['../classcl_1_1_command_queue.html#a4722683713b428fbfdc1046d53cb96c4',1,'cl::CommandQueue']]],
@@ -35,7 +35,7 @@ var searchData=
   ['estimateandsaveintrinsics',['estimateAndSaveIntrinsics',['../namespaceop.html#a8817a682e5cf7bbc4b86660f1e0adba9',1,'op']]],
   ['estimateandsavesiftfile',['estimateAndSaveSiftFile',['../namespaceop.html#a3762897ab245335916f08bb5ba32f203',1,'op']]],
   ['event',['Event',['../classcl_1_1_event.html#a90e01689f7b394fc003d66c48a7f6f95',1,'cl::Event::Event()'],['../classcl_1_1_event.html#a3b035b8ff20d92d0b42f2f0dc8657621',1,'cl::Event::Event(const cl_event &amp;event, bool retainObject=false)']]],
-  ['exec',['exec',['../classop_1_1_thread.html#ad6c3721793d0f65ffe755ab74534afed',1,'op::Thread::exec()'],['../classop_1_1_thread_manager.html#a67a2d7cecc749be414e6896a88ec268d',1,'op::ThreadManager::exec()'],['../classop_1_1_wrapper.html#a23153a6444d7cbd74d0fe70089acd74b',1,'op::Wrapper::exec()']]],
+  ['exec',['exec',['../classop_1_1_thread.html#ad6c3721793d0f65ffe755ab74534afed',1,'op::Thread::exec()'],['../classop_1_1_thread_manager.html#a67a2d7cecc749be414e6896a88ec268d',1,'op::ThreadManager::exec()'],['../classop_1_1_wrapper_t.html#a48088e6ebf48122482718560c20549c8',1,'op::WrapperT::exec()']]],
   ['existdirectory',['existDirectory',['../namespaceop.html#a6fc2ee2d2c256695fb7b2b953ee7f762',1,'op']]],
   ['existfile',['existFile',['../namespaceop.html#ac1f4b95440d2fb57fc715558d039b947',1,'op']]],
   ['extract',['extract',['../classop_1_1_scale_and_size_extractor.html#af1c56d1ce833e88056c3dd7fd43762a5',1,'op::ScaleAndSizeExtractor']]],

@@ -182,9 +182,9 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p><b>Windows portable version</b>: Simply download and use the latest version from the <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases">Releases</a> section.</p>
 <p>Otherwise, check doc/installation.md for instructions on how to build OpenPose from source.</p>
 <h2>Quick Start</h2>
-<p>Most users do not need the <a href="#openpose-c-api">OpenPose C++ API</a>, but they can simply use the basic <a href="#demo">Demo</a> and/or <a href="#openpose-wrapper">OpenPose Wrapper</a>.</p>
+<p>Most users do not need the OpenPose C++/Python API, but can simply use the OpenPose Demo:</p>
 <ul>
-<li><b>Demo</b>: To easily process images/video/webcam and display/save the results. See doc/demo_overview.md. E.g. run OpenPose in a video with: ``` <h1>Ubuntu</h1>
+<li><b>OpenPose Demo</b>: To easily process images/video/webcam and display/save the results. See doc/demo_overview.md. E.g. run OpenPose in a video with: ``` <h1>Ubuntu</h1>
 </li>
 </ul>
 <p>./build/examples/openpose/openpose.bin &ndash;video examples/media/video.avi :: Windows - Portable Demo bin\OpenPoseDemo.exe &ndash;video examples\media\video.avi ```</p>
@@ -198,7 +198,6 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li><b>Use your own face/hand detector</b>: You can use the hand and/or face keypoint detectors with your own face or hand detectors, rather than using the body detector. E.g. useful for camera views at which the hands are visible but not the body (OpenPose detector would fail). See doc/standalone_face_or_hand_keypoint_detector.md.</li>
 </ul>
 </li>
-<li><b>Library dependencies</b>: OpenPose uses default Caffe and OpenCV, as well as any Caffe dependency. The demos additionally use GFlags. It could easily be ported to other deep learning frameworks (Tensorflow, Torch, ...). Feel free to make a pull request if you implement any of those!</li>
 </ul>
 <h2>Output</h2>
 <p>Output (format, keypoint index ordering, etc.) in doc/output.md.</p>

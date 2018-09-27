@@ -105,6 +105,7 @@ $(document).ready(function(){initNavTree('namespaceop.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -357,7 +358,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_profiler.html">Profiler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper.html">Wrapper</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper_t.html">WrapperT</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -371,6 +372,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a3434981351c0d4d04eac3b29dfc22fbd"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classop_1_1_wrapper_t.html">WrapperT</a><br class="typebreak"/>
+&lt; <a class="el" href="datum_8hpp.html#ad96b23e17e179ed25d779d31b8ee2c07">DATUM_BASE_NO_PTR</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a3434981351c0d4d04eac3b29dfc22fbd">Wrapper</a></td></tr>
+<tr class="separator:a3434981351c0d4d04eac3b29dfc22fbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -1039,6 +1046,19 @@ Variables</h2></td></tr>
 <tr class="memitem:a5180d62b9273c9d0712f686531ee0aea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a5180d62b9273c9d0712f686531ee0aea">spTQueueOut</a></td></tr>
 <tr class="separator:a5180d62b9273c9d0712f686531ee0aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a3434981351c0d4d04eac3b29dfc22fbd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="classop_1_1_wrapper_t.html">WrapperT</a>&lt;<a class="el" href="datum_8hpp.html#ad96b23e17e179ed25d779d31b8ee2c07">DATUM_BASE_NO_PTR</a>&gt; <a class="el" href="namespaceop.html#a3434981351c0d4d04eac3b29dfc22fbd">op::Wrapper</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a class="anchor" id="abc02b50eb41d637d862e6af74bc9b3cc"></a>
 <div class="memitem">
@@ -7527,7 +7547,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p><a class="el" href="classop_1_1_thread.html">Thread</a> ID increase (private internal function). If multi-threading mode, it increases the thread ID. If single-threading mode (for debugging), it does not modify it. Note that mThreadId must be re-initialized to 0 before starting a new <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> configuration. </p>
+<p><a class="el" href="classop_1_1_thread.html">Thread</a> ID increase (private internal function). If multi-threading mode, it increases the thread ID. If single-threading mode (for debugging), it does not modify it. Note that mThreadId must be re-initialized to 0 before starting a new Wrapper(T) configuration. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">threadId</td><td>unsigned long long element with the current thread id value. I will be edited to the next `desired thread id number. </td></tr>
@@ -7879,7 +7899,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>It checks that no wrong/contradictory flags are enabled for <a class="el" href="classop_1_1_wrapper.html">Wrapper</a> </p>
+<p>It checks that no wrong/contradictory flags are enabled for Wrapper(T) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">wrapperStructPose</td><td></td></tr>

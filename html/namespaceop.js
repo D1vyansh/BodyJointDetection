@@ -121,7 +121,7 @@ var namespaceop =
     [ "PointerContainerGreater", "classop_1_1_pointer_container_greater.html", "classop_1_1_pointer_container_greater" ],
     [ "PointerContainerLess", "classop_1_1_pointer_container_less.html", "classop_1_1_pointer_container_less" ],
     [ "Profiler", "classop_1_1_profiler.html", null ],
-    [ "Wrapper", "classop_1_1_wrapper.html", "classop_1_1_wrapper" ],
+    [ "WrapperT", "classop_1_1_wrapper_t.html", "classop_1_1_wrapper_t" ],
     [ "WrapperStructExtra", "structop_1_1_wrapper_struct_extra.html", "structop_1_1_wrapper_struct_extra" ],
     [ "WrapperStructFace", "structop_1_1_wrapper_struct_face.html", "structop_1_1_wrapper_struct_face" ],
     [ "WrapperStructHand", "structop_1_1_wrapper_struct_hand.html", "structop_1_1_wrapper_struct_hand" ],

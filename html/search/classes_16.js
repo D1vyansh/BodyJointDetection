@@ -38,7 +38,6 @@ var searchData=
   ['wposetriangulation',['WPoseTriangulation',['../classop_1_1_w_pose_triangulation.html',1,'op']]],
   ['wqueueassembler',['WQueueAssembler',['../classop_1_1_w_queue_assembler.html',1,'op']]],
   ['wqueueorderer',['WQueueOrderer',['../classop_1_1_w_queue_orderer.html',1,'op']]],
-  ['wrapper',['Wrapper',['../classop_1_1_wrapper.html',1,'op']]],
   ['wrapper',['Wrapper',['../classcl_1_1detail_1_1_wrapper.html',1,'cl::detail']]],
   ['wrapper_3c_20cl_5fcommand_5fqueue_20_3e',['Wrapper&lt; cl_command_queue &gt;',['../classcl_1_1detail_1_1_wrapper.html',1,'cl::detail']]],
   ['wrapper_3c_20cl_5fcontext_20_3e',['Wrapper&lt; cl_context &gt;',['../classcl_1_1detail_1_1_wrapper.html',1,'cl::detail']]],
@@ -55,6 +54,7 @@ var searchData=
   ['wrapperstructinput',['WrapperStructInput',['../structop_1_1_wrapper_struct_input.html',1,'op']]],
   ['wrapperstructoutput',['WrapperStructOutput',['../structop_1_1_wrapper_struct_output.html',1,'op']]],
   ['wrapperstructpose',['WrapperStructPose',['../structop_1_1_wrapper_struct_pose.html',1,'op']]],
+  ['wrappert',['WrapperT',['../classop_1_1_wrapper_t.html',1,'op']]],
   ['wscaleandsizeextractor',['WScaleAndSizeExtractor',['../classop_1_1_w_scale_and_size_extractor.html',1,'op']]],
   ['wudpsender',['WUdpSender',['../classop_1_1_w_udp_sender.html',1,'op']]],
   ['wvideosaver',['WVideoSaver',['../classop_1_1_w_video_saver.html',1,'op']]]

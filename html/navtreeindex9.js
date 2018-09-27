@@ -207,6 +207,7 @@ var NAVTREEINDEX9 =
 "wrapper_2headers_8hpp.html":[2,0,0,0,14,1],
 "wrapper_2headers_8hpp_source.html":[2,0,0,0,14,1],
 "wrapper_8hpp.html":[2,0,0,0,14,2],
+"wrapper_8hpp.html#a3434981351c0d4d04eac3b29dfc22fbd":[2,0,0,0,14,2,1],
 "wrapper_8hpp_source.html":[2,0,0,0,14,2],
 "wrapper_auxiliary_8hpp.html":[2,0,0,0,14,3],
 "wrapper_auxiliary_8hpp.html#a14617fc3e3e147e3b5887a172028eae0":[2,0,0,0,14,3,0],
