@@ -42,13 +42,14 @@ var NAVTREEINDEX =
 "3d_2headers_8hpp.html",
 "classcl_1_1_enqueue_args.html#a1ab03b76ada8edb5440ba19905848e5f",
 "classcl_1_1_sampler.html#ad26196f0282429667828b5b39bbc97f1",
-"classop_1_1_hand_gpu_renderer.html#a0489f10ddc9e37e87084ebf9a5138f3a",
-"classop_1_1_renderer.html#a9d46c28d88225af94468c757ab1b26c1",
-"classop_1_1_w_scale_and_size_extractor.html#afddf54d061dc5325e78252a3bba482b9",
-"flags_8hpp.html#a64c46584d79ef0b947ecd0a98b282839",
-"macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e",
-"render_pose_8hpp.html#a5afd7c8ba1a5db63538d1f0182fb83b4",
-"structop_1_1_wrapper_struct_pose.html#a80ead0f411ddab86f643345e4effe805"
+"classop_1_1_hand_extractor_net.html#a557b50d687fb9529306b33d0710a9f41",
+"classop_1_1_queue_base.html#a5e52b4ab7e310373e3d1f1d42cfe4549",
+"classop_1_1_w_id_generator.html#a03bd005cf88749702fb8a29c20d4cb91",
+"fast_math_8hpp.html#a757a5cc88734e7be9e910e7d8213c282",
+"gui_2enum_classes_8hpp_source.html",
+"pose_parameters_render_8hpp.html",
+"structop_1_1_point.html#afb53230d0d884ca5432e948605b5c2e6",
+"w_pose_renderer_8hpp.html#ae76afeeeaedaebe6941f41a4bdf50e2a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,6 +1,7 @@
 var classop_1_1_resize_and_merge_caffe =
 [
     [ "ResizeAndMergeCaffe", "classop_1_1_resize_and_merge_caffe.html#a30805a265fa887eff04b1200dbda91a5", null ],
+    [ "~ResizeAndMergeCaffe", "classop_1_1_resize_and_merge_caffe.html#a5dc1aa7c462bd8df8b6a8377418e19d4", null ],
     [ "Backward_cpu", "classop_1_1_resize_and_merge_caffe.html#a6956c0970359413ed5ff409ee0f913fc", null ],
     [ "Backward_gpu", "classop_1_1_resize_and_merge_caffe.html#a1561454d50551545d6b8643e82d5a97f", null ],
     [ "Forward_cpu", "classop_1_1_resize_and_merge_caffe.html#a9c8733511a410a60aa5509f3f8037af0", null ],

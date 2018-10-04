@@ -104,7 +104,6 @@ $(document).ready(function(){initNavTree('error_and_log_8hpp.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -121,16 +120,13 @@ $(document).ready(function(){initNavTree('error_and_log_8hpp.html','');});
 </div>
 <p><a href="error_and_log_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_configure_error.html">op::ConfigureError</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_configure_log.html">op::ConfigureLog</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceop"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html">op</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceop_1_1_configure_error"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop_1_1_configure_error.html">op::ConfigureError</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceop_1_1_configure_log"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop_1_1_configure_log.html">op::ConfigureLog</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -151,6 +147,19 @@ Functions</h2></td></tr>
 <tr class="memitem:a4eb991aa18818196d35c66455a437a32"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a4eb991aa18818196d35c66455a437a32"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a4eb991aa18818196d35c66455a437a32">op::dLog</a> (const T &amp;message, const Priority priority=Priority::Max, const int line=-1, const std::string &amp;function=&quot;&quot;, const std::string &amp;file=&quot;&quot;)</td></tr>
 <tr class="separator:a4eb991aa18818196d35c66455a437a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8dbbccc9a2ca8a4670716ac5fdd8d53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; ErrorMode &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop_1_1_configure_error.html#ae8dbbccc9a2ca8a4670716ac5fdd8d53">op::ConfigureError::getErrorModes</a> ()</td></tr>
+<tr class="separator:ae8dbbccc9a2ca8a4670716ac5fdd8d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96e56b0ddbe2cb17443b93aaba05d672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop_1_1_configure_error.html#a96e56b0ddbe2cb17443b93aaba05d672">op::ConfigureError::setErrorModes</a> (const std::vector&lt; ErrorMode &gt; &amp;errorModes)</td></tr>
+<tr class="separator:a96e56b0ddbe2cb17443b93aaba05d672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5c3fad2ace3eb129dd1d97afd59558"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> Priority&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop_1_1_configure_log.html#a0e5c3fad2ace3eb129dd1d97afd59558">op::ConfigureLog::getPriorityThreshold</a> ()</td></tr>
+<tr class="separator:a0e5c3fad2ace3eb129dd1d97afd59558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ab07ae8c026e4f7782a113778d9082d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> const std::vector<br class="typebreak"/>
+&lt; LogMode &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop_1_1_configure_log.html#a5ab07ae8c026e4f7782a113778d9082d">op::ConfigureLog::getLogModes</a> ()</td></tr>
+<tr class="separator:a5ab07ae8c026e4f7782a113778d9082d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a149393c3c87c82a5cf14417c6b430d30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop_1_1_configure_log.html#a149393c3c87c82a5cf14417c6b430d30">op::ConfigureLog::setPriorityThreshold</a> (const Priority priorityThreshold)</td></tr>
+<tr class="separator:a149393c3c87c82a5cf14417c6b430d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f41e9a74bbda434ef16189c32a13aba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop_1_1_configure_log.html#a2f41e9a74bbda434ef16189c32a13aba">op::ConfigureLog::setLogModes</a> (const std::vector&lt; LogMode &gt; &amp;loggingModes)</td></tr>
+<tr class="separator:a2f41e9a74bbda434ef16189c32a13aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

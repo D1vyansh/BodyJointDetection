@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['configureerror',['ConfigureError',['../namespaceop_1_1_configure_error.html',1,'op']]],
+  ['configurelog',['ConfigureLog',['../namespaceop_1_1_configure_log.html',1,'op']]],
   ['object_5f',['object_',['../classcl_1_1detail_1_1_wrapper.html#a1292547dd0c591aa972e25b793481583',1,'cl::detail::Wrapper::object_()'],['../classcl_1_1detail_1_1_wrapper_3_01cl__device__id_01_4.html#a34bae3d4d284c0ea2921182962c210df',1,'cl::detail::Wrapper&lt; cl_device_id &gt;::object_()']]],
   ['objectclose',['objectClose',['../classop_1_1_json_ofstream.html#a45eeb25d9413fc31786f315b46c341cc',1,'op::JsonOfstream']]],
   ['objectopen',['objectOpen',['../classop_1_1_json_ofstream.html#a5c38e36c1449d808dd4ab6558d65289c',1,'op::JsonOfstream']]],

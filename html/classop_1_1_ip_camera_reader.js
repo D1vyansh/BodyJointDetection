@@ -1,6 +1,7 @@
 var classop_1_1_ip_camera_reader =
 [
     [ "IpCameraReader", "classop_1_1_ip_camera_reader.html#abbe7f1bbf200ed9c6c0868eb3c6b0764", null ],
+    [ "~IpCameraReader", "classop_1_1_ip_camera_reader.html#ad90e52c898ddf32503ce94685977aae0", null ],
     [ "get", "classop_1_1_ip_camera_reader.html#aa7ad6adac6e401193e03d279176dd889", null ],
     [ "getCameraExtrinsics", "classop_1_1_ip_camera_reader.html#a97b79697a2f5e12f3b48aa8506177e52", null ],
     [ "getCameraIntrinsics", "classop_1_1_ip_camera_reader.html#a9e546d2b8211d9318ba63b252b2a3ade", null ],

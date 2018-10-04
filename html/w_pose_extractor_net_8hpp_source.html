@@ -122,88 +122,95 @@ $(document).ready(function(){initNavTree('w_pose_extractor_net_8hpp_source.html'
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classop_1_1_w_pose_extractor_net.html#aa0f6b7ec6f36fe2a27649ac2c7490c09">WPoseExtractorNet</a>(<span class="keyword">const</span> std::shared_ptr&lt;PoseExtractorNet&gt;&amp; poseExtractorSharedPtr);</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classop_1_1_w_pose_extractor_net.html#a18d4a120314ec44d1722cc164aaba7a8">initializationOnThread</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classop_1_1_w_pose_extractor_net.html#aa085377f965ffc8385d34d77a2e65e5a">~WPoseExtractorNet</a>();</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classop_1_1_w_pose_extractor_net.html#a3d691e30c419c70e23a4d7b3c92adb4b">work</a>(TDatums&amp; tDatums);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classop_1_1_w_pose_extractor_net.html#a18d4a120314ec44d1722cc164aaba7a8">initializationOnThread</a>();</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        std::shared_ptr&lt;PoseExtractorNet&gt; spPoseExtractorNet;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        DELETE_COPY(<a class="code" href="classop_1_1_w_pose_extractor_net.html">WPoseExtractorNet</a>);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    };</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classop_1_1_w_pose_extractor_net.html#a3d691e30c419c70e23a4d7b3c92adb4b">work</a>(TDatums&amp; tDatums);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        std::shared_ptr&lt;PoseExtractorNet&gt; spPoseExtractorNet;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        DELETE_COPY(<a class="code" href="classop_1_1_w_pose_extractor_net.html">WPoseExtractorNet</a>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    };</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">// Implementation</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="pointer_container_8hpp.html">openpose/utilities/pointerContainer.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span>op</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDatums&gt;</div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classop_1_1_w_pose_extractor_net.html#aa0f6b7ec6f36fe2a27649ac2c7490c09">   36</a></span>&#160;    <a class="code" href="classop_1_1_w_pose_extractor_net.html#aa0f6b7ec6f36fe2a27649ac2c7490c09">WPoseExtractorNet&lt;TDatums&gt;::WPoseExtractorNet</a>(<span class="keyword">const</span> std::shared_ptr&lt;PoseExtractorNet&gt;&amp; poseExtractorSharedPtr) :</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        spPoseExtractorNet{poseExtractorSharedPtr}</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDatums&gt;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classop_1_1_w_pose_extractor_net.html#a18d4a120314ec44d1722cc164aaba7a8">   42</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classop_1_1_w_pose_extractor_net.html#a18d4a120314ec44d1722cc164aaba7a8">WPoseExtractorNet&lt;TDatums&gt;::initializationOnThread</a>()</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">try</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            spPoseExtractorNet-&gt;initializationOnThread();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e)</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <a class="code" href="namespaceop.html#a5f092bd36c716a894cb035e1ead2aca3">error</a>(e.what(), __LINE__, __FUNCTION__, __FILE__);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDatums&gt;</div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classop_1_1_w_pose_extractor_net.html#a3d691e30c419c70e23a4d7b3c92adb4b">   55</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classop_1_1_w_pose_extractor_net.html#a3d691e30c419c70e23a4d7b3c92adb4b">WPoseExtractorNet&lt;TDatums&gt;::work</a>(TDatums&amp; tDatums)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">try</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="namespaceop.html#a02164ca0af9e838190f584f5d1d8465e">checkNoNullNorEmpty</a>(tDatums))</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <span class="comment">// Debugging log</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <a class="code" href="namespaceop.html#a4eb991aa18818196d35c66455a437a32">dLog</a>(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="namespaceop.html#adc43fb9031418e7f8112816a3b535d14a28d0edd045e05cf5af64e35ae0c4c6ef">Priority::Low</a>, __LINE__, __FUNCTION__, __FILE__);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                <span class="comment">// Profiling speed</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                <span class="keyword">const</span> <span class="keyword">auto</span> profilerKey = <a class="code" href="classop_1_1_profiler.html#aea2c89bcd0a661a53f47e59b9bec2be7">Profiler::timerInit</a>(__LINE__, __FUNCTION__, __FILE__);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <span class="comment">// Extract people pose</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; tDatum : *tDatums)</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                    spPoseExtractorNet-&gt;forwardPass(tDatum.inputNetData,</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                                 <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>{tDatum.cvInputData.cols, tDatum.cvInputData.rows},</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                                 tDatum.scaleInputToNetInputs);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                    tDatum.poseCandidates = spPoseExtractorNet-&gt;getCandidatesCopy();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                    tDatum.poseHeatMaps = spPoseExtractorNet-&gt;getHeatMapsCopy();</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                    tDatum.poseKeypoints = spPoseExtractorNet-&gt;getPoseKeypoints().clone();</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                    tDatum.poseScores = spPoseExtractorNet-&gt;getPoseScores().clone();</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                    tDatum.scaleNetToOutput = spPoseExtractorNet-&gt;getScaleNetToOutput();</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                }</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <span class="comment">// Profiling speed</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                <a class="code" href="classop_1_1_profiler.html#affff5b0b992e05276b2a699f97ad525d">Profiler::timerEnd</a>(profilerKey);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                <a class="code" href="classop_1_1_profiler.html#a58b930a54a98bbc91af074395852da76">Profiler::printAveragedTimeMsOnIterationX</a>(profilerKey, __LINE__, __FUNCTION__, __FILE__);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="comment">// Debugging log</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <a class="code" href="namespaceop.html#a4eb991aa18818196d35c66455a437a32">dLog</a>(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="namespaceop.html#adc43fb9031418e7f8112816a3b535d14a28d0edd045e05cf5af64e35ae0c4c6ef">Priority::Low</a>, __LINE__, __FUNCTION__, __FILE__);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e)</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        {</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            this-&gt;stop();</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            tDatums = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <a class="code" href="namespaceop.html#a5f092bd36c716a894cb035e1ead2aca3">error</a>(e.what(), __LINE__, __FUNCTION__, __FILE__);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        }</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <a class="code" href="datum_8hpp.html#af87cd873cebb915837ae27248f67e822">COMPILE_TEMPLATE_DATUM</a>(WPoseExtractorNet);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif // OPENPOSE_POSE_W_POSE_EXTRACTOR_NET_HPP</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">// Implementation</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="pointer_container_8hpp.html">openpose/utilities/pointerContainer.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">namespace </span>op</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDatums&gt;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classop_1_1_w_pose_extractor_net.html#aa0f6b7ec6f36fe2a27649ac2c7490c09">   38</a></span>&#160;    <a class="code" href="classop_1_1_w_pose_extractor_net.html#aa0f6b7ec6f36fe2a27649ac2c7490c09">WPoseExtractorNet&lt;TDatums&gt;::WPoseExtractorNet</a>(<span class="keyword">const</span> std::shared_ptr&lt;PoseExtractorNet&gt;&amp; poseExtractorSharedPtr) :</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        spPoseExtractorNet{poseExtractorSharedPtr}</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDatums&gt;</div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="classop_1_1_w_pose_extractor_net.html#aa085377f965ffc8385d34d77a2e65e5a">   44</a></span>&#160;    <a class="code" href="classop_1_1_w_pose_extractor_net.html#aa085377f965ffc8385d34d77a2e65e5a">WPoseExtractorNet&lt;TDatums&gt;::~WPoseExtractorNet</a>()</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDatums&gt;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classop_1_1_w_pose_extractor_net.html#a18d4a120314ec44d1722cc164aaba7a8">   49</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classop_1_1_w_pose_extractor_net.html#a18d4a120314ec44d1722cc164aaba7a8">WPoseExtractorNet&lt;TDatums&gt;::initializationOnThread</a>()</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            spPoseExtractorNet-&gt;initializationOnThread();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="code" href="namespaceop.html#a5f092bd36c716a894cb035e1ead2aca3">error</a>(e.what(), __LINE__, __FUNCTION__, __FILE__);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> TDatums&gt;</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="classop_1_1_w_pose_extractor_net.html#a3d691e30c419c70e23a4d7b3c92adb4b">   62</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classop_1_1_w_pose_extractor_net.html#a3d691e30c419c70e23a4d7b3c92adb4b">WPoseExtractorNet&lt;TDatums&gt;::work</a>(TDatums&amp; tDatums)</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="namespaceop.html#a02164ca0af9e838190f584f5d1d8465e">checkNoNullNorEmpty</a>(tDatums))</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                <span class="comment">// Debugging log</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <a class="code" href="namespaceop.html#a4eb991aa18818196d35c66455a437a32">dLog</a>(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="namespaceop.html#adc43fb9031418e7f8112816a3b535d14a28d0edd045e05cf5af64e35ae0c4c6ef">Priority::Low</a>, __LINE__, __FUNCTION__, __FILE__);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                <span class="comment">// Profiling speed</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                <span class="keyword">const</span> <span class="keyword">auto</span> profilerKey = <a class="code" href="classop_1_1_profiler.html#aea2c89bcd0a661a53f47e59b9bec2be7">Profiler::timerInit</a>(__LINE__, __FUNCTION__, __FILE__);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                <span class="comment">// Extract people pose</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; tDatum : *tDatums)</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                    spPoseExtractorNet-&gt;forwardPass(tDatum.inputNetData,</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                                 <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>{tDatum.cvInputData.cols, tDatum.cvInputData.rows},</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                                 tDatum.scaleInputToNetInputs);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                    tDatum.poseCandidates = spPoseExtractorNet-&gt;getCandidatesCopy();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                    tDatum.poseHeatMaps = spPoseExtractorNet-&gt;getHeatMapsCopy();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                    tDatum.poseKeypoints = spPoseExtractorNet-&gt;getPoseKeypoints().clone();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    tDatum.poseScores = spPoseExtractorNet-&gt;getPoseScores().clone();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                    tDatum.scaleNetToOutput = spPoseExtractorNet-&gt;getScaleNetToOutput();</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="comment">// Profiling speed</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <a class="code" href="classop_1_1_profiler.html#affff5b0b992e05276b2a699f97ad525d">Profiler::timerEnd</a>(profilerKey);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                <a class="code" href="classop_1_1_profiler.html#a58b930a54a98bbc91af074395852da76">Profiler::printAveragedTimeMsOnIterationX</a>(profilerKey, __LINE__, __FUNCTION__, __FILE__);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                <span class="comment">// Debugging log</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <a class="code" href="namespaceop.html#a4eb991aa18818196d35c66455a437a32">dLog</a>(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="namespaceop.html#adc43fb9031418e7f8112816a3b535d14a28d0edd045e05cf5af64e35ae0c4c6ef">Priority::Low</a>, __LINE__, __FUNCTION__, __FILE__);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">catch</span> (<span class="keyword">const</span> std::exception&amp; e)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            this-&gt;stop();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            tDatums = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <a class="code" href="namespaceop.html#a5f092bd36c716a894cb035e1ead2aca3">error</a>(e.what(), __LINE__, __FUNCTION__, __FILE__);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="datum_8hpp.html#af87cd873cebb915837ae27248f67e822">COMPILE_TEMPLATE_DATUM</a>(WPoseExtractorNet);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#endif // OPENPOSE_POSE_W_POSE_EXTRACTOR_NET_HPP</span></div>
 <div class="ttc" id="namespaceop_html_adc43fb9031418e7f8112816a3b535d14a28d0edd045e05cf5af64e35ae0c4c6ef"><div class="ttname"><a href="namespaceop.html#adc43fb9031418e7f8112816a3b535d14a28d0edd045e05cf5af64e35ae0c4c6ef">op::Priority::Low</a></div></div>
-<div class="ttc" id="classop_1_1_w_pose_extractor_net_html_a18d4a120314ec44d1722cc164aaba7a8"><div class="ttname"><a href="classop_1_1_w_pose_extractor_net.html#a18d4a120314ec44d1722cc164aaba7a8">op::WPoseExtractorNet::initializationOnThread</a></div><div class="ttdeci">void initializationOnThread()</div><div class="ttdef"><b>Definition:</b> wPoseExtractorNet.hpp:42</div></div>
+<div class="ttc" id="classop_1_1_w_pose_extractor_net_html_a18d4a120314ec44d1722cc164aaba7a8"><div class="ttname"><a href="classop_1_1_w_pose_extractor_net.html#a18d4a120314ec44d1722cc164aaba7a8">op::WPoseExtractorNet::initializationOnThread</a></div><div class="ttdeci">void initializationOnThread()</div><div class="ttdef"><b>Definition:</b> wPoseExtractorNet.hpp:49</div></div>
 <div class="ttc" id="classop_1_1_worker_html"><div class="ttname"><a href="classop_1_1_worker.html">op::Worker</a></div><div class="ttdef"><b>Definition:</b> worker.hpp:9</div></div>
 <div class="ttc" id="datum_8hpp_html_af87cd873cebb915837ae27248f67e822"><div class="ttname"><a href="datum_8hpp.html#af87cd873cebb915837ae27248f67e822">COMPILE_TEMPLATE_DATUM</a></div><div class="ttdeci">#define COMPILE_TEMPLATE_DATUM(templateName)</div><div class="ttdef"><b>Definition:</b> datum.hpp:390</div></div>
 <div class="ttc" id="pose_extractor_net_8hpp_html"><div class="ttname"><a href="pose_extractor_net_8hpp.html">poseExtractorNet.hpp</a></div></div>
@@ -211,14 +218,15 @@ $(document).ready(function(){initNavTree('w_pose_extractor_net_8hpp_source.html'
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
 <div class="ttc" id="classop_1_1_profiler_html_aea2c89bcd0a661a53f47e59b9bec2be7"><div class="ttname"><a href="classop_1_1_profiler.html#aea2c89bcd0a661a53f47e59b9bec2be7">op::Profiler::timerInit</a></div><div class="ttdeci">static const std::string timerInit(const int line, const std::string &amp;function, const std::string &amp;file)</div></div>
 <div class="ttc" id="namespaceop_html_a5f092bd36c716a894cb035e1ead2aca3"><div class="ttname"><a href="namespaceop.html#a5f092bd36c716a894cb035e1ead2aca3">op::error</a></div><div class="ttdeci">OP_API void error(const std::string &amp;message, const int line=-1, const std::string &amp;function=&quot;&quot;, const std::string &amp;file=&quot;&quot;)</div></div>
-<div class="ttc" id="classop_1_1_w_pose_extractor_net_html_aa0f6b7ec6f36fe2a27649ac2c7490c09"><div class="ttname"><a href="classop_1_1_w_pose_extractor_net.html#aa0f6b7ec6f36fe2a27649ac2c7490c09">op::WPoseExtractorNet::WPoseExtractorNet</a></div><div class="ttdeci">WPoseExtractorNet(const std::shared_ptr&lt; PoseExtractorNet &gt; &amp;poseExtractorSharedPtr)</div><div class="ttdef"><b>Definition:</b> wPoseExtractorNet.hpp:36</div></div>
+<div class="ttc" id="classop_1_1_w_pose_extractor_net_html_aa0f6b7ec6f36fe2a27649ac2c7490c09"><div class="ttname"><a href="classop_1_1_w_pose_extractor_net.html#aa0f6b7ec6f36fe2a27649ac2c7490c09">op::WPoseExtractorNet::WPoseExtractorNet</a></div><div class="ttdeci">WPoseExtractorNet(const std::shared_ptr&lt; PoseExtractorNet &gt; &amp;poseExtractorSharedPtr)</div><div class="ttdef"><b>Definition:</b> wPoseExtractorNet.hpp:38</div></div>
 <div class="ttc" id="pointer_container_8hpp_html"><div class="ttname"><a href="pointer_container_8hpp.html">pointerContainer.hpp</a></div></div>
 <div class="ttc" id="namespaceop_html_a4eb991aa18818196d35c66455a437a32"><div class="ttname"><a href="namespaceop.html#a4eb991aa18818196d35c66455a437a32">op::dLog</a></div><div class="ttdeci">void dLog(const T &amp;message, const Priority priority=Priority::Max, const int line=-1, const std::string &amp;function=&quot;&quot;, const std::string &amp;file=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> errorAndLog.hpp:53</div></div>
 <div class="ttc" id="worker_8hpp_html"><div class="ttname"><a href="worker_8hpp.html">worker.hpp</a></div></div>
+<div class="ttc" id="classop_1_1_w_pose_extractor_net_html_aa085377f965ffc8385d34d77a2e65e5a"><div class="ttname"><a href="classop_1_1_w_pose_extractor_net.html#aa085377f965ffc8385d34d77a2e65e5a">op::WPoseExtractorNet::~WPoseExtractorNet</a></div><div class="ttdeci">virtual ~WPoseExtractorNet()</div><div class="ttdef"><b>Definition:</b> wPoseExtractorNet.hpp:44</div></div>
 <div class="ttc" id="namespaceop_html_a02164ca0af9e838190f584f5d1d8465e"><div class="ttname"><a href="namespaceop.html#a02164ca0af9e838190f584f5d1d8465e">op::checkNoNullNorEmpty</a></div><div class="ttdeci">bool checkNoNullNorEmpty(const TPointerContainer &amp;tPointerContainer)</div><div class="ttdef"><b>Definition:</b> pointerContainer.hpp:7</div></div>
 <div class="ttc" id="classop_1_1_profiler_html_a58b930a54a98bbc91af074395852da76"><div class="ttname"><a href="classop_1_1_profiler.html#a58b930a54a98bbc91af074395852da76">op::Profiler::printAveragedTimeMsOnIterationX</a></div><div class="ttdeci">static void printAveragedTimeMsOnIterationX(const std::string &amp;key, const int line, const std::string &amp;function, const std::string &amp;file, const unsigned long long x=DEFAULT_X)</div></div>
 <div class="ttc" id="classop_1_1_profiler_html_affff5b0b992e05276b2a699f97ad525d"><div class="ttname"><a href="classop_1_1_profiler.html#affff5b0b992e05276b2a699f97ad525d">op::Profiler::timerEnd</a></div><div class="ttdeci">static void timerEnd(const std::string &amp;key)</div></div>
-<div class="ttc" id="classop_1_1_w_pose_extractor_net_html_a3d691e30c419c70e23a4d7b3c92adb4b"><div class="ttname"><a href="classop_1_1_w_pose_extractor_net.html#a3d691e30c419c70e23a4d7b3c92adb4b">op::WPoseExtractorNet::work</a></div><div class="ttdeci">void work(TDatums &amp;tDatums)</div><div class="ttdef"><b>Definition:</b> wPoseExtractorNet.hpp:55</div></div>
+<div class="ttc" id="classop_1_1_w_pose_extractor_net_html_a3d691e30c419c70e23a4d7b3c92adb4b"><div class="ttname"><a href="classop_1_1_w_pose_extractor_net.html#a3d691e30c419c70e23a4d7b3c92adb4b">op::WPoseExtractorNet::work</a></div><div class="ttdeci">void work(TDatums &amp;tDatums)</div><div class="ttdef"><b>Definition:</b> wPoseExtractorNet.hpp:62</div></div>
 <div class="ttc" id="classop_1_1_w_pose_extractor_net_html"><div class="ttname"><a href="classop_1_1_w_pose_extractor_net.html">op::WPoseExtractorNet</a></div><div class="ttdef"><b>Definition:</b> wPoseExtractorNet.hpp:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

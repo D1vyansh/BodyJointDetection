@@ -1,5 +1,7 @@
 var namespaceop =
 [
+    [ "ConfigureError", "namespaceop_1_1_configure_error.html", null ],
+    [ "ConfigureLog", "namespaceop_1_1_configure_log.html", null ],
     [ "CameraParameterReader", "classop_1_1_camera_parameter_reader.html", "classop_1_1_camera_parameter_reader" ],
     [ "PoseTriangulation", "classop_1_1_pose_triangulation.html", "classop_1_1_pose_triangulation" ],
     [ "WPoseTriangulation", "classop_1_1_w_pose_triangulation.html", "classop_1_1_w_pose_triangulation" ],
@@ -116,8 +118,6 @@ var namespaceop =
     [ "PersonTrackerEntry", "structop_1_1_person_tracker_entry.html", "structop_1_1_person_tracker_entry" ],
     [ "PersonTracker", "classop_1_1_person_tracker.html", "classop_1_1_person_tracker" ],
     [ "WPersonIdExtractor", "classop_1_1_w_person_id_extractor.html", "classop_1_1_w_person_id_extractor" ],
-    [ "ConfigureError", "classop_1_1_configure_error.html", null ],
-    [ "ConfigureLog", "classop_1_1_configure_log.html", null ],
     [ "PointerContainerGreater", "classop_1_1_pointer_container_greater.html", "classop_1_1_pointer_container_greater" ],
     [ "PointerContainerLess", "classop_1_1_pointer_container_less.html", "classop_1_1_pointer_container_less" ],
     [ "Profiler", "classop_1_1_profiler.html", null ],

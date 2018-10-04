@@ -120,22 +120,24 @@ $(document).ready(function(){initNavTree('pose_triangulation_8hpp_source.html','
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="classop_1_1_pose_triangulation.html">PoseTriangulation</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> minViews3d);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordtype">void</span> initializationOnThread();</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classop_1_1_pose_triangulation.html">PoseTriangulation</a>();</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a> reconstructArray(<span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&gt;&amp; keypointsVector,</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                      <span class="keyword">const</span> std::vector&lt;cv::Mat&gt;&amp; cameraMatrices,</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                      <span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&gt;&amp; imageSizes) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        std::vector&lt;Array&lt;float&gt;&gt; reconstructArray(<span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&gt;&gt;&amp; keypointsVector,</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                                   <span class="keyword">const</span> std::vector&lt;cv::Mat&gt;&amp; cameraMatrices,</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                                   <span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&gt;&amp; imageSizes) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">int</span> mMinViews3d;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    };</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif // OPENPOSE_3D_POSE_TRIANGULATION_HPP</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordtype">void</span> initializationOnThread();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a> reconstructArray(<span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&gt;&amp; keypointsVector,</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                      <span class="keyword">const</span> std::vector&lt;cv::Mat&gt;&amp; cameraMatrices,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                      <span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&gt;&amp; imageSizes) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        std::vector&lt;Array&lt;float&gt;&gt; reconstructArray(<span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&gt;&gt;&amp; keypointsVector,</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                                                   <span class="keyword">const</span> std::vector&lt;cv::Mat&gt;&amp; cameraMatrices,</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                                                   <span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&gt;&amp; imageSizes) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">int</span> mMinViews3d;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    };</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif // OPENPOSE_3D_POSE_TRIANGULATION_HPP</span></div>
 <div class="ttc" id="classop_1_1_pose_triangulation_html"><div class="ttname"><a href="classop_1_1_pose_triangulation.html">op::PoseTriangulation</a></div><div class="ttdef"><b>Definition:</b> poseTriangulation.hpp:9</div></div>
 <div class="ttc" id="structop_1_1_point_html"><div class="ttname"><a href="structop_1_1_point.html">op::Point&lt; int &gt;</a></div></div>
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>

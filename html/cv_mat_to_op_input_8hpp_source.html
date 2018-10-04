@@ -121,16 +121,18 @@ $(document).ready(function(){initNavTree('cv_mat_to_op_input_8hpp_source.html','
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="classop_1_1_cv_mat_to_op_input.html">CvMatToOpInput</a>(<span class="keyword">const</span> <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel = <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa9a87ca5ab7b20c2bd4f8d5379956e6f6">PoseModel::BODY_25</a>);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        std::vector&lt;Array&lt;float&gt;&gt; createArray(<span class="keyword">const</span> cv::Mat&amp; cvInputData,</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                              <span class="keyword">const</span> std::vector&lt;double&gt;&amp; scaleInputToNetInputs,</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                              <span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&gt;&amp; netInputSizes) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">const</span> <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> mPoseModel;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    };</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif // OPENPOSE_CORE_CV_MAT_TO_OP_INPUT_HPP</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classop_1_1_cv_mat_to_op_input.html">CvMatToOpInput</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        std::vector&lt;Array&lt;float&gt;&gt; createArray(<span class="keyword">const</span> cv::Mat&amp; cvInputData,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                              <span class="keyword">const</span> std::vector&lt;double&gt;&amp; scaleInputToNetInputs,</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                              <span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&gt;&amp; netInputSizes) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">const</span> <a class="code" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> mPoseModel;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    };</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif // OPENPOSE_CORE_CV_MAT_TO_OP_INPUT_HPP</span></div>
 <div class="ttc" id="pose_2enum_classes_8hpp_html"><div class="ttname"><a href="pose_2enum_classes_8hpp.html">enumClasses.hpp</a></div></div>
 <div class="ttc" id="namespaceop_html_af5b3ce2a5d3de87cb31b9b67e96f261f"><div class="ttname"><a href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">op::PoseModel</a></div><div class="ttdeci">PoseModel</div><div class="ttdef"><b>Definition:</b> enumClasses.hpp:9</div></div>
 <div class="ttc" id="structop_1_1_point_html"><div class="ttname"><a href="structop_1_1_point.html">op::Point&lt; int &gt;</a></div></div>

@@ -1,6 +1,7 @@
 var classop_1_1_renderer =
 [
     [ "Renderer", "classop_1_1_renderer.html#a00caf604fad781dfcf3bc311ef6a6623", null ],
+    [ "~Renderer", "classop_1_1_renderer.html#abd45555a9864e799309b72902b6cec30", null ],
     [ "getAlphaHeatMap", "classop_1_1_renderer.html#a503d7fdba655b14348769ad3f69b6c00", null ],
     [ "getAlphaKeypoint", "classop_1_1_renderer.html#ac4df12764776ba2e27c71a3c4181f647", null ],
     [ "getBlendOriginalFrame", "classop_1_1_renderer.html#a8e0739fb55d61fc76918ca3fb6ac3bc4", null ],

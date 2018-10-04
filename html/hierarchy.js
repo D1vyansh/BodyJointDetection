@@ -10,8 +10,6 @@ var hierarchy =
       [ "cl::ImageFormat", "structcl_1_1_image_format.html", null ]
     ] ],
     [ "op::CocoJsonSaver", "classop_1_1_coco_json_saver.html", null ],
-    [ "op::ConfigureError", "classop_1_1_configure_error.html", null ],
-    [ "op::ConfigureLog", "classop_1_1_configure_log.html", null ],
     [ "op::CvMatToOpInput", "classop_1_1_cv_mat_to_op_input.html", null ],
     [ "op::CvMatToOpOutput", "classop_1_1_cv_mat_to_op_output.html", null ],
     [ "op::Datum", "structop_1_1_datum.html", null ],

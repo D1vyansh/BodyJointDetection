@@ -1,6 +1,7 @@
 var classop_1_1_thread_manager =
 [
     [ "ThreadManager", "classop_1_1_thread_manager.html#a8b7d17f4a330495389e646bb21907303", null ],
+    [ "~ThreadManager", "classop_1_1_thread_manager.html#a03c6587dbc60b266bee04b9714647fba", null ],
     [ "add", "classop_1_1_thread_manager.html#a8134abeaec65b5647ae92e34f3ad420b", null ],
     [ "add", "classop_1_1_thread_manager.html#a762acc9eb60bd10857da1f416e169f3d", null ],
     [ "exec", "classop_1_1_thread_manager.html#a67a2d7cecc749be414e6896a88ec268d", null ],

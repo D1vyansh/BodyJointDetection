@@ -119,23 +119,25 @@ $(document).ready(function(){initNavTree('udp_sender_8hpp_source.html','');});
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="classop_1_1_udp_sender.html">UdpSender</a>(<span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a>&amp; udpHost, <span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a>&amp; udpPort);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordtype">void</span> sendJointAngles(<span class="keyword">const</span> <span class="keywordtype">double</span>* <span class="keyword">const</span> adamPosePtr, <span class="keyword">const</span> <span class="keywordtype">int</span> adamPoseRows,</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                             <span class="keyword">const</span> <span class="keywordtype">double</span>* <span class="keyword">const</span> adamTranslationPtr,</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                             <span class="keyword">const</span> <span class="keywordtype">double</span>* <span class="keyword">const</span> adamFaceCoeffsExpPtr, <span class="keyword">const</span> <span class="keywordtype">int</span> faceCoeffRows);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="comment">// PIMPL idiom</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="comment">// http://www.cppsamples.com/common-tasks/pimpl.html</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">struct </span>ImplUdpSender;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        std::shared_ptr&lt;ImplUdpSender&gt; spImpl;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="comment">// PIMP requires DELETE_COPY &amp; destructor, or extra code</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="comment">// http://oliora.github.io/2015/12/29/pimpl-and-rule-of-zero.html</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a>(<a class="code" href="classop_1_1_udp_sender.html">UdpSender</a>);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    };</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif // OPENPOSE_FILESTREAM_UDP_SENDER_HPP</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classop_1_1_udp_sender.html">UdpSender</a>();</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">void</span> sendJointAngles(<span class="keyword">const</span> <span class="keywordtype">double</span>* <span class="keyword">const</span> adamPosePtr, <span class="keyword">const</span> <span class="keywordtype">int</span> adamPoseRows,</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                             <span class="keyword">const</span> <span class="keywordtype">double</span>* <span class="keyword">const</span> adamTranslationPtr,</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                             <span class="keyword">const</span> <span class="keywordtype">double</span>* <span class="keyword">const</span> adamFaceCoeffsExpPtr, <span class="keyword">const</span> <span class="keywordtype">int</span> faceCoeffRows);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="comment">// PIMPL idiom</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="comment">// http://www.cppsamples.com/common-tasks/pimpl.html</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">struct </span>ImplUdpSender;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        std::shared_ptr&lt;ImplUdpSender&gt; spImpl;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="comment">// PIMP requires DELETE_COPY &amp; destructor, or extra code</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="comment">// http://oliora.github.io/2015/12/29/pimpl-and-rule-of-zero.html</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a>(<a class="code" href="classop_1_1_udp_sender.html">UdpSender</a>);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    };</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif // OPENPOSE_FILESTREAM_UDP_SENDER_HPP</span></div>
 <div class="ttc" id="macros_8hpp_html_abef96b5dd35dd9d44ad27ddf0e2f5f2e"><div class="ttname"><a href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">DELETE_COPY</a></div><div class="ttdeci">#define DELETE_COPY(className)</div><div class="ttdef"><b>Definition:</b> macros.hpp:33</div></div>
 <div class="ttc" id="classop_1_1_udp_sender_html"><div class="ttname"><a href="classop_1_1_udp_sender.html">op::UdpSender</a></div><div class="ttdef"><b>Definition:</b> udpSender.hpp:8</div></div>
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>

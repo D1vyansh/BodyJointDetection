@@ -121,14 +121,17 @@ $(document).ready(function(){initNavTree('keypoint_saver_8hpp_source.html','');}
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="classop_1_1_keypoint_saver.html">KeypointSaver</a>(<span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a>&amp; directoryPath, <span class="keyword">const</span> <a class="code" href="namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7e">DataFormat</a> format);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">void</span> saveKeypoints(<span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&gt;&amp; keypointVector, <span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a>&amp; fileName, <span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a>&amp; keypointName) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classop_1_1_keypoint_saver.html">KeypointSaver</a>();</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">const</span> <a class="code" href="namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7e">DataFormat</a> mFormat;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    };</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif // OPENPOSE_FILESTREAM_KEYPOINT_SAVER_HPP</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordtype">void</span> saveKeypoints(<span class="keyword">const</span> <a class="code" href="namespacecl.html#a01a0973ddf4c1799772079a09d7156cb">std::vector</a>&lt;<a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&gt;&amp; keypointVector, <span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a>&amp; fileName,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                           <span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a>&amp; keypointName) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">const</span> <a class="code" href="namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7e">DataFormat</a> mFormat;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    };</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif // OPENPOSE_FILESTREAM_KEYPOINT_SAVER_HPP</span></div>
 <div class="ttc" id="namespaceop_html_ae52c21a24cf2c21e3b419c127924fd7e"><div class="ttname"><a href="namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7e">op::DataFormat</a></div><div class="ttdeci">DataFormat</div><div class="ttdef"><b>Definition:</b> enumClasses.hpp:6</div></div>
 <div class="ttc" id="classop_1_1_keypoint_saver_html"><div class="ttname"><a href="classop_1_1_keypoint_saver.html">op::KeypointSaver</a></div><div class="ttdef"><b>Definition:</b> keypointSaver.hpp:10</div></div>
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>

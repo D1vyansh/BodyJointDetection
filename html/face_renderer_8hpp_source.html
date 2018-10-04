@@ -117,22 +117,25 @@ $(document).ready(function(){initNavTree('face_renderer_8hpp_source.html','');})
 <div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classop_1_1_face_renderer.html">    8</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_face_renderer.html">FaceRenderer</a></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classop_1_1_face_renderer.html#aa34ce7a0602b0994cc3043b80627a31c">   11</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classop_1_1_face_renderer.html#aa34ce7a0602b0994cc3043b80627a31c">initializationOnThread</a>(){};</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classop_1_1_face_renderer.html#a8ba7bad616bd2cf673d8faa846bf95b5">   11</a></span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classop_1_1_face_renderer.html#a8ba7bad616bd2cf673d8faa846bf95b5">~FaceRenderer</a>(){};</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordtype">void</span> renderFace(<a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; outputData, <span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; faceKeypoints,</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">float</span> scaleInputToOutput);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> renderFaceInherited(<a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; outputData, <span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; faceKeypoints) = 0;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    };</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif // OPENPOSE_FACE_FACE_RENDERER_HPP</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classop_1_1_face_renderer.html#aa34ce7a0602b0994cc3043b80627a31c">   13</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classop_1_1_face_renderer.html#aa34ce7a0602b0994cc3043b80627a31c">initializationOnThread</a>(){};</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">void</span> renderFace(<a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; outputData, <span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; faceKeypoints,</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                        <span class="keyword">const</span> <span class="keywordtype">float</span> scaleInputToOutput);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> renderFaceInherited(<a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; outputData, <span class="keyword">const</span> <a class="code" href="classop_1_1_array.html">Array&lt;float&gt;</a>&amp; faceKeypoints) = 0;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    };</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif // OPENPOSE_FACE_FACE_RENDERER_HPP</span></div>
 <div class="ttc" id="classop_1_1_face_renderer_html"><div class="ttname"><a href="classop_1_1_face_renderer.html">op::FaceRenderer</a></div><div class="ttdef"><b>Definition:</b> faceRenderer.hpp:8</div></div>
-<div class="ttc" id="classop_1_1_face_renderer_html_aa34ce7a0602b0994cc3043b80627a31c"><div class="ttname"><a href="classop_1_1_face_renderer.html#aa34ce7a0602b0994cc3043b80627a31c">op::FaceRenderer::initializationOnThread</a></div><div class="ttdeci">virtual void initializationOnThread()</div><div class="ttdef"><b>Definition:</b> faceRenderer.hpp:11</div></div>
+<div class="ttc" id="classop_1_1_face_renderer_html_aa34ce7a0602b0994cc3043b80627a31c"><div class="ttname"><a href="classop_1_1_face_renderer.html#aa34ce7a0602b0994cc3043b80627a31c">op::FaceRenderer::initializationOnThread</a></div><div class="ttdeci">virtual void initializationOnThread()</div><div class="ttdef"><b>Definition:</b> faceRenderer.hpp:13</div></div>
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
 <div class="ttc" id="classop_1_1_array_html"><div class="ttname"><a href="classop_1_1_array.html">op::Array&lt; float &gt;</a></div></div>
 <div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:18</div></div>
+<div class="ttc" id="classop_1_1_face_renderer_html_a8ba7bad616bd2cf673d8faa846bf95b5"><div class="ttname"><a href="classop_1_1_face_renderer.html#a8ba7bad616bd2cf673d8faa846bf95b5">op::FaceRenderer::~FaceRenderer</a></div><div class="ttdeci">virtual ~FaceRenderer()</div><div class="ttdef"><b>Definition:</b> faceRenderer.hpp:11</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

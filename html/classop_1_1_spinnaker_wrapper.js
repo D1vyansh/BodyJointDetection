@@ -1,7 +1,7 @@
 var classop_1_1_spinnaker_wrapper =
 [
     [ "SpinnakerWrapper", "classop_1_1_spinnaker_wrapper.html#a5d1ba90b4d1987423b330de2fdcdb702", null ],
-    [ "~SpinnakerWrapper", "classop_1_1_spinnaker_wrapper.html#a00ab178dfa540f603b1512fada764258", null ],
+    [ "~SpinnakerWrapper", "classop_1_1_spinnaker_wrapper.html#a8ae3e45fba6f9d0943cbd9038e98b066", null ],
     [ "getCameraExtrinsics", "classop_1_1_spinnaker_wrapper.html#aa011fe7b3bf42e3af5fb83faee42288e", null ],
     [ "getCameraIntrinsics", "classop_1_1_spinnaker_wrapper.html#a5e36c3d04071f6c7b003c50d3f43bc36", null ],
     [ "getCameraMatrices", "classop_1_1_spinnaker_wrapper.html#ab79aa58cda90784d16335e0081d8f33a", null ],

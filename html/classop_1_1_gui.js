@@ -1,6 +1,7 @@
 var classop_1_1_gui =
 [
     [ "Gui", "classop_1_1_gui.html#a1084d79f61d08f0551832de1ca337c70", null ],
+    [ "~Gui", "classop_1_1_gui.html#a5e7e30073c0f7ee18904b25fc638b4e2", null ],
     [ "initializationOnThread", "classop_1_1_gui.html#a07cf9b4e7757979666d097278df02c20", null ],
     [ "setImage", "classop_1_1_gui.html#a9391ffe3fb09f881327f55d65cbe52eb", null ],
     [ "setImage", "classop_1_1_gui.html#a637966de704cfffc247e9db9aded20f5", null ],

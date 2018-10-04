@@ -121,18 +121,20 @@ $(document).ready(function(){initNavTree('scale_and_size_extractor_8hpp_source.h
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="classop_1_1_scale_and_size_extractor.html">ScaleAndSizeExtractor</a>(<span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&amp; netInputResolution, <span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&amp; outputResolution,</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                              <span class="keyword">const</span> <span class="keywordtype">int</span> scaleNumber = 1, <span class="keyword">const</span> <span class="keywordtype">double</span> scaleGap = 0.25);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        std::tuple&lt;std::vector&lt;double&gt;, std::vector&lt;Point&lt;int&gt;&gt;, double, <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&gt; extract(</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&amp; inputResolution) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a> mNetInputResolution;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a> mOutputSize;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">int</span> mScaleNumber;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">double</span> mScaleGap;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    };</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif // OPENPOSE_CORE_SCALE_AND_SIZE_EXTRACTOR_HPP</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classop_1_1_scale_and_size_extractor.html">ScaleAndSizeExtractor</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        std::tuple&lt;std::vector&lt;double&gt;, std::vector&lt;Point&lt;int&gt;&gt;, double, <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&gt; extract(</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a>&amp; inputResolution) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a> mNetInputResolution;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">const</span> <a class="code" href="structop_1_1_point.html">Point&lt;int&gt;</a> mOutputSize;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">int</span> mScaleNumber;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">double</span> mScaleGap;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    };</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif // OPENPOSE_CORE_SCALE_AND_SIZE_EXTRACTOR_HPP</span></div>
 <div class="ttc" id="structop_1_1_point_html"><div class="ttname"><a href="structop_1_1_point.html">op::Point&lt; int &gt;</a></div></div>
 <div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
 <div class="ttc" id="classop_1_1_scale_and_size_extractor_html"><div class="ttname"><a href="classop_1_1_scale_and_size_extractor.html">op::ScaleAndSizeExtractor</a></div><div class="ttdef"><b>Definition:</b> scaleAndSizeExtractor.hpp:9</div></div>

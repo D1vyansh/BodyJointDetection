@@ -1,6 +1,7 @@
 var classop_1_1_image_directory_reader =
 [
     [ "ImageDirectoryReader", "classop_1_1_image_directory_reader.html#ae925d9314bfd948296d76475219b3594", null ],
+    [ "~ImageDirectoryReader", "classop_1_1_image_directory_reader.html#a7551a8567f42f7cfb68020e149921438", null ],
     [ "get", "classop_1_1_image_directory_reader.html#aa05bfd69272e81115ba23a3c0731b596", null ],
     [ "getCameraExtrinsics", "classop_1_1_image_directory_reader.html#ad0ee10725114d8899c59c8e37fd79078", null ],
     [ "getCameraIntrinsics", "classop_1_1_image_directory_reader.html#a6d387de1819e7a78e18c2154bc473427", null ],
