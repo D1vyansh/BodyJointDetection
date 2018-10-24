@@ -1,5 +1,9 @@
 var NAVTREEINDEX10 =
 {
+"w_pose_extractor_net_8hpp.html":[2,0,0,0,9,12],
+"w_pose_extractor_net_8hpp.html#ab1e242b1ae7ff3300324fbfedebb52fc":[2,0,0,0,9,12,1],
+"w_pose_extractor_net_8hpp_source.html":[2,0,0,0,9,12],
+"w_pose_renderer_8hpp.html":[2,0,0,0,9,13],
 "w_pose_renderer_8hpp.html#ae76afeeeaedaebe6941f41a4bdf50e2a":[2,0,0,0,9,13,1],
 "w_pose_renderer_8hpp_source.html":[2,0,0,0,9,13],
 "w_pose_saver_8hpp.html":[2,0,0,0,4,20],

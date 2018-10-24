@@ -117,8 +117,8 @@ $(document).ready(function(){initNavTree('classop_1_1_datum_producer.html','');}
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a627c16307864f02251eeb77f2320052f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_datum_producer.html#a627c16307864f02251eeb77f2320052f">DatumProducer</a> (const std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt; &amp;producerSharedPtr, const unsigned long long frameFirst=0, const unsigned long long frameLast=std::numeric_limits&lt; unsigned long long &gt;::max(), const std::shared_ptr&lt; std::pair&lt; std::atomic&lt; bool &gt;, std::atomic&lt; int &gt;&gt;&gt; &amp;videoSeekSharedPtr=nullptr)</td></tr>
-<tr class="separator:a627c16307864f02251eeb77f2320052f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a308c34ca52e7d6db2d85e27a348a15bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_datum_producer.html#a308c34ca52e7d6db2d85e27a348a15bd">DatumProducer</a> (const std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt; &amp;producerSharedPtr, const unsigned long long frameFirst=0, const unsigned long long frameStep=1, const unsigned long long frameLast=std::numeric_limits&lt; unsigned long long &gt;::max(), const std::shared_ptr&lt; std::pair&lt; std::atomic&lt; bool &gt;, std::atomic&lt; int &gt;&gt;&gt; &amp;videoSeekSharedPtr=nullptr)</td></tr>
+<tr class="separator:a308c34ca52e7d6db2d85e27a348a15bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe3d8c5bcb0d226d78f65ec3d8ba5250"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_datum_producer.html#abe3d8c5bcb0d226d78f65ec3d8ba5250">~DatumProducer</a> ()</td></tr>
 <tr class="separator:abe3d8c5bcb0d226d78f65ec3d8ba5250"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeab20304e6ff9970a970a7b865da9d02"><td class="memItemLeft" align="right" valign="top">std::pair&lt; bool, <br class="typebreak"/>
@@ -126,7 +126,7 @@ std::shared_ptr&lt; TDatumsNoPtr &gt; &gt;&#160;</td><td class="memItemRight" va
 <tr class="separator:aeab20304e6ff9970a970a7b865da9d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a627c16307864f02251eeb77f2320052f"></a>
+<a class="anchor" id="a308c34ca52e7d6db2d85e27a348a15bd"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -146,6 +146,12 @@ template&lt;typename TDatumsNoPtr &gt; </div>
           <td></td>
           <td class="paramtype">const unsigned long long&#160;</td>
           <td class="paramname"><em>frameFirst</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned long long&#160;</td>
+          <td class="paramname"><em>frameStep</em> = <code>1</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

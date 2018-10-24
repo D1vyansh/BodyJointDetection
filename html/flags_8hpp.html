@@ -139,6 +139,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5db17b8bc6df4fe40b556af7157dcbf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1433eaf1c5eb42e406e76bc6f8e517c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a1433eaf1c5eb42e406e76bc6f8e517c3">DEFINE_uint64</a> (frame_first, 0,&quot;Start on desired frame number. Indexes are 0-based, i.e. the first frame has index 0.&quot;)</td></tr>
 <tr class="separator:a1433eaf1c5eb42e406e76bc6f8e517c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22572531e5a4896c510639ac57cf522c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a22572531e5a4896c510639ac57cf522c">DEFINE_uint64</a> (frame_step, 1,&quot;Step or gap between processed frames. E.g., `--frame_step 5` would read and process frames&quot;&quot; 0, 5, 10, etc..&quot;)</td></tr>
+<tr class="separator:a22572531e5a4896c510639ac57cf522c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8fef8bb0234286e74b75214a750d674"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#ac8fef8bb0234286e74b75214a750d674">DEFINE_uint64</a> (frame_last,-1,&quot;Finish on desired frame number. Select -1 to disable. Indexes are 0-based, e.g. if set to&quot;&quot; 10, it will process 11 frames (0-10).&quot;)</td></tr>
 <tr class="separator:ac8fef8bb0234286e74b75214a750d674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64c46584d79ef0b947ecd0a98b282839"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a64c46584d79ef0b947ecd0a98b282839">DEFINE_bool</a> (frame_flip, false,&quot;Flip/mirror each frame (e.g. for real time webcam demonstrations).&quot;)</td></tr>
@@ -3323,6 +3325,62 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">i.e.the first frame has index 0.&quot;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a22572531e5a4896c510639ac57cf522c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DEFINE_uint64 </td>
+          <td>(</td>
+          <td class="paramtype">frame_step&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;Step or gap between processed frames. E.&#160;</td>
+          <td class="paramname"><em>g.</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">`--frame_step 5`would read and process frames&quot;&quot;&#160;</td>
+          <td class="paramname"><em>0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">5&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">10&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">etc..&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

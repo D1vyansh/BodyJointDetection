@@ -78,5 +78,6 @@ var flags_8hpp =
     [ "DEFINE_string", "flags_8hpp.html#a63936bd2bc53a453ba74066289ab9d29", null ],
     [ "DEFINE_string", "flags_8hpp.html#aa7b1c758c6d6e35c3227994a9ced0236", null ],
     [ "DEFINE_uint64", "flags_8hpp.html#a1433eaf1c5eb42e406e76bc6f8e517c3", null ],
+    [ "DEFINE_uint64", "flags_8hpp.html#a22572531e5a4896c510639ac57cf522c", null ],
     [ "DEFINE_uint64", "flags_8hpp.html#ac8fef8bb0234286e74b75214a750d674", null ]
 ];
