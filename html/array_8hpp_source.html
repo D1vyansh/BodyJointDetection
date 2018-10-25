@@ -165,9 +165,9 @@ $(document).ready(function(){initNavTree('array_8hpp_source.html','');});
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            <span class="keywordflow">return</span> mSize;</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        }</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> <a class="code" href="classop_1_1_array.html#a337e33980c231bc207ea7d31ffa84fe3">printSize</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classop_1_1_array.html#a2330657a79a444d1ab44370423be006e">getSize</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classop_1_1_array.html#a2330657a79a444d1ab44370423be006e">getSize</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> <a class="code" href="classop_1_1_array.html#a337e33980c231bc207ea7d31ffa84fe3">printSize</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
 <div class="line"><a name="l00191"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#adeb008e878709bb5a51e26be55a5452d">  191</a></span>&#160;        <span class="keyword">inline</span> <span class="keywordtype">size_t</span> <a class="code" href="classop_1_1_array.html#adeb008e878709bb5a51e26be55a5452d">getNumberDimensions</a>()<span class="keyword"> const</span></div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="keyword">        </span>{</div>
@@ -181,120 +181,125 @@ $(document).ready(function(){initNavTree('array_8hpp_source.html','');});
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <span class="keywordtype">size_t</span> <a class="code" href="classop_1_1_array.html#afee5e6149bc917586b3fd56323d20a87">getVolume</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> indexA, <span class="keyword">const</span> <span class="keywordtype">int</span> indexB) <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="comment">// ------------------------------ Data Access Functions And Operators ------------------------------ //</span></div>
-<div class="line"><a name="l00224"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#af4715967fd2b028a97fd30257e697275">  224</a></span>&#160;<span class="comment"></span>        <span class="keyword">inline</span> T* <a class="code" href="classop_1_1_array.html#af4715967fd2b028a97fd30257e697275">getPtr</a>()</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        {</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordflow">return</span> spData.get();</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        }</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        std::vector&lt;int&gt; <a class="code" href="classop_1_1_array.html#afeacae113dd204df98b78353205c05f1">getStride</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="classop_1_1_array.html#afeacae113dd204df98b78353205c05f1">getStride</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
-<div class="line"><a name="l00233"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a17a44d11cf476f705ce4a5223cfb4f81">  233</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> T* <a class="code" href="classop_1_1_array.html#a17a44d11cf476f705ce4a5223cfb4f81">getConstPtr</a>()<span class="keyword"> const</span></div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            <span class="keywordflow">return</span> spData.get();</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        }</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keyword">const</span> cv::Mat&amp; <a class="code" href="classop_1_1_array.html#ab70165463db3e2fb3f15ad14001eb592">getConstCvMat</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        cv::Mat&amp; <a class="code" href="classop_1_1_array.html#ac817621e848601cf7d6571e75d8f6865">getCvMat</a>();</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
-<div class="line"><a name="l00269"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">  269</a></span>&#160;        <span class="keyword">inline</span> T&amp; <a class="code" href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">operator[]</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index)</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        {</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">            #ifdef NDEBUG</span></div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor"></span>                <span class="keywordflow">return</span> spData.get()[index];</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">            #else</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor"></span>                <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">at</a>(index);</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor">            #endif</span></div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="preprocessor"></span>        }</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
-<div class="line"><a name="l00285"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#aeccfa42607d5deb5039ff260eb980abc">  285</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> T&amp; <a class="code" href="classop_1_1_array.html#aeccfa42607d5deb5039ff260eb980abc">operator[]</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">            #ifdef NDEBUG</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor"></span>                <span class="keywordflow">return</span> spData.get()[index];</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor">            #else</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor"></span>                <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">at</a>(index);</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="preprocessor">            #endif</span></div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="preprocessor"></span>        }</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
-<div class="line"><a name="l00302"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#aada0f1bd6e9eb73b4f977e62da536f58">  302</a></span>&#160;        <span class="keyword">inline</span> T&amp; <a class="code" href="classop_1_1_array.html#aada0f1bd6e9eb73b4f977e62da536f58">operator[]</a>(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes)</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        {</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">operator[]</a>(getIndex(indexes));</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="comment">// ------------------------------ Data Access Functions And Operators ------------------------------ //</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#af4715967fd2b028a97fd30257e697275">  237</a></span>&#160;<span class="comment"></span>        <span class="keyword">inline</span> T* <a class="code" href="classop_1_1_array.html#af4715967fd2b028a97fd30257e697275">getPtr</a>()</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            <span class="keywordflow">return</span> spData.get();</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div>
+<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a17a44d11cf476f705ce4a5223cfb4f81">  246</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> T* <a class="code" href="classop_1_1_array.html#a17a44d11cf476f705ce4a5223cfb4f81">getConstPtr</a>()<span class="keyword"> const</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <span class="keywordflow">return</span> spData.get();</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        }</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <span class="keyword">const</span> cv::Mat&amp; <a class="code" href="classop_1_1_array.html#ab70165463db3e2fb3f15ad14001eb592">getConstCvMat</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        cv::Mat&amp; <a class="code" href="classop_1_1_array.html#ac817621e848601cf7d6571e75d8f6865">getCvMat</a>();</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
+<div class="line"><a name="l00282"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">  282</a></span>&#160;        <span class="keyword">inline</span> T&amp; <a class="code" href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">operator[]</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index)</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="preprocessor">            #ifdef NDEBUG</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor"></span>                <span class="keywordflow">return</span> spData.get()[index];</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">            #else</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor"></span>                <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">at</a>(index);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">            #endif</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor"></span>        }</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
+<div class="line"><a name="l00298"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#aeccfa42607d5deb5039ff260eb980abc">  298</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> T&amp; <a class="code" href="classop_1_1_array.html#aeccfa42607d5deb5039ff260eb980abc">operator[]</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="preprocessor">            #ifdef NDEBUG</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor"></span>                <span class="keywordflow">return</span> spData.get()[index];</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="preprocessor">            #else</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="preprocessor"></span>                <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">at</a>(index);</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="preprocessor">            #endif</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor"></span>        }</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
-<div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a3f6c6f7ddeed3d1edbc907441888a8cf">  314</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> T&amp; <a class="code" href="classop_1_1_array.html#a3f6c6f7ddeed3d1edbc907441888a8cf">operator[]</a>(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">operator[]</a>(getIndex(indexes));</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        }</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
-<div class="line"><a name="l00326"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">  326</a></span>&#160;        <span class="keyword">inline</span> T&amp; <a class="code" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">at</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index)</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        {</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;            <span class="keywordflow">return</span> commonAt(index);</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        }</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
-<div class="line"><a name="l00338"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a95e83e3379fd43460db68c2adb61f981">  338</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> T&amp; <a class="code" href="classop_1_1_array.html#a95e83e3379fd43460db68c2adb61f981">at</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;            <span class="keywordflow">return</span> commonAt(index);</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        }</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
-<div class="line"><a name="l00350"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a8eebb6c34642cdf19ac74c7ed38d128b">  350</a></span>&#160;        <span class="keyword">inline</span> T&amp; <a class="code" href="classop_1_1_array.html#a8eebb6c34642cdf19ac74c7ed38d128b">at</a>(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes)</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        {</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">at</a>(getIndexAndCheck(indexes));</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        }</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
-<div class="line"><a name="l00362"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a5cb014203b418de3996b90597df53b6e">  362</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> T&amp; <a class="code" href="classop_1_1_array.html#a5cb014203b418de3996b90597df53b6e">at</a>(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes)<span class="keyword"> const</span></div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="keyword">        </span>{</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">at</a>(getIndexAndCheck(indexes));</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        }</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> <a class="code" href="classop_1_1_array.html#ae3ec6553128d77b0c26b848c0a0f81ca">toString</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        std::vector&lt;int&gt; mSize;</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        <span class="keywordtype">size_t</span> mVolume;</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        std::shared_ptr&lt;T&gt; spData;</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        std::pair&lt;bool, cv::Mat&gt; mCvMatData;</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        <span class="keywordtype">int</span> getIndex(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <span class="keywordtype">int</span> getIndexAndCheck(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        T&amp; commonAt(<span class="keyword">const</span> <span class="keywordtype">int</span> index) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        <span class="keywordtype">void</span> setCvMatFromSharedPtr();</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    };</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <span class="comment">// Static methods</span></div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <a class="code" href="macros_8hpp.html#aa883b8ec96d2804b37d3bfb0bd4c5f16">OVERLOAD_C_OUT</a>(Array)</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;}</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;<span class="preprocessor">#endif // OPENPOSE_CORE_ARRAY_HPP</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#aada0f1bd6e9eb73b4f977e62da536f58">  315</a></span>&#160;        <span class="keyword">inline</span> T&amp; <a class="code" href="classop_1_1_array.html#aada0f1bd6e9eb73b4f977e62da536f58">operator[]</a>(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes)</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        {</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">operator[]</a>(getIndex(indexes));</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        }</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
+<div class="line"><a name="l00327"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a3f6c6f7ddeed3d1edbc907441888a8cf">  327</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> T&amp; <a class="code" href="classop_1_1_array.html#a3f6c6f7ddeed3d1edbc907441888a8cf">operator[]</a>(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">operator[]</a>(getIndex(indexes));</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        }</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
+<div class="line"><a name="l00339"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">  339</a></span>&#160;        <span class="keyword">inline</span> T&amp; <a class="code" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">at</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index)</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        {</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            <span class="keywordflow">return</span> commonAt(index);</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        }</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
+<div class="line"><a name="l00351"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a95e83e3379fd43460db68c2adb61f981">  351</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> T&amp; <a class="code" href="classop_1_1_array.html#a95e83e3379fd43460db68c2adb61f981">at</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> index)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;            <span class="keywordflow">return</span> commonAt(index);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        }</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div>
+<div class="line"><a name="l00363"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a8eebb6c34642cdf19ac74c7ed38d128b">  363</a></span>&#160;        <span class="keyword">inline</span> T&amp; <a class="code" href="classop_1_1_array.html#a8eebb6c34642cdf19ac74c7ed38d128b">at</a>(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes)</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        {</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">at</a>(getIndexAndCheck(indexes));</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        }</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;</div>
+<div class="line"><a name="l00375"></a><span class="lineno"><a class="line" href="classop_1_1_array.html#a5cb014203b418de3996b90597df53b6e">  375</a></span>&#160;        <span class="keyword">inline</span> <span class="keyword">const</span> T&amp; <a class="code" href="classop_1_1_array.html#a5cb014203b418de3996b90597df53b6e">at</a>(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;<span class="keyword">        </span>{</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">at</a>(getIndexAndCheck(indexes));</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        }</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> <a class="code" href="classop_1_1_array.html#ae3ec6553128d77b0c26b848c0a0f81ca">toString</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        std::vector&lt;int&gt; mSize;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <span class="keywordtype">size_t</span> mVolume;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        std::shared_ptr&lt;T&gt; spData;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        std::pair&lt;bool, cv::Mat&gt; mCvMatData;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        <span class="keywordtype">int</span> getIndex(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        <span class="keywordtype">int</span> getIndexAndCheck(<span class="keyword">const</span> std::vector&lt;int&gt;&amp; indexes) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        T&amp; commonAt(<span class="keyword">const</span> <span class="keywordtype">int</span> index) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <span class="keywordtype">void</span> setCvMatFromSharedPtr();</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    };</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <span class="comment">// Static methods</span></div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    <a class="code" href="macros_8hpp.html#aa883b8ec96d2804b37d3bfb0bd4c5f16">OVERLOAD_C_OUT</a>(Array)</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;}</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;<span class="preprocessor">#endif // OPENPOSE_CORE_ARRAY_HPP</span></div>
 <div class="ttc" id="classop_1_1_array_html_ab70165463db3e2fb3f15ad14001eb592"><div class="ttname"><a href="classop_1_1_array.html#ab70165463db3e2fb3f15ad14001eb592">op::Array::getConstCvMat</a></div><div class="ttdeci">const cv::Mat &amp; getConstCvMat() const </div></div>
 <div class="ttc" id="classop_1_1_array_html_af42f4570122d1b8259c211f52335909b"><div class="ttname"><a href="classop_1_1_array.html#af42f4570122d1b8259c211f52335909b">op::Array::clone</a></div><div class="ttdeci">Array&lt; T &gt; clone() const </div></div>
 <div class="ttc" id="namespacecl_html_a8856ce875094624efdce0a49496d695e"><div class="ttname"><a href="namespacecl.html#a8856ce875094624efdce0a49496d695e">cl::array</a></div><div class="ttdeci">std::array&lt; T, N &gt; array</div><div class="ttdef"><b>Definition:</b> cl2.hpp:594</div></div>
-<div class="ttc" id="classop_1_1_array_html_aada0f1bd6e9eb73b4f977e62da536f58"><div class="ttname"><a href="classop_1_1_array.html#aada0f1bd6e9eb73b4f977e62da536f58">op::Array::operator[]</a></div><div class="ttdeci">T &amp; operator[](const std::vector&lt; int &gt; &amp;indexes)</div><div class="ttdef"><b>Definition:</b> array.hpp:302</div></div>
-<div class="ttc" id="classop_1_1_array_html_a6e0afd5f447efbfc29efbeac62716eff"><div class="ttname"><a href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">op::Array::at</a></div><div class="ttdeci">T &amp; at(const int index)</div><div class="ttdef"><b>Definition:</b> array.hpp:326</div></div>
+<div class="ttc" id="classop_1_1_array_html_aada0f1bd6e9eb73b4f977e62da536f58"><div class="ttname"><a href="classop_1_1_array.html#aada0f1bd6e9eb73b4f977e62da536f58">op::Array::operator[]</a></div><div class="ttdeci">T &amp; operator[](const std::vector&lt; int &gt; &amp;indexes)</div><div class="ttdef"><b>Definition:</b> array.hpp:315</div></div>
+<div class="ttc" id="classop_1_1_array_html_a6e0afd5f447efbfc29efbeac62716eff"><div class="ttname"><a href="classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff">op::Array::at</a></div><div class="ttdeci">T &amp; at(const int index)</div><div class="ttdef"><b>Definition:</b> array.hpp:339</div></div>
 <div class="ttc" id="classop_1_1_array_html_a6bf43d039478797722cf9401ceb951e9"><div class="ttname"><a href="classop_1_1_array.html#a6bf43d039478797722cf9401ceb951e9">op::Array::setFrom</a></div><div class="ttdeci">void setFrom(const cv::Mat &amp;cvMat)</div></div>
+<div class="ttc" id="classop_1_1_array_html_afeacae113dd204df98b78353205c05f1"><div class="ttname"><a href="classop_1_1_array.html#afeacae113dd204df98b78353205c05f1">op::Array::getStride</a></div><div class="ttdeci">std::vector&lt; int &gt; getStride() const </div></div>
 <div class="ttc" id="classop_1_1_array_html_a9c8e006e0eea472485f37971330ecbab"><div class="ttname"><a href="classop_1_1_array.html#a9c8e006e0eea472485f37971330ecbab">op::Array::operator=</a></div><div class="ttdeci">Array&lt; T &gt; &amp; operator=(const Array&lt; T &gt; &amp;array)</div></div>
 <div class="ttc" id="classop_1_1_array_html_adeb008e878709bb5a51e26be55a5452d"><div class="ttname"><a href="classop_1_1_array.html#adeb008e878709bb5a51e26be55a5452d">op::Array::getNumberDimensions</a></div><div class="ttdeci">size_t getNumberDimensions() const </div><div class="ttdef"><b>Definition:</b> array.hpp:191</div></div>
-<div class="ttc" id="classop_1_1_array_html_a5cb014203b418de3996b90597df53b6e"><div class="ttname"><a href="classop_1_1_array.html#a5cb014203b418de3996b90597df53b6e">op::Array::at</a></div><div class="ttdeci">const T &amp; at(const std::vector&lt; int &gt; &amp;indexes) const </div><div class="ttdef"><b>Definition:</b> array.hpp:362</div></div>
+<div class="ttc" id="classop_1_1_array_html_a5cb014203b418de3996b90597df53b6e"><div class="ttname"><a href="classop_1_1_array.html#a5cb014203b418de3996b90597df53b6e">op::Array::at</a></div><div class="ttdeci">const T &amp; at(const std::vector&lt; int &gt; &amp;indexes) const </div><div class="ttdef"><b>Definition:</b> array.hpp:375</div></div>
 <div class="ttc" id="classop_1_1_array_html_a28f09d11de753a741334ee8094296acb"><div class="ttname"><a href="classop_1_1_array.html#a28f09d11de753a741334ee8094296acb">op::Array::setTo</a></div><div class="ttdeci">void setTo(const T value)</div></div>
-<div class="ttc" id="classop_1_1_array_html_a95e83e3379fd43460db68c2adb61f981"><div class="ttname"><a href="classop_1_1_array.html#a95e83e3379fd43460db68c2adb61f981">op::Array::at</a></div><div class="ttdeci">const T &amp; at(const int index) const </div><div class="ttdef"><b>Definition:</b> array.hpp:338</div></div>
+<div class="ttc" id="classop_1_1_array_html_a95e83e3379fd43460db68c2adb61f981"><div class="ttname"><a href="classop_1_1_array.html#a95e83e3379fd43460db68c2adb61f981">op::Array::at</a></div><div class="ttdeci">const T &amp; at(const int index) const </div><div class="ttdef"><b>Definition:</b> array.hpp:351</div></div>
 <div class="ttc" id="macros_8hpp_html_aa883b8ec96d2804b37d3bfb0bd4c5f16"><div class="ttname"><a href="macros_8hpp.html#aa883b8ec96d2804b37d3bfb0bd4c5f16">OVERLOAD_C_OUT</a></div><div class="ttdeci">#define OVERLOAD_C_OUT(className)</div><div class="ttdef"><b>Definition:</b> macros.hpp:60</div></div>
-<div class="ttc" id="classop_1_1_array_html_af4715967fd2b028a97fd30257e697275"><div class="ttname"><a href="classop_1_1_array.html#af4715967fd2b028a97fd30257e697275">op::Array::getPtr</a></div><div class="ttdeci">T * getPtr()</div><div class="ttdef"><b>Definition:</b> array.hpp:224</div></div>
+<div class="ttc" id="classop_1_1_array_html_af4715967fd2b028a97fd30257e697275"><div class="ttname"><a href="classop_1_1_array.html#af4715967fd2b028a97fd30257e697275">op::Array::getPtr</a></div><div class="ttdeci">T * getPtr()</div><div class="ttdef"><b>Definition:</b> array.hpp:237</div></div>
 <div class="ttc" id="classop_1_1_array_html_ad51b6ac12ed115f1056effefd6fa878b"><div class="ttname"><a href="classop_1_1_array.html#ad51b6ac12ed115f1056effefd6fa878b">op::Array::empty</a></div><div class="ttdeci">bool empty() const </div><div class="ttdef"><b>Definition:</b> array.hpp:157</div></div>
 <div class="ttc" id="classop_1_1_array_html_afee5e6149bc917586b3fd56323d20a87"><div class="ttname"><a href="classop_1_1_array.html#afee5e6149bc917586b3fd56323d20a87">op::Array::getVolume</a></div><div class="ttdeci">size_t getVolume() const </div><div class="ttdef"><b>Definition:</b> array.hpp:201</div></div>
 <div class="ttc" id="classop_1_1_array_html_ac817621e848601cf7d6571e75d8f6865"><div class="ttname"><a href="classop_1_1_array.html#ac817621e848601cf7d6571e75d8f6865">op::Array::getCvMat</a></div><div class="ttdeci">cv::Mat &amp; getCvMat()</div></div>
-<div class="ttc" id="classop_1_1_array_html_aa40dc59e800d3c4cce623d560c0e0fad"><div class="ttname"><a href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">op::Array::operator[]</a></div><div class="ttdeci">T &amp; operator[](const int index)</div><div class="ttdef"><b>Definition:</b> array.hpp:269</div></div>
+<div class="ttc" id="classop_1_1_array_html_aa40dc59e800d3c4cce623d560c0e0fad"><div class="ttname"><a href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">op::Array::operator[]</a></div><div class="ttdeci">T &amp; operator[](const int index)</div><div class="ttdef"><b>Definition:</b> array.hpp:282</div></div>
 <div class="ttc" id="classop_1_1_array_html_a12e538b09e98bf0900163031602ed2ed"><div class="ttname"><a href="classop_1_1_array.html#a12e538b09e98bf0900163031602ed2ed">op::Array::reset</a></div><div class="ttdeci">void reset(const int size)</div></div>
 <div class="ttc" id="macros_8hpp_html"><div class="ttname"><a href="macros_8hpp.html">macros.hpp</a></div></div>
-<div class="ttc" id="classop_1_1_array_html_a3f6c6f7ddeed3d1edbc907441888a8cf"><div class="ttname"><a href="classop_1_1_array.html#a3f6c6f7ddeed3d1edbc907441888a8cf">op::Array::operator[]</a></div><div class="ttdeci">const T &amp; operator[](const std::vector&lt; int &gt; &amp;indexes) const </div><div class="ttdef"><b>Definition:</b> array.hpp:314</div></div>
+<div class="ttc" id="classop_1_1_array_html_a3f6c6f7ddeed3d1edbc907441888a8cf"><div class="ttname"><a href="classop_1_1_array.html#a3f6c6f7ddeed3d1edbc907441888a8cf">op::Array::operator[]</a></div><div class="ttdeci">const T &amp; operator[](const std::vector&lt; int &gt; &amp;indexes) const </div><div class="ttdef"><b>Definition:</b> array.hpp:327</div></div>
 <div class="ttc" id="classop_1_1_array_html"><div class="ttname"><a href="classop_1_1_array.html">op::Array</a></div><div class="ttdef"><b>Definition:</b> array.hpp:20</div></div>
-<div class="ttc" id="classop_1_1_array_html_a17a44d11cf476f705ce4a5223cfb4f81"><div class="ttname"><a href="classop_1_1_array.html#a17a44d11cf476f705ce4a5223cfb4f81">op::Array::getConstPtr</a></div><div class="ttdeci">const T * getConstPtr() const </div><div class="ttdef"><b>Definition:</b> array.hpp:233</div></div>
+<div class="ttc" id="classop_1_1_array_html_a17a44d11cf476f705ce4a5223cfb4f81"><div class="ttname"><a href="classop_1_1_array.html#a17a44d11cf476f705ce4a5223cfb4f81">op::Array::getConstPtr</a></div><div class="ttdeci">const T * getConstPtr() const </div><div class="ttdef"><b>Definition:</b> array.hpp:246</div></div>
 <div class="ttc" id="classop_1_1_array_html_ae3ec6553128d77b0c26b848c0a0f81ca"><div class="ttname"><a href="classop_1_1_array.html#ae3ec6553128d77b0c26b848c0a0f81ca">op::Array::toString</a></div><div class="ttdeci">const std::string toString() const </div></div>
 <div class="ttc" id="classop_1_1_array_html_a793b9851c7490bc98d4dd52020c0cd3c"><div class="ttname"><a href="classop_1_1_array.html#a793b9851c7490bc98d4dd52020c0cd3c">op::Array::Array</a></div><div class="ttdeci">Array(const int size)</div></div>
 <div class="ttc" id="classop_1_1_array_html_a337e33980c231bc207ea7d31ffa84fe3"><div class="ttname"><a href="classop_1_1_array.html#a337e33980c231bc207ea7d31ffa84fe3">op::Array::printSize</a></div><div class="ttdeci">std::string printSize() const </div></div>
-<div class="ttc" id="classop_1_1_array_html_aeccfa42607d5deb5039ff260eb980abc"><div class="ttname"><a href="classop_1_1_array.html#aeccfa42607d5deb5039ff260eb980abc">op::Array::operator[]</a></div><div class="ttdeci">const T &amp; operator[](const int index) const </div><div class="ttdef"><b>Definition:</b> array.hpp:285</div></div>
-<div class="ttc" id="classop_1_1_array_html_a8eebb6c34642cdf19ac74c7ed38d128b"><div class="ttname"><a href="classop_1_1_array.html#a8eebb6c34642cdf19ac74c7ed38d128b">op::Array::at</a></div><div class="ttdeci">T &amp; at(const std::vector&lt; int &gt; &amp;indexes)</div><div class="ttdef"><b>Definition:</b> array.hpp:350</div></div>
+<div class="ttc" id="classop_1_1_array_html_aeccfa42607d5deb5039ff260eb980abc"><div class="ttname"><a href="classop_1_1_array.html#aeccfa42607d5deb5039ff260eb980abc">op::Array::operator[]</a></div><div class="ttdeci">const T &amp; operator[](const int index) const </div><div class="ttdef"><b>Definition:</b> array.hpp:298</div></div>
+<div class="ttc" id="classop_1_1_array_html_a8eebb6c34642cdf19ac74c7ed38d128b"><div class="ttname"><a href="classop_1_1_array.html#a8eebb6c34642cdf19ac74c7ed38d128b">op::Array::at</a></div><div class="ttdeci">T &amp; at(const std::vector&lt; int &gt; &amp;indexes)</div><div class="ttdef"><b>Definition:</b> array.hpp:363</div></div>
 <div class="ttc" id="classop_1_1_array_html_a2330657a79a444d1ab44370423be006e"><div class="ttname"><a href="classop_1_1_array.html#a2330657a79a444d1ab44370423be006e">op::Array::getSize</a></div><div class="ttdeci">std::vector&lt; int &gt; getSize() const </div><div class="ttdef"><b>Definition:</b> array.hpp:167</div></div>
 <div class="ttc" id="namespacecl_html_abff80bfb254d646f6afeb6638df41686"><div class="ttname"><a href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">cl::string</a></div><div class="ttdeci">std::string string</div><div class="ttdef"><b>Definition:</b> cl2.hpp:574</div></div>
 </div><!-- fragment --></div><!-- contents -->

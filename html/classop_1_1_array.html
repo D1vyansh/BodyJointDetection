@@ -151,16 +151,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad51b6ac12ed115f1056effefd6fa878b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2330657a79a444d1ab44370423be006e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#a2330657a79a444d1ab44370423be006e">getSize</a> () const </td></tr>
 <tr class="separator:a2330657a79a444d1ab44370423be006e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a337e33980c231bc207ea7d31ffa84fe3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#a337e33980c231bc207ea7d31ffa84fe3">printSize</a> () const </td></tr>
-<tr class="separator:a337e33980c231bc207ea7d31ffa84fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a146d6e773e14dd7aaa29a73f878358e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#a146d6e773e14dd7aaa29a73f878358e1">getSize</a> (const int index) const </td></tr>
 <tr class="separator:a146d6e773e14dd7aaa29a73f878358e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a337e33980c231bc207ea7d31ffa84fe3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#a337e33980c231bc207ea7d31ffa84fe3">printSize</a> () const </td></tr>
+<tr class="separator:a337e33980c231bc207ea7d31ffa84fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeb008e878709bb5a51e26be55a5452d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#adeb008e878709bb5a51e26be55a5452d">getNumberDimensions</a> () const </td></tr>
 <tr class="separator:adeb008e878709bb5a51e26be55a5452d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afee5e6149bc917586b3fd56323d20a87"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#afee5e6149bc917586b3fd56323d20a87">getVolume</a> () const </td></tr>
 <tr class="separator:afee5e6149bc917586b3fd56323d20a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04d04645dd2b2f21492b2ad7a5b87828"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#a04d04645dd2b2f21492b2ad7a5b87828">getVolume</a> (const int indexA, const int indexB) const </td></tr>
 <tr class="separator:a04d04645dd2b2f21492b2ad7a5b87828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeacae113dd204df98b78353205c05f1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#afeacae113dd204df98b78353205c05f1">getStride</a> () const </td></tr>
+<tr class="separator:afeacae113dd204df98b78353205c05f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af318ada5d29b0d22e6c94dc62055793b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#af318ada5d29b0d22e6c94dc62055793b">getStride</a> (const int index) const </td></tr>
+<tr class="separator:af318ada5d29b0d22e6c94dc62055793b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4715967fd2b028a97fd30257e697275"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#af4715967fd2b028a97fd30257e697275">getPtr</a> ()</td></tr>
 <tr class="separator:af4715967fd2b028a97fd30257e697275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a44d11cf476f705ce4a5223cfb4f81"><td class="memItemLeft" align="right" valign="top">const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#a17a44d11cf476f705ce4a5223cfb4f81">getConstPtr</a> () const </td></tr>
@@ -220,7 +224,7 @@ template&lt;typename T&gt; </div>
 <p><a class="el" href="classop_1_1_array.html">Array</a> constructor. Equivalent to default constructor + <a class="el" href="classop_1_1_array.html#a12e538b09e98bf0900163031602ed2ed">reset(const int size)</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">size</td><td>Integer with the number of T element to be allocated. E.g. size = 5 is internally similar to <code>new T[5]</code>. </td></tr>
+    <tr><td class="paramname">size</td><td>Integer with the number of T element to be allocated. E.g., size = 5 is internally similar to <code>new T[5]</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -253,7 +257,7 @@ template&lt;typename T&gt; </div>
 <p><a class="el" href="classop_1_1_array.html">Array</a> constructor. Equivalent to default constructor + reset(const std::vector&lt;int&gt;&amp; size = {}). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sizes</td><td>Vector with the size of each dimension. E.g. size = {3, 5, 2} is internally similar to <code>new T[3*5*2]</code>. </td></tr>
+    <tr><td class="paramname">sizes</td><td>Vector with the size of each dimension. E.g., size = {3, 5, 2} is internally similar to <code>new T[3*5*2]</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -288,7 +292,7 @@ template&lt;typename T&gt; </div>
 <p><a class="el" href="classop_1_1_array.html">Array</a> constructor. Equivalent to default constructor + <a class="el" href="classop_1_1_array.html#ac7183eb2f4e78a6941da3a2079b9ed32">reset(const int size, const T value)</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">size</td><td>Integer with the number of T element to be allocated. E.g. size = 5 is internally similar to <code>new T[5]</code>. </td></tr>
+    <tr><td class="paramname">size</td><td>Integer with the number of T element to be allocated. E.g., size = 5 is internally similar to <code>new T[5]</code>. </td></tr>
     <tr><td class="paramname">value</td><td>Initial value for each component of the <a class="el" href="classop_1_1_array.html">Array</a>. </td></tr>
   </table>
   </dd>
@@ -324,7 +328,7 @@ template&lt;typename T&gt; </div>
 <p><a class="el" href="classop_1_1_array.html">Array</a> constructor. Equivalent to default constructor + <a class="el" href="classop_1_1_array.html#add2eeccd967cdf0900449649cb6f5afb">reset(const std::vector&lt;int&gt;&amp; size, const T value)</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sizes</td><td>Vector with the size of each dimension. E.g. size = {3, 5, 2} is internally similar to: <code>new T[3*5*2]</code>. </td></tr>
+    <tr><td class="paramname">sizes</td><td>Vector with the size of each dimension. E.g., size = {3, 5, 2} is internally similar to: <code>new T[3*5*2]</code>. </td></tr>
     <tr><td class="paramname">value</td><td>Initial value for each component of the <a class="el" href="classop_1_1_array.html">Array</a>. </td></tr>
   </table>
   </dd>
@@ -625,7 +629,7 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Analogous to getConstCvMat, but in this case it returns a editable cv::Mat. Very important: Only allowed functions which do not provoke data reallocation. E.g. resizing functions will not work and they would provoke an undefined behaviour and/or execution crashes. </p>
+<p>Analogous to getConstCvMat, but in this case it returns a editable cv::Mat. Very important: Only allowed functions which do not provoke data reallocation. E.g., resizing functions will not work and they would provoke an undefined behaviour and/or execution crashes. </p>
 <dl class="section return"><dt>Returns</dt><dd>A cv::Mat pointing to the data. </dd></dl>
 
 </div>
@@ -737,6 +741,43 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="afeacae113dd204df98b78353205c05f1"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;int&gt; <a class="el" href="classop_1_1_array.html">op::Array</a>&lt; T &gt;::getStride </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return the stride or step size of the array. E.g., given and Array&lt;T&gt; of size 5x3, <a class="el" href="classop_1_1_array.html#afeacae113dd204df98b78353205c05f1">getStride()</a> would return the following vector: {5x3sizeof(T), 3sizeof(T), sizeof(T)}. </p>
+
+</div>
+</div>
+<a class="anchor" id="af318ada5d29b0d22e6c94dc62055793b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classop_1_1_array.html">op::Array</a>&lt; T &gt;::getStride </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return the stride or step size of the array at the index-th dimension. E.g., given and Array&lt;T&gt; of size 5x3, getStride(2) would return sizeof(T). </p>
+
+</div>
+</div>
 <a class="anchor" id="afee5e6149bc917586b3fd56323d20a87"></a>
 <div class="memitem">
 <div class="memproto">
@@ -759,7 +800,7 @@ template&lt;typename T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Return the total number of elements allocated, equivalent to multiply all the components from <a class="el" href="classop_1_1_array.html#a2330657a79a444d1ab44370423be006e">getSize()</a>. E.g. for a Array&lt;T&gt; of size = {2,5,3}, the volume or total number of elements is: 2x5x3 = 30. </p>
+<p>Return the total number of elements allocated, equivalent to multiply all the components from <a class="el" href="classop_1_1_array.html#a2330657a79a444d1ab44370423be006e">getSize()</a>. E.g., for a Array&lt;T&gt; of size = {2,5,3}, the volume or total number of elements is: 2x5x3 = 30. </p>
 <dl class="section return"><dt>Returns</dt><dd>The total volume of the allocated data. If no memory is allocated, it returns 0. </dd></dl>
 
 </div>
@@ -789,7 +830,7 @@ template&lt;typename T&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Similar to <a class="el" href="classop_1_1_array.html#afee5e6149bc917586b3fd56323d20a87">getVolume()</a>, but in this case it just returns the volume between the desired dimensions. E.g. for a Array&lt;T&gt; of size = {2,5,3}, the volume or total number of elements for getVolume(1,2) is 5x3 = 15. </p>
+<p>Similar to <a class="el" href="classop_1_1_array.html#afee5e6149bc917586b3fd56323d20a87">getVolume()</a>, but in this case it just returns the volume between the desired dimensions. E.g., for a Array&lt;T&gt; of size = {2,5,3}, the volume or total number of elements for getVolume(1,2) is 5x3 = 15. </p>
 <dl class="section return"><dt>Returns</dt><dd>The total volume of the allocated data between the desired dimensions. If the index are out of bounds, it throws an error. </dd></dl>
 
 </div>
@@ -937,7 +978,7 @@ template&lt;typename T&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>[] operator Same functionality as <a class="el" href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">operator[](const int index)</a>, but it lets the user introduce the multi-dimensional index. E.g. given a (10 x 10 x 10) array, array[11] is equivalent to array[{1,1,0}] </p>
+<p>[] operator Same functionality as <a class="el" href="classop_1_1_array.html#aa40dc59e800d3c4cce623d560c0e0fad">operator[](const int index)</a>, but it lets the user introduce the multi-dimensional index. E.g., given a (10 x 10 x 10) array, array[11] is equivalent to array[{1,1,0}] </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">indexes</td><td>Vector with the desired memory location. </td></tr>
@@ -1019,7 +1060,7 @@ template&lt;typename T&gt; </div>
 <p>Data allocation function. It allocates the required space for the memory (it does not initialize that memory). </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">size</td><td>Integer with the number of T element to be allocated. E.g. size = 5 is internally similar to <code>new T[5]</code>. </td></tr>
+    <tr><td class="paramname">size</td><td>Integer with the number of T element to be allocated. E.g., size = 5 is internally similar to <code>new T[5]</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1044,7 +1085,7 @@ template&lt;typename T&gt; </div>
 <p>Data allocation function. Similar to <a class="el" href="classop_1_1_array.html#a12e538b09e98bf0900163031602ed2ed">reset(const int size)</a>, but it allocates a multi-dimensional array of dimensions each of the values of the argument. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sizes</td><td>Vector with the size of each dimension. E.g. size = {3, 5, 2} is internally similar to <code>new T[3*5*2]</code>. </td></tr>
+    <tr><td class="paramname">sizes</td><td>Vector with the size of each dimension. E.g., size = {3, 5, 2} is internally similar to <code>new T[3*5*2]</code>. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1079,7 +1120,7 @@ template&lt;typename T&gt; </div>
 <p>Data allocation function. Similar to <a class="el" href="classop_1_1_array.html#a12e538b09e98bf0900163031602ed2ed">reset(const int size)</a>, but initializing the data to the value specified by the second argument. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">size</td><td>Integer with the number of T element to be allocated. E.g. size = 5 is internally similar to <code>new T[5]</code>. </td></tr>
+    <tr><td class="paramname">size</td><td>Integer with the number of T element to be allocated. E.g., size = 5 is internally similar to <code>new T[5]</code>. </td></tr>
     <tr><td class="paramname">value</td><td>Initial value for each component of the <a class="el" href="classop_1_1_array.html">Array</a>. </td></tr>
   </table>
   </dd>
@@ -1115,7 +1156,7 @@ template&lt;typename T&gt; </div>
 <p>Data allocation function. Similar to <a class="el" href="classop_1_1_array.html#a0ad0232daa69783cf2c8f7a0ff5b3b0c">reset(const std::vector&lt;int&gt;&amp; size)</a>, but initializing the data to the value specified by the second argument. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sizes</td><td>Vector with the size of each dimension. E.g. size = {3, 5, 2} is internally similar to <code>new T[3*5*2]</code>. </td></tr>
+    <tr><td class="paramname">sizes</td><td>Vector with the size of each dimension. E.g., size = {3, 5, 2} is internally similar to <code>new T[3*5*2]</code>. </td></tr>
     <tr><td class="paramname">value</td><td>Initial value for each component of the <a class="el" href="classop_1_1_array.html">Array</a>. </td></tr>
   </table>
   </dd>

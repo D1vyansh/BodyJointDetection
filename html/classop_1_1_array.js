@@ -19,6 +19,8 @@ var classop_1_1_array =
     [ "getPtr", "classop_1_1_array.html#af4715967fd2b028a97fd30257e697275", null ],
     [ "getSize", "classop_1_1_array.html#a2330657a79a444d1ab44370423be006e", null ],
     [ "getSize", "classop_1_1_array.html#a146d6e773e14dd7aaa29a73f878358e1", null ],
+    [ "getStride", "classop_1_1_array.html#afeacae113dd204df98b78353205c05f1", null ],
+    [ "getStride", "classop_1_1_array.html#af318ada5d29b0d22e6c94dc62055793b", null ],
     [ "getVolume", "classop_1_1_array.html#afee5e6149bc917586b3fd56323d20a87", null ],
     [ "getVolume", "classop_1_1_array.html#a04d04645dd2b2f21492b2ad7a5b87828", null ],
     [ "operator=", "classop_1_1_array.html#a9c8e006e0eea472485f37971330ecbab", null ],
