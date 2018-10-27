@@ -87,6 +87,7 @@ var searchData=
   ['getprioritythreshold',['getPriorityThreshold',['../namespaceop_1_1_configure_log.html#a0e5c3fad2ace3eb129dd1d97afd59558',1,'op::ConfigureLog']]],
   ['getprofilinginfo',['getProfilingInfo',['../classcl_1_1_event.html#a8d4610f4ce118208620fe88996970ffa',1,'cl::Event::getProfilingInfo(cl_profiling_info name, T *param) const '],['../classcl_1_1_event.html#a87c25db5f9793aa90db799afa4d14e01',1,'cl::Event::getProfilingInfo(cl_int *err=NULL) const ']]],
   ['getptr',['getPtr',['../classop_1_1_array.html#af4715967fd2b028a97fd30257e697275',1,'op::Array']]],
+  ['getpybindptr',['getPybindPtr',['../classop_1_1_array.html#af5d640c725808d858b47be62ee402187',1,'op::Array']]],
   ['getrawframe',['getRawFrame',['../classop_1_1_producer.html#a39f52d80ac4146c82ed12aae0f05478e',1,'op::Producer::getRawFrame()'],['../classop_1_1_video_capture_reader.html#af57cc02f86ee0c29ccb83f1f7c37bec2',1,'op::VideoCaptureReader::getRawFrame()']]],
   ['getrawframes',['getRawFrames',['../classop_1_1_producer.html#ad51001c3e9f42722c52990d43b315f78',1,'op::Producer::getRawFrames()'],['../classop_1_1_spinnaker_wrapper.html#a77a64d4ef798f2ea7cd54d9c170f7ea7',1,'op::SpinnakerWrapper::getRawFrames()'],['../classop_1_1_video_capture_reader.html#a07abbb0001dd9972ab416eb619812043',1,'op::VideoCaptureReader::getRawFrames()']]],
   ['getresolution',['getResolution',['../classop_1_1_spinnaker_wrapper.html#a57d3bfa344921563cd2648fced667b49',1,'op::SpinnakerWrapper']]],

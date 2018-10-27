@@ -172,6 +172,12 @@ Macros</h2></td></tr>
 <tr class="separator:a7382830f0c24beaea601444cb5962f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6be8d3dedaf015f795625d1df19876aa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pose_parameters_render_8hpp.html#a6be8d3dedaf015f795625d1df19876aa">POSE_CAR_12_COLORS_RENDER_GPU</a></td></tr>
 <tr class="separator:a6be8d3dedaf015f795625d1df19876aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0065da73d9e649360d458fc670ee0f95"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pose_parameters_render_8hpp.html#a0065da73d9e649360d458fc670ee0f95">POSE_CAR_22_PAIRS_RENDER_GPU</a></td></tr>
+<tr class="separator:a0065da73d9e649360d458fc670ee0f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0afb6a9782a4ad8bd3ac41bd2436fefc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pose_parameters_render_8hpp.html#a0afb6a9782a4ad8bd3ac41bd2436fefc">POSE_CAR_22_SCALES_RENDER_GPU</a>&#160;&#160;&#160;0.625</td></tr>
+<tr class="separator:a0afb6a9782a4ad8bd3ac41bd2436fefc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaecdba75da05e8bfc90e4393c88ab6e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pose_parameters_render_8hpp.html#aaecdba75da05e8bfc90e4393c88ab6e6">POSE_CAR_22_COLORS_RENDER_GPU</a></td></tr>
+<tr class="separator:aaecdba75da05e8bfc90e4393c88ab6e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -498,6 +504,74 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define POSE_CAR_12_SCALES_RENDER_GPU&#160;&#160;&#160;0.5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaecdba75da05e8bfc90e4393c88ab6e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define POSE_CAR_22_COLORS_RENDER_GPU</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">255.f,   128.f,   128.f, \</div>
+<div class="line">        255.f,     0.f,     0.f, \</div>
+<div class="line">         64.f,     0.f,     0.f, \</div>
+<div class="line">        255.f,     0.f,     0.f, \</div>
+<div class="line">        \</div>
+<div class="line">          0.f,   255.f,     0.f, \</div>
+<div class="line">          0.f,   255.f,     0.f, \</div>
+<div class="line">        \</div>
+<div class="line">          0.f,     0.f,    64.f, \</div>
+<div class="line">        128.f,   128.f,   255.f, \</div>
+<div class="line">        \</div>
+<div class="line">          0.f,   255.f,     0.f, \</div>
+<div class="line">          0.f,   255.f,     0.f, \</div>
+<div class="line">        \</div>
+<div class="line">          0.f,   255.f,     0.f, \</div>
+<div class="line">          0.f,   255.f,     0.f, \</div>
+<div class="line">        \</div>
+<div class="line">         64.f,     0.f,     0.f, \</div>
+<div class="line">        255.f,   128.f,   128.f, \</div>
+<div class="line">        255.f,     0.f,     0.f, \</div>
+<div class="line">        255.f,     0.f,     0.f, \</div>
+<div class="line">        \</div>
+<div class="line">          0.f,     0.f,   255.f, \</div>
+<div class="line">          0.f,     0.f,   255.f, \</div>
+<div class="line">        \</div>
+<div class="line">          0.f,   255.f,     0.f, \</div>
+<div class="line">          0.f,   255.f,     0.f, \</div>
+<div class="line">        \</div>
+<div class="line">          0.f,     0.f,   255.f, \</div>
+<div class="line">          0.f,     0.f,    64.f</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0065da73d9e649360d458fc670ee0f95"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define POSE_CAR_22_PAIRS_RENDER_GPU</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">0,1,1,3,3,2,2,0,   6,7,7,16,16,17,17,6,   12,13,13,14,14,15,15,12,   6,8,7,8,6,9,7,9,6,4,7,5,   12,11,13,10, \</div>
+<div class="line">            16,18,17,18,16,19,17,19,   6,21,7,20</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0afb6a9782a4ad8bd3ac41bd2436fefc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define POSE_CAR_22_SCALES_RENDER_GPU&#160;&#160;&#160;0.625</td>
         </tr>
       </table>
 </div><div class="memdoc">

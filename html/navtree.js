@@ -42,14 +42,14 @@ var NAVTREEINDEX =
 "3d_2headers_8hpp.html",
 "classcl_1_1_enqueue_args.html#a1ab03b76ada8edb5440ba19905848e5f",
 "classcl_1_1_sampler.html#ad26196f0282429667828b5b39bbc97f1",
-"classop_1_1_hand_extractor_net.html#a3743bf97fd19ee7d52ffd1019baa0c46",
-"classop_1_1_queue_base.html#a49c1d6740f2ce7f26eae606f109b5738",
-"classop_1_1_w_heat_map_saver.html#aa651ec613c81cf9a19222428bd59feed",
-"fast_math_8hpp.html#a65c35aa5a4461e819a01371f152a7407",
-"gui_2enum_classes_8hpp.html#ae52707752b1872b39f0306cc4f6c6ae6a3bd9369403112127ae7db2f866002be2",
-"pose_parameters_8hpp.html#ade70b024ee461ae04e7233bf3937c5c6",
-"structop_1_1_point.html#ac97b928be312686c6438f0260ff4e004",
-"w_pose_extractor_8hpp.html#a020603e3ad6326cb1dce43485157f768"
+"classop_1_1_hand_extractor_net.html#a2638c2c03b0aed0b14114968dedd612c",
+"classop_1_1_queue_base.html#a32ac0e4b14a310aee62ce817e86c0356",
+"classop_1_1_w_heat_map_saver.html#a20e82b121a580c578f69cbb0401c4cb0",
+"fast_math_8hpp.html",
+"gui_2enum_classes_8hpp.html#ae52707752b1872b39f0306cc4f6c6ae6",
+"pose_parameters_8hpp.html#aab3de911b04b96c1850cc05c6947e184",
+"structop_1_1_point.html#aa902ce5b63f3cb8b8b0b04e2f40288fe",
+"w_people_json_saver_8hpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

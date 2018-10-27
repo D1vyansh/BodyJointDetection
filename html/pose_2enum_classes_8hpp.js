@@ -15,6 +15,7 @@ var pose_2enum_classes_8hpp =
       [ "CAR_12", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa66ae79a5ac5fa502ae8bbecd3e07e71c", null ],
       [ "BODY_25D", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa529c87ac399e5fd6f0fa4a360c032568", null ],
       [ "BODY_23", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa003cc3795b0eeed2af2dfd34ed482794", null ],
+      [ "CAR_22", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa372b9885bba8bc32ad323fffcf99e39e", null ],
       [ "Size", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719", null ]
     ] ],
     [ "PoseProperty", "pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0e", [

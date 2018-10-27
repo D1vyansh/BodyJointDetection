@@ -1,5 +1,12 @@
 var NAVTREEINDEX9 =
 {
+"structop_1_1_point.html#aa902ce5b63f3cb8b8b0b04e2f40288fe":[1,0,3,13,15],
+"structop_1_1_point.html#aabc0dee51a101fefbf1fdcd56f54b48c":[1,0,3,13,11],
+"structop_1_1_point.html#aada0e9eecee2fb30fb903b32f9f33047":[1,0,3,13,19],
+"structop_1_1_point.html#ab3b92e4a40cd58d948647484f21dd9ef":[1,0,3,13,2],
+"structop_1_1_point.html#aba8ffdc78fdec7d45222f640eb130874":[1,0,3,13,3],
+"structop_1_1_point.html#abf2bb2d2d5b3dba3424b489b99faa760":[1,0,3,13,14],
+"structop_1_1_point.html#ac8596f2b3b50464b6c6eaa34b0a2c48b":[1,0,3,13,20],
 "structop_1_1_point.html#ac97b928be312686c6438f0260ff4e004":[1,0,3,13,18],
 "structop_1_1_point.html#ad1bbf8b8bb32aedc9e6dbab99c82e1e9":[1,0,3,13,22],
 "structop_1_1_point.html#ad42deecd0077f7c962ca383cbc87e08f":[1,0,3,13,13],
@@ -242,12 +249,5 @@ var NAVTREEINDEX9 =
 "w_keypoint_scaler_8hpp_source.html":[2,0,0,0,2,19],
 "w_op_output_to_cv_mat_8hpp.html":[2,0,0,0,2,20],
 "w_op_output_to_cv_mat_8hpp.html#a1d9f50688522ed7368acc33a09ae9ece":[2,0,0,0,2,20,1],
-"w_op_output_to_cv_mat_8hpp_source.html":[2,0,0,0,2,20],
-"w_people_json_saver_8hpp.html":[2,0,0,0,4,19],
-"w_people_json_saver_8hpp.html#a774871462f7fefb8cadea1e49f501e45":[2,0,0,0,4,19,1],
-"w_people_json_saver_8hpp_source.html":[2,0,0,0,4,19],
-"w_person_id_extractor_8hpp.html":[2,0,0,0,12,4],
-"w_person_id_extractor_8hpp.html#a674a652ad38b355285417529fc050847":[2,0,0,0,12,4,1],
-"w_person_id_extractor_8hpp_source.html":[2,0,0,0,12,4],
-"w_pose_extractor_8hpp.html":[2,0,0,0,9,11]
+"w_op_output_to_cv_mat_8hpp_source.html":[2,0,0,0,2,20]
 };
