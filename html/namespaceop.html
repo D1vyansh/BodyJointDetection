@@ -425,10 +425,12 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceop.html#ae52c21a24cf2c21e3b419c127924fd7ea55eeca17b45365c188d0edbd35f6e0c3">DataFormat::Yml</a>
  }</td></tr>
 <tr class="separator:ae52c21a24cf2c21e3b419c127924fd7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc02b50eb41d637d862e6af74bc9b3cc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#abc02b50eb41d637d862e6af74bc9b3cc">CocoJsonFormat</a> : bool { <a class="el" href="namespaceop.html#abc02b50eb41d637d862e6af74bc9b3ccaac101b32dda4448cf13a93fe283dddd8">CocoJsonFormat::Body</a>, 
-<a class="el" href="namespaceop.html#abc02b50eb41d637d862e6af74bc9b3cca129e74dde7b475c8848310e16754c965">CocoJsonFormat::Foot</a>
+<tr class="memitem:a5418b76dad5b4aea1133325f4aa715ac"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715ac">CocoJsonFormat</a> : unsigned char { <a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715acaac101b32dda4448cf13a93fe283dddd8">CocoJsonFormat::Body</a>, 
+<a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715aca129e74dde7b475c8848310e16754c965">CocoJsonFormat::Foot</a>, 
+<a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715acae9989db5dabeea617f40c8dbfd07f5fb">CocoJsonFormat::Car</a>, 
+<a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715aca6f6cb72d544962fa333e2e34ce64f719">CocoJsonFormat::Size</a>
  }</td></tr>
-<tr class="separator:abc02b50eb41d637d862e6af74bc9b3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a5418b76dad5b4aea1133325f4aa715ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbb34b5c8f2b6f0c051f831f18582e7f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7f">GpuMode</a> : unsigned char { <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa8b95dcff7397d0693c03e394af5552aa">GpuMode::Cuda</a> = 0, 
 <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa7982b09a852b37f2afb1227eaf552e47">GpuMode::OpenCL</a> = 1, 
 <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa3c1472839b807c90abff3c7c36dff458">GpuMode::NoGpu</a> = 2, 
@@ -554,18 +556,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a3762897ab245335916f08bb5ba32f203"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a3762897ab245335916f08bb5ba32f203">estimateAndSaveSiftFile</a> (const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;gridInnerCorners, const std::string &amp;imagesFolder, const int numberCameras, const bool saveImagesWithCorners=false)</td></tr>
 <tr class="separator:a3762897ab245335916f08bb5ba32f203"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a133c08ba217983ac48281a5f1456a7de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::pair&lt; bool, <br class="typebreak"/>
-std::vector&lt; cv::Point2f &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a133c08ba217983ac48281a5f1456a7de">findAccurateGridCorners</a> (const cv::Mat &amp;image, const <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners)</td></tr>
+std::vector&lt; cv::Point2f &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a133c08ba217983ac48281a5f1456a7de">findAccurateGridCorners</a> (const cv::Mat &amp;image, const <a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715aca6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners)</td></tr>
 <tr class="separator:a133c08ba217983ac48281a5f1456a7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eac494df764905a18e976f6af303855"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; cv::Point3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a3eac494df764905a18e976f6af303855">getObjects3DVector</a> (const <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners, const float gridSquareSizeMm)</td></tr>
+<tr class="memitem:a3eac494df764905a18e976f6af303855"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; cv::Point3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a3eac494df764905a18e976f6af303855">getObjects3DVector</a> (const <a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715aca6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners, const float gridSquareSizeMm)</td></tr>
 <tr class="separator:a3eac494df764905a18e976f6af303855"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a0199d6781778e6f50213c816189f26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1a0199d6781778e6f50213c816189f26">drawGridCorners</a> (cv::Mat &amp;image, const <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners, const std::vector&lt; cv::Point2f &gt; &amp;points2DVector)</td></tr>
+<tr class="memitem:a1a0199d6781778e6f50213c816189f26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1a0199d6781778e6f50213c816189f26">drawGridCorners</a> (cv::Mat &amp;image, const <a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715aca6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners, const std::vector&lt; cv::Point2f &gt; &amp;points2DVector)</td></tr>
 <tr class="separator:a1a0199d6781778e6f50213c816189f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fbb758fb8268964611914305f185afe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::array&lt; unsigned <br class="typebreak"/>
-int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7fbb758fb8268964611914305f185afe">getOutterCornerIndices</a> (const std::vector&lt; cv::Point2f &gt; &amp;points2DVector, const <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners)</td></tr>
+int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7fbb758fb8268964611914305f185afe">getOutterCornerIndices</a> (const std::vector&lt; cv::Point2f &gt; &amp;points2DVector, const <a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715aca6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners)</td></tr>
 <tr class="separator:a7fbb758fb8268964611914305f185afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae9e55fbfd40138158ff04dc81bd0227"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aae9e55fbfd40138158ff04dc81bd0227">reorderPoints</a> (std::vector&lt; cv::Point2f &gt; &amp;points2DVector, const <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners, const <a class="el" href="namespaceop.html#a98fa284e9c4f26865d8c78ad76ea4073">Points2DOrigin</a> points2DOriginDesired)</td></tr>
+<tr class="memitem:aae9e55fbfd40138158ff04dc81bd0227"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aae9e55fbfd40138158ff04dc81bd0227">reorderPoints</a> (std::vector&lt; cv::Point2f &gt; &amp;points2DVector, const <a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715aca6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners, const <a class="el" href="namespaceop.html#a98fa284e9c4f26865d8c78ad76ea4073">Points2DOrigin</a> points2DOriginDesired)</td></tr>
 <tr class="separator:aae9e55fbfd40138158ff04dc81bd0227"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99f8e5818b5006929abdc879d82f175b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a99f8e5818b5006929abdc879d82f175b">plotGridCorners</a> (const <a class="el" href="namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners, const std::vector&lt; cv::Point2f &gt; &amp;points2DVector, const std::string &amp;imagePath, const cv::Mat &amp;image)</td></tr>
+<tr class="memitem:a99f8e5818b5006929abdc879d82f175b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a99f8e5818b5006929abdc879d82f175b">plotGridCorners</a> (const <a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715aca6f6cb72d544962fa333e2e34ce64f719">cv::Size</a> &amp;gridInnerCorners, const std::vector&lt; cv::Point2f &gt; &amp;points2DVector, const std::string &amp;imagePath, const cv::Mat &amp;image)</td></tr>
 <tr class="separator:a99f8e5818b5006929abdc879d82f175b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cd131c9ddd8f3987508e89e0881b9e0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a7cd131c9ddd8f3987508e89e0881b9e0"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7cd131c9ddd8f3987508e89e0881b9e0">recenter</a> (const <a class="el" href="structop_1_1_rectangle.html">Rectangle</a>&lt; T &gt; &amp;rectangle, const T newWidth, const T newHeight)</td></tr>
@@ -781,6 +783,8 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:ab1e242b1ae7ff3300324fbfedebb52fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae76afeeeaedaebe6941f41a4bdf50e2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ae76afeeeaedaebe6941f41a4bdf50e2a">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_pose_renderer.html">WPoseRenderer</a>)</td></tr>
 <tr class="separator:ae76afeeeaedaebe6941f41a4bdf50e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff1530aa4f78f3c55b7df9b452ceee94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aff1530aa4f78f3c55b7df9b452ceee94">createProducer</a> (const <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a> producerType=<a class="el" href="namespaceop.html#afce557f02e337e16150d00bdf72ec033a6adf97f83acf6453d4a6a4b1070f3754">ProducerType::None</a>, const std::string &amp;producerString=&quot;&quot;, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;cameraResolution=<a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;{-1,-1}, const double webcamFps=30., const std::string &amp;cameraParameterPath=&quot;models/cameraParameters/&quot;, const bool undistortImage=true, const unsigned int imageDirectoryStereo=-1)</td></tr>
+<tr class="separator:aff1530aa4f78f3c55b7df9b452ceee94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa65c081c13e0d0453938a3c41d04dc49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aa65c081c13e0d0453938a3c41d04dc49">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_priority_queue.html">PriorityQueue</a>)</td></tr>
 <tr class="separator:aa65c081c13e0d0453938a3c41d04dc49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7f93261bd6d87f86c45e933607a0678"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aa7f93261bd6d87f86c45e933607a0678">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_queue.html">Queue</a>)</td></tr>
@@ -918,8 +922,9 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:aa4a6fee7ba2cc543739477e9c1d64136"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fbdd7c33f90d0237582c9441162a7d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a1fbdd7c33f90d0237582c9441162a7d8">flagsToProducerType</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const bool flirCamera)</td></tr>
 <tr class="separator:a1fbdd7c33f90d0237582c9441162a7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0665c10c4afd960dac5746aaf967200a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a0665c10c4afd960dac5746aaf967200a">flagsToProducer</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath, const int webcamIndex, const bool flirCamera=false, const std::string &amp;cameraResolution=&quot;-1x-1&quot;, const double webcamFps=30., const std::string &amp;cameraParameterPath=&quot;models/cameraParameters/&quot;, const bool undistortImage=true, const unsigned int imageDirectoryStereo=1, const int flirCameraIndex=-1)</td></tr>
-<tr class="separator:a0665c10c4afd960dac5746aaf967200a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5928fbe1f41a1f6e49bfdb82ee831e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::pair&lt; <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a>, <br class="typebreak"/>
+std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ac5928fbe1f41a1f6e49bfdb82ee831e3">flagsToProducer</a> (const std::string &amp;imageDirectory, const std::string &amp;videoPath, const std::string &amp;ipCameraPath=&quot;&quot;, const int webcamIndex=-1, const bool flirCamera=false, const int flirCameraIndex=-1)</td></tr>
+<tr class="separator:ac5928fbe1f41a1f6e49bfdb82ee831e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3b02ca66d11f4129372f4a9f98c6437"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ad3b02ca66d11f4129372f4a9f98c6437">flagsToHeatMaps</a> (const bool heatMapsAddParts=false, const bool heatMapsAddBkg=false, const bool heatMapsAddPAFs=false)</td></tr>
 <tr class="separator:ad3b02ca66d11f4129372f4a9f98c6437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70f65da8f70ebd07b093932927187c90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="el" href="namespaceop.html#afce557f02e337e16150d00bdf72ec033">RenderMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a70f65da8f70ebd07b093932927187c90">flagsToRenderMode</a> (const int renderFlag, const bool gpuBuggy=false, const int renderPoseFlag=-2)</td></tr>
@@ -988,8 +993,8 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:a3290f48d24c9992dd00d339ce49cfac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a815e303884fb2b3346c8cc19d61b23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a7a815e303884fb2b3346c8cc19d61b23">toUpper</a> (const std::string &amp;string)</td></tr>
 <tr class="separator:a7a815e303884fb2b3346c8cc19d61b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa09218bc02738455b92fb20b47b0e1a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aa09218bc02738455b92fb20b47b0e1a7">wrapperConfigureSanityChecks</a> (<a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand, const <a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a> &amp;wrapperStructExtra, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput, const bool renderOutput, const bool userOutputWsEmpty, const <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36">ThreadManagerMode</a> threadManagerMode)</td></tr>
-<tr class="separator:aa09218bc02738455b92fb20b47b0e1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d9107e83f9cbc69f195199f0aef4385"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a8d9107e83f9cbc69f195199f0aef4385">wrapperConfigureSanityChecks</a> (<a class="el" href="structop_1_1_wrapper_struct_pose.html">WrapperStructPose</a> &amp;wrapperStructPose, const <a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a> &amp;wrapperStructFace, const <a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a> &amp;wrapperStructHand, const <a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a> &amp;wrapperStructExtra, const <a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a> &amp;wrapperStructInput, const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput, const bool renderOutput, const bool userOutputWsEmpty, const std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt; &amp;producerSharedPtr, const <a class="el" href="namespaceop.html#a3593e2d53bec533f0048ef3973eebd36">ThreadManagerMode</a> threadManagerMode)</td></tr>
+<tr class="separator:a8d9107e83f9cbc69f195199f0aef4385"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af65a4564afcad06b72468679f6bee52b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#af65a4564afcad06b72468679f6bee52b">threadIdPP</a> (unsigned long long &amp;threadId, const bool multiThreadEnabled)</td></tr>
 <tr class="separator:af65a4564afcad06b72468679f6bee52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14617fc3e3e147e3b5887a172028eae0"><td class="memTemplParams" colspan="2">template&lt;typename TDatums , typename TDatumsSP  = std::shared_ptr&lt;TDatums&gt;, typename TWorker  = std::shared_ptr&lt;Worker&lt;TDatumsSP&gt;&gt;&gt; </td></tr>
@@ -1070,7 +1075,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a class="anchor" id="abc02b50eb41d637d862e6af74bc9b3cc"></a>
+<a class="anchor" id="a5418b76dad5b4aea1133325f4aa715ac"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1078,7 +1083,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="namespaceop.html#abc02b50eb41d637d862e6af74bc9b3cc">op::CocoJsonFormat</a> : bool</td>
+          <td class="memname">enum <a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715ac">op::CocoJsonFormat</a> : unsigned char</td>
         </tr>
       </table>
   </td>
@@ -1088,9 +1093,13 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="abc02b50eb41d637d862e6af74bc9b3ccaac101b32dda4448cf13a93fe283dddd8"></a>Body</em>&#160;</td><td class="fielddoc">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a5418b76dad5b4aea1133325f4aa715acaac101b32dda4448cf13a93fe283dddd8"></a>Body</em>&#160;</td><td class="fielddoc">
 </td></tr>
-<tr><td class="fieldname"><em><a class="anchor" id="abc02b50eb41d637d862e6af74bc9b3cca129e74dde7b475c8848310e16754c965"></a>Foot</em>&#160;</td><td class="fielddoc">
+<tr><td class="fieldname"><em><a class="anchor" id="a5418b76dad5b4aea1133325f4aa715aca129e74dde7b475c8848310e16754c965"></a>Foot</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a5418b76dad5b4aea1133325f4aa715acae9989db5dabeea617f40c8dbfd07f5fb"></a>Car</em>&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="a5418b76dad5b4aea1133325f4aa715aca6f6cb72d544962fa333e2e34ce64f719"></a>Size</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
 
@@ -1584,7 +1593,7 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Type of producers An enum class in which all the possible type of <a class="el" href="classop_1_1_producer.html">Producer</a> are included. In order to add a new <a class="el" href="classop_1_1_producer.html">Producer</a>, include its name in this enum and add a new 'else if' statement inside ProducerFactory::createProducer(). </p>
+<p>Type of producers An enum class in which all the possible type of <a class="el" href="classop_1_1_producer.html">Producer</a> are included. In order to add a new <a class="el" href="classop_1_1_producer.html">Producer</a>, include its name in this enum and add a new 'else if' statement inside <a class="el" href="namespaceop.html#aff1530aa4f78f3c55b7df9b452ceee94">ProducerFactory::createProducer()</a>. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a54b73745852c270cfd891eed0f6f2332af436d4d7a472ac39a7cb227e3ea24f8d"></a>FlirCamera</em>&#160;</td><td class="fielddoc">
 <p>Stereo FLIR (Point-Grey) camera reader. Based on Spinnaker SDK. </p>
@@ -2182,22 +2191,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a01aa5c6e24026536367cf47a64e9bba5"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WorkerConsumer&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a5660f0e72781ce6d7db9eb78b582e5c6"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2206,6 +2199,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WorkerProducer&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a01aa5c6e24026536367cf47a64e9bba5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WorkerConsumer&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2294,22 +2303,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a361310c59d16e88a4d2450a80f078f01"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WHandDetectorTracking&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a767385c8d3ebe736e1752825ab4d4ea0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2318,6 +2311,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WHandDetectorFromTxt&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a361310c59d16e88a4d2450a80f078f01"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WHandDetectorTracking&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -3324,6 +3333,63 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="aff1530aa4f78f3c55b7df9b452ceee94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt;<a class="el" href="classop_1_1_producer.html">Producer</a>&gt; op::createProducer </td>
+          <td>(</td>
+          <td class="paramtype">const ProducerType&#160;</td>
+          <td class="paramname"><em>producerType</em> = <code>ProducerType::None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>producerString</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Point&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>cameraResolution</em> = <code>Point&lt;&#160;int&#160;&gt;{-1,-1}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const double&#160;</td>
+          <td class="paramname"><em>webcamFps</em> = <code>30.</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>cameraParameterPath</em> = <code>&quot;models/cameraParameters/&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>undistortImage</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>imageDirectoryStereo</em> = <code>-1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This function returns the desired producer given the input parameters. </p>
+
+</div>
+</div>
 <a class="anchor" id="a2af8422ada0de882cc222920ca15c6d2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3998,12 +4064,12 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a0665c10c4afd960dac5746aaf967200a"></a>
+<a class="anchor" id="ac5928fbe1f41a1f6e49bfdb82ee831e3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt;<a class="el" href="classop_1_1_producer.html">Producer</a>&gt; op::flagsToProducer </td>
+          <td class="memname"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::pair&lt;<a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a>, std::string&gt; op::flagsToProducer </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>imageDirectory</em>, </td>
@@ -4018,49 +4084,19 @@ template&lt;class T &gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>ipCameraPath</em>, </td>
+          <td class="paramname"><em>ipCameraPath</em> = <code>&quot;&quot;</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>webcamIndex</em>, </td>
+          <td class="paramname"><em>webcamIndex</em> = <code>-1</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const bool&#160;</td>
           <td class="paramname"><em>flirCamera</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>cameraResolution</em> = <code>&quot;-1x-1&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double&#160;</td>
-          <td class="paramname"><em>webcamFps</em> = <code>30.</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>cameraParameterPath</em> = <code>&quot;models/cameraParameters/&quot;</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>undistortImage</em> = <code>true</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>imageDirectoryStereo</em> = <code>1</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -7852,7 +7888,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aa09218bc02738455b92fb20b47b0e1a7"></a>
+<a class="anchor" id="a8d9107e83f9cbc69f195199f0aef4385"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -7907,6 +7943,12 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::shared_ptr&lt; Producer &gt; &amp;&#160;</td>
+          <td class="paramname"><em>producerSharedPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">const ThreadManagerMode&#160;</td>
           <td class="paramname"><em>threadManagerMode</em>&#160;</td>
         </tr>
@@ -7928,6 +7970,7 @@ template&lt;typename T &gt; </div>
     <tr><td class="paramname">wrapperStructOutput</td><td></td></tr>
     <tr><td class="paramname">renderOutput</td><td></td></tr>
     <tr><td class="paramname">userOutputWsEmpty</td><td></td></tr>
+    <tr><td class="paramname">producerSharedPtr</td><td></td></tr>
     <tr><td class="paramname">threadManagerMode</td><td></td></tr>
   </table>
   </dd>

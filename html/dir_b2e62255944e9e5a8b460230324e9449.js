@@ -14,9 +14,7 @@ var dir_b2e62255944e9e5a8b460230324e9449 =
     [ "ipCameraReader.hpp", "ip_camera_reader_8hpp.html", [
       [ "IpCameraReader", "classop_1_1_ip_camera_reader.html", "classop_1_1_ip_camera_reader" ]
     ] ],
-    [ "producer.hpp", "producer_8hpp.html", [
-      [ "Producer", "classop_1_1_producer.html", "classop_1_1_producer" ]
-    ] ],
+    [ "producer.hpp", "producer_8hpp.html", "producer_8hpp" ],
     [ "spinnakerWrapper.hpp", "spinnaker_wrapper_8hpp.html", [
       [ "SpinnakerWrapper", "classop_1_1_spinnaker_wrapper.html", "classop_1_1_spinnaker_wrapper" ]
     ] ],

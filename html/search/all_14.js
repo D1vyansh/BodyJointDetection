@@ -10,6 +10,7 @@ var searchData=
   ['uintround',['uIntRound',['../namespaceop.html#a8525e440d6ac1b558e72637dc4f4e3c4',1,'op']]],
   ['ulonglonground',['uLongLongRound',['../namespaceop.html#a757a5cc88734e7be9e910e7d8213c282',1,'op']]],
   ['ulonground',['ulongRound',['../namespaceop.html#aaafe2e235a1a3a146bb026b71c521c7b',1,'op']]],
+  ['undistortimage',['undistortImage',['../structop_1_1_wrapper_struct_input.html#ae7183e10862dbdbed422f042f1a71ed1',1,'op::WrapperStructInput']]],
   ['unloadcompiler',['unloadCompiler',['../classcl_1_1_platform.html#a70313ea76e0e369c4dc951a7f47b531f',1,'cl::Platform']]],
   ['unmapsvm',['unmapSVM',['../namespacecl.html#af9f49b386b20c55c04a9e6cd21849fd5',1,'cl']]],
   ['unrollarraytoucharcvmat',['unrollArrayToUCharCvMat',['../namespaceop.html#ab8b9daed84e741afb7191fde8ed95b5e',1,'op']]],

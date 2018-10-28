@@ -10,5 +10,6 @@ var searchData=
   ['posekeypoints3d',['poseKeypoints3D',['../structop_1_1_datum.html#a652ac1e7de13ec9a886dece75848cfea',1,'op::Datum']]],
   ['posemodel',['poseModel',['../structop_1_1_wrapper_struct_pose.html#a35147b6fb9e300d79b71637793053a1b',1,'op::WrapperStructPose']]],
   ['posescores',['poseScores',['../structop_1_1_datum.html#afb117821de7aff9ac3c219ef3bbc0c14',1,'op::Datum']]],
-  ['producersharedptr',['producerSharedPtr',['../structop_1_1_wrapper_struct_input.html#adb77e57fd11db9950d9754a2c8c8eaa5',1,'op::WrapperStructInput']]]
+  ['producerstring',['producerString',['../structop_1_1_wrapper_struct_input.html#a03e5628a93671e1d771b3080d3c4f1e7',1,'op::WrapperStructInput']]],
+  ['producertype',['producerType',['../structop_1_1_wrapper_struct_input.html#acd6a460d6c0a64bc818539b67fcafea7',1,'op::WrapperStructInput']]]
 ];
