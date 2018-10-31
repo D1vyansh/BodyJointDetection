@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"pose_parameters_8hpp.html#a692472b562fba051964f9ddea07b97d7":[2,0,0,0,9,7,2],
 "pose_parameters_8hpp.html#a84d87ec0e4ed3cf75a37ce99d0d25ef7":[2,0,0,0,9,7,6],
 "pose_parameters_8hpp.html#aa170c3107396e4d0e4214bb0c1b78f08":[2,0,0,0,9,7,5],
 "pose_parameters_8hpp.html#aab3de911b04b96c1850cc05c6947e184":[2,0,0,0,9,7,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "structop_1_1_point.html#a767e96d42e4653ac09ada5c5cdceb776":[1,0,3,13,21],
 "structop_1_1_point.html#a7688d4f0cadcf1970380519df4cfffd7":[1,0,3,13,7],
 "structop_1_1_point.html#a812d4ef29d102f4ad18f32ae54eb17ec":[1,0,3,13,25],
-"structop_1_1_point.html#a81a09bde4e8e27ec6e8b4808f0f60f57":[1,0,3,13,17],
-"structop_1_1_point.html#a9759f95e852025014cb071aefb242cef":[1,0,3,13,5]
+"structop_1_1_point.html#a81a09bde4e8e27ec6e8b4808f0f60f57":[1,0,3,13,17]
 };

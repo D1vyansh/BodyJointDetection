@@ -276,7 +276,7 @@ Protected Attributes</h2></td></tr>
 <p>This function extracts the face keypoints for each detected face in the image. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">faceRectangles</td><td>location of the faces in the image. It is a length-variable std::vector, where each index corresponds to a different person in the image. Internally, a op::Rectangle&lt;float&gt; (similar to cv::Rect for floating values) with the position of that face (or 0,0,0,0 if some face is missing, e.g. if a specific person has only half of the body inside the image). </td></tr>
+    <tr><td class="paramname">faceRectangles</td><td>location of the faces in the image. It is a length-variable std::vector, where each index corresponds to a different person in the image. Internally, a op::Rectangle&lt;float&gt; (similar to cv::Rect for floating values) with the position of that face (or 0,0,0,0 if some face is missing, e.g., if a specific person has only half of the body inside the image). </td></tr>
     <tr><td class="paramname">cvInputData</td><td>Original image in cv::Mat format and BGR format. </td></tr>
   </table>
   </dd>

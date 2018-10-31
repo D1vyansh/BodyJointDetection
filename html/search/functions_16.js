@@ -51,7 +51,7 @@ var searchData=
   ['wrapperstructface',['WrapperStructFace',['../structop_1_1_wrapper_struct_face.html#ac60accbce8d798adbc3b8a76e6e4f879',1,'op::WrapperStructFace']]],
   ['wrapperstructhand',['WrapperStructHand',['../structop_1_1_wrapper_struct_hand.html#aaa42d271c3cb7fa3a071d4785644c0a8',1,'op::WrapperStructHand']]],
   ['wrapperstructinput',['WrapperStructInput',['../structop_1_1_wrapper_struct_input.html#a529d945c83bb69ac1db7b8db371e6622',1,'op::WrapperStructInput']]],
-  ['wrapperstructoutput',['WrapperStructOutput',['../structop_1_1_wrapper_struct_output.html#a46207e61b143191a6cb79d397af43989',1,'op::WrapperStructOutput']]],
+  ['wrapperstructoutput',['WrapperStructOutput',['../structop_1_1_wrapper_struct_output.html#ae6af809e1b560ca018861ee8221bad21',1,'op::WrapperStructOutput']]],
   ['wrapperstructpose',['WrapperStructPose',['../structop_1_1_wrapper_struct_pose.html#a5ea7564df25975c4279547acb885376a',1,'op::WrapperStructPose']]],
   ['wrappert',['WrapperT',['../classop_1_1_wrapper_t.html#af1a56f0542a2cbcc11d6b185adeb5626',1,'op::WrapperT']]],
   ['write',['write',['../classop_1_1_video_saver.html#a7c79397b9be8b6d6d12b9f3e78e6c794',1,'op::VideoSaver::write(const cv::Mat &amp;cvMat)'],['../classop_1_1_video_saver.html#a3cdbef8bada237edffaf7793eaa0fe8e',1,'op::VideoSaver::write(const std::vector&lt; cv::Mat &gt; &amp;cvMats)']]],

@@ -293,7 +293,7 @@ short, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <p>This function extracts the hand keypoints for each detected hand in the image. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">handRectangles</td><td>location of the hands in the image. It is a length-variable std::vector, where each index corresponds to a different person in the image. Internally the std::vector, a std::array of 2 elements: index 0 and 1 for left and right hand respectively. Inside each array element, a op::Rectangle&lt;float&gt; (similar to cv::Rect for floating values) with the position of that hand (or 0,0,0,0 if some hand is missing, e.g. if a specific person has only half of the body inside the image). </td></tr>
+    <tr><td class="paramname">handRectangles</td><td>location of the hands in the image. It is a length-variable std::vector, where each index corresponds to a different person in the image. Internally the std::vector, a std::array of 2 elements: index 0 and 1 for left and right hand respectively. Inside each array element, a op::Rectangle&lt;float&gt; (similar to cv::Rect for floating values) with the position of that hand (or 0,0,0,0 if some hand is missing, e.g., if a specific person has only half of the body inside the image). </td></tr>
     <tr><td class="paramname">cvInputData</td><td>Original image in cv::Mat format and BGR format. </td></tr>
   </table>
   </dd>

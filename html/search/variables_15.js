@@ -5,6 +5,7 @@ var searchData=
   ['writebvh',['writeBvh',['../structop_1_1_wrapper_struct_output.html#add74785fc0cb1fc7d2c6b5f88b622d53',1,'op::WrapperStructOutput']]],
   ['writecocofootjson',['writeCocoFootJson',['../structop_1_1_wrapper_struct_output.html#aaadbe4f8f765a751973ed1b405843c74',1,'op::WrapperStructOutput']]],
   ['writecocojson',['writeCocoJson',['../structop_1_1_wrapper_struct_output.html#a6efbd77da8ebcea3abc4109bb2f39c0b',1,'op::WrapperStructOutput']]],
+  ['writecocojsonvariant',['writeCocoJsonVariant',['../structop_1_1_wrapper_struct_output.html#a0119bb7429483928c587ffaf607919de',1,'op::WrapperStructOutput']]],
   ['writeheatmaps',['writeHeatMaps',['../structop_1_1_wrapper_struct_output.html#adca0d08aa43e2280ca06a8db0deb81bc',1,'op::WrapperStructOutput']]],
   ['writeheatmapsformat',['writeHeatMapsFormat',['../structop_1_1_wrapper_struct_output.html#a34d5796e02b8afaaaef99fc26e7f3056',1,'op::WrapperStructOutput']]],
   ['writeimages',['writeImages',['../structop_1_1_wrapper_struct_output.html#a5f56c15d410645442b5ac21c316b9c85',1,'op::WrapperStructOutput']]],

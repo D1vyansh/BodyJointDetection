@@ -709,7 +709,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Rendered image in cv::Mat uchar format. It has been resized to the desired output resolution (e.g. <code>resolution</code> flag in the demo). If outputData is empty, cvOutputData will also be empty. Size: (output_height x output_width) x 3 channels </p>
+<p>Rendered image in cv::Mat uchar format. It has been resized to the desired output resolution (e.g., <code>resolution</code> flag in the demo). If outputData is empty, cvOutputData will also be empty. Size: (output_height x output_width) x 3 channels </p>
 
 </div>
 </div>
@@ -902,7 +902,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Name used when saving the data to disk (e.g. <code>write_images</code> or <code>write_keypoint</code> flags in the demo). </p>
+<p>Name used when saving the data to disk (e.g., <code>write_images</code> or <code>write_keypoint</code> flags in the demo). </p>
 
 </div>
 </div>
@@ -941,7 +941,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Rendered image in <a class="el" href="classop_1_1_array.html">Array&lt;float&gt;</a> format. It consists of a blending of the cvInputData and the pose/body part(s) heatmap/PAF(s). If rendering is disabled (e.g. <code>no_render_pose</code> flag in the demo), outputData will be empty. Size: 3 x output_net_height x output_net_width </p>
+<p>Rendered image in <a class="el" href="classop_1_1_array.html">Array&lt;float&gt;</a> format. It consists of a blending of the cvInputData and the pose/body part(s) heatmap/PAF(s). If rendering is disabled (e.g., <code>no_render_pose</code> flag in the demo), outputData will be empty. Size: 3 x output_net_height x output_net_width </p>
 
 </div>
 </div>
@@ -993,7 +993,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Body pose (x,y,score) locations for each person in the image. It has been resized to the desired output resolution (e.g. <code>resolution</code> flag in the demo). Size: #people x #body parts (e.g. 18 for COCO or 15 for MPI) x 3 ((x,y) coordinates + score) </p>
+<p>Body pose (x,y,score) locations for each person in the image. It has been resized to the desired output resolution (e.g., <code>resolution</code> flag in the demo). Size: #people x #body parts (e.g., 18 for COCO or 15 for MPI) x 3 ((x,y) coordinates + score) </p>
 
 </div>
 </div>
@@ -1006,7 +1006,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Body pose (x,y,z,score) locations for each person in the image. Size: #people x #body parts (e.g. 18 for COCO or 15 for MPI) x 4 ((x,y,z) coordinates + score) </p>
+<p>Body pose (x,y,z,score) locations for each person in the image. Size: #people x #body parts (e.g., 18 for COCO or 15 for MPI) x 4 ((x,y,z) coordinates + score) </p>
 
 </div>
 </div>
@@ -1019,7 +1019,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Body pose global confidence/score for each person in the image. It does not only consider the score of each body keypoint, but also the score of each PAF association. Optimized for COCO evaluation metric. It will highly penalyze people with missing body parts (e.g. cropped people on the borders of the image). If poseKeypoints is empty, poseScores will also be empty. Size: #people </p>
+<p>Body pose global confidence/score for each person in the image. It does not only consider the score of each body keypoint, but also the score of each PAF association. Optimized for COCO evaluation metric. It will highly penalyze people with missing body parts (e.g., cropped people on the borders of the image). If poseKeypoints is empty, poseScores will also be empty. Size: #people </p>
 
 </div>
 </div>

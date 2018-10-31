@@ -1,6 +1,6 @@
 var structop_1_1_wrapper_struct_output =
 [
-    [ "WrapperStructOutput", "structop_1_1_wrapper_struct_output.html#a46207e61b143191a6cb79d397af43989", null ],
+    [ "WrapperStructOutput", "structop_1_1_wrapper_struct_output.html#ae6af809e1b560ca018861ee8221bad21", null ],
     [ "displayMode", "structop_1_1_wrapper_struct_output.html#a4e18a93cfa9c6b47151427152a745817", null ],
     [ "fullScreen", "structop_1_1_wrapper_struct_output.html#aaf5df884418d2bf1df36505009264ece", null ],
     [ "guiVerbose", "structop_1_1_wrapper_struct_output.html#ac72ad601daf957b9b000206e9f1fe0ad", null ],
@@ -9,6 +9,7 @@ var structop_1_1_wrapper_struct_output =
     [ "writeBvh", "structop_1_1_wrapper_struct_output.html#add74785fc0cb1fc7d2c6b5f88b622d53", null ],
     [ "writeCocoFootJson", "structop_1_1_wrapper_struct_output.html#aaadbe4f8f765a751973ed1b405843c74", null ],
     [ "writeCocoJson", "structop_1_1_wrapper_struct_output.html#a6efbd77da8ebcea3abc4109bb2f39c0b", null ],
+    [ "writeCocoJsonVariant", "structop_1_1_wrapper_struct_output.html#a0119bb7429483928c587ffaf607919de", null ],
     [ "writeHeatMaps", "structop_1_1_wrapper_struct_output.html#adca0d08aa43e2280ca06a8db0deb81bc", null ],
     [ "writeHeatMapsFormat", "structop_1_1_wrapper_struct_output.html#a34d5796e02b8afaaaef99fc26e7f3056", null ],
     [ "writeImages", "structop_1_1_wrapper_struct_output.html#a5f56c15d410645442b5ac21c316b9c85", null ],

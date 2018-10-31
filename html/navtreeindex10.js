@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"w_joint_angle_estimation_8hpp.html":[2,0,0,0,0,4],
+"w_joint_angle_estimation_8hpp_source.html":[2,0,0,0,0,4],
 "w_keep_top_n_people_8hpp.html":[2,0,0,0,2,18],
 "w_keep_top_n_people_8hpp.html#aaee32c4c68404e5086844bcb911b7a20":[2,0,0,0,2,18,1],
 "w_keep_top_n_people_8hpp_source.html":[2,0,0,0,2,18],
