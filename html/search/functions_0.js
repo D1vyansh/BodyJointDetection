@@ -13,5 +13,5 @@ var searchData=
   ['arrayclose',['arrayClose',['../classop_1_1_json_ofstream.html#a3f940d3ad51d0acb7126d62a5617fd69',1,'op::JsonOfstream']]],
   ['arrayopen',['arrayOpen',['../classop_1_1_json_ofstream.html#a4cc6d50256354b3dc7385e2db01aabc0',1,'op::JsonOfstream']]],
   ['at',['at',['../classop_1_1_array.html#a6e0afd5f447efbfc29efbeac62716eff',1,'op::Array::at(const int index)'],['../classop_1_1_array.html#a95e83e3379fd43460db68c2adb61f981',1,'op::Array::at(const int index) const '],['../classop_1_1_array.html#a8eebb6c34642cdf19ac74c7ed38d128b',1,'op::Array::at(const std::vector&lt; int &gt; &amp;indexes)'],['../classop_1_1_array.html#a5cb014203b418de3996b90597df53b6e',1,'op::Array::at(const std::vector&lt; int &gt; &amp;indexes) const ']]],
-  ['averagekeypoints',['averageKeypoints',['../namespaceop.html#a0f6ea912122004a238214f1de9c0ce03',1,'op']]]
+  ['averagekeypoints',['averageKeypoints',['../namespaceop.html#a1f931e210eb575a084b8e6f462b0b382',1,'op']]]
 ];

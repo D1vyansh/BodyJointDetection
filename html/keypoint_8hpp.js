@@ -1,13 +1,13 @@
 var keypoint_8hpp =
 [
-    [ "averageKeypoints", "keypoint_8hpp.html#a0f6ea912122004a238214f1de9c0ce03", null ],
-    [ "getAverageScore", "keypoint_8hpp.html#a18d1496d5696de69bbc06b66629291b8", null ],
-    [ "getBiggestPerson", "keypoint_8hpp.html#a07defc23ca50650a18a7239aa003cdb4", null ],
-    [ "getDistance", "keypoint_8hpp.html#a8ee375010f1614042da813e7ef12f948", null ],
-    [ "getKeypointsArea", "keypoint_8hpp.html#a12d134277a6ea41d997d3e900d3eb95a", null ],
-    [ "getKeypointsRectangle", "keypoint_8hpp.html#afb56b91b92d797394d7c3891b7e21816", null ],
-    [ "renderKeypointsCpu", "keypoint_8hpp.html#a7d083bc7f3ccd6ad6813970edbc8667f", null ],
-    [ "scaleKeypoints", "keypoint_8hpp.html#ac0249a6009da2fe5c0bfdb903002f510", null ],
-    [ "scaleKeypoints2d", "keypoint_8hpp.html#a64d6c9c2bb93893bcd99b305bbebcdbe", null ],
-    [ "scaleKeypoints2d", "keypoint_8hpp.html#a8836a6ec4c3a0dbc96436d110af661b4", null ]
+    [ "averageKeypoints", "keypoint_8hpp.html#a1f931e210eb575a084b8e6f462b0b382", null ],
+    [ "getAverageScore", "keypoint_8hpp.html#a1110f4c0017c43ea1d0896a3225c55f8", null ],
+    [ "getBiggestPerson", "keypoint_8hpp.html#ace4af20d19066df9ec502c5a09097c24", null ],
+    [ "getDistance", "keypoint_8hpp.html#ac968b1c98c60b74be78225be27805706", null ],
+    [ "getKeypointsArea", "keypoint_8hpp.html#a1dd5dde18458975a36bdbd6dd38720a2", null ],
+    [ "getKeypointsRectangle", "keypoint_8hpp.html#a5b2ae3f48eab928e35c9e3da51899054", null ],
+    [ "renderKeypointsCpu", "keypoint_8hpp.html#aa7803aa62abc21471e7d966bd674a81a", null ],
+    [ "scaleKeypoints", "keypoint_8hpp.html#ac5fc565b24e499e306ca170b9139eeb6", null ],
+    [ "scaleKeypoints2d", "keypoint_8hpp.html#aae9e38fa6c56e188b4f649732f0d4cd3", null ],
+    [ "scaleKeypoints2d", "keypoint_8hpp.html#a6b9adf8f7e698e566414c9f44f0c85f1", null ]
 ];

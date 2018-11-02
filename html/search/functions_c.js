@@ -6,8 +6,8 @@ var searchData=
   ['mapsvm',['mapSVM',['../namespacecl.html#ae97dc5bb86e2c3c3935280a86cda301c',1,'cl']]],
   ['max_5fsize',['max_size',['../classcl_1_1_s_v_m_allocator.html#aec263261a88fb1ec64a3e5f9a4ef41a7',1,'cl::SVMAllocator']]],
   ['maximumcaffe',['MaximumCaffe',['../classop_1_1_maximum_caffe.html#a66bd0aa863a97647ae6350d1f886ea51',1,'op::MaximumCaffe']]],
-  ['maximumcpu',['maximumCpu',['../namespaceop.html#adc3e9959bee33fa45e718f9874da3e33',1,'op']]],
-  ['maximumgpu',['maximumGpu',['../namespaceop.html#a4852b0b78742b27c332f4b9e95d0106c',1,'op']]],
+  ['maximumcpu',['maximumCpu',['../namespaceop.html#ae0fea41041a70ae8449a77f46ffe8100',1,'op']]],
+  ['maximumgpu',['maximumGpu',['../namespaceop.html#a8ec109805adf02f9872a6af37d602caa',1,'op']]],
   ['memory',['Memory',['../classcl_1_1_memory.html#a9926612772ae6e016f1118ef4148da22',1,'cl::Memory::Memory()'],['../classcl_1_1_memory.html#a6fa9f585a65beebcb75e41cca70ee1bb',1,'cl::Memory::Memory(const cl_mem &amp;memory, bool retainObject)'],['../classcl_1_1_memory.html#a23691d3d5e70f47538f1cde3741b0367',1,'cl::Memory::Memory(const Memory &amp;mem)'],['../classcl_1_1_memory.html#a48a3ca6b8b6c4dbdcd6cc8e75d6503e6',1,'cl::Memory::Memory(Memory &amp;&amp;mem) CL_HPP_NOEXCEPT_']]],
   ['mergevectors',['mergeVectors',['../namespaceop.html#aa3a3e2acfb27ecbd187d01c8dcd41899',1,'op']]]
 ];

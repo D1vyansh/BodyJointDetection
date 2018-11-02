@@ -2,7 +2,6 @@ var dir_569de9812424afab8cfb67ee240b107a =
 [
     [ "bodyPartConnectorBase.hpp", "body_part_connector_base_8hpp.html", "body_part_connector_base_8hpp" ],
     [ "bodyPartConnectorCaffe.hpp", "body_part_connector_caffe_8hpp.html", [
-      [ "Blob", "classcaffe_1_1_blob.html", null ],
       [ "BodyPartConnectorCaffe", "classop_1_1_body_part_connector_caffe.html", "classop_1_1_body_part_connector_caffe" ]
     ] ],
     [ "headers.hpp", "net_2headers_8hpp.html", null ],
@@ -22,7 +21,6 @@ var dir_569de9812424afab8cfb67ee240b107a =
     ] ],
     [ "resizeAndMergeBase.hpp", "resize_and_merge_base_8hpp.html", "resize_and_merge_base_8hpp" ],
     [ "resizeAndMergeCaffe.hpp", "resize_and_merge_caffe_8hpp.html", [
-      [ "Blob", "classcaffe_1_1_blob.html", null ],
       [ "ResizeAndMergeCaffe", "classop_1_1_resize_and_merge_caffe.html", "classop_1_1_resize_and_merge_caffe" ]
     ] ]
 ];
