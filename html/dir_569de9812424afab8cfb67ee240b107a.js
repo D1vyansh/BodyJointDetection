@@ -15,6 +15,9 @@ var dir_569de9812424afab8cfb67ee240b107a =
     [ "netCaffe.hpp", "net_caffe_8hpp.html", [
       [ "NetCaffe", "classop_1_1_net_caffe.html", "classop_1_1_net_caffe" ]
     ] ],
+    [ "netOpenCv.hpp", "net_open_cv_8hpp.html", [
+      [ "NetOpenCv", "classop_1_1_net_open_cv.html", "classop_1_1_net_open_cv" ]
+    ] ],
     [ "nmsBase.hpp", "nms_base_8hpp.html", "nms_base_8hpp" ],
     [ "nmsCaffe.hpp", "nms_caffe_8hpp.html", [
       [ "NmsCaffe", "classop_1_1_nms_caffe.html", "classop_1_1_nms_caffe" ]

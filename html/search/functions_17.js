@@ -38,6 +38,7 @@ var searchData=
   ['_7emaximumcaffe',['~MaximumCaffe',['../classop_1_1_maximum_caffe.html#a0b438980e5c2fce978e9de80f75afcd3',1,'op::MaximumCaffe']]],
   ['_7enet',['~Net',['../classop_1_1_net.html#ae20a74df1a401eb17d5b75b406574919',1,'op::Net']]],
   ['_7enetcaffe',['~NetCaffe',['../classop_1_1_net_caffe.html#a84007645c88de286e9d306461a044e8d',1,'op::NetCaffe']]],
+  ['_7enetopencv',['~NetOpenCv',['../classop_1_1_net_open_cv.html#a30ec3c3ee2ffe0a95656f6b11151243f',1,'op::NetOpenCv']]],
   ['_7enmscaffe',['~NmsCaffe',['../classop_1_1_nms_caffe.html#a0702488e5d899a6610535f6741601978',1,'op::NmsCaffe']]],
   ['_7epeoplejsonsaver',['~PeopleJsonSaver',['../classop_1_1_people_json_saver.html#a4a84666529a0418ccf9256c9942ea3f8',1,'op::PeopleJsonSaver']]],
   ['_7epersonidextractor',['~PersonIdExtractor',['../classop_1_1_person_id_extractor.html#a7ff9f8faf42bff0dbd7207105c149a1e',1,'op::PersonIdExtractor']]],

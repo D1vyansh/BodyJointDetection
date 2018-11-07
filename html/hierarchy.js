@@ -62,7 +62,8 @@ var hierarchy =
     [ "op::MaximumCaffe< T >", "classop_1_1_maximum_caffe.html", null ],
     [ "cl::NDRange", "classcl_1_1_n_d_range.html", null ],
     [ "op::Net", "classop_1_1_net.html", [
-      [ "op::NetCaffe", "classop_1_1_net_caffe.html", null ]
+      [ "op::NetCaffe", "classop_1_1_net_caffe.html", null ],
+      [ "op::NetOpenCv", "classop_1_1_net_open_cv.html", null ]
     ] ],
     [ "op::NmsCaffe< T >", "classop_1_1_nms_caffe.html", null ],
     [ "op::OpOutputToCvMat", "classop_1_1_op_output_to_cv_mat.html", null ],

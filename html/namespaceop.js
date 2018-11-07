@@ -76,6 +76,7 @@ var namespaceop =
     [ "MaximumCaffe", "classop_1_1_maximum_caffe.html", "classop_1_1_maximum_caffe" ],
     [ "Net", "classop_1_1_net.html", "classop_1_1_net" ],
     [ "NetCaffe", "classop_1_1_net_caffe.html", "classop_1_1_net_caffe" ],
+    [ "NetOpenCv", "classop_1_1_net_open_cv.html", "classop_1_1_net_open_cv" ],
     [ "NmsCaffe", "classop_1_1_nms_caffe.html", "classop_1_1_nms_caffe" ],
     [ "ResizeAndMergeCaffe", "classop_1_1_resize_and_merge_caffe.html", "classop_1_1_resize_and_merge_caffe" ],
     [ "PoseCpuRenderer", "classop_1_1_pose_cpu_renderer.html", "classop_1_1_pose_cpu_renderer" ],

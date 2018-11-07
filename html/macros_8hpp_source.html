@@ -116,117 +116,127 @@ $(document).ready(function(){initNavTree('macros_8hpp_source.html','');});
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;thread&gt;</span> <span class="comment">// std::this_thread</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// OpenPose name and version</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="macros_8hpp.html#afda430d83b9513af7270f1d680bf5471">   12</a></span>&#160;<span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> <a class="code" href="macros_8hpp.html#afda430d83b9513af7270f1d680bf5471">OPEN_POSE_NAME_STRING</a> = <span class="stringliteral">&quot;OpenPose&quot;</span>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3">   13</a></span>&#160;<span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> <a class="code" href="macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3">OPEN_POSE_VERSION_STRING</a> = <span class="stringliteral">&quot;1.4.0&quot;</span>;</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="macros_8hpp.html#adcf24c45000a4f44f355f1cc3062ea49">   14</a></span>&#160;<span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> <a class="code" href="macros_8hpp.html#adcf24c45000a4f44f355f1cc3062ea49">OPEN_POSE_NAME_AND_VERSION</a> = <a class="code" href="macros_8hpp.html#afda430d83b9513af7270f1d680bf5471">OPEN_POSE_NAME_STRING</a> + <span class="stringliteral">&quot; &quot;</span> + <a class="code" href="macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3">OPEN_POSE_VERSION_STRING</a>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">// #define COMMERCIAL_LICENSE</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifndef _WIN32</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">   18</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define OP_API</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined OP_EXPORTS</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define OP_API __declspec(dllexport)</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define OP_API __declspec(dllimport)</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">// Disable some Windows Warnings</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be used by clients of class YYY</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="macros_8hpp.html#af57a843cfdae82e064838c20b3b54851">   31</a></span>&#160;<span class="preprocessor">#define UNUSED(unusedVariable) (void)(unusedVariable)</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">   33</a></span>&#160;<span class="preprocessor">#define DELETE_COPY(className) \</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">    className(const className&amp;) = delete; \</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">    className&amp; operator=(const className&amp;) = delete</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">// Instantiate a class with all the basic types</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a60e010d8a2352d94b8b57d97cf4a7d73">   38</a></span>&#160;<span class="preprocessor">#define COMPILE_TEMPLATE_BASIC_TYPES_CLASS(className) COMPILE_TEMPLATE_BASIC_TYPES(className, class)</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="macros_8hpp.html#ac5627744abe5fd0c8eacfe9c7f8bd32e">   39</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COMPILE_TEMPLATE_BASIC_TYPES_STRUCT(className) COMPILE_TEMPLATE_BASIC_TYPES(className, struct)</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a6bf32c65e0f388d5b09d8b2424416c0e">   40</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COMPILE_TEMPLATE_BASIC_TYPES(className, classType) \</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;char&gt;; \</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;signed char&gt;; \</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;short&gt;; \</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;int&gt;; \</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;long&gt;; \</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;long long&gt;; \</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;unsigned char&gt;; \</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;unsigned short&gt;; \</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;unsigned int&gt;; \</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;unsigned long&gt;; \</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;unsigned long long&gt;; \</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;float&gt;; \</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;double&gt;; \</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;long double&gt;</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="macros_8hpp.html#aa883b8ec96d2804b37d3bfb0bd4c5f16">   60</a></span>&#160;<span class="preprocessor">#define OVERLOAD_C_OUT(className) \</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">    template&lt;typename T&gt; std::ostream &amp;operator&lt;&lt;(std::ostream&amp; ostream, const op::className&lt;T&gt;&amp; obj) \</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">        ostream &lt;&lt; obj.toString(); \</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">        return ostream; \</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">    }</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">// Instantiate a class with float and double specifications</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a1eadbb31e92e7fbc799bf7cf4d2a6f50">   68</a></span>&#160;<span class="preprocessor">#define COMPILE_TEMPLATE_FLOATING_TYPES_CLASS(className) COMPILE_TEMPLATE_FLOATING_TYPES(className, class)</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="macros_8hpp.html#af9fed593b7a4237bc6ede717a1ae70f0">   69</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COMPILE_TEMPLATE_FLOATING_TYPES_STRUCT(className) COMPILE_TEMPLATE_FLOATING_TYPES(className, struct)</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a80404791b46a15fd601feaa11f1e5028">   70</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COMPILE_TEMPLATE_FLOATING_TYPES(className, classType) \</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">  char gInstantiationGuard##className; \</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">  template classType OP_API className&lt;float&gt;; \</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">  template classType OP_API className&lt;double&gt;</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">// PIMPL does not work if function arguments need the 3rd-party class. Alternative:</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">// stackoverflow.com/questions/13978775/how-to-avoid-include-dependency-to-external-library?answertab=active#tab-top</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="keyword">struct </span>dim3;</div>
-<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="namespacecaffe.html">   78</a></span>&#160;<span class="keyword">namespace </span>caffe</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
-<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="classcaffe_1_1_blob.html">   80</a></span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <span class="keyword">class </span><a class="code" href="classcaffe_1_1_blob.html">Blob</a>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
-<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="namespaceboost.html">   82</a></span>&#160;<span class="keyword">namespace </span>boost</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div>
-<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="classboost_1_1shared__ptr.html">   84</a></span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <span class="keyword">class </span><a class="code" href="classboost_1_1shared__ptr.html">shared_ptr</a>; <span class="comment">// E.g., boost::shared_ptr&lt;caffe::Blob&lt;float&gt;&gt;</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">// Compabitility for OpenCV 4.0 while preserving 2.4.X and 3.X compatibility</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#if (defined(CV_MAJOR_VERSION) &amp;&amp; CV_MAJOR_VERSION == 4)</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_BGR2GRAY cv::COLOR_BGR2GRAY</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CALIB_CB_ADAPTIVE_THRESH cv::CALIB_CB_ADAPTIVE_THRESH</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CALIB_CB_NORMALIZE_IMAGE cv::CALIB_CB_NORMALIZE_IMAGE</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CALIB_CB_FILTER_QUADS cv::CALIB_CB_FILTER_QUADS</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CAP_PROP_FPS cv::CAP_PROP_FPS</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CAP_PROP_FRAME_COUNT cv::CAP_PROP_FRAME_COUNT</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CAP_PROP_FRAME_HEIGHT cv::CAP_PROP_FRAME_HEIGHT</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CAP_PROP_FRAME_WIDTH cv::CAP_PROP_FRAME_WIDTH</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CAP_PROP_POS_FRAMES cv::CAP_PROP_POS_FRAMES</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_FOURCC cv::VideoWriter::fourcc</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_GRAY2BGR cv::COLOR_GRAY2BGR</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_HAAR_SCALE_IMAGE cv::CASCADE_SCALE_IMAGE</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_IMWRITE_JPEG_QUALITY cv::IMWRITE_JPEG_QUALITY</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_IMWRITE_PNG_COMPRESSION cv::IMWRITE_PNG_COMPRESSION</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_INTER_CUBIC cv::INTER_CUBIC</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_INTER_LINEAR cv::INTER_LINEAR</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_L2 cv::NORM_L2</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_LOAD_IMAGE_ANYDEPTH cv::IMREAD_ANYDEPTH</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_LOAD_IMAGE_COLOR cv::IMREAD_COLOR</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_LOAD_IMAGE_GRAYSCALE cv::IMREAD_GRAYSCALE</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_TERMCRIT_EPS cv::TermCriteria::Type::EPS</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_TERMCRIT_ITER cv::TermCriteria::Type::MAX_ITER</span></div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WARP_INVERSE_MAP cv::WARP_INVERSE_MAP</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WINDOW_FULLSCREEN cv::WINDOW_FULLSCREEN</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WINDOW_KEEPRATIO cv::WINDOW_KEEPRATIO</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WINDOW_NORMAL cv::WINDOW_NORMAL</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WINDOW_OPENGL cv::WINDOW_OPENGL</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WND_PROP_FULLSCREEN cv::WND_PROP_FULLSCREEN</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">#endif // OPENPOSE_CORE_MACROS_HPP</span></div>
-<div class="ttc" id="macros_8hpp_html_a7de0b663a3aa8043a346ebf2c411bda3"><div class="ttname"><a href="macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3">OPEN_POSE_VERSION_STRING</a></div><div class="ttdeci">const std::string OPEN_POSE_VERSION_STRING</div><div class="ttdef"><b>Definition:</b> macros.hpp:13</div></div>
-<div class="ttc" id="macros_8hpp_html_adcf24c45000a4f44f355f1cc3062ea49"><div class="ttname"><a href="macros_8hpp.html#adcf24c45000a4f44f355f1cc3062ea49">OPEN_POSE_NAME_AND_VERSION</a></div><div class="ttdeci">const std::string OPEN_POSE_NAME_AND_VERSION</div><div class="ttdef"><b>Definition:</b> macros.hpp:14</div></div>
-<div class="ttc" id="classboost_1_1shared__ptr_html"><div class="ttname"><a href="classboost_1_1shared__ptr.html">boost::shared_ptr</a></div><div class="ttdef"><b>Definition:</b> macros.hpp:84</div></div>
-<div class="ttc" id="macros_8hpp_html_afda430d83b9513af7270f1d680bf5471"><div class="ttname"><a href="macros_8hpp.html#afda430d83b9513af7270f1d680bf5471">OPEN_POSE_NAME_STRING</a></div><div class="ttdeci">const std::string OPEN_POSE_NAME_STRING</div><div class="ttdef"><b>Definition:</b> macros.hpp:12</div></div>
-<div class="ttc" id="classcaffe_1_1_blob_html"><div class="ttname"><a href="classcaffe_1_1_blob.html">caffe::Blob</a></div><div class="ttdef"><b>Definition:</b> macros.hpp:80</div></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;opencv2/core/core.hpp&gt;</span> <span class="comment">// cv::Mat, check OpenCV version</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// OpenPose name and version</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="macros_8hpp.html#afda430d83b9513af7270f1d680bf5471">   13</a></span>&#160;<span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> <a class="code" href="macros_8hpp.html#afda430d83b9513af7270f1d680bf5471">OPEN_POSE_NAME_STRING</a> = <span class="stringliteral">&quot;OpenPose&quot;</span>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3">   14</a></span>&#160;<span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> <a class="code" href="macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3">OPEN_POSE_VERSION_STRING</a> = <span class="stringliteral">&quot;1.4.0&quot;</span>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="macros_8hpp.html#adcf24c45000a4f44f355f1cc3062ea49">   15</a></span>&#160;<span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> <a class="code" href="macros_8hpp.html#adcf24c45000a4f44f355f1cc3062ea49">OPEN_POSE_NAME_AND_VERSION</a> = <a class="code" href="macros_8hpp.html#afda430d83b9513af7270f1d680bf5471">OPEN_POSE_NAME_STRING</a> + <span class="stringliteral">&quot; &quot;</span> + <a class="code" href="macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3">OPEN_POSE_VERSION_STRING</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// #define COMMERCIAL_LICENSE</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef _WIN32</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">   19</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define OP_API</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined OP_EXPORTS</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define OP_API __declspec(dllexport)</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define OP_API __declspec(dllimport)</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">// Disable some Windows Warnings</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #pragma warning ( disable : 4251 ) // XXX needs to have dll-interface to be used by clients of class YYY</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #pragma warning( disable: 4275 ) // non dll-interface structXXX used as base</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="macros_8hpp.html#af57a843cfdae82e064838c20b3b54851">   32</a></span>&#160;<span class="preprocessor">#define UNUSED(unusedVariable) (void)(unusedVariable)</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="macros_8hpp.html#abef96b5dd35dd9d44ad27ddf0e2f5f2e">   34</a></span>&#160;<span class="preprocessor">#define DELETE_COPY(className) \</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">    className(const className&amp;) = delete; \</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">    className&amp; operator=(const className&amp;) = delete</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">// Instantiate a class with all the basic types</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a60e010d8a2352d94b8b57d97cf4a7d73">   39</a></span>&#160;<span class="preprocessor">#define COMPILE_TEMPLATE_BASIC_TYPES_CLASS(className) COMPILE_TEMPLATE_BASIC_TYPES(className, class)</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="macros_8hpp.html#ac5627744abe5fd0c8eacfe9c7f8bd32e">   40</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COMPILE_TEMPLATE_BASIC_TYPES_STRUCT(className) COMPILE_TEMPLATE_BASIC_TYPES(className, struct)</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a6bf32c65e0f388d5b09d8b2424416c0e">   41</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COMPILE_TEMPLATE_BASIC_TYPES(className, classType) \</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;char&gt;; \</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;signed char&gt;; \</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;short&gt;; \</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;int&gt;; \</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;long&gt;; \</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;long long&gt;; \</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;unsigned char&gt;; \</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;unsigned short&gt;; \</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;unsigned int&gt;; \</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;unsigned long&gt;; \</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;unsigned long long&gt;; \</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;float&gt;; \</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;double&gt;; \</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">    template classType OP_API className&lt;long double&gt;</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="macros_8hpp.html#aa883b8ec96d2804b37d3bfb0bd4c5f16">   61</a></span>&#160;<span class="preprocessor">#define OVERLOAD_C_OUT(className) \</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">    template&lt;typename T&gt; std::ostream &amp;operator&lt;&lt;(std::ostream&amp; ostream, const op::className&lt;T&gt;&amp; obj) \</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">    { \</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">        ostream &lt;&lt; obj.toString(); \</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">        return ostream; \</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">    }</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">// Instantiate a class with float and double specifications</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a1eadbb31e92e7fbc799bf7cf4d2a6f50">   69</a></span>&#160;<span class="preprocessor">#define COMPILE_TEMPLATE_FLOATING_TYPES_CLASS(className) COMPILE_TEMPLATE_FLOATING_TYPES(className, class)</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="macros_8hpp.html#af9fed593b7a4237bc6ede717a1ae70f0">   70</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COMPILE_TEMPLATE_FLOATING_TYPES_STRUCT(className) COMPILE_TEMPLATE_FLOATING_TYPES(className, struct)</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="macros_8hpp.html#a80404791b46a15fd601feaa11f1e5028">   71</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define COMPILE_TEMPLATE_FLOATING_TYPES(className, classType) \</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">  char gInstantiationGuard##className; \</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">  template classType OP_API className&lt;float&gt;; \</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">  template classType OP_API className&lt;double&gt;</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">// PIMPL does not work if function arguments need the 3rd-party class. Alternative:</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">// stackoverflow.com/questions/13978775/how-to-avoid-include-dependency-to-external-library?answertab=active#tab-top</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keyword">struct </span>dim3;</div>
+<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="namespacecaffe.html">   79</a></span>&#160;<span class="keyword">namespace </span>caffe</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;{</div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="classcaffe_1_1_blob.html">   81</a></span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <span class="keyword">class </span><a class="code" href="classcaffe_1_1_blob.html">Blob</a>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="namespaceboost.html">   83</a></span>&#160;<span class="keyword">namespace </span>boost</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;{</div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="classboost_1_1shared__ptr.html">   85</a></span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt; <span class="keyword">class </span><a class="code" href="classboost_1_1shared__ptr.html">shared_ptr</a>; <span class="comment">// E.g., boost::shared_ptr&lt;caffe::Blob&lt;float&gt;&gt;</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">// Compabitility for OpenCV 4.0 while preserving 2.4.X and 3.X compatibility</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">// Note:</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">// - CV_VERSION:         2.4.9.1 | 4.0.0-beta</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">// - CV_MAJOR_VERSION:         2 | 4</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">// - CV_MINOR_VERSION:         4 | 0</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">// - CV_SUBMINOR_VERSION:      9 | 0</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">// - CV_VERSION_EPOCH:         2 | Not defined</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#if (defined(CV_MAJOR_VERSION) &amp;&amp; CV_MAJOR_VERSION &gt; 3)</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define OPEN_CV_IS_4_OR_HIGHER</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef OPEN_CV_IS_4_OR_HIGHER</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_BGR2GRAY cv::COLOR_BGR2GRAY</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CALIB_CB_ADAPTIVE_THRESH cv::CALIB_CB_ADAPTIVE_THRESH</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CALIB_CB_NORMALIZE_IMAGE cv::CALIB_CB_NORMALIZE_IMAGE</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CALIB_CB_FILTER_QUADS cv::CALIB_CB_FILTER_QUADS</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CAP_PROP_FPS cv::CAP_PROP_FPS</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CAP_PROP_FRAME_COUNT cv::CAP_PROP_FRAME_COUNT</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CAP_PROP_FRAME_HEIGHT cv::CAP_PROP_FRAME_HEIGHT</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CAP_PROP_FRAME_WIDTH cv::CAP_PROP_FRAME_WIDTH</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_CAP_PROP_POS_FRAMES cv::CAP_PROP_POS_FRAMES</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_FOURCC cv::VideoWriter::fourcc</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_GRAY2BGR cv::COLOR_GRAY2BGR</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_HAAR_SCALE_IMAGE cv::CASCADE_SCALE_IMAGE</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_IMWRITE_JPEG_QUALITY cv::IMWRITE_JPEG_QUALITY</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_IMWRITE_PNG_COMPRESSION cv::IMWRITE_PNG_COMPRESSION</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_INTER_CUBIC cv::INTER_CUBIC</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_INTER_LINEAR cv::INTER_LINEAR</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_L2 cv::NORM_L2</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_LOAD_IMAGE_ANYDEPTH cv::IMREAD_ANYDEPTH</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_LOAD_IMAGE_COLOR cv::IMREAD_COLOR</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_LOAD_IMAGE_GRAYSCALE cv::IMREAD_GRAYSCALE</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_TERMCRIT_EPS cv::TermCriteria::Type::EPS</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_TERMCRIT_ITER cv::TermCriteria::Type::MAX_ITER</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WARP_INVERSE_MAP cv::WARP_INVERSE_MAP</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WINDOW_FULLSCREEN cv::WINDOW_FULLSCREEN</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WINDOW_KEEPRATIO cv::WINDOW_KEEPRATIO</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WINDOW_NORMAL cv::WINDOW_NORMAL</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WINDOW_OPENGL cv::WINDOW_OPENGL</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define CV_WND_PROP_FULLSCREEN cv::WND_PROP_FULLSCREEN</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">#endif // OPENPOSE_CORE_MACROS_HPP</span></div>
+<div class="ttc" id="macros_8hpp_html_a7de0b663a3aa8043a346ebf2c411bda3"><div class="ttname"><a href="macros_8hpp.html#a7de0b663a3aa8043a346ebf2c411bda3">OPEN_POSE_VERSION_STRING</a></div><div class="ttdeci">const std::string OPEN_POSE_VERSION_STRING</div><div class="ttdef"><b>Definition:</b> macros.hpp:14</div></div>
+<div class="ttc" id="macros_8hpp_html_adcf24c45000a4f44f355f1cc3062ea49"><div class="ttname"><a href="macros_8hpp.html#adcf24c45000a4f44f355f1cc3062ea49">OPEN_POSE_NAME_AND_VERSION</a></div><div class="ttdeci">const std::string OPEN_POSE_NAME_AND_VERSION</div><div class="ttdef"><b>Definition:</b> macros.hpp:15</div></div>
+<div class="ttc" id="classboost_1_1shared__ptr_html"><div class="ttname"><a href="classboost_1_1shared__ptr.html">boost::shared_ptr</a></div><div class="ttdef"><b>Definition:</b> macros.hpp:85</div></div>
+<div class="ttc" id="macros_8hpp_html_afda430d83b9513af7270f1d680bf5471"><div class="ttname"><a href="macros_8hpp.html#afda430d83b9513af7270f1d680bf5471">OPEN_POSE_NAME_STRING</a></div><div class="ttdeci">const std::string OPEN_POSE_NAME_STRING</div><div class="ttdef"><b>Definition:</b> macros.hpp:13</div></div>
+<div class="ttc" id="classcaffe_1_1_blob_html"><div class="ttname"><a href="classcaffe_1_1_blob.html">caffe::Blob</a></div><div class="ttdef"><b>Definition:</b> macros.hpp:81</div></div>
 <div class="ttc" id="namespacecl_html_abff80bfb254d646f6afeb6638df41686"><div class="ttname"><a href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">cl::string</a></div><div class="ttdeci">std::string string</div><div class="ttdef"><b>Definition:</b> cl2.hpp:574</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
