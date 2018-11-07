@@ -137,6 +137,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9b9fa9490fef0121a70c3d6d749272f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bad959b2da005b62cab962327ccba01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#a0bad959b2da005b62cab962327ccba01">setScaleNetToOutput</a> (const T scaleNetToOutput)</td></tr>
 <tr class="separator:a0bad959b2da005b62cab962327ccba01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ab2567fa4ac3d2ce51a06c819344adf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#a4ab2567fa4ac3d2ce51a06c819344adf">Forward</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores)</td></tr>
+<tr class="separator:a4ab2567fa4ac3d2ce51a06c819344adf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a886f7dc30e999b7fa8488ae95cc3ac8b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#a886f7dc30e999b7fa8488ae95cc3ac8b">Forward_cpu</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores)</td></tr>
 <tr class="separator:a886f7dc30e999b7fa8488ae95cc3ac8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affde8d06784ca9896a1d2d62f7088d76"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#affde8d06784ca9896a1d2d62f7088d76">Forward_gpu</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores)</td></tr>
@@ -266,6 +268,48 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td class="paramtype">const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;&#160;</td>
           <td class="paramname"><em>bottom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4ab2567fa4ac3d2ce51a06c819344adf"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classop_1_1_body_part_connector_caffe.html">op::BodyPartConnectorCaffe</a>&lt; T &gt;::Forward </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>bottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseKeypoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseScores</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

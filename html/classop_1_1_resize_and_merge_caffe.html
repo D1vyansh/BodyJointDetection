@@ -129,6 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4327169d05916bd59b97f04847d215d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa16862bbc207fef227d53d37223512b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_resize_and_merge_caffe.html#aa16862bbc207fef227d53d37223512b8">setScaleRatios</a> (const std::vector&lt; T &gt; &amp;scaleRatios)</td></tr>
 <tr class="separator:aa16862bbc207fef227d53d37223512b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a096f1f204a3533c98e435a0878184d79"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_resize_and_merge_caffe.html#a096f1f204a3533c98e435a0878184d79">Forward</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom, const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;top)</td></tr>
+<tr class="separator:a096f1f204a3533c98e435a0878184d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c8733511a410a60aa5509f3f8037af0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_resize_and_merge_caffe.html#a9c8733511a410a60aa5509f3f8037af0">Forward_cpu</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom, const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;top)</td></tr>
 <tr class="separator:a9c8733511a410a60aa5509f3f8037af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a404ed0d3f3102ca9afd1b191204d5a0b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_resize_and_merge_caffe.html#a404ed0d3f3102ca9afd1b191204d5a0b">Forward_gpu</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom, const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;top)</td></tr>
@@ -260,6 +262,42 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td class="paramtype">const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;&#160;</td>
           <td class="paramname"><em>bottom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a096f1f204a3533c98e435a0878184d79"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classop_1_1_resize_and_merge_caffe.html">op::ResizeAndMergeCaffe</a>&lt; T &gt;::Forward </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>bottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>top</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

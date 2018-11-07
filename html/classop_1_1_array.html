@@ -173,8 +173,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af4715967fd2b028a97fd30257e697275"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17a44d11cf476f705ce4a5223cfb4f81"><td class="memItemLeft" align="right" valign="top">const T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#a17a44d11cf476f705ce4a5223cfb4f81">getConstPtr</a> () const </td></tr>
 <tr class="separator:a17a44d11cf476f705ce4a5223cfb4f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5d640c725808d858b47be62ee402187"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#af5d640c725808d858b47be62ee402187">getPybindPtr</a> () const </td></tr>
-<tr class="separator:af5d640c725808d858b47be62ee402187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65f2606b13011870bf0467116246fbc"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#af65f2606b13011870bf0467116246fbc">getPseudoConstPtr</a> () const </td></tr>
+<tr class="separator:af65f2606b13011870bf0467116246fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab70165463db3e2fb3f15ad14001eb592"><td class="memItemLeft" align="right" valign="top">const cv::Mat &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#ab70165463db3e2fb3f15ad14001eb592">getConstCvMat</a> () const </td></tr>
 <tr class="separator:ab70165463db3e2fb3f15ad14001eb592"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac817621e848601cf7d6571e75d8f6865"><td class="memItemLeft" align="right" valign="top">cv::Mat &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_array.html#ac817621e848601cf7d6571e75d8f6865">getCvMat</a> ()</td></tr>
@@ -739,6 +739,33 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="af65f2606b13011870bf0467116246fbc"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T* <a class="el" href="classop_1_1_array.html">op::Array</a>&lt; T &gt;::getPseudoConstPtr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Similar to <a class="el" href="classop_1_1_array.html#a17a44d11cf476f705ce4a5223cfb4f81">getConstPtr()</a>, but it allows the data to be edited. This function is only implemented for Pybind11 usage. </p>
+<dl class="section return"><dt>Returns</dt><dd>A raw pointer to the data. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="af4715967fd2b028a97fd30257e697275"></a>
 <div class="memitem">
 <div class="memproto">
@@ -762,33 +789,6 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 <p>Return a raw pointer to the data. Similar to: std::shared_ptr::get(). Note: if you modify the pointer data, you will directly modify it in the Array&lt;T&gt; instance too. If you know you do not want to modify the data, then use <a class="el" href="classop_1_1_array.html#a17a44d11cf476f705ce4a5223cfb4f81">getConstPtr()</a> instead. </p>
-<dl class="section return"><dt>Returns</dt><dd>A raw pointer to the data. </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="af5d640c725808d858b47be62ee402187"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T* <a class="el" href="classop_1_1_array.html">op::Array</a>&lt; T &gt;::getPybindPtr </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Similar to <a class="el" href="classop_1_1_array.html#a17a44d11cf476f705ce4a5223cfb4f81">getConstPtr()</a>, but it allows the data to be edited. This function is only implemented for Pybind11 usage. </p>
 <dl class="section return"><dt>Returns</dt><dd>A raw pointer to the data. </dd></dl>
 
 </div>

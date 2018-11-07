@@ -1,6 +1,7 @@
 var searchData=
 [
   ['keepdesiredframerate',['keepDesiredFrameRate',['../classop_1_1_producer.html#afad3eadd16cca0de2c2be8b083c0d56d',1,'op::Producer']]],
+  ['keeproiinside',['keepRoiInside',['../namespaceop.html#ad838617b60f6bf4f71e15667eb8b9cad',1,'op']]],
   ['keeptopnpeople',['KeepTopNPeople',['../classop_1_1_keep_top_n_people.html',1,'op']]],
   ['keeptopnpeople',['KeepTopNPeople',['../classop_1_1_keep_top_n_people.html#ae9419ae35da5b0547989f19795a26808',1,'op::KeepTopNPeople']]],
   ['keeptopnpeople_2ehpp',['keepTopNPeople.hpp',['../keep_top_n_people_8hpp.html',1,'']]],

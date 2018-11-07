@@ -4,6 +4,7 @@ var classop_1_1_maximum_caffe =
     [ "~MaximumCaffe", "classop_1_1_maximum_caffe.html#a0b438980e5c2fce978e9de80f75afcd3", null ],
     [ "Backward_cpu", "classop_1_1_maximum_caffe.html#a30bc085753e2d2434254475f1d1efa1b", null ],
     [ "Backward_gpu", "classop_1_1_maximum_caffe.html#a6d32a5327b1f6552339227e171e9674c", null ],
+    [ "Forward", "classop_1_1_maximum_caffe.html#a182ad207b4e6f7aa0519ec2af7355f66", null ],
     [ "Forward_cpu", "classop_1_1_maximum_caffe.html#a694c1077ac5141ff377c4e98a87cc249", null ],
     [ "Forward_gpu", "classop_1_1_maximum_caffe.html#a2dd1f7f0221d602596a14b720e5594b2", null ],
     [ "LayerSetUp", "classop_1_1_maximum_caffe.html#abfe2509a67e69a504000922900e516c2", null ],

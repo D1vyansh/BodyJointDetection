@@ -1,5 +1,17 @@
 var NAVTREEINDEX8 =
 {
+"pose_extractor_net_8hpp.html":[2,0,0,0,9,5],
+"pose_extractor_net_8hpp_source.html":[2,0,0,0,9,5],
+"pose_gpu_renderer_8hpp.html":[2,0,0,0,9,6],
+"pose_gpu_renderer_8hpp_source.html":[2,0,0,0,9,6],
+"pose_parameters_8hpp.html":[2,0,0,0,9,7],
+"pose_parameters_8hpp.html#a1b7d7061c819ee76328d5917ee009b1d":[2,0,0,0,9,7,1],
+"pose_parameters_8hpp.html#a1f690bf083e250642144bf8e5d6e6d2c":[2,0,0,0,9,7,3],
+"pose_parameters_8hpp.html#a307b2c7b1506415a4ba44590fe8a7258":[2,0,0,0,9,7,10],
+"pose_parameters_8hpp.html#a3df938ef93037c534c5d342720d5fb70":[2,0,0,0,9,7,13],
+"pose_parameters_8hpp.html#a522d4552d2aeabe367f4d3bf371e6b3e":[2,0,0,0,9,7,16],
+"pose_parameters_8hpp.html#a54a6c42a42a0a7e539061f5e30abb4bc":[2,0,0,0,9,7,9],
+"pose_parameters_8hpp.html#a59616e83eefc182f8eb6ae51d6425938":[2,0,0,0,9,7,15],
 "pose_parameters_8hpp.html#a692472b562fba051964f9ddea07b97d7":[2,0,0,0,9,7,2],
 "pose_parameters_8hpp.html#a84d87ec0e4ed3cf75a37ce99d0d25ef7":[2,0,0,0,9,7,6],
 "pose_parameters_8hpp.html#aa170c3107396e4d0e4214bb0c1b78f08":[2,0,0,0,9,7,5],
@@ -237,17 +249,5 @@ var NAVTREEINDEX8 =
 "structop_1_1_person_tracker_entry.html":[1,0,3,115],
 "structop_1_1_person_tracker_entry.html#a086269259c4901aa14ba53b9b4541dd6":[1,0,3,115,1],
 "structop_1_1_person_tracker_entry.html#a15338c47eea3d2f6d7b69b9c7d391c02":[1,0,3,115,3],
-"structop_1_1_person_tracker_entry.html#a8311785a9256e0465c61ddeec5854792":[1,0,3,115,0],
-"structop_1_1_person_tracker_entry.html#a8cf40cb33498051588b5589d18c76fc9":[1,0,3,115,2],
-"structop_1_1_point.html":[1,0,3,13],
-"structop_1_1_point.html#a0374ab7bcd19af664a6c01328346d238":[1,0,3,13,24],
-"structop_1_1_point.html#a44559988e3980e21568b5d9dd2897368":[1,0,3,13,1],
-"structop_1_1_point.html#a480b8feec1a2c0652ea0ab6dd7717e6d":[1,0,3,13,23],
-"structop_1_1_point.html#a5821bc77a416629916e671793df3ce3b":[1,0,3,13,26],
-"structop_1_1_point.html#a5d825f6fdc9a72abe5f3f52c852bdf13":[1,0,3,13,4],
-"structop_1_1_point.html#a60488ca743d82fe8dd574b01f992460c":[1,0,3,13,10],
-"structop_1_1_point.html#a767e96d42e4653ac09ada5c5cdceb776":[1,0,3,13,21],
-"structop_1_1_point.html#a7688d4f0cadcf1970380519df4cfffd7":[1,0,3,13,7],
-"structop_1_1_point.html#a812d4ef29d102f4ad18f32ae54eb17ec":[1,0,3,13,25],
-"structop_1_1_point.html#a81a09bde4e8e27ec6e8b4808f0f60f57":[1,0,3,13,17]
+"structop_1_1_person_tracker_entry.html#a8311785a9256e0465c61ddeec5854792":[1,0,3,115,0]
 };

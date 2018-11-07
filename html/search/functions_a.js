@@ -1,6 +1,7 @@
 var searchData=
 [
   ['keepdesiredframerate',['keepDesiredFrameRate',['../classop_1_1_producer.html#afad3eadd16cca0de2c2be8b083c0d56d',1,'op::Producer']]],
+  ['keeproiinside',['keepRoiInside',['../namespaceop.html#ad838617b60f6bf4f71e15667eb8b9cad',1,'op']]],
   ['keeptopnpeople',['KeepTopNPeople',['../classop_1_1_keep_top_n_people.html#ae9419ae35da5b0547989f19795a26808',1,'op::KeepTopNPeople']]],
   ['keeptoppeople',['keepTopPeople',['../classop_1_1_keep_top_n_people.html#a4b8d23181894008ca55af6a20ecf242b',1,'op::KeepTopNPeople::keepTopPeople()'],['../classop_1_1_pose_extractor.html#a5e8d22c8500cc5097dce64a89218abe1',1,'op::PoseExtractor::keepTopPeople()']]],
   ['kernel',['Kernel',['../classcl_1_1_kernel.html#a351422a7e7125812c23610628b0f9de7',1,'cl::Kernel::Kernel(const Program &amp;program, const char *name, cl_int *err=NULL)'],['../classcl_1_1_kernel.html#a69b2fc97f80d90a23927a74395d09ec9',1,'cl::Kernel::Kernel()'],['../classcl_1_1_kernel.html#a0c71f37cb53fbe492847fbb2dff2bfed',1,'cl::Kernel::Kernel(const cl_kernel &amp;kernel, bool retainObject=false)'],['../classcl_1_1_kernel.html#a93b516f37993297101dd9d30a4572b23',1,'cl::Kernel::Kernel(const Kernel &amp;kernel)'],['../classcl_1_1_kernel.html#a0869347f24520f2d59222f74297c5fe5',1,'cl::Kernel::Kernel(Kernel &amp;&amp;kernel) CL_HPP_NOEXCEPT_']]],

@@ -137,8 +137,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab41c02abe3634f0db65123ecda964a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5db17b8bc6df4fe40b556af7157dcbf7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a5db17b8bc6df4fe40b556af7157dcbf7">DEFINE_string</a> (ip_camera,&quot;&quot;,&quot;String with the IP camera URL. It supports protocols like RTSP and HTTP.&quot;)</td></tr>
 <tr class="separator:a5db17b8bc6df4fe40b556af7157dcbf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1433eaf1c5eb42e406e76bc6f8e517c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a1433eaf1c5eb42e406e76bc6f8e517c3">DEFINE_uint64</a> (frame_first, 0,&quot;Start on desired frame number. Indexes are 0-based, i.e. the first frame has index 0.&quot;)</td></tr>
-<tr class="separator:a1433eaf1c5eb42e406e76bc6f8e517c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89127a571b2b18ba05912d7b06ffb2ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a89127a571b2b18ba05912d7b06ffb2ef">DEFINE_uint64</a> (frame_first, 0,&quot;Start on desired frame number. Indexes are 0-based, i.e., the first frame has index 0.&quot;)</td></tr>
+<tr class="separator:a89127a571b2b18ba05912d7b06ffb2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22572531e5a4896c510639ac57cf522c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a22572531e5a4896c510639ac57cf522c">DEFINE_uint64</a> (frame_step, 1,&quot;Step or gap between processed frames. E.g., `--frame_step 5` would read and process frames&quot;&quot; 0, 5, 10, etc..&quot;)</td></tr>
 <tr class="separator:a22572531e5a4896c510639ac57cf522c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a158227abc2af90abaec523a784b40fa8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a158227abc2af90abaec523a784b40fa8">DEFINE_uint64</a> (frame_last,-1,&quot;Finish on desired frame number. Select -1 to disable. Indexes are 0-based, e.g., if set to&quot;&quot; 10, it will process 11 frames (0-10).&quot;)</td></tr>
@@ -163,8 +163,8 @@ Functions</h2></td></tr>
 <tr class="separator:a284252d3d255ad5e5c35815d720fd67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8511765700f652000f2c1c2b1a5df9f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a8511765700f652000f2c1c2b1a5df9f9">DEFINE_int32</a> (num_gpu_start, 0,&quot;GPU device start number.&quot;)</td></tr>
 <tr class="separator:a8511765700f652000f2c1c2b1a5df9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18fc454ffeef53c7c73d69c67d1a73fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a18fc454ffeef53c7c73d69c67d1a73fc">DEFINE_int32</a> (keypoint_scale, 0,&quot;Scaling of the (x,y) coordinates of the final pose data array, i.e. the scale of the (x,y)&quot;&quot; coordinates that will be saved with the `write_json` &amp; `write_keypoint` flags.&quot;&quot; Select `0` to scale it to the original source resolution; `1`to scale it to the net output&quot;&quot; size (set with `net_resolution`); `2` to scale it to the final output size (set with&quot;&quot; `resolution`); `3` to scale it in the range [0,1], where (0,0) would be the top-left&quot;&quot; corner of the image, and (1,1) the bottom-right one; and 4 for range [-1,1], where&quot;&quot; (-1,-1) would be the top-left corner of the image, and (1,1) the bottom-right one. Non&quot;&quot; related with `scale_number` and `scale_gap`.&quot;)</td></tr>
-<tr class="separator:a18fc454ffeef53c7c73d69c67d1a73fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a485d9b07e65fe81454f5f0bdc2d33278"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a485d9b07e65fe81454f5f0bdc2d33278">DEFINE_int32</a> (keypoint_scale, 0,&quot;Scaling of the (x,y) coordinates of the final pose data array, i.e., the scale of the (x,y)&quot;&quot; coordinates that will be saved with the `write_json` &amp; `write_keypoint` flags.&quot;&quot; Select `0` to scale it to the original source resolution; `1`to scale it to the net output&quot;&quot; size (set with `net_resolution`); `2` to scale it to the final output size (set with&quot;&quot; `resolution`); `3` to scale it in the range [0,1], where (0,0) would be the top-left&quot;&quot; corner of the image, and (1,1) the bottom-right one; and 4 for range [-1,1], where&quot;&quot; (-1,-1) would be the top-left corner of the image, and (1,1) the bottom-right one. Non&quot;&quot; related with `scale_number` and `scale_gap`.&quot;)</td></tr>
+<tr class="separator:a485d9b07e65fe81454f5f0bdc2d33278"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5a1826a500d7131fefb480ccd1713fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#aa5a1826a500d7131fefb480ccd1713fb">DEFINE_int32</a> (number_people_max,-1,&quot;This parameter will limit the maximum number of people detected, by keeping the people with&quot;&quot; top scores. The score is based in person area over the image, body part score, as well as&quot;&quot; joint score (between each pair of connected body parts). Useful if you know the exact&quot;&quot; number of people in the scene, so it can remove false positives (if all the people have&quot;&quot; been detected. However, it might also include false negatives by removing very small or&quot;&quot; highly occluded people. -1 will keep them all.&quot;)</td></tr>
 <tr class="separator:aa5a1826a500d7131fefb480ccd1713fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e8200fc5fd8bc1e80b94b029ea8e18d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a5e8200fc5fd8bc1e80b94b029ea8e18d">DEFINE_bool</a> (body_disable, false,&quot;Disable body keypoint detection. Option only possible for faster (but less accurate) face&quot;&quot; keypoint detection.&quot;)</td></tr>
@@ -185,8 +185,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac881df85c5be736d05822ad98ac0496f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa80e5f9914dd35c852941282aa229b21"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#aa80e5f9914dd35c852941282aa229b21">DEFINE_int32</a> (heatmaps_scale, 2,&quot;Set 0 to scale <a class="el" href="structop_1_1_datum.html#a5429e97e0ab9b0e2209a3947af668381">op::Datum::poseHeatMaps</a> in the range [-1,1], 1 for [0,1]; 2 for integer&quot;&quot; rounded [0,255]; and 3 for no scaling.&quot;)</td></tr>
 <tr class="separator:aa80e5f9914dd35c852941282aa229b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa941a6193b13f3d138437cf2a84e73ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#aa941a6193b13f3d138437cf2a84e73ff">DEFINE_bool</a> (part_candidates, false,&quot;Also enable `write_json` in order to save this information. If true, it will fill the&quot;&quot; <a class="el" href="structop_1_1_datum.html#a55dd5354e09696ed6896923755f1c85b">op::Datum::poseCandidates</a> array with the body part candidates. Candidates refer to all&quot;&quot; the detected body parts, before being assembled into people. Note that the number of&quot;&quot; candidates is equal or higher than the number of final body parts (i.e. after being&quot;&quot; assembled into people). The empty body parts are filled with 0s. Program speed will&quot;&quot; slightly decrease. Not required for OpenPose, enable it only if you intend to explicitly&quot;&quot; use this information.&quot;)</td></tr>
-<tr class="separator:aa941a6193b13f3d138437cf2a84e73ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab30cdb2253e3ea76aa474424e87075eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#ab30cdb2253e3ea76aa474424e87075eb">DEFINE_bool</a> (part_candidates, false,&quot;Also enable `write_json` in order to save this information. If true, it will fill the&quot;&quot; <a class="el" href="structop_1_1_datum.html#a55dd5354e09696ed6896923755f1c85b">op::Datum::poseCandidates</a> array with the body part candidates. Candidates refer to all&quot;&quot; the detected body parts, before being assembled into people. Note that the number of&quot;&quot; candidates is equal or higher than the number of final body parts (i.e., after being&quot;&quot; assembled into people). The empty body parts are filled with 0s. Program speed will&quot;&quot; slightly decrease. Not required for OpenPose, enable it only if you intend to explicitly&quot;&quot; use this information.&quot;)</td></tr>
+<tr class="separator:ab30cdb2253e3ea76aa474424e87075eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea11a0489c2af278990d3ddff10960fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#aea11a0489c2af278990d3ddff10960fd">DEFINE_bool</a> (face, false,&quot;Enables face keypoint detection. It will share some parameters from the body pose, e.g.&quot;&quot; `model_folder`. Note that this will considerable slow down the performance and increse&quot;&quot; the required GPU memory. In addition, the greater number of people on the image, the&quot;&quot; slower OpenPose will be.&quot;)</td></tr>
 <tr class="separator:aea11a0489c2af278990d3ddff10960fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5ee5f61f0d36a03bb8647408f5e236b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#af5ee5f61f0d36a03bb8647408f5e236b">DEFINE_string</a> (face_net_resolution,&quot;368x368&quot;,&quot;Multiples of 16 and squared. Analogous to `net_resolution` but applied to the face keypoint&quot;&quot; detector. 320x320 usually works fine while giving a substantial speed up when multiple&quot;&quot; faces on the image.&quot;)</td></tr>
@@ -199,8 +199,8 @@ Functions</h2></td></tr>
 <tr class="separator:a311e487137e17445e6939abb7cc0cf8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf5c8a05ae8f86c8e4d8eedbceb84516"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#abf5c8a05ae8f86c8e4d8eedbceb84516">DEFINE_double</a> (hand_scale_range, 0.4,&quot;Analogous purpose than `scale_gap` but applied to the hand keypoint detector. Total range&quot;&quot; between smallest and biggest scale. The scales will be centered in ratio 1. E.g., if&quot;&quot; scaleRange = 0.4 and scalesNumber = 2, then there will be 2 scales, 0.8 and 1.2.&quot;)</td></tr>
 <tr class="separator:abf5c8a05ae8f86c8e4d8eedbceb84516"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a28dd6ee5503f070d08cc9e4a3aff05"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a0a28dd6ee5503f070d08cc9e4a3aff05">DEFINE_bool</a> (hand_tracking, false,&quot;Adding hand tracking might improve hand keypoints detection for webcam (if the frame rate&quot;&quot; is high enough, i.e. &gt;7 FPS per GPU) and video. This is not person ID tracking, it&quot;&quot; simply looks for hands in positions at which hands were located in previous frames, but&quot;&quot; it does not guarantee the same person ID among frames.&quot;)</td></tr>
-<tr class="separator:a0a28dd6ee5503f070d08cc9e4a3aff05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3135e093746d3a75b88eb7fb5d0d35e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a3135e093746d3a75b88eb7fb5d0d35e4">DEFINE_bool</a> (hand_tracking, false,&quot;Adding hand tracking might improve hand keypoints detection for webcam (if the frame rate&quot;&quot; is high enough, i.e., &gt;7 FPS per GPU) and video. This is not person ID tracking, it&quot;&quot; simply looks for hands in positions at which hands were located in previous frames, but&quot;&quot; it does not guarantee the same person ID among frames.&quot;)</td></tr>
+<tr class="separator:a3135e093746d3a75b88eb7fb5d0d35e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c800b6a91b02874d006da33ab8432cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a4c800b6a91b02874d006da33ab8432cd">DEFINE_bool</a> (3d, false,&quot;Running OpenPose 3-D reconstruction demo: 1) Reading from a stereo camera system.&quot;&quot; 2) Performing 3-D reconstruction from the multiple views. 3) Displaying 3-D reconstruction&quot;&quot; results. Note that it will only display 1 person. If multiple people is present, it will&quot;&quot; fail.&quot;)</td></tr>
 <tr class="separator:a4c800b6a91b02874d006da33ab8432cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa797dd033c6f3c4d2654e7000939d270"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#aa797dd033c6f3c4d2654e7000939d270">DEFINE_int32</a> (3d_min_views,-1,&quot;Minimum number of views required to reconstruct each keypoint. By default (-1), it will&quot;&quot; require all the cameras to see the keypoint in order to reconstruct it.&quot;)</td></tr>
@@ -217,10 +217,10 @@ Functions</h2></td></tr>
 <tr class="separator:a4cead735de5b43cfcae5c1139df3be1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a9ffc302eac69c8ba024da3edf01a5f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a1a9ffc302eac69c8ba024da3edf01a5f">DEFINE_bool</a> (disable_blending, false,&quot;If enabled, it will render the results (keypoint skeletons or heatmaps) on a black&quot;&quot; background, instead of being rendered into the original image. Related: `part_to_show`,&quot;&quot; `alpha_pose`, and `alpha_pose`.&quot;)</td></tr>
 <tr class="separator:a1a9ffc302eac69c8ba024da3edf01a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd21fc201e4b269bf0b07b8fce886173"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#afd21fc201e4b269bf0b07b8fce886173">DEFINE_double</a> (render_threshold, 0.05,&quot;Only estimated keypoints whose score confidences are higher than this threshold will be&quot;&quot; rendered. Generally, a high threshold (&gt; 0.5) will only render very clear body parts;&quot;&quot; while small thresholds (~0.1) will also output guessed and occluded keypoints, but also&quot;&quot; more false positives (i.e. wrong detections).&quot;)</td></tr>
-<tr class="separator:afd21fc201e4b269bf0b07b8fce886173"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65152cde78f8e7da1d33f557ec392312"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a65152cde78f8e7da1d33f557ec392312">DEFINE_int32</a> (render_pose,-1,&quot;Set to 0 for no rendering, 1 for CPU rendering (slightly faster), and 2 for GPU rendering&quot;&quot; (slower but greater functionality, e.g., `alpha_X` flags). If -1, it will pick CPU if&quot;&quot; CPU_ONLY is enabled, or GPU if CUDA is enabled. If rendering is enabled, it will render&quot;&quot; both `outputData` and `cvOutputData` with the original image and desired body part to be&quot;&quot; shown (i.e. keypoints, heat maps or PAFs).&quot;)</td></tr>
-<tr class="separator:a65152cde78f8e7da1d33f557ec392312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a00f877d52f489ed93fb0db8cb8e4dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a3a00f877d52f489ed93fb0db8cb8e4dc">DEFINE_double</a> (render_threshold, 0.05,&quot;Only estimated keypoints whose score confidences are higher than this threshold will be&quot;&quot; rendered. Generally, a high threshold (&gt; 0.5) will only render very clear body parts;&quot;&quot; while small thresholds (~0.1) will also output guessed and occluded keypoints, but also&quot;&quot; more false positives (i.e., wrong detections).&quot;)</td></tr>
+<tr class="separator:a3a00f877d52f489ed93fb0db8cb8e4dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aac3e05431b81d298fdbd7f701dcd5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a2aac3e05431b81d298fdbd7f701dcd5e">DEFINE_int32</a> (render_pose,-1,&quot;Set to 0 for no rendering, 1 for CPU rendering (slightly faster), and 2 for GPU rendering&quot;&quot; (slower but greater functionality, e.g., `alpha_X` flags). If -1, it will pick CPU if&quot;&quot; CPU_ONLY is enabled, or GPU if CUDA is enabled. If rendering is enabled, it will render&quot;&quot; both `outputData` and `cvOutputData` with the original image and desired body part to be&quot;&quot; shown (i.e., keypoints, heat maps or PAFs).&quot;)</td></tr>
+<tr class="separator:a2aac3e05431b81d298fdbd7f701dcd5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad971ae1068651177e7a78ae68c022792"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#ad971ae1068651177e7a78ae68c022792">DEFINE_double</a> (alpha_pose, 0.6,&quot;Blending factor (range 0-1) for the body part rendering. 1 will show it completely, 0 will&quot;&quot; hide it. Only valid for GPU rendering.&quot;)</td></tr>
 <tr class="separator:ad971ae1068651177e7a78ae68c022792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62bfc56794bb8ceaedd0eb7bc32a0f22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a62bfc56794bb8ceaedd0eb7bc32a0f22">DEFINE_double</a> (alpha_heatmap, 0.7,&quot;Blending factor (range 0-1) between heatmap and original frame. 1 will only show the&quot;&quot; heatmap, 0 will only show the frame. Only valid for GPU rendering.&quot;)</td></tr>
@@ -671,7 +671,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa941a6193b13f3d138437cf2a84e73ff"></a>
+<a class="anchor" id="ab30cdb2253e3ea76aa474424e87075eb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -702,7 +702,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">before being assembled into people.Note that the number of&quot;&quot;candidates is equal or higher than the number of final body parts(i.e.after being&quot;&quot;assembled into people).The empty body parts are filled with 0s.Program speed will&quot;&quot;slightly decrease.Not required for&#160;</td>
+          <td class="paramtype">before being assembled into people.Note that the number of&quot;&quot;candidates is equal or higher than the number of final body parts(i.e., after being&quot;&quot;assembled into people).The empty body parts are filled with 0s.Program speed will&quot;&quot;slightly decrease.Not required for&#160;</td>
           <td class="paramname"><em>OpenPose</em>, </td>
         </tr>
         <tr>
@@ -821,7 +821,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0a28dd6ee5503f070d08cc9e4a3aff05"></a>
+<a class="anchor" id="a3135e093746d3a75b88eb7fb5d0d35e4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -840,7 +840,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&quot;Adding hand tracking might improve hand keypoints detection for webcam (if the frame rate&quot;&quot; is high enough, i.e. &gt;7 FPS per GPU) and video. This is not person ID&#160;</td>
+          <td class="paramtype">&quot;Adding hand tracking might improve hand keypoints detection for webcam (if the frame rate&quot;&quot; is high enough, i.e., &gt;7 FPS per GPU) and video. This is not person ID&#160;</td>
           <td class="paramname"><em>tracking</em>, </td>
         </tr>
         <tr>
@@ -1181,7 +1181,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afd21fc201e4b269bf0b07b8fce886173"></a>
+<a class="anchor" id="a3a00f877d52f489ed93fb0db8cb8e4dc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1212,7 +1212,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">but also&quot;&quot;more false positives(i.e.wrong detections).&quot;&#160;</td>
+          <td class="paramtype">but also&quot;&quot;more false positives(i.e., wrong detections).&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1795,7 +1795,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a18fc454ffeef53c7c73d69c67d1a73fc"></a>
+<a class="anchor" id="a485d9b07e65fe81454f5f0bdc2d33278"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1820,7 +1820,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">i.e.the scale of the(x, y)&quot;&quot;coordinates that will be saved with the`write_json`&amp;`write_keypoint`flags.&quot;&quot;Select`0`to scale it to the original source resolution;`1`to scale it to the net output&quot;&quot;size(set with`net_resolution`);`2`to scale it to the final output size(set with&quot;&quot;`resolution`);`3`to scale it in the&#160;</td>
+          <td class="paramtype">i.&#160;</td>
+          <td class="paramname"><em>e.</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">the scale of the(x, y)&quot;&quot;coordinates that will be saved with the`write_json`&amp;`write_keypoint`flags.&quot;&quot;Select`0`to scale it to the original source resolution;`1`to scale it to the net output&quot;&quot;size(set with`net_resolution`);`2`to scale it to the final output size(set with&quot;&quot;`resolution`);`3`to scale it in the&#160;</td>
           <td class="paramname"><em>range</em>[0, 1], </td>
         </tr>
         <tr>
@@ -2223,7 +2229,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a65152cde78f8e7da1d33f557ec392312"></a>
+<a class="anchor" id="a2aac3e05431b81d298fdbd7f701dcd5e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2272,7 +2278,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">it will render&quot;&quot;both`outputData`and`cvOutputData`with the original image and desired body part to be&quot;&quot;shown(i.e.keypoints, heat maps or PAFs).&quot;&#160;</td>
+          <td class="paramtype">it will render&quot;&quot;both`outputData`and`cvOutputData`with the original image and desired body part to be&quot;&quot;shown(i.e., keypoints, heat maps or PAFs).&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -3381,7 +3387,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1433eaf1c5eb42e406e76bc6f8e517c3"></a>
+<a class="anchor" id="a89127a571b2b18ba05912d7b06ffb2ef"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3406,7 +3412,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">i.e.the first frame has index 0.&quot;&#160;</td>
+          <td class="paramtype">i.&#160;</td>
+          <td class="paramname"><em>e.</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">the first frame has index 0.&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
