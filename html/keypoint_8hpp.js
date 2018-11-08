@@ -7,6 +7,7 @@ var keypoint_8hpp =
     [ "getDistanceAverage", "keypoint_8hpp.html#acf638f00b0a825c05683f8e23942a9d5", null ],
     [ "getDistanceAverage", "keypoint_8hpp.html#aa053f4b0533d9e981aa171a1ef57fc30", null ],
     [ "getKeypointsArea", "keypoint_8hpp.html#a1dd5dde18458975a36bdbd6dd38720a2", null ],
+    [ "getKeypointsPerson", "keypoint_8hpp.html#a75411d98f69051860379730e16103178", null ],
     [ "getKeypointsRectangle", "keypoint_8hpp.html#a5b2ae3f48eab928e35c9e3da51899054", null ],
     [ "getKeypointsRoi", "keypoint_8hpp.html#a6913c67141fcbbba84fc88ac8a45aa0f", null ],
     [ "getKeypointsRoi", "keypoint_8hpp.html#ac9af122ccd8dcdafb11e37b6633245b4", null ],

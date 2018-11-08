@@ -974,6 +974,9 @@ std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 <tr class="memitem:aa053f4b0533d9e981aa171a1ef57fc30"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:aa053f4b0533d9e981aa171a1ef57fc30"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#aa053f4b0533d9e981aa171a1ef57fc30">getDistanceAverage</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;keypointsA, const int personA, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;keypointsB, const int personB, const T threshold)</td></tr>
 <tr class="separator:aa053f4b0533d9e981aa171a1ef57fc30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75411d98f69051860379730e16103178"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a75411d98f69051860379730e16103178"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a75411d98f69051860379730e16103178">getKeypointsPerson</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;keypoints, const int person, const bool noCopy=false)</td></tr>
+<tr class="separator:a75411d98f69051860379730e16103178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6913c67141fcbbba84fc88ac8a45aa0f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a6913c67141fcbbba84fc88ac8a45aa0f"><td class="memTemplItemLeft" align="right" valign="top">float&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6913c67141fcbbba84fc88ac8a45aa0f">getKeypointsRoi</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;keypoints, const int personA, const int personB, const T threshold)</td></tr>
 <tr class="separator:a6913c67141fcbbba84fc88ac8a45aa0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4611,6 +4614,55 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a75411d98f69051860379730e16103178"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classop_1_1_array.html">Array</a>&lt;T&gt; op::getKeypointsPerson </td>
+          <td>(</td>
+          <td class="paramtype">const Array&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>keypoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>person</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>noCopy</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates and Array&lt;T&gt; with a specific person. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keypoints</td><td>Array&lt;T&gt; with the original data array to slice. </td></tr>
+    <tr><td class="paramname">person</td><td>indicates the index of the array to extract. </td></tr>
+    <tr><td class="paramname">noCopy</td><td>indicates whether to perform a copy. Copy will never go to undefined behavior, however, if noCopy == true, then:<ol type="1">
+<li>It is faster, as no data copy is involved, but...</li>
+<li>If the <a class="el" href="classop_1_1_array.html">Array</a> keypoints goes out of scope, then the resulting <a class="el" href="classop_1_1_array.html">Array</a> will provoke an undefined behavior.</li>
+<li>If the returned <a class="el" href="classop_1_1_array.html">Array</a> is modified, the information in the <a class="el" href="classop_1_1_array.html">Array</a> keypoints will also be. </li>
+</ol>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Array&lt;T&gt; with the same dimension than keypoints expect the first dimension being 1. E.g., if keypoints is {p,k,m}, the resulting Array&lt;T&gt; is {1,k,m}. </dd></dl>
 
 </div>
 </div>

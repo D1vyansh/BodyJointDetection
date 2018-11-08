@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261faef29c97ffaed7b0d41ee9bb0d20550cc":[2,0,0,0,9,0,0,8],
+"pose_2enum_classes_8hpp_source.html":[2,0,0,0,9,0],
 "pose_2headers_8hpp.html":[2,0,0,0,9,1],
 "pose_2headers_8hpp_source.html":[2,0,0,0,9,1],
 "pose_cpu_renderer_8hpp.html":[2,0,0,0,9,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "structop_1_1_datum.html#aebd19bf50725a5cd87de1efd96f6ebfe":[1,0,3,8,25],
 "structop_1_1_datum.html#aef3ef6d5d9f1235b925a68d461e0e814":[1,0,3,8,15],
 "structop_1_1_datum.html#aef6c478313691ab5101664c1df55aa58":[1,0,3,8,29],
-"structop_1_1_datum.html#af03c894035d9e45c35d91ca4cfa6df85":[1,0,3,8,35],
-"structop_1_1_datum.html#afb117821de7aff9ac3c219ef3bbc0c14":[1,0,3,8,46],
-"structop_1_1_datum.html#afcdbf1d87e08761d952d19ef6a8ace10":[1,0,3,8,12]
+"structop_1_1_datum.html#af03c894035d9e45c35d91ca4cfa6df85":[1,0,3,8,35]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX9 =
 {
+"structop_1_1_datum.html#afb117821de7aff9ac3c219ef3bbc0c14":[1,0,3,8,46],
+"structop_1_1_datum.html#afcdbf1d87e08761d952d19ef6a8ace10":[1,0,3,8,12],
 "structop_1_1_person_entry.html":[1,0,3,114],
 "structop_1_1_person_entry.html#a0b943a74b9941349ad27bb5c7fb8392a":[1,0,3,114,2],
 "structop_1_1_person_entry.html#a75994912fe3dc4a022e8310ee760b167":[1,0,3,114,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX9 =
 "w_hand_detector_from_txt_8hpp.html#a767385c8d3ebe736e1752825ab4d4ea0":[2,0,0,0,7,11,1],
 "w_hand_detector_from_txt_8hpp_source.html":[2,0,0,0,7,11],
 "w_hand_detector_tracking_8hpp.html":[2,0,0,0,7,12],
-"w_hand_detector_tracking_8hpp.html#a361310c59d16e88a4d2450a80f078f01":[2,0,0,0,7,12,1],
-"w_hand_detector_tracking_8hpp_source.html":[2,0,0,0,7,12],
-"w_hand_detector_update_8hpp.html":[2,0,0,0,7,13]
+"w_hand_detector_tracking_8hpp.html#a361310c59d16e88a4d2450a80f078f01":[2,0,0,0,7,12,1]
 };
