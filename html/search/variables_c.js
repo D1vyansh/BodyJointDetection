@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['maximizepositives',['maximizePositives',['../structop_1_1_wrapper_struct_pose.html#a84edcbf2237d579adc88badaa17c9795',1,'op::WrapperStructPose']]],
   ['mblendoriginalframe',['mBlendOriginalFrame',['../classop_1_1_renderer.html#a88449a7c29a48e157cd6b16089825be7',1,'op::Renderer']]],
   ['mconditionvariable',['mConditionVariable',['../classop_1_1_queue_base.html#a8b5e59161a0b175d12955b552a90a47f',1,'op::QueueBase']]],
   ['mdisplaymode',['mDisplayMode',['../classop_1_1_gui.html#a5b95cbfa7cd4018977f4eb1fc095823b',1,'op::Gui']]],

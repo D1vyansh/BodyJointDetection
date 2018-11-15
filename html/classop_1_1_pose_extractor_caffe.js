@@ -1,6 +1,6 @@
 var classop_1_1_pose_extractor_caffe =
 [
-    [ "PoseExtractorCaffe", "classop_1_1_pose_extractor_caffe.html#ab58c3ab4b745b35f542165ce27293554", null ],
+    [ "PoseExtractorCaffe", "classop_1_1_pose_extractor_caffe.html#ac8ce8278d628ad2c16421ee6f258269e", null ],
     [ "~PoseExtractorCaffe", "classop_1_1_pose_extractor_caffe.html#a3359641c1199c712a07859dcb76b7dcf", null ],
     [ "forwardPass", "classop_1_1_pose_extractor_caffe.html#a8e7ae6b63ccd0ab6eb61c5530fa44731", null ],
     [ "getCandidatesCpuConstPtr", "classop_1_1_pose_extractor_caffe.html#a5e84521120bcee4a9f047ae1d7fec8af", null ],

@@ -1,11 +1,11 @@
 var pose_parameters_8hpp =
 [
     [ "getPoseBodyPartMapping", "pose_parameters_8hpp.html#aab3de911b04b96c1850cc05c6947e184", null ],
-    [ "getPoseDefaultConnectInterMinAboveThreshold", "pose_parameters_8hpp.html#a1b7d7061c819ee76328d5917ee009b1d", null ],
-    [ "getPoseDefaultConnectInterThreshold", "pose_parameters_8hpp.html#a692472b562fba051964f9ddea07b97d7", null ],
-    [ "getPoseDefaultConnectMinSubsetScore", "pose_parameters_8hpp.html#a1f690bf083e250642144bf8e5d6e6d2c", null ],
-    [ "getPoseDefaultMinSubsetCnt", "pose_parameters_8hpp.html#af1ed202254520cd489723052d1f5a86d", null ],
-    [ "getPoseDefaultNmsThreshold", "pose_parameters_8hpp.html#aa170c3107396e4d0e4214bb0c1b78f08", null ],
+    [ "getPoseDefaultConnectInterMinAboveThreshold", "pose_parameters_8hpp.html#a8e377d8da8f109cb8be8e4edbb2ea90a", null ],
+    [ "getPoseDefaultConnectInterThreshold", "pose_parameters_8hpp.html#aabfd35e57744b44481c09f56c90cc8b8", null ],
+    [ "getPoseDefaultConnectMinSubsetScore", "pose_parameters_8hpp.html#ae7636f6e8974ecb2ed96d43dd5ec261d", null ],
+    [ "getPoseDefaultMinSubsetCnt", "pose_parameters_8hpp.html#a863c96f1fb23d96c5d605867cfe5f99f", null ],
+    [ "getPoseDefaultNmsThreshold", "pose_parameters_8hpp.html#acd8cab258d7e98affa5c317a9a03e862", null ],
     [ "getPoseMapIndex", "pose_parameters_8hpp.html#a84d87ec0e4ed3cf75a37ce99d0d25ef7", null ],
     [ "getPoseMaxPeaks", "pose_parameters_8hpp.html#ab48e314ecd19f55f664b14da1d83312f", null ],
     [ "getPoseNetDecreaseFactor", "pose_parameters_8hpp.html#ad7ca8d89f9045481075902c8bd98b8f4", null ],
@@ -15,6 +15,5 @@ var pose_parameters_8hpp =
     [ "getPoseTrainedModel", "pose_parameters_8hpp.html#ade70b024ee461ae04e7233bf3937c5c6", null ],
     [ "poseBodyPartMapStringToKey", "pose_parameters_8hpp.html#a3df938ef93037c534c5d342720d5fb70", null ],
     [ "poseBodyPartMapStringToKey", "pose_parameters_8hpp.html#aacf6e688031bb116e4878b811e8dbc23", null ],
-    [ "COCO_CHALLENGE", "pose_parameters_8hpp.html#a59616e83eefc182f8eb6ae51d6425938", null ],
     [ "POSE_MAX_PEOPLE", "pose_parameters_8hpp.html#a522d4552d2aeabe367f4d3bf371e6b3e", null ]
 ];

@@ -10,6 +10,7 @@ var classop_1_1_body_part_connector_caffe =
     [ "Reshape", "classop_1_1_body_part_connector_caffe.html#a54918b6b114568d7bafe26319e96d644", null ],
     [ "setInterMinAboveThreshold", "classop_1_1_body_part_connector_caffe.html#a789c77e69e5590a78b22e1e5f5cc4efc", null ],
     [ "setInterThreshold", "classop_1_1_body_part_connector_caffe.html#a75d0a3f3c8dca99c8a9e1b680098da16", null ],
+    [ "setMaximizePositives", "classop_1_1_body_part_connector_caffe.html#a6d859f2e218b1ea707fddcaf0911886d", null ],
     [ "setMinSubsetCnt", "classop_1_1_body_part_connector_caffe.html#a6442721373481873ddeb9ffd7c6fdb7b", null ],
     [ "setMinSubsetScore", "classop_1_1_body_part_connector_caffe.html#a9b9fa9490fef0121a70c3d6d749272f7", null ],
     [ "setPoseModel", "classop_1_1_body_part_connector_caffe.html#a104744fdab14d4c1335eb8778edea21e", null ],

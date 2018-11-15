@@ -167,6 +167,8 @@ Functions</h2></td></tr>
 <tr class="separator:a485d9b07e65fe81454f5f0bdc2d33278"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5a1826a500d7131fefb480ccd1713fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#aa5a1826a500d7131fefb480ccd1713fb">DEFINE_int32</a> (number_people_max,-1,&quot;This parameter will limit the maximum number of people detected, by keeping the people with&quot;&quot; top scores. The score is based in person area over the image, body part score, as well as&quot;&quot; joint score (between each pair of connected body parts). Useful if you know the exact&quot;&quot; number of people in the scene, so it can remove false positives (if all the people have&quot;&quot; been detected. However, it might also include false negatives by removing very small or&quot;&quot; highly occluded people. -1 will keep them all.&quot;)</td></tr>
 <tr class="separator:aa5a1826a500d7131fefb480ccd1713fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d76e63210ddd6541cb8b030df0c09cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a8d76e63210ddd6541cb8b030df0c09cf">DEFINE_bool</a> (maximize_positives, false,&quot;It reduces the thresholds to accept a person candidate. It highly increases both false and&quot;&quot; true positives. I.e., it maximizes average recall but could harm average precision.&quot;)</td></tr>
+<tr class="separator:a8d76e63210ddd6541cb8b030df0c09cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e8200fc5fd8bc1e80b94b029ea8e18d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a5e8200fc5fd8bc1e80b94b029ea8e18d">DEFINE_bool</a> (body_disable, false,&quot;Disable body keypoint detection. Option only possible for faster (but less accurate) face&quot;&quot; keypoint detection.&quot;)</td></tr>
 <tr class="separator:a5e8200fc5fd8bc1e80b94b029ea8e18d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a055e1e0a1618e96f156f32278b41d3e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a055e1e0a1618e96f156f32278b41d3e4">DEFINE_string</a> (model_pose,&quot;BODY_25&quot;,&quot;Model to be used. E.g., `COCO` (18 keypoints), `MPI` (15 keypoints, ~10% faster), &quot;&quot;`MPI_4_layers` (15 keypoints, even faster but less accurate).&quot;)</td></tr>
@@ -495,6 +497,44 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&quot;&quot;it will leave it as it is.&quot;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8d76e63210ddd6541cb8b030df0c09cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DEFINE_bool </td>
+          <td>(</td>
+          <td class="paramtype">maximize_positives&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">false&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;It reduces the thresholds to accept a person candidate. It highly increases both false and&quot;&quot; true positives. I.&#160;</td>
+          <td class="paramname"><em>e.</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">it maximizes average recall but could harm average precision.&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

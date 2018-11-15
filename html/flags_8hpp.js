@@ -6,6 +6,7 @@ var flags_8hpp =
     [ "DEFINE_bool", "flags_8hpp.html#a6a501f229de1ba19801b77fd0565527b", null ],
     [ "DEFINE_bool", "flags_8hpp.html#a5e350d38962a702d8e0c658fbbb5cc64", null ],
     [ "DEFINE_bool", "flags_8hpp.html#ad739178d4295e31edd2f1e468bd2e600", null ],
+    [ "DEFINE_bool", "flags_8hpp.html#a8d76e63210ddd6541cb8b030df0c09cf", null ],
     [ "DEFINE_bool", "flags_8hpp.html#a5e8200fc5fd8bc1e80b94b029ea8e18d", null ],
     [ "DEFINE_bool", "flags_8hpp.html#a669c6f4820af0275f40808b18147b98c", null ],
     [ "DEFINE_bool", "flags_8hpp.html#af57ca90aafa15b707af299527b0aff6f", null ],

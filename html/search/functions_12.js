@@ -35,6 +35,7 @@ var searchData=
   ['setinterthreshold',['setInterThreshold',['../classop_1_1_body_part_connector_caffe.html#a75d0a3f3c8dca99c8a9e1b680098da16',1,'op::BodyPartConnectorCaffe']]],
   ['setkeypoints',['setKeypoints',['../classop_1_1_gui3_d.html#abd245c07a53d1d25c237aff22a2b6e6f',1,'op::Gui3D']]],
   ['setlogmodes',['setLogModes',['../namespaceop_1_1_configure_log.html#a2f41e9a74bbda434ef16189c32a13aba',1,'op::ConfigureLog']]],
+  ['setmaximizepositives',['setMaximizePositives',['../classop_1_1_body_part_connector_caffe.html#a6d859f2e218b1ea707fddcaf0911886d',1,'op::BodyPartConnectorCaffe']]],
   ['setminsubsetcnt',['setMinSubsetCnt',['../classop_1_1_body_part_connector_caffe.html#a6442721373481873ddeb9ffd7c6fdb7b',1,'op::BodyPartConnectorCaffe']]],
   ['setminsubsetscore',['setMinSubsetScore',['../classop_1_1_body_part_connector_caffe.html#a9b9fa9490fef0121a70c3d6d749272f7',1,'op::BodyPartConnectorCaffe']]],
   ['setoffset',['setOffset',['../classop_1_1_nms_caffe.html#a1dd658e4bc9e080867a99e9b57f1baa8',1,'op::NmsCaffe']]],

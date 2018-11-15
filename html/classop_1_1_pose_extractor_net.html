@@ -121,8 +121,8 @@ $(document).ready(function(){initNavTree('classop_1_1_pose_extractor_net.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8f1fb332299a83010830ee9d61752bc9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a8f1fb332299a83010830ee9d61752bc9">PoseExtractorNet</a> (const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt; &amp;heatMapTypes={}, const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> heatMapScale=<a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa4b942544cb3e764bbb8d33f8a8744855">ScaleMode::ZeroToOne</a>, const bool addPartCandidates=false)</td></tr>
-<tr class="separator:a8f1fb332299a83010830ee9d61752bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88dc3952fdf1fb25890d265e9e341e23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a88dc3952fdf1fb25890d265e9e341e23">PoseExtractorNet</a> (const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const std::vector&lt; <a class="el" href="namespaceop.html#a1c3dbc214e7552f7ef9cc753ee97226b">HeatMapType</a> &gt; &amp;heatMapTypes={}, const <a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bda">ScaleMode</a> heatMapScale=<a class="el" href="namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa4b942544cb3e764bbb8d33f8a8744855">ScaleMode::ZeroToOne</a>, const bool addPartCandidates=false, const bool maximizePositives=false)</td></tr>
+<tr class="separator:a88dc3952fdf1fb25890d265e9e341e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a963c679df20b16d475aa3a7c0661135c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a963c679df20b16d475aa3a7c0661135c">~PoseExtractorNet</a> ()</td></tr>
 <tr class="separator:a963c679df20b16d475aa3a7c0661135c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28923c846dc7c731d3571c72a50acd2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_pose_extractor_net.html#a28923c846dc7c731d3571c72a50acd2f">initializationOnThread</a> ()</td></tr>
@@ -182,7 +182,7 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a67ea32116dfaff15cc16e5a0a2bef822"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a8f1fb332299a83010830ee9d61752bc9"></a>
+<a class="anchor" id="a88dc3952fdf1fb25890d265e9e341e23"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -208,7 +208,13 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>addPartCandidates</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>addPartCandidates</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>maximizePositives</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

@@ -1,6 +1,6 @@
 var structop_1_1_wrapper_struct_pose =
 [
-    [ "WrapperStructPose", "structop_1_1_wrapper_struct_pose.html#a5ea7564df25975c4279547acb885376a", null ],
+    [ "WrapperStructPose", "structop_1_1_wrapper_struct_pose.html#a17b6f8cf237c7b0399c65d432188165a", null ],
     [ "addPartCandidates", "structop_1_1_wrapper_struct_pose.html#ad73981c6ad9b23f511ef6f12136bf8e7", null ],
     [ "alphaHeatMap", "structop_1_1_wrapper_struct_pose.html#ac1233492c750fbd98df353bffa8f9b78", null ],
     [ "alphaKeypoint", "structop_1_1_wrapper_struct_pose.html#a4d3ad84b14697d5f1009fa29e2ff1998", null ],
@@ -13,6 +13,7 @@ var structop_1_1_wrapper_struct_pose =
     [ "heatMapScale", "structop_1_1_wrapper_struct_pose.html#abeb9ae450a7b37e76075c8dca64b3617", null ],
     [ "heatMapTypes", "structop_1_1_wrapper_struct_pose.html#aa459f2f26c1f1a929af55b8c2d39ccf6", null ],
     [ "keypointScale", "structop_1_1_wrapper_struct_pose.html#a4900b6c522150140d27f2e98a260e0ec", null ],
+    [ "maximizePositives", "structop_1_1_wrapper_struct_pose.html#a84edcbf2237d579adc88badaa17c9795", null ],
     [ "modelFolder", "structop_1_1_wrapper_struct_pose.html#a8ff78782ff1bfdcec3e20e42fc03dbc6", null ],
     [ "netInputSize", "structop_1_1_wrapper_struct_pose.html#acff912f14ba3c0ba706ea99e1cef790e", null ],
     [ "numberPeopleMax", "structop_1_1_wrapper_struct_pose.html#a02c4ab6b56e4da4b3ed0da4eae8ac0fc", null ],
