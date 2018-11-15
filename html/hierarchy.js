@@ -237,6 +237,7 @@ var hierarchy =
     ] ],
     [ "op::WrapperStructExtra", "structop_1_1_wrapper_struct_extra.html", null ],
     [ "op::WrapperStructFace", "structop_1_1_wrapper_struct_face.html", null ],
+    [ "op::WrapperStructGui", "structop_1_1_wrapper_struct_gui.html", null ],
     [ "op::WrapperStructHand", "structop_1_1_wrapper_struct_hand.html", null ],
     [ "op::WrapperStructInput", "structop_1_1_wrapper_struct_input.html", null ],
     [ "op::WrapperStructOutput", "structop_1_1_wrapper_struct_output.html", null ],

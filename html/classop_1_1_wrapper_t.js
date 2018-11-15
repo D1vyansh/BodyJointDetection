@@ -8,6 +8,7 @@ var classop_1_1_wrapper_t =
     [ "configure", "classop_1_1_wrapper_t.html#a0253d7fe5ff821ad9c8b2f7c936f3e25", null ],
     [ "configure", "classop_1_1_wrapper_t.html#a2df21b920f7b2896378e1dcc0c2e8856", null ],
     [ "configure", "classop_1_1_wrapper_t.html#a28ce33d79dfde559b150f5d5f9ee4ae0", null ],
+    [ "configure", "classop_1_1_wrapper_t.html#ac3da729adb7b73450e3c530aca3d086e", null ],
     [ "disableMultiThreading", "classop_1_1_wrapper_t.html#a5738f1e0569e98bd260598f3e0510ccb", null ],
     [ "emplaceAndPop", "classop_1_1_wrapper_t.html#a395acb85400826012839570ea2bcd9bd", null ],
     [ "emplaceAndPop", "classop_1_1_wrapper_t.html#a87087f042262638309bfb4ff14dad57e", null ],

@@ -81,7 +81,7 @@ var searchData=
   ['getposegpuconstptr',['getPoseGpuConstPtr',['../classop_1_1_pose_extractor_caffe.html#a6982cb1a7203129610fe0959a45c81cf',1,'op::PoseExtractorCaffe::getPoseGpuConstPtr()'],['../classop_1_1_pose_extractor_net.html#a546f0d6e0c62c7c7e2d44de848f9a174',1,'op::PoseExtractorNet::getPoseGpuConstPtr()']]],
   ['getposekeypoints',['getPoseKeypoints',['../classop_1_1_pose_extractor.html#a63432a905e6fcd9be8d9464a80a7fd52',1,'op::PoseExtractor::getPoseKeypoints()'],['../classop_1_1_pose_extractor_net.html#a3724df312f06496d0b11936983ef9aba',1,'op::PoseExtractorNet::getPoseKeypoints()']]],
   ['getposemapindex',['getPoseMapIndex',['../namespaceop.html#a84d87ec0e4ed3cf75a37ce99d0d25ef7',1,'op']]],
-  ['getposemaxpeaks',['getPoseMaxPeaks',['../namespaceop.html#ab48e314ecd19f55f664b14da1d83312f',1,'op']]],
+  ['getposemaxpeaks',['getPoseMaxPeaks',['../namespaceop.html#a96a81e831f8c965825162dba09095477',1,'op']]],
   ['getposenetdecreasefactor',['getPoseNetDecreaseFactor',['../namespaceop.html#ad7ca8d89f9045481075902c8bd98b8f4',1,'op']]],
   ['getposenumberbodyparts',['getPoseNumberBodyParts',['../namespaceop.html#a54a6c42a42a0a7e539061f5e30abb4bc',1,'op']]],
   ['getposepartpairs',['getPosePartPairs',['../namespaceop.html#a307b2c7b1506415a4ba44590fe8a7258',1,'op']]],
@@ -128,5 +128,5 @@ var searchData=
   ['guiinfoadder',['GuiInfoAdder',['../classop_1_1_gui_info_adder.html',1,'op']]],
   ['guiinfoadder',['GuiInfoAdder',['../classop_1_1_gui_info_adder.html#af23e17f9eeb51c7473cd0940292efa61',1,'op::GuiInfoAdder']]],
   ['guiinfoadder_2ehpp',['guiInfoAdder.hpp',['../gui_info_adder_8hpp.html',1,'']]],
-  ['guiverbose',['guiVerbose',['../structop_1_1_wrapper_struct_output.html#ac72ad601daf957b9b000206e9f1fe0ad',1,'op::WrapperStructOutput']]]
+  ['guiverbose',['guiVerbose',['../structop_1_1_wrapper_struct_gui.html#a9dbb0bfce2593b0a560ed738e11708ce',1,'op::WrapperStructGui']]]
 ];

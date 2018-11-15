@@ -10,6 +10,9 @@ var dir_656bab9d729ebd6e2f5fd290e8e58c67 =
     [ "wrapperStructFace.hpp", "wrapper_struct_face_8hpp.html", [
       [ "WrapperStructFace", "structop_1_1_wrapper_struct_face.html", "structop_1_1_wrapper_struct_face" ]
     ] ],
+    [ "wrapperStructGui.hpp", "wrapper_struct_gui_8hpp.html", [
+      [ "WrapperStructGui", "structop_1_1_wrapper_struct_gui.html", "structop_1_1_wrapper_struct_gui" ]
+    ] ],
     [ "wrapperStructHand.hpp", "wrapper_struct_hand_8hpp.html", [
       [ "WrapperStructHand", "structop_1_1_wrapper_struct_hand.html", "structop_1_1_wrapper_struct_hand" ]
     ] ],

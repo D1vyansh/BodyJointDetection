@@ -45,11 +45,11 @@ var NAVTREEINDEX =
 "classop_1_1_hand_extractor_caffe.html#aee681b43b8691ac1f07e08616522f6af",
 "classop_1_1_queue.html#ab28fa9f713d05e55e5ba1510b34d57f0",
 "classop_1_1_w_hand_extractor_net.html#ab46b680c14fb2a0cb171b040da484eda",
-"face_parameters_8hpp.html#a3fbae1778780ae5bf4ffcc84cdef1870",
-"grid_pattern_functions_8hpp.html#a3eac494df764905a18e976f6af303855",
-"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fadbaf53bb16512afd613bbec1d1f0dc25",
-"structop_1_1_datum.html#af03c894035d9e45c35d91ca4cfa6df85",
-"w_hand_detector_tracking_8hpp.html"
+"face_parameters_8hpp.html#a1a7ddb1a137c44091a1b4161725adfa0",
+"grid_pattern_functions_8hpp.html#a1a0199d6781778e6f50213c816189f26",
+"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fad788fbec25069f2884ee1ed97e0af2b9",
+"structop_1_1_datum.html#aef6c478313691ab5101664c1df55aa58",
+"w_hand_detector_from_txt_8hpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

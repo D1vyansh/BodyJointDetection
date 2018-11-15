@@ -45,6 +45,7 @@ var searchData=
   ['wrapperauxiliary_2ehpp',['wrapperAuxiliary.hpp',['../wrapper_auxiliary_8hpp.html',1,'']]],
   ['wrapperstructextra_2ehpp',['wrapperStructExtra.hpp',['../wrapper_struct_extra_8hpp.html',1,'']]],
   ['wrapperstructface_2ehpp',['wrapperStructFace.hpp',['../wrapper_struct_face_8hpp.html',1,'']]],
+  ['wrapperstructgui_2ehpp',['wrapperStructGui.hpp',['../wrapper_struct_gui_8hpp.html',1,'']]],
   ['wrapperstructhand_2ehpp',['wrapperStructHand.hpp',['../wrapper_struct_hand_8hpp.html',1,'']]],
   ['wrapperstructinput_2ehpp',['wrapperStructInput.hpp',['../wrapper_struct_input_8hpp.html',1,'']]],
   ['wrapperstructoutput_2ehpp',['wrapperStructOutput.hpp',['../wrapper_struct_output_8hpp.html',1,'']]],

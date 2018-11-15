@@ -50,6 +50,7 @@ var searchData=
   ['wrapper_3c_20cl_5fsampler_20_3e',['Wrapper&lt; cl_sampler &gt;',['../classcl_1_1detail_1_1_wrapper.html',1,'cl::detail']]],
   ['wrapperstructextra',['WrapperStructExtra',['../structop_1_1_wrapper_struct_extra.html',1,'op']]],
   ['wrapperstructface',['WrapperStructFace',['../structop_1_1_wrapper_struct_face.html',1,'op']]],
+  ['wrapperstructgui',['WrapperStructGui',['../structop_1_1_wrapper_struct_gui.html',1,'op']]],
   ['wrapperstructhand',['WrapperStructHand',['../structop_1_1_wrapper_struct_hand.html',1,'op']]],
   ['wrapperstructinput',['WrapperStructInput',['../structop_1_1_wrapper_struct_input.html',1,'op']]],
   ['wrapperstructoutput',['WrapperStructOutput',['../structop_1_1_wrapper_struct_output.html',1,'op']]],

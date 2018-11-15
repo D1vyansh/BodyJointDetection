@@ -1,9 +1,6 @@
 var structop_1_1_wrapper_struct_output =
 [
-    [ "WrapperStructOutput", "structop_1_1_wrapper_struct_output.html#ae6af809e1b560ca018861ee8221bad21", null ],
-    [ "displayMode", "structop_1_1_wrapper_struct_output.html#a4e18a93cfa9c6b47151427152a745817", null ],
-    [ "fullScreen", "structop_1_1_wrapper_struct_output.html#aaf5df884418d2bf1df36505009264ece", null ],
-    [ "guiVerbose", "structop_1_1_wrapper_struct_output.html#ac72ad601daf957b9b000206e9f1fe0ad", null ],
+    [ "WrapperStructOutput", "structop_1_1_wrapper_struct_output.html#ac920fdda24f98874218f382ff501a930", null ],
     [ "udpHost", "structop_1_1_wrapper_struct_output.html#a92040f009e2f9344037d93d6442ce117", null ],
     [ "udpPort", "structop_1_1_wrapper_struct_output.html#aec3a7ec85be0779930427ba3e806ea2c", null ],
     [ "writeBvh", "structop_1_1_wrapper_struct_output.html#add74785fc0cb1fc7d2c6b5f88b622d53", null ],

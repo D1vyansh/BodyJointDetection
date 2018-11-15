@@ -7,7 +7,7 @@ var pose_parameters_8hpp =
     [ "getPoseDefaultMinSubsetCnt", "pose_parameters_8hpp.html#a863c96f1fb23d96c5d605867cfe5f99f", null ],
     [ "getPoseDefaultNmsThreshold", "pose_parameters_8hpp.html#acd8cab258d7e98affa5c317a9a03e862", null ],
     [ "getPoseMapIndex", "pose_parameters_8hpp.html#a84d87ec0e4ed3cf75a37ce99d0d25ef7", null ],
-    [ "getPoseMaxPeaks", "pose_parameters_8hpp.html#ab48e314ecd19f55f664b14da1d83312f", null ],
+    [ "getPoseMaxPeaks", "pose_parameters_8hpp.html#a96a81e831f8c965825162dba09095477", null ],
     [ "getPoseNetDecreaseFactor", "pose_parameters_8hpp.html#ad7ca8d89f9045481075902c8bd98b8f4", null ],
     [ "getPoseNumberBodyParts", "pose_parameters_8hpp.html#a54a6c42a42a0a7e539061f5e30abb4bc", null ],
     [ "getPosePartPairs", "pose_parameters_8hpp.html#a307b2c7b1506415a4ba44590fe8a7258", null ],

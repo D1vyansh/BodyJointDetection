@@ -137,6 +137,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2df21b920f7b2896378e1dcc0c2e8856"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28ce33d79dfde559b150f5d5f9ee4ae0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper_t.html#a28ce33d79dfde559b150f5d5f9ee4ae0">configure</a> (const <a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a> &amp;wrapperStructOutput)</td></tr>
 <tr class="separator:a28ce33d79dfde559b150f5d5f9ee4ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3da729adb7b73450e3c530aca3d086e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper_t.html#ac3da729adb7b73450e3c530aca3d086e">configure</a> (const <a class="el" href="structop_1_1_wrapper_struct_gui.html">WrapperStructGui</a> &amp;wrapperStructGui)</td></tr>
+<tr class="separator:ac3da729adb7b73450e3c530aca3d086e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48088e6ebf48122482718560c20549c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper_t.html#a48088e6ebf48122482718560c20549c8">exec</a> ()</td></tr>
 <tr class="separator:a48088e6ebf48122482718560c20549c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2286c8d07f375f180e2077bb871f8e50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_wrapper_t.html#a2286c8d07f375f180e2077bb871f8e50">start</a> ()</td></tr>
@@ -272,7 +274,7 @@ template&lt;typename TDatums , typename TDatumsSP , typename TWorker &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Analogous to <a class="el" href="classop_1_1_wrapper_t.html#a35ef4643d2b7813eca61bc072bb4f4bb">configure()</a> but applied to only pose (<a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a>) </p>
+<p>Analogous to configure(WrapperStructPose) but applied to face (<a class="el" href="structop_1_1_wrapper_struct_face.html">WrapperStructFace</a>) </p>
 
 </div>
 </div>
@@ -291,7 +293,7 @@ template&lt;typename TDatums , typename TDatumsSP , typename TWorker &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Analogous to <a class="el" href="classop_1_1_wrapper_t.html#a35ef4643d2b7813eca61bc072bb4f4bb">configure()</a> but applied to only pose (<a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a>) </p>
+<p>Analogous to <a class="el" href="classop_1_1_wrapper_t.html#a35ef4643d2b7813eca61bc072bb4f4bb">configure()</a> but applied to hand (<a class="el" href="structop_1_1_wrapper_struct_hand.html">WrapperStructHand</a>) </p>
 
 </div>
 </div>
@@ -310,7 +312,7 @@ template&lt;typename TDatums , typename TDatumsSP , typename TWorker &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Analogous to <a class="el" href="classop_1_1_wrapper_t.html#a35ef4643d2b7813eca61bc072bb4f4bb">configure()</a> but applied to only pose (<a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a>) </p>
+<p>Analogous to <a class="el" href="classop_1_1_wrapper_t.html#a35ef4643d2b7813eca61bc072bb4f4bb">configure()</a> but applied to the extra options (<a class="el" href="structop_1_1_wrapper_struct_extra.html">WrapperStructExtra</a>) </p>
 
 </div>
 </div>
@@ -329,7 +331,7 @@ template&lt;typename TDatums , typename TDatumsSP , typename TWorker &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Analogous to <a class="el" href="classop_1_1_wrapper_t.html#a35ef4643d2b7813eca61bc072bb4f4bb">configure()</a> but applied to only pose (<a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a>) </p>
+<p>Analogous to <a class="el" href="classop_1_1_wrapper_t.html#a35ef4643d2b7813eca61bc072bb4f4bb">configure()</a> but applied to the input (<a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a>) </p>
 
 </div>
 </div>
@@ -348,7 +350,26 @@ template&lt;typename TDatums , typename TDatumsSP , typename TWorker &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Analogous to <a class="el" href="classop_1_1_wrapper_t.html#a35ef4643d2b7813eca61bc072bb4f4bb">configure()</a> but applied to only pose (<a class="el" href="structop_1_1_wrapper_struct_input.html">WrapperStructInput</a>) </p>
+<p>Analogous to <a class="el" href="classop_1_1_wrapper_t.html#a35ef4643d2b7813eca61bc072bb4f4bb">configure()</a> but applied to the output (<a class="el" href="structop_1_1_wrapper_struct_output.html">WrapperStructOutput</a>) </p>
+
+</div>
+</div>
+<a class="anchor" id="ac3da729adb7b73450e3c530aca3d086e"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename TDatums , typename TDatumsSP , typename TWorker &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classop_1_1_wrapper_t.html">op::WrapperT</a>&lt; TDatums, TDatumsSP, TWorker &gt;::configure </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structop_1_1_wrapper_struct_gui.html">WrapperStructGui</a> &amp;&#160;</td>
+          <td class="paramname"><em>wrapperStructGui</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Analogous to <a class="el" href="classop_1_1_wrapper_t.html#a35ef4643d2b7813eca61bc072bb4f4bb">configure()</a> but applied to the GUI (<a class="el" href="structop_1_1_wrapper_struct_gui.html">WrapperStructGui</a>) </p>
 
 </div>
 </div>

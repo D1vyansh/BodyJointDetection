@@ -22,6 +22,6 @@ var searchData=
   ['framerotate',['frameRotate',['../structop_1_1_wrapper_struct_input.html#a86df98e50b680b30afe100d8b2b50685',1,'op::WrapperStructInput']]],
   ['framesrepeat',['framesRepeat',['../structop_1_1_wrapper_struct_input.html#a7c80f6a3687696ba30d3ce0902ac162f',1,'op::WrapperStructInput']]],
   ['framestep',['frameStep',['../structop_1_1_wrapper_struct_input.html#ac4349e123d359f436cc01d4068231dc2',1,'op::WrapperStructInput']]],
-  ['fullscreen',['fullScreen',['../structop_1_1_wrapper_struct_output.html#aaf5df884418d2bf1df36505009264ece',1,'op::WrapperStructOutput']]],
+  ['fullscreen',['fullScreen',['../structop_1_1_wrapper_struct_gui.html#ac1d393d3ce6be9304017c1aa3afd8f13',1,'op::WrapperStructGui']]],
   ['functor_5f',['functor_',['../structcl_1_1compatibility_1_1make__kernel.html#a821c68ade541cfe7b62d894c6d5113d7',1,'cl::compatibility::make_kernel']]]
 ];

@@ -125,6 +125,7 @@ var namespaceop =
     [ "WrapperT", "classop_1_1_wrapper_t.html", "classop_1_1_wrapper_t" ],
     [ "WrapperStructExtra", "structop_1_1_wrapper_struct_extra.html", "structop_1_1_wrapper_struct_extra" ],
     [ "WrapperStructFace", "structop_1_1_wrapper_struct_face.html", "structop_1_1_wrapper_struct_face" ],
+    [ "WrapperStructGui", "structop_1_1_wrapper_struct_gui.html", "structop_1_1_wrapper_struct_gui" ],
     [ "WrapperStructHand", "structop_1_1_wrapper_struct_hand.html", "structop_1_1_wrapper_struct_hand" ],
     [ "WrapperStructInput", "structop_1_1_wrapper_struct_input.html", "structop_1_1_wrapper_struct_input" ],
     [ "WrapperStructOutput", "structop_1_1_wrapper_struct_output.html", "structop_1_1_wrapper_struct_output" ],
