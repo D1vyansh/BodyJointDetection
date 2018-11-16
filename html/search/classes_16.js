@@ -58,5 +58,6 @@ var searchData=
   ['wrappert',['WrapperT',['../classop_1_1_wrapper_t.html',1,'op']]],
   ['wscaleandsizeextractor',['WScaleAndSizeExtractor',['../classop_1_1_w_scale_and_size_extractor.html',1,'op']]],
   ['wudpsender',['WUdpSender',['../classop_1_1_w_udp_sender.html',1,'op']]],
+  ['wverboseprinter',['WVerbosePrinter',['../classop_1_1_w_verbose_printer.html',1,'op']]],
   ['wvideosaver',['WVideoSaver',['../classop_1_1_w_video_saver.html',1,'op']]]
 ];

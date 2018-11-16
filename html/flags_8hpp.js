@@ -32,6 +32,7 @@ var flags_8hpp =
     [ "DEFINE_double", "flags_8hpp.html#a6b12d681ace972ae8eede484505c50af", null ],
     [ "DEFINE_double", "flags_8hpp.html#a890b2b8df8a57fe4e9baa465c6584ccf", null ],
     [ "DEFINE_double", "flags_8hpp.html#ac17a7af1030d7f5bd69672fec961c083", null ],
+    [ "DEFINE_double", "flags_8hpp.html#a2fe410b6a4ab2577d0f513f5bef78699", null ],
     [ "DEFINE_int32", "flags_8hpp.html#a73ee51843ead02ee6358fe39dcbeffde", null ],
     [ "DEFINE_int32", "flags_8hpp.html#a8e9de971b409cfe7fdded7f0d47c502d", null ],
     [ "DEFINE_int32", "flags_8hpp.html#a10efaeb1ea3a8478388cc7d0bfd4e59e", null ],

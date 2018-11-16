@@ -36,10 +36,14 @@ var dir_d6e567c8390b6a30c30307f931e28950 =
     [ "scaleAndSizeExtractor.hpp", "scale_and_size_extractor_8hpp.html", [
       [ "ScaleAndSizeExtractor", "classop_1_1_scale_and_size_extractor.html", "classop_1_1_scale_and_size_extractor" ]
     ] ],
+    [ "verbosePrinter.hpp", "verbose_printer_8hpp.html", [
+      [ "VerbosePrinter", "classop_1_1_verbose_printer.html", "classop_1_1_verbose_printer" ]
+    ] ],
     [ "wCvMatToOpInput.hpp", "w_cv_mat_to_op_input_8hpp.html", "w_cv_mat_to_op_input_8hpp" ],
     [ "wCvMatToOpOutput.hpp", "w_cv_mat_to_op_output_8hpp.html", "w_cv_mat_to_op_output_8hpp" ],
     [ "wKeepTopNPeople.hpp", "w_keep_top_n_people_8hpp.html", "w_keep_top_n_people_8hpp" ],
     [ "wKeypointScaler.hpp", "w_keypoint_scaler_8hpp.html", "w_keypoint_scaler_8hpp" ],
     [ "wOpOutputToCvMat.hpp", "w_op_output_to_cv_mat_8hpp.html", "w_op_output_to_cv_mat_8hpp" ],
-    [ "wScaleAndSizeExtractor.hpp", "w_scale_and_size_extractor_8hpp.html", "w_scale_and_size_extractor_8hpp" ]
+    [ "wScaleAndSizeExtractor.hpp", "w_scale_and_size_extractor_8hpp.html", "w_scale_and_size_extractor_8hpp" ],
+    [ "wVerbosePrinter.hpp", "w_verbose_printer_8hpp.html", "w_verbose_printer_8hpp" ]
 ];

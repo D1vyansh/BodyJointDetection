@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/headers.hpp File Reference</title>
+<title>OpenPose: /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/core/verbosePrinter.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -85,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('core_2headers_8hpp.html','');});
+$(document).ready(function(){initNavTree('verbose_printer_8hpp_source.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -104,40 +104,43 @@ $(document).ready(function(){initNavTree('core_2headers_8hpp.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">headers.hpp File Reference</div>  </div>
+<div class="title">verbosePrinter.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="array_8hpp_source.html">openpose/core/array.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="common_8hpp_source.html">openpose/core/common.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="cv_mat_to_op_input_8hpp_source.html">openpose/core/cvMatToOpInput.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="cv_mat_to_op_output_8hpp_source.html">openpose/core/cvMatToOpOutput.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="datum_8hpp_source.html">openpose/core/datum.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="core_2enum_classes_8hpp_source.html">openpose/core/enumClasses.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="gpu_renderer_8hpp_source.html">openpose/core/gpuRenderer.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="keep_top_n_people_8hpp_source.html">openpose/core/keepTopNPeople.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="keypoint_scaler_8hpp_source.html">openpose/core/keypointScaler.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="macros_8hpp_source.html">openpose/core/macros.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="op_output_to_cv_mat_8hpp_source.html">openpose/core/opOutputToCvMat.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="point_8hpp_source.html">openpose/core/point.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="rectangle_8hpp_source.html">openpose/core/rectangle.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="renderer_8hpp_source.html">openpose/core/renderer.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="scale_and_size_extractor_8hpp_source.html">openpose/core/scaleAndSizeExtractor.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="verbose_printer_8hpp_source.html">openpose/core/verbosePrinter.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="w_cv_mat_to_op_input_8hpp_source.html">openpose/core/wCvMatToOpInput.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="w_cv_mat_to_op_output_8hpp_source.html">openpose/core/wCvMatToOpOutput.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="w_keep_top_n_people_8hpp_source.html">openpose/core/wKeepTopNPeople.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="w_keypoint_scaler_8hpp_source.html">openpose/core/wKeypointScaler.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="w_op_output_to_cv_mat_8hpp_source.html">openpose/core/wOpOutputToCvMat.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="w_scale_and_size_extractor_8hpp_source.html">openpose/core/wScaleAndSizeExtractor.hpp</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="w_verbose_printer_8hpp_source.html">openpose/core/wVerbosePrinter.hpp</a>&gt;</code><br/>
-</div>
-<p><a href="core_2headers_8hpp_source.html">Go to the source code of this file.</a></p>
-</div><!-- contents -->
+<a href="verbose_printer_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef OPENPOSE_CORE_VERBOSE_PRINTER_HPP</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define OPENPOSE_CORE_VERBOSE_PRINTER_HPP</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="common_8hpp.html">openpose/core/common.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span>op</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classop_1_1_verbose_printer.html">    8</a></span>&#160;    <span class="keyword">class </span><a class="code" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> <a class="code" href="classop_1_1_verbose_printer.html">VerbosePrinter</a></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="classop_1_1_verbose_printer.html">VerbosePrinter</a>(<span class="keyword">const</span> <span class="keywordtype">double</span> verbose, <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> numberFrames);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">virtual</span> ~<a class="code" href="classop_1_1_verbose_printer.html">VerbosePrinter</a>();</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">void</span> printVerbose(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> frameNumber) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> mNumberFrames;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">const</span> <a class="code" href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">std::string</a> mNumberFramesString;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">double</span> mVerbose;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    };</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif // OPENPOSE_CORE_VERBOSE_PRINTER_HPP</span></div>
+<div class="ttc" id="classop_1_1_verbose_printer_html"><div class="ttname"><a href="classop_1_1_verbose_printer.html">op::VerbosePrinter</a></div><div class="ttdef"><b>Definition:</b> verbosePrinter.hpp:8</div></div>
+<div class="ttc" id="common_8hpp_html"><div class="ttname"><a href="common_8hpp.html">common.hpp</a></div></div>
+<div class="ttc" id="macros_8hpp_html_a4ba443bb7a0e5dbe8054a9ac37a5e000"><div class="ttname"><a href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a></div><div class="ttdeci">#define OP_API</div><div class="ttdef"><b>Definition:</b> macros.hpp:19</div></div>
+<div class="ttc" id="namespacecl_html_abff80bfb254d646f6afeb6638df41686"><div class="ttname"><a href="namespacecl.html#abff80bfb254d646f6afeb6638df41686">cl::string</a></div><div class="ttdeci">std::string string</div><div class="ttdef"><b>Definition:</b> cl2.hpp:574</div></div>
+</div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_d6e567c8390b6a30c30307f931e28950.html">core</a></li><li class="navelem"><a class="el" href="core_2headers_8hpp.html">headers.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_7f012205977c6890af7afa3b7477c2d1.html">include</a></li><li class="navelem"><a class="el" href="dir_18695feb986752a25b816536eab00e96.html">openpose</a></li><li class="navelem"><a class="el" href="dir_d6e567c8390b6a30c30307f931e28950.html">core</a></li><li class="navelem"><a class="el" href="verbose_printer_8hpp.html">verbosePrinter.hpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>

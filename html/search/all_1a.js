@@ -67,6 +67,7 @@ var searchData=
   ['_7ethread',['~Thread',['../classop_1_1_thread.html#a151e4e647917f2351cc05a8861588e2a',1,'op::Thread']]],
   ['_7ethreadmanager',['~ThreadManager',['../classop_1_1_thread_manager.html#a03c6587dbc60b266bee04b9714647fba',1,'op::ThreadManager']]],
   ['_7eudpsender',['~UdpSender',['../classop_1_1_udp_sender.html#ac85192d475d5e84b9dcc839d5e240585',1,'op::UdpSender']]],
+  ['_7everboseprinter',['~VerbosePrinter',['../classop_1_1_verbose_printer.html#a5c4ef10db4aba13be43b92ab4e6c4d3e',1,'op::VerbosePrinter']]],
   ['_7evideocapturereader',['~VideoCaptureReader',['../classop_1_1_video_capture_reader.html#a7ea52eabf5133a1a01d38f95b1a4b601',1,'op::VideoCaptureReader']]],
   ['_7evideoreader',['~VideoReader',['../classop_1_1_video_reader.html#a26cee6225a62c4e120ae9ea2e4a9a41c',1,'op::VideoReader']]],
   ['_7evideosaver',['~VideoSaver',['../classop_1_1_video_saver.html#acfb839eb14ac032055930932db966e84',1,'op::VideoSaver']]],
@@ -112,5 +113,6 @@ var searchData=
   ['_7ewrappert',['~WrapperT',['../classop_1_1_wrapper_t.html#a2cdd17032798ac3f2da0cf004c698c97',1,'op::WrapperT']]],
   ['_7ewscaleandsizeextractor',['~WScaleAndSizeExtractor',['../classop_1_1_w_scale_and_size_extractor.html#afe30e073c4410146e2c8ba8f2752737f',1,'op::WScaleAndSizeExtractor']]],
   ['_7ewudpsender',['~WUdpSender',['../classop_1_1_w_udp_sender.html#a684854618fbd74bce420ed44d867f8cd',1,'op::WUdpSender']]],
+  ['_7ewverboseprinter',['~WVerbosePrinter',['../classop_1_1_w_verbose_printer.html#a32ea8ffef9a255ee33d6d56a550706f8',1,'op::WVerbosePrinter']]],
   ['_7ewvideosaver',['~WVideoSaver',['../classop_1_1_w_video_saver.html#ac0057c1bbfb3e193c891f167d56fcbab',1,'op::WVideoSaver']]]
 ];

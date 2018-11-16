@@ -249,6 +249,8 @@ Functions</h2></td></tr>
 <tr class="separator:a0ee4f86d572ef52ec26dcbb37efb5e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a34e10f75069cf3283e535a77006775"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a9a34e10f75069cf3283e535a77006775">DEFINE_int32</a> (display,-1,&quot;Display mode: -1 for automatic selection; 0 for no display (useful if there is no X server&quot;&quot; and/or to slightly speed up the processing if visual output is not required); 2 for 2-D&quot;&quot; display; 3 for 3-D display (if `--3d` enabled); and 1 for both 2-D and 3-D display.&quot;)</td></tr>
 <tr class="separator:a9a34e10f75069cf3283e535a77006775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe410b6a4ab2577d0f513f5bef78699"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a2fe410b6a4ab2577d0f513f5bef78699">DEFINE_double</a> (cli_verbose,-1.f,&quot;If -1, it will be disabled (default). If it is a positive integer number, it will print on&quot;&quot; the command line every `verbose` frames. If number in the range (0,1), it will print the&quot;&quot; progress every `verbose` times the total of frames.&quot;)</td></tr>
+<tr class="separator:a2fe410b6a4ab2577d0f513f5bef78699"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a3597e9216885470199ca1578eb7f69"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a7a3597e9216885470199ca1578eb7f69">DEFINE_string</a> (write_images,&quot;&quot;,&quot;Directory to write rendered frames in `write_images_format` image format.&quot;)</td></tr>
 <tr class="separator:a7a3597e9216885470199ca1578eb7f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6957bf419a0ca3478948a62a3ce5ecf0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a6957bf419a0ca3478948a62a3ce5ecf0">DEFINE_string</a> (write_images_format,&quot;png&quot;,&quot;File extension and format for `write_images`, e.g., png, jpg or bmp. Check the OpenCV&quot;&quot; function cv::imwrite for all compatible extensions.&quot;)</td></tr>
@@ -1533,6 +1535,56 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&quot;Analogous to `alpha_heatmap` but applied to hand.&quot;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2fe410b6a4ab2577d0f513f5bef78699"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DEFINE_double </td>
+          <td>(</td>
+          <td class="paramtype">cli_verbose&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">-1.&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;If -&#160;</td>
+          <td class="paramname"><em>1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">it will be disabled(default).If it is a positive integer&#160;</td>
+          <td class="paramname"><em>number</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">it will print on&quot;&quot;the command line every`verbose`frames.If number in the &#160;</td>
+          <td class="paramname"><em>range</em>0, 1, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">it will print the&quot;&quot;progress every`verbose`times the total of frames.&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

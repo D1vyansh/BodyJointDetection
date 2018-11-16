@@ -1,8 +1,9 @@
 var structop_1_1_wrapper_struct_output =
 [
-    [ "WrapperStructOutput", "structop_1_1_wrapper_struct_output.html#ac920fdda24f98874218f382ff501a930", null ],
+    [ "WrapperStructOutput", "structop_1_1_wrapper_struct_output.html#a429cbf2dbb9464ad6c5937033211c928", null ],
     [ "udpHost", "structop_1_1_wrapper_struct_output.html#a92040f009e2f9344037d93d6442ce117", null ],
     [ "udpPort", "structop_1_1_wrapper_struct_output.html#aec3a7ec85be0779930427ba3e806ea2c", null ],
+    [ "verbose", "structop_1_1_wrapper_struct_output.html#aec57f5b4f6920cd43c2f6e55a21c769b", null ],
     [ "writeBvh", "structop_1_1_wrapper_struct_output.html#add74785fc0cb1fc7d2c6b5f88b622d53", null ],
     [ "writeCocoFootJson", "structop_1_1_wrapper_struct_output.html#aaadbe4f8f765a751973ed1b405843c74", null ],
     [ "writeCocoJson", "structop_1_1_wrapper_struct_output.html#a6efbd77da8ebcea3abc4109bb2f39c0b", null ],

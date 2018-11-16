@@ -154,6 +154,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_scale_and_size_extractor.html">ScaleAndSizeExtractor</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_verbose_printer.html">VerbosePrinter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_cv_mat_to_op_input.html">WCvMatToOpInput</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_cv_mat_to_op_output.html">WCvMatToOpOutput</a></td></tr>
@@ -165,6 +167,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_op_output_to_cv_mat.html">WOpOutputToCvMat</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_scale_and_size_extractor.html">WScaleAndSizeExtractor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_w_verbose_printer.html">WVerbosePrinter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_face_cpu_renderer.html">FaceCpuRenderer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -588,6 +592,8 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="separator:a1d9f50688522ed7368acc33a09ae9ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaca98fe6101cda512a43c513182ae5cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aaca98fe6101cda512a43c513182ae5cc">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_scale_and_size_extractor.html">WScaleAndSizeExtractor</a>)</td></tr>
 <tr class="separator:aaca98fe6101cda512a43c513182ae5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89984557f6968584d1938afe7b9f32bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a89984557f6968584d1938afe7b9f32bd">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_verbose_printer.html">WVerbosePrinter</a>)</td></tr>
+<tr class="separator:a89984557f6968584d1938afe7b9f32bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fc85e8500dbeda3b75c1b6ecfac91cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a5fc85e8500dbeda3b75c1b6ecfac91cd">renderFaceKeypointsCpu</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;frameArray, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;faceKeypoints, const float renderThreshold)</td></tr>
 <tr class="separator:a5fc85e8500dbeda3b75c1b6ecfac91cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b25118b7565888a2dc570585e81ae63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a3b25118b7565888a2dc570585e81ae63">renderFaceKeypointsGpu</a> (float *framePtr, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;frameSize, const float *const facePtr, const int numberPeople, const float renderThreshold, const float alphaColorToAdd=<a class="el" href="namespaceop.html#a15f6c39797cee87f6aa941d93f22b78b">FACE_DEFAULT_ALPHA_KEYPOINT</a>)</td></tr>
@@ -2306,22 +2312,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a0424a8e4dc8ceb5e8d8a2230c157a7fd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WHandDetector&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a767385c8d3ebe736e1752825ab4d4ea0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2346,6 +2336,22 @@ template&lt;typename TPointerContainer &gt; </div>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
           <td class="paramtype">WHandDetectorTracking&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0424a8e4dc8ceb5e8d8a2230c157a7fd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WHandDetector&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2466,6 +2472,22 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="ae88e9ced5d14fa221205b492ff76c56b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WGuiInfoAdder&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aa65c081c13e0d0453938a3c41d04dc49"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2498,14 +2520,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ae88e9ced5d14fa221205b492ff76c56b"></a>
+<a class="anchor" id="a89984557f6968584d1938afe7b9f32bd"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WGuiInfoAdder&#160;</td>
+          <td class="paramtype">WVerbosePrinter&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>

@@ -196,11 +196,11 @@ $(document).ready(function(){initNavTree('w_pose_extractor_8hpp_source.html','')
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                    <span class="comment">// Keep desired top N people</span></div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                    spPoseExtractor-&gt;keepTopPeople(tDatum.poseKeypoints, tDatum.poseScores);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                    <span class="comment">// ID extractor (experimental)</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    tDatum.poseIds = spPoseExtractor-&gt;extractIdsLockThread(tDatum.poseKeypoints, tDatum.cvInputData,</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                                                           i, tDatum.id);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    tDatum.poseIds = spPoseExtractor-&gt;extractIdsLockThread(</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                        tDatum.poseKeypoints, tDatum.cvInputData, i, tDatum.id);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                    <span class="comment">// Tracking (experimental)</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                    spPoseExtractor-&gt;trackLockThread(tDatum.poseKeypoints, tDatum.poseIds, tDatum.cvInputData, i,</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                                                     tDatum.id);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                    spPoseExtractor-&gt;trackLockThread(</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                        tDatum.poseKeypoints, tDatum.poseIds, tDatum.cvInputData, i, tDatum.id);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                }</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                <span class="comment">// Profiling speed</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                <a class="code" href="classop_1_1_profiler.html#affff5b0b992e05276b2a699f97ad525d">Profiler::timerEnd</a>(profilerKey);</div>
