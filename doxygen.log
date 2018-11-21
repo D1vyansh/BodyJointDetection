@@ -1167,7 +1167,7 @@ Generating docs for compound op::WHandDetectorTr/home/travis/build/CMU-Perceptua
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:127: warning: unable to resolve reference to `doc/standalone_face_or_hand_keypoint_detector.md' for \ref command
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:128: warning: unable to resolve reference to `doc/standalone_face_or_hand_keypoint_detector.md' for \ref command
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:133: warning: unable to resolve reference to `doc/output.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:138: warning: explicit link request to 'speed' could not be resolved
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:138: warning: unable to resolve reference to `doc/speed_up_preserving_accuracy.md' for \ref command
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:163: warning: unable to resolve reference to `doc/contributors.md' for \ref command
 acking...
 Generating docs for compound op::WHandDetectorUpdate...
