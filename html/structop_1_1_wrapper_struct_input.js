@@ -1,6 +1,6 @@
 var structop_1_1_wrapper_struct_input =
 [
-    [ "WrapperStructInput", "structop_1_1_wrapper_struct_input.html#a529d945c83bb69ac1db7b8db371e6622", null ],
+    [ "WrapperStructInput", "structop_1_1_wrapper_struct_input.html#a55839a660d5259c5a4adb0639bdf156d", null ],
     [ "cameraParameterPath", "structop_1_1_wrapper_struct_input.html#aca3c35d7835493bbaf1dee26ee7a9bbd", null ],
     [ "cameraResolution", "structop_1_1_wrapper_struct_input.html#ae2078c540324a9cdc8500dce5d361bee", null ],
     [ "frameFirst", "structop_1_1_wrapper_struct_input.html#acc72b8efe09ec3888823ed5680a19fe4", null ],
@@ -13,6 +13,5 @@ var structop_1_1_wrapper_struct_input =
     [ "producerString", "structop_1_1_wrapper_struct_input.html#a03e5628a93671e1d771b3080d3c4f1e7", null ],
     [ "producerType", "structop_1_1_wrapper_struct_input.html#acd6a460d6c0a64bc818539b67fcafea7", null ],
     [ "realTimeProcessing", "structop_1_1_wrapper_struct_input.html#a2eeea9ee711a1dcbec99c3dc871fbc47", null ],
-    [ "undistortImage", "structop_1_1_wrapper_struct_input.html#ae7183e10862dbdbed422f042f1a71ed1", null ],
-    [ "webcamFps", "structop_1_1_wrapper_struct_input.html#a49970fa2a3e14394ac49c1f0679c72f5", null ]
+    [ "undistortImage", "structop_1_1_wrapper_struct_input.html#ae7183e10862dbdbed422f042f1a71ed1", null ]
 ];

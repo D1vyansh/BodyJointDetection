@@ -94,7 +94,7 @@ var searchData=
   ['createarray',['createArray',['../classop_1_1_cv_mat_to_op_input.html#acf0c43174fe8e3b1c71d76aca861a6ab',1,'op::CvMatToOpInput::createArray()'],['../classop_1_1_cv_mat_to_op_output.html#a003515873bf34525e2a6d313d8619ff3',1,'op::CvMatToOpOutput::createArray()']]],
   ['createkernels',['createKernels',['../classcl_1_1_program.html#a8251f8a862bdfd82caf10a949b2bd884',1,'cl::Program']]],
   ['createpeoplevector',['createPeopleVector',['../namespaceop.html#ae9cb91cf03ed561a31b9f4c950926731',1,'op']]],
-  ['createproducer',['createProducer',['../namespaceop.html#aff1530aa4f78f3c55b7df9b452ceee94',1,'op']]],
+  ['createproducer',['createProducer',['../namespaceop.html#a70c5ea34fa5f283a820c6090c674cbc7',1,'op']]],
   ['createsubbuffer',['createSubBuffer',['../classcl_1_1_buffer.html#ab73f1e0ab2224f3d515820dd6b0c1d73',1,'cl::Buffer']]],
   ['createsubdevices',['createSubDevices',['../classcl_1_1_device.html#ab60bfd190bf8f82cb8f0adb0a869a2f2',1,'cl::Device']]],
   ['cuda',['Cuda',['../namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa8b95dcff7397d0693c03e394af5552aa',1,'op']]],

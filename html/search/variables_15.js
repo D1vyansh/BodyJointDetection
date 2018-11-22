@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['webcamfps',['webcamFps',['../structop_1_1_wrapper_struct_input.html#a49970fa2a3e14394ac49c1f0679c72f5',1,'op::WrapperStructInput']]],
   ['width',['width',['../structop_1_1_rectangle.html#a0d0ae826039b0961fae8723708809cdf',1,'op::Rectangle']]],
   ['writebvh',['writeBvh',['../structop_1_1_wrapper_struct_output.html#add74785fc0cb1fc7d2c6b5f88b622d53',1,'op::WrapperStructOutput']]],
   ['writecocofootjson',['writeCocoFootJson',['../structop_1_1_wrapper_struct_output.html#aaadbe4f8f765a751973ed1b405843c74',1,'op::WrapperStructOutput']]],

@@ -1,6 +1,6 @@
 var classop_1_1_webcam_reader =
 [
-    [ "WebcamReader", "classop_1_1_webcam_reader.html#afbfa9ebf32ab1c95f0378b49fce0df35", null ],
+    [ "WebcamReader", "classop_1_1_webcam_reader.html#ab6709f433122e783f87db1004e6666f4", null ],
     [ "~WebcamReader", "classop_1_1_webcam_reader.html#aea29bfce4df5493d662ed3a892f364d2", null ],
     [ "get", "classop_1_1_webcam_reader.html#a38ccbdf61f21fba0694362077cb6bdb1", null ],
     [ "getCameraExtrinsics", "classop_1_1_webcam_reader.html#ab4be6381957df794c76b1c9eddd1f676", null ],

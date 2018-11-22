@@ -125,8 +125,6 @@ Functions</h2></td></tr>
 <tr class="separator:a10efaeb1ea3a8478388cc7d0bfd4e59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e7b1394aea185360a1fe19cf4e20a89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a9e7b1394aea185360a1fe19cf4e20a89">DEFINE_string</a> (camera_resolution,&quot;-1x-1&quot;,&quot;Set the camera resolution (either `--camera` or `--flir_camera`). `-1x-1` will use the&quot;&quot; default 1280x720 for `--camera`, or the maximum flir camera resolution available for&quot;&quot; `--flir_camera`&quot;)</td></tr>
 <tr class="separator:a9e7b1394aea185360a1fe19cf4e20a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29f9621cd9361deec9512f8d8b53e6ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a29f9621cd9361deec9512f8d8b53e6ba">DEFINE_double</a> (camera_fps, 30.0,&quot;Frame rate for the webcam (also used when saving video). Set this value to the minimum&quot;&quot; value between the OpenPose displayed speed and the webcam real frame rate.&quot;)</td></tr>
-<tr class="separator:a29f9621cd9361deec9512f8d8b53e6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab02d4078b5f7999a582d9c5f4248676"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#aab02d4078b5f7999a582d9c5f4248676">DEFINE_string</a> (video,&quot;&quot;,&quot;Use a video file instead of the camera. Use `examples/media/video.avi` for our default&quot;&quot; example video.&quot;)</td></tr>
 <tr class="separator:aab02d4078b5f7999a582d9c5f4248676"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7773e867133822f5601899975dc06adb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a7773e867133822f5601899975dc06adb">DEFINE_string</a> (image_dir,&quot;&quot;,&quot;Process a directory of images. Use `examples/media/` for our default example folder with 20&quot;&quot; images. Read all standard formats (jpg, png, bmp, etc.).&quot;)</td></tr>
@@ -255,8 +253,10 @@ Functions</h2></td></tr>
 <tr class="separator:a7a3597e9216885470199ca1578eb7f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6957bf419a0ca3478948a62a3ce5ecf0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a6957bf419a0ca3478948a62a3ce5ecf0">DEFINE_string</a> (write_images_format,&quot;png&quot;,&quot;File extension and format for `write_images`, e.g., png, jpg or bmp. Check the OpenCV&quot;&quot; function cv::imwrite for all compatible extensions.&quot;)</td></tr>
 <tr class="separator:a6957bf419a0ca3478948a62a3ce5ecf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3051d21eb51cc39eed5f781d8eaed960"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a3051d21eb51cc39eed5f781d8eaed960">DEFINE_string</a> (write_video,&quot;&quot;,&quot;Full file path to write rendered frames in motion JPEG video format. It might fail if the&quot;&quot; final path does not finish in `.avi`. It internally uses cv::VideoWriter. Flag&quot;&quot; `camera_fps` controls FPS.&quot;)</td></tr>
-<tr class="separator:a3051d21eb51cc39eed5f781d8eaed960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2473e551c10d8627471382b70fbb838e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a2473e551c10d8627471382b70fbb838e">DEFINE_string</a> (write_video,&quot;&quot;,&quot;Full file path to write rendered frames in motion JPEG video format. It might fail if the&quot;&quot; final path does not finish in `.avi`. It internally uses cv::VideoWriter. Flag&quot;&quot; `write_video_fps` controls FPS.&quot;)</td></tr>
+<tr class="separator:a2473e551c10d8627471382b70fbb838e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba34d451bc7a9409cdb246e1d945b451"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#aba34d451bc7a9409cdb246e1d945b451">DEFINE_double</a> (write_video_fps,-1.,&quot;Frame rate for the recorded video. By default, it will try to get the input frames producer&quot;&quot; frame rate (e.g., input video or webcam frame rate). If the input frames producer does not&quot;&quot; have a set FPS (e.g., image_dir or webcam if OpenCV not compiled with its support), set&quot;&quot; this value accordingly (e.g., to the frame rate displayed by the OpenPose GUI).&quot;)</td></tr>
+<tr class="separator:aba34d451bc7a9409cdb246e1d945b451"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aa48b2ab293842bc42b96df9e97c9b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a9aa48b2ab293842bc42b96df9e97c9b8">DEFINE_string</a> (write_json,&quot;&quot;,&quot;Directory to write OpenPose output in JSON format. It includes body, hand, and face pose&quot;&quot; keypoints (2-D and 3-D), as well as pose candidates (if `--part_candidates` enabled).&quot;)</td></tr>
 <tr class="separator:a9aa48b2ab293842bc42b96df9e97c9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26d1c7340fc87d4593dda754d54145a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a26d1c7340fc87d4593dda754d54145a2">DEFINE_string</a> (write_coco_json,&quot;&quot;,&quot;Full file path to write people pose data with JSON COCO validation format.&quot;)</td></tr>
@@ -273,8 +273,8 @@ Functions</h2></td></tr>
 <tr class="separator:ad8c5173beb83c0f9996362b3a3fba820"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aaba99bdb163516d0297d2e09dd0c7d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a5aaba99bdb163516d0297d2e09dd0c7d">DEFINE_string</a> (write_keypoint_format,&quot;yml&quot;,&quot;(Deprecated, use `write_json`) File extension and format for `write_keypoint`: json, xml,&quot;&quot; yaml &amp; yml. Json not available for OpenCV &lt; 3.0, use `write_json` instead.&quot;)</td></tr>
 <tr class="separator:a5aaba99bdb163516d0297d2e09dd0c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7a48143249d608e2ad3a8413eb19c34"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#ad7a48143249d608e2ad3a8413eb19c34">DEFINE_string</a> (write_video_adam,&quot;&quot;,&quot;Experimental, not available yet. E.g., `~/Desktop/adamResult.avi`. Flag `camera_fps`&quot;&quot; controls FPS.&quot;)</td></tr>
-<tr class="separator:ad7a48143249d608e2ad3a8413eb19c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26f9e4bae967b528e221c40d21cad543"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a26f9e4bae967b528e221c40d21cad543">DEFINE_string</a> (write_video_adam,&quot;&quot;,&quot;Experimental, not available yet. E.g., `~/Desktop/adamResult.avi`. Flag `write_video_fps`&quot;&quot; controls FPS.&quot;)</td></tr>
+<tr class="separator:a26f9e4bae967b528e221c40d21cad543"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72c09e09c94b67f88b53e1a94e7bfe0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a72c09e09c94b67f88b53e1a94e7bfe0f">DEFINE_string</a> (write_bvh,&quot;&quot;,&quot;Experimental, not available yet. E.g., `~/Desktop/mocapResult.bvh`.&quot;)</td></tr>
 <tr class="separator:a72c09e09c94b67f88b53e1a94e7bfe0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63936bd2bc53a453ba74066289ab9d29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a63936bd2bc53a453ba74066289ab9d29">DEFINE_string</a> (udp_host,&quot;&quot;,&quot;Experimental, not available yet. IP for UDP communication. E.g., `192.168.0.1`.&quot;)</td></tr>
@@ -1097,38 +1097,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a29f9621cd9361deec9512f8d8b53e6ba"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DEFINE_double </td>
-          <td>(</td>
-          <td class="paramtype">camera_fps&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">30.&#160;</td>
-          <td class="paramname"><em>0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&quot;Frame rate for the webcam (also used when saving video). Set this value to the minimum&quot;&quot; value between the OpenPose displayed speed and the webcam real frame rate.&quot;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="adf35e9261afec1673a42de6197f07f42"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1585,6 +1553,50 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">it will print the&quot;&quot;progress every`verbose`times the total of frames.&quot;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aba34d451bc7a9409cdb246e1d945b451"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DEFINE_double </td>
+          <td>(</td>
+          <td class="paramtype">write_video_fps&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">-&#160;</td>
+          <td class="paramname"><em>1.</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;Frame rate for the recorded video. By&#160;</td>
+          <td class="paramname"><em>default</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">it will try to get the input frames producer&quot;&quot;frame &#160;</td>
+          <td class="paramname"><em>rate</em>e.g., input video or webcam frame rate).If the input frames producer does not&quot;&quot;have a set FPS(e.g., image_dir or webcam if OpenCV not compiled with its support, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">set&quot;&quot;this value accordingly(e.g., to the frame rate displayed by the OpenPose GUI).&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -3017,7 +3029,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3051d21eb51cc39eed5f781d8eaed960"></a>
+<a class="anchor" id="a2473e551c10d8627471382b70fbb838e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3036,7 +3048,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&quot;Full file path to write rendered frames in motion JPEG video format. It might fail if the&quot;&quot; final path does not finish in `.avi`. It internally uses cv::VideoWriter. Flag&quot;&quot; `camera_fps` controls FPS.&quot;&#160;</td>
+          <td class="paramtype">&quot;Full file path to write rendered frames in motion JPEG video format. It might fail if the&quot;&quot; final path does not finish in `.avi`. It internally uses cv::VideoWriter. Flag&quot;&quot; `write_video_fps` controls FPS.&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -3309,7 +3321,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad7a48143249d608e2ad3a8413eb19c34"></a>
+<a class="anchor" id="a26f9e4bae967b528e221c40d21cad543"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3340,7 +3352,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">`~/Desktop/adamResult.avi`.Flag`camera_fps`&quot;&quot;controls FPS.&quot;&#160;</td>
+          <td class="paramtype">`~/Desktop/adamResult.avi`.Flag`write_video_fps`&quot;&quot;controls FPS.&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

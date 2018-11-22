@@ -119,8 +119,8 @@ $(document).ready(function(){initNavTree('classop_1_1_webcam_reader.html','');})
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:afbfa9ebf32ab1c95f0378b49fce0df35"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_webcam_reader.html#afbfa9ebf32ab1c95f0378b49fce0df35">WebcamReader</a> (const int webcamIndex=0, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;webcamResolution=<a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;{}, const double fps=30., const bool throwExceptionIfNoOpened=true)</td></tr>
-<tr class="separator:afbfa9ebf32ab1c95f0378b49fce0df35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6709f433122e783f87db1004e6666f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_webcam_reader.html#ab6709f433122e783f87db1004e6666f4">WebcamReader</a> (const int webcamIndex=0, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;webcamResolution=<a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;{}, const bool throwExceptionIfNoOpened=true)</td></tr>
+<tr class="separator:ab6709f433122e783f87db1004e6666f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea29bfce4df5493d662ed3a892f364d2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_webcam_reader.html#aea29bfce4df5493d662ed3a892f364d2">~WebcamReader</a> ()</td></tr>
 <tr class="separator:aea29bfce4df5493d662ed3a892f364d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbad75f82bf39bfd503bbc8bd881592d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Mat &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_webcam_reader.html#afbad75f82bf39bfd503bbc8bd881592d">getCameraMatrices</a> ()</td></tr>
@@ -182,7 +182,7 @@ Additional Inherited Members</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classop_1_1_webcam_reader.html">WebcamReader</a> is a wrapper of the cv::VideoCapture class for webcam. It allows controlling a video (extracting frames, setting resolution &amp; fps, seeking to a particular frame, etc). </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="afbfa9ebf32ab1c95f0378b49fce0df35"></a>
+<a class="anchor" id="ab6709f433122e783f87db1004e6666f4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -200,12 +200,6 @@ Additional Inherited Members</h2></td></tr>
           <td></td>
           <td class="paramtype">const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;&#160;</td>
           <td class="paramname"><em>webcamResolution</em> = <code><a class="el" href="structop_1_1_point.html">Point</a>&lt;&#160;int&#160;&gt;{}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const double&#160;</td>
-          <td class="paramname"><em>fps</em> = <code>30.</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -230,7 +224,7 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">webcamIndex</td><td>const int indicating the camera source (see the OpenCV documentation about cv::VideoCapture for more details), in the range [0, 9]. </td></tr>
     <tr><td class="paramname">webcamResolution</td><td>const <a class="el" href="structop_1_1_point.html">Point&lt;int&gt;</a> parameter which specifies the desired camera resolution. </td></tr>
-    <tr><td class="paramname">fps</td><td>Double parameter which specifies the desired camera frame rate. </td></tr>
+    <tr><td class="paramname">throwExceptionIfNoOpened</td><td>Bool parameter which specifies whether to throw an exception if the camera cannot be opened. </td></tr>
   </table>
   </dd>
 </dl>
