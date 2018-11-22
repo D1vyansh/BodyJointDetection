@@ -1,6 +1,6 @@
 var structop_1_1_wrapper_struct_pose =
 [
-    [ "WrapperStructPose", "structop_1_1_wrapper_struct_pose.html#a17b6f8cf237c7b0399c65d432188165a", null ],
+    [ "WrapperStructPose", "structop_1_1_wrapper_struct_pose.html#a19d9b747af25d8916ff088a8f8f5fde7", null ],
     [ "addPartCandidates", "structop_1_1_wrapper_struct_pose.html#ad73981c6ad9b23f511ef6f12136bf8e7", null ],
     [ "alphaHeatMap", "structop_1_1_wrapper_struct_pose.html#ac1233492c750fbd98df353bffa8f9b78", null ],
     [ "alphaKeypoint", "structop_1_1_wrapper_struct_pose.html#a4d3ad84b14697d5f1009fa29e2ff1998", null ],
@@ -8,6 +8,7 @@ var structop_1_1_wrapper_struct_pose =
     [ "defaultPartToRender", "structop_1_1_wrapper_struct_pose.html#ab6810e97aa62a728aa09dbbe6b9b6c06", null ],
     [ "enable", "structop_1_1_wrapper_struct_pose.html#acad34562a52b7474f928a021b03a9f90", null ],
     [ "enableGoogleLogging", "structop_1_1_wrapper_struct_pose.html#a782ba82c6aeabea8fa625042fdf09408", null ],
+    [ "fpsMax", "structop_1_1_wrapper_struct_pose.html#a16c4fb26e6ce76dfa577e0f4b5747733", null ],
     [ "gpuNumber", "structop_1_1_wrapper_struct_pose.html#a536ea76d50e94d513066e9e5767d0c03", null ],
     [ "gpuNumberStart", "structop_1_1_wrapper_struct_pose.html#a8be188d871061079432ead77b278fe0d", null ],
     [ "heatMapScale", "structop_1_1_wrapper_struct_pose.html#abeb9ae450a7b37e76075c8dca64b3617", null ],

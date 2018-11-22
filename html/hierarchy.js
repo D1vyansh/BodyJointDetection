@@ -154,6 +154,7 @@ var hierarchy =
       [ "op::WFaceDetectorOpenCV< TDatums >", "classop_1_1_w_face_detector_open_c_v.html", null ],
       [ "op::WFaceExtractorNet< TDatums >", "classop_1_1_w_face_extractor_net.html", null ],
       [ "op::WFaceRenderer< TDatums >", "classop_1_1_w_face_renderer.html", null ],
+      [ "op::WFpsMax< TDatums >", "classop_1_1_w_fps_max.html", null ],
       [ "op::WGuiInfoAdder< TDatums >", "classop_1_1_w_gui_info_adder.html", null ],
       [ "op::WHandDetector< TDatums >", "classop_1_1_w_hand_detector.html", null ],
       [ "op::WHandDetectorFromTxt< TDatums >", "classop_1_1_w_hand_detector_from_txt.html", null ],

@@ -81,6 +81,7 @@ var searchData=
   ['_7ewfaceextractornet',['~WFaceExtractorNet',['../classop_1_1_w_face_extractor_net.html#ae781bd1a7d450983a9aa168860d4e96d',1,'op::WFaceExtractorNet']]],
   ['_7ewfacerenderer',['~WFaceRenderer',['../classop_1_1_w_face_renderer.html#a2f06bfea6521c7528fc7b07b9b067351',1,'op::WFaceRenderer']]],
   ['_7ewfacesaver',['~WFaceSaver',['../classop_1_1_w_face_saver.html#ae27f54e5aead73b6eb604d0a0a06e18f',1,'op::WFaceSaver']]],
+  ['_7ewfpsmax',['~WFpsMax',['../classop_1_1_w_fps_max.html#af48214bbb4ed5c84efe1adf845aa9318',1,'op::WFpsMax']]],
   ['_7ewgui',['~WGui',['../classop_1_1_w_gui.html#a3c55ca3290f64181201890fae10e4002',1,'op::WGui']]],
   ['_7ewgui3d',['~WGui3D',['../classop_1_1_w_gui3_d.html#a62b93d2704634170339827ee1f93fa97',1,'op::WGui3D']]],
   ['_7ewguiinfoadder',['~WGuiInfoAdder',['../classop_1_1_w_gui_info_adder.html#ab369f542339af87ff652fc6e8e5408dd',1,'op::WGuiInfoAdder']]],

@@ -10,6 +10,7 @@ var searchData=
   ['wfaceextractornet',['WFaceExtractorNet',['../classop_1_1_w_face_extractor_net.html',1,'op']]],
   ['wfacerenderer',['WFaceRenderer',['../classop_1_1_w_face_renderer.html',1,'op']]],
   ['wfacesaver',['WFaceSaver',['../classop_1_1_w_face_saver.html',1,'op']]],
+  ['wfpsmax',['WFpsMax',['../classop_1_1_w_fps_max.html',1,'op']]],
   ['wgui',['WGui',['../classop_1_1_w_gui.html',1,'op']]],
   ['wgui3d',['WGui3D',['../classop_1_1_w_gui3_d.html',1,'op']]],
   ['wguiinfoadder',['WGuiInfoAdder',['../classop_1_1_w_gui_info_adder.html',1,'op']]],

@@ -18,6 +18,7 @@ var dir_10d881e1091dc713424eeb7bbc1f21ed =
     ] ],
     [ "thread.hpp", "thread_8hpp.html", "thread_8hpp" ],
     [ "threadManager.hpp", "thread_manager_8hpp.html", "thread_manager_8hpp" ],
+    [ "wFpsMax.hpp", "w_fps_max_8hpp.html", "w_fps_max_8hpp" ],
     [ "wIdGenerator.hpp", "w_id_generator_8hpp.html", "w_id_generator_8hpp" ],
     [ "worker.hpp", "worker_8hpp.html", "worker_8hpp" ],
     [ "workerConsumer.hpp", "worker_consumer_8hpp.html", "worker_consumer_8hpp" ],

@@ -11,6 +11,7 @@ var searchData=
   ['wfaceextractornet_2ehpp',['wFaceExtractorNet.hpp',['../w_face_extractor_net_8hpp.html',1,'']]],
   ['wfacerenderer_2ehpp',['wFaceRenderer.hpp',['../w_face_renderer_8hpp.html',1,'']]],
   ['wfacesaver_2ehpp',['wFaceSaver.hpp',['../w_face_saver_8hpp.html',1,'']]],
+  ['wfpsmax_2ehpp',['wFpsMax.hpp',['../w_fps_max_8hpp.html',1,'']]],
   ['wgui_2ehpp',['wGui.hpp',['../w_gui_8hpp.html',1,'']]],
   ['wgui3d_2ehpp',['wGui3D.hpp',['../w_gui3_d_8hpp.html',1,'']]],
   ['wguiadam_2ehpp',['wGuiAdam.hpp',['../w_gui_adam_8hpp.html',1,'']]],

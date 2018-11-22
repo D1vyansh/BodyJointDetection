@@ -110,6 +110,7 @@ var namespaceop =
     [ "SubThreadQueueOut", "classop_1_1_sub_thread_queue_out.html", "classop_1_1_sub_thread_queue_out" ],
     [ "Thread", "classop_1_1_thread.html", "classop_1_1_thread" ],
     [ "ThreadManager", "classop_1_1_thread_manager.html", "classop_1_1_thread_manager" ],
+    [ "WFpsMax", "classop_1_1_w_fps_max.html", "classop_1_1_w_fps_max" ],
     [ "WIdGenerator", "classop_1_1_w_id_generator.html", "classop_1_1_w_id_generator" ],
     [ "Worker", "classop_1_1_worker.html", "classop_1_1_worker" ],
     [ "WorkerConsumer", "classop_1_1_worker_consumer.html", "classop_1_1_worker_consumer" ],
