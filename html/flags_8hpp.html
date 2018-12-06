@@ -149,10 +149,10 @@ Functions</h2></td></tr>
 <tr class="separator:a6a501f229de1ba19801b77fd0565527b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e350d38962a702d8e0c658fbbb5cc64"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a5e350d38962a702d8e0c658fbbb5cc64">DEFINE_bool</a> (process_real_time, false,&quot;Enable to keep the original source frame rate (e.g., for video). If the processing time is&quot;&quot; too long, it will skip frames. If it is too fast, it will slow it down.&quot;)</td></tr>
 <tr class="separator:a5e350d38962a702d8e0c658fbbb5cc64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff61246512375ff5941dc4110e127ca3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#aff61246512375ff5941dc4110e127ca3">DEFINE_string</a> (camera_parameter_folder,&quot;models/cameraParameters/flir/&quot;,&quot;String with the folder where the camera parameters are located.&quot;)</td></tr>
-<tr class="separator:aff61246512375ff5941dc4110e127ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad739178d4295e31edd2f1e468bd2e600"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#ad739178d4295e31edd2f1e468bd2e600">DEFINE_bool</a> (frame_keep_distortion, false,&quot;If false (default), it will undistortionate the image based on the&quot;&quot; `camera_parameter_folder` camera parameters; if true, it will not undistortionate, i.e.,&quot;&quot; it will leave it as it is.&quot;)</td></tr>
-<tr class="separator:ad739178d4295e31edd2f1e468bd2e600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39629f56f95f881172962f875e3b22d5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a39629f56f95f881172962f875e3b22d5">DEFINE_string</a> (camera_parameter_path,&quot;models/cameraParameters/flir/&quot;,&quot;String with the folder where the camera parameters are located. If there&quot;&quot; is only 1 XML file (for single video, webcam, or images from the same camera), you must&quot;&quot; specify the whole XML file path (ending in .xml).&quot;)</td></tr>
+<tr class="separator:a39629f56f95f881172962f875e3b22d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a902887e5226d9d2a0ce312f25eab3783"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a902887e5226d9d2a0ce312f25eab3783">DEFINE_bool</a> (frame_undistort, false,&quot;If false (default), it will not undistort the image, if true, it will undistortionate them&quot;&quot; based on the camera parameters found in `camera_parameter_path`&quot;)</td></tr>
+<tr class="separator:a902887e5226d9d2a0ce312f25eab3783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ab689ebe20a261b20587af79123e79a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a9ab689ebe20a261b20587af79123e79a">DEFINE_string</a> (model_folder,&quot;models/&quot;,&quot;Folder path (absolute or relative) where the models (pose, face, ...) are located.&quot;)</td></tr>
 <tr class="separator:a9ab689ebe20a261b20587af79123e79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85be61a31eaa438a7e9c7d2baf51da47"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a85be61a31eaa438a7e9c7d2baf51da47">DEFINE_string</a> (output_resolution,&quot;-1x-1&quot;,&quot;The image resolution (display and output). Use \&quot;-1x-1\&quot; to force the program to use the&quot;&quot; input image resolution.&quot;)</td></tr>
@@ -207,8 +207,8 @@ Functions</h2></td></tr>
 <tr class="separator:a4c800b6a91b02874d006da33ab8432cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa797dd033c6f3c4d2654e7000939d270"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#aa797dd033c6f3c4d2654e7000939d270">DEFINE_int32</a> (3d_min_views,-1,&quot;Minimum number of views required to reconstruct each keypoint. By default (-1), it will&quot;&quot; require all the cameras to see the keypoint in order to reconstruct it.&quot;)</td></tr>
 <tr class="separator:aa797dd033c6f3c4d2654e7000939d270"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20c481950df0272f0b7b0cde67d8e72a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a20c481950df0272f0b7b0cde67d8e72a">DEFINE_int32</a> (3d_views, 1,&quot;Complementary option to `--image_dir` or `--video`. OpenPose will read as many images per&quot;&quot; iteration, allowing tasks such as stereo camera processing (`--3d`). Note that&quot;&quot; `--camera_parameters_folder` must be set. OpenPose must find as many `xml` files in the&quot;&quot; parameter folder as this number indicates.&quot;)</td></tr>
-<tr class="separator:a20c481950df0272f0b7b0cde67d8e72a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a891890dc93264aae0b8df16f80fce32d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a891890dc93264aae0b8df16f80fce32d">DEFINE_int32</a> (3d_views,-1,&quot;Complementary option for `--image_dir` or `--video`. OpenPose will read as many images per&quot;&quot; iteration, allowing tasks such as stereo camera processing (`--3d`). Note that&quot;&quot; `--camera_parameter_path` must be set. OpenPose must find as many `xml` files in the&quot;&quot; parameter folder as this number indicates.&quot;)</td></tr>
+<tr class="separator:a891890dc93264aae0b8df16f80fce32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac210b56a3c46ff06143a62b0bb725cc6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#ac210b56a3c46ff06143a62b0bb725cc6">DEFINE_bool</a> (identification, false,&quot;Experimental, not available yet. Whether to enable people identification across frames.&quot;)</td></tr>
 <tr class="separator:ac210b56a3c46ff06143a62b0bb725cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdfef14901f7b5e324d6983845f5ab50"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#afdfef14901f7b5e324d6983845f5ab50">DEFINE_int32</a> (tracking,-1,&quot;Experimental, not available yet. Whether to enable people tracking across frames. The&quot;&quot; value indicates the number of frames where tracking is run between each OpenPose keypoint&quot;&quot; detection. Select -1 (default) to disable it or 0 to run simultaneously OpenPose keypoint&quot;&quot; detector and tracking for potentially higher accurary than only OpenPose.&quot;)</td></tr>
@@ -457,14 +457,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad739178d4295e31edd2f1e468bd2e600"></a>
+<a class="anchor" id="a902887e5226d9d2a0ce312f25eab3783"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">DEFINE_bool </td>
           <td>(</td>
-          <td class="paramtype">frame_keep_distortion&#160;</td>
+          <td class="paramtype">frame_undistort&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -482,25 +482,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">it will undistortionate the image based on the&quot;&quot;`camera_parameter_folder`camera parameters;if&#160;</td>
+          <td class="paramtype">it will not undistort the&#160;</td>
+          <td class="paramname"><em>image</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">if&#160;</td>
           <td class="paramname"><em>true</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">it will not&#160;</td>
-          <td class="paramname"><em>undistortionate</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">i.&#160;</td>
-          <td class="paramname"><em>e.</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&quot;&quot;it will leave it as it is.&quot;&#160;</td>
+          <td class="paramtype">it will undistortionate them&quot;&quot;based on the camera parameters found in`camera_parameter_path`&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -2197,7 +2191,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a20c481950df0272f0b7b0cde67d8e72a"></a>
+<a class="anchor" id="a891890dc93264aae0b8df16f80fce32d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -2210,19 +2204,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">1&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">-&#160;</td>
+          <td class="paramname"><em>1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&quot;Complementary option to `--image_dir` or `--video`. OpenPose will read as many images per&quot;&quot;&#160;</td>
+          <td class="paramtype">&quot;Complementary option for `--image_dir` or `--video`. OpenPose will read as many images per&quot;&quot;&#160;</td>
           <td class="paramname"><em>iteration</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">allowing tasks such as stereo camera processing(`--3d`).Note that&quot;&quot;`--camera_parameters_folder`must be set.OpenPose must find as many`xml`files in the&quot;&quot;parameter folder as this number indicates.&quot;&#160;</td>
+          <td class="paramtype">allowing tasks such as stereo camera processing(`--3d`).Note that&quot;&quot;`--camera_parameter_path`must be set.OpenPose must find as many`xml`files in the&quot;&quot;parameter folder as this number indicates.&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -2709,14 +2703,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aff61246512375ff5941dc4110e127ca3"></a>
+<a class="anchor" id="a39629f56f95f881172962f875e3b22d5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">DEFINE_string </td>
           <td>(</td>
-          <td class="paramtype">camera_parameter_folder&#160;</td>
+          <td class="paramtype">camera_parameter_path&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -2728,7 +2722,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&quot;String with the folder where the camera parameters are located.&quot;&#160;</td>
+          <td class="paramtype">&quot;String with the folder where the camera parameters are located. If there&quot;&quot; is only 1 XML file &#160;</td>
+          <td class="paramname">for single video, webcam, or images from the same camera, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">you must&quot;&quot;specify the whole XML file path(ending in.xml).&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

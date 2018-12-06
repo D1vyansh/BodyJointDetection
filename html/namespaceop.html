@@ -507,7 +507,8 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774af1a42bd417390fc63b030a519624607a">ProducerProperty::Rotation</a>, 
 <a class="el" href="namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774a63eacc5ed21c0ecb8bc583e10dc3ae58">ProducerProperty::FrameStep</a>, 
 <br/>
-&#160;&#160;<a class="el" href="namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774a6f6cb72d544962fa333e2e34ce64f719">ProducerProperty::Size</a>
+&#160;&#160;<a class="el" href="namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774a3b6cff57206f4ce645622b2e55f784a6">ProducerProperty::NumberViews</a>, 
+<a class="el" href="namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774a6f6cb72d544962fa333e2e34ce64f719">ProducerProperty::Size</a>
 <br/>
  }</td></tr>
 <tr class="separator:abc501c56c6cf6cf1989c84b1692cb774"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -797,8 +798,8 @@ int, int, int &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom">
 <tr class="separator:ab1e242b1ae7ff3300324fbfedebb52fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae76afeeeaedaebe6941f41a4bdf50e2a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#ae76afeeeaedaebe6941f41a4bdf50e2a">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_w_pose_renderer.html">WPoseRenderer</a>)</td></tr>
 <tr class="separator:ae76afeeeaedaebe6941f41a4bdf50e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70c5ea34fa5f283a820c6090c674cbc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a70c5ea34fa5f283a820c6090c674cbc7">createProducer</a> (const <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a> producerType=<a class="el" href="namespaceop.html#afce557f02e337e16150d00bdf72ec033a6adf97f83acf6453d4a6a4b1070f3754">ProducerType::None</a>, const std::string &amp;producerString=&quot;&quot;, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;cameraResolution=<a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;{-1,-1}, const std::string &amp;cameraParameterPath=&quot;models/cameraParameters/&quot;, const bool undistortImage=true, const unsigned int imageDirectoryStereo=-1)</td></tr>
-<tr class="separator:a70c5ea34fa5f283a820c6090c674cbc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a34909c6c4d79a215f163291111d556"><td class="memItemLeft" align="right" valign="top"><a class="el" href="macros_8hpp.html#a4ba443bb7a0e5dbe8054a9ac37a5e000">OP_API</a> std::shared_ptr&lt; <a class="el" href="classop_1_1_producer.html">Producer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#a6a34909c6c4d79a215f163291111d556">createProducer</a> (const <a class="el" href="namespaceop.html#a54b73745852c270cfd891eed0f6f2332">ProducerType</a> producerType=<a class="el" href="namespaceop.html#afce557f02e337e16150d00bdf72ec033a6adf97f83acf6453d4a6a4b1070f3754">ProducerType::None</a>, const std::string &amp;producerString=&quot;&quot;, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;cameraResolution=<a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt;{-1,-1}, const std::string &amp;cameraParameterPath=&quot;models/cameraParameters/&quot;, const bool undistortImage=true, const int numberViews=-1)</td></tr>
+<tr class="separator:a6a34909c6c4d79a215f163291111d556"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa65c081c13e0d0453938a3c41d04dc49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aa65c081c13e0d0453938a3c41d04dc49">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_priority_queue.html">PriorityQueue</a>)</td></tr>
 <tr class="separator:aa65c081c13e0d0453938a3c41d04dc49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7f93261bd6d87f86c45e933607a0678"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceop.html#aa7f93261bd6d87f86c45e933607a0678">COMPILE_TEMPLATE_DATUM</a> (<a class="el" href="classop_1_1_queue.html">Queue</a>)</td></tr>
@@ -1604,6 +1605,8 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="abc501c56c6cf6cf1989c84b1692cb774a63eacc5ed21c0ecb8bc583e10dc3ae58"></a>FrameStep</em>&#160;</td><td class="fielddoc">
 </td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="abc501c56c6cf6cf1989c84b1692cb774a3b6cff57206f4ce645622b2e55f784a6"></a>NumberViews</em>&#160;</td><td class="fielddoc">
+</td></tr>
 <tr><td class="fieldname"><em><a class="anchor" id="abc501c56c6cf6cf1989c84b1692cb774a6f6cb72d544962fa333e2e34ce64f719"></a>Size</em>&#160;</td><td class="fielddoc">
 </td></tr>
 </table>
@@ -1627,7 +1630,7 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Type of producers An enum class in which all the possible type of <a class="el" href="classop_1_1_producer.html">Producer</a> are included. In order to add a new <a class="el" href="classop_1_1_producer.html">Producer</a>, include its name in this enum and add a new 'else if' statement inside <a class="el" href="namespaceop.html#a70c5ea34fa5f283a820c6090c674cbc7">ProducerFactory::createProducer()</a>. </p>
+<p>Type of producers An enum class in which all the possible type of <a class="el" href="classop_1_1_producer.html">Producer</a> are included. In order to add a new <a class="el" href="classop_1_1_producer.html">Producer</a>, include its name in this enum and add a new 'else if' statement inside <a class="el" href="namespaceop.html#a6a34909c6c4d79a215f163291111d556">ProducerFactory::createProducer()</a>. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><em><a class="anchor" id="a54b73745852c270cfd891eed0f6f2332af436d4d7a472ac39a7cb227e3ea24f8d"></a>FlirCamera</em>&#160;</td><td class="fielddoc">
 <p>Stereo FLIR (Point-Grey) camera reader. Based on Spinnaker SDK. </p>
@@ -3334,7 +3337,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a70c5ea34fa5f283a820c6090c674cbc7"></a>
+<a class="anchor" id="a6a34909c6c4d79a215f163291111d556"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -3371,8 +3374,8 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const unsigned int&#160;</td>
-          <td class="paramname"><em>imageDirectoryStereo</em> = <code>-1</code>&#160;</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>numberViews</em> = <code>-1</code>&#160;</td>
         </tr>
         <tr>
           <td></td>

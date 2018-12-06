@@ -165,7 +165,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <h3>Body Estimation</h3>
 <p>&lt;img src="doc/media/dance.gif", width="360"&gt; </p>
 <h3>Runtime Analysis</h3>
-<p>Inference time comparison between the 3 available pose estimation libraries: OpenPose, Mask R-CNN, and Alpha-Pose (fast Pytorch version): </p>
+<p>Inference time comparison between the 3 available pose estimation libraries: OpenPose, Alpha-Pose (fast Pytorch version), and Mask R-CNN: </p>
 <p>&lt;img src="doc/media/openpose_vs_competition.png", width="360"&gt; </p>
 <p>This analysis was performed using the same images for each algorithm and a batch size of 1. Each analysis was repeated 1000 times and then averaged. This was all performed on a system with a Nvidia 1080 Ti and CUDA 8. Megvii (Face++) and MSRA GitHub repositories were excluded because they only provide pose estimation results given a cropped person. However, they suffer the same problem than Alpha-Pose and Mask R-CNN, their runtimes grow linearly with the number of people.</p>
 <h2>Contents</h2>

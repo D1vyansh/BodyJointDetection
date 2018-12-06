@@ -30,5 +30,6 @@ var searchData=
   ['nooutput',['NoOutput',['../namespaceop.html#adc43fb9031418e7f8112816a3b535d14a828d496739024f4af00df1e277d96ebd',1,'op']]],
   ['normal',['Normal',['../namespaceop.html#adc43fb9031418e7f8112816a3b535d14a960b44c579bc2f6818d2daaf9e4c16f0',1,'op']]],
   ['noscale',['NoScale',['../namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa6089ccf7c3fe93a62745e51200419c60',1,'op']]],
-  ['numberpeoplemax',['numberPeopleMax',['../structop_1_1_wrapper_struct_pose.html#a02c4ab6b56e4da4b3ed0da4eae8ac0fc',1,'op::WrapperStructPose']]]
+  ['numberpeoplemax',['numberPeopleMax',['../structop_1_1_wrapper_struct_pose.html#a02c4ab6b56e4da4b3ed0da4eae8ac0fc',1,'op::WrapperStructPose']]],
+  ['numberviews',['numberViews',['../structop_1_1_wrapper_struct_input.html#adac2c3e58e1e75a96e52904762c37c42',1,'op::WrapperStructInput::numberViews()'],['../namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774a3b6cff57206f4ce645622b2e55f784a6',1,'op::NumberViews()']]]
 ];

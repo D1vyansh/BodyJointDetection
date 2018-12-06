@@ -1,7 +1,7 @@
 var searchData=
 [
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['readparameters',['readParameters',['../classop_1_1_camera_parameter_reader.html#a906fd316f09d901280a5fe10a4a54541',1,'op::CameraParameterReader']]],
+  ['readparameters',['readParameters',['../classop_1_1_camera_parameter_reader.html#a906fd316f09d901280a5fe10a4a54541',1,'op::CameraParameterReader::readParameters(const std::string &amp;cameraParameterPath, const std::vector&lt; std::string &gt; &amp;serialNumbers={})'],['../classop_1_1_camera_parameter_reader.html#a2be8ff6d89e5f623f476c75afe3c5c3b',1,'op::CameraParameterReader::readParameters(const std::string &amp;cameraParameterPath, const std::string &amp;serialNumber)']]],
   ['realtimeprocessing',['realTimeProcessing',['../structop_1_1_wrapper_struct_input.html#a2eeea9ee711a1dcbec99c3dc871fbc47',1,'op::WrapperStructInput']]],
   ['rebind',['rebind',['../structcl_1_1_s_v_m_allocator_1_1rebind.html',1,'cl::SVMAllocator']]],
   ['rebind',['rebind',['../structcl_1_1_s_v_m_allocator_3_01void_00_01_s_v_m_trait_01_4_1_1rebind.html',1,'cl::SVMAllocator&lt; void, SVMTrait &gt;']]],

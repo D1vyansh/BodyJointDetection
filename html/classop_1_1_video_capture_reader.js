@@ -1,7 +1,7 @@
 var classop_1_1_video_capture_reader =
 [
-    [ "VideoCaptureReader", "classop_1_1_video_capture_reader.html#a59ce0932d49ee86c9e810cae22e9b519", null ],
-    [ "VideoCaptureReader", "classop_1_1_video_capture_reader.html#a41eac24222b6f0f62d8bf6b40e36e353", null ],
+    [ "VideoCaptureReader", "classop_1_1_video_capture_reader.html#ae07295c083ce99b032ce219ea15405d9", null ],
+    [ "VideoCaptureReader", "classop_1_1_video_capture_reader.html#a3fe940326900ac6a2289de85664b14be", null ],
     [ "~VideoCaptureReader", "classop_1_1_video_capture_reader.html#a7ea52eabf5133a1a01d38f95b1a4b601", null ],
     [ "get", "classop_1_1_video_capture_reader.html#a64e5cbfb1c556d64cabcebc6eb94eaf1", null ],
     [ "getNextFrameName", "classop_1_1_video_capture_reader.html#a06348fd9a290fc2ece2f3c2e4dc9bc70", null ],

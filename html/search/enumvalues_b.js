@@ -7,5 +7,6 @@ var searchData=
   ['none',['None',['../namespaceop.html#afce557f02e337e16150d00bdf72ec033a6adf97f83acf6453d4a6a4b1070f3754',1,'op::None()'],['../namespacecl.html#a6b1e69bec24f2a7f89eb17c265060e0da6adf97f83acf6453d4a6a4b1070f3754',1,'cl::None()'],['../namespacecl.html#a000ce6769841b11cf56253f7a0344277a6adf97f83acf6453d4a6a4b1070f3754',1,'cl::None()'],['../namespaceop.html#a54b73745852c270cfd891eed0f6f2332a6adf97f83acf6453d4a6a4b1070f3754',1,'op::None()'],['../namespaceop.html#adc43fb9031418e7f8112816a3b535d14a6adf97f83acf6453d4a6a4b1070f3754',1,'op::None()']]],
   ['nooutput',['NoOutput',['../namespaceop.html#adc43fb9031418e7f8112816a3b535d14a828d496739024f4af00df1e277d96ebd',1,'op']]],
   ['normal',['Normal',['../namespaceop.html#adc43fb9031418e7f8112816a3b535d14a960b44c579bc2f6818d2daaf9e4c16f0',1,'op']]],
-  ['noscale',['NoScale',['../namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa6089ccf7c3fe93a62745e51200419c60',1,'op']]]
+  ['noscale',['NoScale',['../namespaceop.html#af72fe4ed32846c12f41b049d3d0e1bdaa6089ccf7c3fe93a62745e51200419c60',1,'op']]],
+  ['numberviews',['NumberViews',['../namespaceop.html#abc501c56c6cf6cf1989c84b1692cb774a3b6cff57206f4ce645622b2e55f784a6',1,'op']]]
 ];

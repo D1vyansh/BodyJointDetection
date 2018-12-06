@@ -1132,11 +1132,25 @@ Generati/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpos
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/hand/handExtractorNet.hpp:18: warning: The following parameters of op::HandExtractorNet::HandExtractorNet(const Point< int > &netInputSize, const Point< int > &netOutputSize, const unsigned short numberScales=1, const float rangeScales=0.4f, const std::vector< HeatMapType > &heatMapTypes={}, const ScaleMode heatMapScale=ScaleMode::ZeroToOne) are not documented:
   parameter 'heatMapTypes'
   parameter 'heatMapScale'
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/producer/producer.hpp:19: warning: argument 'repeatWhenFinished' of command @param is not found in the argument list of op::Producer::Producer(const ProducerType type)
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/producer/producer.hpp:19: warning: The following parameters of op::Producer::Producer(const ProducerType type) are not documented:
-  parameter 'type'
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/producer/videoCaptureReader.hpp:19: warning: The following parameters of op::VideoCaptureReader::VideoCaptureReader(const int index, const bool throwExceptionIfNoOpened) are not documented:
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/producer/imageDirectoryReader.hpp:18: warning: The following parameters of op::ImageDirectoryReader::ImageDirectoryReader(const std::string &imageDirectoryPath, const std::string &cameraParameterPath="", const bool undistortImage=false, const int numberViews=-1) are not documented:
+  parameter 'undistortImage'
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/producer/ipCameraReader.hpp:16: warning: The following parameters of op::IpCameraReader::IpCameraReader(const std::string &cameraPath, const std::string &cameraParameterPath="", const bool undistortImage=false) are not documented:
+  parameter 'cameraParameterPath'
+  parameter 'undistortImage'
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/producer/videoCaptureReader.hpp:19: warning: The following parameters of op::VideoCaptureReader::VideoCaptureReader(const int index, const bool throwExceptionIfNoOpened, const std::string &cameraParameterPath, const bool undistortImage, const int numberViews) are not documented:
   parameter 'throwExceptionIfNoOpened'
+  parameter 'cameraParameterPath'
+  parameter 'undistortImage'
+  parameter 'numberViews'
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/producer/videoCaptureReader.hpp:27: warning: The following parameters of op::VideoCaptureReader::VideoCaptureReader(const std::string &path, const ProducerType producerType, const std::string &cameraParameterPath, const bool undistortImage, const int numberViews) are not documented:
+  parameter 'cameraParameterPath'
+  parameter 'undistortImage'
+  parameter 'numberViews'
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/producer/videoReader.hpp:17: warning: The following parameters of op::VideoReader::VideoReader(const std::string &videoPath, const std::string &cameraParameterPath="", const bool undistortImage=false, const int numberViews=-1) are not documented:
+  parameter 'undistortImage'
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/producer/webcamReader.hpp:19: warning: The following parameters of op::WebcamReader::WebcamReader(const int webcamIndex=0, const Point< int > &webcamResolution=Point< int >{}, const bool throwExceptionIfNoOpened=true, const std::string &cameraParameterPath="", const bool undistortImage=false) are not documented:
+  parameter 'cameraParameterPath'
+  parameter 'undistortImage'
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/wrapper/wrapperStructPose.hpp:110: warning: explicit link request to 'body' could not be resolved
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/wrapper/wrapperStructPose.hpp:111: warning: explicit link request to 'body' could not be resolved
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/wrapper/wrapperStructPose.hpp:111: warning: explicit link request to 'body' could not be resolved
@@ -1251,5 +1265,5 @@ Generating file index...
 Generating file member index...
 Generating example index...
 finalizing index lists...
-lookup cache used 5050/65536 hits=38842 misses=5421
+lookup cache used 5046/65536 hits=38984 misses=5415
 finished...

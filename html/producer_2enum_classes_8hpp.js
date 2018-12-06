@@ -9,6 +9,7 @@ var producer_2enum_classes_8hpp =
       [ "Flip", "producer_2enum_classes_8hpp.html#abc501c56c6cf6cf1989c84b1692cb774a9ffbd422925a6839ee820ddbc59278c5", null ],
       [ "Rotation", "producer_2enum_classes_8hpp.html#abc501c56c6cf6cf1989c84b1692cb774af1a42bd417390fc63b030a519624607a", null ],
       [ "FrameStep", "producer_2enum_classes_8hpp.html#abc501c56c6cf6cf1989c84b1692cb774a63eacc5ed21c0ecb8bc583e10dc3ae58", null ],
+      [ "NumberViews", "producer_2enum_classes_8hpp.html#abc501c56c6cf6cf1989c84b1692cb774a3b6cff57206f4ce645622b2e55f784a6", null ],
       [ "Size", "producer_2enum_classes_8hpp.html#abc501c56c6cf6cf1989c84b1692cb774a6f6cb72d544962fa333e2e34ce64f719", null ]
     ] ],
     [ "ProducerType", "producer_2enum_classes_8hpp.html#a54b73745852c270cfd891eed0f6f2332", [

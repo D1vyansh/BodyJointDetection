@@ -125,6 +125,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5d59c888ef90281712838d7673f1b7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a906fd316f09d901280a5fe10a4a54541"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a906fd316f09d901280a5fe10a4a54541">readParameters</a> (const std::string &amp;cameraParameterPath, const std::vector&lt; std::string &gt; &amp;serialNumbers={})</td></tr>
 <tr class="separator:a906fd316f09d901280a5fe10a4a54541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2be8ff6d89e5f623f476c75afe3c5c3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a2be8ff6d89e5f623f476c75afe3c5c3b">readParameters</a> (const std::string &amp;cameraParameterPath, const std::string &amp;serialNumber)</td></tr>
+<tr class="separator:a2be8ff6d89e5f623f476c75afe3c5c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adab774b8052cb0be9404269bc4ba240d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#adab774b8052cb0be9404269bc4ba240d">writeParameters</a> (const std::string &amp;cameraParameterPath) const </td></tr>
 <tr class="separator:adab774b8052cb0be9404269bc4ba240d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfd1caf98782ae3f8f83c85ba17bc4e0"><td class="memItemLeft" align="right" valign="top">unsigned long long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#acfd1caf98782ae3f8f83c85ba17bc4e0">getNumberCameras</a> () const </td></tr>
@@ -139,6 +141,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adf7ad0ef26603129a251fdc166ffa548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ce10a02969515039e8575c3c044f882"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a3ce10a02969515039e8575c3c044f882">getCameraDistortions</a> () const </td></tr>
 <tr class="separator:a3ce10a02969515039e8575c3c044f882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94867fd5d19fa143b2333108fe8acfc2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a94867fd5d19fa143b2333108fe8acfc2">getUndistortImage</a> () const </td></tr>
+<tr class="separator:a94867fd5d19fa143b2333108fe8acfc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae33e8637012413719b389649d1e5448a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#ae33e8637012413719b389649d1e5448a">setUndistortImage</a> (const bool undistortImage)</td></tr>
+<tr class="separator:ae33e8637012413719b389649d1e5448a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab40c8cc103643d184465d526a6b6ac9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#ab40c8cc103643d184465d526a6b6ac9d">undistort</a> (cv::Mat &amp;frame, const unsigned int cameraIndex=0u)</td></tr>
+<tr class="separator:ab40c8cc103643d184465d526a6b6ac9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ab7a4c3ef7ac8d8a41e5711ec85b7be4b"></a>
@@ -324,6 +332,21 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a94867fd5d19fa143b2333108fe8acfc2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool op::CameraParameterReader::getUndistortImage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a906fd316f09d901280a5fe10a4a54541"></a>
 <div class="memitem">
 <div class="memproto">
@@ -339,6 +362,74 @@ Public Member Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
           <td class="paramname"><em>serialNumbers</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2be8ff6d89e5f623f476c75afe3c5c3b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void op::CameraParameterReader::readParameters </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>cameraParameterPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>serialNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae33e8637012413719b389649d1e5448a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void op::CameraParameterReader::setUndistortImage </td>
+          <td>(</td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>undistortImage</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab40c8cc103643d184465d526a6b6ac9d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void op::CameraParameterReader::undistort </td>
+          <td>(</td>
+          <td class="paramtype">cv::Mat &amp;&#160;</td>
+          <td class="paramname"><em>frame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int&#160;</td>
+          <td class="paramname"><em>cameraIndex</em> = <code>0u</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
