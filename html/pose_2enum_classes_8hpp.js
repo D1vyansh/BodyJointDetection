@@ -7,16 +7,15 @@ var pose_2enum_classes_8hpp =
       [ "MPI_15_4", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa71e915c88449606c6498d33dd7c98e84", null ],
       [ "BODY_19", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fae3ae2003e0e0458bdc49480fb19c876e", null ],
       [ "BODY_19_X2", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261faca4c7eb29b1f3402e78aa384ce8fd5a9", null ],
-      [ "BODY_59", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa68aa8b41e419d187d9f7daff5d65708f", null ],
       [ "BODY_19N", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa9c6c21b2b0a410880f46637db622e392", null ],
       [ "BODY_25E", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261faef29c97ffaed7b0d41ee9bb0d20550cc", null ],
-      [ "BODY_25_19", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa70cbb3c96651173a004502efc5aef942", null ],
       [ "BODY_65", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fadbaf53bb16512afd613bbec1d1f0dc25", null ],
       [ "CAR_12", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa66ae79a5ac5fa502ae8bbecd3e07e71c", null ],
       [ "BODY_25D", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa529c87ac399e5fd6f0fa4a360c032568", null ],
       [ "BODY_23", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa003cc3795b0eeed2af2dfd34ed482794", null ],
       [ "CAR_22", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa372b9885bba8bc32ad323fffcf99e39e", null ],
       [ "BODY_19E", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa08956a1731b54bbdce3f97f1361efc23", null ],
+      [ "BODY_25B", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0b93cfdf906412bd7c8560ccd180cec6", null ],
       [ "Size", "pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa6f6cb72d544962fa333e2e34ce64f719", null ]
     ] ],
     [ "PoseProperty", "pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0e", [

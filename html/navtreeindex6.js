@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"face_extractor_net_8hpp_source.html":[2,0,0,0,3,4],
 "face_gpu_renderer_8hpp.html":[2,0,0,0,3,5],
 "face_gpu_renderer_8hpp_source.html":[2,0,0,0,3,5],
 "face_parameters_8hpp.html":[2,0,0,0,3,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "gpu_2enum_classes_8hpp.html#adbb34b5c8f2b6f0c051f831f18582e7fa7982b09a852b37f2afb1227eaf552e47":[2,0,0,0,5,2,0,1],
 "gpu_2enum_classes_8hpp.html#adbb34b5c8f2b6f0c051f831f18582e7fa8b95dcff7397d0693c03e394af5552aa":[2,0,0,0,5,2,0,0],
 "gpu_2enum_classes_8hpp_source.html":[2,0,0,0,5,2],
-"gpu_2headers_8hpp.html":[2,0,0,0,5,4],
-"gpu_2headers_8hpp_source.html":[2,0,0,0,5,4]
+"gpu_2headers_8hpp.html":[2,0,0,0,5,4]
 };

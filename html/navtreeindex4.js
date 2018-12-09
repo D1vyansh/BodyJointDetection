@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"classop_1_1_queue.html#ae2b845322940bfc89b6342137d8ac372":[1,0,3,101,0],
 "classop_1_1_queue_base.html":[1,0,3,102],
 "classop_1_1_queue_base.html#a04f7160c199f90b8f8e91ddfd40e92fb":[1,0,3,102,28],
 "classop_1_1_queue_base.html#a12cdec56bfe72e722ecc722774989d1b":[1,0,3,102,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "classop_1_1_w_hand_detector_update.html":[1,0,3,71],
 "classop_1_1_w_hand_detector_update.html#a29d71b3c1ee52f04bd52b932db350b59":[1,0,3,71,1],
 "classop_1_1_w_hand_detector_update.html#a729aaa628e4f4c24e7cb9afca1cdc761":[1,0,3,71,2],
-"classop_1_1_w_hand_detector_update.html#abd8b56fbfbd2a619a4f37d148592f61b":[1,0,3,71,0],
-"classop_1_1_w_hand_detector_update.html#af9287dc0a3c67abd35974c1c74614f3c":[1,0,3,71,3]
+"classop_1_1_w_hand_detector_update.html#abd8b56fbfbd2a619a4f37d148592f61b":[1,0,3,71,0]
 };

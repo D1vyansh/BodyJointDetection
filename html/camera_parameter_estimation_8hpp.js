@@ -1,6 +1,7 @@
 var camera_parameter_estimation_8hpp =
 [
-    [ "estimateAndSaveExtrinsics", "camera_parameter_estimation_8hpp.html#a475c365d287eafbc3d0d8977ea7c11c0", null ],
-    [ "estimateAndSaveIntrinsics", "camera_parameter_estimation_8hpp.html#a8817a682e5cf7bbc4b86660f1e0adba9", null ],
-    [ "estimateAndSaveSiftFile", "camera_parameter_estimation_8hpp.html#a3762897ab245335916f08bb5ba32f203", null ]
+    [ "estimateAndSaveExtrinsics", "camera_parameter_estimation_8hpp.html#aed964859fbd282bd29f2b818a3bf10dd", null ],
+    [ "estimateAndSaveIntrinsics", "camera_parameter_estimation_8hpp.html#a1fd317d44606181c63ef8a4e5676a09e", null ],
+    [ "estimateAndSaveSiftFile", "camera_parameter_estimation_8hpp.html#a37cdfa8dd466c3df9e7da5724a909143", null ],
+    [ "refineAndSaveExtrinsics", "camera_parameter_estimation_8hpp.html#a50526c188f2ba94b07e0945c0871fd2c", null ]
 ];

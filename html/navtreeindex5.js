@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"classop_1_1_w_hand_detector_update.html#af9287dc0a3c67abd35974c1c74614f3c":[1,0,3,71,3],
 "classop_1_1_w_hand_extractor_net.html":[1,0,3,72],
 "classop_1_1_w_hand_extractor_net.html#a21ffee48567b1c7c8994e4effef6cffe":[1,0,3,72,3],
 "classop_1_1_w_hand_extractor_net.html#a464a629c6ecd9727da53453af8266e1d":[1,0,3,72,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "face_detector_open_c_v_8hpp_source.html":[2,0,0,0,3,2],
 "face_extractor_caffe_8hpp.html":[2,0,0,0,3,3],
 "face_extractor_caffe_8hpp_source.html":[2,0,0,0,3,3],
-"face_extractor_net_8hpp.html":[2,0,0,0,3,4],
-"face_extractor_net_8hpp_source.html":[2,0,0,0,3,4]
+"face_extractor_net_8hpp.html":[2,0,0,0,3,4]
 };

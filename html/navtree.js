@@ -40,14 +40,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "3d_2headers_8hpp.html",
-"classcl_1_1_enqueue_args.html#a1ab03b76ada8edb5440ba19905848e5f",
-"classcl_1_1_sampler.html#ad26196f0282429667828b5b39bbc97f1",
-"classop_1_1_hand_extractor_caffe.html",
-"classop_1_1_queue_base.html",
-"classop_1_1_w_hand_extractor_net.html",
-"face_gpu_renderer_8hpp.html",
-"gpu_8hpp.html",
-"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa529c87ac399e5fd6f0fa4a360c032568",
+"classcl_1_1_enqueue_args.html#a11a7b173e00d55ee2c58fed3d9ecd3d8",
+"classcl_1_1_sampler.html#aa7ad8b1a123d7878438200591a9ecb47",
+"classop_1_1_hand_detector_from_txt.html#a94ef5e925c5d25b181c56ae79bb1eed2",
+"classop_1_1_queue.html#ae2b845322940bfc89b6342137d8ac372",
+"classop_1_1_w_hand_detector_update.html#af9287dc0a3c67abd35974c1c74614f3c",
+"face_extractor_net_8hpp_source.html",
+"gpu_2headers_8hpp_source.html",
+"pose_2enum_classes_8hpp.html#af5b3ce2a5d3de87cb31b9b67e96f261fa0c4a19d9254adcb3ca1f0f527ee141fd",
 "structop_1_1_datum.html#ac43135194dd5ff9c981395697803b26d",
 "w_fps_max_8hpp.html#adfc12925650978828707c1c0dcbebd0e"
 ];

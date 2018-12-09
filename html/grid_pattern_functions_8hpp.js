@@ -11,5 +11,5 @@ var grid_pattern_functions_8hpp =
     [ "getObjects3DVector", "grid_pattern_functions_8hpp.html#a3eac494df764905a18e976f6af303855", null ],
     [ "getOutterCornerIndices", "grid_pattern_functions_8hpp.html#a7fbb758fb8268964611914305f185afe", null ],
     [ "plotGridCorners", "grid_pattern_functions_8hpp.html#a99f8e5818b5006929abdc879d82f175b", null ],
-    [ "reorderPoints", "grid_pattern_functions_8hpp.html#aae9e55fbfd40138158ff04dc81bd0227", null ]
+    [ "reorderPoints", "grid_pattern_functions_8hpp.html#ab2e1ce3444df12c21e3bd963a1d81d86", null ]
 ];
