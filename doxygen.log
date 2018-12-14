@@ -1047,7 +1047,8 @@ Ge/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/cali
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/face/faceExtractorNet.hpp:18: warning: The following parameters of op::FaceExtractorNet::FaceExtractorNet(const Point< int > &netInputSize, const Point< int > &netOutputSize, const std::vector< HeatMapType > &heatMapTypes={}, const ScaleMode heatMapScale=ScaleMode::ZeroToOne) are not documented:
   parameter 'heatMapTypes'
   parameter 'heatMapScale'
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/filestream/cocoJsonSaver.hpp:18: warning: The following parameters of op::CocoJsonSaver::CocoJsonSaver(const std::string &filePathToSave, const bool humanReadable=true, const CocoJsonFormat cocoJsonFormat=CocoJsonFormat::Body, const int mCocoJsonVariant=0) are not documented:
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/filestream/cocoJsonSaver.hpp:19: warning: The following parameters of op::CocoJsonSaver::CocoJsonSaver(const std::string &filePathToSave, const PoseModel poseModel, const bool humanReadable=true, const CocoJsonFormat cocoJsonFormat=CocoJsonFormat::Body, const int mCocoJsonVariant=0) are not documented:
+  parameter 'poseModel'
   parameter 'humanReadable'
   parameter 'cocoJsonFormat'
   parameter 'mCocoJsonVariant'
@@ -1265,5 +1266,5 @@ Generating file index...
 Generating file member index...
 Generating example index...
 finalizing index lists...
-lookup cache used 5046/65536 hits=39009 misses=5415
+lookup cache used 5050/65536 hits=39033 misses=5419
 finished...

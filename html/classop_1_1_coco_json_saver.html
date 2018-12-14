@@ -117,8 +117,8 @@ $(document).ready(function(){initNavTree('classop_1_1_coco_json_saver.html','');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a380d4638d09cfe9c26551cc2efb7c3a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_coco_json_saver.html#a380d4638d09cfe9c26551cc2efb7c3a8">CocoJsonSaver</a> (const std::string &amp;filePathToSave, const bool humanReadable=true, const <a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715ac">CocoJsonFormat</a> cocoJsonFormat=<a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715acaac101b32dda4448cf13a93fe283dddd8">CocoJsonFormat::Body</a>, const int mCocoJsonVariant=0)</td></tr>
-<tr class="separator:a380d4638d09cfe9c26551cc2efb7c3a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a98c5187aaa0f34cb6ce49cf2c81cfe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_coco_json_saver.html#a6a98c5187aaa0f34cb6ce49cf2c81cfe">CocoJsonSaver</a> (const std::string &amp;filePathToSave, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const bool humanReadable=true, const <a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715ac">CocoJsonFormat</a> cocoJsonFormat=<a class="el" href="namespaceop.html#a5418b76dad5b4aea1133325f4aa715acaac101b32dda4448cf13a93fe283dddd8">CocoJsonFormat::Body</a>, const int mCocoJsonVariant=0)</td></tr>
+<tr class="separator:a6a98c5187aaa0f34cb6ce49cf2c81cfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bbfab84a7816cb0f189f243246f744b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_coco_json_saver.html#a8bbfab84a7816cb0f189f243246f744b">~CocoJsonSaver</a> ()</td></tr>
 <tr class="separator:a8bbfab84a7816cb0f189f243246f744b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a7fd417aa5d85044fb0703379af1a23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_coco_json_saver.html#a3a7fd417aa5d85044fb0703379af1a23">record</a> (const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseKeypoints, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; float &gt; &amp;poseScores, const std::string &amp;imageName)</td></tr>
@@ -127,7 +127,7 @@ Public Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classop_1_1_coco_json_saver.html">CocoJsonSaver</a> class creates a COCO validation json file with details about the processed images. It inherits from Recorder. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a380d4638d09cfe9c26551cc2efb7c3a8"></a>
+<a class="anchor" id="a6a98c5187aaa0f34cb6ce49cf2c81cfe"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -139,6 +139,12 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>filePathToSave</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a>&#160;</td>
+          <td class="paramname"><em>poseModel</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
