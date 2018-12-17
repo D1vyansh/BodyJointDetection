@@ -17,6 +17,7 @@ var searchData=
   ['body_5f25d',['BODY_25D',['../namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa529c87ac399e5fd6f0fa4a360c032568',1,'op']]],
   ['body_5f25e',['BODY_25E',['../namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261faef29c97ffaed7b0d41ee9bb0d20550cc',1,'op']]],
   ['body_5f65',['BODY_65',['../namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fadbaf53bb16512afd613bbec1d1f0dc25',1,'op']]],
+  ['body_5f95',['BODY_95',['../namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261fa5ccef4479bf149075784c7db6f8da24a',1,'op']]],
   ['bodypartconnectorbase_2ehpp',['bodyPartConnectorBase.hpp',['../body_part_connector_base_8hpp.html',1,'']]],
   ['bodypartconnectorcaffe',['BodyPartConnectorCaffe',['../classop_1_1_body_part_connector_caffe.html',1,'op']]],
   ['bodypartconnectorcaffe',['BodyPartConnectorCaffe',['../classop_1_1_body_part_connector_caffe.html#a94e2364fa13ea79b2d6fd72c5db34765',1,'op::BodyPartConnectorCaffe']]],
@@ -28,8 +29,8 @@ var searchData=
   ['buffer',['Buffer',['../classcl_1_1_buffer.html',1,'cl']]],
   ['buffergl',['BufferGL',['../classcl_1_1_buffer_g_l.html#a7ac53f876cfdb10fdd25a40d24b36686',1,'cl::BufferGL::BufferGL(const Context &amp;context, cl_mem_flags flags, cl_GLuint bufobj, cl_int *err=NULL)'],['../classcl_1_1_buffer_g_l.html#a77604377be0e356aabfed15f6ea00b31',1,'cl::BufferGL::BufferGL()'],['../classcl_1_1_buffer_g_l.html#ae70de3a74671b3a93e05279a8185cd7a',1,'cl::BufferGL::BufferGL(const cl_mem &amp;buffer, bool retainObject=false)'],['../classcl_1_1_buffer_g_l.html#acc718908deb55b07dea09645fe322dbc',1,'cl::BufferGL::BufferGL(const BufferGL &amp;buf)'],['../classcl_1_1_buffer_g_l.html#a1f34aee208c887c15d8e699f629db86b',1,'cl::BufferGL::BufferGL(BufferGL &amp;&amp;buf) CL_HPP_NOEXCEPT_']]],
   ['buffergl',['BufferGL',['../classcl_1_1_buffer_g_l.html',1,'cl']]],
-  ['bufferrendergl',['BufferRenderGL',['../classcl_1_1_buffer_render_g_l.html',1,'cl']]],
   ['bufferrendergl',['BufferRenderGL',['../classcl_1_1_buffer_render_g_l.html#ac2f60478116d35c2a96c522205fcf932',1,'cl::BufferRenderGL::BufferRenderGL(const Context &amp;context, cl_mem_flags flags, cl_GLuint bufobj, cl_int *err=NULL)'],['../classcl_1_1_buffer_render_g_l.html#a9ae513ba0c6664353c389764c7e1011d',1,'cl::BufferRenderGL::BufferRenderGL()'],['../classcl_1_1_buffer_render_g_l.html#a3214caef962ed7c7ff20e102f498eff6',1,'cl::BufferRenderGL::BufferRenderGL(const cl_mem &amp;buffer, bool retainObject=false)'],['../classcl_1_1_buffer_render_g_l.html#a9bbd05ded89c1c3d3c4fd52f0f5922b3',1,'cl::BufferRenderGL::BufferRenderGL(const BufferRenderGL &amp;buf)'],['../classcl_1_1_buffer_render_g_l.html#a387a6e721fd3283d288d86e9dbfda3a5',1,'cl::BufferRenderGL::BufferRenderGL(BufferRenderGL &amp;&amp;buf) CL_HPP_NOEXCEPT_']]],
+  ['bufferrendergl',['BufferRenderGL',['../classcl_1_1_buffer_render_g_l.html',1,'cl']]],
   ['build',['build',['../classcl_1_1_program.html#a1c68f6aa0244c99c8e70f4c971c9049a',1,'cl::Program::build(const vector&lt; Device &gt; &amp;devices, const char *options=NULL, void(CL_CALLBACK *notifyFptr)(cl_program, void *)=NULL, void *data=NULL) const '],['../classcl_1_1_program.html#ab6f097f1e1f14eb6f15651dcb6529b7a',1,'cl::Program::build(const char *options=NULL, void(CL_CALLBACK *notifyFptr)(cl_program, void *)=NULL, void *data=NULL) const ']]],
   ['buildlogtype',['BuildLogType',['../namespacecl.html#aa5890015c0ed19cf369d3e9d4fbe0f08',1,'cl']]],
   ['bvhsaver_2ehpp',['bvhSaver.hpp',['../bvh_saver_8hpp.html',1,'']]]

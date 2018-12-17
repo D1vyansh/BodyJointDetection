@@ -1,6 +1,7 @@
 var searchData=
 [
   ['add',['add',['../classop_1_1_thread.html#a0617df4103c25bb04ee2c75f05ea2978',1,'op::Thread::add(const std::vector&lt; std::shared_ptr&lt; SubThread&lt; TDatums, TWorker &gt;&gt;&gt; &amp;subThreads)'],['../classop_1_1_thread.html#a820b9416b96c69cb1fc6773b9a53a47a',1,'op::Thread::add(const std::shared_ptr&lt; SubThread&lt; TDatums, TWorker &gt;&gt; &amp;subThread)'],['../classop_1_1_thread_manager.html#a8134abeaec65b5647ae92e34f3ad420b',1,'op::ThreadManager::add(const unsigned long long threadId, const std::vector&lt; TWorker &gt; &amp;tWorkers, const unsigned long long queueInId, const unsigned long long queueOutId)'],['../classop_1_1_thread_manager.html#a762acc9eb60bd10857da1f416e169f3d',1,'op::ThreadManager::add(const unsigned long long threadId, const TWorker &amp;tWorker, const unsigned long long queueInId, const unsigned long long queueOutId)']]],
+  ['addbkgchannel',['addBkgChannel',['../namespaceop.html#a13b86d097fd5f36612e9858e9348ea57',1,'op']]],
   ['addinfo',['addInfo',['../classop_1_1_gui_info_adder.html#a4043c604359ca6ac80c1c0774a09ce68',1,'op::GuiInfoAdder']]],
   ['addpopper',['addPopper',['../classop_1_1_queue_base.html#adc5df8a039d360831db06e3c610bf015',1,'op::QueueBase']]],
   ['addpusher',['addPusher',['../classop_1_1_queue_base.html#a1ccdec39ea65a83edc54661acc283134',1,'op::QueueBase']]],

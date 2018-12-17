@@ -143,6 +143,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 </ul>
 <h2>Latest Features</h2>
 <ul>
+<li>Dec 2018: <a href="https://cmu-perceptual-computing-lab.github.io/foot_keypoint_dataset/">**Foot dataset and new paper released**</a>!</li>
 <li>Sep 2018: <a href="doc/quick_start.md#tracking">**Experimental single-person tracker**</a> for further speed up or visual smoothing!</li>
 <li>Jun 2018: **Combined body-foot model released! 40% faster and 5% more accurate**!</li>
 <li>Jun 2018: **Python API** released!</li>
@@ -177,6 +178,7 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li><a href="#quick-start">Quick Start</a></li>
 <li><a href="#output">Output</a></li>
 <li><a href="#speeding-up-openpose-and-benchmark">Speeding Up OpenPose and Benchmark</a></li>
+<li><a href="#foot-dataset">Foot Dataset</a></li>
 <li><a href="#send-us-failure-cases-and-feedback">Send Us Failure Cases and Feedback!</a></li>
 <li><a href="#authors-and-contributors">Authors and Contributors</a></li>
 <li><a href="#citation">Citation</a></li>
@@ -207,6 +209,8 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p>Output (format, keypoint index ordering, etc.) in doc/output.md.</p>
 <h2>Speeding Up OpenPose and Benchmark</h2>
 <p>Check the OpenPose Benchmark as well as some hints to speed up and/or reduce the memory requirements for OpenPose on doc/speed_up_preserving_accuracy.md.</p>
+<h2>Foot Dataset</h2>
+<p>Check the <a href="https://cmu-perceptual-computing-lab.github.io/foot_keypoint_dataset/">foot dataset website</a> and new OpenPose paper for more information.</p>
 <h2>Send Us Failure Cases and Feedback!</h2>
 <p>Our library is open source for research purposes, and we want to continuously improve it! So please, let us know if...</p>
 <ol type="1">
@@ -224,7 +228,14 @@ $(document).ready(function(){initNavTree('index.html','');});
 <p>We would also like to thank all the people who helped OpenPose in any way. The main contributors are listed in doc/contributors.md.</p>
 <h2>Citation</h2>
 <p>Please cite these papers in your publications if it helps your research (the face keypoint detector was trained using the procedure described in [Simon et al. 2017] for hands): </p>
-<pre class="fragment">@inproceedings{cao2017realtime,
+<pre class="fragment">@inproceedings{cao2018openpose,
+  author = {Zhe Cao and Gines Hidalgo and Tomas Simon and Shih-En Wei and Yaser Sheikh},
+  booktitle = {Arxiv},
+  title = {Open{P}ose: realtime multi-person 2{D} pose estimation using {P}art {A}ffinity {F}ields},
+  year = {2018}
+}
+
+@inproceedings{cao2017realtime,
   author = {Zhe Cao and Tomas Simon and Shih-En Wei and Yaser Sheikh},
   booktitle = {CVPR},
   title = {Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields},

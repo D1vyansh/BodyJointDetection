@@ -1,5 +1,6 @@
 var pose_parameters_8hpp =
 [
+    [ "addBkgChannel", "pose_parameters_8hpp.html#a13b86d097fd5f36612e9858e9348ea57", null ],
     [ "getPoseBodyPartMapping", "pose_parameters_8hpp.html#aab3de911b04b96c1850cc05c6947e184", null ],
     [ "getPoseDefaultConnectInterMinAboveThreshold", "pose_parameters_8hpp.html#a8e377d8da8f109cb8be8e4edbb2ea90a", null ],
     [ "getPoseDefaultConnectInterThreshold", "pose_parameters_8hpp.html#aabfd35e57744b44481c09f56c90cc8b8", null ],

@@ -15,6 +15,9 @@ var pose_parameters_render_8hpp =
     [ "POSE_BODY_65_COLORS_RENDER_GPU", "pose_parameters_render_8hpp.html#a6f6e1ac673349dd346b77983de0072cc", null ],
     [ "POSE_BODY_65_PAIRS_RENDER_GPU", "pose_parameters_render_8hpp.html#a34637840213b1396ad021a2e21320b5a", null ],
     [ "POSE_BODY_65_SCALES_RENDER_GPU", "pose_parameters_render_8hpp.html#acd8e0edca2b6e048332a9a807e38f606", null ],
+    [ "POSE_BODY_95_COLORS_RENDER_GPU", "pose_parameters_render_8hpp.html#ada6d2827ce2cf1d71cac9b48b9313fa2", null ],
+    [ "POSE_BODY_95_PAIRS_RENDER_GPU", "pose_parameters_render_8hpp.html#aa04260f371bcbe18acb10b95c4b08e0a", null ],
+    [ "POSE_BODY_95_SCALES_RENDER_GPU", "pose_parameters_render_8hpp.html#af1ef54b0cd46e0a141d9e154ed80264d", null ],
     [ "POSE_CAR_12_COLORS_RENDER_GPU", "pose_parameters_render_8hpp.html#a6be8d3dedaf015f795625d1df19876aa", null ],
     [ "POSE_CAR_12_PAIRS_RENDER_GPU", "pose_parameters_render_8hpp.html#a253206407787fc26629e6e46f60d7be2", null ],
     [ "POSE_CAR_12_SCALES_RENDER_GPU", "pose_parameters_render_8hpp.html#a7382830f0c24beaea601444cb5962f06", null ],
@@ -31,6 +34,7 @@ var pose_parameters_render_8hpp =
     [ "getPoseBodyPartPairsRender", "pose_parameters_render_8hpp.html#a11bd7e53698eabe32b69b48708cf7b19", null ],
     [ "getPoseColors", "pose_parameters_render_8hpp.html#abb49286241ba7a1d754b31dee333274a", null ],
     [ "getPoseScales", "pose_parameters_render_8hpp.html#a016abefba53293ed2ffe3a3c3bd88dd0", null ],
+    [ "F95", "pose_parameters_render_8hpp.html#a096388ae91b812ca3b43dcd7fbc89f88", null ],
     [ "POSE_DEFAULT_ALPHA_HEAT_MAP", "pose_parameters_render_8hpp.html#af45cddacd69fff73a4ea4acbbbac43e0", null ],
     [ "POSE_DEFAULT_ALPHA_KEYPOINT", "pose_parameters_render_8hpp.html#a21fcb98366f6ea8895fc7f527f232db5", null ]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['f95',['F95',['../namespaceop.html#a096388ae91b812ca3b43dcd7fbc89f88',1,'op']]],
   ['f_5f',['f_',['../structcl_1_1detail_1_1_get_info_functor0.html#afdc80b4a0ebca524f06072f7e58d15fa',1,'cl::detail::GetInfoFunctor0::f_()'],['../structcl_1_1detail_1_1_get_info_functor1.html#ac48526d11471c59ff1b7aa14feb29c4e',1,'cl::detail::GetInfoFunctor1::f_()']]],
   ['face_5fccn_5fdecrease_5ffactor',['FACE_CCN_DECREASE_FACTOR',['../namespaceop.html#aa6701cc08e1a8651798ef3bf8437375b',1,'op']]],
   ['face_5fcolors_5frender',['FACE_COLORS_RENDER',['../namespaceop.html#a3fbae1778780ae5bf4ffcc84cdef1870',1,'op']]],
@@ -81,8 +82,8 @@ var searchData=
   ['forward_5focl',['Forward_ocl',['../classop_1_1_nms_caffe.html#a52bd0b61a9f406be653498a49ea39947',1,'op::NmsCaffe::Forward_ocl()'],['../classop_1_1_resize_and_merge_caffe.html#a6b5674a1f6fe58eb78890b0d8d925cb1',1,'op::ResizeAndMergeCaffe::Forward_ocl()']]],
   ['forwardpass',['forwardPass',['../classop_1_1_face_extractor_caffe.html#a68592dee6b3ecdbb97e0cb1cb343c0a5',1,'op::FaceExtractorCaffe::forwardPass()'],['../classop_1_1_face_extractor_net.html#a6801ceb4f26d1a9d48a8c5b00dcd93d4',1,'op::FaceExtractorNet::forwardPass()'],['../classop_1_1_hand_extractor_caffe.html#add0603118d06a1dbeb5c6095e6ca77f3',1,'op::HandExtractorCaffe::forwardPass()'],['../classop_1_1_hand_extractor_net.html#a2638c2c03b0aed0b14114968dedd612c',1,'op::HandExtractorNet::forwardPass()'],['../classop_1_1_net.html#a65193e857c721f2f606ea6b010953dbc',1,'op::Net::forwardPass()'],['../classop_1_1_net_caffe.html#a4db7c5de8c0619ae39c3620fed5c577f',1,'op::NetCaffe::forwardPass()'],['../classop_1_1_net_open_cv.html#a0c70c757936f31003f23fd21bf8c3b44',1,'op::NetOpenCv::forwardPass()'],['../classop_1_1_pose_extractor.html#ab07ee78f6a7b2dbe22b72453e9ed24c3',1,'op::PoseExtractor::forwardPass()'],['../classop_1_1_pose_extractor_caffe.html#a8e7ae6b63ccd0ab6eb61c5530fa44731',1,'op::PoseExtractorCaffe::forwardPass()'],['../classop_1_1_pose_extractor_net.html#ad67763036d9a61804362382bf827b584',1,'op::PoseExtractorNet::forwardPass()']]],
   ['fpsmax',['fpsMax',['../structop_1_1_wrapper_struct_pose.html#a16c4fb26e6ce76dfa577e0f4b5747733',1,'op::WrapperStructPose']]],
-  ['framedisplayer',['FrameDisplayer',['../classop_1_1_frame_displayer.html',1,'op']]],
   ['framedisplayer',['FrameDisplayer',['../classop_1_1_frame_displayer.html#a21a746ef46172c6a18ea72da6e7b5721',1,'op::FrameDisplayer']]],
+  ['framedisplayer',['FrameDisplayer',['../classop_1_1_frame_displayer.html',1,'op']]],
   ['framedisplayer_2ehpp',['frameDisplayer.hpp',['../frame_displayer_8hpp.html',1,'']]],
   ['framefirst',['frameFirst',['../structop_1_1_wrapper_struct_input.html#acc72b8efe09ec3888823ed5680a19fe4',1,'op::WrapperStructInput']]],
   ['frameflip',['frameFlip',['../structop_1_1_wrapper_struct_input.html#a5ee9722814fe2b5a695511cabd12b613',1,'op::WrapperStructInput']]],

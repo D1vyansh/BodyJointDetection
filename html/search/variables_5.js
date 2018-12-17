@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['f95',['F95',['../namespaceop.html#a096388ae91b812ca3b43dcd7fbc89f88',1,'op']]],
   ['f_5f',['f_',['../structcl_1_1detail_1_1_get_info_functor0.html#afdc80b4a0ebca524f06072f7e58d15fa',1,'cl::detail::GetInfoFunctor0::f_()'],['../structcl_1_1detail_1_1_get_info_functor1.html#ac48526d11471c59ff1b7aa14feb29c4e',1,'cl::detail::GetInfoFunctor1::f_()']]],
   ['face_5fccn_5fdecrease_5ffactor',['FACE_CCN_DECREASE_FACTOR',['../namespaceop.html#aa6701cc08e1a8651798ef3bf8437375b',1,'op']]],
   ['face_5fcolors_5frender',['FACE_COLORS_RENDER',['../namespaceop.html#a3fbae1778780ae5bf4ffcc84cdef1870',1,'op']]],

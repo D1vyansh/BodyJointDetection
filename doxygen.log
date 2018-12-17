@@ -1159,25 +1159,25 @@ Generati/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpos
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/wrapper/wrapperStructPose.hpp:112: warning: explicit link request to 'body' could not be resolved
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/wrapper/wrapperStructPose.hpp:112: warning: explicit link request to 'body' could not be resolved
 /home/travis/build/CMU-Perceptual-Computing-Lab/openpose/include/openpose/wrapper/wrapperStructPose.hpp:112: warning: explicit link request to 'pair' could not be resolved
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:41: warning: unable to resolve reference to `doc/installation.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:42: warning: unable to resolve reference to `doc/modules/python_module.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:43: warning: unable to resolve reference to `doc/installation.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:44: warning: unable to resolve reference to `doc/modules/calibration_module.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:45: warning: unable to resolve reference to `doc/installation.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:47: warning: unable to resolve reference to `doc/modules' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:49: warning: unable to resolve reference to `doc/released_features.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:49: warning: unable to resolve reference to `doc/release_notes.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:106: warning: unable to resolve reference to `doc/installation.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:115: warning: unable to resolve reference to `doc/demo_overview.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:125: warning: unable to resolve reference to `doc/modules/calibration_module.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:127: warning: unable to resolve reference to `doc/library_introduction.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:127: warning: unable to resolve reference to `examples/user_code/README.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:131: warning: unexpected token TK_EOF as the argument of ref
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:134: warning: unable to resolve reference to `doc/standalone_face_or_hand_keypoint_detector.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:135: warning: unable to resolve reference to `doc/standalone_face_or_hand_keypoint_detector.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:140: warning: unable to resolve reference to `doc/output.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:145: warning: unable to resolve reference to `doc/speed_up_preserving_accuracy.md' for \ref command
-/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:170: warning: unable to resolve reference to `doc/contributors.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:42: warning: unable to resolve reference to `doc/installation.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:43: warning: unable to resolve reference to `doc/modules/python_module.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:44: warning: unable to resolve reference to `doc/installation.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:45: warning: unable to resolve reference to `doc/modules/calibration_module.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:46: warning: unable to resolve reference to `doc/installation.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:48: warning: unable to resolve reference to `doc/modules' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:50: warning: unable to resolve reference to `doc/released_features.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:50: warning: unable to resolve reference to `doc/release_notes.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:108: warning: unable to resolve reference to `doc/installation.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:117: warning: unable to resolve reference to `doc/demo_overview.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:127: warning: unable to resolve reference to `doc/modules/calibration_module.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:129: warning: unable to resolve reference to `doc/library_introduction.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:129: warning: unable to resolve reference to `examples/user_code/README.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:133: warning: unexpected token TK_EOF as the argument of ref
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:136: warning: unable to resolve reference to `doc/standalone_face_or_hand_keypoint_detector.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:137: warning: unable to resolve reference to `doc/standalone_face_or_hand_keypoint_detector.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:142: warning: unable to resolve reference to `doc/output.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:147: warning: unable to resolve reference to `doc/speed_up_preserving_accuracy.md' for \ref command
+/home/travis/build/CMU-Perceptual-Computing-Lab/openpose/README.md:177: warning: unable to resolve reference to `doc/contributors.md' for \ref command
 ng docs for compound op::HandDetector...
 Generating docs for compound op::HandDetectorFromTxt...
 Generating docs for compound op::HandExtractorCaffe...
@@ -1266,5 +1266,5 @@ Generating file index...
 Generating file member index...
 Generating example index...
 finalizing index lists...
-lookup cache used 5050/65536 hits=39033 misses=5419
+lookup cache used 5057/65536 hits=39177 misses=5426
 finished...
