@@ -121,8 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab7a4c3ef7ac8d8a41e5711ec85b7be4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfa701389b1e566e1ea49cfd2605bbf8"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#acfa701389b1e566e1ea49cfd2605bbf8">~CameraParameterReader</a> ()</td></tr>
 <tr class="separator:acfa701389b1e566e1ea49cfd2605bbf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d59c888ef90281712838d7673f1b7d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a5d59c888ef90281712838d7673f1b7d7">CameraParameterReader</a> (const std::string &amp;serialNumber, const cv::Mat &amp;cameraIntrinsics, const cv::Mat &amp;cameraDistortion, const cv::Mat &amp;cameraExtrinsics=cv::Mat())</td></tr>
-<tr class="separator:a5d59c888ef90281712838d7673f1b7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ab51e2ebb5c536dbd7d1e43dd455da3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a8ab51e2ebb5c536dbd7d1e43dd455da3">CameraParameterReader</a> (const std::string &amp;serialNumber, const cv::Mat &amp;cameraIntrinsics, const cv::Mat &amp;cameraDistortion, const cv::Mat &amp;cameraExtrinsics=cv::Mat(), const cv::Mat &amp;cameraExtrinsicsInitial=cv::Mat())</td></tr>
+<tr class="separator:a8ab51e2ebb5c536dbd7d1e43dd455da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a906fd316f09d901280a5fe10a4a54541"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a906fd316f09d901280a5fe10a4a54541">readParameters</a> (const std::string &amp;cameraParameterPath, const std::vector&lt; std::string &gt; &amp;serialNumbers={})</td></tr>
 <tr class="separator:a906fd316f09d901280a5fe10a4a54541"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2be8ff6d89e5f623f476c75afe3c5c3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a2be8ff6d89e5f623f476c75afe3c5c3b">readParameters</a> (const std::string &amp;cameraParameterPath, const std::string &amp;serialNumber)</td></tr>
@@ -135,12 +135,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abfae5f8fd11a86f433c63cafefe9fa6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa33845298440b7eefd3f57b80d3c41db"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#aa33845298440b7eefd3f57b80d3c41db">getCameraMatrices</a> () const </td></tr>
 <tr class="separator:aa33845298440b7eefd3f57b80d3c41db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade743d816f255e3278bb72c761d82ba6"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#ade743d816f255e3278bb72c761d82ba6">getCameraExtrinsics</a> () const </td></tr>
-<tr class="separator:ade743d816f255e3278bb72c761d82ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf7ad0ef26603129a251fdc166ffa548"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#adf7ad0ef26603129a251fdc166ffa548">getCameraIntrinsics</a> () const </td></tr>
-<tr class="separator:adf7ad0ef26603129a251fdc166ffa548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ce10a02969515039e8575c3c044f882"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a3ce10a02969515039e8575c3c044f882">getCameraDistortions</a> () const </td></tr>
 <tr class="separator:a3ce10a02969515039e8575c3c044f882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf7ad0ef26603129a251fdc166ffa548"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#adf7ad0ef26603129a251fdc166ffa548">getCameraIntrinsics</a> () const </td></tr>
+<tr class="separator:adf7ad0ef26603129a251fdc166ffa548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade743d816f255e3278bb72c761d82ba6"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#ade743d816f255e3278bb72c761d82ba6">getCameraExtrinsics</a> () const </td></tr>
+<tr class="separator:ade743d816f255e3278bb72c761d82ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae0f905c18b85242008502d897d3f792"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Mat &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#aae0f905c18b85242008502d897d3f792">getCameraExtrinsicsInitial</a> () const </td></tr>
+<tr class="separator:aae0f905c18b85242008502d897d3f792"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94867fd5d19fa143b2333108fe8acfc2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#a94867fd5d19fa143b2333108fe8acfc2">getUndistortImage</a> () const </td></tr>
 <tr class="separator:a94867fd5d19fa143b2333108fe8acfc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae33e8637012413719b389649d1e5448a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_camera_parameter_reader.html#ae33e8637012413719b389649d1e5448a">setUndistortImage</a> (const bool undistortImage)</td></tr>
@@ -195,7 +197,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5d59c888ef90281712838d7673f1b7d7"></a>
+<a class="anchor" id="a8ab51e2ebb5c536dbd7d1e43dd455da3"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -224,7 +226,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const cv::Mat &amp;&#160;</td>
-          <td class="paramname"><em>cameraExtrinsics</em> = <code>cv::Mat()</code>&#160;</td>
+          <td class="paramname"><em>cameraExtrinsics</em> = <code>cv::Mat()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const cv::Mat &amp;&#160;</td>
+          <td class="paramname"><em>cameraExtrinsicsInitial</em> = <code>cv::Mat()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -263,6 +271,21 @@ Public Member Functions</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const std::vector&lt;cv::Mat&gt;&amp; op::CameraParameterReader::getCameraExtrinsics </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aae0f905c18b85242008502d897d3f792"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;cv::Mat&gt;&amp; op::CameraParameterReader::getCameraExtrinsicsInitial </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

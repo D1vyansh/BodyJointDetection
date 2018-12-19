@@ -42,14 +42,14 @@ var NAVTREEINDEX =
 "3d_2headers_8hpp.html",
 "classcl_1_1_enqueue_args.html#a11a7b173e00d55ee2c58fed3d9ecd3d8",
 "classcl_1_1_sampler.html#aa7ad8b1a123d7878438200591a9ecb47",
-"classop_1_1_hand_detector_from_txt.html#a8fb6eb6ef5d5689cfdb502b5bc43685f",
-"classop_1_1_queue.html#ab28fa9f713d05e55e5ba1510b34d57f0",
-"classop_1_1_w_hand_detector_update.html#abd8b56fbfbd2a619a4f37d148592f61b",
-"face_detector_8hpp_source.html",
-"gpu_2enum_classes_8hpp.html#adbb34b5c8f2b6f0c051f831f18582e7f",
-"pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0ea7bf312724768faebba41ca3585a91f19",
-"structop_1_1_datum.html#a6d629b1f6f7b958fe4cf2ef4cdf57c5b",
-"w_face_detector_8hpp.html#a196f17357cd1c1bb02e24e4e8a0e6ec3"
+"classop_1_1_hand_detector_from_txt.html#a1e6ba23fa1486e92a3bdca36b2e86d22",
+"classop_1_1_queue.html#a056600a7cf4503235ba4e172cee63a7f",
+"classop_1_1_w_hand_detector_update.html#a729aaa628e4f4c24e7cb9afca1cdc761",
+"face_detector_8hpp.html",
+"gpu_2enum_classes_8hpp.html",
+"pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0ea6f6cb72d544962fa333e2e34ce64f719",
+"structop_1_1_datum.html#a65deddd49d0fbca81f367198fc600015",
+"w_datum_producer_8hpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

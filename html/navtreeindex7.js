@@ -1,5 +1,6 @@
 var NAVTREEINDEX7 =
 {
+"gpu_2enum_classes_8hpp.html":[2,0,0,0,5,2],
 "gpu_2enum_classes_8hpp.html#adbb34b5c8f2b6f0c051f831f18582e7f":[2,0,0,0,5,2,0],
 "gpu_2enum_classes_8hpp.html#adbb34b5c8f2b6f0c051f831f18582e7fa3c1472839b807c90abff3c7c36dff458":[2,0,0,0,5,2,0,2],
 "gpu_2enum_classes_8hpp.html#adbb34b5c8f2b6f0c051f831f18582e7fa6f6cb72d544962fa333e2e34ce64f719":[2,0,0,0,5,2,0,3],
@@ -140,16 +141,16 @@ var NAVTREEINDEX7 =
 "maximum_base_8hpp_source.html":[2,0,0,0,8,3],
 "maximum_caffe_8hpp.html":[2,0,0,0,8,4],
 "maximum_caffe_8hpp_source.html":[2,0,0,0,8,4],
-"namespaceboost.html":[1,0,0],
 "namespaceboost.html":[0,0,0],
+"namespaceboost.html":[1,0,0],
 "namespacecaffe.html":[1,0,1],
 "namespacecaffe.html":[0,0,1],
 "namespacecl.html":[1,0,2],
 "namespacecl.html":[0,0,2],
 "namespacecl_1_1compatibility.html":[1,0,2,0],
 "namespacecl_1_1compatibility.html":[0,0,2,0],
-"namespacecl_1_1detail.html":[1,0,2,1],
 "namespacecl_1_1detail.html":[0,0,2,1],
+"namespacecl_1_1detail.html":[1,0,2,1],
 "namespacemembers.html":[0,1,0],
 "namespacemembers.html":[0,1,0,0],
 "namespacemembers_b.html":[0,1,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX7 =
 "pose_2enum_classes_8hpp.html":[2,0,0,0,9,0],
 "pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0e":[2,0,0,0,9,0,1],
 "pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0ea04576b26f5dc3637bf3c8168fba1641d":[2,0,0,0,9,0,1,4],
-"pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0ea240f10f3a39507d858c743971fd4298f":[2,0,0,0,9,0,1,2],
-"pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0ea6f6cb72d544962fa333e2e34ce64f719":[2,0,0,0,9,0,1,5]
+"pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0ea240f10f3a39507d858c743971fd4298f":[2,0,0,0,9,0,1,2]
 };
