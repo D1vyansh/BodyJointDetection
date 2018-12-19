@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['readcvmat',['readCvMat',['../classop_1_1_gui3_d.html#a45ba16aceb5c0e1ef5f556efbcbf3d7d',1,'op::Gui3D']]],
   ['readme_2emd',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
   ['readparameters',['readParameters',['../classop_1_1_camera_parameter_reader.html#a906fd316f09d901280a5fe10a4a54541',1,'op::CameraParameterReader::readParameters(const std::string &amp;cameraParameterPath, const std::vector&lt; std::string &gt; &amp;serialNumbers={})'],['../classop_1_1_camera_parameter_reader.html#a2be8ff6d89e5f623f476c75afe3c5c3b',1,'op::CameraParameterReader::readParameters(const std::string &amp;cameraParameterPath, const std::string &amp;serialNumber)']]],
   ['realtimeprocessing',['realTimeProcessing',['../structop_1_1_wrapper_struct_input.html#a2eeea9ee711a1dcbec99c3dc871fbc47',1,'op::WrapperStructInput']]],
@@ -61,8 +62,8 @@ var searchData=
   ['resetwebcam',['resetWebcam',['../classop_1_1_video_capture_reader.html#ab85b68c93854dd7c2ad437477e819506',1,'op::VideoCaptureReader']]],
   ['reshape',['Reshape',['../classop_1_1_body_part_connector_caffe.html#a54918b6b114568d7bafe26319e96d644',1,'op::BodyPartConnectorCaffe::Reshape()'],['../classop_1_1_maximum_caffe.html#aa9ab7eab51c9539b141a0aac998b2223',1,'op::MaximumCaffe::Reshape()'],['../classop_1_1_nms_caffe.html#a646d0442dfa17bbd3b6f90a7fc32af11',1,'op::NmsCaffe::Reshape()'],['../classop_1_1_resize_and_merge_caffe.html#ac889d68450cebf9745708f8c414545ac',1,'op::ResizeAndMergeCaffe::Reshape()']]],
   ['resizeandmergebase_2ehpp',['resizeAndMergeBase.hpp',['../resize_and_merge_base_8hpp.html',1,'']]],
-  ['resizeandmergecaffe',['ResizeAndMergeCaffe',['../classop_1_1_resize_and_merge_caffe.html',1,'op']]],
   ['resizeandmergecaffe',['ResizeAndMergeCaffe',['../classop_1_1_resize_and_merge_caffe.html#a30805a265fa887eff04b1200dbda91a5',1,'op::ResizeAndMergeCaffe']]],
+  ['resizeandmergecaffe',['ResizeAndMergeCaffe',['../classop_1_1_resize_and_merge_caffe.html',1,'op']]],
   ['resizeandmergecaffe_2ehpp',['resizeAndMergeCaffe.hpp',['../resize_and_merge_caffe_8hpp.html',1,'']]],
   ['resizeandmergecpu',['resizeAndMergeCpu',['../namespaceop.html#adb8ffc1a6a2cc2949d80d8e8ad4e2190',1,'op']]],
   ['resizeandmergegpu',['resizeAndMergeGpu',['../namespaceop.html#a8982332c4263696d0e023997f0e4c753',1,'op']]],

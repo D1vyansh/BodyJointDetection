@@ -23,6 +23,7 @@ var structop_1_1_datum =
     [ "cameraMatrix", "structop_1_1_datum.html#aeab7638276f1d9eb14847302bd0d0287", null ],
     [ "cvInputData", "structop_1_1_datum.html#a0b2c8ccac37be088524cc7c24a502c7b", null ],
     [ "cvOutputData", "structop_1_1_datum.html#a0d1f1c3d3494386e2d652268f6e17b5a", null ],
+    [ "cvOutputData3D", "structop_1_1_datum.html#a08909a6f5bc17d8d72c3ac8cb0d816a4", null ],
     [ "elementRendered", "structop_1_1_datum.html#a35212700ef2a2ac290a6666e2993a192", null ],
     [ "faceHeatMaps", "structop_1_1_datum.html#ae0c0f33a6b75c7f47e11112dd33f23c1", null ],
     [ "faceKeypoints", "structop_1_1_datum.html#aebd19bf50725a5cd87de1efd96f6ebfe", null ],

@@ -54,6 +54,7 @@ var namespaceop =
     [ "WPoseSaver", "classop_1_1_w_pose_saver.html", "classop_1_1_w_pose_saver" ],
     [ "WUdpSender", "classop_1_1_w_udp_sender.html", "classop_1_1_w_udp_sender" ],
     [ "WVideoSaver", "classop_1_1_w_video_saver.html", "classop_1_1_w_video_saver" ],
+    [ "WVideoSaver3D", "classop_1_1_w_video_saver3_d.html", "classop_1_1_w_video_saver3_d" ],
     [ "FrameDisplayer", "classop_1_1_frame_displayer.html", "classop_1_1_frame_displayer" ],
     [ "Gui", "classop_1_1_gui.html", "classop_1_1_gui" ],
     [ "Gui3D", "classop_1_1_gui3_d.html", "classop_1_1_gui3_d" ],

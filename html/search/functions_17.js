@@ -115,5 +115,6 @@ var searchData=
   ['_7ewscaleandsizeextractor',['~WScaleAndSizeExtractor',['../classop_1_1_w_scale_and_size_extractor.html#afe30e073c4410146e2c8ba8f2752737f',1,'op::WScaleAndSizeExtractor']]],
   ['_7ewudpsender',['~WUdpSender',['../classop_1_1_w_udp_sender.html#a684854618fbd74bce420ed44d867f8cd',1,'op::WUdpSender']]],
   ['_7ewverboseprinter',['~WVerbosePrinter',['../classop_1_1_w_verbose_printer.html#a32ea8ffef9a255ee33d6d56a550706f8',1,'op::WVerbosePrinter']]],
-  ['_7ewvideosaver',['~WVideoSaver',['../classop_1_1_w_video_saver.html#ac0057c1bbfb3e193c891f167d56fcbab',1,'op::WVideoSaver']]]
+  ['_7ewvideosaver',['~WVideoSaver',['../classop_1_1_w_video_saver.html#ac0057c1bbfb3e193c891f167d56fcbab',1,'op::WVideoSaver']]],
+  ['_7ewvideosaver3d',['~WVideoSaver3D',['../classop_1_1_w_video_saver3_d.html#a39482b591eafa150fee3db7027ae093f',1,'op::WVideoSaver3D']]]
 ];

@@ -259,6 +259,10 @@ Functions</h2></td></tr>
 <tr class="separator:a2473e551c10d8627471382b70fbb838e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba34d451bc7a9409cdb246e1d945b451"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#aba34d451bc7a9409cdb246e1d945b451">DEFINE_double</a> (write_video_fps,-1.,&quot;Frame rate for the recorded video. By default, it will try to get the input frames producer&quot;&quot; frame rate (e.g., input video or webcam frame rate). If the input frames producer does not&quot;&quot; have a set FPS (e.g., image_dir or webcam if OpenCV not compiled with its support), set&quot;&quot; this value accordingly (e.g., to the frame rate displayed by the OpenPose GUI).&quot;)</td></tr>
 <tr class="separator:aba34d451bc7a9409cdb246e1d945b451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd050c5cca77d3123bbf56064d0d7d9c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#acd050c5cca77d3123bbf56064d0d7d9c">DEFINE_string</a> (write_video_3d,&quot;&quot;,&quot;Analogous to `--write_video`, but applied to the 3D output.&quot;)</td></tr>
+<tr class="separator:acd050c5cca77d3123bbf56064d0d7d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a185ab92813bb7188e013f16e75225ec3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a185ab92813bb7188e013f16e75225ec3">DEFINE_string</a> (write_video_adam,&quot;&quot;,&quot;Experimental, not available yet. Analogous to `--write_video`, but applied to Adam model.&quot;)</td></tr>
+<tr class="separator:a185ab92813bb7188e013f16e75225ec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9aa48b2ab293842bc42b96df9e97c9b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a9aa48b2ab293842bc42b96df9e97c9b8">DEFINE_string</a> (write_json,&quot;&quot;,&quot;Directory to write OpenPose output in JSON format. It includes body, hand, and face pose&quot;&quot; keypoints (2-D and 3-D), as well as pose candidates (if `--part_candidates` enabled).&quot;)</td></tr>
 <tr class="separator:a9aa48b2ab293842bc42b96df9e97c9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26d1c7340fc87d4593dda754d54145a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a26d1c7340fc87d4593dda754d54145a2">DEFINE_string</a> (write_coco_json,&quot;&quot;,&quot;Full file path to write people pose data with JSON COCO validation format.&quot;)</td></tr>
@@ -275,8 +279,6 @@ Functions</h2></td></tr>
 <tr class="separator:ad8c5173beb83c0f9996362b3a3fba820"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5aaba99bdb163516d0297d2e09dd0c7d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a5aaba99bdb163516d0297d2e09dd0c7d">DEFINE_string</a> (write_keypoint_format,&quot;yml&quot;,&quot;(Deprecated, use `write_json`) File extension and format for `write_keypoint`: json, xml,&quot;&quot; yaml &amp; yml. Json not available for OpenCV &lt; 3.0, use `write_json` instead.&quot;)</td></tr>
 <tr class="separator:a5aaba99bdb163516d0297d2e09dd0c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26f9e4bae967b528e221c40d21cad543"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a26f9e4bae967b528e221c40d21cad543">DEFINE_string</a> (write_video_adam,&quot;&quot;,&quot;Experimental, not available yet. E.g., `~/Desktop/adamResult.avi`. Flag `write_video_fps`&quot;&quot; controls FPS.&quot;)</td></tr>
-<tr class="separator:a26f9e4bae967b528e221c40d21cad543"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72c09e09c94b67f88b53e1a94e7bfe0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a72c09e09c94b67f88b53e1a94e7bfe0f">DEFINE_string</a> (write_bvh,&quot;&quot;,&quot;Experimental, not available yet. E.g., `~/Desktop/mocapResult.bvh`.&quot;)</td></tr>
 <tr class="separator:a72c09e09c94b67f88b53e1a94e7bfe0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63936bd2bc53a453ba74066289ab9d29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="flags_8hpp.html#a63936bd2bc53a453ba74066289ab9d29">DEFINE_string</a> (udp_host,&quot;&quot;,&quot;Experimental, not available yet. IP for UDP communication. E.g., `192.168.0.1`.&quot;)</td></tr>
@@ -3107,6 +3109,88 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="acd050c5cca77d3123bbf56064d0d7d9c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DEFINE_string </td>
+          <td>(</td>
+          <td class="paramtype">write_video_3d&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;&quot;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;Analogous to `--write_video`&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">but applied to the 3D output.&quot;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a185ab92813bb7188e013f16e75225ec3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DEFINE_string </td>
+          <td>(</td>
+          <td class="paramtype">write_video_adam&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;&quot;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;&#160;</td>
+          <td class="paramname"><em>Experimental</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">not available yet.Analogous to`--write_video`&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">but applied to Adam model.&quot;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a9aa48b2ab293842bc42b96df9e97c9b8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3355,50 +3439,6 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">xml&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a26f9e4bae967b528e221c40d21cad543"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DEFINE_string </td>
-          <td>(</td>
-          <td class="paramtype">write_video_adam&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&quot;&quot;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&quot;&#160;</td>
-          <td class="paramname"><em>Experimental</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">not available yet.E.&#160;</td>
-          <td class="paramname"><em>g.</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">`~/Desktop/adamResult.avi`.Flag`write_video_fps`&quot;&quot;controls FPS.&quot;&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

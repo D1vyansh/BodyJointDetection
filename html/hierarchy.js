@@ -177,7 +177,8 @@ var hierarchy =
         [ "op::WPeopleJsonSaver< TDatums >", "classop_1_1_w_people_json_saver.html", null ],
         [ "op::WPoseSaver< TDatums >", "classop_1_1_w_pose_saver.html", null ],
         [ "op::WUdpSender< TDatums >", "classop_1_1_w_udp_sender.html", null ],
-        [ "op::WVideoSaver< TDatums >", "classop_1_1_w_video_saver.html", null ]
+        [ "op::WVideoSaver< TDatums >", "classop_1_1_w_video_saver.html", null ],
+        [ "op::WVideoSaver3D< TDatums >", "classop_1_1_w_video_saver3_d.html", null ]
       ] ],
       [ "op::WorkerProducer< TDatums >", "classop_1_1_worker_producer.html", [
         [ "op::WDatumProducer< TDatums, TDatumsNoPtr >", "classop_1_1_w_datum_producer.html", null ]

@@ -40,5 +40,6 @@ var dir_da8f0331eb5f441599a7c56ee4b45b7a =
     [ "wPeopleJsonSaver.hpp", "w_people_json_saver_8hpp.html", "w_people_json_saver_8hpp" ],
     [ "wPoseSaver.hpp", "w_pose_saver_8hpp.html", "w_pose_saver_8hpp" ],
     [ "wUdpSender.hpp", "w_udp_sender_8hpp.html", "w_udp_sender_8hpp" ],
-    [ "wVideoSaver.hpp", "w_video_saver_8hpp.html", "w_video_saver_8hpp" ]
+    [ "wVideoSaver.hpp", "w_video_saver_8hpp.html", "w_video_saver_8hpp" ],
+    [ "wVideoSaver3D.hpp", "w_video_saver3_d_8hpp.html", "w_video_saver3_d_8hpp" ]
 ];

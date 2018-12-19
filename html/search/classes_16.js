@@ -60,5 +60,6 @@ var searchData=
   ['wscaleandsizeextractor',['WScaleAndSizeExtractor',['../classop_1_1_w_scale_and_size_extractor.html',1,'op']]],
   ['wudpsender',['WUdpSender',['../classop_1_1_w_udp_sender.html',1,'op']]],
   ['wverboseprinter',['WVerbosePrinter',['../classop_1_1_w_verbose_printer.html',1,'op']]],
-  ['wvideosaver',['WVideoSaver',['../classop_1_1_w_video_saver.html',1,'op']]]
+  ['wvideosaver',['WVideoSaver',['../classop_1_1_w_video_saver.html',1,'op']]],
+  ['wvideosaver3d',['WVideoSaver3D',['../classop_1_1_w_video_saver3_d.html',1,'op']]]
 ];
