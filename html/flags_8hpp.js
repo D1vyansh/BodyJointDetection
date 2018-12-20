@@ -21,7 +21,7 @@ var flags_8hpp =
     [ "DEFINE_bool", "flags_8hpp.html#a231bec7b2113f31cebb760c849ca2841", null ],
     [ "DEFINE_bool", "flags_8hpp.html#a0ee4f86d572ef52ec26dcbb37efb5e65", null ],
     [ "DEFINE_double", "flags_8hpp.html#a320155394ec7dc55029373d79fd12ca5", null ],
-    [ "DEFINE_double", "flags_8hpp.html#adf35e9261afec1673a42de6197f07f42", null ],
+    [ "DEFINE_double", "flags_8hpp.html#ad4f694abe15c709a38d761897178410c", null ],
     [ "DEFINE_double", "flags_8hpp.html#abf5c8a05ae8f86c8e4d8eedbceb84516", null ],
     [ "DEFINE_double", "flags_8hpp.html#a3a00f877d52f489ed93fb0db8cb8e4dc", null ],
     [ "DEFINE_double", "flags_8hpp.html#ad971ae1068651177e7a78ae68c022792", null ],
