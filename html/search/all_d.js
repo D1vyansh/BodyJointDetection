@@ -22,7 +22,7 @@ var searchData=
   ['nmscaffe_2ehpp',['nmsCaffe.hpp',['../nms_caffe_8hpp.html',1,'']]],
   ['nmscpu',['nmsCpu',['../namespaceop.html#a6a97f255cc323f1c1babe4c598727196',1,'op']]],
   ['nmsgpu',['nmsGpu',['../namespaceop.html#a28c5ac530845231600fb93c0be44ad6d',1,'op']]],
-  ['nmsocl',['nmsOcl',['../namespaceop.html#aef71b598fa3bdac80e597c1680e66cdd',1,'op']]],
+  ['nmsocl',['nmsOcl',['../namespaceop.html#a37dce2abad2568d7664654e4598002af',1,'op']]],
   ['nmsthreshold',['NMSThreshold',['../namespaceop.html#a37c58b781e5bcd9fee67a7768afc5d0ea83be5d7f6f29b19cf24f7393551c0439',1,'op']]],
   ['nodisplay',['NoDisplay',['../namespaceop.html#ae52707752b1872b39f0306cc4f6c6ae6a28b652e57d2da6b7c939166be21efd9a',1,'op']]],
   ['nogpu',['NoGpu',['../namespaceop.html#adbb34b5c8f2b6f0c051f831f18582e7fa3c1472839b807c90abff3c7c36dff458',1,'op']]],

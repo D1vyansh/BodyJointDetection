@@ -704,6 +704,9 @@ int, 4 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a3f1215716c0918e89eb1eb7c0e823545"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a3f1215716c0918e89eb1eb7c0e823545"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a3f1215716c0918e89eb1eb7c0e823545">connectBodyPartsGpu</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores, const T *const heatMapGpuPtr, const T *const peaksPtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const int maxPeaks, const T interMinAboveThreshold, const T interThreshold, const int minSubsetCnt, const T minSubsetScore, const T scaleFactor=1.f, const bool maximizePositives=false, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; pairScoresCpu=<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt;{}, T *pairScoresGpuPtr=nullptr, const unsigned int *const bodyPartPairsGpuPtr=nullptr, const unsigned int *const mapIdxGpuPtr=nullptr, const T *const peaksGpuPtr=nullptr)</td></tr>
 <tr class="separator:a3f1215716c0918e89eb1eb7c0e823545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae160a01bd5e82edcb2170965548669dd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ae160a01bd5e82edcb2170965548669dd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#ae160a01bd5e82edcb2170965548669dd">connectBodyPartsOcl</a> (<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores, const T *const heatMapGpuPtr, const T *const peaksPtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const int maxPeaks, const T interMinAboveThreshold, const T interThreshold, const int minSubsetCnt, const T minSubsetScore, const T scaleFactor=1.f, const bool maximizePositives=false, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; pairScoresCpu=<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt;{}, T *pairScoresGpuPtr=nullptr, const unsigned int *const bodyPartPairsGpuPtr=nullptr, const unsigned int *const mapIdxGpuPtr=nullptr, const T *const peaksGpuPtr=nullptr, const int gpuID=0)</td></tr>
+<tr class="separator:ae160a01bd5e82edcb2170965548669dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9cb91cf03ed561a31b9f4c950926731"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ae9cb91cf03ed561a31b9f4c950926731"><td class="memTemplItemLeft" align="right" valign="top">std::vector&lt; std::pair<br class="typebreak"/>
 &lt; std::vector&lt; int &gt;, T &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#ae9cb91cf03ed561a31b9f4c950926731">createPeopleVector</a> (const T *const heatMapPtr, const T *const peaksPtr, const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; int &gt; &amp;heatMapSize, const int maxPeaks, const T interThreshold, const T interMinAboveThreshold, const std::vector&lt; unsigned int &gt; &amp;bodyPartPairs, const unsigned int numberBodyParts, const unsigned int numberBodyPartPairs, const <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;precomputedPAFs=<a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt;())</td></tr>
@@ -734,9 +737,9 @@ int, int, int &gt; &gt;&#160;</td><td class="memTemplItemRight" valign="bottom">
 <tr class="memitem:a28c5ac530845231600fb93c0be44ad6d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a28c5ac530845231600fb93c0be44ad6d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a28c5ac530845231600fb93c0be44ad6d">nmsGpu</a> (T *targetPtr, int *kernelPtr, const T *const sourcePtr, const T threshold, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; T &gt; &amp;offset)</td></tr>
 <tr class="separator:a28c5ac530845231600fb93c0be44ad6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef71b598fa3bdac80e597c1680e66cdd"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aef71b598fa3bdac80e597c1680e66cdd"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#aef71b598fa3bdac80e597c1680e66cdd">nmsOcl</a> (T *targetPtr, int *kernelPtr, const T *const sourcePtr, const T threshold, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; T &gt; &amp;offset, const int gpuID=0)</td></tr>
-<tr class="separator:aef71b598fa3bdac80e597c1680e66cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37dce2abad2568d7664654e4598002af"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a37dce2abad2568d7664654e4598002af"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#a37dce2abad2568d7664654e4598002af">nmsOcl</a> (T *targetPtr, uint8_t *kernelGpuPtr, uint8_t *kernelCpuPtr, const T *const sourcePtr, const T threshold, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::array&lt; int, 4 &gt; &amp;sourceSize, const <a class="el" href="structop_1_1_point.html">Point</a>&lt; T &gt; &amp;offset, const int gpuID=0)</td></tr>
+<tr class="separator:a37dce2abad2568d7664654e4598002af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb8ffc1a6a2cc2949d80d8e8ad4e2190"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:adb8ffc1a6a2cc2949d80d8e8ad4e2190"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceop.html#adb8ffc1a6a2cc2949d80d8e8ad4e2190">resizeAndMergeCpu</a> (T *targetPtr, const std::vector&lt; const T * &gt; &amp;sourcePtrs, const std::array&lt; int, 4 &gt; &amp;targetSize, const std::vector&lt; std::array&lt; int, 4 &gt;&gt; &amp;sourceSizes, const std::vector&lt; T &gt; &amp;scaleInputToNetInputs={1.f})</td></tr>
 <tr class="separator:adb8ffc1a6a2cc2949d80d8e8ad4e2190"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2322,6 +2325,22 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a674a652ad38b355285417529fc050847"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
+          <td>(</td>
+          <td class="paramtype">WPersonIdExtractor&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a5cc3f625b2644b1aade85a9458b5503a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2386,22 +2405,6 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a767385c8d3ebe736e1752825ab4d4ea0"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
-          <td>(</td>
-          <td class="paramtype">WHandDetectorFromTxt&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a1d9f50688522ed7368acc33a09ae9ece"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2418,14 +2421,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a361310c59d16e88a4d2450a80f078f01"></a>
+<a class="anchor" id="a767385c8d3ebe736e1752825ab4d4ea0"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WHandDetectorTracking&#160;</td>
+          <td class="paramtype">WHandDetectorFromTxt&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -2434,14 +2437,14 @@ template&lt;typename TPointerContainer &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a674a652ad38b355285417529fc050847"></a>
+<a class="anchor" id="a361310c59d16e88a4d2450a80f078f01"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">op::COMPILE_TEMPLATE_DATUM </td>
           <td>(</td>
-          <td class="paramtype">WPersonIdExtractor&#160;</td>
+          <td class="paramtype">WHandDetectorTracking&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -3290,6 +3293,136 @@ template&lt;typename T &gt; </div>
           <td></td>
           <td class="paramtype">const T *const&#160;</td>
           <td class="paramname"><em>peaksGpuPtr</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae160a01bd5e82edcb2170965548669dd"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void op::connectBodyPartsOcl </td>
+          <td>(</td>
+          <td class="paramtype">Array&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseKeypoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Array&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseScores</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T *const&#160;</td>
+          <td class="paramname"><em>heatMapGpuPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T *const&#160;</td>
+          <td class="paramname"><em>peaksPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const PoseModel&#160;</td>
+          <td class="paramname"><em>poseModel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Point&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>heatMapSize</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>maxPeaks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>interMinAboveThreshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>interThreshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>minSubsetCnt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>minSubsetScore</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T&#160;</td>
+          <td class="paramname"><em>scaleFactor</em> = <code>1.f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>maximizePositives</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Array&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>pairScoresCpu</em> = <code>Array&lt;&#160;T&#160;&gt;{}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>pairScoresGpuPtr</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int *const&#160;</td>
+          <td class="paramname"><em>bodyPartPairsGpuPtr</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const unsigned int *const&#160;</td>
+          <td class="paramname"><em>mapIdxGpuPtr</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T *const&#160;</td>
+          <td class="paramname"><em>peaksGpuPtr</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>gpuID</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -5916,7 +6049,7 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="aef71b598fa3bdac80e597c1680e66cdd"></a>
+<a class="anchor" id="a37dce2abad2568d7664654e4598002af"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -5931,8 +6064,14 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>kernelPtr</em>, </td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>kernelGpuPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>kernelCpuPtr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>

@@ -40,16 +40,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "3d_2headers_8hpp.html",
-"classcl_1_1_enqueue_args.html#a11a7b173e00d55ee2c58fed3d9ecd3d8",
-"classcl_1_1_sampler.html#aa7ad8b1a123d7878438200591a9ecb47",
-"classop_1_1_hand_detector_from_txt.html#a1e6ba23fa1486e92a3bdca36b2e86d22",
-"classop_1_1_queue.html#a056600a7cf4503235ba4e172cee63a7f",
-"classop_1_1_w_hand_detector_update.html#a729aaa628e4f4c24e7cb9afca1cdc761",
-"face_detector_8hpp.html",
-"gpu_2enum_classes_8hpp.html",
-"pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0ea6f6cb72d544962fa333e2e34ce64f719",
-"structop_1_1_datum.html#a65deddd49d0fbca81f367198fc600015",
-"w_datum_producer_8hpp.html"
+"classcl_1_1_enqueue_args.html#a0f4cf6909b0da18bb8328fd2417a6099",
+"classcl_1_1_sampler.html#aa32c71d59ca20e83fc283273d0b102cd",
+"classop_1_1_hand_detector.html#ae70826e6de6a8f26c240d0152578375e",
+"classop_1_1_profiler.html",
+"classop_1_1_w_hand_detector_update.html",
+"face_cpu_renderer_8hpp.html",
+"globals_func.html",
+"pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0ea04576b26f5dc3637bf3c8168fba1641d",
+"structop_1_1_datum.html#a59d455dbddc50d700809c5e102c40d4e",
+"w_cv_mat_to_op_output_8hpp.html#a6d12bd1e42cfb63d2f780bed55fa01fb"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

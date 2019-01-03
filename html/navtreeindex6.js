@@ -1,5 +1,7 @@
 var NAVTREEINDEX6 =
 {
+"face_cpu_renderer_8hpp.html":[2,0,0,0,3,0],
+"face_cpu_renderer_8hpp_source.html":[2,0,0,0,3,0],
 "face_detector_8hpp.html":[2,0,0,0,3,1],
 "face_detector_8hpp_source.html":[2,0,0,0,3,1],
 "face_detector_open_c_v_8hpp.html":[2,0,0,0,3,2],
@@ -190,8 +192,8 @@ var NAVTREEINDEX6 =
 "flir_reader_8hpp_source.html":[2,0,0,0,10,2],
 "frame_displayer_8hpp.html":[2,0,0,0,6,1],
 "frame_displayer_8hpp_source.html":[2,0,0,0,6,1],
-"functions.html":[1,3,0,0],
 "functions.html":[1,3,0],
+"functions.html":[1,3,0,0],
 "functions_b.html":[1,3,0,1],
 "functions_c.html":[1,3,0,2],
 "functions_d.html":[1,3,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "functions_y.html":[1,3,0,24],
 "functions_~.html":[1,3,0,25],
 "globals.html":[2,1,0],
-"globals_defs.html":[2,1,3],
-"globals_func.html":[2,1,1],
-"globals_vars.html":[2,1,2]
+"globals_defs.html":[2,1,3]
 };

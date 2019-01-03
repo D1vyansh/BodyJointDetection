@@ -7,5 +7,5 @@ var searchData=
   ['nmscaffe',['NmsCaffe',['../classop_1_1_nms_caffe.html#afb808d9a264ce50664f8641e477d9e2d',1,'op::NmsCaffe']]],
   ['nmscpu',['nmsCpu',['../namespaceop.html#a6a97f255cc323f1c1babe4c598727196',1,'op']]],
   ['nmsgpu',['nmsGpu',['../namespaceop.html#a28c5ac530845231600fb93c0be44ad6d',1,'op']]],
-  ['nmsocl',['nmsOcl',['../namespaceop.html#aef71b598fa3bdac80e597c1680e66cdd',1,'op']]]
+  ['nmsocl',['nmsOcl',['../namespaceop.html#a37dce2abad2568d7664654e4598002af',1,'op']]]
 ];

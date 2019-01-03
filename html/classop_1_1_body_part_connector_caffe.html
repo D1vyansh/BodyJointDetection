@@ -121,8 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a94e2364fa13ea79b2d6fd72c5db34765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0beade5f7d8e56e881231e46f9306ec"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#ab0beade5f7d8e56e881231e46f9306ec">~BodyPartConnectorCaffe</a> ()</td></tr>
 <tr class="separator:ab0beade5f7d8e56e881231e46f9306ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54918b6b114568d7bafe26319e96d644"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#a54918b6b114568d7bafe26319e96d644">Reshape</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom)</td></tr>
-<tr class="separator:a54918b6b114568d7bafe26319e96d644"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8394dde3310c41544f19d61dde8a2cd8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#a8394dde3310c41544f19d61dde8a2cd8">Reshape</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom, const int gpuID=0)</td></tr>
+<tr class="separator:a8394dde3310c41544f19d61dde8a2cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fa59ad0cad1b95721663815ca51ff93"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#a2fa59ad0cad1b95721663815ca51ff93">type</a> () const </td></tr>
 <tr class="separator:a2fa59ad0cad1b95721663815ca51ff93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a104744fdab14d4c1335eb8778edea21e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#a104744fdab14d4c1335eb8778edea21e">setPoseModel</a> (const <a class="el" href="namespaceop.html#af5b3ce2a5d3de87cb31b9b67e96f261f">PoseModel</a> poseModel)</td></tr>
@@ -145,6 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a886f7dc30e999b7fa8488ae95cc3ac8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affde8d06784ca9896a1d2d62f7088d76"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#affde8d06784ca9896a1d2d62f7088d76">Forward_gpu</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores)</td></tr>
 <tr class="separator:affde8d06784ca9896a1d2d62f7088d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af54b769a140466910f2b95aefa6120f0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#af54b769a140466910f2b95aefa6120f0">Forward_ocl</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseKeypoints, <a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;poseScores)</td></tr>
+<tr class="separator:af54b769a140466910f2b95aefa6120f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b70616dc1b45f4a3c2b10308e45b5ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#a8b70616dc1b45f4a3c2b10308e45b5ce">Backward_cpu</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;top, const std::vector&lt; bool &gt; &amp;propagate_down, const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom)</td></tr>
 <tr class="separator:a8b70616dc1b45f4a3c2b10308e45b5ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a42a1d04cbca147da6e9392fdc73327"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classop_1_1_body_part_connector_caffe.html#a4a42a1d04cbca147da6e9392fdc73327">Backward_gpu</a> (const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;top, const std::vector&lt; bool &gt; &amp;propagate_down, const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;bottom)</td></tr>
@@ -412,7 +414,49 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a54918b6b114568d7bafe26319e96d644"></a>
+<a class="anchor" id="af54b769a140466910f2b95aefa6120f0"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="classop_1_1_body_part_connector_caffe.html">op::BodyPartConnectorCaffe</a>&lt; T &gt;::Forward_ocl </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;&#160;</td>
+          <td class="paramname"><em>bottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseKeypoints</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classop_1_1_array.html">Array</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>poseScores</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8394dde3310c41544f19d61dde8a2cd8"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -425,8 +469,18 @@ template&lt;typename T &gt; </div>
           <td class="memname">virtual void <a class="el" href="classop_1_1_body_part_connector_caffe.html">op::BodyPartConnectorCaffe</a>&lt; T &gt;::Reshape </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; <a class="el" href="classcaffe_1_1_blob.html">caffe::Blob</a>&lt; T &gt; * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>bottom</em></td><td>)</td>
+          <td class="paramname"><em>bottom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>gpuID</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>

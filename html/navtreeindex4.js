@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"classop_1_1_profiler.html":[1,0,3,125],
+"classop_1_1_queue.html":[1,0,3,102],
 "classop_1_1_queue.html#a056600a7cf4503235ba4e172cee63a7f":[1,0,3,102,1],
 "classop_1_1_queue.html#ab28fa9f713d05e55e5ba1510b34d57f0":[1,0,3,102,2],
 "classop_1_1_queue.html#ae2b845322940bfc89b6342137d8ac372":[1,0,3,102,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "classop_1_1_w_hand_detector_tracking.html#a20ef6206194a873c2cfa7fe13d905d92":[1,0,3,71,2],
 "classop_1_1_w_hand_detector_tracking.html#a7c849c5a423ffc150c6a4aee9055d34e":[1,0,3,71,3],
 "classop_1_1_w_hand_detector_tracking.html#a7d884dfd00822de27742a2392fb210bb":[1,0,3,71,1],
-"classop_1_1_w_hand_detector_tracking.html#ad2a5ac720f4ed651f4cf5e42d21c05dd":[1,0,3,71,0],
-"classop_1_1_w_hand_detector_update.html":[1,0,3,72],
-"classop_1_1_w_hand_detector_update.html#a29d71b3c1ee52f04bd52b932db350b59":[1,0,3,72,1]
+"classop_1_1_w_hand_detector_tracking.html#ad2a5ac720f4ed651f4cf5e42d21c05dd":[1,0,3,71,0]
 };

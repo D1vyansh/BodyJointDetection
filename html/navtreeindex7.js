@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"globals_func.html":[2,1,1],
+"globals_vars.html":[2,1,2],
 "gpu_2enum_classes_8hpp.html":[2,0,0,0,5,2],
 "gpu_2enum_classes_8hpp.html#adbb34b5c8f2b6f0c051f831f18582e7f":[2,0,0,0,5,2,0],
 "gpu_2enum_classes_8hpp.html#adbb34b5c8f2b6f0c051f831f18582e7fa3c1472839b807c90abff3c7c36dff458":[2,0,0,0,5,2,0,2],
@@ -151,8 +153,8 @@ var NAVTREEINDEX7 =
 "namespacecl_1_1compatibility.html":[0,0,2,0],
 "namespacecl_1_1detail.html":[0,0,2,1],
 "namespacecl_1_1detail.html":[1,0,2,1],
-"namespacemembers.html":[0,1,0],
 "namespacemembers.html":[0,1,0,0],
+"namespacemembers.html":[0,1,0],
 "namespacemembers_b.html":[0,1,0,1],
 "namespacemembers_c.html":[0,1,0,2],
 "namespacemembers_d.html":[0,1,0,3],
@@ -219,8 +221,8 @@ var NAVTREEINDEX7 =
 "net_open_cv_8hpp_source.html":[2,0,0,0,8,7],
 "nms_base_8hpp.html":[2,0,0,0,8,8],
 "nms_base_8hpp.html#a28c5ac530845231600fb93c0be44ad6d":[2,0,0,0,8,8,1],
+"nms_base_8hpp.html#a37dce2abad2568d7664654e4598002af":[2,0,0,0,8,8,2],
 "nms_base_8hpp.html#a6a97f255cc323f1c1babe4c598727196":[2,0,0,0,8,8,0],
-"nms_base_8hpp.html#aef71b598fa3bdac80e597c1680e66cdd":[2,0,0,0,8,8,2],
 "nms_base_8hpp_source.html":[2,0,0,0,8,8],
 "nms_caffe_8hpp.html":[2,0,0,0,8,9],
 "nms_caffe_8hpp_source.html":[2,0,0,0,8,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "pointer_container_8hpp.html#a02164ca0af9e838190f584f5d1d8465e":[2,0,0,0,13,9,2],
 "pointer_container_8hpp_source.html":[2,0,0,0,13,9],
 "pose_2enum_classes_8hpp.html":[2,0,0,0,9,0],
-"pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0e":[2,0,0,0,9,0,1],
-"pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0ea04576b26f5dc3637bf3c8168fba1641d":[2,0,0,0,9,0,1,4],
-"pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0ea240f10f3a39507d858c743971fd4298f":[2,0,0,0,9,0,1,2]
+"pose_2enum_classes_8hpp.html#a37c58b781e5bcd9fee67a7768afc5d0e":[2,0,0,0,9,0,1]
 };

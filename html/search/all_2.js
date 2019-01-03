@@ -78,6 +78,7 @@ var searchData=
   ['configurethreadmanager',['configureThreadManager',['../namespaceop.html#a9e480881d596dc0b93671281b28b356d',1,'op']]],
   ['connectbodypartscpu',['connectBodyPartsCpu',['../namespaceop.html#a4bf1d1a0ea27d26d2dc68f17e9f62dfe',1,'op']]],
   ['connectbodypartsgpu',['connectBodyPartsGpu',['../namespaceop.html#a3f1215716c0918e89eb1eb7c0e823545',1,'op']]],
+  ['connectbodypartsocl',['connectBodyPartsOcl',['../namespaceop.html#ae160a01bd5e82edcb2170965548669dd',1,'op']]],
   ['connectinterminabovethreshold',['ConnectInterMinAboveThreshold',['../namespaceop.html#a37c58b781e5bcd9fee67a7768afc5d0eaf7405796a5c90a93fc3c8ffa89eb432d',1,'op']]],
   ['connectinterthreshold',['ConnectInterThreshold',['../namespaceop.html#a37c58b781e5bcd9fee67a7768afc5d0ea240f10f3a39507d858c743971fd4298f',1,'op']]],
   ['connectminsubsetcnt',['ConnectMinSubsetCnt',['../namespaceop.html#a37c58b781e5bcd9fee67a7768afc5d0ea7bf312724768faebba41ca3585a91f19',1,'op']]],
