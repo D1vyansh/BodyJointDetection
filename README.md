@@ -1,5 +1,5 @@
 <div align="center">
-    <img src=".github/Openpose_main.png", width="300">
+    <img src=".github/Openpose_main.png", width="540">
 </div>
 
 -----------------
@@ -55,7 +55,7 @@ It is a **bottom-up approach** therefore, it ﬁrst detects the keypoints belong
 ## Results
 ### Multiple Body and Foot Estimation
 <p align="center">
-    <img src=".github/Openpose_demo1.png", width="360">
+    <img src=".github/Openpose_demo1.png", width="540">
     <br>
     <sup>Testing the multi-person body joint estimation with OpenPose</sup>
 </p>
