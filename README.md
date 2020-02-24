@@ -20,7 +20,7 @@ It is a **bottom-up approach** therefore, it ﬁrst detects the keypoints belong
 <p align="center">
     <img src=".github/Openpose_demo.png", width="480">
     <br>
-    <sup>Authors <a href="https://www.gineshidalgo.com" target="_blank">Gines Hidalgo</a> (left) and <a href="https://jhugestar.github.io" target="_blank">Hanbyul Joo</a> (right) in front of the <a href="http://domedb.perception.cs.cmu.edu" target="_blank">CMU Panoptic Studio</a></sup>
+    <sup><a href="https://github.com/D1vyansh/BodyJointDetection" target="_blank">Divyansh Gupta</a> on a trek of Kedartal #16000 feet</sup>
 </p>
 
 ## Features
@@ -57,7 +57,7 @@ It is a **bottom-up approach** therefore, it ﬁrst detects the keypoints belong
 <p align="center">
     <img src=".github/Openpose_demo1.png", width="360">
     <br>
-    <sup>Testing the <a href="https://www.youtube.com/watch?v=2DiQUX11YaY" target="_blank"><i>Crazy Uptown Funk flashmob in Sydney</i></a> video sequence with OpenPose</sup>
+    <sup>Testing the multi-person body joint estimation with OpenPose</sup>
 </p>
 
 ### 3-D Reconstruction Module (Body, Foot, Face, and Hands)
