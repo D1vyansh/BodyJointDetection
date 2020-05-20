@@ -1,5 +1,5 @@
 <div align="center">
-    <img src=".github/Openpose_main.png", width="540">
+    <img src=".github/Image2DRGB.png", width="540">
 </div>
 
 -----------------
@@ -15,6 +15,12 @@ It is a **bottom-up approach** therefore, it ﬁrst detects the keypoints belong
 
 
 <!-- The [original CVPR 2017 repo](https://github.com/ZheC/Multi-Person-Pose-Estimation) includes Matlab and Python versions, as well as the training code. The body pose estimation work is based on [the original ECCV 2016 demo](https://github.com/CMU-Perceptual-Computing-Lab/caffe_rtpose). -->
+
+<p align="center">
+    <img src=".github/PAFSexplained.PNG", width="680">
+    <br>
+    <sup><a href="https://github.com/D1vyansh/BodyJointDetection" target="_blank"></a>PAFs results</sup>
+</p>
 
 
 <p align="center">
